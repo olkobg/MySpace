@@ -1,0 +1,2 @@
+[	encode multiple files	]
+find . -name "*.php" -exec recode UTF-8..latin1 {} \; 

@@ -1,0 +1,36 @@
+// small X_HTML documnetation use for any reasons.
+[	Redirecting:	]
+	Used for redirecting:
+	<meta http-equiv="refresh" content="N; URL=other-web-address">
+
+[	Shortcut	]
+	
+	To put the favicon on your site,indicate its path via the link tags found in the header.
+	Here's an example with a png image:
+
+	<link rel="icon" type="image/png" href="/images/myfavicon.png" />
+	
+	Depending on the format, the attribute "type" change:
+	    * Png: image/png
+	    * Gif format: image/gif
+	    * Jpeg format (jpeg or jpg extension): image/jpeg 
+	
+	And if you have a favicon that do not meet the standards, the attribute "rel" change also:
+	<link rel="shortcut icon" type="image/x-icon" href="/images/icon_ie.ico" />
+	
+	If your icon is animated (GIF)
+	Insert the following tag:
+	<link rel="icon" href="/images/animated_favicon1.gif" type="image/gif">
+ 
+  ------------------------------------------------------------------------------	
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" type="image/ico" href="favicon.ico">
+	
+	
+	<link rel="shortcut icon" href="favicon.ico"> <link rel="shortcut icon" href="favico.gif">
+	
+	links
+		-	http://www.html-kit.com/favicon/
+
+________________________________________________________________________________
+													cReated bY fRiends c0rp.

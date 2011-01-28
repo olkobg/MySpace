@@ -1,0 +1,31 @@
+// This file givs a brief intro and explanation to design and create software 
+// priciples.   B) eNjoy.
+
+[	main points	]
+
+	-	Individuals and Ineractions over processes and tools.
+	-	Working software over comprehensive documentation
+	-	Customer collaboration over contract negotiation.
+	-	Responding ti chsnge over following a plan.
+
+
+
+[	rules	]
+	-	Produce no document unless its need is immediate and significant.
+
+[	Agile principles	]
+
+	-	The Single-Responsibility Principle (SRP)
+		A class should have only one reason to change.
+
+	-	The Open/Closed Principle (OCP)
+		Software entities (classes, modules, functions, etc.) should be open for
+		extension but closed for modification.
+
+	-	The Liskov Substitution Principle (LSP)
+	
+	-	The dipency inversion Principle (DIP)
+
+	-	The Interface Segregation Principle (SIP)
+________________________________________________________________________________
+							cReadred bY fRiends c0rp. nAr(c)

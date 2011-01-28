@@ -1,0 +1,85 @@
+// this file used to store short info about php 
+
+[   OOP   ]
+
+  -	Magic functions
+    // php 5
+    __construct() - initilaized when object are created(constructor).
+    __destruct() - destructor for object used to close resources opened by object
+    __clone() - function to copy the object
+    __get - used for handling getting of class undeclared varibales
+    __set - used for handling setting of class undeclared varibales
+    __call() - used for calling undeclared methods.
+    __autoload - used for loading undeclared classes. For handlong loading processes.
+    
+  
+    // php 4 
+    <name of class> - (constructor)
+
+  -	Static methods
+    
+    1.	To call static method or varibale use ClassName::Varibale or 
+      ClassName::$counter
+    2.	Inside static methods you cant use variable $this
+    3.	varibale $self used to have access to the static varibales and methods
+      of the class.
+      
+  
+  -	Inheritance
+    
+    1. 	To inherint class use keyword "extends"
+    2.	Constructor for parent class you should call manualy. like : 
+      parent::__construct();
+      keyword "parent" replaced by the name of parent class by interpreter.
+    3. 	PHP support interfaces it uses them by keyword "implements" you may use
+      as much interfaces as you want.	
+
+[	HTML friendship   ]
+  -	To use array when multichoose checked in the option tag
+    use  
+      <select name="var[]" multiple="yes">
+    instead of 
+      <select name="var" multiple="yes">
+  -	To set up the array to pass to the php use 
+      <input name="MyArray[]"
+    or 
+      <input name="MyArray[var1][var2]"
+  -	when use itt with thr JavaScript lnaguage use next feature ti pass varibales.
+      <script language='javascript'>\n";
+        documnet.write(${_SERVER['SCRIPT_NAME']});
+      </script>
+    to pas varibale insude the Javascript
+    
+[	interpretter parameters   ]	
+
+  -	type-checking/type-hinting
+  -	
+
+[	Error	]
+// possible error fixing.
+  E1.	unknown symbols in borwser output view
+  R1. check the encoding off documents if utf8 there possible an errors. But if 
+    ANSI everything ok.
+    // Note sometimes we should use UTF-8 with BOM.
+    php.ini contents
+    default_charset = "utf-8"
+    
+    my.cnf contents
+    [client]
+    default-character-set=utf8
+    
+    [mysqld]
+    character-set-server=utf8
+    default-character-set=utf8
+    default-collation=utf8_unicode_ci
+    character-set-client = utf8
+    
+    httpd.conf contents
+    AddDefaultCharset UTF-8
+    
+    and the php script itself has this in the first line:
+    header('content-type: text/html; charset: utf-8'); 
+
+
+________________________________________________________________________________
+          cReated bY fRiends c0rp nAr(c)

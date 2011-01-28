@@ -1,0 +1,2 @@
+Editor for SimpleAdmin
+http://tinymce.moxiecode.com/

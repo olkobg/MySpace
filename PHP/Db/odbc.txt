@@ -1,0 +1,67 @@
+// small php-odbc docs. 
+
+[  Connecting to the odbc database w\o DSN    ]
+
+  $conn = odbc_connect ("Driver=Microsoft Access Driver (*.mdb); DBQ=D:\\hst\\site_xxxxxxx\\http\\db.mdb;", "", "");
+  
+
+[	get data from query   ]
+
+  $sql="select * from credit_card";
+  $row=odbc_exec($conn, $sql);
+    while(odbc_fetch_row($row)) {
+      $cardid=odbc_result($row,1);
+      $name=odbc_result($row,2);
+      $type=odbc_result($row,3);
+      $expired=odbc_result($row,4);
+      $card_num =odbc_result($row,5);
+      $credit =odbc_result($row,6);
+      $phone =odbc_result($row,7);
+      $address =odbc_result($row,8);
+      $city =odbc_result($row,9);
+      $state =odbc_result($row,10);
+      $zip =odbc_result($row,11);
+    }  
+
+[  Connecting to an ODBC  ]
+  
+  The odbc_connect() function is used to connect to an ODBC data source. 
+  The function takes four parameters: the data source name, username, password, 
+  and an optional cursor type. 
+  
+  The odbc_exec() function is used to execute an SQL statement. 
+  
+  Ex:
+  The following example creates a connection to a DSN called northwind, 
+  with no username and no password. It then creates an SQL and executes it: 
+  
+    $conn=odbc_connect('northwind','',''); 
+    $sql="SELECT * FROM customers"; 
+    $rs=odbc_exec($conn,$sql); 
+
+
+[     Retrieving Records    ]
+  
+  The odbc_fetch_rows() function is used to return records from the result-set. 
+  This function returns true if it is able to return rows, otherwise false. 
+  
+  The function takes two parameters: the ODBC result identifier and an optional row number: 
+  
+  odbc_fetch_row($rs) 
+
+
+
+[   Retrieving Fields from a Record    ]
+  The odbc_result() function is used to read fields from a record. 
+  This function takes two parameters: the ODBC result identifier and a field number or name. 
+  
+  The code line below returns the value of the first field from the record: 
+  
+    $compname=odbc_result($rs,1); 
+  
+  The code line below returns the value of a field called "CompanyName": 
+  
+    $compname=odbc_result($rs,"CompanyName"); 
+
+________________________________________________________________________________
+                                  fRiends c0rp nAr(c)

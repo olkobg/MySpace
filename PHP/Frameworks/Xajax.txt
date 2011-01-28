@@ -1,0 +1,4 @@
+
+
+[	links	]
+	-	http://knol.google.com/k/ajax-for-php-xajax

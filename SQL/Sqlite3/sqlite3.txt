@@ -1,0 +1,11 @@
+Yet another documentation
+
+simple sql commands 
+
+sqlite>.tables         -- view tables
+sqlite>.exit           --exits sqlite3
+sqlite>.schema people  -- shows schema for table people
+
+
+
+

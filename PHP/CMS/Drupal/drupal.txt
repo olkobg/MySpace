@@ -1,0 +1,31 @@
+ created to document some Drupal usability and configuration.
+ 
+[	Blocks	]
+ 	-	Blocks are used to separate different information on the site.
+ 	
+[	Modules	]
+ 	-	Modules provide to user different functionality. 
+ 	-	
+ 
+[	Nodes	]
+ 	-	Node is a simple part of the Drupal framework
+ 	
+[	Comments	]
+ 	-	
+ 	
+[	Links	]
+	-	http://en.wikipedia.org/wiki/Really_Simple_Syndication
+	
+[	Book	]
+
+
+// Page No: 55 of the book about Drupal and PhpBB
+
+
+
+
+
+
+
+_________________________________________________________________________
+			cReated bY oLko fOr aNy uSe nAfr(c) 2008

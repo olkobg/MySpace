@@ -1,0 +1,9 @@
+// error handling for WordPress Engine.
+
+[   Error  ]
+
+    Warning: Cannot modify header information - headers already sent by (output started at /var/www/kaf-kts/wp-   config.php:1) in /var/www/kaf-kts/wp-login.php on line 302
+
+    to fix that there is need to delete all spaces before and after "<?php ?>"
+
+

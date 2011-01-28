@@ -1,0 +1,2 @@
+[	hacks	]
+	1.	To create text area use tag <textarea>

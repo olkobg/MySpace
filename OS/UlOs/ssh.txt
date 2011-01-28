@@ -1,0 +1,2 @@
+======creating tunnel for port forwarding======
+	ssh -l username -L1234:localhost:2345 server.jabservers.co.uk

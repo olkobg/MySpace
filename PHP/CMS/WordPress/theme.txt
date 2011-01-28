@@ -1,0 +1,7 @@
+
+
+
+[	lisnks	]
+
+	-	http://codex.wordpress.org/Theme_Development
+	-	http://brassblogs.com/blog/how-to-create-a-wordpress-theme

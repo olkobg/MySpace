@@ -1,0 +1,141 @@
+// Joomla text file for creating 
+
+[	Template store directory	]
+
+  -	[PathtoJoomla]/templates/[template_name]/
+  
+[	Template dir structure	]
+
+  -	[PathtoJoomla]/templates/[name of the template]/
+    [PathtoJoomla]/templates/[name of the template]/css/
+    [PathtoJoomla]/templates/[name of the template]/images/
+
+[	Front Page	]
+  -	Home menu item stands for frontpage page in menu
+
+[	Template style info	]
+   1 	-	Horizontal menu
+  -1	-	Raw—without surrounding layout elements
+  -2	-	XHTML-compliant output
+  -3	-	Option of formatting round corners
+  
+[	links	]
+  -	Article - index.php?option=com_content&view=article&id=46
+  
+[	Global links	]
+
+  -	Article - index.php?option=com_content&view=article&id=46
+  
+[	include links	]
+  -	<jdoc:include type="modules" name="user1" style="-1" /> 
+  -	<jdoc:include type="component" style="-1" />
+
+[	template thumbnail	]
+  -	resolution of thumbnail: 227x162 and png format
+
+[ modifying the core components ]
+  [PathtoJoomla]/templates/<template_name>/com_content/.
+  
+  -	To get the namee og current template name use 
+      $mainframe->getTemplate();
+  
+  - 	To get the name of current language use 
+      $this->language;
+  
+  
+  
+[	 Constans	]
+  
+  Name                	Description
+    
+  DS		                		      Directory Separator (/)
+  JPATH_ADMINISTRATOR    			    Administrator path (/joomla/administrator)
+  JPATH_BASE              		    Path to the entry directory (/joomla)
+  JPATH_CACHE						          Cache path (/joomla/cache)
+  JPATH_COMPONENT         		    Component path (/joomla/components/com_example)
+  JPATH_COMPONENT_ADMINISTRATOR   Component backend path (/joomla/administrator/components/com_example)
+  JPATH_COMPONENT_SITE            Component frontend path (/joomla/components/com_example)
+  JPATH_CONFIGURATION             Configuration path (/joomla)
+  JPATH_INSTALLATION              Installation path (/joomla/installation)
+  JPATH_LIBRARIES                 Libraries path (/joomla/libraries)
+  JPATH_PLUGINS                   Plugins path (/joomla/plugins)
+  JPATH_ROOT                      Path to the frontend entry directory (/joomla)
+  JPATH_SITE                      Path to the public directory (/joomla)
+  JPATH_THEMES                    Templates path (/joomla/templates)
+  
+  Four date constants define different date-formats. These formats are designed to be
+  used when displaying dates using the JDate class; a full description of the JDate class
+  is available in Chapter 12. The format values vary depending on the language locale,
+  the default formats are used if they are not defined in the corresponding locale
+  language file (we will discuss multilingual support shortly).
+
+      Name                     Default Format                Example
+
+      DATE_FORMAT_LC           %A, %d %B %Y                  Sunday, 23 June 1912
+      DATE_FORMAT_LC2          %A, %d %B %Y %H:%M            Sunday, 23 June 1912 00:00
+      DATE_FORMAT_LC3          %d %B %Y                      23 June 1912
+      DATE_FORMAT_LC4          %d.%m.%y                      23.06.12
+      
+
+  A number of constants in Joomla! 1.5 have been deprecated. The following constants
+  are included for legacy compatibility. You should not use these in new extensions.
+  These constants are only available if the legacy system module is published.
+
+       Deprecated Constant                  Description
+        
+       _ISO                                 Character set
+       _VALID_MOS                           Use _JEXEC instead
+       _MOS_MAMBO_INCLUDED                  Use _JEXEC instead
+       _DATE_FORMAT_LC                      Use DATE_FORMAT_LC instead
+       _DATE_FORMAT_LC2                     Use DATE_FORMAT_LC2 instead
+
+
+[	Database	]
+  
+  // code 
+
+    # get connection
+    $db =& JFactory::getDBO();
+    
+    # query database.
+    if (!$result = $db->setQuery($query))
+    {
+        // handle failed query
+        // use $table->getError() for more information
+    }
+    
+    # quesries
+    $query = 'SELECT * FROM '
+        .$db->nameQuote('#__test')
+        .' WHERE '
+        .$db->nameQuote('name')
+        .' = '
+        .$db->Quote('Some Name');
+     
+  
+  // info
+  
+    
+  *	To replace table prefix use '#__' fo ex. table 'email_secondary' will have
+    '$__email_secondary'
+    
+  *	Use lowercase tables name with minimum undescores in databases like 'xtention_email'
+    
+  *	If you want to use primary key you should use 'integer not null auto_increment' 
+    options to use joomla framework effectively.
+  
+  *	Writing queries:
+  
+    -	Use the #__ symbolic prefix at the start of all table names.
+    -	Use the nameQuote() method to encapsulate named query elements.
+    -	Use the Quote() method to encapsulate values.
+        
+  
+      
+    // links
+
+
+
+  
+       
+  

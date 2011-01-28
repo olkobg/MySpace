@@ -1,0 +1,11 @@
+
+
+[	table types    ]
+	*	InnoDb in Mysql used locking at row level.
+	* MyISAM used locking at table level.
+
+[	Tips 	]
+	-	MyISAM works faster when database used commonly for quering.
+	
+[	links	]
+	-	http://souptonuts.sourceforge.net/readme_mysql.htm

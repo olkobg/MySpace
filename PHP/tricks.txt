@@ -1,0 +1,25 @@
+// Captchas
+	
+	*	http://recaptcha.net/plugins/php/
+	* 	http://www.phpcaptcha.org/
+
+// upload flie with limited speed
+
+	*	http://bytes.com/topic/php/answers/341922-using-php-limit-download-speed
+	*	http://www.phpnerds.com/article/speed-limiting-file-downloads
+	
+// PayPal billing organization
+
+	*	http://blog.scrobbld.com/paypal/the-paypal-api-and-php/
+	*	http://phpclub.ru/detail/article/paypal
+	*	http://www.phpwest.com/scripts/144/Payment_Systems/PayPal_API.html
+
+	*	https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_api_nvp_NVPAPIOverview#id086960YH0XW
+	// paypal test server:
+
+// Web Money billing 
+	*	http://www.wmtransfer.com/rus/merchants/
+	
+// Sms Billimg 
+	*	http://denis.boltikov.ru/2007/09/02/organizaciya-oplaty-cherez-sms/
+	*	http://smscoin.com/info/pricing-russia/

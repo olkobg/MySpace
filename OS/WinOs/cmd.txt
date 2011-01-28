@@ -1,0 +1,10 @@
+ // interesting commands for commad promt in Windows Oses.
+ 
+ subst - creating disc from subdirectory on your current discs.
+ net - used to configure daemons ant net in windows via command line )
+ 
+ attrib - used for changing file attributes form console
+ cacls - change ntfs permision for directories and files
+ 
+ 
+                  cReated  bY fRiends cOrp nAr(c)

@@ -1,0 +1,29 @@
+
+[	links in modX	]
+
+		-	to create link use standart snippet called "Wayfinder".
+			[[Wayfinder?startId=`0` &level=`1` ]]
+			
+		-	to add class for that menu 
+			[!Wayfinder?startId=`0` &level=`1` %rowClass=`menu`!]
+			
+[	chunks for template creating	]
+
+	  * [(site_url)] - A “setting” which takes the URL as determined during the MODx
+	  			 installation and inserts it in the html at run-time.
+    * [*pagetitle*] - A “Template Variable” which takes the page title as 
+    			 entered in the “document setting” screen of the Manager, and inserts 
+    			 it in the html at run-time.
+    * [(site_name)] - A “setting” which takes the site name as determined during
+    			 the MODx installation and inserts it in the html at run-time.
+    * [(base_url)] - A “setting” which is based on the URL as determined during 
+    			 the MODx installation and inserts it in the html at run-time.
+    * [!Wayfinder? &startId=`0` &level=`1`!] - Explained above.
+    * [*content*] - A “Template Variable” which enables a rich text editor 
+    				(TinyMCE or FCKEditor) to allow the entry of content to the document (page). 
+    				Content can be a wide combination of text, html markup, images, 
+    				various media, etc. (See- I told you I'd tell you all about adding "content".)
+    * [!Wayfinder? &startId=`0`!] - Wayfinder is a snippet which builds a menu 
+    				for the website navigation as described above.
+    * {{cixfooter}} - This is a chunk, which inserts pre-formatted text and html
+    				markup into the page at it's location.

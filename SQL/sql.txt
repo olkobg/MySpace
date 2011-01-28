@@ -1,0 +1,10 @@
+/*
+Small sql tutorial.
+
+[	Tips	]
+
+	-	if you need to select unique values use next:
+		select count(distinct column1) from table
+ */
+ 
+ 			cReated bY sOmone nAr(c)

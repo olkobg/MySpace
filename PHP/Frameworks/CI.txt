@@ -1,0 +1,18 @@
+Code ignitter helper.
+
+  - to get code ignitter instance we should use 
+      $CI = & get_instance();
+      then 
+      $CI->load->...
+
+  - To enable profiler
+      $this->output->enable_profiler(TRUE);
+  - To change the application folder we can use 
+      $application_folder = "application/foo";
+    and place there next folders :
+      application/foo/config/
+      application/foo/controllers/
+      application/foo/errors/
+      application/foo/libraries/
+      application/foo/models/
+      application/foo/views/

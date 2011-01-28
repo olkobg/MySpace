@@ -1,0 +1,22 @@
+//  Hi there all this file for small documentation of robots.txt
+
+	-	This file used under the root folder of your site.
+	-	It prevent getting by web robots and spider locke d pages of your site.
+	-	Examples:
+		
+		User-agent: *
+		Disallow: /images/
+		Disallow: /cgi-bin/ 
+		 
+		User-agent: Googlebot-Image
+		Disallow: /
+		
+		User-agent: *
+		Disallow: /privatedata	
+		
+		User-agent: Googlebot-Image
+		Disallow: /images/mymugshot.jpg
+
+
+________________________________________________________________________________
+															fRiends c0.

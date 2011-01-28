@@ -1,0 +1,6 @@
+
+======  ======
+
+====== Links ======
+  *  XML Tools - http://www.hitsw.com/xml_utilites/
+  *  xml java  - http://www.herongyang.com/JDK/XSD-XML-Schema-Definition-XML-Validation.html
