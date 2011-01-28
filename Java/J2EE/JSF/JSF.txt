@@ -1,0 +1,321 @@
+h// File created for keep in mind knoeledge about JSF framework 
+[	Introducing.	]
+
+
+[	tag libraries	]
+
+	including into jsp 
+	
+	<%@ taglib uri=”http://java.sun.com/jsf/core “ prefix=”f” %>
+	<%@ taglib uri=”http://java.sun.com/jsf/html “ prefix=”h” %>
+	<f:view>
+	<h:form>
+
+	Some JSF HTML Tags: These tags represent html components like text 
+	fields, buttons, form.
+	
+	Categories:
+		Inputs      		(inputText, inputTextarea)
+		Outputs				(outputText, outputLabel)
+		Commands			(commandButton)
+		Selections			(selectOneRadio, selectOneListbox, selectOneMenu 
+							 for radio buttons, list boxes, menu etc)
+		Layouts				(panelGrid)
+		Data table			(dataTable)
+		Errors and messages	(message, messages)
+	
+	All JSF Html Tags :
+		column                    	creates column in a dataTable
+		commandButton             	creates button
+		commandLink               	creates link that acts like a pushbutton
+		dataTable                 	creates a  table control
+		form                     	creates a form
+		graphicImage              	displays an image
+		inputHidden               	creates hidden field
+		inputSecret               	creates input control for password
+		inputText                 	creates  text input control (single line)
+		inputTextarea             	creates  text input control (multiline)
+		message                   	displays the most recent message for a component
+		messages                  	displays all messages
+		outputFormat              	creates  outputText, but formats compound messages
+		outputLabel               	creates label 
+		outputLink                	creates anchor
+		outputText                	creates single line text output
+		panelGrid                 	creates html table with specified number of columns
+		panelGroup                	used to group other components where the specification requires one child element
+		selectBooleanCheckbox		creates checkbox
+		selectManyCheckbox       	creates set of checkboxes
+		selectManyListbox           creates multiselect listbox
+		selectManyMenu              creates multiselect menu
+		selectOneListbox            creates single select listbox
+		selectOneMenu               creates single select menu
+		selectOneRadio              creates set of radio buttons 
+
+	JSF Core Tags: These tags allows you to take advantages of features of JSF framework, 
+		like validation, conversion , event handling. Core library is stepchild 
+		of Html library. i.e. core library supports the html library. Core tag library 
+		also contains tags for views and sub-views , loading resource bundle, 
+		adding arbitrary text to a page.
+
+	Some of them:
+		f:view  				tag is used to create top level view
+		f:subview 				tag is used to create subview of  a view.
+		f:validator 			tag is used to add a validator to a component.
+		f:converter 			tag is used to add an arbitrary converter to a component.
+		f:actionListener 		tag is used to add an action listener to a component.
+		f:valueChangeListener 	tag is used to add a valuechange listener to a component
+	
+	All JSF Core Tags:
+		f:view                  Creates the top-level view
+		f:subview               Creates a subview of a view
+		f:attribute             Adds an attribute  to a component
+		f:param                 Constructs a parameter component
+		f:converter             Adds an arbitrary converter to a component
+		f:converterDateTime     Adds a datetime converter to a component
+		f:converterNumber       Adds a number converter to a component
+		f:actionListener      	Adds an action listener to a component
+		f:valueChangeListener	Adds a valuechange listener to a component
+		f:validator            	Adds a validator to a component
+		f:validateDoubleRange	Validates a double range for a component’s value
+		f:validateLength		Validates the length of a component’s value
+		f:validateLongRange		Validates a long range for a component’s value
+		f:facet					Adds a facet to a component
+		f:loadBundle			Loads a resource bundle, stores properties as a Map
+		f:selectitems           Specifies items for a select one or select many component
+		f:selectitem            Specifies an item for a select one or select many component
+		f:verbatim              Adds markup to a JSF page
+	
+	Examples: 
+	<h:inputText id="txt_id" value="txt_value">
+		<f:validator validatorId="Txt_Validator" /> 
+	</h:inputText>  
+	
+	<f:view>
+	  	<h1>head</h1>
+	  	<p>view</p>
+	  	<f:subview id="sub_id">
+	    	<c:import url="second.jsp" />
+		</f:subview>
+	</f:view> 
+
+[	Beans	]
+	-	JSF application supports beans as well as other applications.
+	-	To use bean you need to create configuration like below:
+
+		<managed-bean>
+		   <managed-bean-name>user</managed-bean-name>
+		   <managed-bean-class>com.corejsf.UserBean</managed-bean-class>
+		   <managed-bean-scope>session</managed-bean-scope>
+		</managed-bean>
+		
+	- 	Bean can be accessed by JSF components for example:
+		<h:inputSecret value="#{user.password}"/>
+		
+	-	beans in JSF application could be stored in different files and in 
+		different  places for example in /META_INF/faces-config.xml
+	-	Also in JSF application it's possible to use Java Bean with scope 'none'.
+		That scopef give's us a wide ramge of possible contructions. Fo Exmple 
+		to create simple object we could use: 
+
+			<managed-bean>
+			   <managed-bean-name>quiz</managed-bean-name>
+			   <managed-bean-class>com.corejsf.QuizBackingBean</managed-bean-class>
+			   <managed-bean-scope>session</managed-bean-scope>
+			   <managed-property>
+			      <property-name>problems</property-name>
+			      <list-entries>
+			         <value-class>com.corejsf.ProblemBean</value-class>
+			         <value>#{problem1}</value>
+			         <value>#{problem2}</value>
+			         <value>#{problem3}</value>
+			         <value>#{problem4}</value>
+			         <value>#{problem5}</value>
+			      </list-entries>
+			   </managed-property>
+			</managed-bean>
+			
+		   then just create the simple objects : 
+		   
+			<managed-bean>
+				<managed-bean-name>problem1</managed-bean-name>
+				<managed-bean-class>
+					com.corejsf.ProblemBean
+				</managed-bean-class>
+				<managed-bean-scope>none</managed-bean-scope>
+				<managed-property>
+					<property-name>sequence</property-name>
+					<list-entries>
+						<value-class>java.lang.Integer</value-class>
+						<value>3</value>
+						<value>1</value>
+						<value>4</value>
+						<value>1</value>
+						<value>5</value>
+					</list-entries>
+				</managed-property>
+				<managed-property>
+						<property-name>solution</property-name>
+						<value>9</value>
+				</managed-property>
+			</managed-bean>
+		
+	-	We may pass our beans paramters and set default values by using next 
+		construction: 
+		//	set up parameter
+		   <managed-property>
+		       <property-name>password</property-name>
+		       <value>secret</value>
+		   </managed-property>
+		
+		//	to set up null parameter use next
+			<managed-property>
+				<property-name>password</property-name>
+				<null-value/>
+			</managed-property>
+
+		// 	to initilalze list use next construction
+		<list-entries>
+		    <value-class>java.lang.Integer</value.class>
+            <value>3</value>
+		    <value>1</value>
+		    <value>4</value>
+		    <value>1</value>
+		    <value>5</value>
+		</list-entries>
+
+		// Map entries
+		<map-entries>
+			<key-class>java.lang.Integer</key-class>
+			<map-entry>
+				<key>1</key>
+				<value>George Washington</value>
+			</map-entry>
+			<map-entry>
+				<key>3</key>
+				<value>Thomas Jefferson</value>
+			</map-entry>
+			<map-entry>
+				<key>16</key>
+				<value>Abraham Lincoln</value>
+			</map-entry>
+			<map-entry>
+				<key>26</key>
+				<value>Theodore Roosevelt</value>
+			</map-entry>
+		</map-entries>
+		
+	-	If we need to get values from beans we defined, we should use next sample 
+		of code: 
+			FacesContext context = FacesContext.getCurrentInstance();
+			ValueBinding binding = context.getApplication().createValueBinding("#{user.name}");
+			String name = (String) binding.getValue(context);
+		
+[	Messages	]
+	-   In JSF application you can use different localizations like en, de, es
+	-   If you wanna add some localization to your applcation you have to create
+		.properties file and put it into your classes directories prop e.g.: 
+			currentScore=Your current score is:
+			guessNext=Guess the next number in the sequence!
+	-   To use this file use 
+		<f:loadBundle basename="com.corejsf.messages" var="msgs"/> tag
+	-   When you localize a bundle file, you need to add a locale suffix to the 
+		file name. underscore followed by the lowercase two-letter ISO-639 
+		language code For example. messages_de.properties.
+		Note: When you prepare translations, keep one oddity in mind: message 
+			  bundle files are not encoded in UTF-8. Instead, Unicode characters
+			  beyond 127 are encoded as \uxxxx escape sequences. The Java SDK 
+			  utility native2ascii can create these files
+	-   to access the messages use like this below:
+	<h:outputText value="#{msgs.guessNext}"/>
+
+
+[	Navigation	]
+
+	///	Static navigation
+	
+	-	if we used for example the button 
+		<h:commandButton label="Login" action="login"/>
+	
+		then in navigation rule we should use 
+		<navigation-rule>
+	   		<from-view-id>/index.jsp</from-view-id>
+			<navigation-case>
+		    	<from-outcome>login</from-outcome>
+		    	<to-view-id>/welcome.jsp</to-view-id>
+			</navigation-case>
+		</navigation-rule>
+	
+	-	Also there possible other things. Like create common outcome rule
+
+		<navigation-rule>
+			<navigation-case>
+				<from-outcome>logout</from-outcome>
+				<to-view-id>/logout.jsp</to-view-id>
+			</navigation-case>
+		</navigation-rule>
+		
+	-	Or merrge few outcomes for one page "From Page"
+
+		<navigation-rule>
+			<from-view-id>/index.jsp</from-view-id>
+			<navigation-case>
+				<from-outcome>login</from-outcome>
+				<to-view-id>/welcome.jsp</to-view-id>
+			</navigation-case>
+			<navigation-case>
+				<from-outcome>signup</from-outcome>
+				<to-view-id>/newuser.jsp</to-view-id>
+			</navigation-case>
+		</navigation-rule>
+		
+	NB: You should use only ./index.jsp like names not the URLs
+	
+	
+	/// Dynamic navigation.
+	
+	To use dynamic navigation you should use something lik this:
+
+	<h:commandButton label="Login" action="#{loginController.verifyUser}"/>
+	in that case method will check the parameters and pass the real actions to
+	display e.g:
+	
+	String verifyUser() {
+	   if (...)
+	      return "success";
+	   else
+	      return "failure";
+	}
+	
+	NB: IF method returns the null pointer the output page will be the same.\
+	
+	// using form-action
+	-	from-action is used to handling the same action string from different 
+		methods.
+		
+	-	
+	
+[	Beans	]
+
+	
+[   Tips   ]
+    -   Expressions in JSF sample begind looks like:
+    #{..}   not   ${..}    be careful.
+	-	Sometimes it is usefull to keep the jsp with JSF at alias (/faces/*) 
+	e.g faces. but the real jsf processing becomes when used 
+	-	Better choice is to download Native Sun implementation of JSF libraries.
+	
+[	Stayed @	]
+http://www.roseindia.net/jsf/jsfrenderers.shtml
+
+[	Links	]
+	-	http://www.roseindia.net/jsf/index.shtml 
+	-	http://www.tavutaito.fi/tutorials/jsf-facelets/
+	-	http://exadel.com/tutorial/jsf/jsftutorial-kickstart.html 
+	-	http://www.javaworld.com/javaworld/jw-11-2002/jw-1129-jsf.html?page=1 
+	-	http://java.sun.com/javaee/javaserverfaces/ 
+	-	http://www.laliluna.de/first-java-server-faces-tutorial.html 
+	-	http://myfaces.apache.org/core12/gettingstarted.html 
+    -   listing of language codes => http://www.loc.gov/standards/iso639-2/
+
+________________________________________________________________________________
+							created by mE nAr(c)

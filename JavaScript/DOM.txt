@@ -1,0 +1,2 @@
+[    Select element   ]
+    -   Quick constructor : new Option(text, value, defaultSelected, selected)

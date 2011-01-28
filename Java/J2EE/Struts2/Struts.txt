@@ -1,0 +1,857 @@
+f// Struts.txt file created to store small  information about struts2. (not struts version1)
+
+[	decorators	]
+	-	is used in struts application. 
+	-	main file could be found at WEB-INF/decorators.xml
+	-	main decorator page could be found at WEB-INF/decorators/main.jsp
+
+[	Validation	]
+
+	-	Validation performs via Annotations and via xml configuration file.
+	ex: @RequiredFieldValidator(message = "Please enter the date")
+		@RequiredStringValidator(message = "Please enter a name", trim = true)
+	-	Validation via xml configuration file properties can be found here
+		http://struts.apache.org/2.x/docs/validation.html
+	-	There are two ways to apply validations to an action class:
+		1.	Apply a specific validation annotation to the setter method of the property to validate.
+		2.	List all the validations to apply for the action class on the execute() method.
+	-	To output error onto the GUI in Struts2 there next tags : 
+			<s:fielderror>
+			<s:actionerror />
+			<s:actionmessage />
+	-	Annotation based Validation used to perform validation to the specified 
+		class but not the method. If you wanted to use validation on method you 
+		should use next strings :
+		<interceptor-ref name="paramsPrepareParamsStack">
+			<param name="validation.validateAnnotatedMethodOnly">true</param>
+		</interceptor-ref>
+		NB:	Unfortunately, there is no way to configure this globally for the package, so the additional
+		configuration needs to be added to each action configuration (that uses the action class with
+		the validation annotation).
+	//	Custom Validations.
+	-	To perform custm validation You need to copy the default.xml configuration file 
+	(from the com\opensymphony\xwork2\validator\validators directory of the XWork JAR)
+	 to the root directory of your classpath (changing the name to validators.xml)
+	 use Annotations with next sample: 
+		@CustomValidator(type="timeValidator", key="validate.timeOfDay")
+		*	message (message to display), 
+		*	key (key for the message todisplay), 
+		*	fieldName (used when the annotation is not placed directly on the field)
+		*	shortCircuit attributes (determines whether other validations should 
+			be executed when the current validation fails). 
+		*	type attribute defines which custom validator to use from the 
+			validation.xml configuration file.
+		File struct: 
+		<?xml version="1.0" encoding="UTF-8"?>
+		<!DOCTYPE validators PUBLIC
+		"-//OpenSymphony Group//XWork Validator Config 1.0//EN"
+		"http://www.opensymphony.com/xwork/xwork-validator-config-1.0.dtd">
+		<validators>
+		<validator name="required"
+		class="com.opensymphony.xwork2.validator.validators.RequiredFieldValidator"/>
+		...
+		<!-- Our custom validators -->
+		<validator name="timeValidator" class="com.fdar.apress.s2.util.TimeValidator"/>
+		</validators>
+		
+		-	To create custom validation class you should extend classes 
+			ValidatorSupport or FieldValidatorSupport or Validator interface.
+			FieldValidatorSupport is used when validating a specific field.
+		-	method validate(Object obj) needs to be implemented. The addFieldError(…) 
+			and addActionError(…) methods
+		-	If validation is used two times than one validation should be with 
+		message parameter set to ""
+	-	When validation should be performed only for one parameter.  I such case 
+		you should invoke validator class manually. Following these are steps to do that.
+		1. Create the validator class; in this case, the VisitorFieldValidator.
+		2. Configure any properties. For the action, you set the field name to use and configure
+		the validator to append the property prefix to the field name.
+		3. Create a validator context, and apply it to the validator. The
+		DelegatingValidatorContext provides a default implementation and can be created
+		using a subclass of ActionSupport (or any class implementing the ValidationAware,
+		TextProvider, and LocaleProvider interfaces).
+		4. Invoke the validate(…) method of the validator passing in the object to validate; in this
+		case, it is the current action.
+		To determine whether validation errors were found, use the hasErrors(),
+		hasFieldErrors(), and hasActionErrors() methods on the action. If an error is found, you
+		return the name of the domain object as the result. e.g.
+	
+			VisitorFieldValidator validator = new VisitorFieldValidator();
+			validator.setAppendPrefix(true);
+			validator.setValidatorContext(new DelegatingValidatorContext(this));
+			validator.setFieldName(objType);
+			validator.validate(this);
+			if( hasFieldErrors() ) {
+				return objType;
+			}
+		}
+	
+	//	Validation using OGNL called Expression Validation
+	-	Expression validation provided via the "expression" attribute.
+		
+		...
+		private List<String> selectedContestants;
+		...
+		@Validations( expressions = {
+		@ExpressionValidator(message="Default message",
+		key="validate.mustSelectOne",
+		expression="selectedContestants!=null && selectedContestants.size>0" )
+		})
+		public String execute() throws Exception {
+			…
+		}
+		
+	-	ExpressionValidator can be applied at the field level.
+	
+
+[	Application structure / flow 	]
+	
+	-	All of requests will be handled by the actiona objects. But before it
+	comes to the actions it will be preprocessed by Struts2Filter ActionInvocation
+	and stack of Intercepters. After request come to the Action result will be
+	ganerated and passed to the interceptors back for postprocessing. 
+	
+	-	Application consists of these main parts: Action, Result type, Interseptors,
+		Result (JSP) and Value Stack.
+[	conversion of types	   ]
+
+	-	the class which performs the conversion should be extend from StrutsTypeConverter
+		class and implement next methods :) convertFromString() & 
+		convertToString()
+	-	TypeConversionException thrown when conversion could not be performed 
+
+[	ACtion	]
+
+	-	Used to provide request handling and procssing.
+	-	In action object there have to be an any non-parametrized method. If it
+		doesnt present than is default is to use execute() method. Next paragraph 
+		could help you to implement the Action class.
+	-	To implement these action you could use next interfaces:
+		public interface Action {
+			public static final String SUCCESS = "success";
+			public static final String NONE = "none";
+			public static final String ERROR = "error";
+			public static final String INPUT = "input";
+			public static final String LOGIN = "login";
+			public String execute() throws Exception;
+		}
+		
+		also possible to extend the class:
+
+		public class ActionSupport 
+		implements Action, Validateable, ValidationAware, 
+		TextProvider, LocaleProvider, Serializable {
+			public String execute() throws Exception {
+				return SUCCESS;
+			}
+		}
+
+[	Interceptors	]
+
+	-	Interveptors is used to add additional fuctinality to the Actions. 
+	-	Also interceptors are used for postprocessing data after the Action is performed
+
+	They widely used in:
+	*	Providing preprocessing logic before the action is called
+	*	Interacting with the action, providing execution information, such as Spring-managed
+		objects, and setting the request parameter on the action
+	*	Providing postprocessing logic after the action is called
+	*	Modifying the result being returned, hence changing what is rendered to the user
+	*	Catching exceptions so that alternate processing can be performed or a different result
+		can be returned
+	-	Many interceptors are configured in different stacks. You could put the 
+	interceptor class which you developed by yourself. Example of the interface:
+	
+		public interface Interceptor extends Serializable {
+			void init();
+			void destroy();
+			String intercept(ActionInvocation invocation) throws Exception;
+		}
+	
+	//  Scope Interceptor
+	-	the scope interceptor must be before the paramsPrepareParamsStack 
+		interceptor in the stack.
+		
+	//	Flash interceptor
+	-	Flash iterceptor is widely used when you need to get access to elements of the 
+		previous web page. here are the small configuration sample to include 
+		interceptor into the interceptor stack:
+		<interceptors>
+			<interceptor name="flash"
+			class="com.opensymphony.webwork.interceptor.FlashInterceptor" />
+			<interceptor-stack name="eventStack">
+			…
+			</interceptor-stack>
+		</interceptors>
+		
+		here is the previous page configuration.
+
+		@Results( value={
+		@Result(type=ServletActionRedirectResult.class, value="selectLocation",
+		params={"method","input"}),
+		@Result(type=FlashResult.class, name="selectType",
+		value="/event/flashedSelectEventType.action")
+		})
+
+		configuration action for which Flash will be applied (via XML).
+		
+		<action name="flashedSelectEventType"
+		class="com.fdar.apress.s2.actions.event.SelectLocationTypeAction">
+		<interceptor-ref name="flash">
+		<param name="operation">Retrieve</param>
+		</interceptor-ref>
+		<interceptor-ref name="eventStack" />
+		<result>/WEB-INF/jsp/event/selectLocationType-input.jsp</result>
+		</action>
+	// Role interceptor
+	-	configuration if the uintercptor 
+		<interceptors>
+			<interceptor-stack name="secure">
+				<interceptor-ref name="roles">
+					<param name="allowedRoles">registered</param>
+				</interceptor-ref>
+				<interceptor-ref name="paramsPrepareParamsStack"/>
+			</interceptor-stack>
+		</interceptors>
+[	Value stack   ]
+
+	-	the value stack consists of four levels:
+		
+		1.	Temporary objects:These objects need temporary storage during the processing of a
+			request, for example,the current element in a collection that is being iterated over.
+		2.	Model object:When the action implements the ModelDriveninterface, the model object
+			is placed on the stack in front of the action that is being executed; this level will not be
+			present if the interface is not implemented by the action.
+		3.	Action object:This is the action that is currently being executed.
+		4.	Named objects:Any object can be assigned an identifier,making it a named object.
+			#application,#session,
+			Named objects can be developer created but also included are 
+			#request,#attr,and #parameters - each corresponding to an equivalent HTTP scoped
+			object collection.
+	-	To get the object or value from the Stack -> OGNL language is used.
+	
+[	Result and Result Stacks	]
+
+	-	Develolper could provide his type of the result by using next inteface:
+	
+	public interface Result extends Serializable {
+		public void execute(ActionInvocation invocation) throws Exception;
+	}
+
+	-	result can be thrown with the the additional parameters. e.g.
+		params={"method","input"}
+		params={post,}
+		
+	-	When you using Resulttype in Annotation no further configuration is needed. 
+		But if you are using Result Type in with xml configuration the additional step is needed
+		
+
+[[	Configuring	]]
+
+[	struts.xml	]
+	
+	-	to include other config files  into struts.xml use <include> tag
+		ex:
+			<include file="struts-module1.xml" />
+	-	Depencies between include files are not automatically determined 
+		and resolved
+	-	There are three default config files included in struts2:
+		1. struts-default.xml - default struts2 xml xonfiguration file. 
+		2. struts-plugin.xml - If plugin jar files is located on the classpath 
+		the struts-plugin.xml file from each of the plugins will be loaded.
+		3. struts.xml - The file you provide to configure your web application. 
+	
+	-	<package> tag is used to hold maps and execution type configuration. 
+		Here are parameters of this tag and explanation of them:
+		name 	  - This is a unique name for the package that is provided by the developer.
+		extends   - Packages can extend each other, allowing the extending package 
+		to access all the extended package's configurations, including action 
+		configuration in the extending package's namespace.
+		abstract  - If abstract, the package's actions are not available via a URL,
+		and the package	is purely for configuration modularization.
+		namespace - The URL path that the actions configured in this package will 
+		be accessible under.
+		// name and namespace attribute should be unique.
+		// The elements contained within the package tag are result-types,interceptors,
+		// default-interceptor-ref, default-action-ref,global-results,global-exception-mappings,and action.
+		
+	-	<result-types> tag used in <package> tag and add posibility to create 
+		user defined result-types and then use tham in results. simple Result-types:
+		
+		<package name="test" extends="struts-default" abstract="false" namespace="/tests" >
+			<result-types>
+				<result-type name="apress" default="false"
+					class="com.fdar.apress.s2.ApressResult" />
+				<result-type name="fdar" class="com.fdar.apress.s2.FdarResult" />
+			</result-types>
+		</package>
+		
+		the result type can contain next attributes:
+		*	name - The unique,developer-provided name for the result type.
+		*	class - The package and class name of the result type implementation.
+		*	default - Determines if this is the default result type (meaning that the type does not
+			need to be specified for each configuration; instead, it is assumed); this attribute is
+			not required and defaults to false. 
+			
+	-	<interceptor> tag provides developer defined interceptor tags. and has unique
+		atributes name and class:
+		<interceptor name="apress" class="com.fdar.apress.s2.ApressInterceptor" />
+	-	Interceptor stac could be provided in next way:
+		<package name="test" extends="struts-default" abstract="false" namespace="/tests" >
+			<interceptors>
+				<interceptor name="apress" class="com.fdar.apress.s2.ApressInterceptor" />
+				<interceptor-stack name="apressStack">
+					<interceptor-ref name="basicStack" />
+					<interceptor-ref name="apress" />
+				</interceptor-stack>
+			</interceptors>
+			<default-interceptor-ref name="apressStack" />
+		</package>		
+		
+		// Configuring 
+		*	The interceptorstag can contain any number of 'interceptor' and 
+			'interceptor-stack' tags.
+		*	The developer-provided name attribute value needs to be unique 
+			across both the 'interceptor' and 'interceptor-stack' tags.
+		*	The 'interceptor-ref' and 'default-interceptor-ref' tags' "name" attribute
+			value can represent either an interceptor or interceptor stack.
+		*	The 'interceptor-stack' tag can contain any number of interceptor-ref 
+			tags,and each interceptor will be called in the order it was configured.
+		*	To set any parameter of the interceptor you Struts provide au with next 
+			solution by configurig in struts.xml:
+			
+			<interceptor-ref name="validation">
+				<param name="excludeMethods">input,back,cancel,browse</param>
+			</interceptor-ref>
+		*	Or if you want to change the default parameters of the interceptors stack
+			or the other interceptor you could provide just the name of the 
+			interceptor and set parameter you want:
+	
+				<action name="testMe" class="com.fdar.apress.s2.MyAction">
+					<interceptor-ref name="defaultStack">
+						<param name="validation.excludeMethods">prepare,findById</param>
+					</interceptor-ref>
+				</action>
+	-	<global-results> tag used to set up the results which are used in common
+		that result could be used in any action. Example of setting:
+		
+		<package name="test" extends="struts-default" abstract="false" namespace="/tests" >
+		…
+			<global-results>
+				<result name="logout" type="dispatcher">/index.jsp</result>
+				<result name="error" type="freemarker">/error.ftl</result>
+			</global-results>
+		…
+		</package>
+	
+	-	result has two attributes they are:
+		1.	name: A unique, developer-provided name, which must be unique throughout the cur-
+			rent package as well as any packages that extend the package in which the result is
+			configured. This attribute should always be specified.
+		2.  type: The configured result type name value (it should be a defined resut type)
+		
+	-	A value to be passed to the result type is provided as the body to the result tag. Usually
+		this is the name and location of the template to be rendered.
+
+	
+
+	-	Action configuration. Configuration via Annotations has a bigger privileges
+		than configuration via 'struts.xml'. 
+		*	to set up default action use next syntax: 
+
+			<package name="test" extends="struts-default" abstract="false" namespace="/tests" >
+				<default-action-ref name="testMe" />
+				
+				<action name="testMe" class="com.fdar.apress.s2.MyAction" method="findValue" >
+					<result name="success" type="dispatcher">/jsp/found.jsp</result>
+					<result name="exception" type="dispatcher">/jsp/found.jsp</result>
+					<interceptor-ref name="apressStack" />
+					<exception-mapping exception="java.lang.Exception" result="exception" />
+					<param name="version">2.0.9</param>
+				</action>
+			</package>
+		// In this configuration name space specified by the name of the package
+		// it is contained in next parameter for the action.
+			class	- specifies the name of the class in which the action methos implemented
+			name	- specifies the name if the action.
+			method	- specifies the method in the class which will handle current
+					  action and allows a single action class to have many actions
+					  configurations to call different methods.
+		*	Also next tags are avilable for these tag.
+			• result tag:	Under the action, there can be many result tags, each providing a configuration
+							for a different outcome of the request. The name attribute can be omitted for
+							a value of success, and the type attribute can be omitted if the value is the default result
+							type (unless changed, this is dispatcher).
+			• interceptor-ref tag: 	Replaces the package configured default interceptor reference
+									with one specific to the current action.
+			• exception-mapping tag:You can provide localized exception mapping at the action level
+									(that is handled before the global exception mapping), and the result attribute value
+									can be either a result from the current action or a global result.
+			• param tag:	Sets static values onto the action via the XML configuration.
+	-	Wildcard Configuration. if you have the standard form of
+		web context, followed by an entity object name, and ending with an action.
+		You may simplify the coniguration of these by using wildcards. The example see below:
+			<action name="*/*" class="com.fdar.apress.s2.{1}Action" method="{2}" >
+				<result name="success">/{1}/{2}.jsp</result>
+				<result name="input">/{1}/edit.jsp</result>
+				<result name="home">/{1}/home.jsp</result>
+			</action>
+			NB : 
+			There are some things to remember regarding wildcard mapping:
+			• There is a limit of nine text groups, {1} through {9}.
+			• The token {0} is special and contains the entire URL requested.
+			• The * token will match 0 or more characters, excluding the “/” character.
+			• The ** token will match 0 or more characters, including the “/” character.
+			• The “\” character is used as an escape sequence to punctuation characters, thus \\
+				matches the “\” character, and \* matches the “*” character.
+			
+		*	The name of the class and the name of the method are specified using parts of the
+			incoming URL. When the URL is /app/user/add.action, the class name will be
+			“com.fdar.apress.s2.userAction”, and the method will be “add” (note that the case of
+			the URL and class name will be the same). The only restriction when using 
+			wildcards in the action’s name attribute is not to place two asterisks 
+			together without a separating character
+			
+			// NB - If you do use slashes in the action name, such as name="*/*", you need 
+			// to set the environmental property struts.enable.SlashesInActionNames to true.
+		
+[	Configuring execution environment   ]
+	
+	-	default properties are stored in the 'default.properties' file in the 
+		'struts2-core.jar'. User can ovverride this properties by providing the 
+		'struts.properties' file in classpath  and also by setting parameters in 
+		the 'struys.xml' configuration file. see below the example:
+			<constant name="struts.devMode" value="true" />
+			
+	-	default properties stored in the 'default.properties' file
+		see in book page 88. 
+		
+	-	extending Struts2 framework possible in two ways: 
+		1. By configuring current framework.
+			Use the new features directly in your web applications: The first way to use the extension
+			mechanisms is to configure them from your web application and use them directly. This
+			avoids some additional configuration but limits the use to only one web application.
+			When you decide that the new features are generic enough to share with other applications,
+			you can create a plug-in.
+		2. By providing new plugins. 
+			Creating a plug-in is only slightly more complex
+			than using the features directly in your web application. A plug-in is basically a web
+			application, as the structure and content are exactly the same as a web application.
+			Instead of struts.xml, the configuration file is called struts-plugin.xml; the deployment
+			file is a JAR and not a WAR; and most of the time, the plug-in will not have view templates.
+			
+		*	To Install the new enviroment you SHOULD use the 'constant' tag.
+		*	Also to extend the struts framework you should implmenet next
+			classes\interfaces and and set them at apropriate configurations.
+			see points / classes / interfaces at page 90.	
+			
+		*	There are two possible ways to set yp new functionality in Struts2:
+			
+			<constant name="struts.mapper.class"
+			value="com.fdar.apress.s2.MyCoolActionMapper" />
+			
+			Another option involves two configuration elements:
+
+			<bean type="org.apache.struts2.dispatcher.mapper.ActionMapper"
+			class="com.fdar.apress.s2.MyCoolActionMapper"
+			name="apressMapper" scope="singleton" optional="true" />
+			
+			<constant name="struts.mapper.class" value="apressMapper" />
+			
+			//	configuration via bean tag alolows you to declare additional 
+				parameters:
+				type: The interface that the new class implements, from Table 3-6.
+				class: The name of the class implementing the new features that is being configured.
+				name: A developer-provided, unique name.
+				scope: The scope that the object instance exists within. The values can be default,
+				request, session, singleton, or thread.
+				optional: Usually an exception during instantiation prohibits the web application
+				from starting; by configuring a bean as optional, exceptions are not thrown and loading
+				continues.
+	
+		*	When using the bean tag you could provide the options from the options file
+			via StrutsConstants. also class should be provided with the annotation 
+			@Inject. If the class 'MyCoolActionMapper' had the following setter, 
+			the httpPort property would	be injected with the value StrutsConstants.STRUTS_URL_HTTP_PORT.
+			
+				@Inject(StrutsConstants.STRUTS_URL_HTTP_PORT)
+				public static void setHttpPort(String val) {
+					httpPort = Integer.parseInt(val);
+				}
+		
+[	Zero Conifiguraiton Annotation	]
+
+	-	Developer could provide configuration without configuring struts.xml
+		1. 	To enable ZCA we should add parameters to the web.xml to activate
+			such posibiliti in chosen pacckages. Example :
+
+			<filter>
+				<filter-name>struts2</filter-name>
+				<filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
+				<init-param>
+					<param-name>actionPackages</param-name>
+					<param-value>com.fdar.apress.s2,com.apress.s2</param-value>
+				</init-param>
+			</filter>
+	-	Configuration by using ZCA:
+	1.	To configure the Result use next information.
+		Result annotation could be setted at class level. These annotation has 
+		3 parameters:
+		name 	- The string value that is being returned from the methods that process the request.
+		value 	- A value that the result type uses. For JSP, Freemarker, and Velocity results, this is
+				the name of the template to render.
+		type	- The class of the result type.These can be found in Table 3-4 shown earlier. (Note
+				that in the annotation, the class is used, and not a string value, so no quotes are needed
+				around the value in the annotation.) Ex: 
+		
+		package com.fdar.apress.s2;
+		@Result(name="success", value="/jsp/success.jsp", 
+			type=ServletDispatcherResult.class)
+		public class ZCAction {
+			public String execute() {
+				return "success";
+			}
+		}
+		
+		Multiplay results configuration: 
+		package com.fdar.apress.s2;
+		@Results({
+			@Result(name="success", value="/jsp/success.jsp", 
+				type= ServletDispatcherResult.class),
+			@Result(name="input", value="/jsp/input.jsp", 
+				type= ServletDispatcherResult.class)
+		})
+		public class ZC2Action {
+			public String execute() {
+				return new Random().nextBoolean() ? "success" : "input";
+			}
+		}
+
+		-	URLs for these actions are created in next way:
+			1. 	The name of the action is the actionis class name (the first letter in lowercase) where
+				the suffix Action has been removed; so the ZCAction class would become zC.action 
+				in the URL.
+			2. 	The URL path is the action's package path (with the periods replaced with path separa-
+				tors) from the package level configured in the web.xml configuration file. By using the
+				web.xml configured value com.fdar.apress.s2 that you configured previously and by
+				placing the ZCActionaction in the same com.fdar.apress.s2package, there would be
+				no additional namespace,and the URL would be http://localhost:8080/app/
+				zC.action. However, if the action was in the com.fdar.apress.s2.book.test package,
+				the URL would become http://localhost:8080/app/book/test/zC.action.
+	2.	@Namespace annotation allows you to modify the namespace to any value see the 
+		example below to understand how it changes from http://localhost:8080/app/book/test/zC3.action:
+		to http://localhost:8080/app/testing/zC.action :
+	
+	3.	The @ParentPackageannotation provides a way to allow the action to take advantage 
+		of the package mechanism. In ZC3Action, we are using the "struts-default" package.
+		Example of using tow previous annotations:
+	
+			package com.fdar.apress.s2.book.test;
+			@Result(name="success", value="/jsp/success.jsp", 
+				type= ServletDispatcherResult.class)
+			@Namespace("/testing")
+			@ParentPackage("struts-default")
+			public class ZC3Action {
+				public String execute() {
+					return "success";
+				}
+			}
+[	Exception handling	]
+-	Global exception handles different exceptions and which result should be 
+		invoked when such an exception occur. Example:
+			
+			<package name="test" extends="struts-default" abstract="false" namespace="/tests" >
+		    ...
+			    <global-exception-mappings>
+			        <exception-mapping exception="java.sql.SQLException"
+			                           result="error1" />
+			        <exception-mapping exception="java.lang.Exception"
+			                           result="error2" name="error" />
+			        <exception-mapping exception="java.lang.RuntimeException"
+			                           result="error3" />
+			    </global-exception-mappings>
+		    ...
+			</package>
+		*	Parameters of exception mappings described below:
+		
+		 	exception: 	The exception that will be acted upon.
+		 	result: 	The name of the configured global result to use 
+		 				(bypassing what the action may have returned).
+		 	name: 	The unique name of the exception mapping; this attribute is not required,
+		  			doesn’t make much sense, and should be avoided. (Unlike other configurations, the
+		  			name attribute in the exception-mapping tag is not referenced and provided for consis-
+		  			tency. When specified, it may confuse developers into thinking that it is referenced
+		  			from somewhere else.)
+		*	When a subclass of the declared exceptions is thrown, the closest (in class hierarchy
+			depth) declared exception mapping is invoked. Let’s say a ClassCastException for the preceding
+			configuration is thrown. Both the Exception and RuntimeException classes are super
+			classes of this exception. However, because RuntimeException is one step closer to
+			ClassCastException in class depth, its configured result will be invoked.
+	
+		*	Some application servers use exception for logging but exception 
+			inerceptor consumes all the exceptions you could use next solution for
+			logging:
+				
+				To avoid this issue, the exception interceptor can be configured with additional properties to log error
+				messages to an application-specific log file. The attributes (all of which are optional) include the following:
+				• logEnabled: true or false, determines whether the exception is logged.
+				• logLevel: The priority level for the exception being logged (common levels include trace, debug,
+							info, warn, error, fatal).
+				• logCategory: The category to log the exception.
+				Here is an example of a fully configured exception interceptor:
+				<interceptors>
+					<interceptor-stack name="exceptionMappingStack">
+						<interceptor-ref name="exception">
+							<param name="logEnabled">true</param>
+							<param name="logCategory">com.fdar.apress.s2</param>
+							<param name="logLevel">WARN</param>
+						</interceptor-ref>
+					</interceptor-stack>
+				</interceptors>
+				
+			The exception interceptor uses the Apache Commons Logging project
+			(http://commons.apache.org/logging), which is an implementation-agnostic API. This means that
+			it can be configured to use a number of different logging implementations “behind the scenes.” The
+			logCategory and logLevel properties in the exception interceptor configuration should match those
+			from the logging implementation that you are using.	
+			
+	-	There is a situathion where user should be redirected onto another page 
+		or just returned to previous page this ususaly happend in authentification
+		module. 
+		
+	-	Sometomes we have the Exception which didnt got us full informartion.
+		In that case we should use next solution:
+			try {
+				// start transaction, persist object, commit transaction
+			} catch (RollbackException e) {
+				// rollback transaction
+				throw (RuntimeException)e.getCause();
+			}
+
+	-	Also we can configure the annotations inside the Action tag. e.g.
+	<action name="updateUser" method="update"
+		class="com.fdar.apress.s2.actions.user.UserAction" >
+		<result name="success" type="redirectAction">index</result>
+		<result name="dupPK">/WEB-INF/jsp/user/findUser-success.jsp</result>
+		<exception-mapping result="dupPK"
+		exception="org.hibernate.exception.ConstraintViolationException" />
+	</action>
+	
+	-	There are currently no annotations for exception mapping. So when using zero configuration
+		actions, compromises need to be made. Following are the two available options:
+			*	Use global results and global exception mappings to redirect the user to common
+			pages.
+			*	Use global exception mappings with action result configurations.
+	-	When an exception is intercepted by the exception interceptor, two new properties are
+		placed on the Value Stack:
+			* exception: The description of the message, as provided by the getMessage() method.
+			* exceptionStack: The full stack trace of the exception.
+			
+[	File Uploading 	]
+	
+	-	the fileUpload interceptor should be used in this case. it can be found preconfigured
+in the fileUploadStack, the paramsPrepareParamsStack, and the defaultStack.
+	-	You may store file in the directory or in database. 
+	-	Also you may set parameters for multipart forms in struts 2 by setting next
+	-	file tag used name attribute to connect uploaded file with action class. 
+		you should create setter with such name and input parameter with "File" type
+		and few parameters which handle file parameters. Hence, for the "file" tag 
+		with a name of "upload", you would need the following:
+			public void setUpload(File upload) { ..}
+			public void setUploadFileName(String fileName) { ..}
+			public void setUploadContentType(String contentType) { ..}
+
+	-	Parameters by setting them in struts.properties or struts.xml : 
+		*	struts.multipart.saveDir: The location to store the temporary file; 
+			when not supplied, the system property javax.servlet.context.tempdir
+			is used by default.
+		*	struts.multipart.maxSize: The maximum file size in bytes allowed 
+			to be uploaded; the	default size is 2097152.
+		*	struts.multipart.parser: The library used to upload the multipart form;
+			valid values are cos, pell, and jakarta (the default).
+	-	If you wanna to download file from database. you need to create "stream" 
+		Result type (it can be used for any binary data) to send binary data to the browser. e.g.
+
+		<action name="getPortrait" class="com.fdar.apress.s2.actions.user.UserAction" >
+			<result name="success" type="stream">
+				<param name="contentType">image</param>
+				<param name="inputName">inputStream</param>
+			</result>
+		</action>
+		
+	-	Possible parameters of the resul type tag:
+		*	contentType: The MIME type of the stream; defaults to "text/plain".
+		*	contentLength: The length in bytes; assists the browser in displaying the correct percentage
+			in the progress bar.
+		*	contentDisposition: The content disposition header value for specifying the file name;
+			defaults to "inline".
+		*	inputName: The name of the property that returns an InputStream; defaults to
+			"inputStream".
+		*	bufferSize: The size of the copy buffer (from input to output); defaults to "1024".
+		
+	
+	
+	
+[	Codebehind plugin	]
+ 	
+ 	-	Codebehind plugin used to automaticaly create result value of the action 
+ 		return result e.g: 
+	 		An example will make this easier to understand. For the FindUserAction action class,
+		which is invoked via the URL /app/user/findUser.action, and a result of success, the JSP
+		/user/findUser-success.jsp, Freemarker template JSP /user/findUser-success.ftl, and
+		Velocity template JSP /user/findUser-success.vm are constructed, and the templates are
+		searched for. If the result was input the templates would be /user/findUser-input.jsp,
+		/user/findUser-input.ftl, and /user/findUser-input.vm.
+	-	If you wanted to use codebwehind plugin you should add the following line 
+		in the struts.xml configuration file. 
+		<constant name="struts.codebehind.defaultPackage" value="base-package" />
+	-	Also you may probide Path prefix fir this plugin if the result pages
+		siuated in differnt place on the server. 
+		<constant name="struts.codebehind.pathPrefix" value="/WEB-INF/jsp/"/>
+	- 	To use this plugin simpli add Jar file into in the /WEB-INF/lib directory
+		or by using maven add these rows:
+			<dependency>
+				<groupId>org.apache.struts</groupId>
+				<artifactId>struts2-codebehind-plugin</artifactId>
+				<version>2.0.9</version>
+			</dependency>
+[	Internationalization	]
+
+	-	To provide such kind of internationalization you should use:
+
+		1. A file with the same name and in the same package/directory as the action class is
+		searched for, that is, com/fdar/apress/s2/actions/user/FindUserAction.properties.
+		2. The class hierarchy is searched (using the same name mapping from the class name
+		and package/directory as earlier) all the way back to Object, that is, com/fdar/apress/
+		s2/actions/user/BaseUserAction.properties, com/opensymphony/xwork2/
+		ActionSupport.properties, and java/lang/Object.properties.
+		3. Every implemented interface (using the same name mapping from the class name and
+		package/directory as earlier) and subinterface is searched.
+		4. If the action is model driven, a properties file for the model class (using the model
+		name, class hierarchy, and interfaces as in steps 1, 2, and 3) is searched for.
+		5. The file package.properties is searched for in the action class’s directory and every
+		parent directory up to the class root directory.
+		6. The global resource property file is searched (specified using the struts.custom.
+		i18n.resources configuration property).
+		
+		Also we have to exteend ActionSuppor class to use internatiolazation.
+	-	The default locale is configured using the property struts.locale 
+		(either in the struts.properties or the struts.xml configurations files).
+
+	-	For each supported language, and language/locale pair, a new file is created. 
+	    For German, the file "FindUserAction_de.properties" would need to be created, 
+	    and for an Australian locale, the file "FindUserAction_en_Au.properties" would 
+	    need to be created. Each file contains the same key, with the text value 
+	    representing what is to be displayed to the user for the language and locale 
+	    that the file represents.
+
+	-	Example of the preperties file :
+
+		# COMMON ELEMENTS
+		# Buttons
+		button.register=Register
+		button.update=Update
+		# Links
+		link.register=Register
+		link.updateProfile=Update Profile
+		# SPECIFIC TEMPLATES
+		# index.jsp
+		home.title=Home
+
+	-	To internationatiolize the text Struts 2 use the "text" tag e.g. 
+		<title><s:text name="user.findUser.title" /></title>
+	-	Rather than using the label attribute, the key attribute is used. e.g.
+		<s:textfield key="user.firstname" name="firstName" />
+	-	Sometimes it's usefull to use another feature of internationalization:
+		via property tag e.g.
+		<s:property value="getText('user.findUser.title')" />
+
+[	Testing	   ]
+	-	To test application you'll need to use Jmock library. To add this library 
+		to the maven project use next strings:
+			<dependency>
+				<groupId>jmock</groupId>
+				<artifactId>jmock</artifactId>
+				<version>1.0.1</version>
+				<scope>test</scope>
+			</dependency>
+	-	Tip: Always think about the problem you are testing!
+
+[	SiteMesh	]
+	-	used decorators.xml file to set the decorators you are used. 
+	-	The decorator that SiteMesh selects is determined by the decorators.xml configuration file.
+		In this file, you can associate URL patterns, request parameters, or event browser agent information
+		with different decorator files. This mechanism makes SiteMesh extremely powerful.
+
+[	Theme	]
+
+	-	In views you could use the theme parameter and in that way the view will change. 
+	-	Theems from parent tags will be setted in the chield tags. 
+	-	To use theme write next:
+		<s:textfield name="name" theme="mytheme" />
+		
+		<s:form action="helloWorld" theme="mytheme">
+			<s:textfield label="What is your name?" name="name" />
+			<s:textfield label="What is the date?" name="dateNow" />
+			<s:submit />
+		</s:form>
+	-	To create a theme just create directory in root web application directory
+		the /template/< theme_name >. Then copy the original template from the 
+		Struts2 JAR file. It is common to use "simple" theme when creating your own 
+		theme
+	-	To use the new theme, a theme attribute with the value "new_theme"
+	-	To change the template rendering language, use the property struts.ui.templateSuffix, 
+		which can be modified in the struts.properties or the struts.xml configuration files.
+		You may use only one template language for all templates.
+[	Tesring struts applications.	]
+	Steps: 
+	1.	Create an instance of the class.
+	2.	Set any values on the action instance for the test case.
+	3.	Call the method that processes the logic for the action, which in most cases is the
+		execute()method.
+	4.	Verify that the result from step 3 is what is expected; usually this will be SUCCESS.
+	5.	Make sure that the state of the action is correct by verifying that values on the action
+		are what you are expecting.
+
+[	links	]
+
+	-	OGNL - http://www.ognl.org/
+	-	Struts2 ZCA - http://struts.apache.org/2.x/docs/annotations.html
+	-	Struts2 Tag refference - http://struts.apache.org/2.x/docs/tag-reference.html
+	-	CodeBehind Plugin - http://struts.apache.org/2.x/docs/codebehind-plugin.html.
+	-	Interceptor docs - http://struts.apache.org/2.x/docs/interceptors.html.
+	-	Type conversions - http://struts.apache.org/2.x/docs/type-conversion.html
+	-	JavaDocs for Struts2 - http://struts.apache.org/2.x/struts2-core/apidocs/org/apache/struts2/
+	-	Jetty + wiki - http://docs.codehaus.org/display/JETTY/Jetty+Wiki
+	// SiteMesh
+	-	SiteMesh http://www.opensymphony.com/sitemesh/
+	-	SiteMesh Tags - http://www.opensymphony.com/sitemesh/tags.html
+	// Security
+	-	Acegi - http://www.acegisecurity.org/
+	// testing
+	-	Jmock - http://www.jmock.org
+	-	Junit - www.junit.org
+	// Web testing
+	-	WebTest - http://webtest.canoo.com
+	-	Selenium - http://www.openqa.org/selenium/
+	-	HttpUnit - http://httpunit.sourceforge.net/
+	
+	
+[	Notes	]
+	+-	to build Struts2 in Java1.4
+	+->	Although there is a prerequirement of Java 5 to use Struts2,there is also another option.For those
+		projects that cannot move away from Java 1.4,a compatible version can be generated using the retrotrans
+		tor library(http://retrotranslator.sourceforge.net). Retrotranslator transforms Java 5 byte code
+		so that it can be run on a Java 1.4 JVM and supports all the Java 5 features used in Struts2.To build Struts2
+		for Java 1.4,the Maven2 command is mvn clean install -Papps,j4 -Djava14.jar="$JAVA_HOME/jre/lib/rt.jar"
+
+
+
+
+
+
+	
+	
+
+__________________________________________________________________________
+				cREated bY oLko fOr aNy uSe nAfr(c) 2008

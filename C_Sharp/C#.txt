@@ -1,0 +1,546 @@
+// 		Small C# documentation.
+
+[	Integer types	]
+
+Name 		CTS Type 								Description Range (min:max)
+________________________________________________________________________________
+sbyte 		System.SByte 							8-bit signed integer -128:127 
+short 		System.Int16 16-bit signed integer 		-32,768:32,767 
+int			System.Int32 32-bit signed integer 		-2,147,483,648:2,147,483,647 
+long 		System.Int64 64-bit signed integer 		-9,223,372,036,854,775,808:9,223,372,036,854,775,807
+byte 		System.Byte 8-bit unsigned integer 		0:255
+ushort 		System.UInt16 16-bit unsigned integer 	0:65,535
+uint 		System.UInt32 32-bit unsigned integer 	0:4,294,967,295
+ulong 		System.UInt64 64-bit unsigned integer 	0:18,446,744,073,709,551,615
+
+
+
+[	Float point types	]
+Name 	CTS Type 				Description 		Significant 	Range  
+													Figures         (approximate)
+________________________________________________________________________________
+float 	System.Single 32-bit 	single-precision 	7 				±1.5e-45 to ±3.4e38
+								floating point
+double 	System.Double 64-bit 	double-precision 	15/16 			±5.0e-324 to ±1.7e308
+								floating point
+
+[	The decimal type	]
+
+	-	Decimal is used for funancila calculations.
+	-	To specify that our number is of a decimal type rather than a double, float, or an integer, we can
+		append the M (or m) character to the value as shown in the following example:
+		decimal d = 12.30M;
+
+Name 	CTS Type 		Description 			Significant 	Range
+												Figures 		(approximate)
+________________________________________________________________________________
+decimal System.Decimal 	128-bit high precision 	28 				±1.0e-28 to ±7.9e28
+						decimal notation
+						
+
+[	The Boolean type	]
+	-	We cannot implicitly convert bool values to and from integer values. If a variable (or a function return
+		type) is declared as a bool, then we can only use values of true and false. We will get an error if we
+		try to use zero for false and a non-zero value for true.
+
+Name 	CTS Type 		Values
+________________________________________
+bool 	System.Boolean 	true or false
+
+
+
+[	The character type	]
+
+	-	For storing the value of a single character, C# supports the char data type:
+	
+Name 	CTS Type 		Values
+________________________________________________________________________________
+char 	System.Char 	Represents a single 16-bit (Unicode) character
+
+
+[	Escape characters	]
+\’ Single quote
+\” Double quote
+\\ Backslash
+\0 Null
+\a Alert
+\b Backspace
+\f Form feed
+\n Newline
+\r Carriage return
+\t Tab character
+\v Vertical tab
+
+
+[	Expressions    ]
+Expression  		Explanation
+a.b					accesses member b of type or namespace a
+a[b]				the value of index b in a
+(a)b				casts the value b to type a
+new a				creates an object of type a
+a + b				if a and b are string types, concatenates a and b
+a ? b : c			if a is true, returns the value of b, otherwise c
+a ?? b				if a is null, returns b, otherwise returns a
+
+
+[	Intrisic CTS Data type	]
+CTS Data Type 	VB .NET Keyword 	C# Keyword 			Managed Extensions for C++ Keyword		CLS compilant
+System.Byte 	Byte 				byte 				unsigned char
+System.SByte 	SByte 				sbyte 				signed char								No
+System.Int16 	Short 				short 				short
+System.Int32 	Integer 			int 				int or long
+System.Int64 	Long 				long 				__int64
+System.UInt16 	UShort 				ushort 				unsigned short							No
+System.UInt32 	UInteger 			uint 				unsigned int or unsigned long			No 	
+System.UInt64 	ULong 				ulong 				unsigned __int64						No
+System.Single 	Single 				float 				Float
+System.Double 	Double 				double 				Double
+System.Object 	Object 				object 				Object^
+System.Char 	Char 				char 				wchar_t
+System.String 	String 				string 				String^
+System.Decimal 	Decimal 			decimal 			Decimal
+System.Boolean 	Boolean 			bool 				Bool
+
+
+[	methods of System. DataTypes	]
+
+	-	Object methods : ToString.... 
+	-	Numerical : MaxValue, MinValue
+	-	Double: Epsilon, PositiveInfinity, NegativeInfinity.
+	-	Boolean: FalseString, TrueString
+	-	Char, String: IsDigit, IsLetter, IsWhiteSpace, IsLetterOrDigit, isPuctuation
+
+	-	Parse method give ability to generate a value from text representation of it.
+		bool.Parse("True"), double.Parse("99.884"), int.Parse("8"), char.Parse("w").
+
+
+[	Date and Time	]
+	-	for date maniplation used Class DateTime
+	-	for time manipulation used Class TimeSpan.
+	
+[	System.String Object	]
+
+	-	methods:
+	Length 			This property returns the length of the current string.
+	Contains() 		This method is used to determine if the current string object contains
+					a specified string.
+	Format()	 	This static method is used to format a string literal using other primitives
+					(i.e., numerical data and other strings) and the {0} notation examined earlier
+					in this chapter.
+	Insert() 		This method is used to receive a copy of the current string that contains
+					newly inserted string data.
+	PadLeft() 		These methods return copies of the current string that has been padded
+	PadRight() 		with specific data.
+	Remove() 		Use these methods to receive a copy of a string, with modifications
+	Replace() 		(characters removed or replaced).
+	Substring() 	This method returns a string that represents a substring of the current string.
+	ToCharArray() 	This method returns a character array representing the current string.
+	ToUpper() 		These methods create a copy of a given string in uppercase or lowercase.
+	ToLower()
+	Concat()		The same as + operator
+	==				Check if the string are equal this operator are iverrriden 
+					so you can use it for string comparision.
+	s[k]			This is indexer so you can can go thru the elements of the string
+					also possivle using of the "foreach(char c in s) {Console.WriteLine(c);}"
+					
+					
+[	Verbatim Strings	]
+	-	Verbattim strinf are strings which begins with the symbol '@'
+	-	Using verbatim strings, you disable the processing of a literal’s escape characters
+	
+	Example: 
+		Console.WriteLine(@"C:\MyApp\bin\debug");
+
+[	System.Text.StringBuffer	]	
+	-	String functinality basid i creating new duplicate of given string. 
+	-	StringBuffer gives you diect access to the string data and doesn't 
+		allocate addtional space in heap for string modification.
+		
+		
+[	Arrays	]
+	-	array declaations:
+		
+		string[] booksOnCOM;
+		booksOnCOM = new string[3];
+		
+		string[] booksOnDotNet = new string[100];
+		
+		int[] n = new int[] { 20, 22, 23, 0 };
+		
+		int[] n3 = { 20, 22, 23, 0 };
+		
+		int[] n2 = new int[4] { 20, 22, 23, 0 }; // 4 elements, {0 - 3}
+		
+	-	all array varibles are set to their default values.
+	-	Array as parameters
+		
+			static void PrintArray(int[] myInts)
+			{
+				...
+			}
+			static string[] GetStringArray()
+			{
+				...
+			}
+			...
+			int[] ages = {20, 22, 23, 0} ;
+			PrintArray(ages);
+			string[] strs = GetStringArray();
+	
+	-	Multi dimentional arrays :
+		
+		//	Rectamgular array: each row has the same length.
+
+		int[,] myMatrix;
+		myMatrix = new int[6,6];		
+		// Populate (6 * 6) array.
+		for(int i = 0; i < 6; i++)
+			for(int j = 0; j < 6; j++)
+				myMatrix[i, j] = i * j
+		
+		//	Jagged array: eacj row is an array
+		
+		int[][] myJagArray = new int[5][];
+		
+		for (int i = 0; i < myJagArray.Length; i++)
+			myJagArray[i] = new int[i + 7];
+			
+		for(int i = 0; i < 5; i++)
+		{
+			Console.Write("Length of row {0} is {1} :\t", i, myJagArray[i].Length);
+			for(int j = 0; j < myJagArray[i].Length; j++)
+			Console.Write(myJagArray[i][j] + " ");
+			Console.WriteLine();
+		}
+		
+	-	Array methods:
+
+		BinarySearch()	This static method searches a (previously sorted) array for a given item.
+						If the array is composed of custom types you have created, the type in
+						question must implement the IComparer interface to engage in a binary search.
+		Clear() 		This static method sets a range of elements in the array to empty values
+						(0 for value types; null for reference types).
+		CopyTo() 		This method is used to copy elements from the source array into the
+						destination array.
+		Length 			This read-only property is used to determine the number of elements
+						in an array.
+		Rank 			This property returns the number of dimensions of the current array.
+		Reverse() 		This static method reverses the contents of a one-dimensional array.
+		Sort() 			This method sorts a one-dimensional array of intrinsic types. If the
+						elements in the array implement the IComparer interface, you can also
+						sort your custom types.
+	
+	
+[	C# Nullable types.	]					
+	
+	-	To define a nullable variable type, the question mark symbol (?) is suffixed to the underlying
+		data type. NOTE you cannot imply this only to the ValueTypes.
+		
+		int? nullableInt = 10;
+		double? nullableDouble = 3.14;
+		bool? nullableBool = null;
+		
+	-	the symbol ? is a shorthand for creating a variable of the generic System.Nullable<T>
+	
+		public int? GetIntFromDatabase()
+		{ return numbericValue; }
+	-	System.Nullable has a few methods: 
+		HasValue	Checks if value not null, also possible use of "!= null" operator. 
+		Value		Returns value of System.Nullable
+
+[	Namespace  ]
+	-	If there is a need to use the same class but in different namespace
+		and you get an error because you are using the same namespaces in your programm 
+		use the alias functinality:
+			
+		using System;
+		using MyShapes;
+		using My3DShapes;
+
+		// Resolve the ambiguity using a custom alias.
+		using The3DHexagon = My3DShapes.Hexagon;
+
+		namespace MyApp
+		{
+			class ShapeTester
+			{
+				static void Main(string[] args)
+				{
+					// This is really creating a My3DShapes.Hexagon type.
+					The3DHexagon h2 = new The3DHexagon();
+				}
+			}
+		}
+		
+		also possible:
+		
+		using MyAlias = System.Runtime.Serialization.Formatters.Binary;
+		namespace MyApp
+		{
+			class ShapeTester
+			{
+				static void Main(string[] args)
+				{
+					MyAlias.BinaryFormatter b = new MyAlias.BinaryFormatter();
+				}
+			}
+		}
+	
+	-	Nested Namespaces:
+			
+		namespace Chapter3
+		{
+			namespace My3DShapes
+			{
+				// 3D Circle class.
+				class Circle{ }
+				
+		also possible :
+
+		namespace Chapter3.My3DShapes
+		{
+			// 3D Circle class.
+			class Circle{ }		
+		
+	
+[	Main method    ]
+	
+	public static void Main(string[] args)
+	{
+	}
+	// No return type, no arguments.
+	public static void Main()
+	{
+	}
+	// Integer return type, no arguments.
+	public static int Main()
+	{
+	}
+	
+[	.Net String formatters	]
+
+	C or c 			Used to format currency. By default, the flag will prefix the local cultural
+					symbol (a dollar sign [$] for U.S. English).
+	D or d 			Used to format decimal numbers. This flag may also specify the minimum
+					number of digits used to pad the value.
+	E or e 			Used for exponential notation.
+	F or f 			Used for fixed-point formatting.
+	G or g 			Stands for general. This character can be used to format a number to
+					fixed or exponential format.
+	N or n 			Used for basic numerical formatting (with commas).
+	X or x 			Used for hexadecimal formatting. If you use an uppercase X, your hex
+					format will also contain uppercase characters.static void Main(string[] args)
+	Example:
+		{
+		...
+		Console.WriteLine("C format: {0:C}", 99989.987);
+		Console.WriteLine("D9 format: {0:D9}", 99999);
+		Console.WriteLine("E format: {0:E}", 99999.76543);
+		Console.WriteLine("F3 format: {0:F3}", 99999.9999);
+		Console.WriteLine("N format: {0:N}", 99999);
+		Console.WriteLine("X format: {0:X}", 99999);
+		Console.WriteLine("x format: {0:x}", 99999);
+		}
+
+[	default values	]
+	- bool types are set to false.
+	- Numeric data is set to 0 (or 0.0 in the case of floating-point data types).
+	- string types are set to null.
+	- char types are set to '\0'.
+	- Reference types are set to null.
+	
+[	non-changeable variables	]
+	-	In C# all const marked variables are implicitly static. 
+		Also all const should by used as STATIC varibales and value should be 
+		known at compile time.
+	-	If you want to use such objects use "readonly" keyword
+
+
+[	Assigment	]
+	-	Assignment of value types results in a verbatim copy of each field.
+	-	Assignment of reference types copies the reference.
+	-	The internal references point to the same object!
+	-	Passing reference types by value locks the reference in place.
+	-	Passing reference types by reference allows the reference to be redirected.
+
+[	type of	]
+	-	checktype	-	if (o is MyPoint)
+	
+[	Enumerations	]
+	
+	enum EmpType
+	{
+		Manager, // = 0
+		Grunt, // = 1
+		Contractor, // = 2
+		VP // = 3
+	}
+	
+	enum EmpType
+	{
+		Manager = 102,
+		Grunt, // = 103
+		Contractor, // = 104
+		VP // = 105
+	}
+
+	enum EmpType
+	{
+		Manager = 10,
+		Grunt = 1,
+		Contractor = 100,
+		VP = 9
+	}	
+
+	enum EmpType : byte
+	{
+		Manager = 10,
+		Grunt = 1,
+		Contractor = 100,
+		VP = 9
+	}	
+	
+	-	Enum has a util class for working with the C# Enumerations: 
+		System.Enum:
+	Format() 			Converts a value of a specified enumerated type to its equivalent string
+						representation according to the specified format
+	GetName() 			Retrieves a name (or an array containing all names) for the constant in
+	GetNames() 			the specified enumeration that has the specified value
+	GetUnderlyingType() Returns the underlying data type used to hold the values for a given
+						enumeration
+	GetValues() 		Retrieves an array of the values of the constants in a specified
+						enumeration
+	IsDefined() 		Returns an indication of whether a constant with a specified value
+						exists in a specified enumeration
+	Parse() 			Converts the string representation of the name or numeric value of one
+						or more enumerated constants to an equivalent enumerated object
+
+		
+	
+	static void AskForBonus(EmpType e)
+	{
+		switch(e)
+		{
+		case EmpType.Contractor:
+		Console.WriteLine("You already get enough cash...");
+		break;
+		case EmpType.Grunt:
+		Console.WriteLine("You have got to be kidding...");
+		...
+		}
+	}		
+	
+	
+[	System.Object class	]
+	namespace System
+	{
+		public class Object
+		{
+			public Object();
+			public virtual Boolean Equals(Object obj);
+			public virtual Int32 GetHashCode();
+			public Type GetType();
+			public virtual String ToString();
+			protected virtual void Finalize();
+			protected Object MemberwiseClone();
+			public static bool Equals(object objA, object objB);
+			public static bool ReferenceEquals(object objA, object objB);
+		}
+	}
+
+//	OOP
+
+[	OOP		]
+	
+	-	Forwarding constructor call (the second constructor will call the previous):
+		
+		public Employee(string fullName, int empID, float currPay)
+		{
+			this.fullName = fullName;
+			this.empID = empID;
+			this.currPay = currPay;
+		}
+		// If the user calls this ctor, forward to the 3-arg version.
+		public Employee(string fullName)
+		: this(fullName, IDGenerator.GetNewEmpID(), 0.0F) { }
+
+[	method overloading	]
+	
+	-	Method overloading works only with functions parameter NOT RETURN PARAMETERS.
+
+[	inheritance		]
+
+	-	C3 have possibility to inherit form only one base class.
+	-	To inherit parent class just use semicolon symbol ':' then you should put the 
+		name if the base class and then you should put the names of interfaces to inherit from.
+	-	If you wna tot call the custom base class constructor use keyword "base"
+	
+		public Manager(string fullName, int age, int empID, float currPay, string ssn, ulong numbOfOpts)
+			: base(fullName, age, empID, currPay, ssn)
+		{
+			numberOfOptions = numbOfOpts;
+		}
+	-	To prevent inheritance you should use the sealed kesyword after acees modificator.
+		(same as Java "final" keyword in some cases)
+
+
+[	Containment/Delegation	]
+	
+	-	If an class has an bject inside it called containment/delegation method.
+	-	to use such object of contained class jus crete the method of class which will
+		use the object created or create a propertie which will take you accee ti hte object
+		inserted into class.
+
+[	encapsulation	]
+	-	Properties allow you to create custom setter and getter for your private methods.
+		Exmaple:
+		
+		private int mainId;
+		
+		public int ID {
+			set 
+			{ 
+			 	this.id = value;
+			}
+			get 
+			{
+				return this.id;
+			}
+		}	
+	-	Properties resolves to hidden methods set_XXX() and get_XXX() where XXX
+		is property name ).
+	-	Also you may chage the dafult visibility level of property get/set statements.
+		public int ID {
+			get (return this.id;)
+			protected set {this.id  = value;}
+		}
+	-	You can create read only or write inly property by creatign only one statement
+		or set or get statement.
+		public int ID  {
+			get {return this.id;}
+		}
+		
+	-	Static properties also possible to create. You just use them as static methods.
+	-	Static properties must operate on static data!
+	-	Also you have a possibility to create a static ctor it will takes no 
+		access modifiers and arguments.
+
+		public class Employee
+		{
+			...
+			static Employee()
+			{
+				companyName = "Intertech Training";
+			}
+		}
+	
+[	polymorphizm	]
+	
+
+
+
+
+
+	
+________________________________________________________________________________
+					cReated bY fRineds c0rp nAr(c) 2009

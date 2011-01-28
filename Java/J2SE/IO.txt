@@ -1,0 +1,12 @@
+// Note for Java IO system. 
+
+[	Buffered IO	   ]
+	-	When you use mark method the value you use in brakets used to specify
+		the amount of bytes. after reading that amount the mark will dissapear.
+
+
+[	misc	]
+	BufferedReader	-	Reader which reads data from file using memory Buffer
+
+________________________________________________________________________________						
+						2008 cReated bY fRiends cOrp nAr(c)

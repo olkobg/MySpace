@@ -1,0 +1,90 @@
+this is the small text file for helping JS Event Model
+
+
+[small issues]
+when usding java script used innerHTML function it should with "" + "" or in one row
+
+[main points]
+
+1. There are two models in Browser: DOM and IE
+2. There two Evenets flowing Bubling and catching (in both models)
+3. !!! The DOM model also have have text object in it's model and IE model doesn't have this.
+4. Script for event handle should be called after NOT BEFORE object creating.
+5. If you assign to onclick event it wont add it but it replace the existing. event.
+6. Don't forget to remove event listeners if you realy need that.
+
+
+
+
+[event Object]
+
+// only IE
+var oEvent = window.event;
+
+//DOM Browsers
+arguments[0] or as first parameter in fuction.
+//or
+var oDiv.onclick = function handleEv(oEvent) {
+	// some code with oEvent
+}
+
+//--  Similar to event object:
+//type
+var sType = oEvent.type; // you could handle a lot of events by one function and
+				// then chweck the type of the event. 
+// keyCode
+var iKeyCode = oEvent.keyCode;
+
+// detecting Alt, Ctrl, Shift
+var bShift = oEvent.shiftKey;
+var bAlt = oEvent.altKey;
+var bCtrl = oEvent.ctrlKey;
+
+//getting clients' coordinates Client area is area of internal window of the web page. 
+var iClientX = oEvent.clientX;
+var iClientY = oEvent.clientY;
+
+//Getting screeen coordinates whole screen of the PC Interface.
+var iScreenX = oEvent.screenX;
+var iScreenY = oEvent.screenY;
+
+//-- Difference
+
+// target it is a tag which thorws a event.
+// get target IE
+var oTarget = oEvent.srcElement;
+// DOM
+var oTarget = oEvent.target;
+
+//get character code IE
+var iCharCode = oEvent.keyCode;
+// DOM
+var iCharCode = oEvent.charCode();
+// also we can convert it into real character by next script:
+var sChar = String.fromCharCode(oEvent.charCode);
+// also we can check os there was thrown keyboard char code by next script:
+if (oEvent.isChar) {
+	var iCharCode = oEvent.charCode;	
+}
+
+// Preventing default behavior of the event:
+//IE
+oEvent.returnValue = false;
+// DOM
+oEvent.preventDefault();
+// we can use it when we want to prevent some useful functionality in browser 
+// e.g. contex menu or something else.
+
+//Stopping event bubling:
+// IE 
+oEvent.cancelBubble = true;
+// DOM
+oEvent.stopPropagation();
+
+// types of events. t be continued. :)
+
+//-- 
+
+
+
+cReated bY fRiends c0 nAr(C)

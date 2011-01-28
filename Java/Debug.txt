@@ -1,0 +1,23 @@
+[ remote debugging of java console Applications ]
+
+for debugging of the reemote applications
+use next string when running java applications.
+
+-Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005
+ // also you may use server debugging in such case. 
+
+
+
+[remote debugging of Java Server appcations Sample]
+
+set CATALINA_HOME=D:\java\tomcat
+set CATALINA_BASE=C:\dosdis\tomcat-mps
+set JRE_HOME=c:\JRE\jre1.5.0_06
+set JPDA_TRANSPORT=dt_socket
+set JPDA_ADDRESS=5060
+set JAVA_OPTS=-Dconfluence.home=C:\dosdis\tomcat-mps -Xmx512m
+%CATALINA_HOME%\bin\catalina jpda run
+
+
+__________________________________________________________
+		cReated bY fRiends c0 fOr uSe of aNy. 

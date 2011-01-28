@@ -1,0 +1,30 @@
+[	Misc	]
+
+	-	For some Classes you should always set the default values in constructors.
+
+	-	There are different libraries in Java to create graphic som of them:
+		*	AWT
+		* 	SWT
+		*	Swing
+
+
+[	tricks	]
+	-	Changing font of the selection
+		
+		StyleContext sc = new StyleContext();
+        DefaultStyledDocument dse = new DefaultStyledDocument(sc);
+        textarea2.setDocument(dse);
+
+        public void processBoldText( )
+		{
+			MutableAttributeSet mas = new SimpleAttributeSet();
+			StyleConstants.setBold(mas, true);
+			int offset = textarea2.getSelectionStart();
+			int end = textarea2.getSelectionEnd();
+			int length = end - offset;
+			dse.setCharacterAttributes(offset,length,mas,false);
+		}
+		
+		
+________________________________________________________________________________
+					cReated bY fRiends cOrp nAr(c)

@@ -1,0 +1,50 @@
+//    File used to hold knowledge about Generics in java
+
+
+
+[	Collection methods	]
+boolean add(Object)		- Ensures that the container holds the argument. Returns 
+						  false if it doesn’t add the argument. (This is an “optional”
+						  method, described later in this chapter.)
+
+boolean
+addAll(Collection)		- Adds all the elements in the argument. Returns true if any
+					      elements were added. (“Optional.”)
+
+void clear()			- Removes all the elements in the container. (“Optional.”)
+
+boolean
+contains(Object)		- true if the container holds the argument.
+
+boolean 
+containsAll(Collection)	- true if the container holds all the elements in the argument.
+
+boolean isEmpty( )		- true if the container has no elements.
+
+Iterator iterator( )	- Returns an Iterator that you can use to move through 
+						  the elements in the container.
+boolean
+remove(Object)			- If the argument is in the container, one instance of 
+						  that element is removed. Returns true if a removal 
+						  occurred. (“Optional.”)
+boolean 
+removeAll(Collection)	- Removes all the elements that are contained in the 
+						  argument. Returns true if any removals occurred. 
+						  (“Optional.”)
+boolean 
+retainAll(Collection)	- Retains only elements that are contained in the argument
+						  (an “intersection” from set theory). Returns true if 
+						  any changes occurred. (“Optional.”)
+
+int size( )				- Returns the number of elements in the container.
+
+Object[] toArray()		- Returns an array containing all the elements in the container.
+
+Object[]
+toArray(Object[] a)		- Returns an array containing all the elements in the 
+						  container, whose type is that of the array a rather than
+						  plain Object (you must cast the array to the right type).
+
+
+
+//          cReated bY fRiends cOrp nAr(c)

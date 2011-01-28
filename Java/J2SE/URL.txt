@@ -1,0 +1,8 @@
+ This is the file to store small info about using URL and URLConnection info
+
+	To get data by using such protocols as http ftp and ohers used classes
+	URL - to create URL bfot using above protocols and 
+	URL connection - to get data by using that protocols.
+	
+ 
+        cReated bY fRineds cOrp nAr(c)

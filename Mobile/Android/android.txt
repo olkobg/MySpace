@@ -1,0 +1,175 @@
+=====widgets=====
+
+  * TextView A standard read only text label. It supports multiline display, string formatting,
+    and automatic word wrapping.
+
+  * EditText An editable text entry box. It accepts multiline entry and word wrapping.
+
+  * ListView A View Group that creates and manages a group of Views used to display the items
+    in a List. The standard ListView displays the string value of an array of objects using a Text
+    View for each item.
+
+  * Spinner Composite control that displays a TextView and an associated ListView that lets you
+    select an item from a list to display in the textbox. It’s made from a Text View displaying the
+    current selection, combined with a button that displays a selection dialog when pressed.
+
+  * Button Standard push-button
+
+  * CheckBox Two-state button represented with a checked or unchecked box
+
+  * RadioButton Two-state grouped buttons. Presents the user with a number of binary options
+    of which only one can be selected at a time.
+    
+=====Layouts=====
+
+  * FrameLayout The simplest of the Layout Managers, the Frame Layout simply pins each child
+    view to the top left corner. Adding multiple children stacks each new child on top of the previous,
+    with each new View obscuring the last.
+  
+  * LinearLayout A Linear Layout adds each child View in a straight line, either vertically or horizontally.
+    A vertical layout has one child View per row, while a horizontal layout has a single row
+    of Views. The Linear Layout Manager allows you to specify a “weight” for each child View that
+    controls the relative size of each within the available space.
+  
+  * RelativeLayout Using the Relative Layout, you can defi ne the positions of each of the child
+    Views relative to each other and the screen boundaries.
+  
+  * TableLayout The Table Layout lets you lay out Views using a grid of rows and columns. Tables
+    can span multiple rows and columns, and columns can be set to shrink or grow.
+  
+  * AbsoluteLayout In an Absolute Layout, each child View’s position is defi ned in absolute coordinates.
+    Using this class, you can guarantee the exact layout of your components, but at a price.
+    Compared to the previous managers, describing a layout in absolute terms means that your layout
+    can’t dynamically adjust for different screen resolutions and orientations.
+
+
+=====Native android actions=====
+
+  * ACTION_ANSWER Opens an Activity that handles incoming calls. Currently this is handled by
+    the native phone dialer.
+  
+  * ACTION_CALL Brings up a phone dialer and immediately initiates a call using the number supplied
+    in the data URI. Generally, it’s considered better form to use the Dial_Action if possible.
+  
+  * ACTION_DELETE Starts an Activity that lets you delete the entry currently stored at the data
+    URI location.
+  
+  * ACTION_DIAL Brings up a dialer application with the number to dial prepopulated from the
+    data URI. By default, this is handled by the native Android phone dialer. The dialer can normalize
+    most number schemas; for example, tel:555-1234 and tel:(212) 555 1212 are both
+    valid numbers.
+  
+  * ACTION_EDIT Requests an Activity that can edit the data at the URI.
+  
+  * ACTION_INSERT Opens an Activity capable of inserting new items into the cursor specifi ed in
+    the data fi eld. When called as a sub-Activity, it should return a URI to the newly inserted item.
+  
+  * ACTION_PICK Launches a sub-Activity that lets you pick an item from the URI data. When
+    closed, it should return a URI to the item that was picked. The Activity launched depends on
+    the data being picked; for example, passing content://contacts/people will invoke the
+    native contacts list.
+  
+  * ACTION_SEARCH Launches the UI for performing a search. Supply the search term as a string
+    in the Intent’s extras using the SearchManager.QUERY key.
+  
+  * ACTION_SENDTO Launches an Activity to send a message to the contact specifi ed by the
+    data URI.
+
+  * ACTION_SEND Launches an Activity that sends the specifi ed data (the recipient needs to be
+    selected by the resolved Activity). Use setType to set the Intent’s type as the transmitted data’s
+    mime type.
+
+    NB: The data itself should be stored as an extra using the key EXTRA_TEXT or EXTRA_STREAM
+    depending on the type. In the case of e-mail, the native Android applications will also accept
+    extras using the EXTRA_EMAIL, EXTRA_CC, EXTRA_BCC, and EXTRA_SUBJECT keys.
+  
+  * ACTION_VIEW The most common generic action. View asks that the data supplied in the
+    Intent’s URI be viewed in the most reasonable manner. Different applications will handle view
+    requests depending on the URI schema of the data supplied. Natively, http: addresses will
+    open in the browser, tel: addresses will open the dialer to call the number, geo: addresses
+    are displayed in the Google Maps application, and contact content will be displayed in the
+    Contact Manager.
+  
+  * ACTION_WEB_SEARCH Opens an activity that performs a Web search based on the text supplied
+    in the data URI.
+  
+
+=====Intent Filters=====
+  * Using the following tags (and associated attributes) within the Intent Filter node, you 
+    can specify a component’s supported actions, categories, and data:
+    * action Use the android:name attribute to specify the name of the action being serviced.
+    Actions should be unique strings, so best practice is to use a naming system based on the Java
+    package naming conventions.
+    * category Use the android:category attribute to specify under which circumstances
+      the action should be serviced. Each Intent Filter tag can include multiple category tags. You
+      can specify your own categories or use the standard values provided by Android and listed
+      below:
+      * ALTERNATIVE As you’ll see later in this chapter, one of the uses of Intent Filters is to
+        help populate context menus with actions. The alternative category specifi es that
+        this action should be available as an alternative to the default action performed on an
+        item of this data type. For example, where the default action for a contact is to view it,
+        the alternatives could be to edit or delete it.
+      * SELECTED_ALTERNATIVE Similar to the alternative category, but where Alternative
+        will always resolve to a single action using the Intent resolution described below,
+        SELECTED_ALTERNATIVE is used when a list of possibilities is required.
+      * BROWSABLE Specifi es an action available from within the browser. When an Intent is
+        fi red from within the browser, it will always specify the browsable category.
+      * DEFAULT Set this to make a component the default action for the data values defi ned
+        by the Intent Filter. This is also necessary for Activities that are launched using an
+        explicit Intent.
+      * GADGET By setting the gadget category, you specify that this Activity can run embedded
+        inside another Activity.
+      * HOME The home Activity is the fi rst Activity displayed when the device starts (the
+        launch screen). By setting an Intent Filter category as home without specifying an
+        action, you are presenting it as an alternative to the native home screen.
+      * LAUNCHER Using this category makes an Activity appear in the application launcher.
+    * data The data tag lets you specify matches for data your component can act on; you can
+    include several schemata if your component is capable of handling more than one. You can
+    use any combination of the following attributes to specify the data that your component
+    supports:
+    * android:host Specifi es a valid host name (e.g., com.google).
+    * android:mimetype Lets you specify the type of data your component is capable of
+    handling. For example, <type android:value=”vnd.android.cursor.dir/*”/>
+    would match any Android cursor.
+    * android:path Valid “path” values for the URI (e.g., /transport/boats/)
+    * android:port Valid ports for the specifi ed host
+    * android:scheme Requires a particular scheme (e.g., content or http).
+    
+    =====SQL ite =====
+    
+    grab tha db from mobile emulator 
+    adb pull /data/data/com.android.providers.contacts/databases/contacts.db c:/somelocaldir/contacts.db
+    
+    =====content Provider==========
+    
+    you can provide your conetent provider thru Android manifest file 
+    like this
+    
+    from android applications to call an provide we should use string like
+      content://*/*/.../
+    
+    <provider android:name="SomeProvider" 
+      android:authorities="com.your-company.SomeProvider" 
+    />
+    <provider android:name="NotePadProvider"
+      android:authorities="com.google.provider.NotePad"
+    />
+
+    examples of used content providers
+    
+    content://media/internal/images
+    content://media/external/images
+    content://contacts/people/
+    content://contacts/people/23
+    
+    
+    ===== Intent =====
+    available intents - http://developer.android.com/guide/appendix/g-app-intents.html
+
+    
+
+    
+    
+=====Links=====
+  UI       - http://developer.android.com/guide/topics/ui/index.html
+  Layouts  - http://developer.android.com/guide/topics/ui/declaring-layout.html

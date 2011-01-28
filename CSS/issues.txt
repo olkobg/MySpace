@@ -1,0 +1,30 @@
+this is the file about small issues of the stylesheets.
+
+
+[	common issues	]
+	1.	if elements stayed in wrong possition try to use different float
+		values (default float value is "none"); left is prefferred.
+
+	2.  Elements in menu when using hover :) should be carefully investigated 
+		because in Ie everything right and in FF none.
+
+[	issues IE	]
+	
+	1.	Sometimes height and padding because they calculaet same valuye
+		 and other parameters could conflict.
+    2.  Table issues are realy heavy check the  width of the table.
+    	possible resolve: 
+    	-	check the inner elements value.
+    	-   check the outer elements value.
+    3.  If use in Internet explorer hover it doesn't work in IE6
+    4.  If hidden input element in the td variable the css properties of it can 
+    	be changed.
+    5.
+[	list issues	]
+	1.[FF] if in vertical list values show below marker check the a tag for 
+				 display property 
+	2.[IE] if first list element of list show without marker wrong. check the ul 
+				 border parameter. 
+
+[	issues with Mozilla		]
+	1. 	today none.

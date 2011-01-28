@@ -1,0 +1,71 @@
+light box for jquery
+
+How ot use
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.4.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.4.css" media="screen" />
+
+<a href="image1.jpg"><img src="thumb_image1.jpg" width="72" height="72" alt="" /></a>
+
+<script type="text/javascript">
+$(function() {
+	// Use this example, or...
+	$('a[@rel*=lightbox]').lightBox(); // Select all links that contains lightbox in the attribute rel
+	// This, or...
+	$('#gallery a').lightBox(); // Select all links in object with gallery ID
+	// This, or...
+	$('a.lightbox').lightBox(); // Select all links with lightbox class
+	// This, or...
+	$('a').lightBox(); // Select all links in the page
+	// ... The possibility are many. Use your creative or choose one in the examples above
+});
+</script>
+
+Extend
+Settings
+
+jQuery lightBox plugin has some configurations that you can define when call it. With that configurations you can customize your jQuery lightBox plugin.
+
+The configurations available are:
+
+    * overlayBgColor - Used to define the overlay background color. #000 (black) is default.
+    * overlayOpacity - Used to define the overlay opacity. 0.8 is default.
+    * imageLoading - The loading gif animator. images/lightbox-ico-loading.gif is default.
+    * imageBtnClose - The close image button. images/lightbox-btn-close.gif is default.
+
+Configurations added in 0.3 version:
+
+    * imageBtnPrev - The previous image button. images/lightbox-btn-prev.gif is default.
+    * imageBtnNext - The next image button. images/lightbox-btn-next.gif is default.
+    * containerBorderSize - The padding CSS information used in the container image box. 10 is default.
+    * containerResizeSpeed - The duration of resize effect in the container image box. 400 is default.
+    * txtImage - Text "Image" used in the image caption.
+    * txtOf - Text "of" used in the image caption.
+
+Configurations added in 0.4 version:
+
+    * imageBlank - The image blank for trick Internet Explorer into showing hover. images/lightbox-blank.gif is default.
+    * keyToClose - The key to close the lightBox. Letter c (close) is default.
+    * keyToPrev - The key to show the previous image. Letter p (previous) is default.
+    * keyToNext - The key to show the next image. Letter n (next) is default.
+
+Example.
+
+<script type="text/javascript">
+$(function() {
+   $('a[@rel*=lightbox]').lightBox({
+	overlayBgColor: '#FFF',
+	overlayOpacity: 0.6,
+	imageLoading: 'http://example.com/images/loading.gif',
+	imageBtnClose: 'http://example.com/images/close.gif',
+	imageBtnPrev: 'http://example.com/images/prev.gif',
+	imageBtnNext: 'http://example.com/images/next.gif',
+	containerResizeSpeed: 350,
+	txtImage: 'Imagem',
+	txtOf: 'de'
+   });
+});
+</script>
+

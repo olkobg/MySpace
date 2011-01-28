@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>Some Training Web Page.</title>
+    </head>
+    <body>
+    <script type="text/javascript">
+//        
+//     Inheritance usage in JavaScript.
+//    
+//        /**
+//         * ClassA testing class.
+//         * @param {Object} sColor
+//         */
+//        function ClassA (sColor) {
+//            this.color = sColor;            
+//        }
+//        ClassA.prototype.sayColor = function () {
+//            alert("The color is " + this.color);        
+//        }
+//        
+//        /**
+//         * ClassB
+//         */
+//        function ClassB(sColor,sName) {
+//            ClassA.call(this,sColor);
+//            this.name = sName;
+//        }
+//        ClassB.prototype = new ClassA();
+//        ClassB.prototype.sayName = function () {
+//            alert("the name is " + this.name);
+//        }
+//        
+//        objA = new ClassA("red");
+//        objB = new ClassB("blue", "Nicolas");
+//        objA.sayColor();
+//        objB.sayColor();
+//        objB.sayName();
+        
+        /*
+         * One more sample to object inheritance. 
+         */
+//        function Polygon (iSides) {
+//            this.sides = iSides;
+//            if (typeof Polygon._initalized == "undefined") {
+//                Polygon.prototype.getArea = function () {
+//                    return 0;
+//                };
+//                Polygon._initalized = true;
+//            }
+//        }
+//        
+//        function Triangle(iBase, iHeight) {
+//            Polygon.call(this, 3);
+//            this.base = iBase;
+//            this.height = iHeight;
+//            
+//            if (typeof Triangle._initialized == "undefined") {
+//                Triangle.prototype.getArea = function () {
+//                    return 0.5 * this.base * this.height;
+//                };
+//            }
+//            Triangle._initialized = true;
+//        }
+//        // must only be here because of JavaScript issue. 
+//        Triangle.prototype = new Polygon();
+//        var objT = new Triangle(4,5);
+//        alert(objT.getArea());
+        
+        // testing for vetal 
+
+//              function checkValue(f) {
+//                  var check1 = isNaN(f.value);
+//                  var check2 = parseInt(f.value) > 0xFFFFFFFF;
+//                  alert("check1 "+ check1+ "check2 "+ check2); 
+//              if(check1 || check2) {
+//                alert("Please correct Target value");
+//                 return false;
+//                } 
+//                
+//              }
+//  
+       /**
+        * RegExp JavaScript training. from Nicolass Zacckas book.
+        */
+//		
+//		initializing regExp Object.
+//		var regexp = new RegExp("cat", "g");
+//		var reCat = /cat/gi;
+//		
+//		// first training
+//		var sToMatch = "cat";
+//		reCat = /cat/;
+//		alert("1st =" + reCat.test(sToMatch));
+//		
+		//--------------- 2nd
+//		var sToMatch = "a bat, a cat, a fAt, a fat caT";
+//		var reAt = /at/g;
+//		var arrMatches = reAt.exec(sToMatch);
+//		document.writeln("some useful text");
+
+		// -----------3rd
+//		
+//		var sToMatch = "a bat, a Cat, a fAt baT, A faT cat";
+//		var regular = new RegExp("a(t)","gi");
+//		var i = 0;
+//		var str;
+//		while ((str = regular.exec(sToMatch))) {
+//			i++;
+//			alert(i + "= " + str);
+//		}
+
+		//-----------------4th
+//		var sToChange = "The sky is red.";
+//		var reRed = /red/;
+//		alert(sToChange.replace(reRed,"blue")); //must out put the sky is blue;
+
+		// ------------ 5th
+		
+//		var sToFind = "a bat, a Cat, a fAt baT, A faT cat";
+//		var regex = /[bcf]at/gi;
+//		var arrMatches = sToFind.match(regex);
+//	 	alert("all done");
+
+
+		//------------------- 6th used with unicode
+//		var sToFind = "a bat, a Cat, a fAt baT, A faT cat";
+//		var regex = /[\u0062cf]at/gi;
+//		var arrMatches = sToFind.match(regex);
+//	 	alert("all done");
+
+
+		//------------------- 7th training. classes of characters.
+//		var sToMatch = "num1 num2 num3 num4 num5 num6 num7 num8 num9";
+//		var reOneToFour = /num[1-4]/g;
+//		var arrMatches = sToMatch.match(reOneToFour);
+//		alert(arrMatches[0] + " " + arrMatches[1]);
+
+		//----------------- 8th training
+//		re = /.*bbb/g; // reluctant quzantifier
+//		alert(
+//			"a " + re.test("a") + "\n" + 
+//			"ab " + re.test("ab") + "\n" +
+//			"abb " + re.test("abb") + "\n" +
+//			"abbb " + re.test("abbb") + "\n" +
+//			"aa " + re.test("aa") + "\n" +
+//			"aab " + re.test("aab") + "\n" +    
+//			"aabb " + re.test("aabb") + "\n" +
+//			"aabbb " + re.test("aabbb") + "\n" +
+//			"aaa " + re.test("aaa") + "\n" +
+//			"aaab " + re.test("aaab") + "\n" +
+//			"aaabb " + re.test("aaabb") + "\n" +
+//			"aaabbbb " + re.test("aaabbb") + "\n" +
+//			+ "----------------------------------- \n" +
+//			"a " + re.test("a") + "\n" + 
+//			"ab " + re.test("ab") + "\n" +
+//			"abb " + re.test("abb") + "\n" +
+//			"abbb " + re.test("abbb") + "\n" +
+//			"aa " + re.test("aa") + "\n" +
+//			"aab " + re.test("aab") + "\n" +    
+//			"aabb " + re.test("aabb") + "\n" +
+//			"aabbb " + re.test("aabbb") + "\n" +
+//			"aaa " + re.test("aaa") + "\n" +
+//			"aaab " + re.test("aaab") + "\n" +
+//			"aaabb " + re.test("aaabb") + "\n" +
+//			"aaabbbb " + re.test("aaabbb") + "\n" +
+//		"ebd");
+
+		//------------9th
+//		var re = /([bd]ad?)*/g // matchs ba da dad bad
+//		String.prototype.trim = function() {
+//			var re = /^\s+(.*?)\s+$/;
+//			return this.replace(re, "$1");
+//		}
+//		var strlk = "   Boring  ";
+//		alert("without  trim "+ "[" + strlk + "]" + "with trim" + "[" +strlk.trim() +"]");
+		
+		
+		//---------------------10th 
+//		var sToMatch = "dogdog";
+//		var reDogDog = /(dog)\1/;
+//		alert(reDogDog.test(sToMatch));
+//		
+//		var sToChange = "1234 5678";
+//		var reMatch = /(\d{4}) (\d{4})/;
+//		var sNew = sToChange.replace(reMatch,"$2 $1");
+//		alert(sNew);
+		
+		//--------------------------11 th
+//		var sToMatch1 = "red";
+//		var sToMathc2 = "black";
+//		var reRedOrBlack = /(red|black)/;
+//		alert(reRedOrBlack.test(sToMatch1)+ '\n'+
+//		reRedOrBlack.test(sToMathc2));
+
+		//------------------------------------12th
+//		var reBadWords = /badword|anotherbadeord/gi;
+//		var sUserInput = "This is the string using badword1  and badword2.";
+//		var sFinalText = sUserInput.replace(reBadWords,"****");
+//		alert (sFinalText);
+
+		//------------------------------------13th
+		// This example replaces bad words with number of asterisks.
+//		var reBadWords = /badword|anotherbadeord/gi;
+//		var sUserInput = "This is the string using badword1  and badword2.";
+//		var sFinalText = sUserInput.replace(reBadWords,function(sMatch) {
+//			return sMatch.replace(/./g,"*");
+//		});
+//		alert(sFinalText);
+		
+		//--------------------------------------14th
+		// Expression to use with toparse text of tegs.
+		// Function to remove tags included in text
+//		String.prototype.stripHTML = function () {
+//			var reTag = /<(?:.|\s)*?>/g;
+//			return this.replace(reTag,"");
+//		}
+//		var sTest = "<b> This would be bold</b>";
+//		alert(sTest.stripHTML());
+		//---------------------------------15th
+//		var sToMatch1 = "bedroom";
+//		var sToMatch2 = "bedding";
+//		var reBed = /(bed(?=room))/;
+//		alert(reBed.test(sToMatch1) + "\n" +
+//		RegExp.$1 + "\n" + 
+//		reBed.test(sToMatch2));
+
+		//--------------------------16th
+//		var sToMatch1 = "bedroom";
+//		var sToMatch2 = "bedding";
+//		var reBed = /(bed(?!room))/;
+//		alert(reBed.test(sToMatch1) + "\n" +
+//		reBed.test(sToMatch2) + "\n" +
+//		RegExp.$1);
+
+		//---------------------------17th
+//		var sToMatch = "Important is the last one.";
+//		var reLastWord = /(\w+)\.$/;
+//		reLastWord.test(sToMatch);
+//		alert(RegExp.$1); //must putputs true
+
+		//----------------------- 18th
+//		var sToMatch = "Important is the last one.";
+//		var reFirstWord = /^(.+?)\b/;
+//		reFirstWord.test(sToMatch);
+//		alert(RegExp.$1);
+
+		//--------------------- 19th
+//		var sToMatch = "First second third fourth fifth sixth";
+//		var reWords = /\b(\S+?)\b/g;
+//		var arrWords = sToMatch.match(reWords);
+//		document.write("some info");
+		
+		
+		//---------------the same as previous
+//		var sToMatch = "First second third fourth fifth sixth";
+//		var reWords = /(\w+)/g;
+//		var arrWords = sToMatch.match(reWords);
+//		alert("some info");
+		
+		//-----------------the 20th		
+//		var sToMatch = "bbg is short for barbeqube";
+//		var reB = /b/g;
+//		reB.exec(sToMatch);
+//		alert(reB.lastIndex);
+//		reB.exec(sToMatch);
+//		alert(reB.lastIndex);
+//		reB.exec(sToMatch);
+//		alert(reB.lastIndex);
+//		reB.exec(sToMatch);
+//		alert(reB.lastIndex);
+//		reB.lastIndex = 0;
+//		reB.exec(sToMatch);
+//		alert(reB.lastIndex);
+
+		//------------------21st
+//		var sToMatch = "this has been a short, short summer";
+//		var reShort = /(s)hort/g;
+//		reShort.test(sToMatch);
+//		alert(RegExp.input);
+//		alert(RegExp.leftContext);
+//		alert(RegExp.rightContext);
+//		alert(RegExp.lastMatch);
+//		alert(RegExp.lastParen);
+
+		//------------------22nd
+//		var sToMatch = "this has been a short, short summer";
+//		var reShort = /(s)hort/g;
+//		reShort.test(sToMatch);
+//		alert(RegExp.$_);
+//		alert(RegExp["$`"]);
+//		alert(RegExp["$'"]);
+//		alert(RegExp["$&"]);
+//		alert(RegExp["$+"]);		
+		
+		//--------------------23
+		// simple date parsing.
+		function isDateValid(date){
+		  var reDate = /(?:19|20\d{2})-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12][0-9]|3[01])/;
+		  return reDate.test(date);
+		}
+		alert(isDateValid("2007-12-15"));
+    </script>
+
+<!--
+  <input type="text" name="text" onchange="checkValue(this)">
+-->
+    
+    
+    </body>
+</html>

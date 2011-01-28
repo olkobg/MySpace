@@ -1,0 +1,12 @@
+// JavaScript objects
+[	associative arrays	]
+	-	Quick creation and using of associtiative array:
+			var myArray = {abc: 200, "x y z": 300};
+			for(key in myArray)
+			{
+			   alert("key " + key
+			         + " has value "
+			         + myArray[key]);
+			}
+________________________________________________________________________________
+										cReated fRiends c0rp.

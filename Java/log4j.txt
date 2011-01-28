@@ -1,0 +1,13 @@
+//             is used for small documentation on log4j.
+
+[	URL   ]
+	*	http://wiki.apache.org/logging-log4j/
+    *   http://supportweb.cs.bham.ac.uk/documentation/tutorials/docsystem/build/tutorials/log4j/log4j.html
+    *   http://logging.apache.org/log4j/
+
+[	configuration 	]
+
+	*	may beperformed via properties file or via Xml file
+
+
+//          cReated bY fRiends cOrp nAr(c)

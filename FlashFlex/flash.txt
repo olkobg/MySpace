@@ -1,0 +1,9 @@
+
+
+[	Isuses	]
+	-	To put div tag over Flash use next:
+
+		You can do it by placing
+		<param name="wmode" value="transparent">
+		in your Flash area. You will also need to add
+		wmode="transparent" 

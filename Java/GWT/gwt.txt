@@ -1,0 +1,30 @@
+Google Web Toolkit used for generating javascript functionality...
+
+
+[	Entry point	]
+
+	-	main entry point - onModuleLoad();
+
+[	Internationalization	]
+	-	there are 3 tehniques to internazionalize... 
+			
+			-	Static String Int...   use properties files
+			-	Dynamic String int...     use look for localized strings in host module page
+			-	Localizable interface...  create localized version of custom types.
+
+[	applying style	]
++------------------------------+---------------------------+--------------------+
+| Type of element              | HTML Tag                  | CSS Selector       |
++------------------------------+---------------------------+--------------------+
+|Buttons in static HTML and    | <button>                  | button             |
+|GWT-generated buttons         |                           |                    |
++------------------------------+---------------------------+--------------------+
+|Only GWT generated buttons    |<button class="gwt-Button">| button.gwt-Button  |
++------------------------------+---------------------------+--------------------+
+|Only my special GWT-generated |<button class="gwt-Button  | button.my-button   |
+|button                        |    my-button">            |                    |
++------------------------------+---------------------------+--------------------+
+
+
+________________________________________________________________________________
+												fRiends c0.

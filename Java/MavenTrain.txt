@@ -1,0 +1,131 @@
+This File created to describe small using of Maven 2. 
+
+[ common descriptions of projects ] 
+
+	*	Standard directory structure: Each project that uses Maven2 will have the same directory
+		structure; this makes it easier when developers are working across multiple projects.
+
+	*	Plug-in architecture:Each function of Maven2 is performed by a plug-in, whether the
+		function is compiling classes or deploying the site. If a feature is being used for the first
+		time, the plug-in will be downloaded from a common repository; you no longer need to
+		manually obtain all the parts before starting work.
+
+	*	Dependency management:When dependencies are described in the Maven2 configura-
+		tion file, they will be accessed from a local repository or downloaded to the local
+		repository during the build process (just as the core Maven2 functionality is). As well as
+		the explicitly configured dependency, the transitive dependencies are managed and
+		downloaded as necessary.
+
+	*	Scope management:The final distribution package contains only the elements required.
+		Test code and dependencies that arenot needed (or provided byapplication servers) in
+		the final package areleft out.
+
+	*	Archetypes:The archetype plug-in allows developers to create a default implementation
+		template for a project category. This is then used to quickly create a new project with-
+		out the need for creating the common directory structure, creating the configuration
+		files, and coding default classes and tests from scratch.
+
+
+[ default project flow (life cycle) of maven 2 projects.	]
+
+	*	validate:Verifies that all needed resources are available.
+	*	compile:Compiles the source code for the project.
+	*	test-compile:Compiles the source code for any tests within the project.
+	*	test:Runs unit tests from the project using an applicable testing framework. These tests
+		should not require the code to be packaged or deployed.
+	*	package:Packages the compiled code and resources into a distributable format.
+	*	integration-test:Deploys the packaged project into an environment where any 
+		integration tests can be run and executes any integration tests.
+	*	install:Installs the packaged project into a local repository so that other projects may
+		use it.
+	*	deploy:Deploys the package into a remote repository to share with other developers
+		and projects.
+	*	clean: lifecyle removes the build directory, along with any other configured directories
+		to restore the state of the project to a baseline.
+	*	site: Run the Reports configured for a project, rendering HTML documents.
+	*	site-deploy:Deploys the HTML reports to a configured web server.
+		
+	// Note complete listing : http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html.
+	
+[	scopes of targets 	]
+	*	compile:This is the default scope (the struts2-coreartifact uses this scope because no
+		other was provided), and these dependencies are available on all classpaths. Any
+		dependency with compile scope will be packaged with the final artifact.
+	*	provided:The dependency will be provided by the JDK or the application server at run-
+		time. It is required for compilation but will not be packaged in the application.
+	*	runtime:The dependency is not required for compilation but is required to run the
+		application. It will be available only on the runtime classpath and the test classpath.
+	*	test:The dependency is only required for testing and will be available on the test class-
+		path and the runtime classpath.
+	*	system:The dependency is always available (you need to provide the JAR file) and is not
+		retrieved via a repository lookup.
+
+
+[	Configuring different plugins	]
+	// Jetty
+	-	Addding the UserRealms to the servrer configuration Posible inimplementations:
+		* simple	- HashUserRealm class
+		* JAAS (Java Authentication and Authorization Service) - JAASUserRealm class
+		* JDBC 	-	using the JDBCUserRealm class. 
+		HashUserRealm class require additional parameters: 
+			name: The unique name of the security realm that is being configured; 
+			the name selected must exactly match the name configured in the web.xml
+			configuration file (shown in the next section).
+			config: The name and location of the property file that contains 
+			authentication information for the users; 
+			In config file users heve to be added in next way:
+			Username: password [,rolename]
+		
+[	repository 	]
+
+	-	somtimes we need to use other maven repository. for example we when we
+		wanted to use hibernate we shoud add JBoss repository. 
+		A new repositories tag is added under the top-level project tag, which in
+		turn contains a repository tag with an id tag (providing a unique identifier) and a url tag
+		(that supplies the URL of the repository).
+	-	Exmple of adding such repository into 'pom.xml' : 
+			<project>
+				…
+				<repositories>
+					<repository>
+						<id>jboss</id>
+						<url>http://repository.jboss.com/maven2</url>
+					</repository>
+				</repositories>
+			<project>
+
+	-	form of the command to add library into the repository :)
+	
+			mvn install:install-file -DgroupId=<groupId>
+			-DartifactId=<artifactId>
+			-Dversion=<version>
+			-Dpackaging=jar -Dfile=</path/to/file>
+	
+[	Exapmles of using	]
+
+$:> mvn archetype:create
+	-DgroupId=com.fdar.apress.s2
+	-DartifactId=app
+	-DarchetypeGroupId=org.apache.struts
+	-DarchetypeArtifactId=struts2-archetype-starter
+	-DarchetypeVersion=2.0.9-SNAPSHOT
+	-DremoteRepositories=http://people.apache.org/maven-snapshot-repository
+desc: 
+	creates new empty project values "groupId" and "c" setted manualy.
+	groupId - value used to set application start directory
+	artifactId - base name of the application (such name will be crated in current directory)
+
+$:> mvn jetty:run	-	Run application by using Jetty container.
+	// should be run from project directory.
+
+
+$:> mvn install:install-file -DgroupId=org.hibernate å
+	-DartifactId=hibernate-annotationså
+	-Dversion=3.2.1.ga -Dpackaging=jar -Dfile=hibernate-annotations.jar
+desc: 
+	installs new library into repositoty with current parameters.
+
+[page stayed]
+16.06.2008 - 204 (in Acrobat reader)
+_______________________________________________________________
+				cReated bY fRiends nAr(c) 2008 

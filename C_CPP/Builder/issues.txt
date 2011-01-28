@@ -1,0 +1,19 @@
+// Created to not repeat routine.... 
+
+
+
+
+
+[	tricks	]
+
+	-	Convert AnsiString into char*
+	
+		String str;
+		char text[nn]
+		str="12345";
+		strcpy(txt,str.c_str());
+		
+
+		
+________________________________________________________________________________
+                            fRineds c0rp. nAr(c)

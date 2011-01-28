@@ -1,0 +1,13 @@
+// File used for dtoringfocumentationn about C++ language.
+
+[	Pointers and refferances	]
+	
+	-	refferences work as pointers instead pointer couldn change value 
+		they are pointed to. 
+
+[	links	]
+
+	-	Video tutors for c++ - http://xoax.net/
+	-	Another help - http://www.parashift.com/c++-faq-lite/
+________________________________________________________________________________
+	

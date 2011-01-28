@@ -1,0 +1,30 @@
+[   css image preloading    ]
+
+    a { background: url(image_hover.gif); }
+    a:link { background: url(image_default.gif); }
+    a:hover,
+    a:focus { background: url(image_hover.gif); }
+---------------------------------------------------------
+    #menu a {
+        background: url("button.gif") top left no-repeat;
+        }
+    #menu a:hover {
+        background-image: url("button-over.gif");
+        }
+    #menu a:active {
+        background-image: url("button-active.gif");
+        }
+----------------------------------------------------------
+http://www.addedbytes.com/css/preloading-images-with-css/
+----------------------------------------------------------
+
+[   minimal height for element  ]
+    
+    min-height: 800px;
+    height: auto !important;
+    height: 800px;
+    
+[   sub menu with pure Css  ]
+
+  li ul {display: none;} 
+  li:hover > ul {display: block;} 

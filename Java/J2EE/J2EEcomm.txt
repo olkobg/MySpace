@@ -1,0 +1,22 @@
+// This is the file for small documnetation dedicated to common info about J2EE
+
+[	Beans	]	
+	-	J2EE has a posibiliti to store information for web applicayion in Java 
+		Beans (JB). 
+	-	There are 3 scopes of such beans: request, session and application.
+		request: used to store information during performing request. For ex. 
+				 if you use forward the informatiob stored in request scoped JB 
+				 will be passed to forwarded page. 
+
+		session: informatiob for that JB will be stored for all time of the 
+			     session of web aaplication. For a paticular user it will be 
+			     different.
+			     
+	 	application: In that case the information will be available during the 
+	 				 Java Web application running.
+				
+		 
+
+
+________________________________________________________________________________			
+				     2008 cReated bY fRiends c0 nAr(c)

@@ -1,0 +1,25 @@
+
+[	Random number geberation	]
+this is not code, just want the alignment
+
+	random(6)                     => 0 - 5
+	
+	Math.random()                 => 0 - .9999
+	
+	Math.random()*6               => 0 - 5.9999
+	
+	Math.floor(Math.random()*6)   => 0 - 5 (integers)
+	
+	Math.floor(Math.random()*6)+1 => 1 - 6 (integers)
+	Note that the +1 happens after the floor.
+	
+	Math.ceil(Math.random())      => 0 - 1 (integers) 
+	with a very-very low chance of getting zero
+	
+	Math.ceil(Math.random()*6)    => 0 - 6 (integers)
+	with a very-very low chance of getting zero
+
+
+[	site with flash tricks	]
+
+http://blog.deconcept.com/2005/03/31/proper-flash-embedding-flashobject-best-practices/

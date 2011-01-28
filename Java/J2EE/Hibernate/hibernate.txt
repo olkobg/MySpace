@@ -1,0 +1,38 @@
+// File is a small dovcumnetation for Hibernate
+
+[	properties	]
+
+
+// Database-Specific Properties
+	-	hibernate.dialect The dialect tells Hibernate how to construct SQL and DDL
+	(Data Definition Language) statements for a specific database server.
+	-	hibernate.connection.driver_class This is the JDBC (Java Database Connectivity) driver class
+	that is used to connect to the database server.
+	-	hibernate.connection.url The URL that provides the location of the specific database
+		or schema for the application.
+	-	hibernate.connection.username The username that the application will connect to the
+	database server as.
+	-	hibernate.connection.password The password of the user that the application will connect
+	to the database server as.
+
+
+// The Hibernate-Specific Properties
+	-	hibernate.archive.autodetection Informs Hibernate how to discover the classes that are
+	persistent. The value class tells Hibernate that annotations are being used; 
+	the other possible value is hbm, which tells Hibernate that the older XML configure 
+	file style is being 	used.
+	-	hibernate.hbm2ddl.auto Determines whether Hibernate will issue DDL commands
+	to the database server to manage data structures. The values can be validate—the 
+	structures are only validated; 
+	-	hibernate.format_sql Formats the SQL being logged into a format that is easier to
+	read.
+
+
+[	links	]
+	-	Posible options for hibernate configurtions
+		http://www.hibernate.org/hib_docs/reference/en/html/session-configuration.html
+	-	Annotation instructions for Hibernate
+		http://annotations.hibernate.org
+
+___________________________________________________________________________
+				cReated bY oLko fOr aNy uSe nAfr(c) 2008

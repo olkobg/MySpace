@@ -1,0 +1,103 @@
+   
+[	CSS	priority   ]
+	-	Priority of the css rules.
+
+		1. Browser default
+		2. External style sheet
+		3. Internal style sheet (inside the <head> tag)
+		4. Inline style (inside an HTML element)
+
+
+
+[	Block	]
+	-	sometimes you should check the markup with "overflow:" parameter.
+
+[	Menus	]
+	-	to create css menu use <ul> tag and also add to <li> tag in css 
+		parameter "display : inline"
+
+[	Shadows	]
+	-	create long line with shadow template and put it on background of wrapper element.
+
+[	Browser Hacks	]
+
+	-	IE8 nad other 
+		
+		work same as conditinal comments with IE but it work in css files. Ex: 
+		
+		@cc gte IE8 begin;
+		@cc end;
+	
+	- 	IE 7 
+		
+		Conditional comments can be used as a CSS hack by including links to stylesheets 
+		based on the layout engine. Here is an example of how stylesheets can be separated in this way:
+		
+		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+		<html lang="en">
+			<head>
+				<title>Test</title>
+				<link href="all_browsers.css" rel="stylesheet" type="text/css">
+				<!--[if IE]> <link href="ie_only.css" rel="stylesheet" type="text/css"> <![endif]-->
+				<!--[if lt IE 7]> <link href="ie_6_and_below.css" rel="stylesheet" type="text/css"> <![endif]-->
+				<!--[if !lt IE 7]><![IGNORE[--><![IGNORE[]]> <link href="recent.css" rel="stylesheet" type="text/css"> <!--<![endif]-->
+				<!--[if !IE]>--> <link href="not_ie.css" rel="stylesheet" type="text/css"> <!--<![endif]-->
+			</head>
+			<body>
+				<p>Test</p>
+			</body>
+		</html>
+		
+		In the above example, all_browsers.css applies to all browsers, 
+		ie_only.css only applies to all versions of Internet Explorer, 
+		ie_6_and_below.css applies to all versions of Internet Explorer below IE 7, 
+		recent.css applies to all browsers except IE versions below 7, 
+		and not_ie.css applies to all non-IE browsers.
+		
+	-	IE 4
+		Version 4 (and earlier) browsers will display a non-styled version of 
+		the site as they can't understand this @import directive.
+		style type="text/css">@import "styles.css";</style>
+	
+	-	IE 6
+		use - "!important" keyword in css
+		
+
+	-	IE MAC
+	
+		/* Hide from IE-Mac \*/
+			#header {margin-bottom: 3em;}
+			#footer {margin-top: 1.5em;}
+		/* End hide */
+
+	-	For earlier versions you could use the @import directive. This directive
+		is invisible for old versions browsers [netscape and mozilla]).
+	
+	-	Opera
+
+		@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0)
+		{
+		 head~body #opera { display: block; }
+		}
+
+	-	Safari
+	
+		@media screen and (-webkit-min-device-pixel-ratio:0)
+		{
+		  #safari { display: block; }
+		}
+
+	-	Firefox
+	
+		/* Firefox 1 - 2 */
+		body:empty #firefox12 { display: block;	}
+				
+		/* Firefox */
+		@-moz-document url-prefix()
+		{
+			#firefox { display: block; }
+		}
+	
+	
+[  Links  ]
+	-	http://www.positioniseverything.net/articles/multiIE.html

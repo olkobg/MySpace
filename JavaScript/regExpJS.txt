@@ -1,0 +1,112 @@
+RegExp (spreadsheet) for JavaScript.
+
+/-----------------------------
+ ! - description
+/-----------------------------
+
+[constructors] 
+
+// new RegExp("RegExp string", "parameters for regexp");
+
+var re = /abfgl/gi;
+var re = new RegExp ("abfgl","gi");
+
+[metacharacteers]
+! used in RegExp if you need to use them inside RegExp String use \ symbol to escape them.
+( [ { \ ^ $ | ) ?  * + .
+
+[special characters]
+\x__    hex
+\___    octal
+\u____  unicode
+
+// when use with constructor must be double quoted example RegExp Constr. new RegExp("\\u0062")
+
+\t      the tab character
+\n      new line character
+\r      carriage return character
+\f      form feed character
+\a      alert character
+\e      escape character
+\cX     the control character corresponding to X
+\b      backspace character
+\v      vertical tab character
+\0      null character
+
+[string functions]
+-String.match(RegExp) returns array of founded strings.
+-String.search(RegExp) return index of firts founded string.
+-String.replace(RegExp, StringForReplace) replaces matched string to StringForReplace.
+-String.split(RegExp) splits string by splitter RegExp expression into array.
+
+
+[regexp class functions]
+-RegExp.comple(regexp_string, Regexp_parameters) 
+    - used to change RegExp parameters (RegExp string and addiotional parameters (g, i));
+-RegExp.test(String) - test string by RegExp;
+-RegExp.exec(string) - Finds matches in String
+        !-- Issue begin
+        ! RegExp.exec returns only 1 parameter.when you run more times it returns all the parameters.
+        var sToMatch = "a bat, a Cat,a fAt baT, a faT cat";
+        var reAt =/at/g;
+        var arrMatches = reAt.exec(sToMatch);
+        !-- I End
+
+[classes of RegExp]
+[set of symbols] - using with sets of characters (sets class of characters)
+^ - used to determine negation (symbol which not searched) e.g ([^abc])
+- - raneg class e.g ([a-z])
+
+
+[predefined classes]
+.   [^\n\r]             any character axept new line and carriage return
+\d  [0-9]               a digit
+\D  [^0-9]              non digit
+\s  [ \t\n\x0B\f\r]     a white-space parameter
+\S  [^\t\n\x0B\f\r]     a non white-space parameter
+\w  [a-zA-Z_0-9]        a word character
+\W  [^a-zA-Z_0-9]       a non word character
+
+
+[quantifiers]
+?       Either zero or one occurence
+*       Zero or more occurence
++       One or more occurence
+{n}     Exacly n matches
+{n,m}   at least n but not m
+{n,}    at least n occurences
+        
+[groups]
+() used to create groups of RegExp
+\number where number is number of RegExp group
+
+inside the group you may use parameter - | which means logigal "or"
+e .g. /(red|black)/g
+non - cpturing groups 
+e.g (?:) - it is non-capturing group.
+
+[lookaheads]
+//if I want to capture text with condition.
+positive lockaheads - (?=)
+negative lockaheads - (?!)
+
+
+[boundaries]
+^       Begining of the line.
+$       End of line
+\b      Word boundary
+\B      Non-word boundary
+
+[static objects properties]
+
+input           $_      last string matcged against(string pased to test() or to exec())
+lastMatch       $&      The last matched characters
+lastParen       $+      The lastd matched group
+leftContext     $`      The substring before the last match
+multiline       $*      A Bolean value specifying whether all expressions should use multiline mode
+rightContext    $'      The substring after the last match
+
+
+
+________________________________________________________________________________
+														cReated bY fRiends nAr(c)
