@@ -1,7 +1,31 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1294068950112" TEXT="Ulike">
-<node CREATED="1294068952478" ID="ID_1061174396" MODIFIED="1294068954827" POSITION="right" TEXT="smtp">
+<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1296463743189" TEXT="Ulike">
+<node CREATED="1294648490063" ID="ID_1263032258" MODIFIED="1294648492826" POSITION="right" TEXT="loader">
+<node CREATED="1294648493700" ID="ID_929058759" MODIFIED="1294648495088" TEXT="grub">
+<node CREATED="1294648495765" FOLDED="true" ID="ID_309092339" MODIFIED="1294648527398" TEXT="grub-rescue">
+<node CREATED="1294648500654" ID="ID_116137789" MODIFIED="1294648525746">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      grub rescue&gt; set prefix=(hd0,x)/boot/grub<br />grub rescue&gt; insmod (hd0,x)/boot/grub/normal.mod<br />rescue:grub&gt; normal
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1296463745558" POSITION="right" TEXT="tools">
+<node CREATED="1296463732267" ID="ID_1239452818" MODIFIED="1296463734758" TEXT="ssh">
+<node CREATED="1296463753332" ID="ID_536170155" MODIFIED="1296463758050" TEXT="key-auth">
+<node CREATED="1296463758423" ID="ID_1243174568" MODIFIED="1296463798809" TEXT="put your public key into ~/.ssh/authorized_keys"/>
+</node>
+</node>
+<node CREATED="1294068952478" ID="ID_1061174396" MODIFIED="1296463749012" TEXT="smtp">
 <node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1295869092096" TEXT="telnet">
 <node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
 <richcontent TYPE="NODE"><html>
@@ -39,23 +63,6 @@
     </div>
     <font face="Verdana, Arial, Helvetica"><br class="Apple-interchange-newline" />
     </font>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1294648490063" ID="ID_1263032258" MODIFIED="1294648492826" POSITION="right" TEXT="loader">
-<node CREATED="1294648493700" ID="ID_929058759" MODIFIED="1294648495088" TEXT="grub">
-<node CREATED="1294648495765" FOLDED="true" ID="ID_309092339" MODIFIED="1294648527398" TEXT="grub-rescue">
-<node CREATED="1294648500654" ID="ID_116137789" MODIFIED="1294648525746">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      grub rescue&gt; set prefix=(hd0,x)/boot/grub<br />grub rescue&gt; insmod (hd0,x)/boot/grub/normal.mod<br />rescue:grub&gt; normal
-    </p>
   </body>
 </html></richcontent>
 </node>
