@@ -20,8 +20,7 @@
       svnadmin load /svnroot/&lt;repo&gt;.fixed &lt; dump.svn
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -40,10 +39,14 @@
       svn copy protocol://svnserver/some/resource@24 protocol://svnserver/some/resource
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1296636367826" ID="ID_1407600894" MODIFIED="1296636386090" POSITION="left" TEXT="console">
+<node CREATED="1296636370645" ID="ID_497062024" MODIFIED="1296636375592" TEXT="svn structure">
+<node CREATED="1296636375857" ID="ID_432608829" MODIFIED="1296636377167" TEXT="svn structure env REPO={repo} sh -c &apos;svn ls -R $REPO | grep &quot;/\$&quot; | xargs -n 1 svn co --depth=empty $REPO&apos;"/>
 </node>
 </node>
 </node>
