@@ -172,7 +172,7 @@
 <node CREATED="1295821041877" ID="ID_1400139748" MODIFIED="1296237315040" POSITION="left" TEXT="Modules">
 <node CREATED="1295821221655" ID="ID_1927818500" MODIFIED="1295821239689" TEXT="main config (app/etc/modules)"/>
 <node CREATED="1295904187209" ID="ID_240161526" MODIFIED="1295904189905" TEXT="config">
-<node CREATED="1295823650996" FOLDED="true" ID="ID_1770788386" MODIFIED="1296236514152" TEXT="config.xml">
+<node CREATED="1295823650996" ID="ID_1770788386" MODIFIED="1296731965924" TEXT="config.xml">
 <node CREATED="1295904216225" ID="ID_27358596" MODIFIED="1295904234142" TEXT="inf">
 <node CREATED="1295904219600" ID="ID_1787428976" MODIFIED="1295904225601" TEXT="main configuration file"/>
 </node>
@@ -420,11 +420,7 @@
 <node CREATED="1295904228023" ID="ID_642558589" MODIFIED="1295904231064" TEXT="inf">
 <node CREATED="1295904235145" ID="ID_784888667" MODIFIED="1295904255721" TEXT="defines admin menu and default setting for forms"/>
 </node>
-<node CREATED="1296234014907" ID="ID_407217165" MODIFIED="1296234021576" TEXT="ex">
-<node CREATED="1296234022393" ID="ID_1229377289" MODIFIED="1296234022393" TEXT=""/>
-</node>
-<node CREATED="1296234027353" ID="ID_86672828" MODIFIED="1296234030110" TEXT="parameters">
-<node CREATED="1296234030422" ID="ID_1513878441" MODIFIED="1296234030422" TEXT="">
+<node CREATED="1296234027353" ID="ID_86672828" MODIFIED="1296731938364" TEXT="parameters for shipping">
 <node CREATED="1296234053522" ID="ID_1010300514" MODIFIED="1296234058088" TEXT="/sections">
 <node CREATED="1296234058946" ID="ID_1983176100" MODIFIED="1296234080368" TEXT="/carriers">
 <node CREATED="1296234080902" ID="ID_79162830" MODIFIED="1296234087845" TEXT="/groups">
@@ -547,8 +543,7 @@
       &lt;/handling_type&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -588,8 +583,7 @@
       &lt;/handling_action&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -626,8 +620,7 @@
       &lt;/handling_fee&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -675,13 +668,12 @@
       &lt;/sallowspecific&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1296238184245" ID="ID_567273365" MODIFIED="1296238223544" TEXT="/specificcountry">
-<node CREATED="1296238203809" FOLDED="true" ID="ID_790205991" MODIFIED="1296238269896" TEXT="ex">
+<node CREATED="1296238203809" FOLDED="true" ID="ID_790205991" MODIFIED="1296745296378" TEXT="ex">
 <node CREATED="1296238205002" ID="ID_1802419647" MODIFIED="1296238268538">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -716,8 +708,7 @@
       &lt;/specificcountry&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -757,8 +748,7 @@
       &lt;/showmethod&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -870,19 +860,386 @@
 </node>
 </node>
 </node>
-</node>
 <node CREATED="1295904202244" ID="ID_1103648305" MODIFIED="1295904205544" TEXT="install.xml">
-<node CREATED="1295904284675" ID="ID_574099297" MODIFIED="1295904285904" TEXT="inf">
+<node CREATED="1295904284675" FOLDED="true" ID="ID_574099297" MODIFIED="1296731955849" TEXT="inf">
 <node CREATED="1295904286221" ID="ID_334643155" MODIFIED="1295904300789" TEXT="one time intallation "/>
 </node>
 </node>
 <node CREATED="1295904205999" ID="ID_528300834" MODIFIED="1295904213295" TEXT="convert.xml">
-<node CREATED="1295904269362" ID="ID_8382564" MODIFIED="1295904271279" TEXT="inf">
+<node CREATED="1295904269362" FOLDED="true" ID="ID_8382564" MODIFIED="1296740586004" TEXT="inf">
 <node CREATED="1295904271636" ID="ID_1494426462" MODIFIED="1295904282510" TEXT="dataflow elemnt for imprting / exporting"/>
 </node>
 </node>
+<node CREATED="1296731960704" ID="ID_1024744498" MODIFIED="1296733463560" TEXT="Payment">
+<node CREATED="1296733463534" ID="ID_1201991563" MODIFIED="1296733468708" TEXT="admin fields">
+<node CREATED="1296731967477" FOLDED="true" ID="ID_68014133" MODIFIED="1296740985416" TEXT="types of fields">
+<node CREATED="1296731982104" ID="ID_631806565" MODIFIED="1296733450512" TEXT="ex">
+<node CREATED="1296731975420" ID="ID_1775522099" MODIFIED="1296731980527">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;adminhtml/system_config_source_yesno&#8212;returns yes or no for you
+    </p>
+    <p>
+      field type
+    </p>
+    <p>
+      &#8226; adminhtml/system_config_source_order_status_new&#8212;returns an
+    </p>
+    <p>
+      array of options for use when selecting a new order's status
+    </p>
+    <p>
+      &#8226; adminhtml/system_config_source_email_identity&#8212;returns a list
+    </p>
+    <p>
+      of email identities in the system from which to send emails from
+    </p>
+    <p>
+      &#8226; adminhtml/system_config_source_email_template&#8212;returns a list
+    </p>
+    <p>
+      of email templates in the system from which to send emails with
+    </p>
+    <p>
+      &#8226; adminhtml/system_config_source_payment_cctype&#8212;returns a list of
+    </p>
+    <p>
+      credit card types, useful for multi-selects when deciding the types of cards
+    </p>
+    <p>
+      that we would want our module to accept
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1295821045994" FOLDED="true" ID="ID_511910020" MODIFIED="1295904183974" TEXT="dir structure">
+</node>
+<node CREATED="1296740682929" ID="ID_1324326201" MODIFIED="1296740843890" TEXT="desc.">
+<node CREATED="1296740705091" ID="ID_1614511244" MODIFIED="1296740708284" TEXT="/app/code/core/Mage/adminhtml/Model/System/ Config/Source.php"/>
+</node>
+<node CREATED="1296740737657" ID="ID_972574150" MODIFIED="1296740743102" TEXT="obscure">
+<node CREATED="1296740743834" FOLDED="true" ID="ID_1104415762" MODIFIED="1296740798698" TEXT="main">
+<node CREATED="1296740747449" ID="ID_380470079" MODIFIED="1296740750874">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&lt;frontend_type&gt;obscure&lt;/frontend_type&gt;
+    </p>
+    <p>
+      &lt;backend_model&gt;adminhtml/system_config_backend_encrypted
+    </p>
+    <p>
+      &lt;/backend_model&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1296740790301" FOLDED="true" ID="ID_752911183" MODIFIED="1296740798165" TEXT="ex">
+<node CREATED="1296740792096" ID="ID_515242208" MODIFIED="1296740796859">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&lt;merchant_id translate=&quot;label&quot;&gt;
+    </p>
+    <p>
+      &lt;label&gt;Merchant ID&lt;/label&gt;
+    </p>
+    <p>
+      &lt;frontend_type&gt;obscure&lt;/frontend_type&gt;
+    </p>
+    <p>
+      &lt;backend_model&gt;adminhtml/system_config_backend_encrypted
+    </p>
+    <p>
+      &lt;/backend_model&gt;
+    </p>
+    <p>
+      &lt;sort_order&gt;20&lt;/sort_order&gt;
+    </p>
+    <p>
+      &lt;show_in_default&gt;1&lt;/show_in_default&gt;
+    </p>
+    <p>
+      &lt;show_in_website&gt;1&lt;/show_in_website&gt;
+    </p>
+    <p>
+      &lt;show_in_store&gt;0&lt;/show_in_store&gt;
+    </p>
+    <p>
+      &lt;/merchant_id&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1296740837215" ID="ID_628795553" MODIFIED="1296740862285" TEXT="sampl.">
+<node CREATED="1296740845245" ID="ID_752461511" MODIFIED="1296740873111" TEXT="/app/ code/core/Mage/GoogleCheckout/etc/system.xml"/>
+</node>
+</node>
+<node CREATED="1296733455724" ID="ID_653482115" MODIFIED="1296733461511" TEXT="optional fields">
+<node CREATED="1296733472786" ID="ID_1473279720" MODIFIED="1296733474671" TEXT="ex">
+<node CREATED="1296733476344" ID="ID_60082128" MODIFIED="1296733477826">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1296733398502" FOLDED="true" ID="ID_982100462" MODIFIED="1296740561311" TEXT="main fields">
+<node CREATED="1296733404890" ID="ID_1682966236" MODIFIED="1296733407465" TEXT="active"/>
+<node CREATED="1296733407845" ID="ID_280986818" MODIFIED="1296733409802" TEXT="title"/>
+<node CREATED="1296733410442" ID="ID_389528435" MODIFIED="1296733418090" TEXT="order status"/>
+<node CREATED="1296733419622" FOLDED="true" ID="ID_1546628970" MODIFIED="1296740560484" TEXT="ex">
+<node CREATED="1296733421416" ID="ID_231245941" MODIFIED="1296733431190">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;active translate=&quot;label&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;label&gt;Enabled&lt;/label&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;frontend_type&gt;select&lt;/frontend_type&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;source_model&gt;adminhtml/system_config_source_yesno&lt;/source_model&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;sort_order&gt;1&lt;/sort_order&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;show_in_default&gt;1&lt;/show_in_default&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;show_in_website&gt;1&lt;/show_in_website&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;show_in_store&gt;0&lt;/show_in_store&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/active&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;order_status translate=&quot;label&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;label&gt;New order status&lt;/label&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;frontend_type&gt;select&lt;/frontend_type&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;source_model&gt;adminhtml/system_config_source_order_status_processing
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/source_model&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;sort_order&gt;4&lt;/sort_order&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;show_in_default&gt;1&lt;/show_in_default&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;show_in_website&gt;1&lt;/show_in_website&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;show_in_store&gt;0&lt;/show_in_store&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/order_status&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;title translate=&quot;label&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;label&gt;Title&lt;/label&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;frontend_type&gt;text&lt;/frontend_type&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;sort_order&gt;2&lt;/sort_order&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;show_in_default&gt;1&lt;/show_in_default&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;show_in_website&gt;1&lt;/show_in_website&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;show_in_store&gt;0&lt;/show_in_store&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/title&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1296731997409" ID="ID_1122517890" MODIFIED="1296732032657" TEXT="main model methods">
+<node CREATED="1296732032629" ID="ID_362107173" MODIFIED="1296732261082" TEXT="order processing">
+<node CREATED="1296732004098" ID="ID_1490617866" MODIFIED="1296732008258" TEXT="authorize"/>
+<node CREATED="1296732008603" ID="ID_657532742" MODIFIED="1296732011092" TEXT="capture"/>
+<node CREATED="1296732261053" FOLDED="true" ID="ID_339845571" MODIFIED="1296732275603" TEXT="NOTE">
+<node CREATED="1296732049443" ID="ID_583024341" MODIFIED="1296732269327">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      used in payment_action
+    </p>
+    <p>
+      Values available: 'authorize' and 'authorize_capture'
+    </p>
+    <p>
+      if chosed &lt;payment_action&gt;authorize&lt;/payment_action&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;user can only auhtorize with authorize() function and admin
+    </p>
+    <p>
+      &#160;&#160;&#160;will capture woth capture function in admin&#160;&#160;panel.
+    </p>
+    <p>
+      else
+    </p>
+    <p>
+      &#160;&#160;&#160;capture() func. will habdle all the processing.
+    </p>
+    <p>
+      end
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1296732020853" ID="ID_659871246" MODIFIED="1296732031166" TEXT="after order processing">
+<node CREATED="1296732011363" ID="ID_1783631826" MODIFIED="1296732014793" TEXT="return"/>
+<node CREATED="1296732017240" ID="ID_101748084" MODIFIED="1296732018961" TEXT="void"/>
+</node>
+</node>
+<node CREATED="1296732422586" ID="ID_1959242209" MODIFIED="1296732437794" TEXT="adaptors could be used">
+<node CREATED="1296732429944" ID="ID_1829332812" MODIFIED="1296732431436" TEXT="Mage_ Payment_Model_Method_Cc">
+<node CREATED="1296732596822" FOLDED="true" ID="ID_1427662746" MODIFIED="1296740555492" TEXT="params use">
+<node CREATED="1296732604610" ID="ID_1914803638" MODIFIED="1296732608128">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;$_isGateway Is this a payment gateway? (Uses authorize or capture
+    </p>
+    <p>
+      methods)
+    </p>
+    <p>
+      $_canAuthorize Can this module authorize? (Is the authorize function
+    </p>
+    <p>
+      available?)
+    </p>
+    <p>
+      $_canCapture Can this gateway capture payment? (Is the capture
+    </p>
+    <p>
+      function available?)
+    </p>
+    <p>
+      $_canCapturePartial Can this module partially capture payments?
+    </p>
+    <p>
+      $_canRefund Can this module refund payments? (Is the refund
+    </p>
+    <p>
+      function available?)
+    </p>
+    <p>
+      $_canVoid Can this module void payments? (Is the void function
+    </p>
+    <p>
+      available?)
+    </p>
+    <p>
+      $_canUseInternal Can this payment module appear in the Magento
+    </p>
+    <p>
+      payment modules administration panel?
+    </p>
+    <p>
+      $_canUseCheckout Can this module show as a method in the Magento
+    </p>
+    <p>
+      checkout?
+    </p>
+    <p>
+      $_
+    </p>
+    <p>
+      canUseForMultishipping
+    </p>
+    <p>
+      Is this module multi-shipping compatible?
+    </p>
+    <p>
+      $_canSaveCc Can this module save credit card information for
+    </p>
+    <p>
+      future processing?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1296740987588" ID="ID_667624217" MODIFIED="1296740992849" TEXT="tying wot shipping">
+<node CREATED="1296740993590" ID="ID_1479656238" MODIFIED="1296741008336" TEXT="example look ">
+<node CREATED="1296740996930" ID="ID_1050763679" MODIFIED="1296741003689" TEXT="Amazon Payments module"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1295821045994" FOLDED="true" ID="ID_511910020" MODIFIED="1296740588283" TEXT="dir structure">
 <node CREATED="1295821059572" ID="ID_895840235" MODIFIED="1295821146352">
 <richcontent TYPE="NODE"><html>
           <head>
