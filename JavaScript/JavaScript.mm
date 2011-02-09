@@ -226,15 +226,14 @@
       &#160;switch(n)<br />{<br />case 1:<br /><i>&#160;&#160;execute code block 1</i><br />&#160; break;<br />case 2:<br /><i>&#160;&#160;execute code block 2</i><br />&#160;&#160;break;<br />default:<br /><i>&#160; code to be executed if n is different from case 1 and 2</i><br />}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node CREATED="1295345684330" ID="ID_1543868029" MODIFIED="1295345686652" TEXT="cylces"/>
 </node>
-<node CREATED="1290779795304" ID="ID_1529456645" MODIFIED="1290779799639" POSITION="left" TEXT="Type COnversion">
+<node CREATED="1290779795304" ID="ID_1529456645" MODIFIED="1297155157142" POSITION="left" TEXT="Type Conversion">
 <node CREATED="1290779800255" ID="ID_1854719369" MODIFIED="1290779802916" TEXT="links">
 <node CREATED="1290779803321" ID="ID_1490659888" LINK="http://www.jibbering.com/faq/notes/type-conversion/" MODIFIED="1290779815089" TEXT="http://www.jibbering.com/faq/notes/type-conversion/"/>
 </node>
