@@ -1,0 +1,17 @@
+//     small subversion :) documnetation 
+
+[	errors fixing	]
+	
+	$ svn switch --relocate http:// https://
+	
+[	server misunderstanding	]
+	!!!!! configuration for inner repo ovverrrides common configs
+
+	[SOD:rep]
+	olko = rw # server didn't use 
+	[SOD:rep/branch]
+	olko  =r # Server use this !!!!
+	
+	
+________________________________________________________________________________
+						2008 fRiends c0 nAr(c)
