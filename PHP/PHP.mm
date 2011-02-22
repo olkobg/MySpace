@@ -93,6 +93,9 @@ xdebug.remote_port=9000</pre>
 </node>
 </node>
 </node>
+<node CREATED="1297327197869" ID="ID_1900946002" MODIFIED="1297327204681" TEXT="FirePhp">
+<node CREATED="1297327205265" ID="ID_1384841508" LINK="http://inchoo.net/ecommerce/magento/magento-firephp-extension/" MODIFIED="1297327235980" TEXT="magento inchoo instruction"/>
+</node>
 </node>
 </node>
 </map>

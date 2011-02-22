@@ -89,7 +89,7 @@
 <node CREATED="1295342882058" ID="ID_215255939" MODIFIED="1295342893355" TEXT="app/etc/local.xml"/>
 </node>
 </node>
-<node CREATED="1295820465447" FOLDED="true" ID="ID_77610911" MODIFIED="1296236749713" TEXT="models">
+<node CREATED="1295820465447" ID="ID_77610911" MODIFIED="1297175789490" TEXT="models">
 <node CREATED="1295820468561" ID="ID_1809448550" MODIFIED="1295820490280" TEXT="Entites(vert)">
 <node CREATED="1295820490171" ID="ID_1829156035" MODIFIED="1295820493698" TEXT="query">
 <node CREATED="1295820495226" ID="ID_1453627234" MODIFIED="1295820501121" TEXT="parameters">
@@ -166,13 +166,100 @@
 </node>
 </node>
 </node>
-<node CREATED="1295820472572" ID="ID_1976100685" MODIFIED="1295820484607" TEXT="Mysql4(hor)"/>
+<node CREATED="1295820472572" ID="ID_1976100685" MODIFIED="1295820484607" TEXT="Mysql4(hor)">
+<node CREATED="1297175808529" ID="ID_805265377" MODIFIED="1297176520993" TEXT="abstr.cl.">
+<node CREATED="1297175814203" ID="ID_1779658714" MODIFIED="1297175820988" TEXT="Mage_Core_Model_Mysql4_Abstract"/>
+</node>
+<node CREATED="1297175826631" ID="ID_1507675802" MODIFIED="1297175827830" TEXT="inf">
+<node CREATED="1297175829308" ID="ID_396541918" MODIFIED="1297175870382">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      created usually in directory &lt;Model&gt;/Mysql4
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1297175892940" ID="ID_1856595169" MODIFIED="1297175898225" TEXT="methods">
+<node CREATED="1297175898542" ID="ID_1945159781" MODIFIED="1297175940238" TEXT="_init();">
+<node CREATED="1297175940225" ID="ID_245949280" MODIFIED="1297175944836" TEXT="desc.">
+<node CREATED="1297175926182" ID="ID_1953059100" MODIFIED="1297175936671" TEXT="should match promary key of model"/>
+</node>
+<node CREATED="1297175946000" ID="ID_38176148" MODIFIED="1297175948626" TEXT="ex">
+<node CREATED="1297175949214" ID="ID_345137012" MODIFIED="1297175971182" TEXT="$this-&gt;_init(&apos;brands/brands&apos;, &apos;brands_id&apos;);"/>
+</node>
+</node>
+</node>
+<node CREATED="1297176477761" ID="ID_981063544" MODIFIED="1297176491328" TEXT="Collection(class)">
+<node CREATED="1297176492116" ID="ID_1975659562" MODIFIED="1297176502505" TEXT="abstr. cl.">
+<node CREATED="1297176502786" ID="ID_640123730" MODIFIED="1297176510276" TEXT="Mage_Core_Model_Mysql4_Collection_Abstract"/>
+</node>
+</node>
+<node CREATED="1297176534376" ID="ID_1293908320" MODIFIED="1297176541420" TEXT="creating table">
+<node CREATED="1297176541730" ID="ID_903646329" MODIFIED="1297177423533">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      create file in sql directiry
+    </p>
+    <p>
+      like mysql4-setup-0.1.0.php
+    </p>
+    <p>
+      You may add any logic into
+    </p>
+    <p>
+      between startSetup(); and endSetup();
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1297176583997" FOLDED="true" ID="ID_1565252347" MODIFIED="1297258927577" TEXT="ex">
+<node CREATED="1297176585644" ID="ID_1353632917" MODIFIED="1297177146814">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: rgb(247, 247, 247); border-top-width: 0px; border-color: black; padding-right: 0; color: rgb(34, 34, 34); margin-bottom: 24px; margin-left: 0px; padding-left: 0; margin-top: 0px; font-size: 9px; vertical-align: baseline; white-space: pre; background-repeat: repeat; border-left-width: 0px; clear: none; border-bottom-width: 0px; padding-bottom: 0; border-right-width: 0px; padding-top: 0; line-height: 21px; background-image: initial; background-attachment: scroll; margin-right: 0px; font-family: monospace; background-position: initial initial" class="php"> &#160;<b><font color="rgb(0, 0, 0)">&lt;?php</font></b>
+&#160;&#160;<font color="rgb(0, 0, 136)">$installer</font> <font color="rgb(51, 153, 51)">=</font> <font color="rgb(0, 0, 136)">$this</font><font color="rgb(51, 153, 51)">;</font>
+&#160;&#160;<font color="rgb(0, 0, 136)">$installer</font><font color="rgb(51, 153, 51)">-&gt;</font><font color="rgb(0, 64, 0)">startSetup</font><font color="rgb(0, 153, 0)">()</font><font color="rgb(51, 153, 51)">;</font>
+&#160;
+&#160;&#160;<font color="rgb(0, 0, 136)">$installer</font><font color="rgb(51, 153, 51)">-&gt;</font><font color="rgb(0, 64, 0)">run</font><font color="rgb(0, 153, 0)">(</font><font color="rgb(0, 0, 255)">&quot;
+&#160;&#160;DROP TABLE IF EXISTS {</font><font color="rgb(0, 102, 153)"><b>$this-&gt;getTable</b></font><font color="rgb(0, 0, 255)">('brands')};
+&#160;&#160;CREATE TABLE {</font><font color="rgb(0, 102, 153)"><b>$this-&gt;getTable</b></font><font color="rgb(0, 0, 255)">('brands')} (
+&#160;&#160;`brands_id` int(11) unsigned NOT NULL auto_increment,
+&#160;&#160;`brand_name` varchar(255) NOT NULL default '',
+&#160;&#160;`brand_description` text NOT NULL default '',
+&#160;&#160;`brand_location` varchar(255) NOT NULL default '',
+&#160;&#160;`status` smallint(6) NOT NULL default '0',
+&#160;&#160;`created_time` datetime NULL,
+&#160;&#160;`update_time` datetime NULL,
+&#160;&#160;PRIMARY KEY (`brands_id`)
+&#160;&#160;) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+&#160;&#160;&quot;</font><font color="rgb(0, 153, 0)">)</font><font color="rgb(51, 153, 51)">;</font>
+&#160;
+&#160;&#160;<font color="rgb(0, 0, 136)">$installer</font><font color="rgb(51, 153, 51)">-&gt;</font><font color="rgb(0, 64, 0)">endSetup</font><font color="rgb(0, 153, 0)">()</font><font color="rgb(51, 153, 51)">;</font>
+<font color="rgb(0, 0, 0)"><b>?&gt;</b></font></pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1295821041877" ID="ID_1400139748" MODIFIED="1296237315040" POSITION="left" TEXT="Modules">
 <node CREATED="1295821221655" ID="ID_1927818500" MODIFIED="1295821239689" TEXT="main config (app/etc/modules)"/>
 <node CREATED="1295904187209" ID="ID_240161526" MODIFIED="1295904189905" TEXT="config">
-<node CREATED="1295823650996" ID="ID_1770788386" MODIFIED="1296731965924" TEXT="config.xml">
+<node CREATED="1295823650996" FOLDED="true" ID="ID_1770788386" MODIFIED="1297157613672" TEXT="config.xml">
 <node CREATED="1295904216225" ID="ID_27358596" MODIFIED="1295904234142" TEXT="inf">
 <node CREATED="1295904219600" ID="ID_1787428976" MODIFIED="1295904225601" TEXT="main configuration file"/>
 </node>
@@ -416,11 +503,11 @@
 </node>
 <node CREATED="1296121623180" ID="ID_1723815497" MODIFIED="1296121625190" TEXT="blocks"/>
 </node>
-<node CREATED="1295904198039" ID="ID_1106023462" MODIFIED="1296237317205" TEXT="system.xml">
+<node CREATED="1295904198039" ID="ID_1106023462" MODIFIED="1297157635084" TEXT="system.xml">
 <node CREATED="1295904228023" ID="ID_642558589" MODIFIED="1295904231064" TEXT="inf">
 <node CREATED="1295904235145" ID="ID_784888667" MODIFIED="1295904255721" TEXT="defines admin menu and default setting for forms"/>
 </node>
-<node CREATED="1296234027353" ID="ID_86672828" MODIFIED="1296731938364" TEXT="parameters for shipping">
+<node CREATED="1296234027353" FOLDED="true" ID="ID_86672828" MODIFIED="1297157706545" TEXT="parameters for shipping">
 <node CREATED="1296234053522" ID="ID_1010300514" MODIFIED="1296234058088" TEXT="/sections">
 <node CREATED="1296234058946" ID="ID_1983176100" MODIFIED="1296234080368" TEXT="/carriers">
 <node CREATED="1296234080902" ID="ID_79162830" MODIFIED="1296234087845" TEXT="/groups">
@@ -870,7 +957,7 @@
 <node CREATED="1295904271636" ID="ID_1494426462" MODIFIED="1295904282510" TEXT="dataflow elemnt for imprting / exporting"/>
 </node>
 </node>
-<node CREATED="1296731960704" ID="ID_1024744498" MODIFIED="1296733463560" TEXT="Payment">
+<node CREATED="1296731960704" FOLDED="true" ID="ID_1024744498" MODIFIED="1297175781272" TEXT="Payment">
 <node CREATED="1296733463534" ID="ID_1201991563" MODIFIED="1296733468708" TEXT="admin fields">
 <node CREATED="1296731967477" FOLDED="true" ID="ID_68014133" MODIFIED="1296740985416" TEXT="types of fields">
 <node CREATED="1296731982104" ID="ID_631806565" MODIFIED="1296733450512" TEXT="ex">
@@ -938,8 +1025,7 @@
       &lt;/backend_model&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1296740790301" FOLDED="true" ID="ID_752911183" MODIFIED="1296740798165" TEXT="ex">
@@ -980,8 +1066,7 @@
       &lt;/merchant_id&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1001,8 +1086,7 @@
       &#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1146,8 +1230,7 @@
       end
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1156,9 +1239,10 @@
 <node CREATED="1296732017240" ID="ID_101748084" MODIFIED="1296732018961" TEXT="void"/>
 </node>
 </node>
-<node CREATED="1296732422586" ID="ID_1959242209" MODIFIED="1296732437794" TEXT="adaptors could be used">
-<node CREATED="1296732429944" ID="ID_1829332812" MODIFIED="1296732431436" TEXT="Mage_ Payment_Model_Method_Cc">
-<node CREATED="1296732596822" FOLDED="true" ID="ID_1427662746" MODIFIED="1296740555492" TEXT="params use">
+<node CREATED="1296732422586" ID="ID_1959242209" MODIFIED="1297157663356" TEXT="adaptors could be used">
+<node CREATED="1297157663346" ID="ID_565177376" MODIFIED="1297157675447" TEXT="credit card">
+<node CREATED="1296732429944" FOLDED="true" ID="ID_1829332812" MODIFIED="1297157670662" TEXT="Mage_ Payment_Model_Method_Cc">
+<node CREATED="1296732596822" FOLDED="true" ID="ID_1427662746" MODIFIED="1297157650656" TEXT="params use">
 <node CREATED="1296732604610" ID="ID_1914803638" MODIFIED="1296732608128">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1226,20 +1310,20 @@
       future processing?
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1296740987588" ID="ID_667624217" MODIFIED="1296740992849" TEXT="tying wot shipping">
+</node>
+<node CREATED="1296740987588" ID="ID_667624217" MODIFIED="1297157691997" TEXT="trying with shipping">
 <node CREATED="1296740993590" ID="ID_1479656238" MODIFIED="1296741008336" TEXT="example look ">
 <node CREATED="1296740996930" ID="ID_1050763679" MODIFIED="1296741003689" TEXT="Amazon Payments module"/>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1295821045994" FOLDED="true" ID="ID_511910020" MODIFIED="1296740588283" TEXT="dir structure">
+<node CREATED="1295821045994" FOLDED="true" ID="ID_511910020" MODIFIED="1297157621662" TEXT="dir structure">
 <node CREATED="1295821059572" ID="ID_895840235" MODIFIED="1295821146352">
 <richcontent TYPE="NODE"><html>
           <head>
@@ -1301,23 +1385,26 @@
 </node>
 </node>
 </node>
-<node CREATED="1295540932234" FOLDED="true" ID="ID_570027191" MODIFIED="1295904180213" POSITION="left" TEXT="links">
-<node CREATED="1295540934916" ID="ID_757889780" MODIFIED="1295540941950" TEXT="BLOGS">
-<node CREATED="1295540941795" FOLDED="true" ID="ID_1064817442" MODIFIED="1295901348744" TEXT="1">
-<node CREATED="1295540937956" ID="ID_1420536424" MODIFIED="1295540939031" TEXT="http://ajzele.net/"/>
-</node>
-<node CREATED="1295540948339" FOLDED="true" ID="ID_1154371109" MODIFIED="1295901349360" TEXT="2">
-<node COLOR="#338800" CREATED="1295540949604" ID="ID_1612524536" LINK="http://inchoo.net/" MODIFIED="1295540986810" TEXT="inchoo.net"/>
-</node>
-</node>
-</node>
 <node CREATED="1296127988242" ID="ID_531772765" MODIFIED="1296127991569" POSITION="right" TEXT="config">
-<node CREATED="1296127991930" FOLDED="true" ID="ID_1136793043" MODIFIED="1296236749195" TEXT="apache">
-<node CREATED="1296127994140" ID="ID_433638237" MODIFIED="1296127997342" TEXT="dev_mode">
+<node CREATED="1296127991930" FOLDED="true" ID="ID_1136793043" MODIFIED="1297177060980" TEXT="apache">
+<node CREATED="1296127994140" FOLDED="true" ID="ID_433638237" MODIFIED="1297177060655" TEXT="dev_mode">
 <node CREATED="1296127998450" ID="ID_1664203913" MODIFIED="1296127998897" TEXT="ex">
 <node CREATED="1296127999206" ID="ID_838042702" MODIFIED="1296128000585" TEXT="CODE:     1.       SetEnv MAGE_IS_DEVELOPER_MODE &quot;true&quot;  "/>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1297157712377" ID="ID_1127115516" MODIFIED="1297157718085" POSITION="right" TEXT="design">
+<node CREATED="1297157718438" ID="ID_1120711956" MODIFIED="1297157722128" TEXT="default theme">
+<node CREATED="1297157726623" ID="ID_169242569" MODIFIED="1297158464306" TEXT="go to Admin-&gt;System-&gt;Configuration-&gt;Design-&gt;Package-&gt;Current Package Name"/>
+</node>
+</node>
+<node CREATED="1297167045706" ID="ID_1564958487" MODIFIED="1297167048394" POSITION="right" TEXT="info"/>
+<node CREATED="1295540932234" FOLDED="true" ID="ID_570027191" MODIFIED="1297175780644" POSITION="left" TEXT="links">
+<node CREATED="1295540934916" ID="ID_757889780" MODIFIED="1295540941950" TEXT="BLOGS">
+<node CREATED="1295540937956" ID="ID_1420536424" MODIFIED="1295540939031" TEXT="http://ajzele.net/"/>
+<node COLOR="#338800" CREATED="1295540949604" ID="ID_1612524536" LINK="http://inchoo.net/" MODIFIED="1297167067549" TEXT="inchoo.net"/>
+<node CREATED="1297167090379" ID="ID_382532528" LINK="http://magento4u.wordpress.com/" MODIFIED="1297167095656" TEXT="magent4U"/>
 </node>
 </node>
 </node>

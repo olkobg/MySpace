@@ -223,10 +223,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1283338536187" FOLDED="true" ID="ID_868166275" MODIFIED="1287575686384" POSITION="left" TEXT="Views">
+<node CREATED="1283338536187" ID="ID_868166275" MODIFIED="1297852375861" POSITION="left" TEXT="Views">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1285749776375" FOLDED="true" ID="ID_1746366951" MODIFIED="1285749842166" TEXT="check formayt of output ">
-<node CREATED="1285749790001" FOLDED="true" ID="ID_667461487" MODIFIED="1285749841816" TEXT="ex">
+<node CREATED="1285749776375" ID="ID_1746366951" MODIFIED="1297852377879" TEXT="check formayt of output ">
+<node CREATED="1285749790001" ID="ID_667461487" MODIFIED="1297852378556" TEXT="ex">
 <node CREATED="1285749792454" ID="ID_542686998" MODIFIED="1285749829967">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -250,11 +250,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1283933429734" FOLDED="true" ID="ID_1922225649" MODIFIED="1285749843585" TEXT="RJS">
+<node CREATED="1283933429734" FOLDED="true" ID="ID_1922225649" MODIFIED="1297852401940" TEXT="RJS">
 <node CREATED="1283933446140" ID="ID_604102726" MODIFIED="1283933464140" TEXT="template used for generating JavaScript by Ruby"/>
-<node CREATED="1284043709968" ID="ID_278952093" MODIFIED="1285744133418" TEXT="effects">
-<node CREATED="1283935933281" ID="ID_689696697" MODIFIED="1285744129319" TEXT="ex.">
-<node CREATED="1283935971406" FOLDED="true" ID="ID_556849265" MODIFIED="1285744131525" TEXT="highlight">
+<node CREATED="1284043709968" FOLDED="true" ID="ID_278952093" MODIFIED="1297852401404" TEXT="effects">
+<node CREATED="1283935933281" FOLDED="true" ID="ID_689696697" MODIFIED="1297852401039" TEXT="ex.">
+<node CREATED="1283935971406" FOLDED="true" ID="ID_556849265" MODIFIED="1297852400736" TEXT="highlight">
 <node CREATED="1283935936421" ID="ID_357924746" MODIFIED="1284977803792">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -277,7 +277,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1283933434781" FOLDED="true" ID="ID_1895373112" MODIFIED="1285748076836" TEXT="ERB (RHTML)">
+<node CREATED="1283933434781" ID="ID_1895373112" MODIFIED="1297852376903" TEXT="ERB (RHTML)">
 <node CREATED="1284977810922" ID="ID_1530149529" MODIFIED="1284977827993" TEXT="used for plain html output"/>
 </node>
 <node CREATED="1284037677390" FOLDED="true" ID="ID_1982744847" MODIFIED="1285748075782" TEXT="form_for">
@@ -285,24 +285,49 @@
 <node CREATED="1284038090046" ID="ID_1814901924" MODIFIED="1284038098765" TEXT="form_for &lt;name of model &gt;"/>
 </node>
 </node>
-<node CREATED="1283338542812" FOLDED="true" ID="ID_1767856036" MODIFIED="1287575684921" TEXT="Layouts">
+<node CREATED="1283338542812" FOLDED="true" ID="ID_1767856036" MODIFIED="1297860014149" TEXT="Layouts">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1284455846863" ID="ID_1883710591" MODIFIED="1284455888461" TEXT="dafault layout you can specify in app/controller/application by setting layout &quot;&lt;name of layout&gt;&quot;"/>
 <node CREATED="1283932075671" ID="ID_335798303" MODIFIED="1283932213078" TEXT="main controller layout placed in layout directory with name of &lt;controller_name&gt;.html.erb"/>
-<node CREATED="1283338546484" ID="ID_1176584498" MODIFIED="1285744091946" TEXT="content">
+<node CREATED="1283338546484" FOLDED="true" ID="ID_1176584498" MODIFIED="1297860013393" TEXT="content">
 <node CREATED="1283338551093" ID="ID_1043545982" MODIFIED="1283338675703" TEXT="use &lt;%= yield :layout %&gt; - to display required view"/>
+<node CREATED="1297859949316" FOLDED="true" ID="ID_86137684" MODIFIED="1297859962706" TEXT="in layout">
+<node CREATED="1297859943244" FOLDED="true" ID="ID_1789543066" MODIFIED="1297859962435" TEXT="ex">
+<node CREATED="1297859917861" ID="ID_1397441571" MODIFIED="1297859941675">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;% content_for :stylesheets do %&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;#top_menu {display: none}&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;#right_menu {float: right; background-color: yellow; color: black}
+    </p>
+    <p>
+      &lt;% end %&gt;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1283931946968" FOLDED="true" ID="ID_657218242" MODIFIED="1285747835968" TEXT="partials">
+</node>
+</node>
+</node>
+<node CREATED="1283931946968" ID="ID_657218242" MODIFIED="1297852431079" TEXT="partials">
 <node CREATED="1283931950250" ID="ID_454896966" MODIFIED="1283932478265" TEXT="to acces object passed to partial use partial name inside partial template"/>
 <node CREATED="1283932012312" ID="ID_395741018" MODIFIED="1283932063656" TEXT="partial templates placed in same directory as templates which is called from "/>
-<node CREATED="1283931979546" FOLDED="true" ID="ID_192649019" MODIFIED="1285747835491" TEXT="render ">
+<node CREATED="1283931979546" ID="ID_192649019" MODIFIED="1297852434841" TEXT="render ">
 <node CREATED="1283932308328" ID="ID_840457877" MODIFIED="1283932317187" TEXT="render (:partial =&gt; &lt;partial name&gt;)"/>
 <node CREATED="1283932318140" ID="ID_1503546608" MODIFIED="1285746282186" TEXT="render (:partial =&gt; &lt;partial name&gt;, :collection =&gt; &lt;collection&gt;)"/>
 <node CREATED="1283932348609" ID="ID_1817096206" MODIFIED="1285746288768" TEXT="render (:partial =&gt; &lt;partial name&gt;, :object =&gt; &lt;object&gt;)"/>
 <node CREATED="1284043748234" ID="ID_1947943376" MODIFIED="1284043770234" TEXT="render :action =&gt; &lt;name of the action&gt;"/>
 </node>
 </node>
-<node CREATED="1284723720064" FOLDED="true" ID="ID_1773269486" MODIFIED="1285744106738" TEXT="xml_layout">
+<node CREATED="1284723720064" FOLDED="true" ID="ID_1773269486" MODIFIED="1297852570740" TEXT="xml_layout">
 <node CREATED="1284723919442" ID="ID_403670670" MODIFIED="1284724021368" TEXT="in controller add respond_to do |format| format.xml {render :layout =&gt; false}"/>
 <node CREATED="1284723727118" ID="ID_482052002" MODIFIED="1284723782408" TEXT="to use crate file with name of controlletr and add xml.builder - &lt;controller_name,xml.builder&gt;"/>
 <node CREATED="1284723783851" ID="ID_17266889" MODIFIED="1284723805601" TEXT="write xml template">
@@ -315,13 +340,13 @@
 <node CREATED="1284727311551" ID="ID_193599827" MODIFIED="1284727313372" TEXT="format.xml { render :layout =&gt; false , :xml =&gt; @product.to_xml(:include =&gt; :orders) } end"/>
 </node>
 </node>
-<node CREATED="1284730017714" ID="ID_948475536" MODIFIED="1284730038017" TEXT="JSON">
+<node CREATED="1284730017714" FOLDED="true" ID="ID_948475536" MODIFIED="1297852572104" TEXT="JSON">
 <node CREATED="1284730021734" ID="ID_808038459" MODIFIED="1284730036326" TEXT="format.json { render :layout =&gt; false , :json =&gt; @product.to_json(:include =&gt; :orders) }"/>
 </node>
 </node>
 </node>
-<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1287575712034" POSITION="left" TEXT="Auth">
-<node CREATED="1287575635651" FOLDED="true" ID="ID_372420420" MODIFIED="1287575711808" TEXT="Auth_token">
+<node CREATED="1287575660367" ID="ID_932040161" MODIFIED="1297852402955" POSITION="left" TEXT="Auth">
+<node CREATED="1287575635651" ID="ID_372420420" MODIFIED="1297852404130" TEXT="Auth_token">
 <node CREATED="1287575640947" ID="ID_24275664" MODIFIED="1287575708535" TEXT="form_authenticity_token - to get it "/>
 </node>
 </node>
@@ -511,7 +536,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1290591126964" POSITION="right" TEXT="Testing">
+<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1297860028212" POSITION="right" TEXT="Testing">
 <node CREATED="1284982183137" FOLDED="true" ID="ID_1610244121" MODIFIED="1286895693468" TEXT="DB">
 <node CREATED="1284982185957" ID="ID_1777944809" MODIFIED="1284982187173" TEXT="rake db:test:prepare"/>
 </node>
@@ -842,7 +867,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1289390106630" FOLDED="true" ID="ID_156617987" MODIFIED="1290591131165" POSITION="right" TEXT="Projects">
+<node CREATED="1289390106630" FOLDED="true" ID="ID_156617987" MODIFIED="1297860023902" POSITION="right" TEXT="Projects">
 <node CREATED="1289390112537" ID="ID_427415559" LINK="Redmine.mm" MODIFIED="1289390119427" TEXT="Redmine"/>
 </node>
 </node>
