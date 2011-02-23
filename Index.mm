@@ -75,6 +75,7 @@
 <node CREATED="1295887308142" ID="ID_799742978" MODIFIED="1295887425784" POSITION="right" TEXT="Projects">
 <node CREATED="1295887311066" ID="ID_1173726308" LINK="../../Projects/RecycleBank/MalkosUA.mm" MODIFIED="1295887428029" TEXT="MalkosUA">
 <node CREATED="1295887313690" ID="ID_1004409323" LINK="../../Projects/RecycleBank/RecycleBank.mm" MODIFIED="1295887326753" TEXT="Recyclebank"/>
+<node CREATED="1298468898434" ID="ID_373024735" LINK="../../Projects/CVC/CV%20Conductor.mm" MODIFIED="1298468898435" TEXT="CV Conductor"/>
 </node>
 </node>
 </node>
