@@ -1,8 +1,12 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1298040113920" ID="ID_1675668727" LINK="Java.mm" MODIFIED="1298040141461" TEXT="Java EE">
-<node CREATED="1298030625223" ID="ID_1762485794" MODIFIED="1298030627859" POSITION="left" TEXT="Servers">
-<node CREATED="1298030628695" ID="ID_1866574834" MODIFIED="1298363024011" TEXT="Jboss">
+<node COLOR="#006633" CREATED="1298040113920" ID="ID_1675668727" LINK="Java.mm" MODIFIED="1298542233086" TEXT="Java EE">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1298030625223" ID="ID_1762485794" MODIFIED="1298550921166" POSITION="left" TEXT="Application Servers">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node COLOR="#cc3300" CREATED="1298030628695" ID="ID_1866574834" MODIFIED="1298550966104" TEXT="Jboss">
+<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+<node CREATED="1298550966090" ID="ID_665294606" MODIFIED="1298550970576" TEXT="config">
 <node CREATED="1298030630882" ID="ID_944192049" MODIFIED="1298032054617" TEXT="db connection">
 <node CREATED="1298030635722" ID="ID_93855176" LINK="http://community.jboss.org/wiki/UsingotherDatabases" MODIFIED="1298032034165" TEXT="tutor"/>
 <node CREATED="1298032054596" ID="ID_195938411" MODIFIED="1298032063347" TEXT="SQL SERVER 2008">
@@ -14,6 +18,19 @@
 </node>
 <node CREATED="1298363023925" ID="ID_702843245" MODIFIED="1298363026734" TEXT="jboss 5">
 <node CREATED="1298363018588" ID="ID_355165242" LINK="http://www.datadisk.co.uk/html_docs/java_app/jboss5/jboss5_securing_web_apps.htm" MODIFIED="1298363029218" TEXT="securing"/>
+</node>
+</node>
+</node>
+<node COLOR="#cc3300" CREATED="1298542236146" ID="ID_1372697038" MODIFIED="1298550887907" TEXT="Geronimo">
+<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+<node CREATED="1298542241635" ID="ID_1300018374" MODIFIED="1298542243088" TEXT="is">
+<node CREATED="1298542243633" ID="ID_605259077" MODIFIED="1298542265323" TEXT="combination of free tools to produce best available java application server"/>
+</node>
+</node>
+<node COLOR="#cc3300" CREATED="1298550817896" ID="ID_1798575162" LINK="http://www.caucho.com/products/" MODIFIED="1298553865658" TEXT="Resin">
+<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+<node CREATED="1298550823083" ID="ID_645051920" MODIFIED="1298550832161" TEXT="features">
+<node CREATED="1298550833604" ID="ID_1438539454" MODIFIED="1298550848829" TEXT="has php written in java"/>
 </node>
 </node>
 </node>
