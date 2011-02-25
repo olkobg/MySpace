@@ -21,14 +21,44 @@
 </node>
 <node CREATED="1298283236509" ID="ID_1415482053" LINK="http://xmlbeans.apache.org/" MODIFIED="1298283286004" TEXT="site"/>
 </node>
-<node CREATED="1298295773218" FOLDED="true" ID="ID_477265776" MODIFIED="1298295791286" TEXT="Xstream">
+<node CREATED="1298295773218" ID="ID_477265776" MODIFIED="1298639864691" TEXT="Xstream">
 <node CREATED="1298295777155" ID="ID_1642607443" LINK="http://xstream.codehaus.org/" MODIFIED="1298295789060" TEXT="site"/>
 </node>
 <node CREATED="1298297038500" FOLDED="true" ID="ID_1049013857" MODIFIED="1298297047193" TEXT="JAXB">
 <node CREATED="1298297042930" ID="ID_991024417" LINK="http://jaxb.java.net/" MODIFIED="1298297045688" TEXT="site"/>
 </node>
 </node>
-<node CREATED="1298473665532" ID="ID_5663577" MODIFIED="1298473687196" TEXT="BinFile"/>
+<node CREATED="1298473665532" ID="ID_5663577" MODIFIED="1298473687196" TEXT="BinFile">
+<node CREATED="1298639801471" ID="ID_736192730" MODIFIED="1298639962413" TEXT="info">
+<node CREATED="1298639805654" ID="ID_652254593" MODIFIED="1298639875221">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      all classes should implement <font color="#990000"><b>Serializable</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1298639962391" ID="ID_554484217" MODIFIED="1298639965618">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#660000"><b>transient</b></font></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1298639885346" ID="ID_227993484" MODIFIED="1298639961276" TEXT="IF you need not to include object ot serialize use"/>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#990099" CREATED="1298045162954" ID="ID_1671842981" LINK="tools.mm" MODIFIED="1298552458025" POSITION="right" STYLE="bubble" TEXT="tools">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -137,8 +167,7 @@ for (int i = 0; i &lt; prices.length; i ++) {
     out.writeUTF(descs[i]);
 }</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1298473903683" FOLDED="true" ID="ID_1363032472" MODIFIED="1298552207993" TEXT="Input">
@@ -170,7 +199,7 @@ try {
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1298473268143" FOLDED="true" ID="ID_1677684269" MODIFIED="1298553854527" TEXT="img">
+<node COLOR="#669900" CREATED="1298473268143" FOLDED="true" ID="ID_1677684269" MODIFIED="1298621219125" TEXT="img">
 <font NAME="SansSerif" SIZE="10"/>
 <node CREATED="1298473272950" ID="ID_775293193" MODIFIED="1298552522906" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
@@ -202,11 +231,11 @@ try {
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1298480105224" ID="ID_669829748" MODIFIED="1298480140906" TEXT="if you use writeObject(obj)  -- then obj should implement Serializable interface">
+<node CREATED="1298480105224" ID="ID_669829748" MODIFIED="1298621211646" TEXT="if you use writeObject(obj)  -- then obj have to implement Serializable interface">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1298475169723" FOLDED="true" ID="ID_1100499269" MODIFIED="1298553855417" TEXT="img">
+<node COLOR="#669900" CREATED="1298475169723" FOLDED="true" ID="ID_1100499269" MODIFIED="1298621195366" TEXT="img">
 <font NAME="SansSerif" SIZE="10"/>
 <node CREATED="1298476669299" ID="ID_1013633243" MODIFIED="1298552615869" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
@@ -253,8 +282,8 @@ try {
 <font ITALIC="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1298474271391" ID="ID_794712295" MODIFIED="1298539226441" TEXT="scallar">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1298555380075" ID="ID_480951330" MODIFIED="1298555382952" TEXT="byte"/>
-<node CREATED="1298555379097" ID="ID_991628981" MODIFIED="1298555389860" TEXT="short"/>
+<node COLOR="#0033ff" CREATED="1298555380075" ID="ID_480951330" MODIFIED="1298621143324" TEXT="byte"/>
+<node COLOR="#0033ff" CREATED="1298555379097" ID="ID_991628981" MODIFIED="1298621143324" TEXT="short"/>
 <node COLOR="#0033ff" CREATED="1298474266458" ID="ID_529417285" MODIFIED="1298539212070" TEXT="int"/>
 <node COLOR="#0033ff" CREATED="1298474312223" ID="ID_1993576098" MODIFIED="1298539215297" TEXT="long"/>
 <node COLOR="#0033ff" CREATED="1298474267972" ID="ID_58766054" MODIFIED="1298539216662" TEXT="float"/>
@@ -272,6 +301,17 @@ try {
 <node CREATED="1298474284232" ID="ID_1610811711" MODIFIED="1298555368932" TEXT="best type to use with currentcy is">
 <edge STYLE="bezier"/>
 <node CREATED="1298474295100" ID="ID_496894386" MODIFIED="1298474302230" TEXT="BigDecimal"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#669900" CREATED="1298647501042" ID="ID_485816813" MODIFIED="1298647511950" POSITION="right" TEXT="Concurency">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1298647520396" ID="ID_1792086785" MODIFIED="1298647523532" TEXT="classes">
+<node CREATED="1298647524313" ID="ID_1059059239" MODIFIED="1298647527572" TEXT="Threadlocal">
+<node CREATED="1298647528201" ID="ID_1011344508" LINK="http://veerasundar.com/blog/2010/11/java-thread-local-how-to-use-and-code-sample/" MODIFIED="1298647531232" TEXT="ex"/>
+<node CREATED="1298648357269" ID="ID_1853449379" MODIFIED="1298648359009" TEXT="inf">
+<node CREATED="1298648359464" ID="ID_1599235094" MODIFIED="1298648370126" TEXT="its used as thread scope limiter "/>
 </node>
 </node>
 </node>
