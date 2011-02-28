@@ -1,6 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1291284613666" TEXT="ruby">
+<node CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1298889727784" TEXT="ruby">
+<font BOLD="true" NAME="SansSerif" SIZE="19"/>
 <node CREATED="1282725653308" ID="ID_1980441189" MODIFIED="1289986158315" POSITION="right" TEXT="basic">
 <node CREATED="1287582220088" FOLDED="true" ID="ID_658087267" MODIFIED="1287582320205" TEXT="operators">
 <node CREATED="1287582233815" ID="ID_1073064018" MODIFIED="1287582241266" TEXT="unary">

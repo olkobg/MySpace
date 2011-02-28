@@ -1,6 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" MODIFIED="1284979608398" TEXT="Rails">
+<node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1298889722346" TEXT="Rails">
+<font BOLD="true" NAME="SansSerif" SIZE="19"/>
 <node COLOR="#338800" CREATED="1283197399152" FOLDED="true" ID="ID_1130362241" MODIFIED="1289386305664" POSITION="right" TEXT="Database">
 <node CREATED="1283197403624" ID="ID_1592515143" MODIFIED="1287675775624" TEXT="migration">
 <node CREATED="1283197450026" ID="ID_1587485051" MODIFIED="1283197472241" TEXT="to migrate use db:migrate VERSION=&lt;version of DB&gt;"/>
