@@ -1,6 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1291283748504" TEXT="JavaScript">
+<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1298988794734" TEXT="JS">
+<font BOLD="true" NAME="SansSerif" SIZE="19"/>
 <node CREATED="1283935276328" ID="ID_1046873276" MODIFIED="1290675456568" POSITION="right" TEXT="Frameworks">
 <node CREATED="1283935280234" ID="ID_569325362" MODIFIED="1283935287453" TEXT="scriptaculous">
 <node CREATED="1283935288203" ID="ID_310409909" MODIFIED="1283935293343" TEXT="effects">

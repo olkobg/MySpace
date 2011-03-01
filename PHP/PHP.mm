@@ -2,14 +2,14 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1298549559998" TEXT="PHP">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1285850528231" ID="ID_449599395" MODIFIED="1289986143216" POSITION="right" TEXT="Testing">
+<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1299014837989" POSITION="right" TEXT="Testing">
 <node CREATED="1285850518723" ID="ID_349465635" MODIFIED="1285850525919" TEXT="UnitTesting">
 <node CREATED="1285850533738" ID="ID_395515202" MODIFIED="1285850536443" TEXT="PHPUnit">
 <node CREATED="1285850542328" ID="ID_613072461" MODIFIED="1285850545489" TEXT="installation"/>
 </node>
 </node>
 </node>
-<node CREATED="1291283758871" ID="ID_651800150" MODIFIED="1291284843536" POSITION="right" TEXT="App">
+<node CREATED="1291283758871" FOLDED="true" ID="ID_651800150" MODIFIED="1299014837664" POSITION="right" TEXT="App">
 <node CREATED="1291284845924" ID="ID_637058664" MODIFIED="1291284849510" TEXT="webCMS">
 <node COLOR="#0033ff" CREATED="1291283799040" ID="ID_632977273" LINK="Joomla.mm" MODIFIED="1298551152412" STYLE="bubble" TEXT="Joomla">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -55,7 +55,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1293715627303" ID="ID_238630762" MODIFIED="1293715629615" POSITION="right" TEXT="debug">
+<node CREATED="1293715627303" FOLDED="true" ID="ID_238630762" MODIFIED="1299014837059" POSITION="right" TEXT="debug">
 <node CREATED="1293715633004" ID="ID_335545435" MODIFIED="1293715636988" TEXT="Zend Debugger">
 <node CREATED="1293783245381" ID="ID_1713486316" MODIFIED="1293783248995" TEXT="php.ini">
 <node CREATED="1293783249578" ID="ID_182132240" MODIFIED="1298551280661">
@@ -68,8 +68,7 @@
       zend_extension=/usr/lib/php5/20090626+lfs/ZendDebugger.so<br />zend_debugger.allow_hosts=127.0.0.1 odemyanyuk localhost 10.10.1.197 mgwork<br />zend_debugger.expose_remotely=always<br />zend_debugger.httpd_uid=-1&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -88,8 +87,7 @@ xdebug.remote_handler=dbgp
 xdebug.remote_port=9000
     </pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="10"/>
 </node>
 </node>

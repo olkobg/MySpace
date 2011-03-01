@@ -1,6 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1297155125014" TEXT="git">
+<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1299014197248" TEXT="git">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1297153951399" ID="ID_1283764578" MODIFIED="1297153953115" POSITION="right" TEXT="init">
 <node CREATED="1288956268663" ID="ID_1358117005" MODIFIED="1289985873331" TEXT="init(initializes new branch in current directory)">
 <node CREATED="1289985859904" FOLDED="true" ID="ID_1644124774" MODIFIED="1297154002580" TEXT="ex">
@@ -13,7 +14,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1288956281435" ID="ID_805488976" MODIFIED="1289985882274" POSITION="right" TEXT="clone(copies branch)">
+<node CREATED="1288956281435" ID="ID_805488976" MODIFIED="1299014195592" POSITION="right" TEXT="clone(copies branch)">
 <font NAME="SansSerif" SIZE="13"/>
 <node CREATED="1289381984931" FOLDED="true" ID="ID_257585465" MODIFIED="1297154005110" TEXT="ex">
 <node CREATED="1289985835351" ID="ID_1121458597" MODIFIED="1289985836461" TEXT="git clone &lt;git url&gt;"/>
