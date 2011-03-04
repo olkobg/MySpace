@@ -15,7 +15,11 @@
 </node>
 <node CREATED="1298990388412" ID="ID_338489671" MODIFIED="1298990429426" TEXT="REM">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<!-- <<<<<<< HEAD
 <node CREATED="1298990390122" ID="ID_1858971824" MODIFIED="1298990400264" TEXT="RApid Eye Moving ">
+======= -->
+<node CREATED="1298990390122" ID="ID_1858971824" MODIFIED="1299015572940" TEXT="Rapid Eye Moving ">
+<!-- >>>>>>> af81e4f36834e25be06997f0b36ef2b6d9705d76 -->
 <node CREATED="1298990400562" ID="ID_1508327889" MODIFIED="1298990401883" TEXT="is">
 <node CREATED="1298990403934" ID="ID_1943828643" MODIFIED="1298990421792" TEXT="kind of dreams when your mind is remembering everything"/>
 </node>
@@ -36,8 +40,10 @@
       The fight between &#8220;<font color="#cc00cc"><i><b>have-to</b></i></font>&#8221; and &#8220;<font color="#cc00cc"><i><b>want-to</b></i></font>&#8221;
     </p>
   </body>
+<!-- <<<<<<< HEAD -->
 </html>
 </richcontent>
+<!-- =======</html></richcontent> >>>>>>> af81e 4f36834e25be06997f0b36ef2b6d9705d76 -->
 </node>
 </node>
 <node COLOR="#990000" CREATED="1298993722827" ID="ID_1050900759" MODIFIED="1298993749910" TEXT="procrastination">
@@ -60,8 +66,12 @@
       you cant do two works at the same time (<b>You can&#8217;t dance at two weddings with one rear end</b>)
     </p>
   </body>
+<!-- <<<<<<< HEAD -->
 </html>
 </richcontent>
+<!-- =======
+</html></richcontent>
+>>>>>>> af81e4f36834e25be06997f0b36ef2b6d9705d76 -->
 </node>
 </node>
 <node CREATED="1298988647962" ID="ID_1433013217" MODIFIED="1298988658275" POSITION="left" TEXT="key points">

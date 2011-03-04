@@ -42,8 +42,8 @@
 </node>
 <node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1299171161433" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1299165339042" TEXT="Variables">
-<node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1299149186319" TEXT="inf">
+<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1299255991036" TEXT="Variables">
+<node CREATED="1299143275220" ID="ID_1409859968" MODIFIED="1299255983368" TEXT="inf">
 <node CREATED="1299143282242" ID="ID_1282115974" MODIFIED="1299143314362" TEXT="represented with use of dillar sign followed by the name of the variable"/>
 <node CREATED="1299143337872" ID="ID_1019860433" MODIFIED="1299143338900" TEXT="By default, variables are always assigned by value"/>
 <node CREATED="1299147742489" ID="ID_707020924" MODIFIED="1299147776125" TEXT="the variables names cannot be with dot symbol"/>
@@ -825,7 +825,7 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299140242253" FOLDED="true" ID="ID_1018563844" MODIFIED="1299149703225" TEXT="ex">
+<node CREATED="1299140242253" ID="ID_1018563844" MODIFIED="1299255984584" TEXT="ex">
 <node CREATED="1299143376584" FOLDED="true" ID="ID_1928850830" MODIFIED="1299143690018" TEXT="simple">
 <node CREATED="1299140243635" ID="ID_922824201" MODIFIED="1299140250864">
 <richcontent TYPE="NODE"><html>
@@ -1209,7 +1209,7 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299147844252" FOLDED="true" ID="ID_848713801" MODIFIED="1299149824954" TEXT="Constants">
+<node CREATED="1299147844252" FOLDED="true" ID="ID_848713801" MODIFIED="1299255991409" TEXT="Constants">
 <node CREATED="1299148920872" FOLDED="true" ID="ID_1551835326" MODIFIED="1299149718299" TEXT="inf">
 <node CREATED="1299149321581" FOLDED="true" ID="ID_1533422805" MODIFIED="1299149717141" TEXT="magic constants">
 <node CREATED="1299149325969" ID="ID_1434172821" MODIFIED="1299149331260">
@@ -1360,8 +1360,8 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299149825660" ID="ID_1260115731" MODIFIED="1299164054613" TEXT="Classes">
-<node CREATED="1299160408769" FOLDED="true" ID="ID_1067806093" MODIFIED="1299169371986" TEXT="inf">
+<node CREATED="1299149825660" FOLDED="true" ID="ID_1260115731" MODIFIED="1299255991806" TEXT="Classes">
+<node CREATED="1299160408769" ID="ID_1067806093" MODIFIED="1299255972421" TEXT="inf">
 <node CREATED="1299161595122" ID="ID_1519705349" MODIFIED="1299161651236">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1479,8 +1479,7 @@ integer     : [+-]?decimal
       s a token that allows access to <font color="#0000ff">static</font>, constant, and overridden properties or methods of a class.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1299163533586" ID="ID_1861087301" MODIFIED="1299163533586">
 <richcontent TYPE="NODE"><html>
@@ -1503,8 +1502,7 @@ integer     : [+-]?decimal
       <font color="#0000ff">interface</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1299164098386" ID="ID_625184434" MODIFIED="1299164173657">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1518,8 +1516,7 @@ integer     : [+-]?decimal
       All methods declared in an <font color="#0000ff">interface</font>&#160;must be <font color="#0000ff">public</font>, this is the nature of an <font color="#0000ff">interface</font>.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1299164655677" ID="ID_281184367" MODIFIED="1299164657870" TEXT="Its possible for interfaces to have constants. Interface constants works exactly like class constants except they cannot be overridden by a class/interface that inherits it. "/>
 </node>
@@ -1535,8 +1532,7 @@ integer     : [+-]?decimal
       Overloading in PHP provides means to dynamically &quot;<span class="quote">create</span>&quot; properties and methods.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1299165397551" ID="ID_7735386" MODIFIED="1299165415009" TEXT="None of the arguments of these magic methods can be passed by reference. "/>
 <node CREATED="1299165415548" ID="ID_791547968" MODIFIED="1299165424797" TEXT="PHP&apos;s interpretation of &quot;overloading&quot; is different than most object oriented languages. Overloading traditionally provides the ability to have multiple methods with the same name but different quantities and types of arguments. "/>
@@ -1561,8 +1557,7 @@ integer     : [+-]?decimal
       <b><span class="function">__unset()</span></b>&#160;is invoked when <a href="http://www.php.net/manual/en/function.unset.php" class="function"><span class="function">unset()</span></a>&#160;is used on inaccessible properties.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299165727374" FOLDED="true" ID="ID_1635741975" MODIFIED="1299165743821" TEXT="method">
@@ -1585,8 +1580,7 @@ integer     : [+-]?decimal
       <b><span class="function">__callStatic()</span></b>&#160;is triggered when invoking inaccessible methods in a static context.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1613,8 +1607,7 @@ integer     : [+-]?decimal
       <font color="#0000ff">__clone</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1299167864532" ID="ID_415269163" MODIFIED="1299167866266" TEXT="Creating a copy of an object with fully replicated properties is not always the wanted behavior. A good example of the need for copy constructors, is if you have an object which represents a GTK window and the object holds the resource of this GTK window, when you create a duplicate you might want to create a new window with the same properties and have the new object hold the resource of the new window. Another example is if your object holds a reference to another object which it uses and when you replicate the parent object you want to create a new instance of this other object so that the replica has its own separate copy.  An object copy is created by using the clone keyword (which calls the object&apos;s __clone() method if possible). An object&apos;s __clone() method cannot be called directly. "/>
 </node>
 </node>
@@ -1628,8 +1621,7 @@ integer     : [+-]?decimal
       <font color="#0000ff">final</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1299167398151" ID="ID_660393576" MODIFIED="1299167403489" TEXT="PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended"/>
 </node>
 <node CREATED="1299167984280" FOLDED="true" ID="ID_1570908959" MODIFIED="1299168015953" TEXT="comparing">
@@ -1650,8 +1642,7 @@ integer     : [+-]?decimal
       On the other hand, when using the identity operator (<i>===</i>), object variables are identical if and only if they refer to the same instance of the same class.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299168108504" FOLDED="true" ID="ID_1148174175" MODIFIED="1299168235718" TEXT="type Hinting">
@@ -1666,8 +1657,7 @@ integer     : [+-]?decimal
       PHP 5 introduces Type Hinting. Functions are now able to force parameters to be objects (by specifying the name of the class in the function prototype) or arrays (since PHP 5.1). However, if NULL is used as the default parameter value, it will be allowed as an argument for any later call.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1299168225599" ID="ID_1510355309" MODIFIED="1299168231850">
 <richcontent TYPE="NODE"><html>
@@ -1679,8 +1669,7 @@ integer     : [+-]?decimal
       Type Hints can only be of the object and array (since PHP 5.1) type. Traditional type hinting with int and string isn't supported
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299168679625" FOLDED="true" ID="ID_610920909" MODIFIED="1299168700002" TEXT="refferences">
@@ -1701,12 +1690,11 @@ integer     : [+-]?decimal
       In order to be able to <a href="http://www.php.net/manual/en/function.unserialize.php" class="function"><span class="function">unserialize()</span></a>&#160;an object, the class of that object needs to be defined. That is, if you have an object of class A and serialize this, you'll get a string that refers to class A and contains all values of variables contained in it. If you want to be able to unserialize this in another file, an object of class A, the definition of class A must be present in that file first. This can be done for example by storing the class definition of class A in an include file and including this file or making use of the <a href="http://www.php.net/manual/en/function.spl-autoload-register.php" class="function"><span class="function">spl_autoload_register()</span></a>&#160; function.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1299149830514" FOLDED="true" ID="ID_902834209" MODIFIED="1299169370888" TEXT="ex">
+<node CREATED="1299149830514" ID="ID_902834209" MODIFIED="1299255974509" TEXT="ex">
 <node CREATED="1299160446732" FOLDED="true" ID="ID_1627791006" MODIFIED="1299165411334">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1850,8 +1838,7 @@ object(SimpleClass)#1 (1) {
       <font color="#0000ff">__autoload</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1299162354536" FOLDED="true" ID="ID_981761507" MODIFIED="1299162619302" TEXT="simple">
 <node CREATED="1299162356900" ID="ID_1309445242" MODIFIED="1299162360552">
 <richcontent TYPE="NODE"><html>
@@ -2107,8 +2094,7 @@ Getting 'hidden'
 
 Notice:  Undefined property via __get(): hidden in &lt;file&gt; on line 70 in &lt;file&gt; on line 29</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299165668098" FOLDED="true" ID="ID_1709537132" MODIFIED="1299165696699" TEXT="method">
@@ -2132,8 +2118,7 @@ Notice:  Undefined property via __get(): hidden in &lt;file&gt; on line 70 in &l
     <pre>Calling object method 'runTest' in object context
 Calling static method 'runTest' in static context</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2162,8 +2147,7 @@ var3 =&gt; value 3
 protected =&gt; protected var
 private =&gt; private var</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299166010451" FOLDED="true" ID="ID_1793500060" MODIFIED="1299166049705" TEXT="with Iterator">
@@ -2199,8 +2183,7 @@ key: 2
 next:
 valid: </pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299166061620" FOLDED="true" ID="ID_692481556" MODIFIED="1299166082134" TEXT="iterrator agregate">
@@ -2243,8 +2226,7 @@ next:
 current:
 valid:</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2274,8 +2256,7 @@ valid:</pre>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299166255696" FOLDED="true" ID="ID_1563272779" MODIFIED="1299166315053" TEXT="Singletone">
@@ -2302,8 +2283,7 @@ valid:</pre>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2318,8 +2298,7 @@ valid:</pre>
       <font color="#0000ff">__wakeup/__sleep</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1299166669117" ID="ID_573779343" MODIFIED="1299166672167">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2332,8 +2311,7 @@ valid:</pre>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299167081510" FOLDED="true" ID="ID_432435468" MODIFIED="1299167147119" TEXT="__invoke">
@@ -2357,8 +2335,7 @@ valid:</pre>
     <pre>int(5)
 bool(true)</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299167106891" FOLDED="true" ID="ID_1527815796" MODIFIED="1299167146417" TEXT="__toString">
@@ -2381,8 +2358,7 @@ bool(true)</pre>
     </p>
     <pre>Hello</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299167167432" FOLDED="true" ID="ID_1325231811" MODIFIED="1299167182881" TEXT="__set_state">
@@ -2410,8 +2386,7 @@ bool(true)</pre>
   string(3) &quot;foo&quot;
 }</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2425,8 +2400,7 @@ bool(true)</pre>
       <font color="#0000ff">final</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1299167466565" FOLDED="true" ID="ID_691213654" MODIFIED="1299167576052" TEXT="method">
 <node CREATED="1299167459282" ID="ID_383462451" MODIFIED="1299167462983">
 <richcontent TYPE="NODE"><html>
@@ -2456,8 +2430,7 @@ bool(true)</pre>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2509,8 +2482,7 @@ MyCloneable Object
 
 )</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2567,8 +2539,7 @@ o1 !== o2 : TRUE</pre>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299168142359" FOLDED="true" ID="ID_126555577" MODIFIED="1299168175217" TEXT="error">
@@ -2584,8 +2555,7 @@ o1 !== o2 : TRUE</pre>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299168176107" FOLDED="true" ID="ID_742313894" MODIFIED="1299168183169" TEXT="function">
@@ -2601,8 +2571,7 @@ o1 !== o2 : TRUE</pre>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299168190294" FOLDED="true" ID="ID_569622660" MODIFIED="1299168198531" TEXT="NULL">
@@ -2618,8 +2587,7 @@ o1 !== o2 : TRUE</pre>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2646,8 +2614,7 @@ o1 !== o2 : TRUE</pre>
 2
 2</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2667,14 +2634,13 @@ o1 !== o2 : TRUE</pre>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1299143116211" FOLDED="true" ID="ID_1331082950" MODIFIED="1299171158649" TEXT="operations">
+<node CREATED="1299143116211" FOLDED="true" ID="ID_1331082950" MODIFIED="1299255992365" TEXT="operations">
 <node CREATED="1299143122865" FOLDED="true" ID="ID_148913195" MODIFIED="1299168732986" TEXT="casting">
 <node CREATED="1299143165114" FOLDED="true" ID="ID_1088536286" MODIFIED="1299143167288" TEXT="inf">
 <node CREATED="1299143137038" ID="ID_1593388172" MODIFIED="1299143157751">
@@ -2834,7 +2800,7 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299171161417" ID="ID_1497261246" MODIFIED="1299171165297" TEXT="functions">
+<node CREATED="1299171161417" FOLDED="true" ID="ID_1497261246" MODIFIED="1299255993846" TEXT="functions">
 <node CREATED="1293626385953" FOLDED="true" ID="ID_246842598" MODIFIED="1299171151053" TEXT="mail">
 <node CREATED="1299138798677" FOLDED="true" ID="ID_1273683066" MODIFIED="1299171146438" TEXT="send">
 <node CREATED="1293626387761" ID="ID_191462727" MODIFIED="1299171144319" TEXT="ex">
