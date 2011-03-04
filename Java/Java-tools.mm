@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#cc6600" CREATED="1298045150214" ID="ID_212153723" LINK="Java.mm" MODIFIED="1298631360496" TEXT="tools">
+<node COLOR="#cc6600" CREATED="1298045150214" ID="ID_212153723" LINK="Java.mm" MODIFIED="1299145491496" TEXT="JAVA tools">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1298045164454" ID="ID_362615953" MODIFIED="1298045166118" POSITION="right" TEXT="maven">
 <node CREATED="1298045167435" ID="ID_1996320901" MODIFIED="1298045170879" TEXT="commands"/>
@@ -12,10 +12,30 @@
 <node CREATED="1298631580133" ID="ID_1666500531" MODIFIED="1298631582420" TEXT="antcall"/>
 <node CREATED="1298631586054" ID="ID_17787238" MODIFIED="1298631587786" TEXT="copy"/>
 <node CREATED="1298631675948" ID="ID_1196863888" MODIFIED="1298631678400" TEXT="concat"/>
+<node CREATED="1299073465505" ID="ID_825663838" MODIFIED="1299147427174" TEXT="timestamp">
+<node CREATED="1299073473435" FOLDED="true" ID="ID_1769359698" MODIFIED="1299073633423" TEXT="ex">
+<node CREATED="1299073474994" ID="ID_996177815" MODIFIED="1299073491939">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;tstamp&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;format property=&quot;timestamp&quot; pattern=&quot;dd-MM-yyyy hh:mm:ss&quot; /&gt;
+    </p>
+    <p>
+      &lt;/tstamp&gt;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1298631390945" ID="ID_925877727" MODIFIED="1298631748903" TEXT="targets">
-<node CREATED="1298631394112" ID="ID_129222" MODIFIED="1298631644350" TEXT="sql generation">
-<node COLOR="#669900" CREATED="1298631751561" ID="ID_346869772" MODIFIED="1298631776455" TEXT="src">
+</node>
+</node>
+<node CREATED="1298631394112" ID="ID_129222" MODIFIED="1299147431479" TEXT="sql generation">
+<node COLOR="#669900" CREATED="1298631751561" FOLDED="true" ID="ID_346869772" MODIFIED="1299073464502" TEXT="src">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1298631400457" ID="ID_1665079214" MODIFIED="1298631410259">
 <richcontent TYPE="NODE"><html>
@@ -125,8 +145,27 @@
 </node>
 </node>
 </node>
+<node CREATED="1298631390945" ID="ID_925877727" MODIFIED="1298631748903" TEXT="targets"/>
 <node CREATED="1298631604172" ID="ID_8173688" MODIFIED="1298631605572" TEXT="path"/>
-<node CREATED="1298631598857" ID="ID_1382856371" MODIFIED="1298631603806" TEXT="properties"/>
+<node CREATED="1298631598857" ID="ID_1382856371" MODIFIED="1298631603806" TEXT="properties">
+<node CREATED="1299073593882" ID="ID_507185018" MODIFIED="1299147436609" TEXT="environment property">
+<node CREATED="1299073599980" FOLDED="true" ID="ID_744653517" MODIFIED="1299073631689" TEXT="ex">
+<node CREATED="1299073600214" ID="ID_776141642" MODIFIED="1299073605703">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&lt;property environment=&quot;env&quot; /&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1299073856791" ID="ID_1806430074" LINK="http://ant.apache.org/manual/" MODIFIED="1299073859839" TEXT="manual"/>
 </node>
 </node>
 </map>

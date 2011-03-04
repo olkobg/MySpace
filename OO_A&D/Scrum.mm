@@ -1,6 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#338800" CREATED="1283774000086" ID="ID_283769680" MODIFIED="1284972941526" TEXT="Scrum ">
+<node COLOR="#338800" CREATED="1283774000086" ID="ID_283769680" LINK="../Index.mm" MODIFIED="1299240902528" TEXT="Scrum ">
+<font BOLD="true" NAME="SansSerif" SIZE="21"/>
 <node CREATED="1283774045982" FOLDED="true" ID="ID_1469026428" MODIFIED="1289389947019" POSITION="right" TEXT="backlog ">
 <node CREATED="1283789156931" ID="ID_173182265" MODIFIED="1283844976515" TEXT="main log of all the tasks(user stories)"/>
 <node CREATED="1285331644176" ID="ID_1498768818" MODIFIED="1285331648250" TEXT="splititng">
@@ -51,7 +52,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1284015591906" FOLDED="true" ID="ID_876405906" MODIFIED="1284016157437" POSITION="left" TEXT="Demo">
+<node CREATED="1284015591906" ID="ID_876405906" MODIFIED="1299236741000" POSITION="left" TEXT="Demo">
 <node CREATED="1284015594531" ID="ID_1813863084" MODIFIED="1284015596375" TEXT="tips">
 <node CREATED="1284015597078" ID="ID_1905962302" MODIFIED="1284015619171" TEXT="what did we do not how did we do it">
 <font NAME="SansSerif" SIZE="12"/>
@@ -85,7 +86,7 @@
 <node CREATED="1284450703930" ID="ID_1083706394" MODIFIED="1284450753520" TEXT="calculate human days for sprint and split back log into sprint by dividing all tasks"/>
 <node CREATED="1284450772857" ID="ID_1776247559" MODIFIED="1284450803317" TEXT="dont foget about focus factor"/>
 </node>
-<node CREATED="1284970755017" FOLDED="true" ID="ID_1320978929" MODIFIED="1285330736175" POSITION="right" TEXT="testing">
+<node CREATED="1284970755017" FOLDED="true" ID="ID_1320978929" MODIFIED="1299236739936" POSITION="right" TEXT="testing">
 <node CREATED="1284970759144" ID="ID_222711074" MODIFIED="1284970774689" TEXT="realy important thing of developmetn"/>
 <node CREATED="1284970775367" ID="ID_345475624" MODIFIED="1284971013931" TEXT="you should always notify of system type which should be tested are realy complex or not (flight app or webblog)"/>
 <node CREATED="1284972487643" ID="ID_882488670" MODIFIED="1284972519803" TEXT="when planning next sprint alocate time for fixing issues from previous sprint"/>

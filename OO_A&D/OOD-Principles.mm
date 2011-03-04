@@ -1,0 +1,35 @@
+<map version="0.9.0">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1289984646135" ID="ID_1853198355" LINK="../Index.mm" MODIFIED="1299236835041" TEXT="OOD">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1296835925807" ID="ID_915433591" MODIFIED="1296835945283" POSITION="left" TEXT="TDD"/>
+<node CREATED="1289984627900" ID="ID_880339721" LINK="Agile.mm" MODIFIED="1299236765653" POSITION="left" TEXT="Agile">
+<node CREATED="1289984630647" ID="ID_1719059817" MODIFIED="1289984811009" TEXT="Pragmaric">
+<node CREATED="1289984798504" ID="ID_175964393" LINK="Pragmatic-Learning.mm" MODIFIED="1299236712924" TEXT="Learning"/>
+</node>
+<node CREATED="1289984639926" ID="ID_1753350196" LINK="Scrum.mm" MODIFIED="1299236720888" TEXT="SCRUM"/>
+<node CREATED="1297689878385" ID="ID_275709927" LINK="KanBan.mm" MODIFIED="1299236726650" TEXT="KanBan"/>
+<node CREATED="1296835922393" ID="ID_228552236" MODIFIED="1296835925074" TEXT="XP"/>
+<node CREATED="1296835922393" ID="ID_902602973" MODIFIED="1296835925074" TEXT="XP"/>
+</node>
+<node CREATED="1299228795413" ID="ID_1917404631" LINK="OO-Patterns.mm" MODIFIED="1299236969777" POSITION="left" TEXT="Patterns"/>
+<node CREATED="1299236823267" ID="ID_337803589" MODIFIED="1299236854590" POSITION="right" TEXT="Principles">
+<node CREATED="1299236830875" ID="ID_445043046" MODIFIED="1299242608771">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Encapsulate what varies.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1299242601708" ID="ID_417506604" MODIFIED="1299242602641" TEXT="Program to interfaces, not implementations."/>
+<node CREATED="1299242610645" ID="ID_851380906" MODIFIED="1299242611522" TEXT="Favor composition over inheritence."/>
+<node CREATED="1299236856920" ID="ID_1807425320" MODIFIED="1299242965187" TEXT=" Strive for loosely coupled designs between objects that interact"/>
+</node>
+</node>
+</map>

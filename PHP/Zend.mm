@@ -136,7 +136,122 @@
 <node CREATED="1293290348005" ID="ID_1752401263" MODIFIED="1293392896676" POSITION="left" TEXT="configuration">
 <node CREATED="1293292293347" ID="ID_970984985" MODIFIED="1293292299044" TEXT="db-provider"/>
 </node>
-<node CREATED="1293289134473" ID="ID_1209023624" MODIFIED="1293289138075" POSITION="left" TEXT="strcture"/>
+<node CREATED="1293289134473" FOLDED="true" ID="ID_1209023624" MODIFIED="1299139250075" POSITION="left" TEXT="strcture">
+<node CREATED="1299139218419" ID="ID_1101051639" MODIFIED="1299139248111">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;$APP_DIR/application Main application directory
+    </p>
+    <p>
+      $APP_DIR/application/controllers Global controllers
+    </p>
+    <p>
+      $APP_DIR/application/views Global views
+    </p>
+    <p>
+      $APP_DIR/application/models Global models
+    </p>
+    <p>
+      $APP_DIR/application/configs Global configuration data
+    </p>
+    <p>
+      $APP_DIR/application/layouts Global layouts
+    </p>
+    <p>
+      $APP_DIR/application/modules Modules
+    </p>
+    <p>
+      $APP_DIR/library Third-party libraries and classes
+    </p>
+    <p>
+      $APP_DIR/public Main publicly accessible directory
+    </p>
+    <p>
+      $APP_DIR/public/css CSS style sheets
+    </p>
+    <p>
+      $APP_DIR/public/js JavaScript program code
+    </p>
+    <p>
+      $APP_DIR/public/images Application images
+    </p>
+    <p>
+      $APP_DIR/tests Unit tests
+    </p>
+    <p>
+      $APP_DIR/temp Temporary data
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1299139188313" ID="ID_1986945483" MODIFIED="1299139190040" POSITION="left" TEXT="Forms">
+<node CREATED="1299139190460" FOLDED="true" ID="ID_1742058369" MODIFIED="1299139251400" TEXT="form elements">
+<node CREATED="1299139199643" ID="ID_329668692" MODIFIED="1299139204202">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;Zend_Form_Element_Text Text input field
+    </p>
+    <p>
+      Zend_Form_Element_Hidden Hidden field
+    </p>
+    <p>
+      Zend_Form_Element_Password Password field
+    </p>
+    <p>
+      Zend_Form_Element_Radio Radio button
+    </p>
+    <p>
+      Zend_Form_Element_Checkbox Check box
+    </p>
+    <p>
+      Zend_Form_Element_MultiCheckbox Group of related check boxes
+    </p>
+    <p>
+      Zend_Form_Element_Select Selection list (single)
+    </p>
+    <p>
+      Zend_Form_Element_MultiSelect Selection list (multiple)
+    </p>
+    <p>
+      Zend_Form_Element_Textarea Text input field
+    </p>
+    <p>
+      Zend_Form_Element_File File input field
+    </p>
+    <p>
+      Zend_Form_Element_Image Image
+    </p>
+    <p>
+      Zend_Form_Element_Button Button
+    </p>
+    <p>
+      Zend_Form_Element_Hash Unique string (for session identification)
+    </p>
+    <p>
+      Zend_Form_Element_Captcha CAPTCHA (for spam filtering)
+    </p>
+    <p>
+      Zend_Form_Element_Reset Reset button
+    </p>
+    <p>
+      Zend_Form_Element_Submit Submit button
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node CREATED="1293290661598" ID="ID_930790720" MODIFIED="1293290663315" POSITION="left" TEXT="resource">
 <node CREATED="1293290663687" ID="ID_338831593" MODIFIED="1293290665340" TEXT="add">
 <node CREATED="1293290674348" ID="ID_67526450" MODIFIED="1293290676240" TEXT="note">

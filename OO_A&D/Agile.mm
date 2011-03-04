@@ -1,11 +1,60 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1283930938140" ID="ID_861022927" LINK="../Index.mm" MODIFIED="1293970421731" TEXT="Agile OOD">
-<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1283930938140" ID="ID_861022927" LINK="../Index.mm" MODIFIED="1299240899286" TEXT="Agile OOD">
+<font BOLD="true" NAME="SansSerif" SIZE="19"/>
 <node CREATED="1283930953234" ID="ID_1778766102" MODIFIED="1289386479972" POSITION="right" TEXT="principles of OOD">
-<node CREATED="1283930974984" ID="ID_1595037506" MODIFIED="1283930985859" TEXT="DIP (depency inversion principle)"/>
-<node CREATED="1283930987468" ID="ID_470383395" MODIFIED="1283931001578" TEXT="OCP (Open - closed principle)"/>
-<node CREATED="1283931003859" ID="ID_439271811" MODIFIED="1283931003859" TEXT=""/>
+<node CREATED="1283930974984" ID="ID_1595037506" MODIFIED="1299240999287">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>DIP</b>&#160;(Depency inversion principle)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1283930987468" ID="ID_470383395" MODIFIED="1299241003193">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>OCP</b>&#160;(Open - closed principle)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1283931003859" ID="ID_439271811" MODIFIED="1299241009643">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>LSP</b>&#160;(Liskov substituion pronciple)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1299240942928" ID="ID_1565221215" MODIFIED="1299241013621">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>SRP</b>&#160;(Single responsibility principle)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1289386487666" ID="ID_196887873" MODIFIED="1289386491055" POSITION="left" TEXT="Methods">
 <node CREATED="1289386491638" ID="ID_794681250" LINK="Scrum.mm" MODIFIED="1289386500756" TEXT="SCRUM"/>
@@ -15,8 +64,8 @@
 <node CREATED="1292430934837" ID="ID_1338916993" MODIFIED="1292430941556" TEXT="KanBan"/>
 </node>
 <node CREATED="1292430947822" ID="ID_312852694" MODIFIED="1292431427081" POSITION="right" TEXT="Things">
-<node CREATED="1292430966261" ID="ID_287074705" MODIFIED="1292431429318" TEXT="Continuous Integration">
-<node CREATED="1292430976763" ID="ID_169172201" MODIFIED="1293970443434" TEXT="Server">
+<node CREATED="1292430966261" FOLDED="true" ID="ID_287074705" MODIFIED="1299241027801" TEXT="Continuous Integration">
+<node CREATED="1292430976763" FOLDED="true" ID="ID_169172201" MODIFIED="1299241027567" TEXT="Server">
 <node CREATED="1292430979656" ID="ID_1738507034" MODIFIED="1292430985535" TEXT="Hudson"/>
 <node CREATED="1292430985789" ID="ID_603993624" MODIFIED="1292430993359" TEXT="Cruise Controll">
 <node CREATED="1293970449085" ID="ID_675480196" MODIFIED="1293970452147" TEXT="addons">

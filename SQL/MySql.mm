@@ -1,6 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1289386315255" ID="ID_428651575" MODIFIED="1289386322839" TEXT="MySql">
+<node CREATED="1289386315255" ID="ID_428651575" LINK="../Index.mm" MODIFIED="1299250618216" TEXT="MySql">
+<font BOLD="true" NAME="SansSerif" SIZE="21"/>
 <node CREATED="1290076786055" ID="ID_956641942" MODIFIED="1290076788459" POSITION="right" TEXT="Variables">
 <node CREATED="1290076789169" ID="ID_1833639184" MODIFIED="1290076789169" TEXT=""/>
 </node>
@@ -15,6 +16,60 @@
 </node>
 <node CREATED="1295343288730" ID="ID_937813895" MODIFIED="1295343291353" TEXT="tcp/ip">
 <node CREATED="1295343292234" ID="ID_11758781" MODIFIED="1295343302823" TEXT="used for both windows and unix environments"/>
+</node>
+</node>
+<node CREATED="1299247772112" ID="ID_748683254" MODIFIED="1299247792517" POSITION="left" TEXT="Stored Procedures">
+<node CREATED="1299247792506" ID="ID_198974254" MODIFIED="1299247796701" TEXT="ex">
+<node CREATED="1299247796664" FOLDED="true" ID="ID_1026354186" MODIFIED="1299250589452" TEXT="simple">
+<node CREATED="1299247779698" ID="ID_1412236481" MODIFIED="1299247791609">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DELIMITER $$
+    </p>
+    <p>
+      DROP PROCEDURE IF EXISTS `magento_dev`.`sampdb_tables` $$
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CREATE
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;PROCEDURE `magento_dev`.`sampdb_tables`()
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;BEGIN
+    </p>
+    <p>
+      SELECT *&#160;&#160;FROM api_user;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;END$$
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      DELIMITER ;
+    </p>
+    <p>
+      CALL `magento_dev`.`sampdb_tables`;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>

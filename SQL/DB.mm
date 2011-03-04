@@ -1,6 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1289385817016" ID="ID_783159837" MODIFIED="1289385823033" TEXT="DB">
+<node COLOR="#996600" CREATED="1289385817016" ID="ID_783159837" LINK="../Index.mm" MODIFIED="1299169699134" TEXT="DB">
+<font BOLD="true" NAME="SansSerif" SIZE="20"/>
 <node CREATED="1289385824052" ID="ID_548834347" MODIFIED="1289386442102" POSITION="right" TEXT="Relative(RDBMS)">
 <node CREATED="1289385851296" ID="ID_110698162" LINK="MySql.mm" MODIFIED="1289386427683" TEXT="Mysql">
 <node CREATED="1289385853751" FOLDED="true" ID="ID_1640414653" MODIFIED="1289386446755" TEXT="clones">
@@ -15,6 +16,40 @@
 </node>
 <node CREATED="1289386182957" ID="ID_1800434505" MODIFIED="1289386189338" TEXT="PostgreSQL"/>
 <node CREATED="1289386190213" ID="ID_977471487" LINK="Oracle_DB.mm" MODIFIED="1289386224756" TEXT="Oracle"/>
+</node>
+<node CREATED="1299169382964" ID="ID_1908022939" MODIFIED="1299169639059" POSITION="left" TEXT="Normalization">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#ff0000" CREATED="1299169536792" ID="ID_940032554" MODIFIED="1299169630671" TEXT="important!">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299169394741" ID="ID_313520590" MODIFIED="1299169643742" TEXT="1NF">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299169465105" ID="ID_13352914" MODIFIED="1299169487508" TEXT="Each Column Type is Unique."/>
+</node>
+<node CREATED="1299169404209" ID="ID_1108512118" MODIFIED="1299169643740" TEXT="2NF">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299169477778" ID="ID_948918357" MODIFIED="1299169479468" TEXT="The entity under consideration should already be in the 1NF and all attributes within the entity should depend solely on the entity&apos;s unique identifier."/>
+</node>
+<node CREATED="1299169397601" ID="ID_508063291" MODIFIED="1299169643740" TEXT="3NF">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299169532229" ID="ID_1870097551" MODIFIED="1299169533474" TEXT="The entity should already be in the 2NF and no column entry should be dependent on any other entry (value) other than the key for the table. If such an entity exists, move it outside into a new table."/>
+</node>
+</node>
+<node COLOR="#ff6666" CREATED="1299169542216" ID="ID_1602936437" MODIFIED="1299169634460" TEXT="advanced">
+<node CREATED="1299169416045" ID="ID_1504826101" MODIFIED="1299169646252" TEXT="BCNF(boyce codd)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299169556337" ID="ID_1763492701" MODIFIED="1299169559769" TEXT="The database should be in 3NF and all tables can have only one primary key.">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1299169406819" ID="ID_1474557769" MODIFIED="1299169646251" TEXT="4NF">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299169571032" ID="ID_1057168170" MODIFIED="1299169572269" TEXT="Tables cannot have multi-valued dependencies on a Primary Key."/>
+</node>
+<node CREATED="1299169421038" ID="ID_1760846125" MODIFIED="1299169646249" TEXT="5NF">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299169619791" ID="ID_906509860" MODIFIED="1299169620474" TEXT="There should be no cyclic dependencies in a composite key."/>
+</node>
+</node>
 </node>
 </node>
 </map>

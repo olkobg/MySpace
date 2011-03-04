@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#669900" CREATED="1289984563004" ID="ID_1765798646" LINK="../Index.mm" MODIFIED="1298550725454" TEXT="Java">
 <font BOLD="true" NAME="SansSerif" SIZE="23"/>
-<node COLOR="#006633" CREATED="1298040141674" ID="ID_1059141974" LINK="Java%20EE.mm" MODIFIED="1298543456762" POSITION="left" STYLE="bubble" TEXT="Java EE">
+<node COLOR="#006633" CREATED="1298040141674" ID="ID_1059141974" LINK="JavaEE.mm" MODIFIED="1299014234646" POSITION="left" STYLE="bubble" TEXT="Java EE">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
 </node>
 <node COLOR="#669900" CREATED="1298647501042" ID="ID_485816813" MODIFIED="1298890191096" POSITION="left" TEXT="Concurency">
@@ -23,9 +23,6 @@
 </node>
 <node CREATED="1298283238922" ID="ID_656681679" LINK="http://xdoclet.sourceforge.net/xdoclet/index.html" MODIFIED="1298283254049" TEXT="site"/>
 </node>
-</node>
-<node COLOR="#990099" CREATED="1298045162954" ID="ID_1671842981" LINK="tools.mm" MODIFIED="1298552458025" POSITION="right" STYLE="bubble" TEXT="tools">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 <node CREATED="1298298292964" ID="ID_416803549" MODIFIED="1298298295768" POSITION="right" TEXT="JMX">
 <node CREATED="1298298339205" ID="ID_883274921" MODIFIED="1298298378582" TEXT="is">
@@ -49,7 +46,7 @@
 <edge STYLE="sharp_bezier" WIDTH="2"/>
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1298470864307" ID="ID_47380899" MODIFIED="1298552139638" TEXT="Byte Streams">
-<node COLOR="#669900" CREATED="1298470575790" FOLDED="true" ID="ID_1697404752" MODIFIED="1298553852256" TEXT="img">
+<node COLOR="#669900" CREATED="1298470575790" FOLDED="true" ID="ID_1697404752" MODIFIED="1299014406334" TEXT="img">
 <font NAME="SansSerif" SIZE="10"/>
 <node CREATED="1298467430765" ID="ID_841441774" MODIFIED="1298552615879" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
@@ -92,7 +89,7 @@
 </node>
 <node CREATED="1298471504699" ID="ID_1278858997" MODIFIED="1298552187840" TEXT="BufferedStreams">
 <node CREATED="1298471511208" ID="ID_16792069" MODIFIED="1298471520303" TEXT="used to create buffer"/>
-<node COLOR="#669900" CREATED="1298471566415" FOLDED="true" ID="ID_1150650425" MODIFIED="1298553853426" TEXT="img">
+<node COLOR="#669900" CREATED="1298471566415" FOLDED="true" ID="ID_1150650425" MODIFIED="1299014259514" TEXT="img">
 <font NAME="SansSerif" SIZE="10"/>
 <node CREATED="1298471575467" ID="ID_1540991144" MODIFIED="1298552615874" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
@@ -268,8 +265,7 @@ try {
       <i><font color="#3333ff"><b>transient</b></font></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1298639885346" ID="ID_227993484" MODIFIED="1298639961276" TEXT="IF you need not to include object ot serialize use"/>
 </node>
 </node>
@@ -364,6 +360,12 @@ try {
 <node COLOR="#0033ff" CREATED="1298890293807" ID="ID_742273964" MODIFIED="1298890311419" TEXT="equals"/>
 </node>
 </node>
+</node>
+<node COLOR="#990099" CREATED="1299146850853" ID="ID_1347391451" LINK="Java-Libs.mm" MODIFIED="1299146932259" POSITION="left" STYLE="bubble" TEXT="Libs">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+</node>
+<node COLOR="#990099" CREATED="1298045162954" ID="ID_1671842981" LINK="Java-tools.mm" MODIFIED="1299142346305" POSITION="left" STYLE="bubble" TEXT="tools">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </map>
