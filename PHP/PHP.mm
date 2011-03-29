@@ -40,9 +40,13 @@
 <node CREATED="1299138709209" ID="ID_746365137" LINK="http://www.propelorm.org/" MODIFIED="1299138740517" TEXT="Propel"/>
 </node>
 </node>
-<node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1299171161433" POSITION="left" TEXT="CORE">
+<!-- <<<<<<< .mine
+<node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1301231917022" POSITION="left" TEXT="CORE">
+======= -->
+<node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1301309567693" POSITION="left" TEXT="CORE">
+<!-- >>>>>>> .r91 -->
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1299255991036" TEXT="Variables">
+<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1301231952069" TEXT="Variables">
 <node CREATED="1299143275220" ID="ID_1409859968" MODIFIED="1299255983368" TEXT="inf">
 <node CREATED="1299143282242" ID="ID_1282115974" MODIFIED="1299143314362" TEXT="represented with use of dillar sign followed by the name of the variable"/>
 <node CREATED="1299143337872" ID="ID_1019860433" MODIFIED="1299143338900" TEXT="By default, variables are always assigned by value"/>
@@ -1139,7 +1143,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299145148830" FOLDED="true" ID="ID_773172954" MODIFIED="1299145247808">
+<node CREATED="1299145148830" FOLDED="true" ID="ID_773172954" MODIFIED="1301231948363">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1150,6 +1154,7 @@ integer     : [+-]?decimal
     </p>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299145066685" ID="ID_1846718504" MODIFIED="1299145083418">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1209,9 +1214,14 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299147844252" FOLDED="true" ID="ID_848713801" MODIFIED="1299255991409" TEXT="Constants">
-<node CREATED="1299148920872" FOLDED="true" ID="ID_1551835326" MODIFIED="1299149718299" TEXT="inf">
-<node CREATED="1299149321581" FOLDED="true" ID="ID_1533422805" MODIFIED="1299149717141" TEXT="magic constants">
+<node CREATED="1299147844252" ID="ID_848713801" MODIFIED="1300957647106" TEXT="Constants">
+<!-- <<<<<<< .mine -->
+<node CREATED="1299148920872" ID="ID_1551835326" MODIFIED="1301231937163" TEXT="inf">
+<node CREATED="1299149321581" FOLDED="true" ID="ID_1533422805" MODIFIED="1301231941457" TEXT="magic constants">
+<!-- =======
+<node CREATED="1299148920872" ID="ID_1551835326" MODIFIED="1301309611133" TEXT="inf">
+<node CREATED="1299149321581" FOLDED="true" ID="ID_1533422805" MODIFIED="1300955314939" TEXT="magic constants">
+>>>>>>> .r91 -->
 <node CREATED="1299149325969" ID="ID_1434172821" MODIFIED="1299149331260">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1280,7 +1290,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299149273986" FOLDED="true" ID="ID_1992008693" MODIFIED="1299149320174" TEXT="data types used">
+<node CREATED="1299149273986" ID="ID_1992008693" MODIFIED="1301231938613" TEXT="data types used">
 <node CREATED="1299149279211" ID="ID_1843323461" MODIFIED="1299149280730" TEXT="Only scalar data (boolean, integer, float and string) can be contained in constants."/>
 </node>
 <node CREATED="1299149192539" FOLDED="true" ID="ID_792900332" MODIFIED="1299149292311" TEXT="diff from var">
@@ -1316,7 +1326,7 @@ integer     : [+-]?decimal
 </node>
 </node>
 <node CREATED="1299147849742" ID="ID_519239087" MODIFIED="1299149719257" TEXT="ex">
-<node CREATED="1299147851515" FOLDED="true" ID="ID_652031416" MODIFIED="1299149170519" TEXT="simple">
+<node CREATED="1299147851515" FOLDED="true" ID="ID_652031416" MODIFIED="1301231936152" TEXT="simple">
 <node CREATED="1299147853308" ID="ID_159035206" MODIFIED="1299147859980">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1332,7 +1342,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299148865260" FOLDED="true" ID="ID_126732391" MODIFIED="1299149171657">
+<node CREATED="1299148865260" ID="ID_126732391" MODIFIED="1300957648572">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1360,8 +1370,13 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299149825660" FOLDED="true" ID="ID_1260115731" MODIFIED="1299255991806" TEXT="Classes">
-<node CREATED="1299160408769" ID="ID_1067806093" MODIFIED="1299255972421" TEXT="inf">
+<!-- <<<<<<< .mine
+<node CREATED="1299149825660" FOLDED="true" ID="ID_1260115731" MODIFIED="1301231954345" TEXT="Classes">
+<node CREATED="1299160408769" ID="ID_1067806093" MODIFIED="1301231920069" TEXT="inf">
+======= -->
+<node CREATED="1299149825660" ID="ID_1260115731" MODIFIED="1301309567695" TEXT="Classes">
+<node CREATED="1299160408769" ID="ID_1067806093" MODIFIED="1301309585207" TEXT="inf">
+<!-- >>>>>>> .r91 -->
 <node CREATED="1299161595122" ID="ID_1519705349" MODIFIED="1299161651236">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1374,6 +1389,7 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
+<node COLOR="#0033ff" CREATED="1301309585135" ID="ID_253198961" MODIFIED="1301309589632" TEXT="self">
 <node CREATED="1299161888872" ID="ID_675036707" MODIFIED="1299161916268">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1386,7 +1402,12 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1299160411145" FOLDED="true" ID="ID_543816041" MODIFIED="1299165806476">
+<!-- <<<<<<< .mine
+<node CREATED="1299160411145" FOLDED="true" ID="ID_543816041" MODIFIED="1301231925696">
+======= -->
+</node>
+<node CREATED="1299160411145" FOLDED="true" ID="ID_543816041" MODIFIED="1301309593735">
+<!-- >>>>>>> .r91 -->
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1397,10 +1418,14 @@ integer     : [+-]?decimal
     </p>
   </body>
 </html></richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299160414636" ID="ID_888619576" LINK="#ID_1108734492" MODIFIED="1299161000363" TEXT="The pseudo-variable $this is available when a method is called from within an object context. $this is a reference to the calling object"/>
 </node>
-<node CREATED="1299162365651" FOLDED="true" ID="ID_803718573" MODIFIED="1299165806059">
+<!-- <<<<<<< .mine
+<node CREATED="1299162365651" FOLDED="true" ID="ID_803718573" MODIFIED="1301231926777">
+======= -->
+<node CREATED="1299162365651" FOLDED="true" ID="ID_803718573" MODIFIED="1301309593728">
+<!-- >>>>>>> .r91 -->
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1411,6 +1436,7 @@ integer     : [+-]?decimal
     </p>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299162371818" ID="ID_282128124" MODIFIED="1299162420976">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1457,7 +1483,7 @@ integer     : [+-]?decimal
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1299163289338" FOLDED="true" ID="ID_671618037" MODIFIED="1299165805001" STYLE="fork">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1299163289338" FOLDED="true" ID="ID_671618037" MODIFIED="1300955635528" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1469,6 +1495,7 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299163394980" ID="ID_804222244" MODIFIED="1299163516233">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1492,7 +1519,9 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299164086015" FOLDED="true" ID="ID_804566709" MODIFIED="1299165804716">
+<!-- <<<<<<< .mine
+======= -->
+<node CREATED="1299164086015" FOLDED="true" ID="ID_804566709" MODIFIED="1301309596415">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1503,6 +1532,7 @@ integer     : [+-]?decimal
     </p>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299164098386" ID="ID_625184434" MODIFIED="1299164173657">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1520,7 +1550,8 @@ integer     : [+-]?decimal
 </node>
 <node CREATED="1299164655677" ID="ID_281184367" MODIFIED="1299164657870" TEXT="Its possible for interfaces to have constants. Interface constants works exactly like class constants except they cannot be overridden by a class/interface that inherits it. "/>
 </node>
-<node CREATED="1299165343200" FOLDED="true" ID="ID_1408513066" MODIFIED="1299165804229" TEXT="overloading">
+<!-- >>>>>>> .r91 -->
+<node CREATED="1299165343200" FOLDED="true" ID="ID_1408513066" MODIFIED="1300955800338" TEXT="overloading">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299165348255" ID="ID_1299329519" MODIFIED="1299165396647">
 <richcontent TYPE="NODE"><html>
@@ -1537,67 +1568,97 @@ integer     : [+-]?decimal
 <node CREATED="1299165397551" ID="ID_7735386" MODIFIED="1299165415009" TEXT="None of the arguments of these magic methods can be passed by reference. "/>
 <node CREATED="1299165415548" ID="ID_791547968" MODIFIED="1299165424797" TEXT="PHP&apos;s interpretation of &quot;overloading&quot; is different than most object oriented languages. Overloading traditionally provides the ability to have multiple methods with the same name but different quantities and types of arguments. "/>
 <node CREATED="1299165596243" ID="ID_518691745" MODIFIED="1299165597436" TEXT="It is not possible to use overloaded properties in other language constructs than isset(). This means if empty() is called on an overloaded property, the overloaded method is not called.  To workaround that limitation, the overloaded property must be copied into a local variable in the scope and then be handed to empty(). "/>
-<node CREATED="1299165462279" FOLDED="true" ID="ID_1027080269" MODIFIED="1299165744031" TEXT="property">
-<node CREATED="1299165468077" ID="ID_1134712917" MODIFIED="1299165474439">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p class="para">
-      <b><span class="function">__set()</span></b>&#160;is run when writing data to inaccessible properties.
-    </p>
-    <p class="para">
-      <b><span class="function">__get()</span></b>&#160;is utilized for reading data from inaccessible properties.
-    </p>
-    <p class="para">
-      <b><span class="function">__isset()</span></b>&#160;is triggered by calling <a href="http://www.php.net/manual/en/function.isset.php" class="function"><span class="function">isset()</span></a>&#160;or <a href="http://www.php.net/manual/en/function.empty.php" class="function"><span class="function">empty()</span></a>&#160; on inaccessible properties.
-    </p>
-    <p class="para">
-      <b><span class="function">__unset()</span></b>&#160;is invoked when <a href="http://www.php.net/manual/en/function.unset.php" class="function"><span class="function">unset()</span></a>&#160;is used on inaccessible properties.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1299165727374" FOLDED="true" ID="ID_1635741975" MODIFIED="1299165743821" TEXT="method">
-<node CREATED="1299165730517" ID="ID_1193136737" MODIFIED="1299165742126">
+<node CREATED="1299165727374" FOLDED="true" ID="ID_1635741975" MODIFIED="1300955798252" TEXT="method">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299165730517" ID="ID_1193136737" MODIFIED="1300955792800">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <div class="methodsynopsis dc-description">
-      <a href="http://www.php.net/manual/en/language.pseudo-types.php#language.types.mixed" class="type mixed"><span class="type">mixed</span></a>&#160;<b><span class="methodname">__call</span></b>&#160;( <span class="type">string</span><span class="methodparam">&#160;<tt class="parameter">$name</tt></span>&#160; , <span class="type">array</span><span class="methodparam">&#160;<tt class="parameter">$arguments</tt></span>&#160;)
+      <font color="#0000cc"><b><a href="http://www.php.net/manual/en/language.pseudo-types.php#language.types.mixed" class="type mixed">mixed</a>&#160;__call&#160;( string&#160;<tt class="parameter">$name</tt>&#160;&#160;, array&#160;<tt class="parameter">$arguments</tt>&#160;)</b></font>
     </div>
     <div class="methodsynopsis dc-description">
-      <a href="http://www.php.net/manual/en/language.pseudo-types.php#language.types.mixed" class="type mixed"><span class="type">mixed</span></a>&#160;<b><span class="methodname">__callStatic</span></b>&#160;( <span class="type">string</span><span class="methodparam">&#160;<tt class="parameter">$name</tt></span>&#160; , <span class="type">array</span><span class="methodparam">&#160;<tt class="parameter">$arguments</tt></span>&#160;)
+      <font color="#0000cc"><b><a href="http://www.php.net/manual/en/language.pseudo-types.php#language.types.mixed" class="type mixed">mixed</a>&#160;__callStatic&#160;( string&#160;<tt class="parameter">$name</tt>&#160;&#160;, array&#160;<tt class="parameter">$arguments</tt>&#160;)</b></font>
     </div>
     <p class="para">
-      <b><span class="function">__call()</span></b>&#160;is triggered when invoking inaccessible methods in an object context.
+      <font color="#0000cc"><b>__call()</b></font>&#160;is triggered when invoking inaccessible methods in an object context.
     </p>
     <p class="para">
-      <b><span class="function">__callStatic()</span></b>&#160;is triggered when invoking inaccessible methods in a static context.
+      <font color="#0000cc"><b>__callStatic()</b></font>&#160;is triggered when invoking inaccessible methods in a static context.
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1300955680982" ID="ID_518043627" LINK="#ID_1027080269" MODIFIED="1300955691559" TEXT="property">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1299165788829" FOLDED="true" ID="ID_844222219" MODIFIED="1299166246070" TEXT="object iteration">
+</node>
+<node CREATED="1299165788829" FOLDED="true" ID="ID_844222219" MODIFIED="1300955804721" TEXT="object iteration">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299165798928" ID="ID_1601230446" MODIFIED="1299166245246" TEXT="PHP 5 provides a way for objects to be defined so it is possible to iterate through a list of items, with, for example a foreach statement. By default, all visible properties will be used for the iteration. "/>
 </node>
-<node CREATED="1299166709472" FOLDED="true" ID="ID_1932649051" MODIFIED="1299167982511" TEXT="magic functions">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1299166722008" ID="ID_423022767" MODIFIED="1299166726683" TEXT="__invoke">
-<node CREATED="1299166727536" ID="ID_1940643499" MODIFIED="1299166730690" TEXT="The __invoke method is called when a script tries to call an object as a function."/>
+<node CREATED="1299164086015" FOLDED="true" ID="ID_804566709" MODIFIED="1301231927934">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">interface</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299164098386" ID="ID_625184434" MODIFIED="1299164173657">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="para">
+      Interfaces are defined using the <font color="#0033ff">interface</font>&#160;keyword, in the same way as a standard class, but without any of the methods having their contents defined.
+    </p>
+    <p class="para">
+      All methods declared in an <font color="#0000ff">interface</font>&#160;must be <font color="#0000ff">public</font>, this is the nature of an <font color="#0000ff">interface</font>.
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1299167044488" ID="ID_1453950990" MODIFIED="1299167049188" TEXT="__slepp"/>
-<node CREATED="1299167049841" ID="ID_10612974" MODIFIED="1299167054783" TEXT="__wakeup"/>
-<node CREATED="1299167195144" ID="ID_381874913" MODIFIED="1299167214222" TEXT="__set_state"/>
-<node CREATED="1299167202035" ID="ID_1101327625" MODIFIED="1299167206581" TEXT="__toString"/>
-<node CREATED="1299167851803" FOLDED="true" ID="ID_1695415141" MODIFIED="1299167981440">
+<node CREATED="1299164655677" ID="ID_281184367" MODIFIED="1299164657870" TEXT="Its possible for interfaces to have constants. Interface constants works exactly like class constants except they cannot be overridden by a class/interface that inherits it. "/>
+</node>
+<node CREATED="1299166709472" FOLDED="true" ID="ID_1932649051" MODIFIED="1300955887184" TEXT="magic functions">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1299166722008" ID="ID_423022767" MODIFIED="1300955596429" TEXT="__invoke">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299166727536" ID="ID_1940643499" MODIFIED="1300955822136">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <font color="#0000cc"><b>__invoke</b></font>&#160;method is called when a script tries to call an object as a function.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1299167044488" ID="ID_1453950990" MODIFIED="1300955596429" TEXT="__slepp">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1299167049841" ID="ID_10612974" MODIFIED="1300955596426" TEXT="__wakeup">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1299167195144" ID="ID_381874913" MODIFIED="1300955596426" TEXT="__set_state">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1299167202035" ID="ID_1101327625" MODIFIED="1300955596425" TEXT="__toString">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1299167851803" ID="ID_1695415141" MODIFIED="1300955834287">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1608,10 +1669,50 @@ integer     : [+-]?decimal
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1299167864532" ID="ID_415269163" MODIFIED="1299167866266" TEXT="Creating a copy of an object with fully replicated properties is not always the wanted behavior. A good example of the need for copy constructors, is if you have an object which represents a GTK window and the object holds the resource of this GTK window, when you create a duplicate you might want to create a new window with the same properties and have the new object hold the resource of the new window. Another example is if your object holds a reference to another object which it uses and when you replicate the parent object you want to create a new instance of this other object so that the replica has its own separate copy.  An object copy is created by using the clone keyword (which calls the object&apos;s __clone() method if possible). An object&apos;s __clone() method cannot be called directly. "/>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299167864532" ID="ID_415269163" MODIFIED="1300955880651">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Creating a copy of an object with fully replicated properties is not always the wanted behavior. A good example of the need for copy constructors, is if you have an object which represents a GTK window and the object holds the resource of this GTK window, when you create a duplicate you might want to create a new window with the same properties and have the new object hold the resource of the new window. Another example is if your object holds a reference to another object which it uses and when you replicate the parent object you want to create a new instance of this other object so that the replica has its own separate copy.&#160;&#160;An object copy is created by using the clone keyword (which calls the object's <font color="#0000cc"><b>__clone()</b></font>&#160;method if possible). An object's <font color="#0000cc"><b>__clone()</b></font>&#160; method cannot be called directly.&#160;
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1299167386033" FOLDED="true" ID="ID_1138846849" MODIFIED="1299167885588">
+<node CREATED="1299165462279" ID="ID_1027080269" MODIFIED="1300955513626" TEXT="property">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299165468077" ID="ID_1134712917" MODIFIED="1300955726387">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="para">
+      <font color="#0000cc"><b>__set()</b></font>&#160;is run when writing data to inaccessible properties.
+    </p>
+    <p class="para">
+      <font color="#0000cc"><b>__get()</b></font>&#160;is utilized for reading data from inaccessible properties.
+    </p>
+    <p class="para">
+      <font color="#0000cc"><b>__isset()</b></font>&#160;is triggered by calling <b><a href="http://www.php.net/manual/en/function.isset.php" class="function">isset()</a></b>&#160;or <b><a href="http://www.php.net/manual/en/function.empty.php" class="function">empty()</a></b>&#160; on inaccessible proprties.
+    </p>
+    <p class="para">
+      <font color="#0000cc"><b>__unset()</b></font>&#160;is invoked when <b><a href="http://www.php.net/manual/en/function.unset.php" class="function">unset()</a></b>&#160;is used on inaccessible properties.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<!-- <<<<<<< .mine
+<node CREATED="1299167386033" FOLDED="true" ID="ID_1138846849" MODIFIED="1301231929257">
+======= -->
+<node CREATED="1299167386033" FOLDED="true" ID="ID_1138846849" MODIFIED="1301309597463">
+<!-- >>>>>>> .r91 -->
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1622,9 +1723,10 @@ integer     : [+-]?decimal
     </p>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299167398151" ID="ID_660393576" MODIFIED="1299167403489" TEXT="PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended"/>
 </node>
-<node CREATED="1299167984280" FOLDED="true" ID="ID_1570908959" MODIFIED="1299168015953" TEXT="comparing">
+<node CREATED="1299167984280" FOLDED="true" ID="ID_1570908959" MODIFIED="1300955473943" TEXT="comparing">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299167988752" ID="ID_1876510878" MODIFIED="1299168012534">
 <richcontent TYPE="NODE"><html>
@@ -1645,7 +1747,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299168108504" FOLDED="true" ID="ID_1148174175" MODIFIED="1299168235718" TEXT="type Hinting">
+<node CREATED="1299168108504" FOLDED="true" ID="ID_1148174175" MODIFIED="1300955473283" TEXT="type Hinting">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299168112833" ID="ID_405552196" MODIFIED="1299168231375">
 <richcontent TYPE="NODE"><html>
@@ -1672,11 +1774,11 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299168679625" FOLDED="true" ID="ID_610920909" MODIFIED="1299168700002" TEXT="refferences">
+<node CREATED="1299168679625" FOLDED="true" ID="ID_610920909" MODIFIED="1300955369921" TEXT="refferences">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299168688618" ID="ID_160244326" MODIFIED="1299168699032" TEXT="One of the key-points of PHP5 OOP that is often mentioned is that &quot;objects are passed by references by default&quot;. This is not completely true. This section rectifies that general thought using some examples.  A PHP reference is an alias, which allows two different variables to write to the same value. As of PHP5, an object variable doesn&apos;t contain the object itself as value anymore. It only contains an object identifier which allows object accessors to find the actual object. When an object is sent by argument, returned or assigned to another variable, the different variables are not aliases: they hold a copy of the identifier, which points to the same object. "/>
 </node>
-<node CREATED="1299169165694" FOLDED="true" ID="ID_366280398" MODIFIED="1299169184275" TEXT="serialization">
+<node CREATED="1299169165694" FOLDED="true" ID="ID_366280398" MODIFIED="1300955374729" TEXT="serialization">
 <node CREATED="1299169170082" ID="ID_823159848" MODIFIED="1299169183061">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1694,8 +1796,8 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299149830514" ID="ID_902834209" MODIFIED="1299255974509" TEXT="ex">
-<node CREATED="1299160446732" FOLDED="true" ID="ID_1627791006" MODIFIED="1299165411334">
+<node CREATED="1299149830514" FOLDED="true" ID="ID_902834209" MODIFIED="1300955899907" TEXT="ex">
+<node CREATED="1299160446732" FOLDED="true" ID="ID_1627791006" MODIFIED="1300955617414">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1706,6 +1808,7 @@ integer     : [+-]?decimal
     </p>
   </body>
 </html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299160450298" ID="ID_1108734492" MODIFIED="1299160454150">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1812,7 +1915,7 @@ object(SimpleClass)#1 (1) {
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299161232290" FOLDED="true" ID="ID_1501468758" MODIFIED="1299161720150" TEXT="Inheritance">
+<node CREATED="1299161232290" FOLDED="true" ID="ID_1501468758" MODIFIED="1300955466848" TEXT="Inheritance">
 <node CREATED="1299161236515" ID="ID_1771778923" MODIFIED="1299161241196">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1828,7 +1931,7 @@ object(SimpleClass)#1 (1) {
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299162608901" FOLDED="true" ID="ID_1254162012" MODIFIED="1299167446513">
+<node CREATED="1299162608901" FOLDED="true" ID="ID_1254162012" MODIFIED="1300955617412">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1839,7 +1942,8 @@ object(SimpleClass)#1 (1) {
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1299162354536" FOLDED="true" ID="ID_981761507" MODIFIED="1299162619302" TEXT="simple">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299162354536" FOLDED="true" ID="ID_981761507" MODIFIED="1300955459924" TEXT="simple">
 <node CREATED="1299162356900" ID="ID_1309445242" MODIFIED="1299162360552">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1855,7 +1959,7 @@ object(SimpleClass)#1 (1) {
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299162474311" FOLDED="true" ID="ID_208226627" MODIFIED="1299162490824" TEXT="autoload with exception">
+<node CREATED="1299162474311" FOLDED="true" ID="ID_208226627" MODIFIED="1300955461991" TEXT="autoload with exception">
 <node CREATED="1299162486079" ID="ID_932409982" MODIFIED="1299162489470">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1872,7 +1976,7 @@ object(SimpleClass)#1 (1) {
 </node>
 </node>
 </node>
-<node CREATED="1299163855616" FOLDED="true" ID="ID_289698167" MODIFIED="1299164014543">
+<node CREATED="1299163855616" FOLDED="true" ID="ID_289698167" MODIFIED="1300955617404">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1883,6 +1987,7 @@ object(SimpleClass)#1 (1) {
     </p>
   </body>
 </html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299163978299" ID="ID_1690227952" MODIFIED="1299163992568">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1966,7 +2071,7 @@ Accessed the private method</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299163786053" FOLDED="true" ID="ID_1049876510" MODIFIED="1299167443912">
+<node CREATED="1299163786053" FOLDED="true" ID="ID_1049876510" MODIFIED="1300955617402">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1977,7 +2082,8 @@ Accessed the private method</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1299163788373" FOLDED="true" ID="ID_645630477" MODIFIED="1299163807828" TEXT="static property">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299163788373" FOLDED="true" ID="ID_645630477" MODIFIED="1299175216745" TEXT="static property">
 <node CREATED="1299163799763" ID="ID_944103680" MODIFIED="1299163806770">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2010,7 +2116,7 @@ Accessed the private method</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299164680261" FOLDED="true" ID="ID_1472175396" MODIFIED="1299167443599">
+<node CREATED="1299164680261" FOLDED="true" ID="ID_1472175396" MODIFIED="1300955617400">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2021,6 +2127,7 @@ Accessed the private method</pre>
     </p>
   </body>
 </html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299164706560" FOLDED="true" ID="ID_497695413" MODIFIED="1299164726043" TEXT="simple">
 <node CREATED="1299164722013" ID="ID_1460765151" MODIFIED="1299164725082">
 <richcontent TYPE="NODE"><html>
@@ -2287,8 +2394,8 @@ valid:</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299166635305" FOLDED="true" ID="ID_124157290" MODIFIED="1299167441760" TEXT="magic functions">
-<node CREATED="1299166643682" FOLDED="true" ID="ID_926125091" MODIFIED="1299167097987">
+<node CREATED="1299166635305" FOLDED="true" ID="ID_124157290" MODIFIED="1300955491936" TEXT="magic functions">
+<node CREATED="1299166643682" FOLDED="true" ID="ID_926125091" MODIFIED="1300955416668">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2314,7 +2421,7 @@ valid:</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299167081510" FOLDED="true" ID="ID_432435468" MODIFIED="1299167147119" TEXT="__invoke">
+<node CREATED="1299167081510" FOLDED="true" ID="ID_432435468" MODIFIED="1300955434039" TEXT="__invoke">
 <node CREATED="1299167089910" ID="ID_764887513" MODIFIED="1299167143778">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2338,7 +2445,7 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299167106891" FOLDED="true" ID="ID_1527815796" MODIFIED="1299167146417" TEXT="__toString">
+<node CREATED="1299167106891" FOLDED="true" ID="ID_1527815796" MODIFIED="1300955436361" TEXT="__toString">
 <node CREATED="1299167115260" ID="ID_1000606256" MODIFIED="1299167129911">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2361,7 +2468,7 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299167167432" FOLDED="true" ID="ID_1325231811" MODIFIED="1299167182881" TEXT="__set_state">
+<node CREATED="1299167167432" FOLDED="true" ID="ID_1325231811" MODIFIED="1300955444314" TEXT="__set_state">
 <node CREATED="1299167170812" ID="ID_491492576" MODIFIED="1299167181644">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2390,7 +2497,7 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299167450394" FOLDED="true" ID="ID_1334166098" MODIFIED="1299167577149">
+<node CREATED="1299167450394" FOLDED="true" ID="ID_1334166098" MODIFIED="1300955617398">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2401,6 +2508,7 @@ bool(true)</pre>
     </p>
   </body>
 </html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299167466565" FOLDED="true" ID="ID_691213654" MODIFIED="1299167576052" TEXT="method">
 <node CREATED="1299167459282" ID="ID_383462451" MODIFIED="1299167462983">
 <richcontent TYPE="NODE"><html>
@@ -2434,8 +2542,8 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299167504710" ID="ID_663741336" MODIFIED="1299167505899" TEXT="clone">
-<node CREATED="1299167506274" FOLDED="true" ID="ID_265039266" MODIFIED="1299167895089" TEXT="simple">
+<node CREATED="1299167504710" FOLDED="true" ID="ID_663741336" MODIFIED="1300955447998" TEXT="clone">
+<node CREATED="1299167506274" FOLDED="true" ID="ID_265039266" MODIFIED="1300955383383" TEXT="simple">
 <node CREATED="1299167508344" ID="ID_1485117239" MODIFIED="1299167571917">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2486,7 +2594,7 @@ MyCloneable Object
 </node>
 </node>
 </node>
-<node CREATED="1299168032033" FOLDED="true" ID="ID_434389702" MODIFIED="1299168066242" TEXT="compare">
+<node CREATED="1299168032033" FOLDED="true" ID="ID_434389702" MODIFIED="1300955449156" TEXT="compare">
 <node CREATED="1299168039623" ID="ID_1402073793" MODIFIED="1299168052582">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2525,7 +2633,7 @@ o1 !== o2 : TRUE</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299168133061" FOLDED="true" ID="ID_671383129" MODIFIED="1299169000329" TEXT="type hinting">
+<node CREATED="1299168133061" FOLDED="true" ID="ID_671383129" MODIFIED="1300955387775" TEXT="type hinting">
 <node CREATED="1299168135958" FOLDED="true" ID="ID_1774058480" MODIFIED="1299168142104" TEXT="simple">
 <node CREATED="1299168137727" ID="ID_739362156" MODIFIED="1299168140745">
 <richcontent TYPE="NODE"><html>
@@ -2591,8 +2699,8 @@ o1 !== o2 : TRUE</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299168726322" FOLDED="true" ID="ID_625804262" MODIFIED="1299169161308" TEXT="refferences">
-<node CREATED="1299168737385" FOLDED="true" ID="ID_1707311912" MODIFIED="1299168997798" TEXT="simple">
+<node CREATED="1299168726322" FOLDED="true" ID="ID_625804262" MODIFIED="1300955390949" TEXT="refferences">
+<node CREATED="1299168737385" ID="ID_1707311912" MODIFIED="1300955389174" TEXT="simple">
 <node CREATED="1299168734908" ID="ID_509811534" MODIFIED="1299168755056">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2618,8 +2726,8 @@ o1 !== o2 : TRUE</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299169143338" FOLDED="true" ID="ID_1474237629" MODIFIED="1299169161028" TEXT="serialization">
-<node CREATED="1299169146482" FOLDED="true" ID="ID_126135271" MODIFIED="1299169159998" TEXT="simple">
+<node CREATED="1299169143338" FOLDED="true" ID="ID_1474237629" MODIFIED="1300955393464" TEXT="serialization">
+<node CREATED="1299169146482" FOLDED="true" ID="ID_126135271" MODIFIED="1300955393242" TEXT="simple">
 <node CREATED="1299169148272" ID="ID_909581275" MODIFIED="1299169158972">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2640,7 +2748,7 @@ o1 !== o2 : TRUE</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299143116211" FOLDED="true" ID="ID_1331082950" MODIFIED="1299255992365" TEXT="operations">
+<node CREATED="1299143116211" FOLDED="true" ID="ID_1331082950" MODIFIED="1300955401523" TEXT="operations">
 <node CREATED="1299143122865" FOLDED="true" ID="ID_148913195" MODIFIED="1299168732986" TEXT="casting">
 <node CREATED="1299143165114" FOLDED="true" ID="ID_1088536286" MODIFIED="1299143167288" TEXT="inf">
 <node CREATED="1299143137038" ID="ID_1593388172" MODIFIED="1299143157751">
@@ -2771,9 +2879,9 @@ o1 !== o2 : TRUE</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299149637875" ID="ID_1501775055" MODIFIED="1299149642527" TEXT="type">
-<node CREATED="1299149642877" ID="ID_1158154322" MODIFIED="1299149667571" TEXT="ex">
-<node CREATED="1299149667535" FOLDED="true" ID="ID_90239043" MODIFIED="1299149679656" TEXT="inherited class">
+<node CREATED="1299149637875" FOLDED="true" ID="ID_1501775055" MODIFIED="1300955400776" TEXT="type">
+<node CREATED="1299149642877" FOLDED="true" ID="ID_1158154322" MODIFIED="1300955400239" TEXT="ex">
+<node CREATED="1299149667535" FOLDED="true" ID="ID_90239043" MODIFIED="1300955399994" TEXT="inherited class">
 <node CREATED="1299149645428" ID="ID_306108504" MODIFIED="1299149662755">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2800,7 +2908,7 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299171161417" FOLDED="true" ID="ID_1497261246" MODIFIED="1299255993846" TEXT="functions">
+<node CREATED="1299171161417" ID="ID_1497261246" MODIFIED="1301309609547" TEXT="functions">
 <node CREATED="1293626385953" FOLDED="true" ID="ID_246842598" MODIFIED="1299171151053" TEXT="mail">
 <node CREATED="1299138798677" FOLDED="true" ID="ID_1273683066" MODIFIED="1299171146438" TEXT="send">
 <node CREATED="1293626387761" ID="ID_191462727" MODIFIED="1299171144319" TEXT="ex">
@@ -2824,9 +2932,9 @@ bool(true)</pre>
 </node>
 </node>
 <node CREATED="1293715627303" ID="ID_238630762" MODIFIED="1299074198998" POSITION="right" TEXT="debug">
-<node CREATED="1293715633004" ID="ID_335545435" MODIFIED="1293715636988" TEXT="Zend Debugger">
-<node CREATED="1293783245381" FOLDED="true" ID="ID_1713486316" MODIFIED="1299137652731" TEXT="php.ini">
-<node CREATED="1293783249578" ID="ID_182132240" MODIFIED="1298551280661">
+<node CREATED="1293715633004" ID="ID_335545435" MODIFIED="1300955910353" TEXT="Zend Debugger">
+<node CREATED="1293783245381" ID="ID_1713486316" MODIFIED="1300955943046" TEXT="php.ini">
+<node CREATED="1293783249578" ID="ID_182132240" MODIFIED="1300955929097" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2841,14 +2949,14 @@ bool(true)</pre>
 </node>
 </node>
 <node CREATED="1293715638988" ID="ID_1471253451" MODIFIED="1293715640652" TEXT="Xdebug">
-<node CREATED="1293715641292" FOLDED="true" ID="ID_930891949" MODIFIED="1299137653315" TEXT="php.ini">
-<node CREATED="1293715648924" ID="ID_884123245" MODIFIED="1298551526759">
+<node CREATED="1293715641292" ID="ID_930891949" MODIFIED="1300956063063" TEXT="php.ini">
+<node CREATED="1293715648924" ID="ID_884123245" MODIFIED="1300956124819" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <pre style="padding-bottom: 5px; padding-right: 5px; color: black; padding-left: 5px; padding-top: 5px; background-color: #f0fdda; font-size: 12pt; font-family: Consolas, monospace">xdebug.remote_enable=on
+    <pre style="padding-left: 5px; padding-top: 5px; padding-right: 5px; font-size: 12pt; background-color: #f0fdda; color: black; padding-bottom: 5px; font-family: Consolas, monospace">xdebug.remote_enable=on
 xdebug.remote_log=&quot;/var/log/xdebug.log&quot;
 xdebug.remote_host=localhost
 xdebug.remote_handler=dbgp
