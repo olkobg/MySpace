@@ -556,12 +556,11 @@
       $APP_DIR/temp Temporary data
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299139188313" ID="ID_1986945483" MODIFIED="1299139190040" POSITION="left" TEXT="Forms">
-<node CREATED="1299139190460" FOLDED="true" ID="ID_1742058369" MODIFIED="1299139251400" TEXT="form elements">
+<node CREATED="1299139190460" FOLDED="true" ID="ID_1742058369" MODIFIED="1301394347448" TEXT="form elements">
 <node CREATED="1299139199643" ID="ID_329668692" MODIFIED="1299139204202">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -617,8 +616,7 @@
       Zend_Form_Element_Submit Submit button
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
