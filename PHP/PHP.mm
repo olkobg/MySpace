@@ -1497,7 +1497,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299164086015" FOLDED="true" ID="ID_804566709" MODIFIED="1301309596415">
+<node CREATED="1299164086015" FOLDED="true" ID="ID_677612535" MODIFIED="1301425535128">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1509,7 +1509,7 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1299164098386" ID="ID_625184434" MODIFIED="1299164173657">
+<node CREATED="1299164098386" MODIFIED="1299164173657">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1524,7 +1524,7 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1299164655677" ID="ID_281184367" MODIFIED="1299164657870" TEXT="Its possible for interfaces to have constants. Interface constants works exactly like class constants except they cannot be overridden by a class/interface that inherits it. "/>
+<node CREATED="1299164655677" MODIFIED="1299164657870" TEXT="Its possible for interfaces to have constants. Interface constants works exactly like class constants except they cannot be overridden by a class/interface that inherits it. "/>
 </node>
 <node CREATED="1299165343200" FOLDED="true" ID="ID_1408513066" MODIFIED="1300955800338" TEXT="overloading">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1567,15 +1567,22 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1300955680982" ID="ID_518043627" LINK="#ID_1027080269" MODIFIED="1300955691559" TEXT="property">
+<node CREATED="1300955680982" LINK="#ID_1027080269" MODIFIED="1300955691559" TEXT="property">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+<node CREATED="1299165788829" FOLDED="true" ID="ID_427545633" MODIFIED="1300955804721" TEXT="object iteration">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299165798928" MODIFIED="1299166245246" TEXT="PHP 5 provides a way for objects to be defined so it is possible to iterate through a list of items, with, for example a foreach statement. By default, all visible properties will be used for the iteration. "/>
+</node>
+<node CREATED="1300955680982" ID="ID_518043627" LINK="#ID_1027080269" MODIFIED="1300955691559" TEXT="property">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1299165788829" FOLDED="true" ID="ID_844222219" MODIFIED="1300955804721" TEXT="object iteration">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299165798928" ID="ID_1601230446" MODIFIED="1299166245246" TEXT="PHP 5 provides a way for objects to be defined so it is possible to iterate through a list of items, with, for example a foreach statement. By default, all visible properties will be used for the iteration. "/>
 </node>
-<node CREATED="1299166709472" FOLDED="true" ID="ID_1932649051" MODIFIED="1300955887184" TEXT="magic functions">
+<node CREATED="1299166709472" FOLDED="true" ID="ID_1932649051" MODIFIED="1301425562667" TEXT="magic functions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1299166722008" ID="ID_423022767" MODIFIED="1300955596429" TEXT="__invoke">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -2704,8 +2711,7 @@ o1 !== o2 : TRUE</pre>
       <font color="rgb(0, 0, 187)">&lt;?php<br /></font><font color="rgb(0, 119, 0)">class&#160;</font><font color="rgb(0, 0, 187)">MyClass<br /></font><font color="rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;const&#160;</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">=&#160;</font><font color="rgb(221, 0, 0)">'constant&#160;value'</font><font color="rgb(0, 119, 0)">;<br /><br />&#160;&#160;&#160;&#160;function&#160;</font><font color="rgb(0, 0, 187)">showConstant</font><font color="rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;&#160;</font><font color="rgb(0, 0, 187)">self</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">.&#160;</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;}<br />}<br /><br />echo&#160;</font><font color="rgb(0, 0, 187)">MyClass</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">.&#160;</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;<br /><br /></font><font color="rgb(0, 0, 187)">$classname&#160;</font><font color="rgb(0, 119, 0)">=&#160;</font><font color="rgb(221, 0, 0)">&quot;MyClass&quot;</font><font color="rgb(0, 119, 0)">;<br />echo&#160;</font><font color="rgb(0, 0, 187)">$classname</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">.&#160;</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;&#160;</font><font color="rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /><br /></font><font color="rgb(0, 0, 187)">$class&#160;</font><font color="rgb(0, 119, 0)">=&#160;new&#160;</font><font color="rgb(0, 0, 187)">MyClass</font><font color="rgb(0, 119, 0)">();<br /></font><font color="rgb(0, 0, 187)">$class</font><font color="rgb(0, 119, 0)">-&gt;</font><font color="rgb(0, 0, 187)">showConstant</font><font color="rgb(0, 119, 0)">();<br /><br />echo&#160;</font><font color="rgb(0, 0, 187)">$class</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant</font><font color="rgb(0, 119, 0)">.</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;&#160;</font><font color="rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /></font><font color="rgb(0, 0, 187)">?&gt;</font><font color="rgb(0, 0, 0)">&#160; </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
