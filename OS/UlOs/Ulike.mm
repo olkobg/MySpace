@@ -17,12 +17,12 @@
 </node>
 </node>
 <node CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1296676490534" POSITION="left" TEXT="tools">
-<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1296723564339" TEXT="convert">
-<node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1296723563831" TEXT="textfiles">
+<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1301478746982" TEXT="convert">
+<node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1301478746686" TEXT="textfiles">
 <node CREATED="1296633198185" ID="ID_929102228" MODIFIED="1296633199869" TEXT="recode"/>
 <node CREATED="1296633200134" ID="ID_1622875652" MODIFIED="1296633202816" TEXT="konwert"/>
 <node CREATED="1296633501316" ID="ID_1095146176" MODIFIED="1296633503888" TEXT="iconv">
-<node CREATED="1296633504145" ID="ID_1070529980" MODIFIED="1296633504960" TEXT="ex">
+<node CREATED="1296633504145" FOLDED="true" ID="ID_1070529980" MODIFIED="1301478745966" TEXT="ex">
 <node CREATED="1296633505284" ID="ID_1871968038" MODIFIED="1296676333653" TEXT="$ iconv -f windows-1252 -t utf-8 infile &gt; outfile "/>
 </node>
 </node>
@@ -52,14 +52,14 @@
 </node>
 </node>
 <node CREATED="1297151452343" ID="ID_699124209" MODIFIED="1297151476152" TEXT="Cache">
-<node CREATED="1297151476134" ID="ID_282506355" MODIFIED="1297151480844" TEXT="web">
+<node CREATED="1297151476134" ID="ID_282506355" MODIFIED="1301478735080" TEXT="web">
 <node CREATED="1297151454754" ID="ID_905484883" LINK="http://www.varnish-cache.org/" MODIFIED="1297151469725" TEXT="Varnish"/>
 </node>
 </node>
 </node>
 <node CREATED="1296834785901" ID="ID_43792908" MODIFIED="1296834787384" TEXT="mount ">
 <node CREATED="1296834787690" ID="ID_1953283382" MODIFIED="1296834807546" TEXT="iso image">
-<node CREATED="1296834807903" FOLDED="true" ID="ID_1732610514" MODIFIED="1300896067222" TEXT="ex">
+<node CREATED="1296834807903" FOLDED="true" ID="ID_1732610514" MODIFIED="1301478732663" TEXT="ex">
 <node CREATED="1296834809060" ID="ID_1304283377" MODIFIED="1296834812410" TEXT="mount -o loop disk1.iso /mnt/disk"/>
 </node>
 </node>
@@ -76,10 +76,36 @@
 <node CREATED="1296463753332" ID="ID_536170155" MODIFIED="1296463758050" TEXT="key-auth">
 <node CREATED="1296463758423" ID="ID_1243174568" MODIFIED="1296463798809" TEXT="put your public key into ~/.ssh/authorized_keys"/>
 </node>
+<node CREATED="1301476145773" FOLDED="true" ID="ID_1500151842" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1301478725575" TEXT="config key per host">
+<node CREATED="1301478206031" ID="ID_377322167" MODIFIED="1301478213241">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h2 style="margin-right: 0px; padding-bottom: 0px; line-height: 1.222em; padding-right: 0px; margin-left: 0px; font-weight: bold; margin-top: 0; padding-left: 0px; color: rgb(17, 17, 17); font-size: 1.286em; padding-top: 0px; margin-bottom: 0">
+      ~/.ssh/config SSH Client Configuration
+    </h2>
+    <p style="margin-bottom: 0; padding-top: 0px; padding-bottom: 0px; margin-left: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; padding-right: 0px">
+      You can set identity file in ~/.ssh/config as follows:<br style="margin-bottom: 0px; padding-bottom: 0px; padding-top: 0px; margin-left: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; padding-right: 0px" /><code style="padding-bottom: 0; margin-right: 0px; background-color: rgb(238, 238, 238); line-height: 1.5em; background-position: 0px 0px; background-image: none; background-repeat: repeat; padding-right: 0; font-family: Consolas, Andale Mono, Monaco, Courier, Courier New, Verdana, sans-serif; margin-left: 0px; border-bottom-width: 1px; background-attachment: scroll; margin-top: 0px; border-top-width: 1px; border-right-width: 1px; padding-left: 0; font-size: 0.857em; display: block; padding-top: 0; margin-bottom: 0; border-left-width: 1px"><font face="Consolas, Andale Mono, Monaco, Courier, Courier New, Verdana, sans-serif" size="0.857em">vi ~/.ssh/config</font></code><br style="margin-bottom: 0px; padding-bottom: 0px; padding-top: 0px; margin-left: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; padding-right: 0px" />Add both host names and their identity file as follows:
+    </p>
+    <pre style="margin-right: 0px; padding-bottom: 0; background-color: rgb(238, 238, 238); line-height: 1.5em; background-position: initial initial; background-image: initial; background-repeat: repeat; clear: both; padding-right: 0; margin-left: 0px; font-family: Consolas, Andale Mono, Monaco, Courier, Courier New, Verdana, sans-serif; border-bottom-width: 1px; background-attachment: scroll; margin-top: 0px; border-top-width: 1px; border-right-width: 1px; padding-left: 0; font-size: 0.857em; padding-top: 0; margin-bottom: 0; border-left-width: 1px">Host server1.nixcraft.com
+  IdentityFile ~/backups/.ssh/id_dsa
+Host server2.nixcraft.com
+  IdentityFile /backup/home/userName/.ssh/id_rsa</pre>
+    <p style="margin-bottom: 0; padding-bottom: 0px; padding-top: 0px; margin-left: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; padding-right: 0px">
+      You can add other settings per host such as port number, X11 forwarding, real hostnames and much more. Save and close the file. You can connect as follows:
+    </p>
+    <pre style="margin-right: 0px; padding-bottom: 0; background-color: rgb(238, 238, 238); line-height: 1.5em; background-position: initial initial; background-image: initial; background-repeat: repeat; clear: both; padding-right: 0; font-family: Consolas, Andale Mono, Monaco, Courier, Courier New, Verdana, sans-serif; margin-left: 0px; border-bottom-width: 1px; background-attachment: scroll; margin-top: 0px; border-top-width: 1px; border-right-width: 1px; padding-left: 0; font-size: 0.857em; padding-top: 0; margin-bottom: 0; border-left-width: 1px" class="bash"><b><font color="rgb(194, 12, 185)"><span style="color: rgb(194, 12, 185); font-weight: bold; margin-top: 0px; padding-left: 0px; margin-bottom: 0px; padding-top: 0px; margin-right: 0px; padding-right: 0px; margin-left: 0px; padding-bottom: 0px">ssh</span></font></b> user@server2.nixcraft.com
+<b><font color="rgb(194, 12, 185)"><span style="color: rgb(194, 12, 185); font-weight: bold; margin-top: 0px; padding-left: 0px; margin-bottom: 0px; padding-top: 0px; margin-right: 0px; padding-right: 0px; margin-left: 0px; padding-bottom: 0px">ssh</span></font></b> root@server1.nixcraft.com</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1294068952478" ID="ID_1061174396" MODIFIED="1296723545350" TEXT="smtp">
 <node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1296723581849" TEXT="telnet">
-<node CREATED="1296723581791" FOLDED="true" ID="ID_37882576" MODIFIED="1296723585597" TEXT="ex">
+<node CREATED="1296723581791" FOLDED="true" ID="ID_37882576" MODIFIED="1301478722119" TEXT="ex">
 <node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -123,8 +149,8 @@
 </node>
 </node>
 <node CREATED="1294070903325" ID="ID_1558392970" MODIFIED="1296723546033" TEXT="dig">
-<node CREATED="1294070906492" FOLDED="true" ID="ID_403442819" MODIFIED="1296723588297" TEXT="ex">
-<node CREATED="1294070908844" ID="ID_1074468" MODIFIED="1294070912364">
+<node CREATED="1294070906492" FOLDED="true" ID="ID_403442819" MODIFIED="1301478716768" TEXT="ex">
+<node CREATED="1294070908844" ID="ID_1074468" MODIFIED="1301478710822">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -161,10 +187,11 @@
       # get all of the above
     </p>
     <p>
-      dig yahoo.com ANY +noall +ans
+      dig yahoo.com ANY +noall +answer
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
