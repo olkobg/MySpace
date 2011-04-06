@@ -59,13 +59,13 @@
 </node>
 <node CREATED="1296834785901" ID="ID_43792908" MODIFIED="1296834787384" TEXT="mount ">
 <node CREATED="1296834787690" ID="ID_1953283382" MODIFIED="1296834807546" TEXT="iso image">
-<node CREATED="1296834807903" FOLDED="true" ID="ID_1732610514" MODIFIED="1301478732663" TEXT="ex">
+<node CREATED="1296834807903" FOLDED="true" ID="ID_1732610514" MODIFIED="1302082020649" TEXT="ex">
 <node CREATED="1296834809060" ID="ID_1304283377" MODIFIED="1296834812410" TEXT="mount -o loop disk1.iso /mnt/disk"/>
 </node>
 </node>
 <node CREATED="1296835246684" ID="ID_1630461938" MODIFIED="1301326149674" TEXT="sshfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296835281498" ID="ID_1500070007" MODIFIED="1301326129425" TEXT="ex">
+<node CREATED="1296835281498" ID="ID_1500070007" MODIFIED="1302082021620" TEXT="ex">
 <node CREATED="1296835255924" ID="ID_196855364" MODIFIED="1296835278766" TEXT="sshfs username@server:&lt;dir&gt; &lt;mount_point&gt;"/>
 <node CREATED="1301326157345" ID="ID_882527601" LINK="http://andre.frimberger.de/index.php/linux/sshfs-fix-for-wrong-file-permissions-on-server/" MODIFIED="1301327963972" TEXT="patch server with perm "/>
 </node>
@@ -76,7 +76,7 @@
 <node CREATED="1296463753332" ID="ID_536170155" MODIFIED="1296463758050" TEXT="key-auth">
 <node CREATED="1296463758423" ID="ID_1243174568" MODIFIED="1296463798809" TEXT="put your public key into ~/.ssh/authorized_keys"/>
 </node>
-<node CREATED="1301476145773" FOLDED="true" ID="ID_1500151842" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1301478725575" TEXT="config key per host">
+<node CREATED="1301476145773" FOLDED="true" ID="ID_1500151842" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1302082034063" TEXT="config key per host">
 <node CREATED="1301478206031" ID="ID_377322167" MODIFIED="1301478213241">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -190,8 +190,7 @@ Host server2.nixcraft.com
       dig yahoo.com ANY +noall +answer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

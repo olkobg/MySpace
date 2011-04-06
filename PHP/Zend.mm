@@ -212,7 +212,7 @@
 </node>
 <node CREATED="1301333642699" ID="ID_453318647" MODIFIED="1301333648123" TEXT="HELPER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1301333675225" ID="ID_1757934683" LINK="http://akrabat.com/zend-framework/using-action-helpers-in-zend-framework/" MODIFIED="1301333678167" TEXT="site"/>
+<node CREATED="1301333675225" ID="ID_1757934683" LINK="http://akrabat.com/zend-framework/using-action-helpers-in-zend-framework/" MODIFIED="1302082504357" TEXT="site"/>
 </node>
 </node>
 <node CREATED="1300739754678" ID="ID_1104985813" MODIFIED="1300739757167" TEXT="VIEW">
@@ -305,8 +305,8 @@
 <node COLOR="#0033ff" CREATED="1300376174134" ID="ID_488872031" MODIFIED="1300376226537" TEXT="Zend_Service"/>
 <node COLOR="#0033ff" CREATED="1300376188049" ID="ID_58759060" MODIFIED="1300376226531" TEXT="Zend_Db">
 <node COLOR="#0033ff" CREATED="1300376202196" ID="ID_105188436" LINK="http://framework.zend.com/manual/en/zend.db.table.html" MODIFIED="1301062230468" TEXT="Zend_Db_Table">
-<node CREATED="1301052159586" ID="ID_880661527" MODIFIED="1301052163365" TEXT="inf">
-<node CREATED="1301052157947" ID="ID_661749819" MODIFIED="1301052157947" TEXT="">
+<node CREATED="1301052159586" FOLDED="true" ID="ID_880661527" MODIFIED="1302082538872" TEXT="inf">
+<node CREATED="1301052157947" ID="ID_661749819" MODIFIED="1302082462715" TEXT="properties">
 <node CREATED="1301051891163" ID="ID_691579815" MODIFIED="1301052235976">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -332,11 +332,11 @@
 </html></richcontent>
 </node>
 </node>
-</node>
 <node CREATED="1301062126705" ID="ID_1067384181" MODIFIED="1301395088030" TEXT="relationship">
 <node CREATED="1301062138158" ID="ID_1462171745" LINK="http://framework.zend.com/manual/en/zend.db.table.relationships.html" MODIFIED="1301062165229" TEXT="many to many"/>
 </node>
-<node COLOR="#0033ff" CREATED="1301333919582" ID="ID_420890125" MODIFIED="1301333924786" TEXT="-&gt;">
+</node>
+<node COLOR="#0033ff" CREATED="1301333919582" FOLDED="true" ID="ID_420890125" MODIFIED="1302082541448" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1301052163975" ID="ID_343975568" MODIFIED="1301052208870" TEXT="find()"/>
 <node COLOR="#0033ff" CREATED="1301052172860" ID="ID_1916214259" MODIFIED="1301052208870" TEXT="fetchRow()"/>
 <node COLOR="#0033ff" CREATED="1301052181546" ID="ID_277477053" MODIFIED="1301052208869" TEXT="fetchAll()">
@@ -354,7 +354,7 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1301052194599" ID="ID_1036851993" MODIFIED="1301052208869" TEXT="insert()">
-<node CREATED="1301052799682" FOLDED="true" ID="ID_1301403869" MODIFIED="1301302668302" TEXT="ex">
+<node CREATED="1301052799682" FOLDED="true" ID="ID_1301403869" MODIFIED="1302082423856" TEXT="ex">
 <node CREATED="1301052800626" ID="ID_1256815115" MODIFIED="1301052816224">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -387,8 +387,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1301052200589" ID="ID_1703863065" MODIFIED="1301052208868" TEXT="update()">
-<node CREATED="1301052819277" FOLDED="true" ID="ID_1904221951" MODIFIED="1301302653795" TEXT="ex">
+<node COLOR="#0033ff" CREATED="1301052200589" ID="ID_1703863065" MODIFIED="1302082435432" TEXT="update()">
+<node CREATED="1301052819277" FOLDED="true" ID="ID_1904221951" MODIFIED="1302082433591" TEXT="ex">
 <node CREATED="1301052820901" ID="ID_1832156948" MODIFIED="1301052841279">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -424,6 +424,51 @@
 <node COLOR="#0033ff" CREATED="1301052203452" ID="ID_1591694322" MODIFIED="1301052208867" TEXT="delete()"/>
 </node>
 <node COLOR="#0033ff" CREATED="1301062172213" ID="ID_256401318" LINK="http://framework.zend.com/manual/en/zend.db.table.row.html" MODIFIED="1301062214912" TEXT="Zend_DB_Table_Row"/>
+</node>
+<node COLOR="#0033ff" CREATED="1302004498482" ID="ID_1276254130" LINK="http://framework.zend.com/manual/en/zend.db.select.html" MODIFIED="1302004537762" TEXT="Zend_Db_Select">
+<node COLOR="#0033ff" CREATED="1302082400219" ID="ID_270782114" MODIFIED="1302082407422" TEXT="-&gt;"/>
+<node CREATED="1302004507054" FOLDED="true" ID="ID_721754619" MODIFIED="1302082534432" TEXT="parts">
+<node CREATED="1302004510846" ID="ID_263838202" MODIFIED="1302004513761">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zend_Db_Select::DISTINCT&#160;&#160; 'distinct'
+    </p>
+    <p>
+      Zend_Db_Select::FOR_UPDATE 'forupdate'
+    </p>
+    <p>
+      Zend_Db_Select::COLUMNS 'columns'
+    </p>
+    <p>
+      Zend_Db_Select::FROM 'from'
+    </p>
+    <p>
+      Zend_Db_Select::WHERE 'where'
+    </p>
+    <p>
+      Zend_Db_Select::GROUP 'group'
+    </p>
+    <p>
+      Zend_Db_Select::HAVING 'having'
+    </p>
+    <p>
+      Zend_Db_Select::ORDER 'order'
+    </p>
+    <p>
+      Zend_Db_Select::LIMIT_COUNT 'limitcount'
+    </p>
+    <p>
+      Zend_Db_Select::LIMIT_OFFSET 'limitoffset'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -668,8 +713,7 @@
       Instead of STDOUT I may use STDERR just use <font color="#003dff">php://stderr</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1301399586983" ID="ID_337380489" MODIFIED="1301399588346" TEXT="ex">
@@ -692,8 +736,7 @@
       $logger-&gt;info('Informational message');
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

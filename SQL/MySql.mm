@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1289386315255" ID="ID_428651575" LINK="../Index.mm" MODIFIED="1299250618216" TEXT="MySql">
+<node CREATED="1289386315255" ID="ID_428651575" LINK="../Index.mm" MODIFIED="1302007318802" TEXT="MySql">
 <font BOLD="true" NAME="SansSerif" SIZE="21"/>
 <node CREATED="1290076786055" ID="ID_956641942" MODIFIED="1290076788459" POSITION="right" TEXT="Variables">
 <node CREATED="1290076789169" ID="ID_1833639184" MODIFIED="1290076789169" TEXT=""/>
@@ -69,6 +69,30 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1302007141732" ID="ID_1212392289" MODIFIED="1302007214139" POSITION="left" TEXT="SQL">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1302007143908" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.1/en/date-and-time-functions.html" MODIFIED="1302007376593" TEXT="Date">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1302007150139" ID="ID_883712081" MODIFIED="1302007155802" TEXT="func">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#0033ff" CREATED="1302007157338" ID="ID_17478224" MODIFIED="1302007195182" TEXT="MONTH()">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#0033ff" CREATED="1302007163241" ID="ID_1742240784" MODIFIED="1302007195182" TEXT="FROM_UNIXTIME()">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#0033ff" CREATED="1302007168448" ID="ID_1511338143" MODIFIED="1302007195181" TEXT="MONTHNAME()">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#0033ff" CREATED="1302007173823" ID="ID_1644539819" MODIFIED="1302007195180" TEXT="YEAR()">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node CREATED="1302007331889" ID="ID_1477792891" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1302007359103" TEXT="v5.5">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
