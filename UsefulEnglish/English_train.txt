@@ -1,0 +1,39 @@
+English noce letters:  enjoy studing English.
+
+//------------------------------------------------------------------------------------------------------------
+ukr: 
+    Првиіт Олег!
+    -   Зараз я працюю над тікетом №98898.
+    -   Я не можу відтворити цю проблему на клієнтському сайті.
+    -   Можливо я не правильно зрозумів постановку задачі.
+    -   Якщо тобі буде не важко, чи не міг би ти надати мені більше інформації про цю проблему.
+        Бо я виконав всі кроки, які вказані і описі тікета, проте проблема не відтворюється.
+    
+eng:
+	-	Now I'm working on the ticket #98898.
+	-	I couldn't reproduce this problem on the client web site.
+	-	Maybe I misunderstood my task.
+		(better. also possible ) Maybe I might have misunderstood my task.
+	-	If you have a time, could you please give me more info about this problem. I have done all the steps,
+        which a described in the ticket description. But I can't reproduce this issue.
+
+//---------------------------------------------------------------------------------------------------------
+
+ukr:
+    -   Привіт Орест в мене є труднощі з реалізацію базарвойс тегів..
+    -   Чи не міг би  ти мені підказати основні параметри цих тегів. 
+    -   Також  в мене є проблема при імплементації мануал лнак клік таг з параметрами сайт промовшин і Реал Ісетйт.
+    -   Вишли будь-ласка додаткову документацію по цьому питання. 
+    -   Вчора я пробував тестувати ММс параметр і забув як інформацічя повинна розмежовуватися в цьому параметрі.
+
+eng:
+    -   Hello Orest I have some troubles with the realization of the bazzarvoice tags.
+    (possible) Hello Orest I have some troubles with BV tags realization.
+    -   If you have time could you please send the main parameters of these tags.
+    -   I also have a problem with the realization of the cmLinkclick tags which include site promotion parameters.
+    -   Could you please send me some additional documentation on this issue.
+    -   Yesterday i tested MMC parameters. I've forgotten how the data should be divided in this parameter.
+
+/------------------------------------------------------------------------------------------------------------
+
+cReated bY oLko for any use.

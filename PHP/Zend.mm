@@ -118,7 +118,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300376106295" ID="ID_1248015981" MODIFIED="1301394252608" TEXT="Zend_Controller">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1300739589857" ID="ID_58937148" MODIFIED="1300739738602" TEXT="RESPONSE">
+<node CREATED="1300739589857" FOLDED="true" ID="ID_58937148" MODIFIED="1303118731420" TEXT="RESPONSE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300739595723" ID="ID_815062224" MODIFIED="1300739724906" TEXT="Zend_Controller_Response_Http">
 <node CREATED="1300739656217" FOLDED="true" ID="ID_699075481" MODIFIED="1300739768929" TEXT="ex">
@@ -175,7 +175,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1300739612602" ID="ID_256919981" MODIFIED="1300739726753" TEXT="Zend_Controller_Response_Cli"/>
 </node>
-<node COLOR="#0033ff" CREATED="1301394252587" ID="ID_1793079543" LINK="http://framework.zend.com/manual/en/zend.controller.action.html" MODIFIED="1301395015182" TEXT="Zend_Controller_Action">
+<node COLOR="#0033ff" CREATED="1301394252587" FOLDED="true" ID="ID_1793079543" LINK="http://framework.zend.com/manual/en/zend.controller.action.html" MODIFIED="1303118730044" TEXT="Zend_Controller_Action">
 <node COLOR="#0033ff" CREATED="1301394020140" ID="ID_403257883" MODIFIED="1301394023260" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1301394024308" ID="ID_576318546" MODIFIED="1301394951614" TEXT="render()">
 <node CREATED="1301394046082" ID="ID_1367977957" MODIFIED="1301394054705" TEXT="to render another view"/>
@@ -186,7 +186,7 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1300739792392" ID="ID_1629522550" MODIFIED="1300739797101" TEXT="Zend_Controller_Front">
-<node CREATED="1300739849907" ID="ID_895789831" MODIFIED="1300739853209" TEXT="PLUGINS">
+<node CREATED="1300739849907" FOLDED="true" ID="ID_895789831" MODIFIED="1303118733171" TEXT="PLUGINS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300739853761" FOLDED="true" ID="ID_228734198" MODIFIED="1300741170679" TEXT="Zend_Controller_Plugin_Abstract">
 <node COLOR="#0033ff" CREATED="1300739898309" ID="ID_190863701" MODIFIED="1300739923486" TEXT="routeStartup()">
@@ -485,6 +485,31 @@
 <node COLOR="#0033ff" CREATED="1302188144072" ID="ID_1940492125" MODIFIED="1302188233840" TEXT="fetchColumn()"/>
 </node>
 </node>
+<node CREATED="1303118705407" FOLDED="true" ID="ID_750535489" MODIFIED="1303118725876" TEXT="profiling">
+<node CREATED="1303118712453" FOLDED="true" ID="ID_1054142061" MODIFIED="1303118725300" TEXT="FirePHP">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1303118717501" FOLDED="true" ID="ID_1793985034" MODIFIED="1303118725076" TEXT="ex">
+<node CREATED="1303118719669" ID="ID_1739534648" MODIFIED="1303118723842">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $profiler = new Zend_Db_Profiler_Firebug('All DB Queries');
+    </p>
+    <p>
+      $profiler-&gt;setEnabled(true);
+    </p>
+    <p>
+      $db-&gt;setProfiler($profiler);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -509,6 +534,7 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1301392468768" ID="ID_618628748" LINK="http://framework.zend.com/manual/en/zend.registry.using.html" MODIFIED="1301393216371" TEXT="Zend_Registry"/>
+<node CREATED="1303911993450" ID="ID_968505432" MODIFIED="1303912027760" TEXT="Zend_Paginator"/>
 </node>
 </node>
 <node CREATED="1293289328992" ID="ID_179542922" MODIFIED="1300740662618" POSITION="left" TEXT="apache conf">
@@ -752,6 +778,34 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1303118623474" ID="ID_1667735825" MODIFIED="1303118626922" TEXT="writers">
+<node COLOR="#0033ff" CREATED="1303118628530" ID="ID_766222706" MODIFIED="1303118933510" TEXT="Zene_Log_Writer_Firebug">
+<node CREATED="1303118661196" ID="ID_1675377862" MODIFIED="1303118662065" TEXT="inf"/>
+<node CREATED="1303118935937" ID="ID_960300902" MODIFIED="1303118938944" TEXT="urls">
+<node CREATED="1303118940079" ID="ID_992253095" LINK="http://anton.shevchuk.name/php/debug-zend-framework-application-with-firephp/" MODIFIED="1303118950537" TEXT="blog1"/>
+</node>
+<node CREATED="1303118663276" FOLDED="true" ID="ID_562642075" MODIFIED="1303118679234" TEXT="ex">
+<node CREATED="1303118665532" ID="ID_501905877" MODIFIED="1303118675265">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $logger = new Zend_Log();
+    </p>
+    <p>
+      $writer = new Zend_Log_Writer_Firebug();
+    </p>
+    <p>
+      $logger-&gt;addWriter($writer);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
