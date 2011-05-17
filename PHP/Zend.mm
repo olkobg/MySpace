@@ -306,7 +306,7 @@
 <node COLOR="#0033ff" CREATED="1300376188049" ID="ID_58759060" MODIFIED="1302188346728" TEXT="Zend_Db">
 <node COLOR="#0033ff" CREATED="1302188350962" ID="ID_1537390662" LINK="http://framework.zend.com/manual/en/zend.db.adapter.html" MODIFIED="1302188428149" TEXT="Zend_Db_Adapter"/>
 <node COLOR="#0033ff" CREATED="1302188382941" ID="ID_1580717094" LINK="http://framework.zend.com/manual/en/zend.db.profiler.html" MODIFIED="1302188441001" TEXT="Zend_Db_Profiler"/>
-<node COLOR="#0033ff" CREATED="1300376202196" FOLDED="true" ID="ID_105188436" LINK="http://framework.zend.com/manual/en/zend.db.table.html" MODIFIED="1302190464885" TEXT="Zend_Db_Table">
+<node COLOR="#0033ff" CREATED="1300376202196" ID="ID_105188436" LINK="http://framework.zend.com/manual/en/zend.db.table.html" MODIFIED="1304585620009" TEXT="Zend_Db_Table">
 <node CREATED="1301052159586" FOLDED="true" ID="ID_880661527" MODIFIED="1302188273710" TEXT="inf">
 <node CREATED="1301052157947" ID="ID_661749819" MODIFIED="1302082462715" TEXT="properties">
 <node CREATED="1301051891163" ID="ID_691579815" MODIFIED="1301052235976">
@@ -428,13 +428,35 @@
 <node COLOR="#0033ff" CREATED="1301062172213" ID="ID_256401318" LINK="http://framework.zend.com/manual/en/zend.db.table.row.html" MODIFIED="1302188371104" TEXT="Zend_Db_Table_Row"/>
 <node COLOR="#0033ff" CREATED="1302188254712" ID="ID_1329982077" LINK="http://framework.zend.com/manual/en/zend.db.table.rowset.html" MODIFIED="1302188375150" TEXT="Zend_Db_Table_Rowset"/>
 </node>
-<node COLOR="#0033ff" CREATED="1302004498482" FOLDED="true" ID="ID_1276254130" LINK="http://framework.zend.com/manual/en/zend.db.select.html" MODIFIED="1302190459486" TEXT="Zend_Db_Select">
-<node COLOR="#0033ff" CREATED="1302082400219" FOLDED="true" ID="ID_270782114" MODIFIED="1302190452135" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1302004498482" ID="ID_1276254130" LINK="http://framework.zend.com/manual/en/zend.db.select.html" MODIFIED="1304517258486" TEXT="Zend_Db_Select">
+<node COLOR="#0033ff" CREATED="1302082400219" ID="ID_270782114" MODIFIED="1304517259695" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1302188031790" ID="ID_667538408" MODIFIED="1302188067483" TEXT="select()"/>
 <node COLOR="#0033ff" CREATED="1302188072538" ID="ID_926244315" MODIFIED="1302188110549" TEXT="from()"/>
 <node COLOR="#0033ff" CREATED="1302188075714" ID="ID_1119530585" MODIFIED="1302188110549" TEXT="where()"/>
+<node COLOR="#0033ff" CREATED="1304527005986" ID="ID_947780388" MODIFIED="1304527034214" TEXT="query()">
+<arrowlink DESTINATION="ID_91648767" ENDARROW="Default" ENDINCLINATION="429;251;" ID="Arrow_ID_369694873" STARTARROW="None" STARTINCLINATION="435;263;"/>
 </node>
-<node CREATED="1302004507054" FOLDED="true" ID="ID_721754619" MODIFIED="1302188069861" TEXT="parts">
+<node COLOR="#0033ff" CREATED="1304592831616" ID="ID_1517146795" MODIFIED="1304592841983" TEXT="join()">
+<node CREATED="1304592842895" ID="ID_991950666" MODIFIED="1304592845848" TEXT="NOTE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1304592846406" ID="ID_648849542" MODIFIED="1304592921038">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      to use that with custom columns we should set Integrity Check to <font color="#0004ff">false</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1302004507054" FOLDED="true" ID="ID_721754619" MODIFIED="1304590336652" TEXT="686">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1302004510846" ID="ID_263838202" MODIFIED="1302004513761">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -476,8 +498,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1302188041567" FOLDED="true" ID="ID_91648767" LINK="http://framework.zend.com/manual/en/zend.db.statement.html" MODIFIED="1302190460189" TEXT="Zend_Db_Statement">
-<node COLOR="#0033ff" CREATED="1302188141368" FOLDED="true" ID="ID_1566491554" MODIFIED="1302190453007" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1302188041567" ID="ID_91648767" LINK="http://framework.zend.com/manual/en/zend.db.statement.html" MODIFIED="1304527034215" TEXT="Zend_Db_Statement">
+<node COLOR="#0033ff" CREATED="1302188141368" ID="ID_1566491554" MODIFIED="1304514432239" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1302188155294" ID="ID_714110302" MODIFIED="1302188176588" TEXT="query()"/>
 <node COLOR="#0033ff" CREATED="1302188237786" ID="ID_640446092" MODIFIED="1302188246601" TEXT="fetch()"/>
 <node COLOR="#0033ff" CREATED="1302188202447" ID="ID_230757248" MODIFIED="1302188235040" TEXT="fetchAll()"/>
