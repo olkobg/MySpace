@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1304071592852" TEXT="Ulike (debian)">
+<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1305270165536" TEXT="Ulike (debian)">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1296636123595" ID="ID_1552816036" MODIFIED="1296676558456" POSITION="right" TEXT="backup">
 <node CREATED="1296636127305" ID="ID_1976659628" MODIFIED="1296636132166" TEXT="rsync">
@@ -86,7 +86,7 @@
 <node CREATED="1296463753332" ID="ID_536170155" MODIFIED="1296463758050" TEXT="key-auth">
 <node CREATED="1296463758423" ID="ID_1243174568" MODIFIED="1296463798809" TEXT="put your public key into ~/.ssh/authorized_keys"/>
 </node>
-<node CREATED="1301476145773" FOLDED="true" ID="ID_1500151842" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1302082034063" TEXT="config key per host">
+<node CREATED="1301476145773" FOLDED="true" ID="ID_1500151842" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1305188095376" TEXT="config key per host">
 <node CREATED="1301478206031" ID="ID_377322167" MODIFIED="1301478213241">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -114,8 +114,8 @@ Host server2.nixcraft.com
 </node>
 </node>
 <node CREATED="1294068952478" ID="ID_1061174396" MODIFIED="1296723545350" TEXT="smtp">
-<node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1296723581849" TEXT="telnet">
-<node CREATED="1296723581791" FOLDED="true" ID="ID_37882576" MODIFIED="1301478722119" TEXT="ex">
+<node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1305188098742" TEXT="telnet">
+<node CREATED="1296723581791" FOLDED="true" ID="ID_37882576" MODIFIED="1305188098463" TEXT="ex">
 <node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
 <richcontent TYPE="NODE"><html>
   <head>
