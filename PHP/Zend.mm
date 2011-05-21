@@ -307,8 +307,8 @@
 <node COLOR="#0033ff" CREATED="1302188350962" ID="ID_1537390662" LINK="http://framework.zend.com/manual/en/zend.db.adapter.html" MODIFIED="1302188428149" TEXT="Zend_Db_Adapter"/>
 <node COLOR="#0033ff" CREATED="1302188382941" ID="ID_1580717094" LINK="http://framework.zend.com/manual/en/zend.db.profiler.html" MODIFIED="1302188441001" TEXT="Zend_Db_Profiler"/>
 <node COLOR="#0033ff" CREATED="1300376202196" ID="ID_105188436" LINK="http://framework.zend.com/manual/en/zend.db.table.html" MODIFIED="1304585620009" TEXT="Zend_Db_Table">
-<node CREATED="1301052159586" FOLDED="true" ID="ID_880661527" MODIFIED="1302188273710" TEXT="inf">
-<node CREATED="1301052157947" ID="ID_661749819" MODIFIED="1302082462715" TEXT="properties">
+<node CREATED="1301052159586" FOLDED="true" ID="ID_880661527" MODIFIED="1305710535541" TEXT="inf">
+<node CREATED="1301052157947" FOLDED="true" ID="ID_661749819" MODIFIED="1305710533629" TEXT="properties">
 <node CREATED="1301051891163" ID="ID_691579815" MODIFIED="1301052235976">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -320,6 +320,19 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1305710449303" ID="ID_654829957" MODIFIED="1305710525364">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>NB:</b>&#160;if get values from table all of them translated into <font color="#0000ff">object</font>&#160; otherwise into <font color="#0000ff">array</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 <node CREATED="1301051924975" ID="ID_363694252" MODIFIED="1301052246365">
 <richcontent TYPE="NODE"><html>
@@ -338,10 +351,10 @@
 <node CREATED="1301062138158" ID="ID_1462171745" LINK="http://framework.zend.com/manual/en/zend.db.table.relationships.html" MODIFIED="1301062165229" TEXT="many to many"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1301333919582" FOLDED="true" ID="ID_420890125" MODIFIED="1302190451264" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1301333919582" ID="ID_420890125" MODIFIED="1305642952112" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1301052163975" ID="ID_343975568" MODIFIED="1301052208870" TEXT="find()"/>
 <node COLOR="#0033ff" CREATED="1301052172860" ID="ID_1916214259" MODIFIED="1301052208870" TEXT="fetchRow()"/>
-<node COLOR="#0033ff" CREATED="1301052181546" ID="ID_277477053" MODIFIED="1301052208869" TEXT="fetchAll()">
+<node COLOR="#0033ff" CREATED="1301052181546" FOLDED="true" ID="ID_277477053" MODIFIED="1305642968360" TEXT="fetchAll()">
 <node CREATED="1301052683658" ID="ID_91289722" MODIFIED="1301052695955">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -449,8 +462,7 @@
       to use that with custom columns we should set Integrity Check to <font color="#0004ff">false</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
