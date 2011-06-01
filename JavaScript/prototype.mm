@@ -1,6 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1288878949181" ID="ID_1275483752" LINK="JavaScript.mm" MODIFIED="1294140297040" TEXT="prototype">
+<node CREATED="1288878949181" ID="ID_1275483752" LINK="JavaScript.mm" MODIFIED="1306945348255" TEXT="prototype">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1294140298838" ID="ID_1411128936" MODIFIED="1294140303987" POSITION="right" TEXT="visible">
 <node CREATED="1294140304421" ID="ID_1587935723" MODIFIED="1294140309882" TEXT="check if visible">
 <node CREATED="1294140310517" ID="ID_166960138" MODIFIED="1295352848016" TEXT="ex">
@@ -28,7 +29,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1294736478479" ID="ID_1788621273" MODIFIED="1294736487103" POSITION="right" TEXT="events">
+<node CREATED="1294736478479" ID="ID_1788621273" MODIFIED="1306945349879" POSITION="right" TEXT="events">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1294736489696" ID="ID_973258112" MODIFIED="1294736513105" TEXT="Dom events">
 <node CREATED="1294736497633" ID="ID_1571220803" MODIFIED="1294736502144" TEXT="focus"/>
 <node CREATED="1294736502658" ID="ID_1362013451" MODIFIED="1294736504320" TEXT="blur"/>
@@ -45,9 +47,19 @@
     <pre><code class="javascript">Event.observe<span class="brackets">(</span><span class="string">'target'</span>, <span class="string">'click'</span>, <span class="keywords">function</span><span class="brackets">(</span>event<span class="brackets">)</span> {
     <span class="comment">// ...</span>}<span class="brackets">)</span>;</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1306945352720" ID="ID_1189237519" MODIFIED="1306945358425" POSITION="right" TEXT="Frameworks">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1306945358654" ID="ID_966261742" MODIFIED="1306945363914" TEXT="validation">
+<node CREATED="1306945365254" ID="ID_1083331121" LINK="http://tetlaw.id.au/view/javascript/really-easy-field-validation" MODIFIED="1306945528903" TEXT="realy easy validation">
+<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+<node COLOR="#990099" CREATED="1306945508874" ID="ID_1171017809" LINK="https://github.com/atetlaw/Really-Easy-Field-Validation" MODIFIED="1306945526176" TEXT="github">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
