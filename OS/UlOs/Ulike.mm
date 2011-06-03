@@ -322,6 +322,9 @@ Host server2.nixcraft.com
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1301319750934" ID="ID_721938946" LINK="http://ubuntuforums.org/showthread.php?t=1624776" MODIFIED="1301319764035" TEXT="cant save solution"/>
 </node>
+<node CREATED="1307093843844" ID="ID_476962927" LINK="http://j4mie.org/blog/javascript-syntax-checking-from-gedit/" MODIFIED="1307093857215" TEXT="JSlint for javascript">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
