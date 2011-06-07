@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1307120462541" TEXT="JS">
+<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1307434904112" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
 <node CREATED="1283935276328" ID="ID_1046873276" MODIFIED="1306946326941" POSITION="right" TEXT="Frameworks">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -81,8 +81,7 @@
       parseFloat
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1307120187689" ID="ID_1712246304" MODIFIED="1307120233403" TEXT="is_number">
@@ -102,8 +101,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -114,7 +112,7 @@
 <node CREATED="1290675345898" ID="ID_1525870998" MODIFIED="1290675360709" TEXT="by copiing you just copy of refference of object "/>
 </node>
 </node>
-<node CREATED="1290675324466" FOLDED="true" ID="ID_287335239" MODIFIED="1307120372633" TEXT="cloning">
+<node CREATED="1290675324466" FOLDED="true" ID="ID_287335239" MODIFIED="1307435005060" TEXT="cloning">
 <node COLOR="#0033ff" CREATED="1290675327042" ID="ID_1189851193" MODIFIED="1307120313064">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -156,8 +154,8 @@
 </node>
 <node CREATED="1290779782717" ID="ID_1147256074" MODIFIED="1290779785788" POSITION="left" TEXT="Operatiojns">
 <node CREATED="1290675749078" ID="ID_1873207825" MODIFIED="1290779793309" TEXT="clone_function">
-<node CREATED="1290675766743" FOLDED="true" ID="ID_896402052" MODIFIED="1307120368050" TEXT="ex">
-<node CREATED="1290675760303" ID="ID_1250613880" MODIFIED="1290675764661">
+<node CREATED="1290675766743" FOLDED="true" ID="ID_896402052" MODIFIED="1307435003986" TEXT="ex">
+<node COLOR="#0033ff" CREATED="1290675760303" ID="ID_1250613880" MODIFIED="1307435002764">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -292,7 +290,18 @@
 <node CREATED="1290779803321" ID="ID_1490659888" LINK="http://www.jibbering.com/faq/notes/type-conversion/" MODIFIED="1290779815089" TEXT="http://www.jibbering.com/faq/notes/type-conversion/"/>
 </node>
 </node>
-<node CREATED="1290675458896" ID="ID_619064926" MODIFIED="1290675463741" POSITION="right" TEXT="RegExp"/>
+<node COLOR="#338800" CREATED="1307434903922" ID="ID_410338370" MODIFIED="1307434934211" POSITION="right" TEXT="OBJECTS">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node COLOR="#0033ff" CREATED="1290675458896" ID="ID_619064926" MODIFIED="1307434943484" TEXT="RegExp">
+<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+</node>
+<node COLOR="#0033ff" CREATED="1307434937756" ID="ID_1495479919" MODIFIED="1307434947907" TEXT="window">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1307434950203" ID="ID_1308177961" MODIFIED="1307434955801" TEXT="inf">
+<node CREATED="1307434953122" ID="ID_1409042670" MODIFIED="1307434982413" TEXT="global object which can store global info"/>
+</node>
+</node>
+</node>
 <node CREATED="1290785686280" ID="ID_967559904" MODIFIED="1290785688522" POSITION="right" TEXT="Tools">
 <node CREATED="1290785690168" ID="ID_1371837990" MODIFIED="1290785698586" TEXT="Compressor">
 <node CREATED="1290785699124" ID="ID_1468703957" LINK="http://developer.yahoo.com/yui/compressor/" MODIFIED="1306946571426" TEXT="YUI-Cpmpressor"/>

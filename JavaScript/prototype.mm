@@ -75,6 +75,15 @@
 </node>
 </node>
 </node>
+<node CREATED="1307435043647" ID="ID_1469052897" MODIFIED="1307435053856" POSITION="left" TEXT="elements">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1307435055309" ID="ID_256745147" MODIFIED="1307435057415" TEXT="walking">
+<node COLOR="#0033ff" CREATED="1307435058397" ID="ID_1886077616" MODIFIED="1307435075956" TEXT="previous()"/>
+<node COLOR="#0033ff" CREATED="1307435065796" ID="ID_248866303" MODIFIED="1307435075956" TEXT="next()"/>
+<node COLOR="#0033ff" CREATED="1307435069563" ID="ID_1623246524" MODIFIED="1307435075955" TEXT="up()"/>
+<node COLOR="#0033ff" CREATED="1307435072035" ID="ID_1141405859" MODIFIED="1307435075954" TEXT="down()"/>
+</node>
+</node>
 <node CREATED="1295353023033" ID="ID_672195246" MODIFIED="1295353025451" POSITION="left" TEXT="element">
 <node CREATED="1295353025810" ID="ID_73654295" MODIFIED="1295353027194" TEXT="get">
 <node CREATED="1295353027610" ID="ID_61726921" MODIFIED="1295353034170" TEXT="by id">
@@ -82,6 +91,22 @@
 <node COLOR="#0033ff" CREATED="1295353036697" ID="ID_600903990" MODIFIED="1307116661022" TEXT="$(&apos;elemnt-id&apos;)"/>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#ff0000" CREATED="1307439476789" ID="ID_48006367" MODIFIED="1307439492043" POSITION="left" TEXT="Tricks">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1307439479204" ID="ID_235294746" MODIFIED="1307439663642">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>IE7</b>&#160;doesnt want oto extends <b>DOM</b>&#160;objects with methods from <b>prototype</b>&#160;-&#160;use <font color="#0000ff">$(element)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
