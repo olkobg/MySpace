@@ -92,6 +92,10 @@
 </node>
 </node>
 </node>
+<node CREATED="1308316983868" ID="ID_123444138" MODIFIED="1308316989550" TEXT="set focus">
+<node COLOR="#0033ff" CREATED="1308317048331" ID="ID_1266536676" MODIFIED="1308317070817" TEXT="$(&apos;searchbox&apos;).focus()"/>
+<node COLOR="#0033ff" CREATED="1308317049835" ID="ID_1000849825" MODIFIED="1308317070816" TEXT="Form.Element.focus(&apos;searchbox&apos;)"/>
+</node>
 </node>
 <node COLOR="#ff0000" CREATED="1307439476789" ID="ID_48006367" MODIFIED="1307439492043" POSITION="left" TEXT="Tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
@@ -105,8 +109,7 @@
       <b>IE7</b>&#160;doesnt want oto extends <b>DOM</b>&#160;objects with methods from <b>prototype</b>&#160;-&#160;use <font color="#0000ff">$(element)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

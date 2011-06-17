@@ -41,7 +41,7 @@ var re = new RegExp ("abfgl","gi");
 
 
 [regexp class functions]
--RegExp.comple(regexp_string, Regexp_parameters) 
+-RegExp.compile(regexp_string, Regexp_parameters) 
     - used to change RegExp parameters (RegExp string and addiotional parameters (g, i));
 -RegExp.test(String) - test string by RegExp;
 -RegExp.exec(string) - Finds matches in String

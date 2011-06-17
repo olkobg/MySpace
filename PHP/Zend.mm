@@ -852,5 +852,8 @@
 <node CREATED="1302190493288" ID="ID_279489676" LINK="http://ajbrown.org/blog/2009/01/04/automated-testing-using-zend-framework-part-1.html" MODIFIED="1302190507013" TEXT="AjBlog"/>
 </node>
 </node>
+<node CREATED="1307547419980" ID="ID_1732209594" MODIFIED="1307547422363" POSITION="left" TEXT="Validation">
+<node COLOR="#0033ff" CREATED="1307547422643" ID="ID_1699630461" LINK="http://framework.zend.com/manual/en/zend.validate.set.html" MODIFIED="1307547444903" TEXT="Zend_Validate"/>
+</node>
 </node>
 </map>
