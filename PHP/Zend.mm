@@ -303,10 +303,10 @@
 <node CREATED="1300376171864" ID="ID_250691022" MODIFIED="1300739735889" TEXT="MODEL">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300376174134" ID="ID_488872031" MODIFIED="1300376226537" TEXT="Zend_Service"/>
-<node COLOR="#0033ff" CREATED="1300376188049" FOLDED="true" ID="ID_58759060" MODIFIED="1306139963446" TEXT="Zend_Db">
+<node COLOR="#0033ff" CREATED="1300376188049" ID="ID_58759060" MODIFIED="1309353520872" TEXT="Zend_Db">
 <node COLOR="#0033ff" CREATED="1302188350962" ID="ID_1537390662" LINK="http://framework.zend.com/manual/en/zend.db.adapter.html" MODIFIED="1302188428149" TEXT="Zend_Db_Adapter"/>
 <node COLOR="#0033ff" CREATED="1302188382941" ID="ID_1580717094" LINK="http://framework.zend.com/manual/en/zend.db.profiler.html" MODIFIED="1302188441001" TEXT="Zend_Db_Profiler"/>
-<node COLOR="#0033ff" CREATED="1300376202196" FOLDED="true" ID="ID_105188436" LINK="http://framework.zend.com/manual/en/zend.db.table.html" MODIFIED="1306139962023" TEXT="Zend_Db_Table">
+<node COLOR="#0033ff" CREATED="1300376202196" ID="ID_105188436" LINK="http://framework.zend.com/manual/en/zend.db.table.html" MODIFIED="1309353541854" TEXT="Zend_Db_Table">
 <node CREATED="1301052159586" FOLDED="true" ID="ID_880661527" MODIFIED="1305710535541" TEXT="inf">
 <node CREATED="1301052157947" FOLDED="true" ID="ID_661749819" MODIFIED="1305710533629" TEXT="properties">
 <node CREATED="1301051891163" ID="ID_691579815" MODIFIED="1301052235976">
@@ -350,7 +350,7 @@
 <node CREATED="1301062138158" ID="ID_1462171745" LINK="http://framework.zend.com/manual/en/zend.db.table.relationships.html" MODIFIED="1301062165229" TEXT="many to many"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1301333919582" FOLDED="true" ID="ID_420890125" MODIFIED="1306139955840" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1301333919582" ID="ID_420890125" MODIFIED="1309353542825" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1301052163975" ID="ID_343975568" MODIFIED="1301052208870" TEXT="find()"/>
 <node COLOR="#0033ff" CREATED="1301052172860" ID="ID_1916214259" MODIFIED="1301052208870" TEXT="fetchRow()"/>
 <node COLOR="#0033ff" CREATED="1301052181546" FOLDED="true" ID="ID_277477053" MODIFIED="1305642968360" TEXT="fetchAll()">
@@ -555,6 +555,28 @@
 </node>
 <node COLOR="#0033ff" CREATED="1300376528985" ID="ID_189035111" MODIFIED="1301052225655" TEXT="Zend_Session">
 <font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1309353548557" ID="ID_1396483959" MODIFIED="1309353663866" TEXT="NOTE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1309353552962" ID="ID_185284682" MODIFIED="1309353730245">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>session</b>&#160;will not store some <b>object</b>&#160;<b>variables</b>
+    </p>
+    <p>
+      during <b><i>serialization</i></b>&#160;until you add this variable
+    </p>
+    <p>
+      into return array of magic function <font color="#0000ff">__sleep</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1300376607412" ID="ID_1987034263" MODIFIED="1301052225654" TEXT="Zend_Auth_Adapter">
 <font NAME="SansSerif" SIZE="12"/>
