@@ -13,6 +13,9 @@
 <node COLOR="#0033ff" CREATED="1304072329796" ID="ID_21523396" MODIFIED="1310045254652" TEXT="mv ~/.exrc ~/.vimrc "/>
 </node>
 </node>
+<node CREATED="1310398086417" ID="ID_1153701436" MODIFIED="1310398092992" POSITION="left" TEXT="quick tutorial">
+<node CREATED="1310398093912" ID="ID_506809230" LINK="http://jmcpherson.org/editing.html" MODIFIED="1310398100060" TEXT="1"/>
+</node>
 <node CREATED="1310044236747" ID="ID_424960842" MODIFIED="1310044243607" POSITION="right" TEXT="Tabultion">
 <node CREATED="1310044244954" ID="ID_853659422" MODIFIED="1310044404262" TEXT="inf">
 <node CREATED="1310044404621" ID="ID_1292241249" MODIFIED="1310044405925" TEXT="tabstop Set tabstop to tell vim how many columns a tab counts for. Linux kernel code expects each tab to be eight columns wide. Visual Studio expects each tab to be four columns wide. This is the only command here that will affect how existing text displays.  expandtab When expandtab is set, hitting Tab in insert mode will produce the appropriate number of spaces.  shiftwidth Set shiftwidth to control how many columns text is indented with the reindent operations (&lt;&lt; and &gt;&gt;) and automatic C-style indentation.  softtabstop Set softtabstop to control how many columns vim uses when you hit Tab in insert mode. If softtabstop is less than tabstop and expandtab is not set, vim will use a combination of tabs and spaces to make up the desired spacing. If softtabstop equals tabstop and expandtab is not set, vim will always use tabs. When expandtab is set, vim will always use the appropriate number of spaces.  "/>
