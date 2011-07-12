@@ -67,6 +67,39 @@
 <node CREATED="1290675501849" ID="ID_1768234672" MODIFIED="1290675539639" TEXT="by copying that method you can copy only simple data - String. Number and Boolean"/>
 </node>
 </node>
+<node CREATED="1310476115190" ID="ID_1977131392" MODIFIED="1310476120258" TEXT="get Unique values">
+<node COLOR="#0033ff" CREATED="1310476120894" ID="ID_1433835445" MODIFIED="1310476135700">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      getUniqueValues = function (arr) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var hash = new Object();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;for (j = 0; j &lt; arr.length; j++) {hash[arr[j]] = true}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var array = new Array();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;for (value in hash) {array.push(value)};
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return array;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1290774098972" ID="ID_1567708926" MODIFIED="1290774101170" TEXT="Number">
 <node CREATED="1290774102071" ID="ID_1693617417" MODIFIED="1290774104559" TEXT="Parse">
@@ -305,8 +338,8 @@
 <node CREATED="1290785686280" ID="ID_967559904" MODIFIED="1290785688522" POSITION="right" TEXT="Tools">
 <node CREATED="1290785690168" ID="ID_1371837990" MODIFIED="1290785698586" TEXT="Compressor">
 <node CREATED="1290785699124" ID="ID_1468703957" LINK="http://developer.yahoo.com/yui/compressor/" MODIFIED="1306946571426" TEXT="YUI-Cpmpressor"/>
+<node CREATED="1306946614455" ID="ID_769234349" LINK="http://code.google.com/closure/" MODIFIED="1310476151092" TEXT="Google closure tools"/>
 <node CREATED="1306946557807" ID="ID_1154117622" LINK="http://dean.edwards.name/packer/" MODIFIED="1306946563919" TEXT="PACKER"/>
-<node CREATED="1306946614455" ID="ID_769234349" LINK="http://code.google.com/closure/" MODIFIED="1306946627396" TEXT="Google closure tools"/>
 </node>
 </node>
 <node CREATED="1299147148648" ID="ID_1061921677" LINK="JSON.mm" MODIFIED="1299147148649" POSITION="right" TEXT="JSON"/>
