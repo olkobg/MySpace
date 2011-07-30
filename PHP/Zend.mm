@@ -307,8 +307,8 @@
 <node COLOR="#0033ff" CREATED="1302188350962" ID="ID_1537390662" LINK="http://framework.zend.com/manual/en/zend.db.adapter.html" MODIFIED="1302188428149" TEXT="Zend_Db_Adapter"/>
 <node COLOR="#0033ff" CREATED="1302188382941" ID="ID_1580717094" LINK="http://framework.zend.com/manual/en/zend.db.profiler.html" MODIFIED="1302188441001" TEXT="Zend_Db_Profiler"/>
 <node COLOR="#0033ff" CREATED="1300376202196" ID="ID_105188436" LINK="http://framework.zend.com/manual/en/zend.db.table.html" MODIFIED="1309353541854" TEXT="Zend_Db_Table">
-<node CREATED="1301052159586" FOLDED="true" ID="ID_880661527" MODIFIED="1305710535541" TEXT="inf">
-<node CREATED="1301052157947" FOLDED="true" ID="ID_661749819" MODIFIED="1305710533629" TEXT="properties">
+<node CREATED="1301052159586" ID="ID_880661527" MODIFIED="1311167294543" TEXT="inf">
+<node CREATED="1301052157947" FOLDED="true" ID="ID_661749819" MODIFIED="1311167547342" TEXT="properties">
 <node CREATED="1301051891163" ID="ID_691579815" MODIFIED="1301052235976">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -350,10 +350,10 @@
 <node CREATED="1301062138158" ID="ID_1462171745" LINK="http://framework.zend.com/manual/en/zend.db.table.relationships.html" MODIFIED="1301062165229" TEXT="many to many"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1301333919582" ID="ID_420890125" MODIFIED="1309353542825" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1301333919582" ID="ID_420890125" MODIFIED="1311167505415" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1301052163975" ID="ID_343975568" MODIFIED="1301052208870" TEXT="find()"/>
 <node COLOR="#0033ff" CREATED="1301052172860" ID="ID_1916214259" MODIFIED="1301052208870" TEXT="fetchRow()"/>
-<node COLOR="#0033ff" CREATED="1301052181546" FOLDED="true" ID="ID_277477053" MODIFIED="1305642968360" TEXT="fetchAll()">
+<node COLOR="#0033ff" CREATED="1301052181546" FOLDED="true" ID="ID_277477053" MODIFIED="1311167558428" TEXT="fetchAll()">
 <node CREATED="1301052683658" ID="ID_91289722" MODIFIED="1301052695955">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -367,9 +367,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1301052194599" ID="ID_1036851993" MODIFIED="1301052208869" TEXT="insert()">
-<node CREATED="1301052799682" FOLDED="true" ID="ID_1301403869" MODIFIED="1302082423856" TEXT="ex">
-<node CREATED="1301052800626" ID="ID_1256815115" MODIFIED="1301052816224">
+<node COLOR="#0033ff" CREATED="1301052194599" FOLDED="true" ID="ID_1036851993" MODIFIED="1311167555941" TEXT="insert()">
+<node COLOR="#0033ff" CREATED="1301052800626" ID="ID_1256815115" MODIFIED="1311167286192">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -400,10 +399,29 @@
 </html></richcontent>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1311169324011" ID="ID_848403118" MODIFIED="1311169328410" TEXT="info()">
+<node COLOR="#0033ff" CREATED="1311169329082" ID="ID_139491651" MODIFIED="1311169362445">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $table = new Bugs();&#160;&#160;&#160;
+    </p>
+    <p>
+      $info = $table-&gt;info();&#160;&#160;&#160;
+    </p>
+    <p>
+      echo &quot;The table name is &quot; . $info['name'] . &quot;\n&quot;;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1301052200589" ID="ID_1703863065" MODIFIED="1302082435432" TEXT="update()">
-<node CREATED="1301052819277" FOLDED="true" ID="ID_1904221951" MODIFIED="1302082433591" TEXT="ex">
-<node CREATED="1301052820901" ID="ID_1832156948" MODIFIED="1301052841279">
+</node>
+<node COLOR="#0033ff" CREATED="1301052200589" FOLDED="true" ID="ID_1703863065" MODIFIED="1311167555621" TEXT="update()">
+<node COLOR="#0033ff" CREATED="1301052820901" ID="ID_1832156948" MODIFIED="1311167289760">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -434,16 +452,26 @@
 </html></richcontent>
 </node>
 </node>
-</node>
 <node COLOR="#0033ff" CREATED="1301052203452" ID="ID_1591694322" MODIFIED="1301052208867" TEXT="delete()"/>
 </node>
 <node COLOR="#0033ff" CREATED="1301062172213" ID="ID_256401318" LINK="http://framework.zend.com/manual/en/zend.db.table.row.html" MODIFIED="1302188371104" TEXT="Zend_Db_Table_Row"/>
 <node COLOR="#0033ff" CREATED="1302188254712" ID="ID_1329982077" LINK="http://framework.zend.com/manual/en/zend.db.table.rowset.html" MODIFIED="1302188375150" TEXT="Zend_Db_Table_Rowset"/>
 </node>
 <node COLOR="#0033ff" CREATED="1302004498482" ID="ID_1276254130" LINK="http://framework.zend.com/manual/en/zend.db.select.html" MODIFIED="1304517258486" TEXT="Zend_Db_Select">
-<node COLOR="#0033ff" CREATED="1302082400219" FOLDED="true" ID="ID_270782114" MODIFIED="1306139953168" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1302082400219" ID="ID_270782114" MODIFIED="1311167258433" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1302188031790" ID="ID_667538408" MODIFIED="1302188067483" TEXT="select()"/>
-<node COLOR="#0033ff" CREATED="1302188072538" ID="ID_926244315" MODIFIED="1302188110549" TEXT="from()"/>
+<node COLOR="#0033ff" CREATED="1302188072538" ID="ID_926244315" MODIFIED="1302188110549" TEXT="from()">
+<node CREATED="1311168049477" ID="ID_1724487466" MODIFIED="1311168067277">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1302188075714" ID="ID_1119530585" MODIFIED="1302188110549" TEXT="where()"/>
 <node COLOR="#0033ff" CREATED="1304527005986" ID="ID_947780388" MODIFIED="1304527034214" TEXT="query()">
 <arrowlink DESTINATION="ID_91648767" ENDARROW="Default" ENDINCLINATION="429;251;" ID="Arrow_ID_369694873" STARTARROW="None" STARTINCLINATION="435;263;"/>
@@ -466,8 +494,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1302004507054" FOLDED="true" ID="ID_721754619" MODIFIED="1304590336652" TEXT="686">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1302004507054" ID="ID_721754619" MODIFIED="1311167576579" TEXT="parts">
+<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1302004510846" ID="ID_263838202" MODIFIED="1302004513761">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -509,7 +537,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1302188041567" FOLDED="true" ID="ID_91648767" LINK="http://framework.zend.com/manual/en/zend.db.statement.html" MODIFIED="1306139957807" TEXT="Zend_Db_Statement">
+<node COLOR="#0033ff" CREATED="1302188041567" ID="ID_91648767" LINK="http://framework.zend.com/manual/en/zend.db.statement.html" MODIFIED="1311167271954" TEXT="Zend_Db_Statement">
 <node COLOR="#0033ff" CREATED="1302188141368" ID="ID_1566491554" MODIFIED="1304514432239" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1302188155294" ID="ID_714110302" MODIFIED="1302188176588" TEXT="query()"/>
 <node COLOR="#0033ff" CREATED="1302188237786" ID="ID_640446092" MODIFIED="1302188246601" TEXT="fetch()"/>
@@ -573,8 +601,7 @@
       into return array of magic function <font color="#0000ff">__sleep</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
