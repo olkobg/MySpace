@@ -49,9 +49,9 @@
 <node CREATED="1299138709209" ID="ID_746365137" LINK="http://www.propelorm.org/" MODIFIED="1299138740517" TEXT="Propel"/>
 </node>
 </node>
-<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1302022183029" POSITION="left" TEXT="CORE">
+<node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1312370380007" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1299140234352" ID="ID_409384537" MODIFIED="1301995097565" TEXT="Variables">
+<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1312370637563" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1301995097566" TEXT="inf">
 <node CREATED="1299143282242" ID="ID_1282115974" MODIFIED="1299143314362" TEXT="represented with use of dillar sign followed by the name of the variable"/>
 <node CREATED="1299143337872" ID="ID_1019860433" MODIFIED="1299143338900" TEXT="By default, variables are always assigned by value"/>
@@ -1222,7 +1222,7 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299147844252" ID="ID_848713801" MODIFIED="1301995097602" TEXT="Constants">
+<node CREATED="1299147844252" FOLDED="true" ID="ID_848713801" MODIFIED="1312370637779" TEXT="Constants">
 <node CREATED="1299148920872" FOLDED="true" ID="ID_1551835326" MODIFIED="1301995097602" TEXT="inf">
 <node CREATED="1299149321581" FOLDED="true" ID="ID_1533422805" MODIFIED="1301995097602" TEXT="magic constants">
 <node CREATED="1299149325969" ID="ID_1434172821" MODIFIED="1299149331260">
@@ -1373,7 +1373,7 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299149825660" ID="ID_1260115731" MODIFIED="1301995097650" TEXT="Classes">
+<node CREATED="1299149825660" FOLDED="true" ID="ID_1260115731" MODIFIED="1312370638067" TEXT="Classes">
 <node CREATED="1299160408769" FOLDED="true" ID="ID_1067806093" MODIFIED="1301995097651" TEXT="inf">
 <node CREATED="1299161595122" ID="ID_1519705349" MODIFIED="1299161651236">
 <richcontent TYPE="NODE"><html>
@@ -2722,7 +2722,7 @@ o1 !== o2 : TRUE</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299143116211" ID="ID_1331082950" MODIFIED="1301576786486" TEXT="operations">
+<node CREATED="1299143116211" FOLDED="true" ID="ID_1331082950" MODIFIED="1312370635068" TEXT="operations">
 <node CREATED="1299143122865" FOLDED="true" ID="ID_148913195" MODIFIED="1301995097653" STYLE="fork" TEXT="casting">
 <node CREATED="1299143165114" FOLDED="true" ID="ID_1088536286" MODIFIED="1301995097652" TEXT="inf">
 <node CREATED="1299143137038" ID="ID_1593388172" MODIFIED="1299143157751">
@@ -2881,15 +2881,54 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node CREATED="1301576792694" FOLDED="true" ID="ID_262118635" MODIFIED="1301995097653" TEXT="controll structures">
-<node CREATED="1301576800286" FOLDED="true" ID="ID_55277418" MODIFIED="1301995097653" TEXT="switch">
+<node CREATED="1301576792694" FOLDED="true" ID="ID_262118635" MODIFIED="1312370634396" TEXT="controll structures">
+<node CREATED="1301576800286" ID="ID_55277418" MODIFIED="1312370624622" TEXT="switch">
 <node CREATED="1301576805718" ID="ID_1325075052" MODIFIED="1301576806197" TEXT="ex"/>
+<node CREATED="1312370425430" FOLDED="true" ID="ID_1459592267" MODIFIED="1312370626388" TEXT="note">
+<node CREATED="1312370429974" ID="ID_1531509208" MODIFIED="1312370545250" TEXT="if uswe switch(true) then you colud also use comparing operators inside of case clause"/>
+<node CREATED="1312370551502" FOLDED="true" ID="ID_497026447" MODIFIED="1312370622117" TEXT="ex">
+<node CREATED="1312370552805" ID="ID_1632998599" MODIFIED="1312370620824">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      switch(true) {
+    </p>
+    <p>
+      case y &gt; 2 :
+    </p>
+    <p>
+      &#160;&#160;&lt;operations&gt;
+    </p>
+    <p>
+      &#160;&#160;break;
+    </p>
+    <p>
+      case x == 3 :
+    </p>
+    <p>
+      &#160;&#160;&lt;operations&gt;
+    </p>
+    <p>
+      &#160;&#160;break;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1299171161417" ID="ID_1497261246" MODIFIED="1301309609547" TEXT="functions">
-<node CREATED="1293626385953" FOLDED="true" ID="ID_246842598" MODIFIED="1299171151053" TEXT="mail">
-<node CREATED="1299138798677" FOLDED="true" ID="ID_1273683066" MODIFIED="1299171146438" TEXT="send">
+</node>
+</node>
+</node>
+<node CREATED="1299171161417" FOLDED="true" ID="ID_1497261246" MODIFIED="1312370638938" TEXT="functions">
+<node CREATED="1293626385953" FOLDED="true" ID="ID_246842598" MODIFIED="1312370402674" TEXT="mail">
+<node CREATED="1299138798677" ID="ID_1273683066" MODIFIED="1312370386936" TEXT="send">
 <node CREATED="1293626387761" FOLDED="true" ID="ID_191462727" MODIFIED="1301995097653" TEXT="ex">
 <node COLOR="#ff0000" CREATED="1293626402273" ID="ID_693816562" MODIFIED="1293705982788">
 <richcontent TYPE="NODE"><html>
@@ -2966,6 +3005,19 @@ xdebug.remote_port=9000
 <node CREATED="1299145749257" ID="ID_531508553" MODIFIED="1299145761755" TEXT="Dots and spaces in variable names are converted to underscores"/>
 </node>
 <node CREATED="1299145915930" ID="ID_968928524" MODIFIED="1299164038753" TEXT="turn globals flags off"/>
+<node CREATED="1312288560930" ID="ID_1882146353" MODIFIED="1312288669703">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      php interpretter removes every <b>Enter</b>&#160;symbol after <font color="#0000ff">&lt;?php ?&gt;</font><font color="#000000">&#160; tags</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
