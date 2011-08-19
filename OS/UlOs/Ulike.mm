@@ -15,6 +15,7 @@
 <node CREATED="1296636817878" ID="ID_981018607" MODIFIED="1296636818918" TEXT="tree -f -i -N oaza_video/"/>
 </node>
 </node>
+<node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1313012590996" TEXT="keyboard commads"/>
 </node>
 <node CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1296676490534" POSITION="left" TEXT="tools">
 <node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1301478746982" TEXT="convert">

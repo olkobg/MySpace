@@ -299,6 +299,120 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1313080927877" ID="ID_700611761" MODIFIED="1313081061437" TEXT="Zen_Layout">
+<node CREATED="1313081061405" ID="ID_693509375" MODIFIED="1313081276887">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      add variable to <b>layout</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1313080934773" ID="ID_992536098" MODIFIED="1313081277211">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      from <b>view</b>
+    </p>
+  </body>
+</html></richcontent>
+<node COLOR="#0033ff" CREATED="1313080962274" ID="ID_1548926712" MODIFIED="1313081006185">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zend_Layout::getMvcInstance()-&gt;assign('whatever', 'foo');
+    </p>
+    <p>
+      <font color="#0101ff">//</font><font color="#010101">&#160;After this you can use the following in your layout: </font>
+    </p>
+    <p>
+      &lt;?php echo $this-&gt;layout()-&gt;whatever; ?&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1313081088457" FOLDED="true" ID="ID_401280341" MODIFIED="1313081281136">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      from <b>helper</b>&#160;or <b>plugin</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1313081107782" ID="ID_1396429482" MODIFIED="1313081266923">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">&lt;?php&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;class My_Layout_Plugin extends Zend_Controller_Plugin_Abstract { </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;public function preDispatch(Zend_Controller_Request_Abstract $request)&#160;&#160;&#160;&#160;{ </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;$layout = Zend_Layout::getMvcInstance(); </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;$view = $layout-&gt;getView(); </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$view-&gt;whatever = 'foo'; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;} </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;}</font>
+    </p>
+    <p>
+      //then register this plugin with the front controller, e.g. Zend_Controller_Front::getInstance()-&gt;registerPlugin(new My_Layout_Plugin());
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1313081330344" ID="ID_821336352" MODIFIED="1313081370747">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // get the layout instance
+    </p>
+    <p>
+      <font color="#0000ff">$layout = Zend_Layout::getMvcInstance();&#160;</font>
+    </p>
+    <p>
+      &#160;// assign fooBar as Name to the layout
+    </p>
+    <p>
+      <font color="#0000ff">$layout-&gt;name = 'fooBar';</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1313081397472" ID="ID_1656223737" LINK="http://www.hardcode.nl/archives_132/article_511-access-view-values-from-partialloop.htm" MODIFIED="1313081402315" TEXT="link"/>
+</node>
+</node>
 </node>
 <node CREATED="1300376171864" ID="ID_250691022" MODIFIED="1300739735889" TEXT="MODEL">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -544,10 +658,10 @@
 <node COLOR="#0033ff" CREATED="1302188144072" ID="ID_1940492125" MODIFIED="1302188233840" TEXT="fetchColumn()"/>
 </node>
 </node>
-<node CREATED="1303118705407" FOLDED="true" ID="ID_750535489" MODIFIED="1303118725876" TEXT="profiling">
-<node CREATED="1303118712453" FOLDED="true" ID="ID_1054142061" MODIFIED="1303118725300" TEXT="FirePHP">
+<node CREATED="1303118705407" ID="ID_750535489" MODIFIED="1313770826151" TEXT="profiling">
+<node CREATED="1303118712453" ID="ID_1054142061" MODIFIED="1313770827590" TEXT="FirePHP">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303118717501" FOLDED="true" ID="ID_1793985034" MODIFIED="1303118725076" TEXT="ex">
+<node CREATED="1303118717501" ID="ID_1793985034" MODIFIED="1313770828287" TEXT="ex">
 <node CREATED="1303118719669" ID="ID_1739534648" MODIFIED="1303118723842">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -614,7 +728,7 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1301392468768" ID="ID_618628748" LINK="http://framework.zend.com/manual/en/zend.registry.using.html" MODIFIED="1301393216371" TEXT="Zend_Registry"/>
-<node COLOR="#0033ff" CREATED="1303911993450" ID="ID_968505432" MODIFIED="1312209206051" TEXT="Zend_Paginator">
+<node COLOR="#0033ff" CREATED="1303911993450" ID="ID_968505432" MODIFIED="1313770625538" TEXT="Zend_Paginator">
 <node COLOR="#0033ff" CREATED="1312208547669" ID="ID_1774224942" MODIFIED="1312209619502" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1312209030390" ID="ID_191777173" MODIFIED="1312209042949" TEXT="clearPageItemsCache()"/>
 <node COLOR="#0033ff" CREATED="1312391315915" ID="ID_5109473" MODIFIED="1312391348815" TEXT="getTotalItemCount()"/>
