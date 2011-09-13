@@ -863,7 +863,7 @@
 </node>
 </node>
 <node CREATED="1299139188313" ID="ID_1986945483" MODIFIED="1299139190040" POSITION="left" TEXT="Forms">
-<node CREATED="1299139190460" FOLDED="true" ID="ID_1742058369" MODIFIED="1301394347448" TEXT="form elements">
+<node CREATED="1299139190460" ID="ID_1742058369" MODIFIED="1314697961833" TEXT="form elements">
 <node CREATED="1299139199643" ID="ID_329668692" MODIFIED="1299139204202">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -920,6 +920,33 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1314697974329" ID="ID_1619363884" MODIFIED="1314697979900" TEXT="Zend_Form">
+<node COLOR="#0033ff" CREATED="1314697980715" ID="ID_101749780" MODIFIED="1314698011768" TEXT="Zend_Form_Element_Hidden">
+<node COLOR="#0033ff" CREATED="1314698011690" ID="ID_15219028" MODIFIED="1314698016206" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1314698003488" ID="ID_1682319231" MODIFIED="1314698039330" TEXT="setValue()">
+<node CREATED="1314698018286" ID="ID_166950009" MODIFIED="1314698032569" TEXT="set&apos;s value of hidden element"/>
+<node CREATED="1314698046922" ID="ID_507219552" MODIFIED="1314698047592" TEXT="ex">
+<node COLOR="#0033ff" CREATED="1314698048178" ID="ID_1068944186" MODIFIED="1314698072335">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $hiddenControl = $this-&gt;createElement('hidden', 'formtype');
+    </p>
+    <p>
+      $hiddenControl-&gt;setValue('test value');
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>

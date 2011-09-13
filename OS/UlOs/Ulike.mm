@@ -4,26 +4,22 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1296636123595" ID="ID_1552816036" MODIFIED="1296676558456" POSITION="right" TEXT="backup">
 <node CREATED="1296636127305" ID="ID_1976659628" MODIFIED="1296636132166" TEXT="rsync">
-<node CREATED="1296636146952" ID="ID_1830942041" MODIFIED="1296676422705" TEXT="ex">
-<node CREATED="1296636147905" ID="ID_489816603" MODIFIED="1296676312226" TEXT="rsync -av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/  "/>
-</node>
+<node COLOR="#0033ff" CREATED="1296636147905" ID="ID_489816603" MODIFIED="1315390993937" TEXT="rsync -av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/  "/>
 </node>
 </node>
 <node CREATED="1296636804213" ID="ID_493133498" MODIFIED="1296636809004" POSITION="right" TEXT="bash">
 <node CREATED="1296636809316" ID="ID_604774115" MODIFIED="1296636815629" TEXT="tree">
-<node CREATED="1296636817148" ID="ID_1796312504" MODIFIED="1296723571814" TEXT="ex">
-<node CREATED="1296636817878" ID="ID_981018607" MODIFIED="1296636818918" TEXT="tree -f -i -N oaza_video/"/>
-</node>
+<node COLOR="#0033ff" CREATED="1296636817878" ID="ID_981018607" MODIFIED="1315390985082" TEXT="tree -f -i -N oaza_video/"/>
 </node>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1313012590996" TEXT="keyboard commads"/>
 </node>
 <node CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1296676490534" POSITION="left" TEXT="tools">
-<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1301478746982" TEXT="convert">
-<node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1301478746686" TEXT="textfiles">
+<node CREATED="1296633188976" ID="ID_1249879586" MODIFIED="1315391014019" TEXT="convert">
+<node CREATED="1296633191573" ID="ID_1948378693" MODIFIED="1315391015322" TEXT="textfiles">
 <node CREATED="1296633198185" ID="ID_929102228" MODIFIED="1296633199869" TEXT="recode"/>
 <node CREATED="1296633200134" ID="ID_1622875652" MODIFIED="1296633202816" TEXT="konwert"/>
-<node CREATED="1296633501316" ID="ID_1095146176" MODIFIED="1296633503888" TEXT="iconv">
-<node CREATED="1296633504145" FOLDED="true" ID="ID_1070529980" MODIFIED="1301478745966" TEXT="ex">
+<node CREATED="1296633501316" FOLDED="true" ID="ID_1095146176" MODIFIED="1315390960870" TEXT="iconv">
+<node CREATED="1296633504145" FOLDED="true" ID="ID_1070529980" MODIFIED="1315390960590" TEXT="ex">
 <node CREATED="1296633505284" ID="ID_1871968038" MODIFIED="1296676333653" TEXT="$ iconv -f windows-1252 -t utf-8 infile &gt; outfile "/>
 </node>
 </node>
@@ -59,8 +55,8 @@
 </node>
 </node>
 <node CREATED="1296834785901" ID="ID_43792908" MODIFIED="1304068264213" TEXT="mount ">
-<node CREATED="1296834787690" ID="ID_1953283382" MODIFIED="1296834807546" TEXT="iso image">
-<node CREATED="1296834807903" FOLDED="true" ID="ID_1732610514" MODIFIED="1302082020649" TEXT="ex">
+<node CREATED="1296834787690" FOLDED="true" ID="ID_1953283382" MODIFIED="1315390954423" TEXT="iso image">
+<node CREATED="1296834807903" FOLDED="true" ID="ID_1732610514" MODIFIED="1315390950911" TEXT="ex">
 <node CREATED="1296834809060" ID="ID_1304283377" MODIFIED="1296834812410" TEXT="mount -o loop disk1.iso /mnt/disk"/>
 </node>
 </node>
@@ -83,40 +79,10 @@
 </node>
 </node>
 <node CREATED="1296676490487" ID="ID_124889150" MODIFIED="1296676503482" TEXT="Net">
-<node CREATED="1296463732267" ID="ID_1239452818" MODIFIED="1296676481619" TEXT="ssh">
-<node CREATED="1296463753332" ID="ID_536170155" MODIFIED="1296463758050" TEXT="key-auth">
-<node CREATED="1296463758423" ID="ID_1243174568" MODIFIED="1296463798809" TEXT="put your public key into ~/.ssh/authorized_keys"/>
-</node>
-<node CREATED="1301476145773" FOLDED="true" ID="ID_1500151842" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1305188095376" TEXT="config key per host">
-<node CREATED="1301478206031" ID="ID_377322167" MODIFIED="1301478213241">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <h2 style="margin-right: 0px; padding-bottom: 0px; line-height: 1.222em; padding-right: 0px; margin-left: 0px; font-weight: bold; margin-top: 0; padding-left: 0px; color: rgb(17, 17, 17); font-size: 1.286em; padding-top: 0px; margin-bottom: 0">
-      ~/.ssh/config SSH Client Configuration
-    </h2>
-    <p style="margin-bottom: 0; padding-top: 0px; padding-bottom: 0px; margin-left: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; padding-right: 0px">
-      You can set identity file in ~/.ssh/config as follows:<br style="margin-bottom: 0px; padding-bottom: 0px; padding-top: 0px; margin-left: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; padding-right: 0px" /><code style="padding-bottom: 0; margin-right: 0px; background-color: rgb(238, 238, 238); line-height: 1.5em; background-position: 0px 0px; background-image: none; background-repeat: repeat; padding-right: 0; font-family: Consolas, Andale Mono, Monaco, Courier, Courier New, Verdana, sans-serif; margin-left: 0px; border-bottom-width: 1px; background-attachment: scroll; margin-top: 0px; border-top-width: 1px; border-right-width: 1px; padding-left: 0; font-size: 0.857em; display: block; padding-top: 0; margin-bottom: 0; border-left-width: 1px"><font face="Consolas, Andale Mono, Monaco, Courier, Courier New, Verdana, sans-serif" size="0.857em">vi ~/.ssh/config</font></code><br style="margin-bottom: 0px; padding-bottom: 0px; padding-top: 0px; margin-left: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; padding-right: 0px" />Add both host names and their identity file as follows:
-    </p>
-    <pre style="margin-right: 0px; padding-bottom: 0; background-color: rgb(238, 238, 238); line-height: 1.5em; background-position: initial initial; background-image: initial; background-repeat: repeat; clear: both; padding-right: 0; margin-left: 0px; font-family: Consolas, Andale Mono, Monaco, Courier, Courier New, Verdana, sans-serif; border-bottom-width: 1px; background-attachment: scroll; margin-top: 0px; border-top-width: 1px; border-right-width: 1px; padding-left: 0; font-size: 0.857em; padding-top: 0; margin-bottom: 0; border-left-width: 1px">Host server1.nixcraft.com
-  IdentityFile ~/backups/.ssh/id_dsa
-Host server2.nixcraft.com
-  IdentityFile /backup/home/userName/.ssh/id_rsa</pre>
-    <p style="margin-bottom: 0; padding-bottom: 0px; padding-top: 0px; margin-left: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; padding-right: 0px">
-      You can add other settings per host such as port number, X11 forwarding, real hostnames and much more. Save and close the file. You can connect as follows:
-    </p>
-    <pre style="margin-right: 0px; padding-bottom: 0; background-color: rgb(238, 238, 238); line-height: 1.5em; background-position: initial initial; background-image: initial; background-repeat: repeat; clear: both; padding-right: 0; font-family: Consolas, Andale Mono, Monaco, Courier, Courier New, Verdana, sans-serif; margin-left: 0px; border-bottom-width: 1px; background-attachment: scroll; margin-top: 0px; border-top-width: 1px; border-right-width: 1px; padding-left: 0; font-size: 0.857em; padding-top: 0; margin-bottom: 0; border-left-width: 1px" class="bash"><b><font color="rgb(194, 12, 185)"><span style="color: rgb(194, 12, 185); font-weight: bold; margin-top: 0px; padding-left: 0px; margin-bottom: 0px; padding-top: 0px; margin-right: 0px; padding-right: 0px; margin-left: 0px; padding-bottom: 0px">ssh</span></font></b> user@server2.nixcraft.com
-<b><font color="rgb(194, 12, 185)"><span style="color: rgb(194, 12, 185); font-weight: bold; margin-top: 0px; padding-left: 0px; margin-bottom: 0px; padding-top: 0px; margin-right: 0px; padding-right: 0px; margin-left: 0px; padding-bottom: 0px">ssh</span></font></b> root@server1.nixcraft.com</pre>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1294068952478" ID="ID_1061174396" MODIFIED="1296723545350" TEXT="smtp">
-<node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1305188098742" TEXT="telnet">
-<node CREATED="1296723581791" FOLDED="true" ID="ID_37882576" MODIFIED="1305188098463" TEXT="ex">
+<node CREATED="1315390919026" ID="ID_872112777" LINK="net/ssh.mm" MODIFIED="1315390919027" TEXT="ssh"/>
+<node CREATED="1294068952478" FOLDED="true" ID="ID_1061174396" MODIFIED="1315390937993" TEXT="smtp">
+<node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1315390881128" TEXT="telnet">
+<node CREATED="1296723581791" FOLDED="true" ID="ID_37882576" MODIFIED="1315390880824" TEXT="ex">
 <node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -159,9 +125,9 @@ Host server2.nixcraft.com
 </node>
 </node>
 </node>
-<node CREATED="1294070903325" ID="ID_1558392970" MODIFIED="1296723546033" TEXT="dig">
-<node CREATED="1294070906492" FOLDED="true" ID="ID_403442819" MODIFIED="1301478716768" TEXT="ex">
-<node CREATED="1294070908844" ID="ID_1074468" MODIFIED="1301478710822">
+<node CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1315390934226" TEXT="dig">
+<node CREATED="1294070906492" ID="ID_403442819" MODIFIED="1315390870267" TEXT="ex">
+<node COLOR="#0033ff" CREATED="1294070908844" ID="ID_1074468" MODIFIED="1315390874609">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -233,7 +199,7 @@ Host server2.nixcraft.com
 </node>
 </node>
 </node>
-<node CREATED="1312307204519" ID="ID_1558016268" MODIFIED="1312308716923" TEXT="opensawan">
+<node CREATED="1312307204519" ID="ID_1558016268" MODIFIED="1315390852700" TEXT="openswan">
 <node CREATED="1312308716887" ID="ID_505389863" MODIFIED="1312308720686" TEXT="cmd">
 <node CREATED="1312307215413" ID="ID_756447934" MODIFIED="1312307233234" TEXT="starting">
 <node COLOR="#0033ff" CREATED="1312307233514" ID="ID_562731552" MODIFIED="1312307331371" TEXT="ipsec setup --start"/>
@@ -262,7 +228,7 @@ Host server2.nixcraft.com
 <node CREATED="1294648490063" ID="ID_1263032258" MODIFIED="1294648492826" POSITION="right" TEXT="loader">
 <node CREATED="1294648493700" ID="ID_929058759" MODIFIED="1294648495088" TEXT="grub">
 <node CREATED="1294648495765" ID="ID_309092339" MODIFIED="1296723568617" TEXT="grub-rescue">
-<node CREATED="1294648500654" ID="ID_116137789" MODIFIED="1294648525746">
+<node COLOR="#0033ff" CREATED="1294648500654" ID="ID_116137789" MODIFIED="1315391002361">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -295,7 +261,7 @@ Host server2.nixcraft.com
 <node CREATED="1300807250798" ID="ID_978816704" MODIFIED="1300807253265" TEXT="vmplayer">
 <node CREATED="1300807253622" ID="ID_1516105206" MODIFIED="1300807258777" TEXT="upqdate modules">
 <node CREATED="1300807259381" ID="ID_1795725578" MODIFIED="1300807260680" TEXT="ex">
-<node CREATED="1300807264557" ID="ID_340631692" MODIFIED="1300807266361" TEXT="vmware-modconfig --console --install-all --appname=&quot;VMware Player&quot; --icon=&quot;vmware-player&quot;"/>
+<node COLOR="#0033ff" CREATED="1300807264557" ID="ID_340631692" MODIFIED="1315391007919" TEXT="vmware-modconfig --console --install-all --appname=&quot;VMware Player&quot; --icon=&quot;vmware-player&quot;"/>
 </node>
 </node>
 </node>
@@ -317,7 +283,7 @@ Host server2.nixcraft.com
 <node CREATED="1303468903258" ID="ID_477414553" MODIFIED="1303468924346" TEXT="2.6.38">
 <node CREATED="1303468907393" ID="ID_1759444751" MODIFIED="1303810851164" TEXT="pathces">
 <node CREATED="1303810851046" ID="ID_1300745750" MODIFIED="1310120159406" TEXT="faster UI">
-<node CREATED="1303468910289" ID="ID_1922817270" MODIFIED="1303468912062" TEXT=" sysctl kernel.sched_autogroup_enabled=1"/>
+<node COLOR="#0033ff" CREATED="1303468910289" ID="ID_1922817270" MODIFIED="1315391010118" TEXT=" sysctl kernel.sched_autogroup_enabled=1"/>
 </node>
 </node>
 </node>
