@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1283930938140" ID="ID_861022927" LINK="../Index.mm" MODIFIED="1299240899286" TEXT="Agile OOD">
+<node CREATED="1283930938140" ID="ID_861022927" LINK="OOD-Principles.mm" MODIFIED="1315938670566" TEXT="Agile OOD">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
 <node CREATED="1289386487666" ID="ID_196887873" MODIFIED="1289386491055" POSITION="left" TEXT="Methods">
 <node CREATED="1289386491638" ID="ID_794681250" LINK="Scrum.mm" MODIFIED="1289386500756" TEXT="SCRUM"/>

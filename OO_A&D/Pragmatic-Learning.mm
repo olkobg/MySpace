@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#338800" CREATED="1282726205422" ID="ID_1087300691" MODIFIED="1315390482653" TEXT="Pragmatic Learning">
+<node COLOR="#338800" CREATED="1282726205422" ID="ID_1087300691" LINK="OOD-Principles.mm" MODIFIED="1315938655012" TEXT="Pragmatic Learning">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node COLOR="#990000" CREATED="1282726225833" FOLDED="true" ID="ID_1867137260" MODIFIED="1315390551301" POSITION="right" TEXT="types of people">
 <node CREATED="1282726305782" FOLDED="true" ID="ID_550538232" MODIFIED="1315390550853" TEXT="ino/out">

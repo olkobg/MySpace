@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1299228773236" ID="ID_1360889367" LINK="../Index.mm" MODIFIED="1299228802206" TEXT="Patterns">
+<node COLOR="#990099" CREATED="1299228773236" ID="ID_1360889367" LINK="OOD-Principles.mm" MODIFIED="1315938709288" TEXT="Patterns">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
 <node CREATED="1299228804199" ID="ID_629420039" MODIFIED="1299228811450" POSITION="right" TEXT="Strategy">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>

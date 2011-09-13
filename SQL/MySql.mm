@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1289386315255" ID="ID_428651575" LINK="../Index.mm" MODIFIED="1302007318802" TEXT="MySql">
+<node CREATED="1289386315255" ID="ID_428651575" LINK="DB.mm" MODIFIED="1315938790563" TEXT="MySql">
 <font BOLD="true" NAME="SansSerif" SIZE="21"/>
 <node CREATED="1290076786055" ID="ID_956641942" MODIFIED="1290076788459" POSITION="right" TEXT="Variables">
 <node CREATED="1290076789169" ID="ID_1833639184" MODIFIED="1290076789169" TEXT=""/>
