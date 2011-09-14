@@ -2,11 +2,11 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1296463732267" ID="ID_1626618680" LINK="../Ulike.mm" MODIFIED="1315390924778" TEXT="ssh">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1296463753332" ID="ID_421371249" MODIFIED="1296463758050" POSITION="left" TEXT="key-auth">
-<node COLOR="#0033ff" CREATED="1296463758423" ID="ID_614037709" MODIFIED="1315938267570" TEXT="put your public key into ~/.ssh/authorized_keys"/>
+<node CREATED="1296463753332" MODIFIED="1296463758050" POSITION="left" TEXT="key-auth">
+<node CREATED="1296463758423" ID="ID_1523739275" MODIFIED="1296463798809" TEXT="put your public key into ~/.ssh/authorized_keys"/>
 </node>
-<node CREATED="1301476145773" ID="ID_1899791194" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1315938265921" POSITION="left" TEXT="config key per host">
-<node CREATED="1301478206031" ID="ID_185536377" MODIFIED="1301478213241">
+<node CREATED="1301476145773" FOLDED="true" ID="ID_133796077" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1315935515108" POSITION="left" TEXT="config key per host">
+<node CREATED="1301478206031" ID="ID_583588422" MODIFIED="1301478213241">
 <richcontent TYPE="NODE"><html>
   <head>
     
