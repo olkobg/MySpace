@@ -413,16 +413,44 @@
 <node CREATED="1313081397472" ID="ID_1656223737" LINK="http://www.hardcode.nl/archives_132/article_511-access-view-values-from-partialloop.htm" MODIFIED="1313081402315" TEXT="link"/>
 </node>
 </node>
+<node CREATED="1316617895258" ID="ID_533556922" MODIFIED="1316617900953" TEXT="FORM">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1316617901625" ID="ID_1082953197" LINK="http://framework.zend.com/manual/en/zend.form.html" MODIFIED="1316618085399" TEXT="Zend_Form">
+<node COLOR="#0033ff" CREATED="1316617906944" ID="ID_724258097" MODIFIED="1316617961867" TEXT="Zend_Form_Element_Checkbox">
+<node CREATED="1316617920366" ID="ID_946285445" MODIFIED="1316618030169" TEXT="print with label near">
+<node COLOR="#0033ff" CREATED="1316617963416" ID="ID_1754793487" MODIFIED="1316618022172">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $chekcbox = new Zend_Form_Elemnt_Checkbox('checkbox-name', array(
+    </p>
+    <p>
+      'decorators' =&gt; array('ViewHelper', array('Label', array('placement' =&gt; 'append')))
+    </p>
+    <p>
+      );
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1300376171864" ID="ID_250691022" MODIFIED="1300739735889" TEXT="MODEL">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300376174134" ID="ID_488872031" MODIFIED="1300376226537" TEXT="Zend_Service"/>
 <node COLOR="#0033ff" CREATED="1300376188049" ID="ID_58759060" MODIFIED="1309353520872" TEXT="Zend_Db">
-<node COLOR="#0033ff" CREATED="1302188350962" ID="ID_1537390662" LINK="http://framework.zend.com/manual/en/zend.db.adapter.html" MODIFIED="1302188428149" TEXT="Zend_Db_Adapter"/>
+<node COLOR="#0033ff" CREATED="1302188350962" ID="ID_1537390662" LINK="http://framework.zend.com/manual/en/zend.db.adapter.html" MODIFIED="1316443192642" TEXT="Zend_Db_Adapter"/>
 <node COLOR="#0033ff" CREATED="1302188382941" ID="ID_1580717094" LINK="http://framework.zend.com/manual/en/zend.db.profiler.html" MODIFIED="1302188441001" TEXT="Zend_Db_Profiler"/>
-<node COLOR="#0033ff" CREATED="1300376202196" FOLDED="true" ID="ID_105188436" LINK="http://framework.zend.com/manual/en/zend.db.table.html" MODIFIED="1311682866516" TEXT="Zend_Db_Table">
+<node COLOR="#0033ff" CREATED="1300376202196" ID="ID_105188436" LINK="http://framework.zend.com/manual/en/zend.db.table.html" MODIFIED="1316443109397" TEXT="Zend_Db_Table">
 <node CREATED="1301052159586" ID="ID_880661527" MODIFIED="1311167294543" TEXT="inf">
-<node CREATED="1301052157947" FOLDED="true" ID="ID_661749819" MODIFIED="1311167547342" TEXT="properties">
+<node CREATED="1301052157947" ID="ID_661749819" MODIFIED="1316443113024" TEXT="properties">
 <node CREATED="1301051891163" ID="ID_691579815" MODIFIED="1301052235976">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -462,6 +490,12 @@
 </node>
 <node CREATED="1301062126705" ID="ID_1067384181" MODIFIED="1301395088030" TEXT="relationship">
 <node CREATED="1301062138158" ID="ID_1462171745" LINK="http://framework.zend.com/manual/en/zend.db.table.relationships.html" MODIFIED="1301062165229" TEXT="many to many"/>
+</node>
+<node CREATED="1316443133217" ID="ID_1353346455" MODIFIED="1316443137361" TEXT="const">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1316443138032" ID="ID_591230234" MODIFIED="1316443140480" TEXT="NAME">
+<node CREATED="1316443143152" ID="ID_584134492" MODIFIED="1316443154362" TEXT="specifies table name"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1301333919582" ID="ID_420890125" MODIFIED="1311167505415" TEXT="-&gt;">
@@ -570,7 +604,7 @@
 <node COLOR="#0033ff" CREATED="1301062172213" ID="ID_256401318" LINK="http://framework.zend.com/manual/en/zend.db.table.row.html" MODIFIED="1302188371104" TEXT="Zend_Db_Table_Row"/>
 <node COLOR="#0033ff" CREATED="1302188254712" ID="ID_1329982077" LINK="http://framework.zend.com/manual/en/zend.db.table.rowset.html" MODIFIED="1302188375150" TEXT="Zend_Db_Table_Rowset"/>
 </node>
-<node COLOR="#0033ff" CREATED="1302004498482" FOLDED="true" ID="ID_1276254130" LINK="http://framework.zend.com/manual/en/zend.db.select.html" MODIFIED="1311682865572" TEXT="Zend_Db_Select">
+<node COLOR="#0033ff" CREATED="1302004498482" ID="ID_1276254130" LINK="http://framework.zend.com/manual/en/zend.db.select.html" MODIFIED="1316443163050" TEXT="Zend_Db_Select">
 <node COLOR="#0033ff" CREATED="1302082400219" ID="ID_270782114" MODIFIED="1311167258433" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1302188031790" ID="ID_667538408" MODIFIED="1302188067483" TEXT="select()"/>
 <node COLOR="#0033ff" CREATED="1302188072538" ID="ID_926244315" MODIFIED="1302188110549" TEXT="from()">
@@ -649,7 +683,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1302188041567" FOLDED="true" ID="ID_91648767" LINK="http://framework.zend.com/manual/en/zend.db.statement.html" MODIFIED="1312288106464" TEXT="Zend_Db_Statement">
+<node COLOR="#0033ff" CREATED="1302188041567" FOLDED="true" ID="ID_91648767" LINK="http://framework.zend.com/manual/en/zend.db.statement.html" MODIFIED="1316443191609" TEXT="Zend_Db_Statement">
 <node COLOR="#0033ff" CREATED="1302188141368" ID="ID_1566491554" MODIFIED="1304514432239" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1302188155294" ID="ID_714110302" MODIFIED="1302188176588" TEXT="query()"/>
 <node COLOR="#0033ff" CREATED="1302188237786" ID="ID_640446092" MODIFIED="1302188246601" TEXT="fetch()"/>
@@ -941,8 +975,7 @@
       $hiddenControl-&gt;setValue('test value');
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
