@@ -176,7 +176,7 @@
 <node COLOR="#0033ff" CREATED="1300739612602" ID="ID_256919981" MODIFIED="1300739726753" TEXT="Zend_Controller_Response_Cli"/>
 </node>
 <node COLOR="#0033ff" CREATED="1301394252587" ID="ID_1793079543" LINK="http://framework.zend.com/manual/en/zend.controller.action.html" MODIFIED="1311682901047" TEXT="Zend_Controller_Action">
-<node COLOR="#0033ff" CREATED="1301394020140" ID="ID_403257883" MODIFIED="1301394023260" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1301394020140" FOLDED="true" ID="ID_403257883" MODIFIED="1319212417863" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1301394024308" ID="ID_576318546" MODIFIED="1301394951614" TEXT="render()">
 <node CREATED="1301394046082" ID="ID_1367977957" MODIFIED="1301394054705" TEXT="to render another view"/>
 </node>
@@ -415,8 +415,11 @@
 </node>
 <node CREATED="1316617895258" ID="ID_533556922" MODIFIED="1316617900953" TEXT="FORM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1316617901625" ID="ID_1082953197" LINK="http://framework.zend.com/manual/en/zend.form.html" MODIFIED="1316618085399" TEXT="Zend_Form">
-<node COLOR="#0033ff" CREATED="1316617906944" ID="ID_724258097" MODIFIED="1316617961867" TEXT="Zend_Form_Element_Checkbox">
+<node COLOR="#0033ff" CREATED="1316617901625" ID="ID_1082953197" LINK="http://framework.zend.com/manual/en/zend.form.html" MODIFIED="1318503565702" TEXT="Zend_Form">
+<node CREATED="1318503565638" ID="ID_998755273" MODIFIED="1318503575458" TEXT="elements">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1318503700287" ID="ID_1497483803" LINK="http://framework.zend.com/manual/en/zend.form.elements.html" MODIFIED="1318503756606" TEXT="Zend_Form_Element">
+<node COLOR="#0033ff" CREATED="1316617906944" ID="ID_724258097" MODIFIED="1318503761312" TEXT="Zend_Form_Element_Checkbox">
 <node CREATED="1316617920366" ID="ID_946285445" MODIFIED="1316618030169" TEXT="print with label near">
 <node COLOR="#0033ff" CREATED="1316617963416" ID="ID_1754793487" MODIFIED="1316618022172">
 <richcontent TYPE="NODE"><html>
@@ -434,11 +437,138 @@
       );
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1318503575528" FOLDED="true" ID="ID_964144560" MODIFIED="1319212414399" TEXT="-&gt;">
+<node CREATED="1318503629914" ID="ID_1798132400" MODIFIED="1318503655470" TEXT="elemest methods">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1318503580874" ID="ID_594007146" MODIFIED="1318503588305">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;createElement($element, $name = null, $options = null)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;addElement($element, $name = null, $options = null)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;addElements(array $elements)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setElements(array $elements)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getElement($name)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getElements()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;removeElement($name)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;clearElements()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setDefaults(array $defaults)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setDefault($name, $value)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getValue($name)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getValues()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getUnfilteredValue($name)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getUnfilteredValues()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setElementFilters(array $filters)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setElementDecorators(array $decorators)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;addElementPrefixPath($prefix, $path, $type = null)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;addElementPrefixPaths(array $spec)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1318503658021" ID="ID_345235731" MODIFIED="1318503666972" TEXT="display">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1318339273733" ID="ID_1842614869" MODIFIED="1318339279277" TEXT="array elements">
+<node CREATED="1318339279651" ID="ID_1387383419" LINK="http://stackoverflow.com/questions/405897/zend-form-array-based-elements" MODIFIED="1318339305627" TEXT="stack overflow"/>
+<node CREATED="1318339306320" ID="ID_590332600" LINK="http://framework.zend.com/issues/browse/ZF-2563" MODIFIED="1318339323058" TEXT="Zend Tracker"/>
 </node>
 </node>
 </node>
@@ -498,7 +628,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1301333919582" ID="ID_420890125" MODIFIED="1311167505415" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1301333919582" FOLDED="true" ID="ID_420890125" MODIFIED="1319212409168" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1301052163975" ID="ID_343975568" MODIFIED="1301052208870" TEXT="find()"/>
 <node COLOR="#0033ff" CREATED="1301052172860" ID="ID_1916214259" MODIFIED="1301052208870" TEXT="fetchRow()"/>
 <node COLOR="#0033ff" CREATED="1301052181546" FOLDED="true" ID="ID_277477053" MODIFIED="1311167558428" TEXT="fetchAll()">
@@ -605,7 +735,7 @@
 <node COLOR="#0033ff" CREATED="1302188254712" ID="ID_1329982077" LINK="http://framework.zend.com/manual/en/zend.db.table.rowset.html" MODIFIED="1302188375150" TEXT="Zend_Db_Table_Rowset"/>
 </node>
 <node COLOR="#0033ff" CREATED="1302004498482" ID="ID_1276254130" LINK="http://framework.zend.com/manual/en/zend.db.select.html" MODIFIED="1316443163050" TEXT="Zend_Db_Select">
-<node COLOR="#0033ff" CREATED="1302082400219" ID="ID_270782114" MODIFIED="1311167258433" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1302082400219" FOLDED="true" ID="ID_270782114" MODIFIED="1319212407808" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1302188031790" ID="ID_667538408" MODIFIED="1302188067483" TEXT="select()"/>
 <node COLOR="#0033ff" CREATED="1302188072538" ID="ID_926244315" MODIFIED="1302188110549" TEXT="from()">
 <node CREATED="1311168049477" ID="ID_1724487466" MODIFIED="1311168067277">
@@ -763,7 +893,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1301392468768" ID="ID_618628748" LINK="http://framework.zend.com/manual/en/zend.registry.using.html" MODIFIED="1301393216371" TEXT="Zend_Registry"/>
 <node COLOR="#0033ff" CREATED="1303911993450" ID="ID_968505432" MODIFIED="1313770625538" TEXT="Zend_Paginator">
-<node COLOR="#0033ff" CREATED="1312208547669" ID="ID_1774224942" MODIFIED="1312209619502" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1312208547669" FOLDED="true" ID="ID_1774224942" MODIFIED="1319212403208" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1312209030390" ID="ID_191777173" MODIFIED="1312209042949" TEXT="clearPageItemsCache()"/>
 <node COLOR="#0033ff" CREATED="1312391315915" ID="ID_5109473" MODIFIED="1312391348815" TEXT="getTotalItemCount()"/>
 <node COLOR="#0033ff" CREATED="1312209052035" ID="ID_34771646" MODIFIED="1312209071217" TEXT="getItemsByPage()"/>
@@ -784,6 +914,12 @@
 <node COLOR="#0033ff" CREATED="1312208990611" ID="ID_464899249" MODIFIED="1312209619057" TEXT="::">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1312208993771" ID="ID_1766824111" MODIFIED="1312208999074" TEXT="setCache()"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1319036185106" ID="ID_1844085740" MODIFIED="1319036195521" TEXT="Zend_Eception">
+<node COLOR="#0033ff" CREATED="1319036196113" ID="ID_1186602922" MODIFIED="1319036199032" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1319036200208" ID="ID_720278310" MODIFIED="1319036248306" TEXT="getMessage()"/>
+<node CREATED="1319036205567" ID="ID_1927657803" MODIFIED="1319036500035" TEXT="it just extends standart php exception"/>
 </node>
 </node>
 </node>
@@ -897,7 +1033,7 @@
 </node>
 </node>
 <node CREATED="1299139188313" ID="ID_1986945483" MODIFIED="1299139190040" POSITION="left" TEXT="Forms">
-<node CREATED="1299139190460" ID="ID_1742058369" MODIFIED="1314697961833" TEXT="form elements">
+<node CREATED="1299139190460" FOLDED="true" ID="ID_1742058369" MODIFIED="1319212424789" TEXT="form elements">
 <node CREATED="1299139199643" ID="ID_329668692" MODIFIED="1299139204202">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -958,7 +1094,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1314697974329" ID="ID_1619363884" MODIFIED="1314697979900" TEXT="Zend_Form">
 <node COLOR="#0033ff" CREATED="1314697980715" ID="ID_101749780" MODIFIED="1314698011768" TEXT="Zend_Form_Element_Hidden">
-<node COLOR="#0033ff" CREATED="1314698011690" ID="ID_15219028" MODIFIED="1314698016206" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1314698011690" ID="ID_15219028" MODIFIED="1319212427433" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1314698003488" ID="ID_1682319231" MODIFIED="1314698039330" TEXT="setValue()">
 <node CREATED="1314698018286" ID="ID_166950009" MODIFIED="1314698032569" TEXT="set&apos;s value of hidden element"/>
 <node CREATED="1314698046922" ID="ID_507219552" MODIFIED="1314698047592" TEXT="ex">
@@ -1035,7 +1171,7 @@
 </node>
 </node>
 <node CREATED="1301399586983" ID="ID_337380489" MODIFIED="1301399588346" TEXT="ex">
-<node CREATED="1301399588743" ID="ID_737376532" MODIFIED="1301399620453">
+<node COLOR="#0033ff" CREATED="1301399588743" ID="ID_737376532" MODIFIED="1319212432996">
 <richcontent TYPE="NODE"><html>
   <head>
     
