@@ -96,8 +96,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -323,6 +322,13 @@
 <node CREATED="1290779803321" ID="ID_1490659888" LINK="http://www.jibbering.com/faq/notes/type-conversion/" MODIFIED="1290779815089" TEXT="http://www.jibbering.com/faq/notes/type-conversion/"/>
 </node>
 </node>
+<node CREATED="1319659786877" ID="ID_998630532" MODIFIED="1319659789265" POSITION="left" TEXT="Browser">
+<node CREATED="1319659789865" ID="ID_1779152456" MODIFIED="1319659796892" TEXT="turn js errors on">
+<node CREATED="1319659797455" ID="ID_1332028521" MODIFIED="1319659799740" TEXT="MOZILLA">
+<node COLOR="#0033ff" CREATED="1319659800487" ID="ID_1617789911" MODIFIED="1319659802910" TEXT="javascript.options.showInConsole preference"/>
+</node>
+</node>
+</node>
 <node COLOR="#338800" CREATED="1307434903922" ID="ID_410338370" MODIFIED="1307434934211" POSITION="right" TEXT="OBJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1290675458896" ID="ID_619064926" MODIFIED="1307434943484" TEXT="RegExp">
@@ -350,6 +356,98 @@
 </node>
 <node CREATED="1306262117748" ID="ID_989123574" MODIFIED="1306262123162" POSITION="right" TEXT="Security">
 <node CREATED="1306262123782" ID="ID_274024630" LINK="http://www-cs-students.stanford.edu/~tjw/jsbn/" MODIFIED="1306262130865" TEXT="RSA algorithm"/>
+</node>
+<node COLOR="#338800" CREATED="1319713375018" ID="ID_384948737" MODIFIED="1319713395383" POSITION="right" TEXT="DOM">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1319713397207" ID="ID_642013724" MODIFIED="1319713407066" TEXT="create elements">
+<node CREATED="1319713408997" ID="ID_855253354" MODIFIED="1319713411018" TEXT="option">
+<node COLOR="#0033ff" CREATED="1319713411397" ID="ID_1032348269" MODIFIED="1319713462366">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var breakfast = document.createElement(&quot;optgroup&quot;);
+    </p>
+    <p>
+      breakfast.label = &quot;Breakfast&quot;;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var lunch = document.createElement(&quot;optgroup&quot;);
+    </p>
+    <p>
+      lunch.label = &quot;Lunch&quot;;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var dinner = document.createElement(&quot;optgroup&quot;);
+    </p>
+    <p>
+      dinner.label = &quot;Dinner&quot;;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var cereal = document.createElement(&quot;option&quot;);
+    </p>
+    <p>
+      cereal.value = &quot;cereal&quot;;
+    </p>
+    <p>
+      cereal.appendChild(document.createTextNode(&quot;Cereal&quot;));
+    </p>
+    <p>
+      breakfast.appendChild(cereal);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var eggs = document.createElement(&quot;option&quot;);
+    </p>
+    <p>
+      eggs.value = &quot;eggs&quot;;
+    </p>
+    <p>
+      eggs.appendChild(document.createTextNode(&quot;Eggs&quot;));
+    </p>
+    <p>
+      breakfast.appendChild(eggs);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1319713476980" ID="ID_1467024601" MODIFIED="1319713483817" TEXT="remove all child elements">
+<node COLOR="#0033ff" CREATED="1319713484419" ID="ID_1711159791" MODIFIED="1319713506808">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      while (selectMenu.hasChildNodes()) {
+    </p>
+    <p>
+      &#160;&#160;&#160;selectMenu.removeChild(selectMenu.firstChild);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>

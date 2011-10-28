@@ -133,6 +133,13 @@
 <node COLOR="#0033ff" CREATED="1313572807046" ID="ID_1802370194" MODIFIED="1313572815709" TEXT="git diff --color"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1319444453125" ID="ID_868762534" MODIFIED="1319444506727" POSITION="right" TEXT="stash">
+<node CREATED="1319444456718" ID="ID_163923825" MODIFIED="1319444460284" TEXT="get diff">
+<node COLOR="#990099" CREATED="1319444460557" ID="ID_810957010" LINK="http://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash" MODIFIED="1319464392537" TEXT="SO">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
 <node COLOR="#ff6666" CREATED="1311116090530" ID="ID_1081305118" MODIFIED="1311117546574" POSITION="left" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1311116129871" ID="ID_538447464" MODIFIED="1311116135869" TEXT="fix svn rebase">
@@ -166,7 +173,7 @@
 <node COLOR="#0033ff" CREATED="1289412005624" ID="ID_1466793587" MODIFIED="1315865780518" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1289412008534" ID="ID_793420099" MODIFIED="1289412013268" TEXT="change merge tool">
-<node CREATED="1289412013925" ID="ID_1715652734" MODIFIED="1289412020108" TEXT="git config merge.tool &lt;tool&gt;"/>
+<node COLOR="#0033ff" CREATED="1289412013925" ID="ID_1715652734" MODIFIED="1319464371960" TEXT="git config merge.tool &lt;tool&gt;"/>
 </node>
 <node CREATED="1316101111376" ID="ID_983038719" MODIFIED="1316101122801" TEXT="change paginator for diff">
 <node COLOR="#0033ff" CREATED="1316101125350" ID="ID_970354881" MODIFIED="1316101139925">
@@ -182,8 +189,7 @@
       &#160;pager = less -FXRS -x4
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
