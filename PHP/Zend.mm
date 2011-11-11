@@ -443,7 +443,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1318503575528" FOLDED="true" ID="ID_964144560" MODIFIED="1319212414399" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1318503575528" FOLDED="true" ID="ID_964144560" MODIFIED="1320939469204" TEXT="-&gt;">
 <node CREATED="1318503629914" ID="ID_1798132400" MODIFIED="1318503655470" TEXT="elemest methods">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -563,6 +563,12 @@
 </node>
 <node CREATED="1318503658021" ID="ID_345235731" MODIFIED="1318503666972" TEXT="display">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1320939471059" ID="ID_1607608497" MODIFIED="1320939484708" TEXT="tips">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1320939485145" ID="ID_1153166981" MODIFIED="1320939501554" TEXT="change element value">
+<node COLOR="#0033ff" CREATED="1320939502590" ID="ID_1793137620" MODIFIED="1320939505614" TEXT="$form-&gt;getElement(&apos;mySubmit&apos;)-&gt;setLabel(&apos;new value&apos;) "/>
 </node>
 </node>
 </node>

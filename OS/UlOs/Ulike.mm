@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1305270165536" TEXT="Ulike (debian)">
+<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1320672790906" TEXT="Ulike (debian)">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1296676490534" POSITION="right" TEXT="tools">
 <node COLOR="#0033ff" CREATED="1296834785901" ID="ID_43792908" MODIFIED="1315938353050" TEXT="mount ">
@@ -59,7 +59,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1294648490063" ID="ID_1263032258" MODIFIED="1294648492826" POSITION="right" TEXT="loader">
+<node CREATED="1320672790869" ID="ID_1402751397" MODIFIED="1320672828852" POSITION="right" TEXT="Boot">
+<node CREATED="1294648490063" ID="ID_1263032258" MODIFIED="1294648492826" TEXT="loader">
 <node CREATED="1294648493700" ID="ID_929058759" MODIFIED="1294648495088" TEXT="grub">
 <node CREATED="1294648495765" ID="ID_309092339" MODIFIED="1296723568617" TEXT="grub-rescue">
 <node COLOR="#0033ff" CREATED="1294648500654" ID="ID_116137789" MODIFIED="1315938392680">
@@ -70,6 +71,33 @@
   <body>
     <p>
       grub rescue&gt; set prefix=(hd0,x)/boot/grub<br />grub rescue&gt; insmod (hd0,x)/boot/grub/normal.mod<br />rescue:grub&gt; normal
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1320672828804" ID="ID_112331071" MODIFIED="1320672836370" TEXT="Init">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1320672794255" ID="ID_1840571506" MODIFIED="1320672825032" TEXT="levels ">
+<node CREATED="1320672796991" ID="ID_485402371" MODIFIED="1320672824019">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      0 (halt the system),
+    </p>
+    <p>
+      1 (single-user mode),
+    </p>
+    <p>
+      2 through 5 (various multi-user modes),
+    </p>
+    <p>
+      6 (reboot the system).&#160;
     </p>
   </body>
 </html></richcontent>
