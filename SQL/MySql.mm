@@ -97,7 +97,7 @@
 </node>
 </node>
 <node CREATED="1320946456590" ID="ID_810700224" MODIFIED="1320946458223" POSITION="left" TEXT="TIPS"/>
-<node CREATED="1320946458758" ID="ID_210105990" MODIFIED="1320946471565" POSITION="left" TEXT="geta all tables with specific column name">
+<node CREATED="1320946458758" ID="ID_210105990" MODIFIED="1321532343092" POSITION="left" TEXT="get all tables with specific column name">
 <node COLOR="#0033ff" CREATED="1320946471860" ID="ID_197018626" MODIFIED="1320946517413">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -114,8 +114,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;AND TABLE_SCHEMA='YourDatabase';&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
