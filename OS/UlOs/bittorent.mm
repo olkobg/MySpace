@@ -1,15 +1,17 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1296636508748" ID="ID_1290338628" LINK="Ulike.mm" MODIFIED="1296636655207" TEXT="bittorent">
-<node CREATED="1296636582536" ID="ID_229099191" MODIFIED="1296636586824" POSITION="right" TEXT="cli">
-<node CREATED="1296636524744" MODIFIED="1296636530469" TEXT="launch tracker">
-<node CREATED="1296636530800" MODIFIED="1296636574889" TEXT="bttrack --port 6969 --allowed_dir /var/bttrack/ --nat_check 0 --dfile /var/log/bttrack/dstate --logfile /var/log/bttrack/tracker.log &amp;"/>
+<node COLOR="#0033ff" CREATED="1296636508748" ID="ID_1290338628" LINK="Ulike.mm" MODIFIED="1322126278878" TEXT="bittorent">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1296636582536" ID="ID_229099191" MODIFIED="1322126281638" POSITION="right" TEXT="cli">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1296636524744" ID="ID_770329023" MODIFIED="1296636530469" TEXT="launch tracker">
+<node CREATED="1296636530800" ID="ID_1810105081" MODIFIED="1296636574889" TEXT="bttrack --port 6969 --allowed_dir /var/bttrack/ --nat_check 0 --dfile /var/log/bttrack/dstate --logfile /var/log/bttrack/tracker.log &amp;"/>
 </node>
-<node CREATED="1296636576228" MODIFIED="1296636579989" TEXT="laucn torrents">
-<node CREATED="1296636597344" MODIFIED="1296636597344" TEXT="nohup btlaunchmany.py torrent/active/ &gt; torrent.log &amp;"/>
+<node CREATED="1296636576228" ID="ID_16412588" MODIFIED="1296636579989" TEXT="laucn torrents">
+<node CREATED="1296636597344" ID="ID_1630691487" MODIFIED="1296636597344" TEXT="nohup btlaunchmany.py torrent/active/ &gt; torrent.log &amp;"/>
 </node>
-<node CREATED="1296636614904" MODIFIED="1296636621474" TEXT="craete torrentfile">
-<node CREATED="1296636621767" MODIFIED="1296636636525">
+<node CREATED="1296636614904" ID="ID_1034780546" MODIFIED="1296636621474" TEXT="craete torrentfile">
+<node CREATED="1296636621767" ID="ID_1442758971" MODIFIED="1296636636525">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -23,7 +25,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1296636664777" ID="ID_439554883" MODIFIED="1298232663471" POSITION="left" TEXT="free torrentrackers ">
+<node CREATED="1322126384688" ID="ID_1239264293" MODIFIED="1322126387393" POSITION="right" TEXT="&#xa0;tree -f -i -N oaza_video/"/>
+<node CREATED="1296636664777" ID="ID_439554883" MODIFIED="1322126283757" POSITION="left" TEXT="free torrentrackers ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1298232586114" ID="ID_1594576856" MODIFIED="1298232609188">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -37,8 +41,7 @@
       udp://tracker.openbittorrent.com:80/announce
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1298232618041" ID="ID_837993206" MODIFIED="1298232627117">
 <richcontent TYPE="NODE"><html>
@@ -53,8 +56,7 @@
       udp://<a href="http://tracker.openbittorrent.kg:2710/announce">tracker.openbittorrent.kg:2710/announce</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1298232641161" ID="ID_1259810033" MODIFIED="1298232649964">
 <richcontent TYPE="NODE"><html>
@@ -69,8 +71,7 @@
       udp://<a href="http://tracker.publicbt.com/announce">tracker.publicbt.com:80/announce</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1298232663456" ID="ID_1895780052" MODIFIED="1298232680637">
 <richcontent TYPE="NODE"><html>
@@ -88,8 +89,7 @@
       <a href="http://tracker.prq.to/announce"><font color="rgb(0, 0, 0)" face="arial, sans-serif">http://tracker.prq.to/announce</font></a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1298232432086" ID="ID_372988631" MODIFIED="1298232661581">
 <richcontent TYPE="NODE"><html>
