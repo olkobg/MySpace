@@ -2,86 +2,6 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#338800" CREATED="1292929910718" ID="ID_473056444" LINK="PHP.mm" MODIFIED="1298549698412" TEXT="ZF">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#ff6666" CREATED="1293289005721" ID="ID_1118761133" MODIFIED="1300464872330" POSITION="right" TEXT="command line">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1293289014422" ID="ID_877264993" MODIFIED="1293290329926" TEXT="create">
-<node CREATED="1293290317581" ID="ID_1125425476" MODIFIED="1293290322969" TEXT="application">
-<node CREATED="1293289107504" ID="ID_395173774" MODIFIED="1293290336834" TEXT="ex">
-<node CREATED="1293289110798" ID="ID_649884922" MODIFIED="1293289112070" TEXT="zf create project quickstart"/>
-</node>
-</node>
-<node CREATED="1293299616424" ID="ID_1882276651" MODIFIED="1293299623521" TEXT="db-table">
-<node CREATED="1293299630892" ID="ID_176668857" MODIFIED="1293299632064" TEXT="ex">
-<node CREATED="1293299633210" ID="ID_1927707519" MODIFIED="1293299652100" TEXT="zf create db-table Guestbook guestbook"/>
-</node>
-</node>
-<node CREATED="1293299945109" ID="ID_853010293" MODIFIED="1293299946777" TEXT="model">
-<node CREATED="1293299947800" ID="ID_1770781742" MODIFIED="1293299948957" TEXT="ex">
-<node CREATED="1293299950405" ID="ID_131617159" MODIFIED="1293299951197" TEXT="zf create model GuestbookMapper"/>
-</node>
-</node>
-<node CREATED="1293311066763" ID="ID_1576980188" MODIFIED="1293311070060" TEXT="controller">
-<node CREATED="1293311071783" ID="ID_460685512" MODIFIED="1293311072654" TEXT="ex">
-<node CREATED="1293311074066" ID="ID_1259840883" MODIFIED="1293311086153" TEXT="zf create controller Guestbook"/>
-</node>
-</node>
-<node CREATED="1293388577324" ID="ID_674065905" MODIFIED="1293388578504" TEXT="form">
-<node CREATED="1293388579684" ID="ID_1136788761" MODIFIED="1293388580244" TEXT="ex">
-<node CREATED="1293388580254" ID="ID_1704355497" MODIFIED="1293392861602" TEXT="zf create form Guestbook"/>
-</node>
-</node>
-<node CREATED="1293392843999" ID="ID_258480636" MODIFIED="1293392845772" TEXT="action">
-<node CREATED="1293392846556" ID="ID_1497671964" MODIFIED="1293392847882" TEXT="ex">
-<node CREATED="1293392864148" ID="ID_1462386486" MODIFIED="1293392880872" TEXT="zf create action sign Guestbook"/>
-</node>
-</node>
-</node>
-<node CREATED="1293290186555" ID="ID_1493976206" MODIFIED="1293290312650" TEXT="enable">
-<node CREATED="1293289010794" ID="ID_1088672365" MODIFIED="1293290205945" TEXT="layout">
-<node CREATED="1293290171910" ID="ID_1685092807" MODIFIED="1293290173523" TEXT="ex">
-<node CREATED="1293290174512" ID="ID_1048143461" MODIFIED="1293290177237" TEXT="zf enable layout"/>
-</node>
-<node CREATED="1293290209239" ID="ID_1588115268" MODIFIED="1298631836812" TEXT="note">
-<node CREATED="1293290212071" ID="ID_653542269" MODIFIED="1300444456086">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      default layou created at location application/layouts/scripts/layout.phtml
-    </p>
-    <p>
-      also in application ini. there is string added
-    </p>
-    <p>
-      <font color="#0000cc">resources.layout.layoutPath =&#160;APPLICATION_PATH &quot;/layouts/scripts&quot; </font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1293292311559" ID="ID_405538293" MODIFIED="1293292314310" TEXT="configure">
-<node CREATED="1293292315157" ID="ID_56925662" MODIFIED="1293292319165" TEXT="db-provider">
-<node CREATED="1293292329212" ID="ID_552447544" MODIFIED="1293292332472" TEXT="ex">
-<node CREATED="1293292333542" ID="ID_782562111" MODIFIED="1293292417050">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      % zf configure db-adapter \&#160;<br />&#160;&gt; 'adapter=PDO_SQLITE&amp;dbname=APPLICATION_PATH &quot;/../data/db/guestbook.db&quot;' \&#160;<br />&#160;&gt; production
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
 <node CREATED="1300375479383" ID="ID_756961746" MODIFIED="1300464882103" POSITION="right" TEXT="Classes">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1300376033709" ID="ID_636541842" MODIFIED="1300376041377" TEXT="Filtering and validation">
@@ -300,7 +220,7 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1313080927877" ID="ID_700611761" MODIFIED="1313081061437" TEXT="Zen_Layout">
-<node CREATED="1313081061405" ID="ID_693509375" MODIFIED="1313081276887">
+<node CREATED="1313081061405" FOLDED="true" ID="ID_693509375" MODIFIED="1324466593970">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -415,7 +335,7 @@
 </node>
 <node CREATED="1316617895258" ID="ID_533556922" MODIFIED="1316617900953" TEXT="FORM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1316617901625" ID="ID_1082953197" LINK="http://framework.zend.com/manual/en/zend.form.html" MODIFIED="1318503565702" TEXT="Zend_Form">
+<node COLOR="#0033ff" CREATED="1316617901625" FOLDED="true" ID="ID_1082953197" LINK="http://framework.zend.com/manual/en/zend.form.html" MODIFIED="1324466592163" TEXT="Zend_Form">
 <node CREATED="1318503565638" ID="ID_998755273" MODIFIED="1318503575458" TEXT="elements">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1318503700287" ID="ID_1497483803" LINK="http://framework.zend.com/manual/en/zend.form.elements.html" MODIFIED="1318503756606" TEXT="Zend_Form_Element">
@@ -569,6 +489,45 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1320939485145" ID="ID_1153166981" MODIFIED="1320939501554" TEXT="change element value">
 <node COLOR="#0033ff" CREATED="1320939502590" ID="ID_1793137620" MODIFIED="1320939505614" TEXT="$form-&gt;getElement(&apos;mySubmit&apos;)-&gt;setLabel(&apos;new value&apos;) "/>
+</node>
+<node CREATED="1324309868611" FOLDED="true" ID="ID_294882875" MODIFIED="1324466589973" TEXT="turn off escape">
+<node CREATED="1324314199129" ID="ID_870533089" MODIFIED="1324314490809">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">$this-&gt;setDecorators(array(&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">... </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;array('Label', </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;array( </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'requiredSuffix' =&gt; '&amp;nbsp;&lt;img src=\'/images/requiredStar.gif\' style=\'width:10px;height:9px\' /&gt;', </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'escape'=&gt;false </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">));</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -930,7 +889,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1293289328992" ID="ID_179542922" MODIFIED="1300740662618" POSITION="left" TEXT="apache conf">
+<node COLOR="#0033ff" CREATED="1324466530337" ID="ID_285116937" LINK="Frameworks/Zend/command%20line.mm" MODIFIED="1324466568837" POSITION="left" TEXT="ZF cmd">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+</node>
+<node CREATED="1293289328992" ID="ID_179542922" MODIFIED="1324466580458" POSITION="left" TEXT="apache conf">
 <node CREATED="1293289334336" FOLDED="true" ID="ID_1171304587" MODIFIED="1301394354160" TEXT="ex">
 <node CREATED="1293289338935" ID="ID_1051623504" MODIFIED="1293289878264">
 <richcontent TYPE="NODE"><html>
@@ -982,10 +944,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1293290348005" ID="ID_1752401263" MODIFIED="1293392896676" POSITION="left" TEXT="configuration">
+<node CREATED="1293290348005" ID="ID_1752401263" MODIFIED="1324466580455" POSITION="left" TEXT="configuration">
 <node CREATED="1293292293347" ID="ID_970984985" MODIFIED="1293292299044" TEXT="db-provider"/>
 </node>
-<node CREATED="1293289134473" FOLDED="true" ID="ID_1209023624" MODIFIED="1299139250075" POSITION="left" TEXT="strcture">
+<node CREATED="1293289134473" FOLDED="true" ID="ID_1209023624" MODIFIED="1324466580453" POSITION="left" TEXT="strcture">
 <node CREATED="1299139218419" ID="ID_1101051639" MODIFIED="1299139248111">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1038,7 +1000,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299139188313" ID="ID_1986945483" MODIFIED="1299139190040" POSITION="left" TEXT="Forms">
+<node CREATED="1299139188313" ID="ID_1986945483" MODIFIED="1324466580452" POSITION="left" TEXT="Forms">
 <node CREATED="1299139190460" FOLDED="true" ID="ID_1742058369" MODIFIED="1319212424789" TEXT="form elements">
 <node CREATED="1299139199643" ID="ID_329668692" MODIFIED="1299139204202">
 <richcontent TYPE="NODE"><html>
@@ -1125,18 +1087,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1293290661598" ID="ID_930790720" MODIFIED="1293290663315" POSITION="left" TEXT="resource">
+<node CREATED="1293290661598" ID="ID_930790720" MODIFIED="1324466580444" POSITION="left" TEXT="resource">
 <node CREATED="1293290663687" ID="ID_338831593" MODIFIED="1293290665340" TEXT="add">
 <node CREATED="1293290674348" ID="ID_67526450" MODIFIED="1293290676240" TEXT="note">
 <node CREATED="1293290676604" ID="ID_231009033" MODIFIED="1293290728027" TEXT="to add during boottstrap add you should add function with name containing _init to Bootstrap.php"/>
 </node>
 </node>
 </node>
-<node CREATED="1298549620065" ID="ID_1939561703" MODIFIED="1298549622894" POSITION="left" TEXT="Book">
+<node CREATED="1298549620065" ID="ID_1939561703" MODIFIED="1324466580441" POSITION="left" TEXT="Book">
 <node CREATED="1298549643726" ID="ID_1605623766" LINK="http://www.survivethedeepend.com/zendframeworkbook/" MODIFIED="1298549661785" TEXT="online"/>
 <node CREATED="1298549645901" ID="ID_791497812" MODIFIED="1298549649253" TEXT="Zend in action "/>
 </node>
-<node COLOR="#ff0000" CREATED="1300444353142" ID="ID_615849491" MODIFIED="1301399461421" POSITION="left" TEXT="DEBUG">
+<node COLOR="#ff0000" CREATED="1300444353142" ID="ID_615849491" MODIFIED="1324466580438" POSITION="left" TEXT="DEBUG">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1301399461402" ID="ID_1268800909" MODIFIED="1301399473023" TEXT="dumping">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1230,7 +1192,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1302190469604" ID="ID_1269724465" MODIFIED="1302190510950" POSITION="left" TEXT="TESTING">
+<node COLOR="#ff0000" CREATED="1302190469604" ID="ID_1269724465" MODIFIED="1324466580420" POSITION="left" TEXT="TESTING">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1302190510926" ID="ID_1784173544" MODIFIED="1302190516989" TEXT="PHPUnit">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1238,7 +1200,7 @@
 <node CREATED="1302190493288" ID="ID_279489676" LINK="http://ajbrown.org/blog/2009/01/04/automated-testing-using-zend-framework-part-1.html" MODIFIED="1302190507013" TEXT="AjBlog"/>
 </node>
 </node>
-<node CREATED="1307547419980" ID="ID_1732209594" MODIFIED="1307547422363" POSITION="left" TEXT="Validation">
+<node CREATED="1307547419980" ID="ID_1732209594" MODIFIED="1324466580417" POSITION="left" TEXT="Validation">
 <node COLOR="#0033ff" CREATED="1307547422643" ID="ID_1699630461" LINK="http://framework.zend.com/manual/en/zend.validate.set.html" MODIFIED="1307547444903" TEXT="Zend_Validate"/>
 </node>
 </node>
