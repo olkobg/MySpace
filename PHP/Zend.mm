@@ -1,8 +1,8 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#338800" CREATED="1292929910718" ID="ID_473056444" LINK="PHP.mm" MODIFIED="1298549698412" TEXT="ZF">
+<node COLOR="#338800" CREATED="1292929910718" ID="ID_473056444" LINK="PHP.mm" MODIFIED="1328279704061" TEXT="ZF">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1300375479383" ID="ID_756961746" MODIFIED="1300464882103" POSITION="right" TEXT="Classes">
+<node CREATED="1300375479383" ID="ID_756961746" MODIFIED="1328279703510" POSITION="right" TEXT="Classes">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1300376033709" ID="ID_636541842" MODIFIED="1300376041377" TEXT="Filtering and validation">
 <node COLOR="#0033ff" CREATED="1300376042040" ID="ID_663936185" MODIFIED="1300376243821" TEXT="Zend_Validate">
@@ -525,8 +525,7 @@
       <font color="#0000ff">));</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -858,7 +857,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1301392468768" ID="ID_618628748" LINK="http://framework.zend.com/manual/en/zend.registry.using.html" MODIFIED="1301393216371" TEXT="Zend_Registry"/>
 <node COLOR="#0033ff" CREATED="1303911993450" ID="ID_968505432" MODIFIED="1313770625538" TEXT="Zend_Paginator">
-<node COLOR="#0033ff" CREATED="1312208547669" FOLDED="true" ID="ID_1774224942" MODIFIED="1319212403208" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1312208547669" ID="ID_1774224942" MODIFIED="1328001076259" TEXT="-&gt;">
 <node COLOR="#0033ff" CREATED="1312209030390" ID="ID_191777173" MODIFIED="1312209042949" TEXT="clearPageItemsCache()"/>
 <node COLOR="#0033ff" CREATED="1312391315915" ID="ID_5109473" MODIFIED="1312391348815" TEXT="getTotalItemCount()"/>
 <node COLOR="#0033ff" CREATED="1312209052035" ID="ID_34771646" MODIFIED="1312209071217" TEXT="getItemsByPage()"/>
@@ -893,8 +892,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 </node>
 <node CREATED="1293289328992" ID="ID_179542922" MODIFIED="1324466580458" POSITION="left" TEXT="apache conf">
-<node CREATED="1293289334336" FOLDED="true" ID="ID_1171304587" MODIFIED="1301394354160" TEXT="ex">
-<node CREATED="1293289338935" ID="ID_1051623504" MODIFIED="1293289878264">
+<node CREATED="1293289334336" ID="ID_1171304587" MODIFIED="1328022667096" TEXT="ex">
+<node COLOR="#0033ff" CREATED="1293289338935" ID="ID_1051623504" MODIFIED="1328022670948">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -947,55 +946,105 @@
 <node CREATED="1293290348005" ID="ID_1752401263" MODIFIED="1324466580455" POSITION="left" TEXT="configuration">
 <node CREATED="1293292293347" ID="ID_970984985" MODIFIED="1293292299044" TEXT="db-provider"/>
 </node>
-<node CREATED="1293289134473" FOLDED="true" ID="ID_1209023624" MODIFIED="1324466580453" POSITION="left" TEXT="strcture">
-<node CREATED="1299139218419" ID="ID_1101051639" MODIFIED="1299139248111">
+<node CREATED="1293289134473" FOLDED="true" ID="ID_1209023624" MODIFIED="1328279706988" POSITION="left" TEXT="structure">
+<node CREATED="1299139218419" ID="ID_1101051639" MODIFIED="1328172232710">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <p>
-      &#160;&#160;$APP_DIR/application Main application directory
-    </p>
-    <p>
-      $APP_DIR/application/controllers Global controllers
-    </p>
-    <p>
-      $APP_DIR/application/views Global views
-    </p>
-    <p>
-      $APP_DIR/application/models Global models
-    </p>
-    <p>
-      $APP_DIR/application/configs Global configuration data
-    </p>
-    <p>
-      $APP_DIR/application/layouts Global layouts
-    </p>
-    <p>
-      $APP_DIR/application/modules Modules
-    </p>
-    <p>
-      $APP_DIR/library Third-party libraries and classes
-    </p>
-    <p>
-      $APP_DIR/public Main publicly accessible directory
-    </p>
-    <p>
-      $APP_DIR/public/css CSS style sheets
-    </p>
-    <p>
-      $APP_DIR/public/js JavaScript program code
-    </p>
-    <p>
-      $APP_DIR/public/images Application images
-    </p>
-    <p>
-      $APP_DIR/tests Unit tests
-    </p>
-    <p>
-      $APP_DIR/temp Temporary data
-    </p>
+    <table border="0" style="width: 400px; border-right-width: 0; border-bottom-width: 0; border-style: solid; border-left-width: 0; border-top-width: 0">
+      <tr>
+        <td valign="top" style="width: 50%; border-right-width: 1; border-style: solid; border-bottom-width: 1; border-left-width: 1; border-top-width: 1">
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font color="#0000ff">$APP_DIR/application </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font color="#0000ff">$APP_DIR/application/controllers </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font color="#0000ff">$APP_DIR/application/views </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/application/models </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/application/configs </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/application/layouts</font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font color="#0000ff">$APP_DIR/application/modules </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/library </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public/css </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public/js </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public/images </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/tests </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/temp</font>
+          </p>
+        </td>
+        <td valign="top" style="width: 50%; border-right-width: 1; border-style: solid; border-bottom-width: 1; border-left-width: 1; border-top-width: 1">
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Main application directory </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Global controllers </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Global views </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Global models </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Global configuration data </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Global layouts </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Modules </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Third-party libraries and classes </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Main publicly accessible directory </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">CSS style sheets </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">JavaScript program code </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Application images </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Unit tests </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Temporary data</font>
+          </p>
+        </td>
+      </tr>
+    </table>
   </body>
 </html></richcontent>
 </node>

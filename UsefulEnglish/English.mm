@@ -12,16 +12,16 @@
 <node CREATED="1303381328545" ID="ID_1995412036" MODIFIED="1303381415245" TEXT="Continuous (paticiple)">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 </node>
-<node CREATED="1303380088975" FOLDED="true" ID="ID_1433004557" MODIFIED="1303381392938" TEXT="Perfect">
+<node CREATED="1303380088975" ID="ID_1433004557" MODIFIED="1328174059610" TEXT="Perfect">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node COLOR="#990099" CREATED="1303380092118" ID="ID_19063500" MODIFIED="1303381363313" TEXT="RULES">
+<node COLOR="#990099" CREATED="1303380092118" FOLDED="true" ID="ID_19063500" MODIFIED="1328174192949" TEXT="RULES">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1303381182725" ID="ID_1316183295" MODIFIED="1303381187014" TEXT="inf">
 <node CREATED="1303381188052" ID="ID_264208388" MODIFIED="1303381293608" TEXT="&#x447;&#x430;&#x441; &#x44f;&#x43a;&#x438;&#x439; &#x43f;&#x43e;&#x43a;&#x430;&#x437;&#x443;&#x454; &#x434;&#x456;&#x44e; &#x449;&#x43e; &#x432;&#x434;&#x431;&#x443;&#x43b;&#x430;&#x441;&#x430; &#x43d;&#x435; &#x437;&#x432;&#x430;&#x436;&#x430;&#x44e;&#x447;&#x438; &#x43d;&#x430; &#x442;&#x435; &#x449;&#x43e; &#x432;&#x43e;&#x43d;&#x430; &#x432;&#x456;&#x434;&#x431;&#x443;&#x43b;&#x430;&#x441;&#x44f;"/>
 </node>
-<node CREATED="1303380236568" FOLDED="true" ID="ID_1100937259" MODIFIED="1303381381515" TEXT="+">
+<node CREATED="1303380236568" ID="ID_1100937259" MODIFIED="1328174149075" TEXT="+">
 <font BOLD="true" NAME="SansSerif" SIZE="21"/>
-<node CREATED="1303380195368" FOLDED="true" ID="ID_1892487414" MODIFIED="1303381374132" TEXT="+">
+<node CREATED="1328174149057" ID="ID_1942993678" MODIFIED="1328174149057" TEXT="">
 <node CREATED="1303380163860" ID="ID_1359221052" MODIFIED="1303380641285">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -32,8 +32,7 @@
       <font color="#0000ff">I</font>&#160;\ <font color="#0000ff">You</font>&#160;\ <font color="#0000ff">We</font>&#160;\ <font color="#0000ff">They</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#0033ff" CREATED="1303380203247" ID="ID_1907220126" MODIFIED="1303380814702" TEXT="have">
@@ -43,7 +42,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1303380807911" FOLDED="true" ID="ID_1077211207" MODIFIED="1303381374452" TEXT="+">
+<node CREATED="1328174145292" ID="ID_847191152" MODIFIED="1328174145292" TEXT="">
 <node CREATED="1303380163860" ID="ID_1510098398" MODIFIED="1303380845908">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -54,19 +53,19 @@
       <font color="#0000ff">He</font>&#160;\ <font color="#0000ff">She</font>&#160;\ <font color="#0000ff">It</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#0033ff" CREATED="1303380847209" ID="ID_1399091294" MODIFIED="1303380854592" TEXT="has">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1303380222141" ID="ID_1184904943" MODIFIED="1303380225534" TEXT="3rd V"/>
+<node CREATED="1303380222141" ID="ID_1184904943" MODIFIED="1328174114029" TEXT="3rd V">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1303380243410" FOLDED="true" ID="ID_1109421218" MODIFIED="1303381382419" TEXT="-">
+</node>
+<node CREATED="1303380243410" ID="ID_1109421218" MODIFIED="1328174060585" TEXT="-">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node CREATED="1303380267934" FOLDED="true" ID="ID_985061848" MODIFIED="1303381376388" TEXT="+">
 <node CREATED="1303380887772" ID="ID_743576485" MODIFIED="1303380987007" TEXT="subject">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -80,10 +79,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-</node>
-<node CREATED="1303380259432" FOLDED="true" ID="ID_163251167" MODIFIED="1303381382843" TEXT="?">
+<node CREATED="1303380259432" ID="ID_163251167" MODIFIED="1328174156924" TEXT="?">
 <font BOLD="true" NAME="SansSerif" SIZE="20"/>
-<node CREATED="1303380272782" FOLDED="true" ID="ID_1863775552" MODIFIED="1303381380139" TEXT="+">
 <node CREATED="1303381004340" ID="ID_10720226" MODIFIED="1303381010772" TEXT="question word">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
@@ -101,8 +98,7 @@
 </node>
 </node>
 </node>
-</node>
-<node COLOR="#990099" CREATED="1303380317160" FOLDED="true" ID="ID_1545683594" MODIFIED="1303381392012" TEXT="help words">
+<node COLOR="#990099" CREATED="1303380317160" FOLDED="true" ID="ID_1545683594" MODIFIED="1328174195700" TEXT="help words">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#0033ff" CREATED="1303380327606" ID="ID_791172289" MODIFIED="1303380650946" TEXT="just">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -153,6 +149,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+</node>
+<node CREATED="1328174775637" ID="ID_464006027" MODIFIED="1328174783988" TEXT="Past">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1303380377848" ID="ID_666385634" MODIFIED="1303380383431" POSITION="left" TEXT="Other">

@@ -19,9 +19,7 @@
 </node>
 </node>
 <node CREATED="1299247772112" ID="ID_748683254" MODIFIED="1299247792517" POSITION="left" TEXT="Stored Procedures">
-<node CREATED="1299247792506" ID="ID_198974254" MODIFIED="1299247796701" TEXT="ex">
-<node CREATED="1299247796664" FOLDED="true" ID="ID_1026354186" MODIFIED="1299250589452" TEXT="simple">
-<node CREATED="1299247779698" ID="ID_1412236481" MODIFIED="1299247791609">
+<node COLOR="#0033ff" CREATED="1299247779698" ID="ID_1412236481" MODIFIED="1328173884708">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -70,9 +68,7 @@
 </html></richcontent>
 </node>
 </node>
-</node>
-</node>
-<node CREATED="1302007141732" ID="ID_1212392289" MODIFIED="1302007214139" POSITION="left" TEXT="SQL">
+<node CREATED="1302007141732" ID="ID_1212392289" MODIFIED="1328173951302" POSITION="left" TEXT="Syntax">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1302007143908" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.1/en/date-and-time-functions.html" MODIFIED="1302007376593" TEXT="Date">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
@@ -91,13 +87,31 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node CREATED="1302007331889" ID="ID_1477792891" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1302007359103" TEXT="v5.5">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1302007331889" ID="ID_1477792891" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1328173739031" TEXT="v5.5">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1328173566119" ID="ID_1115071291" MODIFIED="1328173856616" TEXT="CREATE TABLE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1328173641428" ID="ID_1556549863" LINK="http://dev.mysql.com/doc/refman/5.1/en/create-table.html" MODIFIED="1328173733176" TEXT="v5.1">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1328174837621" ID="ID_157638723" MODIFIED="1328174842085" TEXT="ALTER TABLE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1328174842620" ID="ID_303510877" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1328174848362" TEXT="v 5.1">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1328173600905" ID="ID_1528012442" MODIFIED="1328173857080" TEXT="REPLACE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1328173672312" ID="ID_227560750" LINK="http://dev.mysql.com/doc/refman/5.0/en/replace.html" MODIFIED="1328173731320" TEXT="v5.0">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1320946456590" ID="ID_810700224" MODIFIED="1320946458223" POSITION="left" TEXT="TIPS"/>
-<node CREATED="1320946458758" ID="ID_210105990" MODIFIED="1321532343092" POSITION="left" TEXT="get all tables with specific column name">
+<node CREATED="1320946456590" ID="ID_810700224" MODIFIED="1320946458223" POSITION="left" TEXT="TIPS">
+<node CREATED="1320946458758" ID="ID_210105990" MODIFIED="1321532343092" TEXT="get all tables with specific column name">
 <node COLOR="#0033ff" CREATED="1320946471860" ID="ID_197018626" MODIFIED="1320946517413">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -115,6 +129,7 @@
     </p>
   </body>
 </html></richcontent>
+</node>
 </node>
 </node>
 </node>
