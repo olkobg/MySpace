@@ -18,7 +18,7 @@
 <node CREATED="1295343292234" ID="ID_11758781" MODIFIED="1295343302823" TEXT="used for both windows and unix environments"/>
 </node>
 </node>
-<node CREATED="1299247772112" ID="ID_748683254" MODIFIED="1299247792517" POSITION="left" TEXT="Stored Procedures">
+<node CREATED="1299247772112" ID="ID_748683254" MODIFIED="1328630862728" POSITION="left" TEXT="Stored Procedures">
 <node COLOR="#0033ff" CREATED="1299247779698" ID="ID_1412236481" MODIFIED="1328173884708">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -102,10 +102,36 @@
 <node CREATED="1328174842620" ID="ID_303510877" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1328174848362" TEXT="v 5.1">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#0033ff" CREATED="1328628615870" ID="ID_1266005469" MODIFIED="1328630853140">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ALTER TABLE `delivery_options` ADD COLUMN `CreationDate` INT(10) UNSIGNED NULL DEFAULT NULL;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1328630822139" ID="ID_1607256549" MODIFIED="1328630850451">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ALTER TABLE spacetime CHANGE wind_direction_id direction_id tinyint(3) unsigned;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1328173600905" ID="ID_1528012442" MODIFIED="1328173857080" TEXT="REPLACE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1328173672312" ID="ID_227560750" LINK="http://dev.mysql.com/doc/refman/5.0/en/replace.html" MODIFIED="1328173731320" TEXT="v5.0">
+<node CREATED="1328173672312" ID="ID_227560750" LINK="http://dev.mysql.com/doc/refman/5.0/en/replace.html" MODIFIED="1328617098520" TEXT="v5.0">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>

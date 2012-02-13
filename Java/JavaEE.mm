@@ -41,7 +41,7 @@
 </node>
 </node>
 <node CREATED="1321888699178" ID="ID_363571108" MODIFIED="1321888706147" POSITION="left" TEXT="Frameworks">
-<node CREATED="1321888706391" ID="ID_1970948515" LINK="http://www.playframework.org/" MODIFIED="1321888777826" TEXT="Play">
+<node CREATED="1321888706391" ID="ID_1970948515" LINK="http://www.playframework.org/" MODIFIED="1328617013713" TEXT="Play">
 <node CREATED="1321888742426" ID="ID_911540265" MODIFIED="1321888818059">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -52,8 +52,7 @@
       &quot;Ruby on Rails&quot; like framework but using <font color="#0000ff">Java</font>&#160;and <font color="#0000ff">Scala</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
