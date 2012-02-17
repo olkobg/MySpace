@@ -157,5 +157,9 @@
 <node COLOR="#0033ff" CREATED="1303380377848" ID="ID_666385634" MODIFIED="1303380383431" POSITION="left" TEXT="Other">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
+<node CREATED="1329414618904" ID="ID_188807648" MODIFIED="1329414643220" POSITION="left" TEXT="Study sites">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1329414624318" ID="ID_213760487" LINK="http://lingualeo.ru/" MODIFIED="1329414639997" TEXT="lingualeo"/>
+</node>
 </node>
 </map>

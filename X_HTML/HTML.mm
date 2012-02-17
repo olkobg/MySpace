@@ -1,6 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1289984608987" ID="ID_723414545" LINK="../Index.mm" MODIFIED="1297155270451" TEXT="HTML">
+<node CREATED="1289984608987" ID="ID_723414545" LINK="../Index.mm" MODIFIED="1329495159493" TEXT="HTML">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1297155159356" ID="ID_293946390" MODIFIED="1297155285307" POSITION="right" TEXT="3D">
 <node CREATED="1297155285293" ID="ID_683827622" MODIFIED="1297155293437" TEXT="JS">
 <node CREATED="1297155164157" ID="ID_945822937" MODIFIED="1297155166129" TEXT="WebGl">
@@ -12,6 +13,7 @@
 </node>
 <node CREATED="1307013064378" ID="ID_259503846" MODIFIED="1307013068307" POSITION="right" TEXT="WebFonts">
 <node CREATED="1307013071073" ID="ID_1272693283" LINK="http://code.google.com/apis/webfonts/" MODIFIED="1307013075046" TEXT="google"/>
+<node CREATED="1329495147392" ID="ID_338958224" LINK="http://sixrevisions.com/css/font-face-guide/" MODIFIED="1329495152902" TEXT="guide "/>
 </node>
 <node CREATED="1307017640234" ID="ID_1749666599" LINK="http://code.google.com/apis/libraries/devguide.html" MODIFIED="1307017877227" POSITION="right" TEXT="google api"/>
 <node CREATED="1297155298254" ID="ID_751982683" MODIFIED="1297155302284" POSITION="left" TEXT="script">

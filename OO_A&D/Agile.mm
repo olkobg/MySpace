@@ -30,5 +30,23 @@
 <node CREATED="1297765194406" ID="ID_959241392" MODIFIED="1297765469524" TEXT="Customer collaboration over contract negotiation"/>
 <node CREATED="1297765470519" ID="ID_1287956340" MODIFIED="1297765471586" TEXT="Responding to change over following a plan "/>
 </node>
+<node CREATED="1329221499553" ID="ID_1164555257" MODIFIED="1329221501207" POSITION="right" TEXT="TIPs">
+<node CREATED="1329221502092" ID="ID_1105788457" MODIFIED="1329221574176">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      disturb teammates after finishing small development cycle(30 min)
+    </p>
+    <p>
+      it won't reduce their performance.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </map>
