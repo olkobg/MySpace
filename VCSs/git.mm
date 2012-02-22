@@ -21,8 +21,7 @@
       <font color="#0000ff">xargs git add </font><b>&lt;insert here your seection&gt;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -219,6 +218,38 @@
 </node>
 <node CREATED="1321283274029" ID="ID_1931767887" MODIFIED="1321283289377" TEXT="get apply specified stash ">
 <node COLOR="#0033ff" CREATED="1321283282092" ID="ID_948165641" MODIFIED="1321283325237" TEXT="git stash apply stash@{2}"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1329936112092" ID="ID_1784311335" MODIFIED="1329936115762" TEXT="pull"/>
+<node COLOR="#0033ff" CREATED="1329936116593" ID="ID_1595520806" MODIFIED="1329936119505" TEXT="push">
+<node CREATED="1329936120120" ID="ID_1196135519" MODIFIED="1329936347388">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if you need quickly apdate previous commit
+    </p>
+    <p>
+      just add plus sing before branches names
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#0033ff" CREATED="1329936168498" ID="ID_311420569" MODIFIED="1329936179856" TEXT="git commit --amend"/>
+<node COLOR="#0033ff" CREATED="1329936180552" ID="ID_1314317476" MODIFIED="1329936320219">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git push &lt;repos&gt;&#160;<b><font size="5">+</font></b>&lt;branch_name&gt;:&lt;branch_name&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
