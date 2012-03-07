@@ -39,5 +39,35 @@
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 </node>
 </node>
+<node CREATED="1330096872189" ID="ID_856438831" MODIFIED="1330096874304" POSITION="left" TEXT="convert">
+<node COLOR="#0033ff" CREATED="1330096874630" ID="ID_1037817489" MODIFIED="1330096982323">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>VirtualBOX</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1330096888351" ID="ID_1310570090" MODIFIED="1330097005605">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000"><b>2 </b></font><b><font color="#0000ff">Vmware Player</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1330097012735" ID="ID_1306069594" LINK="http://scottlinux.com/2011/06/24/convert-vdi-to-vmdk-virtualbox-to-vmware/" MODIFIED="1330097027860" TEXT="blog"/>
+<node CREATED="1330097136894" ID="ID_1009717987" LINK="http://www.dedoimedo.com/computers/virtualbox-convert.html" MODIFIED="1330097140661" TEXT="site"/>
+</node>
+</node>
+</node>
 </node>
 </map>
