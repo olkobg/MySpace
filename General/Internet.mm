@@ -201,5 +201,38 @@
 <node CREATED="1310120583866" ID="ID_1984323388" MODIFIED="1310120584772" TEXT="process of selecting paths in a network along which to send network traffic."/>
 </node>
 </node>
+<node CREATED="1330464523130" ID="ID_350101816" MODIFIED="1330464524804" POSITION="right" TEXT="FS">
+<node CREATED="1330464526919" ID="ID_281168660" MODIFIED="1330464528057" TEXT="NFS">
+<node CREATED="1330464528804" ID="ID_435174961" MODIFIED="1330464530200" TEXT="tips">
+<node CREATED="1330464530993" ID="ID_1661660757" MODIFIED="1330464534853">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <font face="Trebuchet MS">Start Registry Editor</font>
+      </li>
+      <li>
+        <font face="trebuchet ms,geneva">Locate <strong><em>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ClientForNFS\CurrentVersion\Default </em></strong></font>
+      </li>
+      <li>
+        <font face="trebuchet ms,geneva">Create two DWORD values namely <strong><em>AnonymousUid </em></strong>and <strong><em>AnonymousGid</em></strong></font>
+      </li>
+      <li>
+        <font face="trebuchet ms,geneva">Set these values to the UID and GID you would like this NFS client to use</font>
+      </li>
+      <li>
+        <font face="trebuchet ms,geneva">Restart your Client for NFS service using the Microsoft Services for NFS MMC snap-in</font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>
