@@ -16,10 +16,17 @@
 <node CREATED="1310398086417" ID="ID_1153701436" MODIFIED="1310398092992" POSITION="left" TEXT="quick tutorial">
 <node CREATED="1310398093912" ID="ID_506809230" LINK="http://jmcpherson.org/editing.html" MODIFIED="1310398100060" TEXT="1"/>
 </node>
-<node CREATED="1311076066199" ID="ID_1137717804" MODIFIED="1311076069929" POSITION="left" TEXT="editing">
+<node CREATED="1311076066199" ID="ID_1137717804" MODIFIED="1332760856682" POSITION="left" TEXT="editing">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311076070262" ID="ID_427727716" MODIFIED="1311076074049" TEXT="commenting">
 <node CREATED="1311076074462" ID="ID_913033183" LINK="http://eli.thegreenplace.net/2010/08/25/commenting-out-a-block-of-code-with-vim/" MODIFIED="1311076092053" TEXT="tip1"/>
 </node>
+</node>
+<node CREATED="1332760203082" ID="ID_1786211631" MODIFIED="1332760225329" POSITION="left" TEXT="Diff">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1332760210574" ID="ID_136649349" LINK="http://www.debianadmin.com/vimdiff-edit-two-or-three-versions-of-a-file-with-vim-and-show-differences.html" MODIFIED="1332760811795" TEXT="vimdiff : site 1"/>
+<node CREATED="1332760213065" ID="ID_186213483" LINK="http://andrejk.blogspot.com/2008/04/vimdiff-howto.html" MODIFIED="1332760808695" TEXT="vimdiff : site 2"/>
+<node CREATED="1332760760362" ID="ID_1786961035" LINK="http://blog.tplus1.com/index.php/2007/08/29/how-to-use-vimdiff-as-the-subversion-diff-tool/" MODIFIED="1332760795593" TEXT="site3 : using vim for subversion"/>
 </node>
 <node CREATED="1322655266228" ID="ID_704854240" MODIFIED="1322655268439" POSITION="left" TEXT="Cygwin">
 <node CREATED="1322655268811" ID="ID_1306109549" MODIFIED="1322655271580" TEXT="tip">
