@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068915711" ID="ID_1460056684" LINK="../../Index.mm" MODIFIED="1331668049079" TEXT="Wlike">
+<node CREATED="1294068915711" ID="ID_1460056684" LINK="../../Index.mm" MODIFIED="1332271525517" TEXT="Wlike">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1294232876530" ID="ID_1129769802" LINK="windows%207.mm" MODIFIED="1294232913366" POSITION="right" TEXT=" 7"/>
 <node CREATED="1294232933209" ID="ID_1407105794" MODIFIED="1294232935031" POSITION="left" TEXT="server">
@@ -21,6 +21,11 @@
 <node CREATED="1304154301176" ID="ID_68782060" MODIFIED="1304154357932" POSITION="left" TEXT="power designer ">
 <node CREATED="1304154359117" ID="ID_1173924301" LINK="http://wcode.net/2010/12/customcode-generation-power-designer-15/" MODIFIED="1304159646708" TEXT="create New language specificaftion"/>
 <node CREATED="1304159614916" ID="ID_629183045" LINK="http://www.phpbuilder.com/board/showthread.php?t=10295629" MODIFIED="1304159628048" TEXT="php lang cpec file"/>
+</node>
+<node CREATED="1332271525409" ID="ID_1805240172" MODIFIED="1332271527168" POSITION="left" TEXT="net">
+<node CREATED="1332271520704" ID="ID_1446737362" MODIFIED="1332271524577" TEXT="IM">
+<node CREATED="1332271546349" ID="ID_910397175" LINK="Skype.mm" MODIFIED="1332271546351" TEXT="Skype"/>
+</node>
 </node>
 </node>
 </map>
