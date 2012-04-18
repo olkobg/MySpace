@@ -112,8 +112,7 @@
       ALTER TABLE `delivery_options` ADD COLUMN `CreationDate` INT(10) UNSIGNED NULL DEFAULT NULL;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1328630822139" ID="ID_1607256549" MODIFIED="1328630850451">
 <richcontent TYPE="NODE"><html>
@@ -125,8 +124,7 @@
       ALTER TABLE spacetime CHANGE wind_direction_id direction_id tinyint(3) unsigned;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1328173600905" ID="ID_1528012442" MODIFIED="1328173857080" TEXT="REPLACE">
@@ -155,6 +153,11 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1334757024106" ID="ID_1588593607" MODIFIED="1334757036038" TEXT="generating dump">
+<node CREATED="1334757036368" ID="ID_603425483" MODIFIED="1334757039146" TEXT="xml">
+<node COLOR="#0033ff" CREATED="1334757039475" ID="ID_1812803923" MODIFIED="1334757044221" TEXT="mysqldump --xml -t -u [username] --password=[password] [database] &gt; /path/to/file.xml"/>
 </node>
 </node>
 </node>
