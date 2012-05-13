@@ -128,7 +128,7 @@
 <node CREATED="1286544362275" ID="ID_425671856" MODIFIED="1292453737468" TEXT="aways keep the beginner mind"/>
 </node>
 <node CREATED="1283617086218" ID="ID_1174023992" MODIFIED="1315390557371" POSITION="left" TEXT="innerGame">
-<node COLOR="#990000" CREATED="1283616116015" FOLDED="true" ID="ID_1912458112" MODIFIED="1315390575057" TEXT="Feedback">
+<node COLOR="#990000" CREATED="1283616116015" ID="ID_1912458112" MODIFIED="1334855533335" TEXT="Feedback">
 <node CREATED="1283616034250" ID="ID_1227995472" MODIFIED="1283617105421" TEXT="(we learn better by discovery not by instructions)"/>
 </node>
 <node CREATED="1283617109171" ID="ID_380565579" MODIFIED="1292453503328" TEXT="use awareness as much as possible - always"/>
@@ -175,6 +175,10 @@
 <node CREATED="1286543352461" ID="ID_1652591801" MODIFIED="1286543399882" TEXT="2. Deliberately work with and add to thoughts in progress, even if they aren&#x2019;t &#x201c;done&#x201d; yet."/>
 <node CREATED="1286543361072" ID="ID_486369558" MODIFIED="1286543362523" TEXT="3. Be aware of just how expensive context switching can be, and avoid it in all its myriad forms."/>
 </node>
+</node>
+<node CREATED="1334855542709" ID="ID_1736580701" MODIFIED="1334855546758" POSITION="right" TEXT="WEB">
+<node CREATED="1334855547306" ID="ID_195306675" LINK="http://www.lumosity.com/" MODIFIED="1334855557154" TEXT="lumosity"/>
+<node CREATED="1334855558243" ID="ID_1723793736" LINK="http://www.soakyourhead.com/dual-n-back.aspx" MODIFIED="1334855586658" TEXT="soak your head"/>
 </node>
 </node>
 </map>
