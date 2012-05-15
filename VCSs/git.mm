@@ -11,17 +11,18 @@
 </node>
 </node>
 <node CREATED="1328810386649" ID="ID_1485705639" MODIFIED="1328810401065" TEXT="add rectangular file selection">
-<node CREATED="1328810401719" ID="ID_117856734" MODIFIED="1328810448908">
+<node CREATED="1328810401719" ID="ID_117856734" MODIFIED="1335362082262">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0000ff">xargs git add </font><b>&lt;insert here your seection&gt;</b>
+      <font color="#0000ff">xargs git add </font><b>&lt;insert here your seection&gt; </b>and <font color="#0033cc">Ctrl + D</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -212,7 +213,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1319444453125" ID="ID_868762534" MODIFIED="1321283216673" TEXT="stash">
 <node CREATED="1319444456718" ID="ID_163923825" MODIFIED="1319444460284" TEXT="get diff">
-<node COLOR="#990099" CREATED="1319444460557" FOLDED="true" ID="ID_810957010" LINK="http://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash" MODIFIED="1332760263559" TEXT="SO">
+<node COLOR="#990099" CREATED="1319444460557" FOLDED="true" ID="ID_810957010" LINK="http://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash" MODIFIED="1335188298385" TEXT="SO">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1332759147846" ID="ID_473525063" MODIFIED="1332759279561">
 <richcontent TYPE="NODE"><html>
@@ -240,8 +241,7 @@
       <font size="3">(</font><i><em style="vertical-align: baseline; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; font-style: italic; border-color: black; background-position: initial initial"><font size="14px">note</font></em></i><font size="3">&#160;that here &lt;full filename&gt; is full pathname of a file relative to top directory of a project (think: relative to&#160;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px">stash@{0}</font></code><font size="3">)). </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

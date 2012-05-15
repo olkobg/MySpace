@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1299164912886" TEXT="PHP">
+<node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1337095407605" TEXT="PHP">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
 <node CREATED="1285850528231" ID="ID_449599395" MODIFIED="1299074195611" POSITION="right" TEXT="Testing">
 <node CREATED="1285850518723" ID="ID_349465635" MODIFIED="1285850525919" TEXT="UnitTesting">
@@ -25,7 +25,8 @@
 <node CREATED="1293706148883" ID="ID_68755020" MODIFIED="1293706151508" TEXT="oscommerce"/>
 </node>
 </node>
-<node CREATED="1292929906380" ID="ID_995126132" MODIFIED="1302022150517" POSITION="left" TEXT="Frameworks">
+<node CREATED="1337095407580" ID="ID_1268790834" MODIFIED="1337095411091" POSITION="left" TEXT="libs">
+<node CREATED="1292929906380" ID="ID_995126132" MODIFIED="1302022150517" TEXT="Frameworks">
 <node COLOR="#cc3300" CREATED="1302022150489" ID="ID_538144076" MODIFIED="1302022160350" TEXT="MVC">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#338800" CREATED="1292929957082" ID="ID_1178615153" LINK="Zend.mm" MODIFIED="1298549601890" STYLE="bubble" TEXT="ZendFramework">
@@ -45,6 +46,13 @@
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299138706510" ID="ID_253301276" LINK="http://www.doctrine-project.org/" MODIFIED="1299138753581" TEXT="Doctrine"/>
 <node CREATED="1299138709209" ID="ID_746365137" LINK="http://www.propelorm.org/" MODIFIED="1299138740517" TEXT="Propel"/>
+</node>
+</node>
+<node CREATED="1337095412298" ID="ID_516280554" MODIFIED="1337095418369" TEXT="Captcha">
+<node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
+<node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
+<node CREATED="1337095493488" ID="ID_1074773125" LINK="http://code.google.com/p/cool-php-captcha/" MODIFIED="1337095517343" TEXT="cool php captcha"/>
+<node CREATED="1337095518492" ID="ID_1870135368" LINK="http://www.phpcaptcha.org/" MODIFIED="1337095552753" TEXT="php captcha"/>
 </node>
 </node>
 <node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1312370380007" POSITION="left" TEXT="CORE">
