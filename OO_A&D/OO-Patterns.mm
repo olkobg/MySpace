@@ -1,34 +1,13 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1299228773236" ID="ID_1360889367" LINK="OOD-Principles.mm" MODIFIED="1329301395456" TEXT="Patterns">
-<font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node CREATED="1329301325503" ID="ID_457981236" MODIFIED="1329301332288" POSITION="left" TEXT="Books">
-<node CREATED="1329301332980" ID="ID_1406963955" LINK="http://designpatterns.andriybuday.com/" MODIFIED="1331209093748" TEXT="Andriy Buday ukr"/>
-</node>
-<node CREATED="1329301395411" ID="ID_480832661" MODIFIED="1342428965438" POSITION="right" TEXT="simple">
-<font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1342428968647" ID="ID_1411164892" MODIFIED="1342440290265" TEXT="Mediator">
-<font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node CREATED="1342429100745" ID="ID_148538262" LINK="srcEx/patterns/mediator.cs" MODIFIED="1342429212583" TEXT="AB">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1342429073605" ID="ID_1555864817" MODIFIED="1342440492472">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>&#1052;&#1077;&#1076;&#1110;&#1072;&#1090;&#1086;&#1088;</b>&#160;&#1094;&#1077;&#1085;&#1090;&#1088;&#1072;&#1083;&#1110;&#1079;&#1091;&#1108; &#1074;&#1079;&#1072;&#1108;&#1084;&#1086;&#1076;&#1110;&#1102; &#1084;&#1110;&#1078; &#1082;&#1086;&#1084;&#1087;&#1086;&#1085;&#1077;&#1085;&#1090;&#1072;&#1084;&#1080;, &#1090;&#1072;&#1082;&#1080;&#1084; &#1095;&#1080;&#1085;&#1086;&#1084; &#1087;&#1086;&#1089;&#1083;&#1072;&#1073;&#1083;&#1102;&#1102;&#1095;&#1080; &#1111;&#1093;&#1085;&#1102; &#1079;&#1074;&#8217;&#1103;&#1079;&#1085;&#1110;&#1089;&#1090;&#1100;&#160;
-    </p>
-  </body>
-</html></richcontent>
+<node COLOR="#990099" CREATED="1299228773236" ID="ID_1360889367" LINK="OOD-Principles.mm" MODIFIED="1342441747311" TEXT="Patterns">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#1042; &#1076;&#1072;&#1085;&#1110;&#1081; &#1089;&#1093;&#1077;&#1084;&#1110; &#1074;&#1080;&#1082;&#1086;&#1088;&#1080;&#1089;&#1090;&#1072;&#1085;&#1086; &#1084;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1080; &#1079; &#1082;&#1085;&#1080;&#1075;&#1080; &#1040;&#1085;&#1076;&#1088;&#1110;&#1103; &#1041;&#1091;&#1076;&#1072;&#1103; &#1044;&#1080;&#1079;&#1072;&#1081;&#1085; &#1055;&#1072;&#1090;&#1090;&#1077;&#1088;&#1085;&#1080;
+      &#1042; &#1076;&#1072;&#1085;&#1110;&#1081; &#1089;&#1093;&#1077;&#1084;&#1110; &#1074;&#1080;&#1082;&#1086;&#1088;&#1080;&#1089;&#1090;&#1072;&#1085;&#1086; &#1084;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1080; &#1079; &#1082;&#1085;&#1080;&#1075;&#1080; &#1040;&#1085;&#1076;&#1088;&#1110;&#1103; &#1041;&#1091;&#1076;&#1072;&#1103; &#171;&#1044;&#1080;&#1079;&#1072;&#1081;&#1085; &#1087;&#1072;&#1090;&#1077;&#1088;&#1085;&#1080; &#8211; &#1087;&#1088;&#1086;&#1089;&#1090;&#1086;, &#1103;&#1082; &#1076;&#1074;&#1077;&#1088;&#1110;&#187;
     </p>
     <p>
       &quot;&#1044;&#1080;&#1079;&#1072;&#1081;&#1085; &#1087;&#1072;&#1090;&#1077;&#1088;&#1085;&#1080; - &#1087;&#1088;&#1086;&#1089;&#1090;&#1086;, &#1103;&#1082; &#1076;&#1074;&#1077;&#1088;&#1110;&quot; by Andriy Buday is licensed under a Creative Commons Attribution-
@@ -39,6 +18,27 @@
   </body>
 </html>
 </richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="19"/>
+<node CREATED="1329301325503" ID="ID_457981236" MODIFIED="1329301332288" POSITION="left" TEXT="Books">
+<node CREATED="1329301332980" ID="ID_1406963955" LINK="http://designpatterns.andriybuday.com/" MODIFIED="1331209093748" TEXT="Andriy Buday ukr"/>
+</node>
+<node CREATED="1329301395411" ID="ID_480832661" MODIFIED="1342428965438" POSITION="right" TEXT="simple">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1342428968647" ID="ID_1411164892" MODIFIED="1342440290265" TEXT="Mediator">
+<font BOLD="true" NAME="SansSerif" SIZE="19"/>
+<node CREATED="1342429100745" ID="ID_148538262" MODIFIED="1342441689482" TEXT="AB">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1342429073605" ID="ID_1555864817" MODIFIED="1342441645739">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#1052;&#1077;&#1076;&#1110;&#1072;&#1090;&#1086;&#1088;</b>&#160;&#1094;&#1077;&#1085;&#1090;&#1088;&#1072;&#1083;&#1110;&#1079;&#1091;&#1108; &#1074;&#1079;&#1072;&#1108;&#1084;&#1086;&#1076;&#1110;&#1102; &#1084;&#1110;&#1078; &#1082;&#1086;&#1084;&#1087;&#1086;&#1085;&#1077;&#1085;&#1090;&#1072;&#1084;&#1080;, &#1090;&#1072;&#1082;&#1080;&#1084; &#1095;&#1080;&#1085;&#1086;&#1084; &#1087;&#1086;&#1089;&#1083;&#1072;&#1073;&#1083;&#1102;&#1102;&#1095;&#1080; &#1111;&#1093;&#1085;&#1102; &#1079;&#1074;&#8217;&#1103;&#1079;&#1085;&#1110;&#1089;&#1090;&#1100;&#160;
+    </p>
+  </body>
+</html></richcontent>
 </node>
 <node CREATED="1342429221347" ID="ID_1032736344" MODIFIED="1342440305270">
 <richcontent TYPE="NODE"><html>
@@ -58,7 +58,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1342440273397" FOLDED="true" ID="ID_693255949" MODIFIED="1342440310553" TEXT="UML">
+<node CREATED="1342440273397" FOLDED="true" ID="ID_693255949" MODIFIED="1342441765730" TEXT="UML">
 <node CREATED="1342440194844" ID="ID_1696158406" MODIFIED="1342440270221">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -69,6 +69,12 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1342441550272" FOLDED="true" ID="ID_680080899" MODIFIED="1342441768528" TEXT="files">
+<node CREATED="1342441614128" ID="ID_1202739919" LINK="srcEx/patterns/mediator/Brain.cs" MODIFIED="1342441623795" TEXT="Brain.cs"/>
+<node CREATED="1342441554683" ID="ID_231031158" LINK="srcEx/patterns/mediator/BodyPart.cs" MODIFIED="1342441584468" TEXT="BodyPart.cs"/>
+<node CREATED="1342441585779" ID="ID_85280623" LINK="srcEx/patterns/mediator/Face.cs" MODIFIED="1342441598220" TEXT="Face.cs"/>
+<node CREATED="1342441599567" ID="ID_1505193738" LINK="srcEx/patterns/mediator/Ear.cs" MODIFIED="1342441612674" TEXT="Ear.cs"/>
 </node>
 </node>
 </node>
