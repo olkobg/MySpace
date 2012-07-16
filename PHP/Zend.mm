@@ -220,7 +220,7 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1313080927877" ID="ID_700611761" MODIFIED="1313081061437" TEXT="Zen_Layout">
-<node CREATED="1313081061405" FOLDED="true" ID="ID_693509375" MODIFIED="1324466593970">
+<node CREATED="1313081061405" ID="ID_693509375" MODIFIED="1341412877441">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -695,7 +695,32 @@
 </node>
 <node COLOR="#0033ff" CREATED="1301052203452" ID="ID_1591694322" MODIFIED="1301052208867" TEXT="delete()"/>
 </node>
-<node COLOR="#0033ff" CREATED="1301062172213" ID="ID_256401318" LINK="http://framework.zend.com/manual/en/zend.db.table.row.html" MODIFIED="1302188371104" TEXT="Zend_Db_Table_Row"/>
+<node COLOR="#0033ff" CREATED="1301062172213" FOLDED="true" ID="ID_256401318" LINK="http://framework.zend.com/manual/en/zend.db.table.row.html" MODIFIED="1341412971829" TEXT="Zend_Db_Table_Row">
+<node CREATED="1341412882472" FOLDED="true" ID="ID_1788039308" MODIFIED="1341412970481" TEXT="if varibale stored in session and it should be saved then we need to reassign table">
+<node COLOR="#0033ff" CREATED="1341412946502" ID="ID_512411541" MODIFIED="1341412967399">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $namespace = new Zend_Session_Namespace('signinData');
+    </p>
+    <p>
+      $user = $namespace-&gt;user;
+    </p>
+    <p>
+      $user-&gt;setTable(new App_Model_UserTable());
+    </p>
+    <p>
+      $user-&gt;save();
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1302188254712" ID="ID_1329982077" LINK="http://framework.zend.com/manual/en/zend.db.table.rowset.html" MODIFIED="1302188375150" TEXT="Zend_Db_Table_Rowset"/>
 </node>
 <node COLOR="#0033ff" CREATED="1302004498482" ID="ID_1276254130" LINK="http://framework.zend.com/manual/en/zend.db.select.html" MODIFIED="1316443163050" TEXT="Zend_Db_Select">
