@@ -16,8 +16,7 @@
       NonCommercial 3.0 Unported License ( http://creativecommons.org/licenses/by-nc/3.0/ ).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
 <node CREATED="1329301325503" ID="ID_457981236" MODIFIED="1329301332288" POSITION="left" TEXT="Books">
 <node CREATED="1329301332980" ID="ID_1406963955" LINK="http://designpatterns.andriybuday.com/" MODIFIED="1331209093748" TEXT="Andriy Buday ukr"/>
@@ -70,7 +69,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1342441550272" FOLDED="true" ID="ID_680080899" MODIFIED="1342441768528" TEXT="files">
+<node CREATED="1342441550272" FOLDED="true" ID="ID_680080899" MODIFIED="1342510516803" TEXT="src">
 <node CREATED="1342441614128" ID="ID_1202739919" LINK="srcEx/patterns/mediator/Brain.cs" MODIFIED="1342441623795" TEXT="Brain.cs"/>
 <node CREATED="1342441554683" ID="ID_231031158" LINK="srcEx/patterns/mediator/BodyPart.cs" MODIFIED="1342441584468" TEXT="BodyPart.cs"/>
 <node CREATED="1342441585779" ID="ID_85280623" LINK="srcEx/patterns/mediator/Face.cs" MODIFIED="1342441598220" TEXT="Face.cs"/>
@@ -97,8 +96,7 @@
       <font color="#0000ff">Java I\O</font>&#160;- sample system which uses decorator pattern
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299240855354" ID="ID_312707385" MODIFIED="1299240863663" TEXT="Observer">
@@ -113,9 +111,12 @@
 <node CREATED="1299241582141" ID="ID_62221165" MODIFIED="1299241583368" TEXT="The Observer Pattern defines a one-to-many relationship between a set of objects. When the state of one object changes, all of its dependents are notified"/>
 </node>
 </node>
-<node CREATED="1342247587788" ID="ID_825421415" MODIFIED="1342247593496" TEXT="Fasade">
+<node CREATED="1342247587788" ID="ID_825421415" MODIFIED="1342510501585" TEXT="Fasade">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node COLOR="#0033ff" CREATED="1342247598340" ID="ID_496554065" LINK="srcEx/Patterns/Facade.cs" MODIFIED="1342384757895" TEXT="Andriy B."/>
+<node CREATED="1342510501476" ID="ID_535863443" MODIFIED="1342510505587" TEXT="AB">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1342510472445" ID="ID_1147128384" LINK="srcEx/Patterns/Facade.cs" MODIFIED="1342510497171" TEXT="src"/>
+</node>
 </node>
 </node>
 </node>
