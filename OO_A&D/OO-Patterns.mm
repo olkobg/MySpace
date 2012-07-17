@@ -22,7 +22,7 @@
 <node CREATED="1329301325503" ID="ID_457981236" MODIFIED="1329301332288" POSITION="left" TEXT="Books">
 <node CREATED="1329301332980" ID="ID_1406963955" LINK="http://designpatterns.andriybuday.com/" MODIFIED="1331209093748" TEXT="Andriy Buday ukr"/>
 </node>
-<node CREATED="1329301395411" ID="ID_480832661" MODIFIED="1342428965438" POSITION="right" TEXT="simple">
+<node CREATED="1329301395411" ID="ID_480832661" MODIFIED="1329301415186" POSITION="right" TEXT="simple">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1342428968647" ID="ID_1411164892" MODIFIED="1342440290265" TEXT="Mediator">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
@@ -112,6 +112,10 @@
 <node CREATED="1299241580464" ID="ID_1742218650" MODIFIED="1299241581799" TEXT="inf">
 <node CREATED="1299241582141" ID="ID_62221165" MODIFIED="1299241583368" TEXT="The Observer Pattern defines a one-to-many relationship between a set of objects. When the state of one object changes, all of its dependents are notified"/>
 </node>
+</node>
+<node CREATED="1342247587788" ID="ID_825421415" MODIFIED="1342247593496" TEXT="Fasade">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node COLOR="#0033ff" CREATED="1342247598340" ID="ID_496554065" LINK="srcEx/Patterns/Facade.cs" MODIFIED="1342384757895" TEXT="Andriy B."/>
 </node>
 </node>
 </node>
