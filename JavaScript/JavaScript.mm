@@ -74,7 +74,7 @@
 <node CREATED="1290675501849" ID="ID_1768234672" MODIFIED="1290675539639" TEXT="by copying that method you can copy only simple data - String. Number and Boolean"/>
 </node>
 </node>
-<node CREATED="1310476115190" FOLDED="true" ID="ID_1977131392" MODIFIED="1328630224362" TEXT="get Unique values">
+<node CREATED="1310476115190" ID="ID_1977131392" MODIFIED="1342532892342" TEXT="get Unique values">
 <node COLOR="#0033ff" CREATED="1310476120894" ID="ID_1433835445" MODIFIED="1310476135700">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -106,6 +106,10 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1342533161076" ID="ID_492563830" LINK="http://www.hunlock.com/blogs/Mastering_Javascript_Arrays" MODIFIED="1342533168059" TEXT="link"/>
+</node>
+<node CREATED="1342533006438" ID="ID_501702371" MODIFIED="1342533009587" TEXT="Hash">
+<node CREATED="1342533010662" ID="ID_1480116367" LINK="http://www.mojavelinux.com/articles/javascript_hashes.html" MODIFIED="1342533016000" TEXT="link"/>
 </node>
 <node CREATED="1290774098972" ID="ID_1567708926" MODIFIED="1290774101170" TEXT="Number">
 <node CREATED="1290774102071" ID="ID_1693617417" MODIFIED="1290774104559" TEXT="Parse">
