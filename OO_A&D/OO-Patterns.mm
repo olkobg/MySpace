@@ -21,32 +21,130 @@
 <node CREATED="1329301325503" ID="ID_457981236" MODIFIED="1329301332288" POSITION="left" TEXT="Books">
 <node CREATED="1329301332980" ID="ID_1406963955" LINK="http://designpatterns.andriybuday.com/" MODIFIED="1331209093748" TEXT="Andriy Buday ukr"/>
 </node>
-<node CREATED="1329301395411" ID="ID_480832661" MODIFIED="1329301415186" POSITION="right" TEXT="simple">
+<node COLOR="#cc3300" CREATED="1342513636351" ID="ID_1775767416" MODIFIED="1342513682290" POSITION="right" TEXT="structure">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1342428968647" ID="ID_1411164892" MODIFIED="1342440290265" TEXT="Mediator">
-<font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node CREATED="1342429100745" ID="ID_148538262" MODIFIED="1342441689482" TEXT="AB">
+<node CREATED="1342247587788" ID="ID_825421415" MODIFIED="1342513028074" TEXT="Fasade">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1342510501476" FOLDED="true" ID="ID_535863443" MODIFIED="1342514229773" TEXT="AB">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1342429073605" ID="ID_1555864817" MODIFIED="1342441645739">
+<node CREATED="1342510472445" ID="ID_1147128384" LINK="srcEx/Patterns/Facade.cs" MODIFIED="1342510497171" TEXT="src"/>
+</node>
+</node>
+<node CREATED="1299503893471" ID="ID_1976574325" MODIFIED="1342513771224" TEXT="Decorator">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1299503927564" ID="ID_1719679507" MODIFIED="1299504221178" TEXT="used also name like wrapper"/>
+<node CREATED="1299504250029" ID="ID_951564054" MODIFIED="1342428995597" TEXT="decorator ads his own behavior either before or/and after delegating to the object it delecetas in order to do the rest of the job"/>
+<node CREATED="1299506781125" ID="ID_187348942" MODIFIED="1342429018655" TEXT="attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality."/>
+<node CREATED="1299506786458" ID="ID_226841596" MODIFIED="1342513943206">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>&#1052;&#1077;&#1076;&#1110;&#1072;&#1090;&#1086;&#1088;</b>&#160;&#1094;&#1077;&#1085;&#1090;&#1088;&#1072;&#1083;&#1110;&#1079;&#1091;&#1108; &#1074;&#1079;&#1072;&#1108;&#1084;&#1086;&#1076;&#1110;&#1102; &#1084;&#1110;&#1078; &#1082;&#1086;&#1084;&#1087;&#1086;&#1085;&#1077;&#1085;&#1090;&#1072;&#1084;&#1080;, &#1090;&#1072;&#1082;&#1080;&#1084; &#1095;&#1080;&#1085;&#1086;&#1084; &#1087;&#1086;&#1089;&#1083;&#1072;&#1073;&#1083;&#1102;&#1102;&#1095;&#1080; &#1111;&#1093;&#1085;&#1102; &#1079;&#1074;&#8217;&#1103;&#1079;&#1085;&#1110;&#1089;&#1090;&#1100;&#160;
+      <b><font color="#0000ff">Java I\O</font></b>&#160;- sample system which uses decorator pattern
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1342429221347" ID="ID_1032736344" MODIFIED="1342440305270">
+</node>
+</node>
+<node COLOR="#cc3300" CREATED="1342513684343" ID="ID_207801412" MODIFIED="1342513787825" POSITION="right" TEXT="generating">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1342513802343" ID="ID_34491071" MODIFIED="1342513815164" TEXT="Singletone">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1342513869013" FOLDED="true" ID="ID_629524451" MODIFIED="1342515299485" TEXT="AB">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1342513872979" ID="ID_382454178" MODIFIED="1342513893304">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>&#1052;&#1077;&#1076;&#1110;&#1072;&#1090;&#1086;&#1088;</b>. &#1055;&#1088;&#1080;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1103;. &#1042;&#1080;&#1079;&#1085;&#1072;&#1095;&#1072;&#1108; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;, &#1097;&#1086; &#1110;&#1085;&#1082;&#1072;&#1087;&#1089;&#1091;&#1083;&#1102;&#1108; &#1074;&#1079;&#1072;&#1108;&#1084;&#1086;&#1076;&#1110;&#1102; &#1084;&#1110;&#1078; &#1084;&#1085;&#1086;&#1078;&#1080;&#1085;&#1086;&#1102; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1110;&#1074;. &#1052;&#1077;&#1076;&#1110;&#1072;&#1090;&#1086;&#1088;
+      <b><font color="#0040ff">&#1057;&#1080;&#1085;&#1075;&#1083;&#1090;&#1086;&#1085;</font></b>&#160; &#1079;&#1072;&#1073;&#1077;&#1079;&#1087;&#1077;&#1095;&#1091;&#1108; &#1110;&#1089;&#1085;&#1091;&#1074;&#1072;&#1085;&#1085;&#1103; &#1108;&#1076;&#1080;&#1085;&#1086;&#1075;&#1086; &#1077;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1091; &#1082;&#1083;&#1072;&#1089;&#1091; &#1090;&#1072; &#1108;&#1076;&#1080;&#1085;&#1086;&#1075;&#1086; &#1076;&#1086;&#1089;&#1090;&#1091;&#1087;&#1091; &#1076;&#1086; &#1085;&#1100;&#1086;&#1075;&#1086;.19&#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1342514183492" ID="ID_909870278" MODIFIED="1342514217089">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#1063;&#1110;&#1090;&#1082;&#1110; &#1086;&#1079;&#1085;&#1072;&#1082;&#1080; <b><font color="#0012ff">C&#1080;&#1085;&#1075;&#1083;&#1090;&#1086;&#1085;&#1072;</font></b>&#160; &#8211; &#1087;&#1088;&#1080;&#1074;&#1072;&#1090;&#1085;&#1080;&#1081; &#1082;&#1086;&#1085;&#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1086;&#1088; &#1090;&#1072; &#1076;&#1086;&#1089;&#1090;&#1091;&#1087; &#1076;&#1086; &#1108;&#1076;&#1080;&#1085;&#1086;&#1075;&#1086;, &#1074;&#1085;&#1091;&#1090;&#1088;&#1110;&#1096;&#1085;&#1100;&#1086; &#1089;&#1090;&#1074;&#1086;&#1088;&#1077;&#1085;&#1086;&#1075;&#1086; &#1077;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1091;, &#1079;&#1076;&#1110;&#1081;&#1089;&#1085;&#1102;&#1074;&#1072;&#1085;&#1080;&#1081; &#1095;&#1077;&#1088;&#1077;&#1079; &#1089;&#1090;&#1072;&#1090;&#1080;&#1095;&#1085;&#1080;&#1081; &#1084;&#1077;&#1090;&#1086;&#1076;.&#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1342514892428" ID="ID_1395141393" LINK="http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html " MODIFIED="1342515278630" TEXT="article"/>
+<node CREATED="1342515247659" ID="ID_366852413" LINK="http://www.javaworld.com/javaworld/jw-05-2001/jw-0525-double.html " MODIFIED="1342515287583" TEXT="article">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1342514237361" FOLDED="true" ID="ID_340969712" MODIFIED="1342515290893" TEXT="src">
+<node CREATED="1342514262908" ID="ID_8330643" LINK="srcEx/patterns/singleton/LoggerSingleton.cs" MODIFIED="1342514945795" TEXT="LoggerSingleton.cs"/>
+<node CREATED="1342514946975" ID="ID_1755487561" LINK="srcEx/patterns/singleton/ThreadSafeLoggerSingleton.cs" MODIFIED="1342515142201" TEXT="ThreadSafeLoggerSingleton.cs"/>
+<node CREATED="1342514947634" ID="ID_219458533" LINK="srcEx/patterns/singleton/DoHardWork.cs" MODIFIED="1342515153746" TEXT="DoHardWork.cs"/>
+<node CREATED="1342515121768" ID="ID_1673205142" LINK="srcEx/patterns/singleton/HardProcessor.cs" MODIFIED="1342515162527" TEXT="HardProcessor.cs"/>
+</node>
+</node>
+</node>
+<node CREATED="1342514692388" ID="ID_1006997864" MODIFIED="1342514703014" TEXT="Monostate">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1342514704008" FOLDED="true" ID="ID_1126079824" MODIFIED="1342515313071" TEXT="AB">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1342514733680" ID="ID_613100685" MODIFIED="1342514825573">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#1042; <b><font color="#0006ff">&#1052;&#1086;&#1085;&#1086;&#1089;&#1090;&#1077;&#1081;&#1090;&#1110;</font></b>&#160; &#1074;&#1089;&#1110; &#1079;&#1084;&#1110;&#1085;&#1085;&#1110; &#1108; &#1089;&#1090;&#1072;&#1090;&#1080;&#1095;&#1085;&#1080;&#1084;&#1080;, &#1086;&#1090;&#1078;&#1077;,
+    </p>
+    <p>
+      &#1090;&#1077;&#1086;&#1088;&#1077;&#1090;&#1080;&#1095;&#1085;&#1086;, &#1074;&#1080; &#1084;&#1086;&#1078;&#1077;&#1090;&#1077; &#1084;&#1072;&#1090;&#1080; &#1073;&#1072;&#1075;&#1072;&#1090;&#1086; &#1110;&#1085;&#1089;&#1090;&#1072;&#1085;&#1089;&#1110;&#1074; <b><font color="#0006ff">&#1052;&#1086;&#1085;&#1086;&#1089;&#1090;&#1077;&#1081;&#1090;&#1091;</font></b>, &#1072;&#1083;&#1077; &#1078; &#1089;&#1090;&#1072;&#1090;&#1080;&#1095;&#1085;&#1110; &#1076;&#1072;&#1085;&#1110;
+    </p>
+    <p>
+      &#1086;&#1076;&#1085;&#1110; &#1110; &#1090;&#1110; &#1078; &#1076;&#1083;&#1103; &#1086;&#1076;&#1085;&#1086;&#1075;&#1086; &#1110; &#1090;&#1086;&#1075;&#1086; &#1078; &#1090;&#1080;&#1087;&#1091;. &#1058;&#1072;&#1082;&#1080;&#1084; &#1095;&#1080;&#1085;&#1086;&#1084; &#1094;&#1077; &#1076;&#1086;&#1087;&#1086;&#1084;&#1072;&#1075;&#1072;&#1108; &#1090;&#1072;&#1082;&#1086;&#1078; &#1074;&#1080;&#1088;&#1110;&#1096;&#1080;&#1090;&#1080;
+    </p>
+    <p>
+      &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084;&#1080; &#1073;&#1072;&#1075;&#1072;&#1090;&#1086;&#1087;&#1086;&#1090;&#1086;&#1095;&#1085;&#1086;&#1089;&#1090;&#1110;.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#cc3300" CREATED="1342513667592" ID="ID_1842800209" MODIFIED="1342513681054" POSITION="left" TEXT="behavior">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1342428968647" ID="ID_1411164892" MODIFIED="1342513746188" TEXT="Mediator">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1342429100745" FOLDED="true" ID="ID_148538262" MODIFIED="1342514257805" TEXT="AB">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1342429073605" ID="ID_1555864817" MODIFIED="1342513932628">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0300ff">&#1052;&#1077;&#1076;&#1110;&#1072;&#1090;&#1086;&#1088;</font></b>&#160;&#1094;&#1077;&#1085;&#1090;&#1088;&#1072;&#1083;&#1110;&#1079;&#1091;&#1108; &#1074;&#1079;&#1072;&#1108;&#1084;&#1086;&#1076;&#1110;&#1102; &#1084;&#1110;&#1078; &#1082;&#1086;&#1084;&#1087;&#1086;&#1085;&#1077;&#1085;&#1090;&#1072;&#1084;&#1080;, &#1090;&#1072;&#1082;&#1080;&#1084; &#1095;&#1080;&#1085;&#1086;&#1084; &#1087;&#1086;&#1089;&#1083;&#1072;&#1073;&#1083;&#1102;&#1102;&#1095;&#1080; &#1111;&#1093;&#1085;&#1102; &#1079;&#1074;&#8217;&#1103;&#1079;&#1085;&#1110;&#1089;&#1090;&#1100;&#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1342429221347" ID="ID_1032736344" MODIFIED="1342513914714">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">&#1052;&#1077;&#1076;&#1110;&#1072;&#1090;&#1086;&#1088;</font></b>. &#1055;&#1088;&#1080;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1103;. &#1042;&#1080;&#1079;&#1085;&#1072;&#1095;&#1072;&#1108; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;, &#1097;&#1086; &#1110;&#1085;&#1082;&#1072;&#1087;&#1089;&#1091;&#1083;&#1102;&#1108; &#1074;&#1079;&#1072;&#1108;&#1084;&#1086;&#1076;&#1110;&#1102; &#1084;&#1110;&#1078; &#1084;&#1085;&#1086;&#1078;&#1080;&#1085;&#1086;&#1102; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1110;&#1074;. &#1052;&#1077;&#1076;&#1110;&#1072;&#1090;&#1086;&#1088;
     </p>
     <p>
       &#1087;&#1086;&#1082;&#1088;&#1072;&#1094;&#1102;&#1108; &#1089;&#1083;&#1072;&#1073;&#1082;&#1086;&#1079;&#1074;&#8217;&#1103;&#1079;&#1085;&#1110;&#1089;&#1090;&#1100; &#1096;&#1083;&#1103;&#1093;&#1086;&#1084; &#1091;&#1090;&#1088;&#1080;&#1084;&#1072;&#1085;&#1085;&#1103; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1110;&#1074; &#1074;&#1110;&#1076; &#1087;&#1088;&#1103;&#1084;&#1080;&#1093; &#1087;&#1086;&#1089;&#1080;&#1083;&#1072;&#1085;&#1100; &#1086;&#1076;&#1080;&#1085; &#1085;&#1072; &#1086;&#1076;&#1085;&#1086;&#1075;&#1086;, &#1072; &#1090;&#1072;&#1082;&#1086;&#1078; &#1076;&#1086;&#1079;&#1074;&#1086;&#1083;&#1103;&#1108;
@@ -57,7 +155,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1342440273397" FOLDED="true" ID="ID_693255949" MODIFIED="1342441765730" TEXT="UML">
+<node CREATED="1342440273397" FOLDED="true" ID="ID_693255949" MODIFIED="1342514255269" TEXT="UML">
 <node CREATED="1342440194844" ID="ID_1696158406" MODIFIED="1342440270221">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -69,7 +167,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1342441550272" FOLDED="true" ID="ID_680080899" MODIFIED="1342510516803" TEXT="src">
+<node CREATED="1342441550272" FOLDED="true" ID="ID_680080899" MODIFIED="1342514254356" TEXT="src">
 <node CREATED="1342441614128" ID="ID_1202739919" LINK="srcEx/patterns/mediator/Brain.cs" MODIFIED="1342441623795" TEXT="Brain.cs"/>
 <node CREATED="1342441554683" ID="ID_231031158" LINK="srcEx/patterns/mediator/BodyPart.cs" MODIFIED="1342441584468" TEXT="BodyPart.cs"/>
 <node CREATED="1342441585779" ID="ID_85280623" LINK="srcEx/patterns/mediator/Face.cs" MODIFIED="1342441598220" TEXT="Face.cs"/>
@@ -77,46 +175,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1299228804199" ID="ID_629420039" MODIFIED="1299228811450" TEXT="Strategy">
-<font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node CREATED="1299236502636" ID="ID_1936594982" MODIFIED="1299237055844" TEXT="defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it."/>
-</node>
-<node CREATED="1299503893471" ID="ID_1976574325" MODIFIED="1299503925220" TEXT="Decorator">
-<font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node CREATED="1299503927564" ID="ID_1719679507" MODIFIED="1299504221178" TEXT="used also name like wrapper"/>
-<node CREATED="1299504250029" ID="ID_951564054" MODIFIED="1342428995597" TEXT="decorator ads his own behavior either before or/and after delegating to the object it delecetas in order to do the rest of the job"/>
-<node CREATED="1299506781125" ID="ID_187348942" MODIFIED="1342429018655" TEXT="attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality."/>
-<node CREATED="1299506786458" ID="ID_226841596" MODIFIED="1342429063887">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">Java I\O</font>&#160;- sample system which uses decorator pattern
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1299240855354" ID="ID_312707385" MODIFIED="1299240863663" TEXT="Observer">
-<font BOLD="true" NAME="SansSerif" SIZE="18"/>
+<node CREATED="1299240855354" ID="ID_312707385" MODIFIED="1342513759281" TEXT="Observer">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299240863883" ID="ID_5375177" MODIFIED="1299241063089" TEXT="=">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1299240870990" ID="ID_977310938" MODIFIED="1299241054705" TEXT="Publishers + Subscribers">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 </node>
 </node>
-<node CREATED="1299241580464" ID="ID_1742218650" MODIFIED="1299241581799" TEXT="inf">
 <node CREATED="1299241582141" ID="ID_62221165" MODIFIED="1299241583368" TEXT="The Observer Pattern defines a one-to-many relationship between a set of objects. When the state of one object changes, all of its dependents are notified"/>
 </node>
-</node>
-<node CREATED="1342247587788" ID="ID_825421415" MODIFIED="1342510501585" TEXT="Fasade">
-<font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1342510501476" ID="ID_535863443" MODIFIED="1342510505587" TEXT="AB">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1342510472445" ID="ID_1147128384" LINK="srcEx/Patterns/Facade.cs" MODIFIED="1342510497171" TEXT="src"/>
-</node>
+<node CREATED="1299228804199" ID="ID_629420039" MODIFIED="1342513782438" TEXT="Strategy">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1299236502636" ID="ID_1936594982" MODIFIED="1299237055844" TEXT="defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it."/>
 </node>
 </node>
 </node>
