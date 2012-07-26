@@ -15,5 +15,8 @@
 <node CREATED="1316179419577" ID="ID_1408461364" MODIFIED="1316179422056" TEXT="Control"/>
 </node>
 </node>
+<node CREATED="1343289776094" ID="ID_1441127359" MODIFIED="1343289778140" POSITION="left" TEXT="NFS">
+<node CREATED="1343289833275" ID="ID_1038036597" LINK="http://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" MODIFIED="1343289839791" TEXT="article"/>
+</node>
 </node>
 </map>
