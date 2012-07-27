@@ -1,6 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1316179371118" TEXT="MacOS">
+<node CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1343378780192" TEXT="MacOS">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1316179374343" ID="ID_1570912865" MODIFIED="1316179382789" POSITION="right" TEXT="keyboard compatibility">
 <node CREATED="1316179383238" ID="ID_1611495993" MODIFIED="1316179388588" TEXT="Windows">
 <node CREATED="1316179388829" ID="ID_1034038969" MODIFIED="1316179398851" TEXT="Command"/>

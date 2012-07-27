@@ -363,7 +363,8 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1343378589448" FOLDED="true" ID="ID_1358289910" MODIFIED="1343378618193" TEXT="uml">
+</node>
+<node CREATED="1343378589448" FOLDED="true" ID="ID_1358289910" MODIFIED="1343378762092" TEXT="uml">
 <node CREATED="1343378596825" ID="ID_1335148297" MODIFIED="1343378616320">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -372,9 +373,7 @@
   <body>
     <img src="images/patterns/Bridge_AB.png" />
   </body>
-</html>
-</richcontent>
-</node>
+</html></richcontent>
 </node>
 </node>
 </node>
