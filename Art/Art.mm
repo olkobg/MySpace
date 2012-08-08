@@ -6,6 +6,12 @@
 <node CREATED="1304581287284" ID="ID_1082414805" MODIFIED="1304583573866" POSITION="right" TEXT="color themes">
 <node CREATED="1304581299458" ID="ID_656059187" LINK="http://kuler.adobe.com/" MODIFIED="1333616406145" TEXT="adobe kuler"/>
 </node>
+<node CREATED="1344415659898" ID="ID_48580085" MODIFIED="1344415679854" POSITION="right" TEXT="lcd monitor calibration">
+<node CREATED="1344415682275" ID="ID_1782159853" LINK="http://www.lagom.nl/lcd-test" MODIFIED="1344415686817" TEXT="ste"/>
+<node CREATED="1344416458194" ID="ID_55017240" LINK="http://www.lagom.nl/lcd-test" MODIFIED="1344416475913" TEXT="hugsky"/>
+<node CREATED="1344416692348" ID="ID_656755670" LINK="http://jcornuz.wordpress.com/category/tutorials/" MODIFIED="1344416699004" TEXT="site2"/>
+<node CREATED="1344416730361" ID="ID_1852260576" MODIFIED="1344416736402" TEXT="cups-calibrate"/>
+</node>
 <node CREATED="1333616200356" ID="ID_1885882506" MODIFIED="1333616265720" POSITION="left" TEXT="Guitar">
 <node CREATED="1333616208711" ID="ID_865858686" MODIFIED="1333616266459" TEXT="tuning">
 <node CREATED="1333616228984" ID="ID_378546273" MODIFIED="1333616255612">
@@ -115,8 +121,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
