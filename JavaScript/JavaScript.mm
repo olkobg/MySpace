@@ -38,17 +38,18 @@
 </node>
 <node CREATED="1288878841397" ID="ID_1732712561" MODIFIED="1290779781676" POSITION="left" TEXT="Types">
 <node CREATED="1288878845078" ID="ID_1393940341" MODIFIED="1288878931652" TEXT="Arrays">
-<node CREATED="1290675371398" ID="ID_1109876137" MODIFIED="1290675374529" TEXT="remove">
-<node CREATED="1288878848090" ID="ID_1345719493" MODIFIED="1290675377730" TEXT="remove(integer indices)">
+<node CREATED="1290675371398" ID="ID_1109876137" MODIFIED="1346928131190" TEXT="remove">
+<node CREATED="1288878848090" FOLDED="true" ID="ID_1345719493" MODIFIED="1346928132490" TEXT="remove(integer indices)">
 <node COLOR="#0033ff" CREATED="1288878887152" ID="ID_66984295" MODIFIED="1307120301458" TEXT="array.splice(i,i)"/>
 </node>
-<node CREATED="1288878876243" ID="ID_34669562" MODIFIED="1295350345387" TEXT="remove(other indices)">
+<node CREATED="1288878876243" FOLDED="true" ID="ID_34669562" MODIFIED="1346928132910" TEXT="remove(other indices)">
 <node COLOR="#0033ff" CREATED="1288878903184" ID="ID_1708611684" MODIFIED="1307120302930" TEXT="delete array[&apos;text&apos;]"/>
 </node>
 </node>
-<node CREATED="1290675380409" ID="ID_362734002" MODIFIED="1290675541153" TEXT="clone/copy">
-<node CREATED="1290675384257" ID="ID_249125579" MODIFIED="1307120243255" TEXT="Array.slice(0)">
-<node COLOR="#0033ff" CREATED="1290675444181" ID="ID_250813042" MODIFIED="1307120304777">
+<node CREATED="1290675380409" ID="ID_362734002" MODIFIED="1346928134107" TEXT="clone/copy">
+<node CREATED="1290675384257" FOLDED="true" ID="ID_249125579" MODIFIED="1346928159445" TEXT="Array.slice(0)">
+<node CREATED="1290675501849" ID="ID_1768234672" MODIFIED="1346928151272" TEXT="by copying that method you can copy only simple data - String. Number and Boolean"/>
+<node COLOR="#0033ff" CREATED="1290675444181" ID="ID_250813042" MODIFIED="1346928153272">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -70,11 +71,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1290675541139" ID="ID_473820005" MODIFIED="1295350293275" TEXT="//desc ">
-<node CREATED="1290675501849" ID="ID_1768234672" MODIFIED="1290675539639" TEXT="by copying that method you can copy only simple data - String. Number and Boolean"/>
 </node>
-</node>
-<node CREATED="1310476115190" ID="ID_1977131392" MODIFIED="1342532892342" TEXT="get Unique values">
+<node CREATED="1310476115190" FOLDED="true" ID="ID_1977131392" MODIFIED="1346928129796" TEXT="get Unique values">
 <node COLOR="#0033ff" CREATED="1310476120894" ID="ID_1433835445" MODIFIED="1310476135700">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -112,7 +110,7 @@
 <node CREATED="1342533010662" ID="ID_1480116367" LINK="http://www.mojavelinux.com/articles/javascript_hashes.html" MODIFIED="1342533016000" TEXT="link"/>
 </node>
 <node CREATED="1290774098972" ID="ID_1567708926" MODIFIED="1290774101170" TEXT="Number">
-<node CREATED="1290774102071" ID="ID_1693617417" MODIFIED="1290774104559" TEXT="Parse">
+<node CREATED="1290774102071" FOLDED="true" ID="ID_1693617417" MODIFIED="1346928126257" TEXT="Parse">
 <node COLOR="#0033ff" CREATED="1290774104835" ID="ID_439384427" MODIFIED="1307120236682" TEXT="parseInt"/>
 <node COLOR="#0033ff" CREATED="1290774107815" ID="ID_140560400" MODIFIED="1307120236675">
 <richcontent TYPE="NODE"><html>
@@ -127,7 +125,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1307120187689" ID="ID_1712246304" MODIFIED="1307120233403" TEXT="is_number">
+<node CREATED="1307120187689" FOLDED="true" ID="ID_1712246304" MODIFIED="1346928121118" TEXT="is_number">
 <node COLOR="#0033ff" CREATED="1307120203127" ID="ID_1818264388" MODIFIED="1307120308577">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -301,7 +299,7 @@
 </node>
 </node>
 <node CREATED="1295345675290" ID="ID_593110569" MODIFIED="1295345683964" TEXT="flow controll">
-<node COLOR="#0033ff" CREATED="1295345687611" ID="ID_1514880238" MODIFIED="1328630158067" TEXT="switch">
+<node COLOR="#0033ff" CREATED="1295345687611" FOLDED="true" ID="ID_1514880238" MODIFIED="1346928115856" TEXT="switch">
 <node COLOR="#0033ff" CREATED="1295345693386" ID="ID_996238654" MODIFIED="1328630132614">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -343,6 +341,36 @@
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1290675458896" ID="ID_619064926" MODIFIED="1307434943484" TEXT="RegExp">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
+<node CREATED="1346928174904" FOLDED="true" ID="ID_1837989404" MODIFIED="1346930324894" TEXT="validate email">
+<node COLOR="#0033ff" CREATED="1346928182077" ID="ID_1210306501" MODIFIED="1346930321217">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function validateEmail(email) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var re = /^(([^&lt;&gt;()[\]\\.,;:\s@\&quot;]+(\.[^&lt;&gt;()[\]\\.,;:\s@\&quot;]+)*)|(\
+    </p>
+    <p>
+      &quot;.+\&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA
+    </p>
+    <p>
+      -Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return re.test(email);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1307434937756" ID="ID_1495479919" MODIFIED="1307434947907" TEXT="window">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
