@@ -30,53 +30,57 @@
 <node CREATED="1299236856920" ID="ID_1807425320" MODIFIED="1299242965187" TEXT=" Strive for loosely coupled designs between objects that interact"/>
 <node CREATED="1283930953234" ID="ID_1778766102" MODIFIED="1299498701235" TEXT="Common">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283930974984" ID="ID_1595037506" MODIFIED="1299240999287">
+<node CREATED="1299240942928" ID="ID_1565221215" MODIFIED="1348135628863">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>DIP</b>&#160;(Depency inversion principle)
+      <b>SRP&#160; </b>&#160;(Single responsibility principle)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1283930987468" ID="ID_470383395" MODIFIED="1299241003193">
+<node CREATED="1283930987468" ID="ID_470383395" MODIFIED="1348135632613">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>OCP</b>&#160;(Open - closed principle)
+      <font size="3"><b>OCP</b></font>&#160;&#160;(Open - closed principle)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1283931003859" ID="ID_439271811" MODIFIED="1299241009643">
+<node CREATED="1283930974984" ID="ID_1595037506" MODIFIED="1348135636218">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>LSP</b>&#160;(Liskov substituion pronciple)
+      <b>DIP</b>&#160;&#160;(Depency inversion principle)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1299240942928" ID="ID_1565221215" MODIFIED="1299241013621">
+<node CREATED="1283931003859" ID="ID_439271811" MODIFIED="1348135632609">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>SRP</b>&#160;(Single responsibility principle)
+      <b>LSP</b>&#160;&#160; (Liskov substituion pronciple)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
