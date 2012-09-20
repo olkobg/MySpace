@@ -331,17 +331,13 @@
 <node COLOR="#0033ff" CREATED="1319659800487" ID="ID_1617789911" MODIFIED="1319659802910" TEXT="javascript.options.showInConsole preference"/>
 </node>
 </node>
-</node>
-<node CREATED="1332363660517" ID="ID_1848689012" MODIFIED="1332363664955" POSITION="left" TEXT="Packer">
-<node CREATED="1332363665611" ID="ID_1509332514" LINK="http://closure-compiler.appspot.com/home" MODIFIED="1332363677481" TEXT="googleClojure">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
+<node CREATED="1347050811751" ID="ID_613137926" MODIFIED="1347050821417" TEXT="redirect to another page"/>
 </node>
 <node COLOR="#338800" CREATED="1307434903922" ID="ID_410338370" MODIFIED="1328630321580" POSITION="right" TEXT="OBJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1290675458896" ID="ID_619064926" MODIFIED="1307434943484" TEXT="RegExp">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
-<node CREATED="1346928174904" FOLDED="true" ID="ID_1837989404" MODIFIED="1346930324894" TEXT="validate email">
+<node CREATED="1346928174904" FOLDED="true" ID="ID_1837989404" MODIFIED="1347052380442" TEXT="validate email">
 <node COLOR="#0033ff" CREATED="1346928182077" ID="ID_1210306501" MODIFIED="1346930321217">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -367,8 +363,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
