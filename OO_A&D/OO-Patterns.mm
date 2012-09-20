@@ -224,8 +224,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1299503893471" ID="ID_1976574325" MODIFIED="1344413054172" TEXT="Decorator (Wrapper)">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1299503893471" ID="ID_1976574325" MODIFIED="1348068800949" TEXT="Decorator (Wrapper)">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1342775473129" FOLDED="true" ID="ID_939888392" MODIFIED="1347557146170" TEXT="UB">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299504250029" ID="ID_951564054" MODIFIED="1347557135315">
@@ -428,13 +428,13 @@
 <node CREATED="1344332336609" ID="ID_331942207" MODIFIED="1344332338662" TEXT="puml"/>
 </node>
 </node>
-<node CREATED="1343123855619" ID="ID_953638788" MODIFIED="1344413058684" TEXT="NULL-Object">
+<node CREATED="1343123855619" ID="ID_953638788" MODIFIED="1348068806436" TEXT="NULL-Object">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1343123872281" ID="ID_833282739" MODIFIED="1343123875021" TEXT="UB">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1344413065386" ID="ID_526410140" MODIFIED="1344413071191" TEXT="Proxy">
+<node CREATED="1344413065386" ID="ID_526410140" MODIFIED="1348068808358" TEXT="Proxy">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1344413072513" FOLDED="true" ID="ID_1836047931" MODIFIED="1347557191907" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
@@ -579,8 +579,8 @@
 </node>
 <node COLOR="#cc3300" CREATED="1342513684343" ID="ID_207801412" MODIFIED="1342513787825" POSITION="right" TEXT="generating">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1342513802343" ID="ID_34491071" MODIFIED="1342791190209" TEXT="Singletone">
-<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1342513802343" ID="ID_34491071" MODIFIED="1348068812443" TEXT="Singletone">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1342513869013" FOLDED="true" ID="ID_629524451" MODIFIED="1347557195414" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -629,8 +629,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1342514692388" ID="ID_1006997864" MODIFIED="1347557198952" TEXT="Monostate">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1342514692388" ID="ID_1006997864" MODIFIED="1348068816073" TEXT="Monostate">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1342514704008" FOLDED="true" ID="ID_1126079824" MODIFIED="1347557199647" TEXT="AB">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1342514733680" ID="ID_613100685" MODIFIED="1342514825573">
@@ -656,7 +656,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1342598687205" ID="ID_133184957" MODIFIED="1342598698571" TEXT="Builder">
+<node CREATED="1342598687205" ID="ID_133184957" MODIFIED="1348068819849" TEXT="Builder">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1342598700127" FOLDED="true" ID="ID_339389179" MODIFIED="1347557208274" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
@@ -706,7 +706,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1347555928443" ID="ID_1702655498" MODIFIED="1347556791321" TEXT="Factory">
+<node CREATED="1347555928443" ID="ID_1702655498" MODIFIED="1348068822070" TEXT="Factory">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1347555969892" FOLDED="true" ID="ID_1778818300" MODIFIED="1347557209685" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
@@ -800,9 +800,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1348048876644" ID="ID_1247724204" MODIFIED="1348048882931" TEXT="Prototype">
+<node CREATED="1348048876644" ID="ID_1247724204" MODIFIED="1348068823543" TEXT="Prototype">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1348048884282" FOLDED="true" ID="ID_313983052" MODIFIED="1348050089275" TEXT="AB">
+<node CREATED="1348048884282" FOLDED="true" ID="ID_313983052" MODIFIED="1348054349916" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -839,8 +839,7 @@
       &#1076;&#1088;&#1091;&#1075;&#1086;&#1084;? &#1064;&#1074;&#1080;&#1076;&#1096;&#1077; &#1079;&#1072; &#1074;&#1089;&#1077; &#171;copy-paste&#187; &#1092;&#1091;&#1085;&#1082;&#1094;&#1110;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1110;&#1089;&#1090;&#1100;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1348048951140" ID="ID_1840634031" MODIFIED="1348050051010">
 <richcontent TYPE="NODE"><html>
@@ -867,8 +866,7 @@
       &#1087;&#1088;&#1086;&#1090;&#1086;&#1090;&#1080;&#1087;&#1110;&#1095;&#1085;&#1080;&#1084;&#1080; &#1077;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1072;&#1084;&#1080; (prototypical instances)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1348049044060" ID="ID_1697660906" MODIFIED="1348050060208">
 <richcontent TYPE="NODE"><html>
@@ -880,8 +878,7 @@
       <b><font color="#0033ff">&#1055;&#1088;&#1086;&#1090;&#1086;&#1090;&#1080;&#1087;</font></b><font color="#0033ff">.</font>&#160; &#1055;&#1088;&#1080;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1103;. &#1042;&#1080;&#1079;&#1085;&#1072;&#1095;&#1072;&#1108; &#1088;&#1110;&#1079;&#1085;&#1086;&#1074;&#1080;&#1076;&#1080; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1110;&#1074;, &#1097;&#1086;&#1073; &#1089;&#1090;&#1074;&#1086;&#1088;&#1080;&#1090;&#1080; &#1111;&#1093; &#1085;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1110; &#1087;&#1088;&#1086;&#1090;&#1086;&#1090;&#1080;&#1087;&#1110;&#1095;&#1085;&#1086;&#1075;&#1086; &#1077;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1091;, &#1110; &#1089;&#1090;&#1074;&#1086;&#1088;&#1102;&#1108; &#1085;&#1086;&#1074;&#1110; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1080; &#1082;&#1086;&#1087;&#1110;&#1102;&#1102;&#1095;&#1080; &#1094;&#1077;&#1081; &#1087;&#1088;&#1086;&#1090;&#1086;&#1090;&#1080;&#1087;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1348049484674" ID="ID_399467724" MODIFIED="1348050082722">
 <richcontent TYPE="NODE"><html>
@@ -908,8 +905,7 @@
       &#1095;&#1080;&#1085;&#1086;&#1084;, &#1086;&#1073;'&#1108;&#1082;&#1090;&#1080; &#1086;&#1090;&#1088;&#1080;&#1084;&#1072;&#1102;&#1090;&#1100; &#1088;&#1110;&#1079;&#1085;&#1110; &#1092;&#1110;&#1079;&#1080;&#1095;&#1085;&#1110; &#1072;&#1076;&#1088;&#1077;&#1089;&#1080; &#1091; &#1082;&#1091;&#1087;&#1110; (heap).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1348049777505" ID="ID_121090236" LINK="http://stackoverflow.com/questions/2156120/java-recommended-solution-for-deep-cloning-copying-an-instance" MODIFIED="1348049801231" TEXT="deep cloning advice for java by so"/>
 <node CREATED="1348049804354" ID="ID_463536519" MODIFIED="1348049806966" TEXT="src">
@@ -926,8 +922,7 @@
   <body>
     <img src="images/Prototype_AB_output.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -940,6 +935,86 @@
   <body>
     <img src="images/patterns/Prototype_AB.png" />
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1348131534143" ID="ID_502887058" MODIFIED="1348131550314" TEXT="AbstractFactory">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1348131541066" FOLDED="true" ID="ID_1715168944" MODIFIED="1348132511481" TEXT="AB">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#1059;&#1103;&#1074;&#1110;&#1084;&#1086;, &#1097;&#1086; &#1074;&#1080; &#1087;&#1088;&#1080;&#1081;&#1096;&#1083;&#1080; &#1074; &#1110;&#1075;&#1088;&#1072;&#1096;&#1082;&#1086;&#1074;&#1080;&#1081; &#1084;&#1072;&#1075;&#1072;&#1079;&#1080;&#1085; (&#1074;&#1110;&#1076;&#1110;&#1075;&#1088;&#1072;&#1102;&#1095;&#1080; &#1088;&#1086;&#1083;&#1100; &#1076;&#1110;&#1076;&#1072; &#1052;&#1086;&#1088;&#1086;&#1079;&#1072; 11 ) &#1110; &#1093;&#1086;&#1095;&#1077;&#1090;&#1077; &#1085;&#1072;&#1082;&#1091;&#1087;&#1080;&#1090;&#1080;
+    </p>
+    <p>
+      &#1110;&#1075;&#1088;&#1072;&#1096;&#1086;&#1082; &#1076;&#1110;&#1090;&#1103;&#1084; (&#1110; &#1085;&#1077; &#1086;&#1073;&#1086;&#1074;&#8217;&#1103;&#1079;&#1082;&#1086;&#1074;&#1086; &#1089;&#1074;&#1086;&#1111;&#1084;). &#1052;&#1072;&#1088;&#1090;&#1091;&#1089;&#1103; &#1083;&#1102;&#1073;&#1080;&#1090;&#1100; &#1087;&#1083;&#1102;&#1096;&#1077;&#1074;&#1110; &#1110;&#1075;&#1088;&#1072;&#1096;&#1082;&#1080;, &#1074;&#1086;&#1085;&#1072; &#1095;&#1072;&#1089;&#1090;&#1086; &#1110;&#1079; &#1085;&#1080;&#1084;&#1080; &#1083;&#1103;&#1075;&#1072;&#1108; &#1091;
+    </p>
+    <p>
+      &#1083;&#1110;&#1078;&#1082;&#1086; &#1089;&#1087;&#1072;&#1090;&#1080;. &#1040; &#1044;&#1084;&#1080;&#1090;&#1088;&#1080;&#1082; &#1089;&#1090;&#1088;&#1072;&#1096;&#1085;&#1080;&#1081; &#1088;&#1086;&#1079;&#1073;&#1080;&#1096;&#1072;&#1082;&#1072;, &#1083;&#1072;&#1084;&#1072;&#1108; &#1074;&#1089;&#1077; &#1085;&#1072; &#1089;&#1074;&#1110;&#1090;&#1110;, &#1088;&#1074;&#1077; &#1084;&#8217;&#1103;&#1082;&#1110; &#1110;&#1075;&#1088;&#1072;&#1096;&#1082;&#1080; &#1110;, &#1079;&#1072;&#1079;&#1074;&#1080;&#1095;&#1072;&#1081;, &#1074;&#1110;&#1076;&#1076;&#1072;&#1108;
+    </p>
+    <p>
+      &#1087;&#1077;&#1088;&#1077;&#1074;&#1072;&#1075;&#1091; &#1075;&#1088;&#1072;&#1090;&#1080;&#1089;&#1103; &#1110;&#1079; &#1090;&#1074;&#1077;&#1088;&#1076;&#1080;&#1084;&#1080;, &#1076;&#1077;&#1088;&#1077;&#1074;&#8217;&#1103;&#1085;&#1080;&#1084;&#1080; &#1110;&#1075;&#1088;&#1072;&#1096;&#1082;&#1072;&#1084;&#1080;.
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1348131598902" ID="ID_1280497380" MODIFIED="1348131666023">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff"><b>&#1040;&#1073;&#1089;&#1090;&#1088;&#1072;&#1082;&#1090;&#1085;&#1072; &#1092;&#1072;&#1073;&#1088;&#1080;&#1082;&#1072; </b></font>&#1085;&#1072;&#1076;&#1072;&#1108; &#1087;&#1088;&#1086;&#1089;&#1090;&#1080;&#1081; &#1110;&#1085;&#1090;&#1077;&#1088;&#1092;&#1077;&#1081;&#1089; &#1076;&#1083;&#1103; &#1089;&#1090;&#1074;&#1086;&#1088;&#1077;&#1085;&#1085;&#1103; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1110;&#1074;,
+    </p>
+    <p>
+      &#1103;&#1082;&#1110; &#1085;&#1072;&#1083;&#1077;&#1078;&#1072;&#1090;&#1100; &#1076;&#1086; &#1090;&#1086;&#1075;&#1086; &#1095;&#1080; &#1110;&#1085;&#1096;&#1086;&#1075;&#1086; &#1089;&#1110;&#1084;&#1077;&#1081;&#1089;&#1090;&#1074;&#1072;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1348131667273" ID="ID_846737002" MODIFIED="1348131733595">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff"><b>&#1040;&#1073;&#1089;&#1090;&#1088;&#1072;&#1082;&#1090;&#1085;&#1072; &#1092;&#1072;&#1073;&#1088;&#1080;&#1082;&#1072;.</b></font>&#160; &#1055;&#1088;&#1080;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1103;: &#1053;&#1072;&#1076;&#1072;&#1090;&#1080; &#1110;&#1085;&#1090;&#1077;&#1088;&#1092;&#1077;&#1081;&#1089; &#1076;&#1083;&#1103; &#1089;&#1090;&#1074;&#1086;&#1088;&#1077;&#1085;&#1085;&#1103; &#1089;&#1110;&#1084;&#1077;&#1081;&#1089;&#1090;&#1074; &#1089;&#1087;&#1086;&#1088;&#1110;&#1076;&#1085;&#1077;&#1085;&#1080;&#1093; &#1072;&#1073;&#1086; &#1079;&#1072;&#1083;&#1077;&#1078;&#1085;&#1080;&#1093; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1110;&#1074; &#1073;&#1077;&#1079; &#1079;&#1072;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1103; &#1111;&#1093;&#1085;&#1110;&#1093; &#1082;&#1086;&#1085;&#1082;&#1088;&#1077;&#1090;&#1085;&#1080;&#1093; &#1082;&#1083;&#1072;&#1089;&#1110;&#1074;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1348131734881" FOLDED="true" ID="ID_1649352192" MODIFIED="1348132509903" TEXT="src">
+<node CREATED="1348132023493" ID="ID_1792495686" LINK="srcEx/patterns/abstractFactory/IToyFactory.cs" MODIFIED="1348132402805" TEXT="IToyFactory.cs"/>
+<node CREATED="1348132029297" ID="ID_30619313" LINK="srcEx/patterns/abstractFactory/TeddyToysFactory.cs" MODIFIED="1348132409399" TEXT="TeddyToysFactory.cs"/>
+<node CREATED="1348132085453" ID="ID_1132484155" LINK="srcEx/patterns/abstractFactory/WoodenToysFactory.cs" MODIFIED="1348132423658" TEXT="WoodenToysFactory.cs"/>
+<node CREATED="1348132041361" ID="ID_456670277" LINK="srcEx/patterns/abstractFactory/Cat.cs" MODIFIED="1348132431366" TEXT="Cat.cs"/>
+<node CREATED="1348132044115" ID="ID_777636459" LINK="srcEx/patterns/abstractFactory/Bear.cs" MODIFIED="1348132436577" TEXT="Bear.cs"/>
+<node CREATED="1348132048734" ID="ID_209601561" LINK="srcEx/patterns/abstractFactory/WoodenCat.cs" MODIFIED="1348132443894" TEXT="WoodenCat.cs"/>
+<node CREATED="1348132055083" ID="ID_1686916799" LINK="srcEx/patterns/abstractFactory/TeddyCat.cs" MODIFIED="1348132451195" TEXT="TeddyCat.cs"/>
+<node CREATED="1348132060586" ID="ID_1454957369" LINK="srcEx/patterns/abstractFactory/WoodenBear.cs" MODIFIED="1348132456374" TEXT="WoodenBear.cs"/>
+<node CREATED="1348132069821" ID="ID_1746395862" LINK="srcEx/patterns/abstractFactory/TeddyBear.cs" MODIFIED="1348132462640" TEXT="TeddyBear.cs"/>
+<node CREATED="1348132094618" ID="ID_3202590" LINK="srcEx/patterns/abstractFactory/Demo1.cs" MODIFIED="1348132467521" TEXT="Demo1.cs"/>
+<node CREATED="1348132097429" ID="ID_659476598" LINK="srcEx/patterns/abstractFactory/Demo2.cs" MODIFIED="1348132475106" TEXT="Demo2.cs"/>
+</node>
+<node CREATED="1348132347328" FOLDED="true" ID="ID_1247353469" MODIFIED="1348132479503" TEXT="uml">
+<node CREATED="1348132349780" ID="ID_1788227026" MODIFIED="1348132371488">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="images/patterns/AbstractFactory_AB.png" />
+  </body>
 </html>
 </richcontent>
 </node>
@@ -949,8 +1024,8 @@
 </node>
 <node COLOR="#cc3300" CREATED="1342513667592" ID="ID_1842800209" MODIFIED="1342513681054" POSITION="left" TEXT="behavior">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1342428968647" ID="ID_1411164892" MODIFIED="1342599750172" TEXT="Mediator">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1342428968647" ID="ID_1411164892" MODIFIED="1348068842706" TEXT="Mediator">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1342429100745" FOLDED="true" ID="ID_148538262" MODIFIED="1347557113579" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1022,8 +1097,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1299228804199" ID="ID_629420039" MODIFIED="1342776053111" TEXT="Strategy">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1299228804199" ID="ID_629420039" MODIFIED="1348068840460" TEXT="Strategy">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1342776053096" FOLDED="true" ID="ID_1163034785" MODIFIED="1347557111167" TEXT="UB">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299236502636" ID="ID_1936594982" MODIFIED="1347557110247">
@@ -1138,7 +1213,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1342686189593" ID="ID_123176469" MODIFIED="1342686197376" TEXT="Template">
+<node CREATED="1342686189593" ID="ID_123176469" MODIFIED="1348068837398" TEXT="Template">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1342686198940" FOLDED="true" ID="ID_1426065254" MODIFIED="1347557028204" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
@@ -1211,7 +1286,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1344502832299" FOLDED="true" ID="ID_1341221200" MODIFIED="1347557025992" TEXT="Chain of Responsibility">
+<node CREATED="1344502832299" FOLDED="true" ID="ID_1341221200" MODIFIED="1348068835528" TEXT="Chain of Responsibility">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1344502845962" FOLDED="true" ID="ID_751071491" MODIFIED="1347557025122" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
@@ -1305,7 +1380,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1344934498676" ID="ID_1311061135" MODIFIED="1344934506425" TEXT="Command">
+<node CREATED="1344934498676" ID="ID_1311061135" MODIFIED="1348068833901" TEXT="Command">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1344934508423" FOLDED="true" ID="ID_510106816" MODIFIED="1347557006006" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
@@ -1388,7 +1463,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345020228308" ID="ID_1386720753" MODIFIED="1345020238374" TEXT="Iterator">
+<node CREATED="1345020228308" ID="ID_1386720753" MODIFIED="1348068832715" TEXT="Iterator">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1345020239552" FOLDED="true" ID="ID_1215855025" MODIFIED="1347557002028" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
@@ -1444,7 +1519,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1346748957941" ID="ID_1177521020" MODIFIED="1346750391925" TEXT="Memento">
+<node CREATED="1346748957941" ID="ID_1177521020" MODIFIED="1348068831383" TEXT="Memento">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1346748967371" FOLDED="true" ID="ID_1253415842" MODIFIED="1347556998210" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
@@ -1586,7 +1661,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1346836477886" ID="ID_470530303" MODIFIED="1346836496401" TEXT="Observer">
+<node CREATED="1346836477886" ID="ID_470530303" MODIFIED="1348068829121" TEXT="Observer">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1346836496993" FOLDED="true" ID="ID_461500787" MODIFIED="1347556975310" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
