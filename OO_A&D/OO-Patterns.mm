@@ -1286,7 +1286,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1344502832299" FOLDED="true" ID="ID_1341221200" MODIFIED="1348068835528" TEXT="Chain of Responsibility">
+<node CREATED="1344502832299" ID="ID_1341221200" MODIFIED="1348132910149" TEXT="Chain of Responsibility">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1344502845962" FOLDED="true" ID="ID_751071491" MODIFIED="1347557025122" TEXT="AB">
 <richcontent TYPE="NOTE"><html>
