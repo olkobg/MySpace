@@ -1,4 +1,4 @@
-class DocumentComponent : IDocumentComponent
+class DocumentComponents : IDocumentComponent
 {
   public string Name { get; private set; }
   public List<IDocumentComponent> DocumentComponents { get; private set; }
