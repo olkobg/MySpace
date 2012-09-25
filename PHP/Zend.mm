@@ -1,10 +1,9 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#338800" CREATED="1292929910718" ID="ID_473056444" LINK="PHP.mm" MODIFIED="1328279704061" TEXT="ZF">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1300375479383" ID="ID_756961746" MODIFIED="1328279703510" POSITION="right" TEXT="Classes">
-<font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1300376033709" ID="ID_636541842" MODIFIED="1300376041377" TEXT="Filtering and validation">
+<node COLOR="#338800" CREATED="1292929910718" ID="ID_473056444" LINK="PHP.mm" MODIFIED="1348581028396" TEXT="ZF">
+<font BOLD="true" NAME="SansSerif" SIZE="19"/>
+<node CREATED="1300376033709" ID="ID_636541842" MODIFIED="1348581097484" POSITION="right" TEXT="Filtering and validation">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300376042040" ID="ID_663936185" MODIFIED="1300376243821" TEXT="Zend_Validate">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -12,10 +11,11 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1300376072533" ID="ID_1998294250" MODIFIED="1300376078081" TEXT="Configuration">
+<node CREATED="1300376072533" ID="ID_1998294250" MODIFIED="1348581097485" POSITION="right" TEXT="Configuration">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300376078606" ID="ID_1346488772" MODIFIED="1300376243820" TEXT="Zend_Config">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1300739813699" ID="ID_603285805" MODIFIED="1300739818046" TEXT="settings">
+<node CREATED="1300739813699" FOLDED="true" ID="ID_603285805" MODIFIED="1348580952912" TEXT="settings">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300739818490" ID="ID_322002416" MODIFIED="1300739838692" TEXT="renderExceptions">
 <node CREATED="1300739825284" ID="ID_896637036" MODIFIED="1300739836485" TEXT="to enable rendering Exceptions"/>
@@ -23,14 +23,280 @@
 </node>
 </node>
 </node>
-<node CREATED="1300469318377" ID="ID_1905604472" MODIFIED="1300469329675" TEXT="Routing">
+<node CREATED="1300469318377" ID="ID_1905604472" MODIFIED="1348581097485" POSITION="right" TEXT="Routing">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300469331095" ID="ID_1832915781" MODIFIED="1300469375393" TEXT="Zend_Controller_Router_Interface"/>
 <node COLOR="#0033ff" CREATED="1300469344273" ID="ID_455464021" MODIFIED="1300469375398" TEXT="Zend_Controller_Router_Rewrite"/>
 <node CREATED="1300469965039" ID="ID_58113321" MODIFIED="1300469968825" TEXT="dispatch">
 <node COLOR="#0033ff" CREATED="1300469969184" ID="ID_1487650686" MODIFIED="1300469972901" TEXT="Zend_Controller_Dispatcher_Standard"/>
 </node>
 </node>
-<node CREATED="1300376103535" ID="ID_557504301" MODIFIED="1300739754694" TEXT="MVC">
+<node CREATED="1300376305750" ID="ID_219984553" MODIFIED="1348581097485" POSITION="right" TEXT="Auth">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1300376314063" ID="ID_828736203" MODIFIED="1301052225655" TEXT="Zend_Acl">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1300376502577" ID="ID_1104518660" MODIFIED="1301052225655" TEXT="Zend_Auth">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1300376528985" ID="ID_189035111" MODIFIED="1348580836106" TEXT="Zend_Session">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1309353552962" FOLDED="true" ID="ID_185284682" MODIFIED="1348580910557">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>NB: session</b>&#160;will not store some <b>object</b>&#160;<b>variables</b>
+    </p>
+    <p>
+      during <b><i>serialization</i></b>&#160;until you add this variable
+    </p>
+    <p>
+      into return array of magic function <font color="#0000ff">__sleep</font>
+    </p>
+  </body>
+</html></richcontent>
+<node COLOR="#0033ff" CREATED="1348580842588" ID="ID_317729143" MODIFIED="1348580906605">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function __sleep() {
+    </p>
+    <p>
+      &#160;&#160;return array_merge(parent::__sleep,'yout_variable');
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1300376607412" ID="ID_1987034263" MODIFIED="1301052225654" TEXT="Zend_Auth_Adapter">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1301333020393" ID="ID_16461563" MODIFIED="1348581097485" POSITION="right" TEXT="Misc">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1301333022937" ID="ID_686786143" LINK="http://framework.zend.com/manual/en/zend.navigation.pages.html" MODIFIED="1301393243723" TEXT="Zend_Navigation"/>
+<node COLOR="#0033ff" CREATED="1301392468768" ID="ID_618628748" LINK="http://framework.zend.com/manual/en/zend.registry.using.html" MODIFIED="1301393216371" TEXT="Zend_Registry"/>
+<node COLOR="#0033ff" CREATED="1303911993450" ID="ID_968505432" MODIFIED="1313770625538" TEXT="Zend_Paginator">
+<node COLOR="#0033ff" CREATED="1312208547669" FOLDED="true" ID="ID_1774224942" MODIFIED="1348580557072" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1312209030390" ID="ID_191777173" MODIFIED="1312209042949" TEXT="clearPageItemsCache()"/>
+<node COLOR="#0033ff" CREATED="1312391315915" ID="ID_5109473" MODIFIED="1312391348815" TEXT="getTotalItemCount()"/>
+<node COLOR="#0033ff" CREATED="1312209052035" ID="ID_34771646" MODIFIED="1312209071217" TEXT="getItemsByPage()"/>
+<node COLOR="#0033ff" CREATED="1312208901551" ID="ID_1239900355" MODIFIED="1312209077814" TEXT="getCurrentItems()"/>
+<node COLOR="#0033ff" CREATED="1312208624004" ID="ID_1730183326" MODIFIED="1312208657992" TEXT="getPages()">
+<node CREATED="1312365650032" ID="ID_277498895" MODIFIED="1312365653221" TEXT="returns all pages"/>
+</node>
+<node COLOR="#0033ff" CREATED="1312208916989" ID="ID_1287281369" MODIFIED="1312208975945" TEXT="getItemsPerPage()"/>
+<node COLOR="#0033ff" CREATED="1312208620732" ID="ID_1321688094" MODIFIED="1312208972871" TEXT="setCurrentPageNumber()"/>
+<node COLOR="#0033ff" CREATED="1312208865372" ID="ID_1616706770" MODIFIED="1312209101639" TEXT="setCacheEnabled()"/>
+<node COLOR="#0033ff" CREATED="1312208757483" ID="ID_1759005674" MODIFIED="1312208805605" TEXT="setPageRange()"/>
+<node COLOR="#0033ff" CREATED="1312208763266" ID="ID_1808456967" MODIFIED="1312208805605" TEXT="setItemCountPerPage()"/>
+<node COLOR="#0033ff" CREATED="1312208784535" ID="ID_1494028205" MODIFIED="1312208805604" TEXT="setView()"/>
+<node COLOR="#0033ff" CREATED="1312365615573" ID="ID_1339868547" MODIFIED="1312365636626" TEXT="count()">
+<node CREATED="1312365621884" ID="ID_662650960" MODIFIED="1312365635133" TEXT="returns number of pages()"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1312208990611" ID="ID_464899249" MODIFIED="1312209619057" TEXT="::">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1312208993771" ID="ID_1766824111" MODIFIED="1312208999074" TEXT="setCache()"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1319036185106" ID="ID_1844085740" MODIFIED="1319036195521" TEXT="Zend_Eception">
+<node COLOR="#0033ff" CREATED="1319036196113" FOLDED="true" ID="ID_1186602922" MODIFIED="1348580913895" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1319036200208" ID="ID_720278310" MODIFIED="1319036248306" TEXT="getMessage()"/>
+<node CREATED="1319036205567" ID="ID_1927657803" MODIFIED="1319036500035" TEXT="it just extends standart php exception"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1324466530337" ID="ID_285116937" LINK="Frameworks/Zend/command%20line.mm" MODIFIED="1324466568837" POSITION="left" TEXT="ZF cmd">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+</node>
+<node CREATED="1293289328992" FOLDED="true" ID="ID_179542922" MODIFIED="1348580791192" POSITION="left" TEXT="apache conf">
+<node COLOR="#0033ff" CREATED="1293289338935" ID="ID_1051623504" MODIFIED="1328022670948">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;VirtualHost *:80&gt;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ServerName quickstart.local&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DocumentRoot /path/to/quickstart/public&#160;
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;SetEnv APPLICATION_ENV &quot;development&quot;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Directory /path/to/quickstart/public&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DirectoryIndex index.php&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;AllowOverride All&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Order allow,deny&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Allow from all&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/Directory&gt;&#160;&#160;&#160;
+    </p>
+    <p>
+      &lt;/VirtualHost&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1293290348005" ID="ID_1752401263" MODIFIED="1324466580455" POSITION="left" TEXT="configuration">
+<node CREATED="1293292293347" ID="ID_970984985" MODIFIED="1293292299044" TEXT="db-provider"/>
+</node>
+<node CREATED="1293289134473" FOLDED="true" ID="ID_1209023624" MODIFIED="1348580599067" POSITION="left" TEXT="structure">
+<node CREATED="1299139218419" ID="ID_1101051639" MODIFIED="1328172232710">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table border="0" style="width: 400px; border-right-width: 0; border-bottom-width: 0; border-style: solid; border-left-width: 0; border-top-width: 0">
+      <tr>
+        <td valign="top" style="width: 50%; border-right-width: 1; border-style: solid; border-bottom-width: 1; border-left-width: 1; border-top-width: 1">
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font color="#0000ff">$APP_DIR/application </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font color="#0000ff">$APP_DIR/application/controllers </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font color="#0000ff">$APP_DIR/application/views </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/application/models </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/application/configs </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/application/layouts</font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font color="#0000ff">$APP_DIR/application/modules </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/library </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public/css </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public/js </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public/images </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/tests </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/temp</font>
+          </p>
+        </td>
+        <td valign="top" style="width: 50%; border-right-width: 1; border-style: solid; border-bottom-width: 1; border-left-width: 1; border-top-width: 1">
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Main application directory </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Global controllers </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Global views </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Global models </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Global configuration data </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Global layouts </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Modules </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Third-party libraries and classes </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Main publicly accessible directory </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">CSS style sheets </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">JavaScript program code </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Application images </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Unit tests </font>
+          </p>
+          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
+            <font face="DejaVu Sans Mono">Temporary data</font>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1293290661598" ID="ID_930790720" MODIFIED="1324466580444" POSITION="left" TEXT="resource">
+<node CREATED="1293290663687" ID="ID_338831593" MODIFIED="1293290665340" TEXT="add">
+<node CREATED="1293290674348" ID="ID_67526450" MODIFIED="1348580757491" TEXT="note">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1293290676604" ID="ID_231009033" MODIFIED="1293290728027" TEXT="to add during boottstrap add you should add function with name containing _init to Bootstrap.php"/>
+</node>
+</node>
+</node>
+<node CREATED="1298549620065" ID="ID_1939561703" MODIFIED="1324466580441" POSITION="left" TEXT="Book">
+<node CREATED="1298549643726" ID="ID_1605623766" LINK="http://www.survivethedeepend.com/zendframeworkbook/" MODIFIED="1298549661785" TEXT="online"/>
+<node CREATED="1298549645901" ID="ID_791497812" MODIFIED="1298549649253" TEXT="Zend in action "/>
+</node>
+<node COLOR="#ff0000" CREATED="1302190469604" ID="ID_1269724465" MODIFIED="1324466580420" POSITION="left" TEXT="TESTING">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1302190510926" ID="ID_1784173544" MODIFIED="1302190516989" TEXT="PHPUnit">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1302190484377" ID="ID_675739963" LINK="http://framework.zend.com/wiki/display/ZFDEV/Testing+Standards" MODIFIED="1302190492354" TEXT="Zend recomnedation"/>
+<node CREATED="1302190493288" ID="ID_279489676" LINK="http://ajbrown.org/blog/2009/01/04/automated-testing-using-zend-framework-part-1.html" MODIFIED="1302190507013" TEXT="AjBlog"/>
+</node>
+</node>
+<node CREATED="1300376103535" ID="ID_557504301" MODIFIED="1300739754694" POSITION="left" TEXT="MVC">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1300739748907" ID="ID_1086580509" MODIFIED="1311682901039" TEXT="CONTROLLER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -102,7 +368,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1300739792392" ID="ID_1629522550" MODIFIED="1300739797101" TEXT="Zend_Controller_Front">
+<node COLOR="#0033ff" CREATED="1300739792392" FOLDED="true" ID="ID_1629522550" MODIFIED="1348580932588" TEXT="Zend_Controller_Front">
 <node CREATED="1300739849907" FOLDED="true" ID="ID_895789831" MODIFIED="1303118733171" TEXT="PLUGINS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300739853761" FOLDED="true" ID="ID_228734198" MODIFIED="1300741170679" TEXT="Zend_Controller_Plugin_Abstract">
@@ -127,7 +393,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1301333642699" ID="ID_453318647" MODIFIED="1301333648123" TEXT="HELPER">
+<node CREATED="1301333642699" FOLDED="true" ID="ID_453318647" MODIFIED="1348580928906" TEXT="HELPER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1301333675225" ID="ID_1757934683" LINK="http://akrabat.com/zend-framework/using-action-helpers-in-zend-framework/" MODIFIED="1302082504357" TEXT="site"/>
 </node>
@@ -136,7 +402,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300376146636" ID="ID_243852719" MODIFIED="1306139978826" TEXT="Zend_View">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1300740577536" ID="ID_639058763" MODIFIED="1306139983289" TEXT="HELPER">
+<node CREATED="1300740577536" FOLDED="true" ID="ID_639058763" MODIFIED="1348580926687" TEXT="HELPER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1300740606464" ID="ID_1009125562" MODIFIED="1300740634554">
 <richcontent TYPE="NODE"><html>
@@ -210,7 +476,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1313080927877" ID="ID_700611761" MODIFIED="1313081061437" TEXT="Zen_Layout">
+<node COLOR="#0033ff" CREATED="1313080927877" FOLDED="true" ID="ID_700611761" MODIFIED="1348580923541" TEXT="Zen_Layout">
 <node CREATED="1313081061405" FOLDED="true" ID="ID_693509375" MODIFIED="1343232711257">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -249,8 +515,7 @@
       &lt;?php echo $this-&gt;layout()-&gt;whatever; ?&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1313081088457" FOLDED="true" ID="ID_401280341" MODIFIED="1343232664168">
@@ -311,8 +576,7 @@
       from&#160;<font color="#0033cc"><b>controller</b></font><b>&#160;</b>or other <font color="#0033cc"><b>stuff</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1313081330344" ID="ID_821336352" MODIFIED="1313081370747">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -338,210 +602,8 @@
 <node CREATED="1313081397472" ID="ID_1656223737" LINK="http://www.hardcode.nl/archives_132/article_511-access-view-values-from-partialloop.htm" MODIFIED="1313081402315" TEXT="link"/>
 </node>
 </node>
-<node CREATED="1316617895258" ID="ID_533556922" MODIFIED="1316617900953" TEXT="FORM">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1316617901625" FOLDED="true" ID="ID_1082953197" LINK="http://framework.zend.com/manual/en/zend.form.html" MODIFIED="1324466592163" TEXT="Zend_Form">
-<node CREATED="1318503565638" ID="ID_998755273" MODIFIED="1318503575458" TEXT="elements">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1318503700287" ID="ID_1497483803" LINK="http://framework.zend.com/manual/en/zend.form.elements.html" MODIFIED="1318503756606" TEXT="Zend_Form_Element">
-<node COLOR="#0033ff" CREATED="1316617906944" ID="ID_724258097" MODIFIED="1318503761312" TEXT="Zend_Form_Element_Checkbox">
-<node CREATED="1316617920366" ID="ID_946285445" MODIFIED="1316618030169" TEXT="print with label near">
-<node COLOR="#0033ff" CREATED="1316617963416" ID="ID_1754793487" MODIFIED="1316618022172">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $chekcbox = new Zend_Form_Elemnt_Checkbox('checkbox-name', array(
-    </p>
-    <p>
-      'decorators' =&gt; array('ViewHelper', array('Label', array('placement' =&gt; 'append')))
-    </p>
-    <p>
-      );
-    </p>
-  </body>
-</html></richcontent>
 </node>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1318503575528" FOLDED="true" ID="ID_964144560" MODIFIED="1320939469204" TEXT="-&gt;">
-<node CREATED="1318503629914" ID="ID_1798132400" MODIFIED="1318503655470" TEXT="elemest methods">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1318503580874" ID="ID_594007146" MODIFIED="1318503588305">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#160;&#160;&#160;&#160;createElement($element, $name = null, $options = null)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;addElement($element, $name = null, $options = null)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;addElements(array $elements)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;setElements(array $elements)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;getElement($name)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;getElements()
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;removeElement($name)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;clearElements()
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;setDefaults(array $defaults)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;setDefault($name, $value)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;getValue($name)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;getValues()
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;getUnfilteredValue($name)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;getUnfilteredValues()
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;setElementFilters(array $filters)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;setElementDecorators(array $decorators)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;addElementPrefixPath($prefix, $path, $type = null)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;addElementPrefixPaths(array $spec)
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1318503658021" ID="ID_345235731" MODIFIED="1318503666972" TEXT="display">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1320939471059" ID="ID_1607608497" MODIFIED="1320939484708" TEXT="tips">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1320939485145" ID="ID_1153166981" MODIFIED="1320939501554" TEXT="change element value">
-<node COLOR="#0033ff" CREATED="1320939502590" ID="ID_1793137620" MODIFIED="1320939505614" TEXT="$form-&gt;getElement(&apos;mySubmit&apos;)-&gt;setLabel(&apos;new value&apos;) "/>
-</node>
-<node CREATED="1324309868611" FOLDED="true" ID="ID_294882875" MODIFIED="1324466589973" TEXT="turn off escape">
-<node CREATED="1324314199129" ID="ID_870533089" MODIFIED="1324314490809">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">$this-&gt;setDecorators(array(&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">... </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;array('Label', </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;array( </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'requiredSuffix' =&gt; '&amp;nbsp;&lt;img src=\'/images/requiredStar.gif\' style=\'width:10px;height:9px\' /&gt;', </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'escape'=&gt;false </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;) </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;) </font>
-    </p>
-    <p>
-      <font color="#0000ff">));</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1318339273733" ID="ID_1842614869" MODIFIED="1318339279277" TEXT="array elements">
-<node CREATED="1318339279651" ID="ID_1387383419" LINK="http://stackoverflow.com/questions/405897/zend-form-array-based-elements" MODIFIED="1318339305627" TEXT="stack overflow"/>
-<node CREATED="1318339306320" ID="ID_590332600" LINK="http://framework.zend.com/issues/browse/ZF-2563" MODIFIED="1318339323058" TEXT="Zend Tracker"/>
-</node>
-</node>
-</node>
-<node CREATED="1300376171864" ID="ID_250691022" MODIFIED="1300739735889" TEXT="MODEL">
+<node CREATED="1300376171864" ID="ID_250691022" MODIFIED="1348581143327" TEXT="MODEL">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300376174134" ID="ID_488872031" MODIFIED="1300376226537" TEXT="Zend_Service"/>
 <node COLOR="#0033ff" CREATED="1300376188049" ID="ID_58759060" MODIFIED="1309353520872" TEXT="Zend_Db">
@@ -814,7 +876,7 @@
 </node>
 </node>
 <node CREATED="1303118705407" ID="ID_750535489" MODIFIED="1313770826151" TEXT="profiling">
-<node CREATED="1303118712453" ID="ID_1054142061" MODIFIED="1313770827590" TEXT="FirePHP">
+<node CREATED="1303118712453" FOLDED="true" ID="ID_1054142061" MODIFIED="1348580828357" TEXT="FirePHP">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1303118719669" ID="ID_1739534648" MODIFIED="1343232273416">
 <richcontent TYPE="NODE"><html>
@@ -839,335 +901,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1300376305750" ID="ID_219984553" MODIFIED="1300376312539" TEXT="Auth">
-<node COLOR="#0033ff" CREATED="1300376314063" ID="ID_828736203" MODIFIED="1301052225655" TEXT="Zend_Acl">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1300376502577" ID="ID_1104518660" MODIFIED="1301052225655" TEXT="Zend_Auth">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1300376528985" FOLDED="true" ID="ID_189035111" MODIFIED="1343232602166" TEXT="Zend_Session">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1309353552962" ID="ID_185284682" MODIFIED="1343232600351">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>NB: session</b>&#160;will not store some <b>object</b>&#160;<b>variables</b>
-    </p>
-    <p>
-      during <b><i>serialization</i></b>&#160;until you add this variable
-    </p>
-    <p>
-      into return array of magic function <font color="#0000ff">__sleep</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1300376607412" ID="ID_1987034263" MODIFIED="1301052225654" TEXT="Zend_Auth_Adapter">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1301333020393" ID="ID_16461563" MODIFIED="1312209616906" TEXT="Misc">
-<node COLOR="#0033ff" CREATED="1301333022937" ID="ID_686786143" LINK="http://framework.zend.com/manual/en/zend.navigation.pages.html" MODIFIED="1301393243723" TEXT="Zend_Navigation"/>
-<node COLOR="#0033ff" CREATED="1301392468768" ID="ID_618628748" LINK="http://framework.zend.com/manual/en/zend.registry.using.html" MODIFIED="1301393216371" TEXT="Zend_Registry"/>
-<node COLOR="#0033ff" CREATED="1303911993450" ID="ID_968505432" MODIFIED="1313770625538" TEXT="Zend_Paginator">
-<node COLOR="#0033ff" CREATED="1312208547669" FOLDED="true" ID="ID_1774224942" MODIFIED="1343232573588" TEXT="-&gt;">
-<node COLOR="#0033ff" CREATED="1312209030390" ID="ID_191777173" MODIFIED="1312209042949" TEXT="clearPageItemsCache()"/>
-<node COLOR="#0033ff" CREATED="1312391315915" ID="ID_5109473" MODIFIED="1312391348815" TEXT="getTotalItemCount()"/>
-<node COLOR="#0033ff" CREATED="1312209052035" ID="ID_34771646" MODIFIED="1312209071217" TEXT="getItemsByPage()"/>
-<node COLOR="#0033ff" CREATED="1312208901551" ID="ID_1239900355" MODIFIED="1312209077814" TEXT="getCurrentItems()"/>
-<node COLOR="#0033ff" CREATED="1312208624004" ID="ID_1730183326" MODIFIED="1312208657992" TEXT="getPages()">
-<node CREATED="1312365650032" ID="ID_277498895" MODIFIED="1312365653221" TEXT="returns all pages"/>
-</node>
-<node COLOR="#0033ff" CREATED="1312208916989" ID="ID_1287281369" MODIFIED="1312208975945" TEXT="getItemsPerPage()"/>
-<node COLOR="#0033ff" CREATED="1312208620732" ID="ID_1321688094" MODIFIED="1312208972871" TEXT="setCurrentPageNumber()"/>
-<node COLOR="#0033ff" CREATED="1312208865372" ID="ID_1616706770" MODIFIED="1312209101639" TEXT="setCacheEnabled()"/>
-<node COLOR="#0033ff" CREATED="1312208757483" ID="ID_1759005674" MODIFIED="1312208805605" TEXT="setPageRange()"/>
-<node COLOR="#0033ff" CREATED="1312208763266" ID="ID_1808456967" MODIFIED="1312208805605" TEXT="setItemCountPerPage()"/>
-<node COLOR="#0033ff" CREATED="1312208784535" ID="ID_1494028205" MODIFIED="1312208805604" TEXT="setView()"/>
-<node COLOR="#0033ff" CREATED="1312365615573" ID="ID_1339868547" MODIFIED="1312365636626" TEXT="count()">
-<node CREATED="1312365621884" ID="ID_662650960" MODIFIED="1312365635133" TEXT="returns number of pages()"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1312208990611" ID="ID_464899249" MODIFIED="1312209619057" TEXT="::">
+<node CREATED="1307547419980" ID="ID_1732209594" MODIFIED="1348581097486" POSITION="right" TEXT="Validation">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1312208993771" ID="ID_1766824111" MODIFIED="1312208999074" TEXT="setCache()"/>
+<node COLOR="#0033ff" CREATED="1307547422643" ID="ID_1699630461" LINK="http://framework.zend.com/manual/en/zend.validate.set.html" MODIFIED="1307547444903" TEXT="Zend_Validate"/>
 </node>
+<node CREATED="1299139188313" ID="ID_1986945483" MODIFIED="1348581097486" POSITION="right" TEXT="Forms">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1319036185106" ID="ID_1844085740" MODIFIED="1319036195521" TEXT="Zend_Eception">
-<node COLOR="#0033ff" CREATED="1319036196113" ID="ID_1186602922" MODIFIED="1319036199032" TEXT="-&gt;">
-<node COLOR="#0033ff" CREATED="1319036200208" ID="ID_720278310" MODIFIED="1319036248306" TEXT="getMessage()"/>
-<node CREATED="1319036205567" ID="ID_1927657803" MODIFIED="1319036500035" TEXT="it just extends standart php exception"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1324466530337" ID="ID_285116937" LINK="Frameworks/Zend/command%20line.mm" MODIFIED="1324466568837" POSITION="left" TEXT="ZF cmd">
-<font BOLD="true" NAME="SansSerif" SIZE="17"/>
-</node>
-<node CREATED="1293289328992" ID="ID_179542922" MODIFIED="1324466580458" POSITION="left" TEXT="apache conf">
-<node CREATED="1293289334336" ID="ID_1171304587" MODIFIED="1328022667096" TEXT="ex">
-<node COLOR="#0033ff" CREATED="1293289338935" ID="ID_1051623504" MODIFIED="1328022670948">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;VirtualHost *:80&gt;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ServerName quickstart.local&#160;&#160;&#160;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DocumentRoot /path/to/quickstart/public&#160;
-    </p>
-    <p>
-      &#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;SetEnv APPLICATION_ENV &quot;development&quot;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Directory /path/to/quickstart/public&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DirectoryIndex index.php&#160;&#160;&#160;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;AllowOverride All&#160;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Order allow,deny&#160;&#160;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Allow from all&#160;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/Directory&gt;&#160;&#160;&#160;
-    </p>
-    <p>
-      &lt;/VirtualHost&gt;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1293290348005" ID="ID_1752401263" MODIFIED="1324466580455" POSITION="left" TEXT="configuration">
-<node CREATED="1293292293347" ID="ID_970984985" MODIFIED="1293292299044" TEXT="db-provider"/>
-</node>
-<node CREATED="1293289134473" FOLDED="true" ID="ID_1209023624" MODIFIED="1328279706988" POSITION="left" TEXT="structure">
-<node CREATED="1299139218419" ID="ID_1101051639" MODIFIED="1328172232710">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table border="0" style="width: 400px; border-right-width: 0; border-bottom-width: 0; border-style: solid; border-left-width: 0; border-top-width: 0">
-      <tr>
-        <td valign="top" style="width: 50%; border-right-width: 1; border-style: solid; border-bottom-width: 1; border-left-width: 1; border-top-width: 1">
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font color="#0000ff">$APP_DIR/application </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font color="#0000ff">$APP_DIR/application/controllers </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font color="#0000ff">$APP_DIR/application/views </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/application/models </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/application/configs </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/application/layouts</font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font color="#0000ff">$APP_DIR/application/modules </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/library </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public/css </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public/js </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/public/images </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/tests </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono" color="#0000ff">$</font><font color="#0000ff">APP_DIR/temp</font>
-          </p>
-        </td>
-        <td valign="top" style="width: 50%; border-right-width: 1; border-style: solid; border-bottom-width: 1; border-left-width: 1; border-top-width: 1">
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Main application directory </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Global controllers </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Global views </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Global models </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Global configuration data </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Global layouts </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Modules </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Third-party libraries and classes </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Main publicly accessible directory </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">CSS style sheets </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">JavaScript program code </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Application images </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Unit tests </font>
-          </p>
-          <p style="margin-bottom: 0; padding-bottom: 0; font-style: normal; font-weight: normal; padding-left: 0; padding-top: 0; margin-right: 0; margin-left: 0; padding-right: 0; margin-top: 0">
-            <font face="DejaVu Sans Mono">Temporary data</font>
-          </p>
-        </td>
-      </tr>
-    </table>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1299139188313" ID="ID_1986945483" MODIFIED="1324466580452" POSITION="left" TEXT="Forms">
-<node CREATED="1299139190460" FOLDED="true" ID="ID_1742058369" MODIFIED="1319212424789" TEXT="form elements">
-<node CREATED="1299139199643" ID="ID_329668692" MODIFIED="1299139204202">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#160;Zend_Form_Element_Text Text input field
-    </p>
-    <p>
-      Zend_Form_Element_Hidden Hidden field
-    </p>
-    <p>
-      Zend_Form_Element_Password Password field
-    </p>
-    <p>
-      Zend_Form_Element_Radio Radio button
-    </p>
-    <p>
-      Zend_Form_Element_Checkbox Check box
-    </p>
-    <p>
-      Zend_Form_Element_MultiCheckbox Group of related check boxes
-    </p>
-    <p>
-      Zend_Form_Element_Select Selection list (single)
-    </p>
-    <p>
-      Zend_Form_Element_MultiSelect Selection list (multiple)
-    </p>
-    <p>
-      Zend_Form_Element_Textarea Text input field
-    </p>
-    <p>
-      Zend_Form_Element_File File input field
-    </p>
-    <p>
-      Zend_Form_Element_Image Image
-    </p>
-    <p>
-      Zend_Form_Element_Button Button
-    </p>
-    <p>
-      Zend_Form_Element_Hash Unique string (for session identification)
-    </p>
-    <p>
-      Zend_Form_Element_Captcha CAPTCHA (for spam filtering)
-    </p>
-    <p>
-      Zend_Form_Element_Reset Reset button
-    </p>
-    <p>
-      Zend_Form_Element_Submit Submit button
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1314697974329" ID="ID_1619363884" MODIFIED="1314697979900" TEXT="Zend_Form">
-<node COLOR="#0033ff" CREATED="1314697980715" ID="ID_101749780" MODIFIED="1314698011768" TEXT="Zend_Form_Element_Hidden">
-<node COLOR="#0033ff" CREATED="1314698011690" ID="ID_15219028" MODIFIED="1319212427433" TEXT="-&gt;">
-<node COLOR="#0033ff" CREATED="1314698003488" ID="ID_1682319231" MODIFIED="1314698039330" TEXT="setValue()">
-<node CREATED="1314698018286" ID="ID_166950009" MODIFIED="1314698032569" TEXT="set&apos;s value of hidden element"/>
-<node CREATED="1314698046922" ID="ID_507219552" MODIFIED="1314698047592" TEXT="ex">
-<node COLOR="#0033ff" CREATED="1314698048178" ID="ID_1068944186" MODIFIED="1314698072335">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $hiddenControl = $this-&gt;createElement('hidden', 'formtype');
-    </p>
-    <p>
-      $hiddenControl-&gt;setValue('test value');
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1293290661598" ID="ID_930790720" MODIFIED="1324466580444" POSITION="left" TEXT="resource">
-<node CREATED="1293290663687" ID="ID_338831593" MODIFIED="1293290665340" TEXT="add">
-<node CREATED="1293290674348" ID="ID_67526450" MODIFIED="1293290676240" TEXT="note">
-<node CREATED="1293290676604" ID="ID_231009033" MODIFIED="1293290728027" TEXT="to add during boottstrap add you should add function with name containing _init to Bootstrap.php"/>
-</node>
-</node>
-</node>
-<node CREATED="1298549620065" ID="ID_1939561703" MODIFIED="1324466580441" POSITION="left" TEXT="Book">
-<node CREATED="1298549643726" ID="ID_1605623766" LINK="http://www.survivethedeepend.com/zendframeworkbook/" MODIFIED="1298549661785" TEXT="online"/>
-<node CREATED="1298549645901" ID="ID_791497812" MODIFIED="1298549649253" TEXT="Zend in action "/>
-</node>
-<node COLOR="#ff0000" CREATED="1300444353142" ID="ID_615849491" MODIFIED="1324466580438" POSITION="left" TEXT="DEBUG">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1300444353142" ID="ID_615849491" MODIFIED="1348581109664" POSITION="right" TEXT="Debug">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1301399461402" ID="ID_1268800909" MODIFIED="1301399473023" TEXT="dumping">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1300444375723" ID="ID_1932790385" MODIFIED="1301394328026" TEXT="Zend_Debug::dump()">
@@ -1190,9 +932,8 @@
 </node>
 <node CREATED="1301399466631" ID="ID_1287337773" MODIFIED="1301399485216" TEXT="logging">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1301399490629" ID="ID_811941279" LINK="http://framework.zend.com/manual/en/zend.log.html" MODIFIED="1301399510457" TEXT="Zend_Log">
+<node COLOR="#0033ff" CREATED="1301399490629" FOLDED="true" ID="ID_811941279" LINK="http://framework.zend.com/manual/en/zend.log.html" MODIFIED="1348580813722" TEXT="Zend_Log">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1301399626325" ID="ID_611106869" MODIFIED="1301399628768" TEXT="inf">
 <node CREATED="1301399632100" ID="ID_1563426064" MODIFIED="1301399682698">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1205,8 +946,6 @@
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1301399586983" ID="ID_337380489" MODIFIED="1301399588346" TEXT="ex">
 <node COLOR="#0033ff" CREATED="1301399588743" ID="ID_737376532" MODIFIED="1319212432996">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1228,15 +967,12 @@
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1303118623474" ID="ID_1667735825" MODIFIED="1303118626922" TEXT="writers">
+<node CREATED="1303118623474" FOLDED="true" ID="ID_1667735825" MODIFIED="1348580808201" TEXT="writers">
 <node COLOR="#0033ff" CREATED="1303118628530" ID="ID_766222706" MODIFIED="1303118933510" TEXT="Zene_Log_Writer_Firebug">
-<node CREATED="1303118661196" ID="ID_1675377862" MODIFIED="1303118662065" TEXT="inf"/>
 <node CREATED="1303118935937" ID="ID_960300902" MODIFIED="1303118938944" TEXT="urls">
 <node CREATED="1303118940079" ID="ID_992253095" LINK="http://anton.shevchuk.name/php/debug-zend-framework-application-with-firephp/" MODIFIED="1303118950537" TEXT="blog1"/>
 </node>
-<node CREATED="1303118663276" FOLDED="true" ID="ID_562642075" MODIFIED="1303118679234" TEXT="ex">
-<node CREATED="1303118665532" ID="ID_501905877" MODIFIED="1303118675265">
+<node COLOR="#0033ff" CREATED="1303118665532" ID="ID_501905877" MODIFIED="1348580776290">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1259,17 +995,286 @@
 </node>
 </node>
 </node>
-</node>
-<node COLOR="#ff0000" CREATED="1302190469604" ID="ID_1269724465" MODIFIED="1324466580420" POSITION="left" TEXT="TESTING">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1302190510926" ID="ID_1784173544" MODIFIED="1302190516989" TEXT="PHPUnit">
+<node CREATED="1316617895258" ID="ID_533556922" MODIFIED="1316617900953" POSITION="right" TEXT="FORM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1302190484377" ID="ID_675739963" LINK="http://framework.zend.com/wiki/display/ZFDEV/Testing+Standards" MODIFIED="1302190492354" TEXT="Zend recomnedation"/>
-<node CREATED="1302190493288" ID="ID_279489676" LINK="http://ajbrown.org/blog/2009/01/04/automated-testing-using-zend-framework-part-1.html" MODIFIED="1302190507013" TEXT="AjBlog"/>
+<node CREATED="1318339273733" FOLDED="true" ID="ID_1842614869" MODIFIED="1348581246919" TEXT="array elements">
+<node CREATED="1318339279651" ID="ID_1387383419" LINK="http://stackoverflow.com/questions/405897/zend-form-array-based-elements" MODIFIED="1318339305627" TEXT="stack overflow"/>
+<node CREATED="1318339306320" ID="ID_590332600" LINK="http://framework.zend.com/issues/browse/ZF-2563" MODIFIED="1318339323058" TEXT="Zend Tracker"/>
+</node>
+<node COLOR="#0033ff" CREATED="1314697974329" ID="ID_1619363884" MODIFIED="1314697979900" TEXT="Zend_Form">
+<node COLOR="#0033ff" CREATED="1314697980715" ID="ID_101749780" MODIFIED="1348581252792" TEXT="Zend_Form_Element_Hidden">
+<node COLOR="#0033ff" CREATED="1314698011690" FOLDED="true" ID="ID_15219028" MODIFIED="1348581253369" TEXT="-&gt;">
+<node COLOR="#0033ff" CREATED="1314698003488" ID="ID_1682319231" MODIFIED="1314698039330" TEXT="setValue()">
+<node COLOR="#0033ff" CREATED="1314698048178" ID="ID_1068944186" MODIFIED="1314698072335">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $hiddenControl = $this-&gt;createElement('hidden', 'formtype');
+    </p>
+    <p>
+      $hiddenControl-&gt;setValue('test value');
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1307547419980" ID="ID_1732209594" MODIFIED="1324466580417" POSITION="left" TEXT="Validation">
-<node COLOR="#0033ff" CREATED="1307547422643" ID="ID_1699630461" LINK="http://framework.zend.com/manual/en/zend.validate.set.html" MODIFIED="1307547444903" TEXT="Zend_Validate"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1316617901625" ID="ID_1082953197" LINK="http://framework.zend.com/manual/en/zend.form.html" MODIFIED="1348581189243" TEXT="Zend_Form">
+<node COLOR="#0033ff" CREATED="1318503700287" ID="ID_1497483803" LINK="http://framework.zend.com/manual/en/zend.form.elements.html" MODIFIED="1318503756606" TEXT="Zend_Form_Element">
+<node COLOR="#0033ff" CREATED="1316617906944" FOLDED="true" ID="ID_724258097" MODIFIED="1348581255743" TEXT="Zend_Form_Element_Checkbox">
+<node CREATED="1316617920366" ID="ID_946285445" MODIFIED="1316618030169" TEXT="print with label near">
+<node COLOR="#0033ff" CREATED="1316617963416" ID="ID_1754793487" MODIFIED="1316618022172">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $chekcbox = new Zend_Form_Elemnt_Checkbox('checkbox-name', array(
+    </p>
+    <p>
+      'decorators' =&gt; array('ViewHelper', array('Label', array('placement' =&gt; 'append')))
+    </p>
+    <p>
+      );
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1318503575528" FOLDED="true" ID="ID_964144560" MODIFIED="1348581209523" TEXT="-&gt;">
+<node CREATED="1318503629914" ID="ID_1798132400" MODIFIED="1318503655470" TEXT="elemest methods">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1318503580874" ID="ID_594007146" MODIFIED="1318503588305">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;createElement($element, $name = null, $options = null)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;addElement($element, $name = null, $options = null)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;addElements(array $elements)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setElements(array $elements)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getElement($name)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getElements()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;removeElement($name)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;clearElements()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setDefaults(array $defaults)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setDefault($name, $value)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getValue($name)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getValues()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getUnfilteredValue($name)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;getUnfilteredValues()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setElementFilters(array $filters)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setElementDecorators(array $decorators)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;addElementPrefixPath($prefix, $path, $type = null)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;addElementPrefixPaths(array $spec)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1318503658021" ID="ID_345235731" MODIFIED="1318503666972" TEXT="display">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1320939471059" FOLDED="true" ID="ID_1607608497" MODIFIED="1348581259397" TEXT="tips">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1320939485145" ID="ID_1153166981" MODIFIED="1320939501554" TEXT="change element value">
+<node COLOR="#0033ff" CREATED="1320939502590" ID="ID_1793137620" MODIFIED="1320939505614" TEXT="$form-&gt;getElement(&apos;mySubmit&apos;)-&gt;setLabel(&apos;new value&apos;) "/>
+</node>
+<node CREATED="1324309868611" FOLDED="true" ID="ID_294882875" MODIFIED="1348581201559" TEXT="turn off escape">
+<node CREATED="1324314199129" ID="ID_870533089" MODIFIED="1324314490809">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">$this-&gt;setDecorators(array(&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">... </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;array('Label', </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;array( </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'requiredSuffix' =&gt; '&amp;nbsp;&lt;img src=\'/images/requiredStar.gif\' style=\'width:10px;height:9px\' /&gt;', </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'escape'=&gt;false </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">));</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1299139190460" FOLDED="true" ID="ID_1742058369" MODIFIED="1348581271657" TEXT="form elements">
+<node CREATED="1299139199643" ID="ID_329668692" MODIFIED="1348580743640">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Text</font>&#160;Text input field
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Hidden</font>&#160;Hidden field
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Password</font>&#160;Password field
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Radio</font>&#160;Radio button
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Checkbox</font>&#160;Check box
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_MultiCheckbox</font>&#160;Group of related check boxes
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Select</font>&#160;Selection list (single)
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_MultiSelect</font>&#160;Selection list (multiple)
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Textarea</font>&#160;Text input field
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_File</font>&#160;File input field
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Image</font>&#160;Image
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Button</font>&#160;Button
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Hash</font>&#160;Unique string (for session identification)
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Captcha</font>&#160;CAPTCHA (for spam filtering)
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Reset</font>&#160;Reset button
+    </p>
+    <p>
+      <font color="#0033ff">Zend_Form_Element_Submit</font>&#160;Submit button
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
