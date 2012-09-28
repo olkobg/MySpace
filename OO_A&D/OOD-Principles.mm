@@ -40,8 +40,7 @@
       <b>SRP&#160; </b>&#160;(Single responsibility principle)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1283930987468" ID="ID_470383395" MODIFIED="1348135632613">
 <richcontent TYPE="NODE"><html>
@@ -53,8 +52,7 @@
       <font size="3"><b>OCP</b></font>&#160;&#160;(Open - closed principle)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1283930974984" ID="ID_1595037506" MODIFIED="1348135636218">
 <richcontent TYPE="NODE"><html>
@@ -66,8 +64,7 @@
       <b>DIP</b>&#160;&#160;(Depency inversion principle)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1283931003859" ID="ID_439271811" MODIFIED="1348135632609">
 <richcontent TYPE="NODE"><html>
@@ -77,6 +74,23 @@
   <body>
     <p>
       <b>LSP</b>&#160;&#160; (Liskov substituion pronciple)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1348821359881" ID="ID_361103097" MODIFIED="1348821361931" POSITION="right" TEXT="Tips">
+<node CREATED="1348821362734" ID="ID_1713725614" MODIFIED="1348821376879" TEXT="class">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1348821377516" ID="ID_187622606" MODIFIED="1348821479499">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      describes what <font color="#0033ff"><b>object</b></font>&#160;<b><i>know</i></b>&#160;and what <font color="#0033ff"><b>object</b></font>&#160;<b><i>does</i></b>
     </p>
   </body>
 </html>
