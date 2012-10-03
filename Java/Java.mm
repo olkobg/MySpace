@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#669900" CREATED="1289984563004" ID="ID_1765798646" LINK="../Index.mm" MODIFIED="1298550725454" TEXT="Java">
+<node COLOR="#669900" CREATED="1289984563004" ID="ID_1765798646" LINK="../Index.mm" MODIFIED="1349255682544" TEXT="Java">
 <font BOLD="true" NAME="SansSerif" SIZE="23"/>
 <node COLOR="#ff0000" CREATED="1298474264029" ID="ID_926676701" MODIFIED="1298552424249" POSITION="left" TEXT="Data">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="17"/>
@@ -57,17 +57,22 @@
 </node>
 </node>
 </node>
-<node CREATED="1298474278321" ID="ID_952438463" MODIFIED="1298550768277" TEXT="object">
+<node CREATED="1298474278321" ID="ID_952438463" MODIFIED="1349255780329" TEXT="object">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1298474324548" ID="ID_1435456098" MODIFIED="1298550781667" TEXT="String">
 <edge STYLE="bezier"/>
 </node>
+<node CREATED="1349255780306" FOLDED="true" ID="ID_73272967" MODIFIED="1349256157291" TEXT="numbers">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1348819925021" FOLDED="true" ID="ID_120486637" MODIFIED="1348822859223" TEXT="Integer">
 <node COLOR="#0033ff" CREATED="1348819932512" FOLDED="true" ID="ID_1391232048" MODIFIED="1348822858929" TEXT="parseInt">
 <node COLOR="#0033ff" CREATED="1348819941675" ID="ID_137328947" MODIFIED="1348819961280" TEXT="Interger.parseInt(&quot;3&quot;);"/>
 </node>
 </node>
-<node CREATED="1348821084557" ID="ID_818616395" MODIFIED="1348821093837" TEXT="array">
+<node COLOR="#0033ff" CREATED="1349255803329" ID="ID_891195826" MODIFIED="1349255808122" TEXT="Float"/>
+<node COLOR="#0033ff" CREATED="1349255808714" ID="ID_134515576" MODIFIED="1349255814793" TEXT="Double"/>
+</node>
+<node CREATED="1348821084557" FOLDED="true" ID="ID_818616395" MODIFIED="1349255798798" TEXT="array">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1348821093822" FOLDED="true" ID="ID_990300412" MODIFIED="1349082068449" TEXT="declare">
 <node COLOR="#0033ff" CREATED="1348821088918" ID="ID_1832404100" MODIFIED="1348821109946" TEXT="int[] arr"/>
@@ -80,7 +85,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1348821137312" ID="ID_1033469045" MODIFIED="1348821166274" TEXT="int[] arr = new int[7] {1,2,3,5,6,7};"/>
 </node>
-<node CREATED="1298474280838" ID="ID_866979820" MODIFIED="1348821223341" TEXT="currency">
+<node CREATED="1298474280838" FOLDED="true" ID="ID_866979820" MODIFIED="1349255770976" TEXT="currency">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1298474284232" ID="ID_1610811711" MODIFIED="1298555368932" TEXT="best type to use with currentcy is">
 <edge STYLE="bezier"/>
@@ -97,7 +102,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1298889774142" ID="ID_283650130" MODIFIED="1348822015640" TEXT="Instance variables are declared inside a class"/>
-<node CREATED="1309861188801" FOLDED="true" ID="ID_1624851484" MODIFIED="1348821998849" TEXT="def val">
+<node CREATED="1309861188801" FOLDED="true" ID="ID_1624851484" MODIFIED="1349256901898" TEXT="def val">
 <node COLOR="#0033ff" CREATED="1309861193896" ID="ID_614038469" MODIFIED="1348819190005">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -147,7 +152,7 @@
 </node>
 <node COLOR="#ff0000" CREATED="1298890244846" ID="ID_719538133" MODIFIED="1298890265003" POSITION="left" TEXT="Operations">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1349081824649" FOLDED="true" ID="ID_324948475" MODIFIED="1349082034569" TEXT="boolean">
+<node CREATED="1349081824649" FOLDED="true" ID="ID_324948475" MODIFIED="1349255743479" TEXT="boolean">
 <node COLOR="#0033ff" CREATED="1349081831768" ID="ID_1404923741" MODIFIED="1349081889943" TEXT="&amp;&amp;"/>
 <node COLOR="#0033ff" CREATED="1349081835126" ID="ID_795931578" MODIFIED="1349081889942" TEXT="||"/>
 <node COLOR="#0033ff" CREATED="1349081840839" ID="ID_916191671" MODIFIED="1349081889942" TEXT="&amp;"/>
@@ -157,18 +162,18 @@
 <node COLOR="#0033ff" CREATED="1349081839121" ID="ID_1349089783" MODIFIED="1349081889939" TEXT="=="/>
 </node>
 <node CREATED="1298890265903" ID="ID_188717856" MODIFIED="1349081876823" TEXT="comparing">
-<node CREATED="1298890269172" FOLDED="true" ID="ID_53294547" MODIFIED="1348821020718" TEXT="scalar">
+<node CREATED="1298890269172" FOLDED="true" ID="ID_53294547" MODIFIED="1349256337093" TEXT="scalar">
 <node COLOR="#0033ff" CREATED="1298890278395" ID="ID_959213752" MODIFIED="1298890308067" TEXT="=="/>
 </node>
-<node CREATED="1298890271534" FOLDED="true" ID="ID_1484422449" MODIFIED="1348821018934" TEXT="references">
+<node CREATED="1298890271534" FOLDED="true" ID="ID_1484422449" MODIFIED="1349256336391" TEXT="references">
 <node COLOR="#0033ff" CREATED="1298890288989" ID="ID_1812797993" MODIFIED="1298890310167" TEXT="=="/>
 </node>
-<node CREATED="1298890274530" FOLDED="true" ID="ID_82178288" MODIFIED="1348821019521" TEXT="objects">
+<node CREATED="1298890274530" FOLDED="true" ID="ID_82178288" MODIFIED="1349256335232" TEXT="objects">
 <node COLOR="#0033ff" CREATED="1298890293807" ID="ID_742273964" MODIFIED="1298890311419" TEXT="equals"/>
 </node>
 </node>
-<node CREATED="1348819597294" FOLDED="true" ID="ID_1647650575" MODIFIED="1349082045009" TEXT="assigning">
-<node COLOR="#0033ff" CREATED="1348819602399" FOLDED="true" ID="ID_1237381035" MODIFIED="1348820179902" TEXT="=">
+<node CREATED="1348819597294" ID="ID_1647650575" MODIFIED="1349256329959" TEXT="assigning">
+<node COLOR="#0033ff" CREATED="1348819602399" FOLDED="true" ID="ID_1237381035" MODIFIED="1349256332142" TEXT="=">
 <node COLOR="#0033ff" CREATED="1348819609006" ID="ID_727314645" MODIFIED="1348819638190">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -189,36 +194,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1348819650679" FOLDED="true" ID="ID_188539445" MODIFIED="1349081870887" TEXT="creating refferences">
-<node CREATED="1348819657700" ID="ID_1659468830" MODIFIED="1348819726169">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      - declare refference
-    </p>
-    <p>
-      - declare object
-    </p>
-    <p>
-      - join them <font color="#0033ff"><b><i>=</i></b></font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#0033ff" CREATED="1348820976937" ID="ID_1819706332" MODIFIED="1348821009665" TEXT="Car myCar = new Car();"/>
-</node>
-<node CREATED="1348820152885" FOLDED="true" ID="ID_38895117" MODIFIED="1349081870885" TEXT=" increment">
+<node CREATED="1348820152885" FOLDED="true" ID="ID_38895117" MODIFIED="1349256329368" TEXT=" increment">
 <node CREATED="1348822634211" FOLDED="true" ID="ID_1228518119" MODIFIED="1348822663316" TEXT="post">
 <node COLOR="#0033ff" CREATED="1348820160048" ID="ID_1000467352" MODIFIED="1348820175671" TEXT="i++"/>
 </node>
-<node CREATED="1348822638104" ID="ID_1037260047" MODIFIED="1348822639447" TEXT="pre">
+<node CREATED="1348822638104" FOLDED="true" ID="ID_1037260047" MODIFIED="1349256328432" TEXT="pre">
 <node COLOR="#0033ff" CREATED="1348820171054" ID="ID_390583674" MODIFIED="1348820175670" TEXT="++i"/>
 </node>
 </node>
-<node CREATED="1348822599462" FOLDED="true" ID="ID_1415122371" MODIFIED="1349081870883" TEXT=" decrement">
+<node CREATED="1348822599462" FOLDED="true" ID="ID_1415122371" MODIFIED="1349256325479" TEXT=" decrement">
 <node CREATED="1348822611699" ID="ID_1965798661" MODIFIED="1348822645644" TEXT="postt">
 <node COLOR="#0033ff" CREATED="1348822646360" ID="ID_435220805" MODIFIED="1348822653239" TEXT="i--"/>
 </node>
@@ -226,12 +210,38 @@
 <node COLOR="#0033ff" CREATED="1348822609225" ID="ID_78168243" MODIFIED="1348822653240" TEXT="--i"/>
 </node>
 </node>
-<node CREATED="1348820224895" FOLDED="true" ID="ID_632208009" MODIFIED="1349082038682" TEXT="cast">
-<node COLOR="#0033ff" CREATED="1348820228139" FOLDED="true" ID="ID_1798352292" MODIFIED="1348821763063" TEXT="()">
-<node COLOR="#0033ff" CREATED="1348820233410" ID="ID_1168810459" MODIFIED="1348820256735" TEXT="(int) getValue"/>
+<node CREATED="1348820224895" ID="ID_632208009" MODIFIED="1349256181960" TEXT="cast">
+<node COLOR="#0033ff" CREATED="1348820228139" FOLDED="true" ID="ID_1798352292" MODIFIED="1349256324341" TEXT="()">
+<node COLOR="#0033ff" CREATED="1348820233410" ID="ID_1168810459" MODIFIED="1349256301225">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>(int)</b>&#160;getValue;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1349256183593" ID="ID_570161937" MODIFIED="1349256311842">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;Dog d = <b>(Dog)</b>&#160;x.getObject(aDog);
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1348819984865" FOLDED="true" ID="ID_924771637" MODIFIED="1349082039190" TEXT="loops">
+</node>
+<node CREATED="1348819984865" FOLDED="true" ID="ID_924771637" MODIFIED="1349256343007" TEXT="loops">
 <node COLOR="#0033ff" CREATED="1348820070156" FOLDED="true" ID="ID_1643539188" MODIFIED="1348823164253" TEXT="for">
 <node COLOR="#0033ff" CREATED="1348823004387" ID="ID_1572823010" MODIFIED="1348823010099" TEXT="for(int i = 0; i &lt; 100; i++){ "/>
 <node COLOR="#0033ff" CREATED="1348823010806" ID="ID_1451580122" MODIFIED="1348823025999">
@@ -253,7 +263,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1348819987720" FOLDED="true" ID="ID_694065735" MODIFIED="1348823160619">
+<node CREATED="1348819987720" FOLDED="true" ID="ID_694065735" MODIFIED="1349256320144">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -268,7 +278,7 @@
 <node COLOR="#0033ff" CREATED="1348819999307" ID="ID_1308328629" MODIFIED="1348820067264" TEXT="for (int cell : locationCells) { }"/>
 <node COLOR="#0033ff" CREATED="1348823118271" ID="ID_1922376122" MODIFIED="1348823125999" TEXT="for (String name : nameArray) {}"/>
 </node>
-<node COLOR="#0033ff" CREATED="1348820071852" FOLDED="true" ID="ID_158880939" MODIFIED="1348823069443" TEXT="while">
+<node COLOR="#0033ff" CREATED="1348820071852" FOLDED="true" ID="ID_158880939" MODIFIED="1349256321552" TEXT="while">
 <node COLOR="#0033ff" CREATED="1348823061528" ID="ID_1764189690" MODIFIED="1348823067453">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -293,21 +303,155 @@
 </node>
 <node COLOR="#0033ff" CREATED="1348820073525" ID="ID_1831827591" MODIFIED="1348820095684" TEXT="do..while"/>
 </node>
-<node CREATED="1348819989876" FOLDED="true" ID="ID_632350499" MODIFIED="1349082039941" TEXT="branching">
+<node CREATED="1348819989876" FOLDED="true" ID="ID_632350499" MODIFIED="1349255719142" TEXT="branching">
 <node COLOR="#0033ff" CREATED="1348820086536" ID="ID_1641696936" MODIFIED="1348820092732" TEXT="if"/>
 <node COLOR="#0033ff" CREATED="1348820088081" ID="ID_273852755" MODIFIED="1348820092731" TEXT="switch"/>
 </node>
-<node CREATED="1348822363731" FOLDED="true" ID="ID_990153861" MODIFIED="1349082040575" TEXT="interrupting">
+<node CREATED="1348822363731" FOLDED="true" ID="ID_990153861" MODIFIED="1349255718329" TEXT="interrupting">
 <node COLOR="#0033ff" CREATED="1348822402468" ID="ID_1184812210" MODIFIED="1348822413609" TEXT="break"/>
 <node COLOR="#0033ff" CREATED="1348822407885" ID="ID_478538856" MODIFIED="1348822413609" TEXT="continue"/>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1348819773063" ID="ID_547616111" MODIFIED="1348821574650" POSITION="left" TEXT="Methods">
+<node COLOR="#ff0000" CREATED="1349255682524" ID="ID_1241538864" MODIFIED="1349256100086" POSITION="left" TEXT="Clasess">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1349255102664" FOLDED="true" ID="ID_1967325392" MODIFIED="1349275811939" TEXT="acess modificators">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1349255120670" ID="ID_983233037" MODIFIED="1349255143359" TEXT="private"/>
+<node COLOR="#0033ff" CREATED="1349255128884" ID="ID_22665407" MODIFIED="1349275810036" TEXT="package (default)"/>
+<node COLOR="#0033ff" CREATED="1349255135528" ID="ID_1621287805" MODIFIED="1349255143360" TEXT="protected"/>
+<node COLOR="#0033ff" CREATED="1349255138832" ID="ID_1581328865" MODIFIED="1349255143361" TEXT="public"/>
+</node>
+<node CREATED="1348819650679" ID="ID_188539445" MODIFIED="1349275660787" TEXT="creating refferences">
+<node CREATED="1348819657700" ID="ID_1659468830" MODIFIED="1348819726169">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      - declare refference
+    </p>
+    <p>
+      - declare object
+    </p>
+    <p>
+      - join them <font color="#0033ff"><b><i>=</i></b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1348820976937" ID="ID_1819706332" MODIFIED="1348821009665" TEXT="Car myCar = new Car();"/>
+</node>
+<node COLOR="#0033ff" CREATED="1349255705835" FOLDED="true" ID="ID_1163066894" MODIFIED="1349275792624" TEXT="interface">
+<node CREATED="1349256624859" ID="ID_803779519" MODIFIED="1349256646855" TEXT=" all interface methods are implicitly public and abstract."/>
+<node COLOR="#0033ff" CREATED="1349256213113" ID="ID_1502743873" MODIFIED="1349256279184">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      class Test <b>implements</b>&#160;Interface {
+    </p>
+    <p>
+      &#160;&#160;public void interfaceMethod() {
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1349255909211" FOLDED="true" ID="ID_1742129055" MODIFIED="1349275785449" TEXT="inheriatance">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1349255916530" ID="ID_969693864" MODIFIED="1349275767814">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public void getData() {
+    </p>
+    <p>
+      &#160;&#160;// <font color="#000000">run's parent class (superclass) runReporty function</font>
+    </p>
+    <p>
+      &#160;&#160;this.data = <b>super</b>.getData();
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1349255924716" ID="ID_1827805548" MODIFIED="1349275780371">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // run this class constructor
+    </p>
+    <p>
+      <b>this( )</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1349256100064" FOLDED="true" ID="ID_153250547" MODIFIED="1349275787379" TEXT="abstract">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1349256091223" ID="ID_1582141561" MODIFIED="1349275750706">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>abstract</b>&#160;class MyAbstract {
+    </p>
+    <p>
+      &#160;&#160;&#160;...
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1349275692175" ID="ID_604513888" MODIFIED="1349275740431">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">abstract</font></b><font color="#0033ff">&#160;void getData()&#160;{ </font>
+    </p>
+    <p>
+      <font color="#0033ff">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1348819773063" ID="ID_547616111" MODIFIED="1349256373253" TEXT="methods">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1348822027597" ID="ID_515885813" MODIFIED="1348822701895" TEXT="what object does">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1348819833895" ID="ID_1184383762" MODIFIED="1348821579774" TEXT="args">
+<node CREATED="1348819833895" FOLDED="true" ID="ID_1184383762" MODIFIED="1349256659385" TEXT="args">
 <node CREATED="1348819841104" ID="ID_1584036128" MODIFIED="1348821940989">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -333,6 +477,23 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1349256408889" FOLDED="true" ID="ID_1065496150" MODIFIED="1349256663292" TEXT="generics">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1349256412999" ID="ID_523481923" MODIFIED="1349256570514">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">if used </font><font size="3" color="#0033ff">ArrayList<b>&lt;Object&gt;</b></font><b><font size="3">&#160; </font></b><font size="3">than only </font><font size="3" color="#0033ff">Object</font><font size="3">&#160;coud be returned from </font><font size="3" color="#0033ff">ArrayList</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -607,7 +768,7 @@ try {
 </node>
 <node COLOR="#ff0000" CREATED="1349080880666" ID="ID_1434291483" MODIFIED="1349081976370" POSITION="right" TEXT="util">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#0033ff" CREATED="1349080893673" FOLDED="true" ID="ID_221045770" MODIFIED="1349083135690" TEXT="ArrayList">
+<node COLOR="#0033ff" CREATED="1349080893673" FOLDED="true" ID="ID_221045770" MODIFIED="1349195378989" TEXT="ArrayList">
 <node COLOR="#0033ff" CREATED="1349081169270" ID="ID_1954782226" LINK="src/general/utils/ArrayList-Examples.java" MODIFIED="1349081489116" TEXT="ArrayListExamples.java"/>
 <node COLOR="#0033ff" CREATED="1349081000219" ID="ID_925826396" MODIFIED="1349081072015" TEXT="add(Object elem)"/>
 <node COLOR="#0033ff" CREATED="1349081013231" ID="ID_959530617" MODIFIED="1349081128746" TEXT="remove(int index)"/>
@@ -617,6 +778,15 @@ try {
 <node COLOR="#0033ff" CREATED="1349081035020" ID="ID_1395288392" MODIFIED="1349081128743" TEXT="indexOf(Objct elem)"/>
 <node COLOR="#0033ff" CREATED="1349081040135" ID="ID_1313714073" MODIFIED="1349081128743" TEXT="size()"/>
 <node COLOR="#0033ff" CREATED="1349081046583" ID="ID_34350624" MODIFIED="1349081128742" TEXT="get(int index)"/>
+</node>
+</node>
+<node COLOR="#ff0000" CREATED="1349195361914" ID="ID_169791074" MODIFIED="1349195367790" POSITION="right" TEXT="lang">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node COLOR="#0033ff" CREATED="1349195369100" FOLDED="true" ID="ID_1734836153" MODIFIED="1349195427830" TEXT="Object">
+<node COLOR="#0033ff" CREATED="1349195374243" ID="ID_1339692646" MODIFIED="1349195396816" TEXT="hashCode()"/>
+<node COLOR="#0033ff" CREATED="1349195388382" ID="ID_1910831618" MODIFIED="1349195396817" TEXT="getClass()"/>
+<node COLOR="#0033ff" CREATED="1349195414036" ID="ID_1490067708" MODIFIED="1349195425138" TEXT="equals()"/>
+<node COLOR="#0033ff" CREATED="1349195418950" ID="ID_425087759" MODIFIED="1349195425137" TEXT="toString()"/>
 </node>
 </node>
 <node COLOR="#669900" CREATED="1298647501042" ID="ID_485816813" MODIFIED="1298890191096" POSITION="right" TEXT="Concurency">
