@@ -53,6 +53,13 @@
 <node CREATED="1324047965695" ID="ID_890940857" LINK="http://www.nslms.com/2008/12/14/uploading-to-flickr-from-picasa-on-linux/" MODIFIED="1324047980620" TEXT="install flickr plugin"/>
 </node>
 </node>
+<node CREATED="1349373401290" ID="ID_1391707833" MODIFIED="1349373403974" TEXT="Music">
+<node CREATED="1349373404561" ID="ID_474345154" MODIFIED="1349373407886" TEXT="rhythmbox">
+<node CREATED="1349373408975" ID="ID_1210463120" MODIFIED="1349373417630" TEXT="equalizer">
+<node CREATED="1349373418829" ID="ID_387619993" LINK="http://askubuntu.com/questions/109297/how-do-i-install-an-equalizer-in-rhythmbox" MODIFIED="1349373427024" TEXT="1"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1296726260831" ID="ID_1130237789" MODIFIED="1296726269861" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" ID="ID_525954360" MODIFIED="1343156522675" TEXT="web">
