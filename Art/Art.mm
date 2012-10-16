@@ -125,6 +125,11 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1350396945466" ID="ID_691283919" MODIFIED="1350403542984" TEXT="eShops">
+<node CREATED="1350396948320" ID="ID_1004455571" LINK="http://guitarcity.com.ua/index.php?cPath=57_68&amp;sort=products_sort_order&amp;page=5" MODIFIED="1350396951299" TEXT="ua1"/>
+<node CREATED="1350396952474" ID="ID_1108263538" LINK="http://www.seymourduncan.com/" MODIFIED="1350396979773" TEXT="seymor dunkan"/>
+<node CREATED="1350396992300" ID="ID_463473652" LINK="http://www.guitarcenter.com/" MODIFIED="1350397000320" TEXT="guitar center"/>
+</node>
 </node>
 </node>
 </node>

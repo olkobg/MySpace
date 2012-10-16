@@ -96,7 +96,7 @@
 </node>
 <node CREATED="1298889762113" ID="ID_394235250" MODIFIED="1298889813227" TEXT="variables">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#ff0000" CREATED="1298889766043" ID="ID_665028452" MODIFIED="1348821994673" TEXT="Instance variables">
+<node COLOR="#ff0000" CREATED="1298889766043" FOLDED="true" ID="ID_665028452" MODIFIED="1349801583916" TEXT="Instance variables">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1348822003378" ID="ID_632348410" MODIFIED="1348822018037" TEXT="what object knows">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -126,7 +126,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1298889769488" ID="ID_1861074762" MODIFIED="1298889806455" TEXT="local">
+<node COLOR="#ff0000" CREATED="1298889769488" FOLDED="true" ID="ID_1861074762" MODIFIED="1349801580372" TEXT="local">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1298889793603" ID="ID_1788884159" MODIFIED="1298889795190" TEXT="Local variables are declared within a method."/>
 <node CREATED="1298889832575" ID="ID_1822693546" MODIFIED="1298889841069">
@@ -145,7 +145,7 @@
 </node>
 <node CREATED="1309857488984" ID="ID_1716692355" MODIFIED="1309857556224" TEXT="return">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1309857556207" ID="ID_394307787" MODIFIED="1309857568367" TEXT="smaller">
+<node CREATED="1309857556207" FOLDED="true" ID="ID_394307787" MODIFIED="1349801605225" TEXT="smaller">
 <node CREATED="1309857494505" ID="ID_224356602" MODIFIED="1309857551819" TEXT="You must use an explicit cast when the declared type is smaller than what you&#x2019;re trying to return"/>
 </node>
 </node>
@@ -222,8 +222,7 @@
       <b>(int)</b>&#160;getValue;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1349256183593" ID="ID_570161937" MODIFIED="1349256311842">
@@ -236,8 +235,7 @@
       &#160;&#160;Dog d = <b>(Dog)</b>&#160;x.getObject(aDog);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -363,8 +361,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1349255909211" FOLDED="true" ID="ID_1742129055" MODIFIED="1349275785449" TEXT="inheriatance">
@@ -388,8 +385,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1349255924716" ID="ID_1827805548" MODIFIED="1349275780371">
 <richcontent TYPE="NODE"><html>
@@ -404,8 +400,7 @@
       <b>this( )</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1349256100064" FOLDED="true" ID="ID_153250547" MODIFIED="1349275787379" TEXT="abstract">
@@ -426,8 +421,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1349275692175" ID="ID_604513888" MODIFIED="1349275740431">
 <richcontent TYPE="NODE"><html>
@@ -442,8 +436,7 @@
       <font color="#0033ff">}</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1348819773063" ID="ID_547616111" MODIFIED="1349256373253" TEXT="methods">
@@ -492,8 +485,7 @@
       <font size="3">if used </font><font size="3" color="#0033ff">ArrayList<b>&lt;Object&gt;</b></font><b><font size="3">&#160; </font></b><font size="3">than only </font><font size="3" color="#0033ff">Object</font><font size="3">&#160;coud be returned from </font><font size="3" color="#0033ff">ArrayList</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
