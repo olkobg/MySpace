@@ -42,7 +42,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1331713276883" ID="ID_1982378087" MODIFIED="1331713278492" TEXT="lin"/>
+<node CREATED="1331713276883" ID="ID_1982378087" MODIFIED="1331713278492" TEXT="lin">
+<node COLOR="#0033ff" CREATED="1350426609593" ID="ID_926913916" MODIFIED="1350426704801" TEXT="mount -t nfs nameofcomputer:/directory_on_that_machine /directory_you_should_have_already_created"/>
+<node COLOR="#0033ff" CREATED="1350427224632" ID="ID_360896702" MODIFIED="1350427251255" TEXT="mount -t nfs4 server:/ your_directory">
+<node CREATED="1350427253411" ID="ID_1509699047" MODIFIED="1350427269066" TEXT="in case server dir marked as fsid=0"/>
+</node>
+</node>
 </node>
 <node CREATED="1331713356750" ID="ID_829738455" MODIFIED="1331713358591" POSITION="left" TEXT="server"/>
 </node>
