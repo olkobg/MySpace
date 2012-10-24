@@ -11,7 +11,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1328617043258" ID="ID_58976500" LINK="http://vmware.com" MODIFIED="1328617082473" TEXT="vmWare">
+<node CREATED="1328617043258" ID="ID_58976500" LINK="http://vmware.com/" MODIFIED="1350983272095" TEXT="vmWare">
 <node CREATED="1328617324994" ID="ID_227307591" MODIFIED="1328617345983" TEXT="products">
 <node CREATED="1328617345963" ID="ID_1627048671" MODIFIED="1328617351694" TEXT="Desktop">
 <node CREATED="1328617328546" ID="ID_328125451" MODIFIED="1328617389425" TEXT="Player(free)"/>
@@ -33,6 +33,11 @@
 <node CREATED="1329128837307" ID="ID_1478129280" LINK="http://weltall.heliohost.org/" MODIFIED="1329128845753" TEXT="Weltall"/>
 </node>
 </node>
+<node CREATED="1350983178026" ID="ID_1839287286" LINK="http://www.openstack.org/" MODIFIED="1350983265830" TEXT="OpenStack">
+<node CREATED="1350983183381" ID="ID_1263939806" LINK="http://www.cisco.com/web/solutions/openstack/index.html" MODIFIED="1350983194382" TEXT="by Cisco">
+<node CREATED="1350983195529" ID="ID_807141278" LINK="http://docwiki.cisco.com/wiki/OpenStack:Folsom" MODIFIED="1350983228470" TEXT="wiki"/>
+</node>
+</node>
 </node>
 <node CREATED="1328617310956" ID="ID_1550101303" MODIFIED="1328617312507" POSITION="left" TEXT="name ">
 <node CREATED="1328617574017" ID="ID_117147564" MODIFIED="1328617581920" TEXT="VIRTUALIZATION">
@@ -50,8 +55,7 @@
       <b>VirtualBOX</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1330096888351" ID="ID_1310570090" MODIFIED="1330097005605">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -62,8 +66,7 @@
       <font color="#000000"><b>2 </b></font><b><font color="#0000ff">Vmware Player</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1330097012735" ID="ID_1306069594" LINK="http://scottlinux.com/2011/06/24/convert-vdi-to-vmdk-virtualbox-to-vmware/" MODIFIED="1330097027860" TEXT="blog"/>
 <node CREATED="1330097136894" ID="ID_1009717987" LINK="http://www.dedoimedo.com/computers/virtualbox-convert.html" MODIFIED="1330097140661" TEXT="site"/>
 </node>
