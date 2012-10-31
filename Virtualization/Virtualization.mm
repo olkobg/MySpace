@@ -34,7 +34,18 @@
 </node>
 </node>
 <node CREATED="1350983178026" ID="ID_1839287286" LINK="http://www.openstack.org/" MODIFIED="1350983265830" TEXT="OpenStack">
-<node CREATED="1350983183381" ID="ID_1263939806" LINK="http://www.cisco.com/web/solutions/openstack/index.html" MODIFIED="1350983194382" TEXT="by Cisco">
+<node CREATED="1350983183381" ID="ID_1263939806" LINK="http://www.cisco.com/web/solutions/openstack/index.html" MODIFIED="1351611954901">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Cisco </b>Bundle
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1350983195529" ID="ID_807141278" LINK="http://docwiki.cisco.com/wiki/OpenStack:Folsom" MODIFIED="1350983228470" TEXT="wiki"/>
 </node>
 </node>
