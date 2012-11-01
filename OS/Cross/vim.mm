@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1297692830782" ID="ID_1675629856" LINK="Ulike.mm" MODIFIED="1310045276617" TEXT="vim">
+<node COLOR="#990099" CREATED="1297692830782" ID="ID_1675629856" LINK="../Crossplatform.mm" MODIFIED="1351777232291" TEXT="vim">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
 <node CREATED="1297692832611" ID="ID_963268630" MODIFIED="1297692838428" POSITION="left" TEXT="fork">
 <node CREATED="1297692838824" ID="ID_894392305" LINK="https://github.com/carlhuda/janus" MODIFIED="1297692843016" TEXT="Janus"/>
@@ -34,8 +34,46 @@
 <node CREATED="1322655276139" ID="ID_144269626" LINK="http://www.scottmurphy.info/cygwin-windows-vi-vim-backspace-arrow-keys-doesnt-do-not-work-right" MODIFIED="1322655287545" TEXT="work properly"/>
 </node>
 </node>
-<node CREATED="1310044236747" ID="ID_424960842" MODIFIED="1310470147292" POSITION="right" TEXT="Tabulation">
-<node CREATED="1310044404621" ID="ID_1292241249" MODIFIED="1310044405925" TEXT="tabstop Set tabstop to tell vim how many columns a tab counts for. Linux kernel code expects each tab to be eight columns wide. Visual Studio expects each tab to be four columns wide. This is the only command here that will affect how existing text displays.  expandtab When expandtab is set, hitting Tab in insert mode will produce the appropriate number of spaces.  shiftwidth Set shiftwidth to control how many columns text is indented with the reindent operations (&lt;&lt; and &gt;&gt;) and automatic C-style indentation.  softtabstop Set softtabstop to control how many columns vim uses when you hit Tab in insert mode. If softtabstop is less than tabstop and expandtab is not set, vim will use a combination of tabs and spaces to make up the desired spacing. If softtabstop equals tabstop and expandtab is not set, vim will always use tabs. When expandtab is set, vim will always use the appropriate number of spaces.  "/>
+<node CREATED="1310044236747" FOLDED="true" ID="ID_424960842" MODIFIED="1351787862699" POSITION="right" TEXT="Tabulation">
+<node CREATED="1310044404621" ID="ID_1292241249" MODIFIED="1351787744869">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>tabstop</b>&#160;Set tabstop to tell vim how many columns a tab counts for.
+    </p>
+    <p>
+      &#160;&#160;- Linux kernel code expects each tab to be eight columns wide.
+    </p>
+    <p>
+      &#160;&#160;- Visual Studio expects each tab to be four columns wide.
+    </p>
+    <p>
+      This is the only command here that will affect how existing text displays.&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>expandtab</b>&#160;When expandtab is set, hitting Tab in insert mode will produce the appropriate number of spaces.&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>shiftwidth</b>&#160;Set shiftwidth to control how many columns text is indented with the reindent operations (&lt;&lt; and &gt;&gt;) and automatic C-style indentation.&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>softtabstop</b>&#160;Set softtabstop to control how many columns vim uses when you hit Tab in insert mode. If softtabstop is less than <i><b>tabstop</b></i>&#160; and <i><b>expandtab</b></i>&#160;is not set, vim will use a combination of tabs and spaces to make up the desired spacing. If <b>softtabstop</b>&#160;equals <i><b>tabstop</b></i>&#160; and <i><b>expandtab</b></i>&#160;is not set, vim will always use tabs. When expandtab is set, vim will always use the appropriate number of spaces.
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node COLOR="#0033ff" CREATED="1310044409676" ID="ID_1676944467" MODIFIED="1310045250150" TEXT=":set tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab"/>
 <node COLOR="#0033ff" CREATED="1310044415971" ID="ID_1009113236" MODIFIED="1310045250149" TEXT=":set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab"/>
 <node COLOR="#0033ff" CREATED="1310044425146" ID="ID_1734211713" MODIFIED="1310045250148" TEXT=":set tabstop=2 softtabstop=2 shiftwidth=2 noexpandtab "/>
