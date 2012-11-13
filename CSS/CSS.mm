@@ -5,8 +5,8 @@
 <node CREATED="1329167857520" ID="ID_1738733773" MODIFIED="1329167859684" POSITION="right" TEXT="Fonts">
 <node CREATED="1329167860573" ID="ID_1617167628" LINK="http://www.webfonts.info/wiki/index.php?title=%40font-face_support_in_Firefox" MODIFIED="1329167893664" TEXT="Web Fonts - Firefox"/>
 </node>
-<node CREATED="1333056389137" ID="ID_1127662998" MODIFIED="1333056394765" POSITION="left" TEXT="background">
-<node COLOR="#990099" CREATED="1333056395443" ID="ID_402701821" MODIFIED="1333099117720" TEXT="transparent">
+<node COLOR="#0033ff" CREATED="1333056389137" ID="ID_1127662998" MODIFIED="1352817329436" POSITION="left" TEXT="background">
+<node COLOR="#990099" CREATED="1333056395443" FOLDED="true" ID="ID_402701821" MODIFIED="1352817323585" TEXT="transparent">
 <node COLOR="#0033ff" CREATED="1333056429605" ID="ID_1741786650" MODIFIED="1333098261851">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -22,9 +22,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1338239998207" ID="ID_766402262" MODIFIED="1338242886293" POSITION="left" TEXT="box">
-<node CREATED="1336845362558" ID="ID_1421273977" MODIFIED="1336845364391" TEXT="border">
-<node CREATED="1336845365448" ID="ID_1780697231" LINK="http://www.css3.info/preview/rounded-border/" MODIFIED="1336845486955" TEXT="radius">
+<node COLOR="#0033ff" CREATED="1338239998207" ID="ID_766402262" MODIFIED="1352817329437" POSITION="left" TEXT="box">
+<node COLOR="#0033ff" CREATED="1336845362558" ID="ID_1421273977" MODIFIED="1352817332843" TEXT="border">
+<node COLOR="#0033ff" CREATED="1336845365448" ID="ID_1780697231" LINK="http://www.css3.info/preview/rounded-border/" MODIFIED="1352817335008" TEXT="radius">
 <node COLOR="#0033ff" CREATED="1336845502117" ID="ID_84836676" MODIFIED="1336845526236">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -49,13 +49,12 @@
       -moz-border-radius-bottomright: 50px 25px;<br />border-bottom-right-radius: 50px 25px;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1338239993612" ID="ID_781897182" MODIFIED="1338242888867" TEXT="shadow">
+<node COLOR="#0033ff" CREATED="1338239993612" ID="ID_781897182" MODIFIED="1352817332842" TEXT="shadow">
 <node CREATED="1338240003013" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1338242889580" TEXT="site1">
 <node COLOR="#0033ff" CREATED="1338240386255" ID="ID_813752905" MODIFIED="1338240456422">
 <richcontent TYPE="NODE"><html>
@@ -79,8 +78,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1338240047506" ID="ID_1108520539" MODIFIED="1338240378788">
 <richcontent TYPE="NODE"><html>
@@ -106,14 +104,13 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1338240016539" ID="ID_1015713349" LINK="http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/" MODIFIED="1338240033121" TEXT="site2"/>
 </node>
 </node>
-<node CREATED="1336940083970" ID="ID_657813283" MODIFIED="1337895069988" POSITION="right" TEXT="Tricks">
+<node CREATED="1336940083970" ID="ID_657813283" MODIFIED="1352817304559" POSITION="right" TEXT="Tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1337895069867" ID="ID_437743830" MODIFIED="1337895071546" TEXT="menu">
 <node CREATED="1337895075588" ID="ID_494470881" MODIFIED="1337895081818" TEXT="pipe separators">
@@ -121,6 +118,19 @@
 <node CREATED="1337895209047" ID="ID_1430090062" LINK="http://stackoverflow.com/questions/567988/nav-menu-rendering-dividing-pipe-characters" MODIFIED="1337895216527" TEXT="so"/>
 </node>
 <node CREATED="1336940086438" ID="ID_439660483" LINK="http://www.dynamicdrive.com/dynamicindex1/ddsmoothmenu.htm" MODIFIED="1336940094646" TEXT="ddsmenu"/>
+</node>
+</node>
+<node COLOR="#cc3300" CREATED="1352817196890" ID="ID_1052342100" MODIFIED="1352817305297" POSITION="right" TEXT="hacks">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1352817281211" ID="ID_1327576642" MODIFIED="1352817283952" TEXT="all">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1352817199979" ID="ID_1130436337" LINK="http://css-tricks.com/how-to-create-an-ie-only-stylesheet/" MODIFIED="1352817226814" TEXT="1"/>
+<node CREATED="1352817204519" ID="ID_659788434" LINK="http://www.webdevout.net/css-hacks" MODIFIED="1352817233681" TEXT="2"/>
+</node>
+<node CREATED="1352817253460" ID="ID_1829518153" MODIFIED="1352817279135" TEXT="opera">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1352817230139" ID="ID_909497027" LINK="http://stackoverflow.com/questions/1120335/how-to-make-css-visible-only-for-opera" MODIFIED="1352817263518" TEXT="1"/>
+<node CREATED="1352817264007" ID="ID_338981909" LINK="http://bricss.net/post/11230266445/css-hack-to-target-opera" MODIFIED="1352817276980" TEXT="2"/>
 </node>
 </node>
 </node>

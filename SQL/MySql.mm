@@ -16,7 +16,7 @@
 <node CREATED="1295343292234" ID="ID_11758781" MODIFIED="1295343302823" TEXT="used for both windows and unix environments"/>
 </node>
 </node>
-<node CREATED="1299247772112" FOLDED="true" ID="ID_748683254" MODIFIED="1352393073732" POSITION="left" TEXT="Stored Procedures">
+<node CREATED="1299247772112" FOLDED="true" ID="ID_748683254" MODIFIED="1352799024267" POSITION="left" TEXT="Stored Procedures">
 <node COLOR="#0033ff" CREATED="1299247779698" ID="ID_1412236481" MODIFIED="1328173884708">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -70,20 +70,17 @@
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1302007143908" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.1/en/date-and-time-functions.html" MODIFIED="1302007376593" TEXT="Date">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1302007150139" FOLDED="true" ID="ID_883712081" MODIFIED="1352393070987" TEXT="func">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#0033ff" CREATED="1302007157338" ID="ID_17478224" MODIFIED="1349875785574" TEXT="MONTH( )">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#0033ff" CREATED="1302007157338" ID="ID_17478224" MODIFIED="1352799007543" TEXT="MONTH( )">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1302007163241" ID="ID_1742240784" MODIFIED="1349875787141" TEXT="FROM_UNIXTIME( )">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#0033ff" CREATED="1302007163241" ID="ID_1742240784" MODIFIED="1352799007543" TEXT="FROM_UNIXTIME( )">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1302007168448" ID="ID_1511338143" MODIFIED="1349875789527" TEXT="MONTHNAME( )">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#0033ff" CREATED="1302007168448" ID="ID_1511338143" MODIFIED="1352799007544" TEXT="MONTHNAME( )">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1302007173823" ID="ID_1644539819" MODIFIED="1349875791137" TEXT="YEAR( )">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-</node>
+<node COLOR="#0033ff" CREATED="1302007173823" ID="ID_1644539819" MODIFIED="1352799007544" TEXT="YEAR( )">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1302007331889" ID="ID_1477792891" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1328173739031" TEXT="v5.5">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -95,13 +92,32 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1328173566119" ID="ID_1115071291" MODIFIED="1328173856616" TEXT="CREATE TABLE">
+<node CREATED="1328173566119" ID="ID_1115071291" MODIFIED="1352798970323" TEXT="CREATE TABLE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328173641428" ID="ID_1556549863" LINK="http://dev.mysql.com/doc/refman/5.1/en/create-table.html" MODIFIED="1328173733176" TEXT="v5.1">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#0033ff" CREATED="1352798859363" ID="ID_1471141329" MODIFIED="1352798961169">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CREATE DATABASE &lt;database name&gt;
+    </p>
+    <p>
+      &#160;[DEFAUL CHARACTER SET = &lt;character set name&gt;]
+    </p>
+    <p>
+      &#160;[DEFAULT COLLATION = &lt;colaltion&gt;]
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1328174837621" FOLDED="true" ID="ID_157638723" MODIFIED="1352393065885" TEXT="ALTER TABLE">
+</node>
+<node CREATED="1328174837621" FOLDED="true" ID="ID_157638723" MODIFIED="1352798994975" TEXT="ALTER TABLE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328174842620" ID="ID_303510877" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1328174848362" TEXT="v 5.1">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -140,7 +156,7 @@
 </node>
 <node COLOR="#ff0000" CREATED="1320946456590" ID="ID_810700224" MODIFIED="1352390335285" POSITION="left" TEXT="TIPS">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1320946458758" FOLDED="true" ID="ID_210105990" MODIFIED="1352393062643" TEXT="tables with column name">
+<node CREATED="1320946458758" FOLDED="true" ID="ID_210105990" MODIFIED="1352799041363" TEXT="tables with column name">
 <node COLOR="#0033ff" CREATED="1320946471860" ID="ID_197018626" MODIFIED="1320946517413">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -161,7 +177,7 @@
 </node>
 </node>
 <node CREATED="1334757024106" ID="ID_1588593607" MODIFIED="1334757036038" TEXT="generating dump">
-<node CREATED="1334757036368" FOLDED="true" ID="ID_603425483" MODIFIED="1352393061025" TEXT="xml">
+<node CREATED="1334757036368" FOLDED="true" ID="ID_603425483" MODIFIED="1352799034045" TEXT="xml">
 <node COLOR="#0033ff" CREATED="1334757039475" ID="ID_1812803923" MODIFIED="1334757044221" TEXT="mysqldump --xml -t -u [username] --password=[password] [database] &gt; /path/to/file.xml"/>
 </node>
 </node>
