@@ -9,7 +9,7 @@
 <node CREATED="1295343262858" ID="ID_1082517732" MODIFIED="1295343269591" TEXT="just use . instead of host name"/>
 </node>
 </node>
-<node CREATED="1295343256266" FOLDED="true" ID="ID_1448955835" MODIFIED="1352390316188" TEXT="unix">
+<node CREATED="1295343256266" FOLDED="true" ID="ID_1448955835" MODIFIED="1352978177777" TEXT="unix">
 <node CREATED="1295343304585" ID="ID_1301350965" MODIFIED="1295343306521" TEXT="socket"/>
 </node>
 <node CREATED="1295343288730" FOLDED="true" ID="ID_937813895" MODIFIED="1352390315933" TEXT="tcp/ip">
@@ -66,9 +66,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1302007141732" ID="ID_1212392289" MODIFIED="1328173951302" POSITION="left" TEXT="Syntax">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1302007143908" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.1/en/date-and-time-functions.html" MODIFIED="1302007376593" TEXT="Date">
+<node CREATED="1302007143908" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.1/en/date-and-time-functions.html" MODIFIED="1302007376593" POSITION="left" TEXT="Date">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1302007157338" ID="ID_17478224" MODIFIED="1352799007543" TEXT="MONTH( )">
 <font NAME="SansSerif" SIZE="12"/>
@@ -86,14 +84,22 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1349875759209" FOLDED="true" ID="ID_646879198" MODIFIED="1352393068895" TEXT="String">
+<node CREATED="1349875759209" ID="ID_646879198" MODIFIED="1352978069962" POSITION="left" TEXT="String">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1349875769533" ID="ID_1426053239" MODIFIED="1349875781945" TEXT="LENGTH( )">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1328173566119" ID="ID_1115071291" MODIFIED="1352798970323" TEXT="CREATE TABLE">
+<node COLOR="#0033ff" CREATED="1352978089919" ID="ID_597483296" MODIFIED="1352978151922" POSITION="left" TEXT="information_schema">
+<node COLOR="#0033ff" CREATED="1352978101798" ID="ID_42747466" MODIFIED="1352978146894" TEXT="COLUMNS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1352978137229" ID="ID_487206255" MODIFIED="1352978141785" TEXT="TABLES">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1328173566119" ID="ID_1115071291" MODIFIED="1352978085612" POSITION="left" TEXT="CREATE TABLE">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328173641428" ID="ID_1556549863" LINK="http://dev.mysql.com/doc/refman/5.1/en/create-table.html" MODIFIED="1328173733176" TEXT="v5.1">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -113,12 +119,11 @@
       &#160;[DEFAULT COLLATION = &lt;colaltion&gt;]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1328174837621" FOLDED="true" ID="ID_157638723" MODIFIED="1352798994975" TEXT="ALTER TABLE">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1328174837621" FOLDED="true" ID="ID_157638723" MODIFIED="1352978085612" POSITION="left" TEXT="ALTER TABLE">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328174842620" ID="ID_303510877" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1328174848362" TEXT="v 5.1">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -147,11 +152,10 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1328173600905" ID="ID_1528012442" MODIFIED="1328173857080" TEXT="REPLACE">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1328173600905" ID="ID_1528012442" MODIFIED="1352978085611" POSITION="left" TEXT="REPLACE">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328173672312" ID="ID_227560750" LINK="http://dev.mysql.com/doc/refman/5.0/en/replace.html" MODIFIED="1328617098520" TEXT="v5.0">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
 </node>
 </node>
 <node COLOR="#ff0000" CREATED="1320946456590" ID="ID_810700224" MODIFIED="1352390335285" POSITION="left" TEXT="TIPS">
