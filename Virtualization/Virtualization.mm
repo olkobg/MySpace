@@ -33,7 +33,7 @@
 <node CREATED="1329128837307" ID="ID_1478129280" LINK="http://weltall.heliohost.org/" MODIFIED="1329128845753" TEXT="Weltall"/>
 </node>
 </node>
-<node CREATED="1350983178026" ID="ID_1839287286" LINK="http://www.openstack.org/" MODIFIED="1350983265830" TEXT="OpenStack">
+<node CREATED="1350983178026" ID="ID_1839287286" LINK="http://www.openstack.org/" MODIFIED="1353074092051" TEXT="OpenStack">
 <node CREATED="1350983183381" ID="ID_1263939806" LINK="http://www.cisco.com/web/solutions/openstack/index.html" MODIFIED="1351611954901">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -44,9 +44,143 @@
       <b>Cisco </b>Bundle
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1350983195529" ID="ID_807141278" LINK="http://docwiki.cisco.com/wiki/OpenStack:Folsom" MODIFIED="1350983228470" TEXT="wiki"/>
+</node>
+<node CREATED="1353074019339" FOLDED="true" ID="ID_395462762" MODIFIED="1353074106887">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import from <b>vmware</b>
+    </p>
+  </body>
 </html>
 </richcontent>
-<node CREATED="1350983195529" ID="ID_807141278" LINK="http://docwiki.cisco.com/wiki/OpenStack:Folsom" MODIFIED="1350983228470" TEXT="wiki"/>
+<node CREATED="1353074035470" ID="ID_1173630315" MODIFIED="1353074039896">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 http-equiv="content-type" style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; margin-top: 0; font-variant: normal; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; margin-right: 0px; line-height: normal; text-transform: none; white-space: normal; text-align: start; margin-left: 0px; word-spacing: 0px; font-size: 22px; margin-bottom: 0px" class="post-title entry-title" content="text/html; charset=utf-8" itemprop="name">
+      How to add vmware and VirtualBox image in openstack
+    </h3>
+    <div style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; font-variant: normal; margin-top: 0px; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; margin-right: 0px; line-height: 1.6; text-transform: none; white-space: normal; text-align: start; margin-left: 0px; word-spacing: 0px; font-size: 11px; margin-bottom: 0" class="post-header">
+      <div class="post-header-line-1">
+        
+      </div>
+    </div>
+    <div style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; font-variant: normal; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; line-height: 1.4; text-transform: none; white-space: normal; text-align: start; word-spacing: 0px; font-size: 13px; width: 570px" class="post-body entry-content" itemprop="description articleBody" id="post-body-2658313175746232456">
+      <div style="text-align: left" dir="ltr" trbidi="on">
+        <div style="text-align: justify">
+          <b>VMware</b>
+        </div>
+        <div style="text-align: justify">
+          <br />
+          
+        </div>
+        <div style="text-align: justify">
+          Vmware will create vm with disk image *.vmdk , first locate the file (you can do this by selecting the setting of corresponding vm and select &quot;Hard Disk(scsi) or usualy it will be in &quot;Virtual Machine&quot; folder created during vmware installation)
+        </div>
+        <div style="text-align: justify">
+          Then copy the file in to your openstack cloud system (you can use scp for this).
+        </div>
+        <div style="text-align: justify">
+          <br />
+          
+        </div>
+        <div style="text-align: justify">
+          <div style="text-align: left">
+            glance add -A &lt;admin_password&gt; name=&quot;&lt;image name&gt;&quot; is_public=true container_format=bare disk_format=vmdk &lt; myvm.vmdk
+          </div>
+        </div>
+        <div style="text-align: justify">
+          <br />
+          
+        </div>
+        <div style="text-align: justify">
+          NOTE : change<br />
+
+          <div style="text-align: left">
+            &lt;admin_password&gt; = your glance admin password
+          </div>
+        </div>
+        <div style="text-align: justify">
+          <div style="text-align: left">
+            &lt;image name&gt; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= &#160;name of image , this name will be shown &#160;in your dashboard after you upload
+          </div>
+        </div>
+        <div style="text-align: justify">
+          <div style="text-align: left">
+            &#160;myvm.vmdk &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= your virtual machine name .vmdk(the file which you coppied)
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1353074042091" FOLDED="true" ID="ID_485155748" MODIFIED="1353074108764">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import form <b>Virtual Box</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1353074058337" ID="ID_806814594" MODIFIED="1353074088588">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; font-variant: normal; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; line-height: 18px; text-transform: none; white-space: normal; text-align: justify; word-spacing: 0px; font-size: 13px">
+      <b>VirtualBox</b>
+    </div>
+    <div style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; font-variant: normal; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; line-height: 18px; text-transform: none; white-space: normal; text-align: justify; word-spacing: 0px; font-size: 13px">
+      <br />
+      
+    </div>
+    <div style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; font-variant: normal; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; line-height: 18px; text-transform: none; white-space: normal; text-align: justify; word-spacing: 0px; font-size: 13px">
+      &#160;&#160;In case of VirtualBox it create vm with disk image *.vdi as default. Locate it and copy to your openstack cloud system<br /><br />
+    </div>
+    <div style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; font-variant: normal; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; line-height: 18px; text-transform: none; white-space: normal; text-align: justify; word-spacing: 0px; font-size: 13px">
+      glance add -A &lt;admin_password&gt; name=&quot;&lt;image name&gt;&quot; is_public=true container_format=bare disk_formate=vdi &lt; myvm.vdi
+    </div>
+    <div style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; font-variant: normal; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; line-height: 18px; text-transform: none; white-space: normal; text-align: justify; word-spacing: 0px; font-size: 13px">
+      <br />
+      
+    </div>
+    <div style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; font-variant: normal; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; line-height: 18px; text-transform: none; white-space: normal; text-align: justify; word-spacing: 0px; font-size: 13px">
+      NOTE : change<br />
+
+      <div style="text-align: left">
+        &lt;admin_password&gt; - your glance admin password
+      </div>
+    </div>
+    <div style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; font-variant: normal; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; line-height: 18px; text-transform: none; white-space: normal; text-align: justify; word-spacing: 0px; font-size: 13px">
+      <div style="text-align: left">
+        &lt;image name&gt; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-&#160;&#160;name of image , this name will be shown&#160;&#160;your dashboard after you apploaded
+      </div>
+    </div>
+    <div style="color: rgb(34, 34, 34); letter-spacing: normal; font-style: normal; font-variant: normal; background-color: rgb(255, 255, 255); font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-weight: normal; text-indent: 0px; line-height: 18px; text-transform: none; white-space: normal; text-align: justify; word-spacing: 0px; font-size: 13px">
+      <div style="text-align: left">
+        myvm.vdi &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-&#160;&#160;your virtual machine name .vmdk(the file which you coppied)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
