@@ -47,14 +47,14 @@
 </html></richcontent>
 <node CREATED="1350983195529" ID="ID_807141278" LINK="http://docwiki.cisco.com/wiki/OpenStack:Folsom" MODIFIED="1350983228470" TEXT="wiki"/>
 </node>
-<node CREATED="1353074019339" FOLDED="true" ID="ID_395462762" MODIFIED="1353074106887">
+<node CREATED="1353074019339" FOLDED="true" ID="ID_395462762" MODIFIED="1353076464889">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      import from <b>vmware</b>
+      <b>import</b>&#160;from <font color="#0033ff"><b>vmware</b></font>
     </p>
   </body>
 </html>
@@ -125,14 +125,14 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1353074042091" FOLDED="true" ID="ID_485155748" MODIFIED="1353074108764">
+<node CREATED="1353074042091" FOLDED="true" ID="ID_485155748" MODIFIED="1353076460481">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      import form <b>Virtual Box</b>
+      <b>import</b>&#160;form <font color="#0033ff"><b>VirtualBox</b></font>
     </p>
   </body>
 </html>

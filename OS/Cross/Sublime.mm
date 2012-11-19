@@ -17,5 +17,9 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node CREATED="1353338690297" ID="ID_1889510088" MODIFIED="1353338699853" POSITION="left" TEXT="projects">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1353338701198" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1353339117713" TEXT="config"/>
+</node>
 </node>
 </map>
