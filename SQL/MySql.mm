@@ -4,19 +4,19 @@
 <font BOLD="true" NAME="SansSerif" SIZE="21"/>
 <node CREATED="1290076786055" ID="ID_956641942" MODIFIED="1290076788459" POSITION="right" TEXT="Variables"/>
 <node CREATED="1295343247690" ID="ID_1695792282" MODIFIED="1295343287416" POSITION="right" TEXT="connection">
-<node CREATED="1295343251881" FOLDED="true" ID="ID_324878977" MODIFIED="1352390322157" TEXT="windows">
-<node CREATED="1295343258650" FOLDED="true" ID="ID_1267807285" MODIFIED="1352390321793" TEXT="named pipe">
+<node CREATED="1295343251881" FOLDED="true" ID="ID_324878977" MODIFIED="1353415796355" TEXT="windows">
+<node CREATED="1295343258650" FOLDED="true" ID="ID_1267807285" MODIFIED="1353415795951" TEXT="named pipe">
 <node CREATED="1295343262858" ID="ID_1082517732" MODIFIED="1295343269591" TEXT="just use . instead of host name"/>
 </node>
 </node>
-<node CREATED="1295343256266" FOLDED="true" ID="ID_1448955835" MODIFIED="1352978177777" TEXT="unix">
+<node CREATED="1295343256266" FOLDED="true" ID="ID_1448955835" MODIFIED="1353415798802" TEXT="unix">
 <node CREATED="1295343304585" ID="ID_1301350965" MODIFIED="1295343306521" TEXT="socket"/>
 </node>
-<node CREATED="1295343288730" FOLDED="true" ID="ID_937813895" MODIFIED="1352390315933" TEXT="tcp/ip">
+<node CREATED="1295343288730" FOLDED="true" ID="ID_937813895" MODIFIED="1353415801856" TEXT="tcp/ip">
 <node CREATED="1295343292234" ID="ID_11758781" MODIFIED="1295343302823" TEXT="used for both windows and unix environments"/>
 </node>
 </node>
-<node CREATED="1299247772112" FOLDED="true" ID="ID_748683254" MODIFIED="1352799024267" POSITION="left" TEXT="Stored Procedures">
+<node CREATED="1299247772112" FOLDED="true" ID="ID_748683254" MODIFIED="1353415779629" POSITION="left" TEXT="Stored Procedures">
 <node COLOR="#0033ff" CREATED="1299247779698" ID="ID_1412236481" MODIFIED="1328173884708">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -98,7 +98,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1328173566119" ID="ID_1115071291" MODIFIED="1352978085612" POSITION="left" TEXT="CREATE TABLE">
+<node COLOR="#0033ff" CREATED="1328173566119" ID="ID_1115071291" MODIFIED="1353415774435" POSITION="left" TEXT="CREATE TABLE">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328173641428" ID="ID_1556549863" LINK="http://dev.mysql.com/doc/refman/5.1/en/create-table.html" MODIFIED="1328173733176" TEXT="v5.1">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -122,7 +122,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1328174837621" FOLDED="true" ID="ID_157638723" MODIFIED="1352978085612" POSITION="left" TEXT="ALTER TABLE">
+<node COLOR="#0033ff" CREATED="1328174837621" FOLDED="true" ID="ID_157638723" MODIFIED="1353415761015" POSITION="left" TEXT="ALTER TABLE">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328174842620" ID="ID_303510877" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1328174848362" TEXT="v 5.1">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -160,7 +160,7 @@
 </node>
 <node COLOR="#ff0000" CREATED="1320946456590" ID="ID_810700224" MODIFIED="1352390335285" POSITION="left" TEXT="TIPS">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1320946458758" FOLDED="true" ID="ID_210105990" MODIFIED="1352799041363" TEXT="tables with column name">
+<node CREATED="1320946458758" FOLDED="true" ID="ID_210105990" MODIFIED="1353415770102" TEXT="tables with column name">
 <node COLOR="#0033ff" CREATED="1320946471860" ID="ID_197018626" MODIFIED="1320946517413">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -181,7 +181,7 @@
 </node>
 </node>
 <node CREATED="1334757024106" ID="ID_1588593607" MODIFIED="1334757036038" TEXT="generating dump">
-<node CREATED="1334757036368" FOLDED="true" ID="ID_603425483" MODIFIED="1352799034045" TEXT="xml">
+<node CREATED="1334757036368" FOLDED="true" ID="ID_603425483" MODIFIED="1353415766840" TEXT="xml">
 <node COLOR="#0033ff" CREATED="1334757039475" ID="ID_1812803923" MODIFIED="1334757044221" TEXT="mysqldump --xml -t -u [username] --password=[password] [database] &gt; /path/to/file.xml"/>
 </node>
 </node>
@@ -196,6 +196,32 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1353402378051" FOLDED="true" ID="ID_1330433967" LINK="http://www.cyberciti.biz/tips/howto-copy-mysql-database-remote-server.html" MODIFIED="1353413652907">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>copy</b>&#160;<b>db</b>&#160;to <b>another</b>&#160;<b>server</b>&#160;with <b>console</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#0033ff" CREATED="1353413447302" ID="ID_1274334393" MODIFIED="1353413639491">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>./mysqldump</b>&#160;<b>-u</b>username <b>-h</b>host <b>-p</b>Password &lt;source_db_name&gt; <b><font size="4">|</font></b>&#160;<b>mysql</b>&#160;<b>-h</b>dest_host <b>-u</b>dest_user <b>-p</b>&#160;&lt;dest_db_name&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
