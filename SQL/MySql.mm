@@ -90,14 +90,6 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1352978089919" ID="ID_597483296" MODIFIED="1352978151922" POSITION="left" TEXT="information_schema">
-<node COLOR="#0033ff" CREATED="1352978101798" ID="ID_42747466" MODIFIED="1352978146894" TEXT="COLUMNS">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1352978137229" ID="ID_487206255" MODIFIED="1352978141785" TEXT="TABLES">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1328173566119" ID="ID_1115071291" MODIFIED="1353415774435" POSITION="left" TEXT="CREATE TABLE">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328173641428" ID="ID_1556549863" LINK="http://dev.mysql.com/doc/refman/5.1/en/create-table.html" MODIFIED="1328173733176" TEXT="v5.1">
@@ -122,7 +114,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1328174837621" FOLDED="true" ID="ID_157638723" MODIFIED="1353415761015" POSITION="left" TEXT="ALTER TABLE">
+<node COLOR="#ff0000" CREATED="1328174837621" FOLDED="true" ID="ID_157638723" MODIFIED="1353501819164" POSITION="left" TEXT="ALTER TABLE">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328174842620" ID="ID_303510877" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1328174848362" TEXT="v 5.1">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -207,8 +199,7 @@
       <b>copy</b>&#160;<b>db</b>&#160;to <b>another</b>&#160;<b>server</b>&#160;with <b>console</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#0033ff" CREATED="1353413447302" ID="ID_1274334393" MODIFIED="1353413639491">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -219,9 +210,16 @@
       <b>./mysqldump</b>&#160;<b>-u</b>username <b>-h</b>host <b>-p</b>Password &lt;source_db_name&gt; <b><font size="4">|</font></b>&#160;<b>mysql</b>&#160;<b>-h</b>dest_host <b>-u</b>dest_user <b>-p</b>&#160;&lt;dest_db_name&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1352978089919" ID="ID_597483296" MODIFIED="1352978151922" POSITION="right" TEXT="information_schema">
+<node COLOR="#0033ff" CREATED="1352978101798" ID="ID_42747466" MODIFIED="1352978146894" TEXT="COLUMNS">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1352978137229" ID="ID_487206255" MODIFIED="1352978141785" TEXT="TABLES">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
