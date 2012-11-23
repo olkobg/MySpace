@@ -13,7 +13,7 @@
 </node>
 <node CREATED="1352716585132" ID="ID_1303016478" MODIFIED="1352716602808" POSITION="left" TEXT="build system">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1352716591221" ID="ID_1252305111" LINK="http://joeybaker.tumblr.com/post/7304011987/how-to-add-php-validation-to-sublime-text-2" MODIFIED="1352716620031" TEXT="validate php">
+<node CREATED="1352716591221" FOLDED="true" ID="ID_1252305111" LINK="http://joeybaker.tumblr.com/post/7304011987/how-to-add-php-validation-to-sublime-text-2" MODIFIED="1353670928532" TEXT="validate php">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1353670059473" ID="ID_218911513" MODIFIED="1353670170584">
 <richcontent TYPE="NODE"><html>
