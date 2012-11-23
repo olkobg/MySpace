@@ -15,6 +15,31 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1352716591221" ID="ID_1252305111" LINK="http://joeybaker.tumblr.com/post/7304011987/how-to-add-php-validation-to-sublime-text-2" MODIFIED="1352716620031" TEXT="validate php">
 <font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1353670059473" ID="ID_218911513" MODIFIED="1353670170584">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&quot;cmd&quot;: [&quot;/usr/bin/php&quot;, &quot;-l&quot;, &quot;$file&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;selector&quot;: &quot;source.php&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;file_regex&quot;: &quot;^Parse error: .* in (.*?) on line ([0-9]*)&quot;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1353338690297" ID="ID_1889510088" MODIFIED="1353338699853" POSITION="left" TEXT="projects">
