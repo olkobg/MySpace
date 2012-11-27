@@ -15,6 +15,9 @@
 </node>
 <node CREATED="1290773593462" ID="ID_417996470" LINK="jQuery.mm" MODIFIED="1306946330224" TEXT="jQuery">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1354015782893" ID="ID_517049765" LINK="jquery/jqueryUI.mm" MODIFIED="1354015806719" TEXT="jqueryUI">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1294140297055" ID="ID_1539605617" LINK="prototype.mm" MODIFIED="1306946330226" TEXT="prototype">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
