@@ -13,8 +13,7 @@
       $('#inout').<b>text</b>('TRALALA');
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1354038795538" ID="ID_1715900540" MODIFIED="1354038799582" POSITION="right" TEXT="set html">
@@ -28,8 +27,7 @@
       $('#inout').<b>html</b>('&lt;li&gt;item no 1&lt;/li&gt;);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1290773244511" ID="ID_1462650909" MODIFIED="1290773253088" POSITION="right" TEXT="get HTML from element">
@@ -43,8 +41,7 @@
       $(element).<b>html()</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1290779865517" ID="ID_255084957" MODIFIED="1290779867610" POSITION="right" TEXT="Links">
@@ -89,6 +86,84 @@
 </node>
 </node>
 </node>
-<node CREATED="1354015762809" ID="ID_749062094" LINK="jquery/jqueryUI.mm" MODIFIED="1354015762811" POSITION="left" TEXT="UI"/>
+<node CREATED="1354208194752" ID="ID_854680832" MODIFIED="1354208282074" POSITION="left" TEXT="ajax">
+<node COLOR="#0033ff" CREATED="1354208282039" FOLDED="true" ID="ID_173706023" MODIFIED="1354208424788" TEXT="$.post">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1354208202473" ID="ID_809126521" MODIFIED="1354208341265">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>$.post</b>(
+    </p>
+    <p>
+      &#160;&#160;'url',
+    </p>
+    <p>
+      &#160;&#160;{parameter1 : &quot;some value&quot;} ,
+    </p>
+    <p>
+      &#160;function () {
+    </p>
+    <p>
+      &#160;&#160;$('element').doStuff();
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1354208300074" FOLDED="true" ID="ID_617813249" MODIFIED="1354208422263">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(&quot;element&quot;)<b>.load( )</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1354208403552" ID="ID_1502818936" MODIFIED="1354208419574">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(&quot;#sayHello&quot;).click(function() {
+    </p>
+    <p>
+      &#160;&#160;$(&quot;#box&quot;)<b>.load</b>(&quot;microDate.php&quot;,function(responseTxt,statusTxt,xhr){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if(statusTxt==&quot;error&quot;)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;alert(&quot;Error: &quot;+xhr.status+&quot;: &quot;+xhr.statusText);
+    </p>
+    <p>
+      &#160;&#160;});
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1354208425645" ID="ID_1858216774" MODIFIED="1354208430868" TEXT="$.get()">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1354015762809" ID="ID_749062094" LINK="jquery/jqueryUI.mm" MODIFIED="1354208322631" POSITION="left" TEXT="jqueryUI"/>
 </node>
 </map>
