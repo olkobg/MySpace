@@ -53,6 +53,26 @@
 <node COLOR="#0033ff" CREATED="1354003129416" ID="ID_386623953" MODIFIED="1354003151367" TEXT="mouseup()"/>
 <node COLOR="#0033ff" CREATED="1354003132752" ID="ID_1012888022" MODIFIED="1354003151368" TEXT="mousedown()"/>
 </node>
+<node CREATED="1354278101280" ID="ID_1748620744" MODIFIED="1354278104059" POSITION="right" TEXT="attribute">
+<node CREATED="1354278104851" ID="ID_492459151" MODIFIED="1354278107817" TEXT="checkbox">
+<node COLOR="#0033ff" CREATED="1354278108249" ID="ID_1448920860" MODIFIED="1354278113510">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var follower = $j('#' + temp);
+    </p>
+    <p>
+      follower.attr('checked','checked');
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node CREATED="1290773186085" ID="ID_146665972" MODIFIED="1290773188882" POSITION="left" TEXT="Select">
 <node CREATED="1290773189189" ID="ID_608692845" MODIFIED="1290773193319" TEXT="Value from Form ">
 <node COLOR="#0033ff" CREATED="1290773197553" ID="ID_678571855" MODIFIED="1331742761362" TEXT="$(&apos;#input&apos;).val()"/>
@@ -114,8 +134,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1354208300074" FOLDED="true" ID="ID_617813249" MODIFIED="1354208422263">
@@ -128,8 +147,7 @@
       $(&quot;element&quot;)<b>.load( )</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354208403552" ID="ID_1502818936" MODIFIED="1354208419574">
 <richcontent TYPE="NODE"><html>
@@ -156,8 +174,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1354208425645" ID="ID_1858216774" MODIFIED="1354208430868" TEXT="$.get()">
@@ -165,5 +182,6 @@
 </node>
 </node>
 <node CREATED="1354015762809" ID="ID_749062094" LINK="jquery/jqueryUI.mm" MODIFIED="1354208322631" POSITION="left" TEXT="jqueryUI"/>
+<node CREATED="1354281700459" ID="ID_1321766246" LINK="http://code.jquery.com/" MODIFIED="1354281711596" POSITION="left" TEXT="CDN"/>
 </node>
 </map>
