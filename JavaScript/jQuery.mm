@@ -68,9 +68,9 @@
       follower.attr('checked','checked');
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1354544306079" ID="ID_715807544" LINK="http://technosophos.com/content/jquery-checkboxes-checking-and-unchecking-right-way" MODIFIED="1354544312580" TEXT="techsophos"/>
 </node>
 </node>
 <node CREATED="1290773186085" ID="ID_146665972" MODIFIED="1290773188882" POSITION="left" TEXT="Select">

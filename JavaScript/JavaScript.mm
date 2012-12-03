@@ -324,6 +324,21 @@
 <node COLOR="#0033ff" CREATED="1307120347644" ID="ID_13375185" MODIFIED="1328630162995" TEXT="forin"/>
 <node COLOR="#0033ff" CREATED="1307120350811" ID="ID_1139759020" MODIFIED="1328630162994" TEXT="for"/>
 </node>
+<node COLOR="#0033ff" CREATED="1354543290974" ID="ID_1353892888" MODIFIED="1354543295325" TEXT="function">
+<node CREATED="1354543297859" ID="ID_87405008" LINK="http://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language" MODIFIED="1354543328950">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>SO</b>&#160;arguments pass by
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1290779795304" ID="ID_1529456645" MODIFIED="1297155157142" POSITION="left" TEXT="Type Conversion">
 <node CREATED="1290779800255" ID="ID_1854719369" LINK="http://www.jibbering.com/faq/notes/type-conversion/" MODIFIED="1328630117086" TEXT="links1"/>
