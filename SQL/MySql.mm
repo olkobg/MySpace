@@ -116,8 +116,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354284402795" FOLDED="true" ID="ID_721474494" MODIFIED="1354294686198" POSITION="left" TEXT="ALTER">
-<node COLOR="#0033ff" CREATED="1328174837621" FOLDED="true" ID="ID_157638723" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1354290675177" TEXT="TABLE">
+<node COLOR="#0033ff" CREATED="1354284402795" FOLDED="true" ID="ID_721474494" MODIFIED="1354643073864" POSITION="left" TEXT="ALTER">
+<node COLOR="#0033ff" CREATED="1328174837621" FOLDED="true" ID="ID_157638723" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1354643073598" TEXT="TABLE">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1328628615870" ID="ID_1266005469" MODIFIED="1328630853140">
 <richcontent TYPE="NODE"><html>
@@ -168,8 +168,7 @@
       (...)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1328173600905" ID="ID_1528012442" LINK="http://dev.mysql.com/doc/refman/5.0/en/replace.html" MODIFIED="1354285463595" POSITION="left" TEXT="REPLACE">
@@ -188,8 +187,7 @@
       TRUNCATE [TABLE] tbl_name
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1354289475161" FOLDED="true" ID="ID_209240147" MODIFIED="1354294683508" POSITION="left" TEXT="DROP">
@@ -210,8 +208,7 @@
       &#160;&#160;&#160;&#160;&#160;[RESTRICT | CASCADE]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1354289987043" ID="ID_209168581" MODIFIED="1354290561423" TEXT="DATABASE"/>
@@ -244,8 +241,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>AND</b>&#160; TABLE_SCHEMA='YourDatabase';&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1334757024106" FOLDED="true" ID="ID_1588593607" MODIFIED="1354284463210" TEXT="generating dump">
