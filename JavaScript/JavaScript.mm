@@ -397,8 +397,7 @@
       This is the basis for memory leaks with HTML objects, but that's a little beyond the scope of this, ahem, article, ahem.&#160;<font color="rgb(74, 107, 130)" size="14px"><a style="padding-top: 0px; font-size: 14px; background-position: initial initial; color: rgb(74, 107, 130); vertical-align: baseline; background-repeat: repeat; text-decoration: initial; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px" href="http://stackoverflow.com/questions/111102#112265">http://stackoverflow.com/questions/111102#112265</a></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -549,6 +548,43 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node COLOR="#ff0000" CREATED="1354703945396" ID="ID_202179856" MODIFIED="1354703965617" TEXT="tips">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1354703965541" FOLDED="true" ID="ID_1690145052" MODIFIED="1354703982423">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ie</b>&#160;and <b>checked</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1354703955604" ID="ID_440168666" MODIFIED="1354703963006">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Internet Explorer doesn't like to let you change the checked value of an input that is not a part of the DOM. Try setting the checked value AFTER the item has been appended and see if that works.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1354698019491" ID="ID_1626793799" MODIFIED="1354698088177" POSITION="right" TEXT="SVG">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1354698058675" ID="ID_863153170" LINK="https://developer.mozilla.org/en/docs/SVG_In_HTML_Introduction" MODIFIED="1354698142198" TEXT="MDN">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+</node>
+<node CREATED="1354698089437" ID="ID_1628290940" LINK="http://srufaculty.sru.edu/david.dailey/svg/" MODIFIED="1354698136235" TEXT="David Dailey">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
 </node>
 </node>
 </node>
