@@ -70,17 +70,17 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1302007143908" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1354285538281" TEXT="Date">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node COLOR="#0033ff" CREATED="1302007157338" ID="ID_17478224" MODIFIED="1352799007543" TEXT="MONTH( )">
-<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1302007157338" ID="ID_17478224" MODIFIED="1354803163186" TEXT="MONTH( )">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1302007163241" ID="ID_1742240784" MODIFIED="1352799007543" TEXT="FROM_UNIXTIME( )">
-<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1302007163241" ID="ID_1742240784" MODIFIED="1354803163183" TEXT="FROM_UNIXTIME( )">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1302007168448" ID="ID_1511338143" MODIFIED="1352799007544" TEXT="MONTHNAME( )">
-<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1302007168448" ID="ID_1511338143" MODIFIED="1354803163183" TEXT="MONTHNAME( )">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1302007173823" ID="ID_1644539819" MODIFIED="1352799007544" TEXT="YEAR( )">
-<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1302007173823" ID="ID_1644539819" MODIFIED="1354803163183" TEXT="YEAR( )">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1349875759209" ID="ID_646879198" MODIFIED="1352978069962" TEXT="String">
@@ -89,8 +89,58 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node CREATED="1354803143510" ID="ID_1944344488" MODIFIED="1354803149438" TEXT="Compare">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node COLOR="#0033ff" CREATED="1354803150846" FOLDED="true" ID="ID_208818934" MODIFIED="1354813381301" TEXT="IFNULL">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1354803165112" ID="ID_391204474" MODIFIED="1354803236392">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SELECT <b>IFNULL</b>(NULL, 'y')
+    </p>
+    <p>
+      -- Returns 'Y'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      SELECT <b>IFNULL</b>(&quot;N', 'y')
+    </p>
+    <p>
+      -- Retruns 'N'
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1354284394062" FOLDED="true" ID="ID_494732714" MODIFIED="1354294686485" POSITION="left" TEXT="CREATE">
+</node>
+<node COLOR="#0033ff" CREATED="1354812008680" FOLDED="true" ID="ID_1944491747" MODIFIED="1354813380443" TEXT="REGEXP">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1354812012237" ID="ID_1835009373" MODIFIED="1354812044707">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      -- email validation
+    </p>
+    <p>
+      &#160;pe.Email <b>REGEXP</b>&#160; '^[a-zA-Z0-9][a-zA-Z0-9._-]*[a-zA-Z0-9._-]@[a-zA-Z0-9][a-zA-Z0-9._-]*[a-zA-Z0-9]\\.[a-zA-Z]{2,4}$'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1354284394062" FOLDED="true" ID="ID_494732714" MODIFIED="1354803142423" POSITION="left" TEXT="CREATE">
 <node COLOR="#0033ff" CREATED="1328173566119" ID="ID_1115071291" LINK="http://dev.mysql.com/doc/refman/5.1/en/create-table.html" MODIFIED="1354290542126" TEXT="TABLE">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -116,7 +166,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354284402795" FOLDED="true" ID="ID_721474494" MODIFIED="1354715492180" POSITION="left" TEXT="ALTER">
+<node COLOR="#0033ff" CREATED="1354284402795" FOLDED="true" ID="ID_721474494" MODIFIED="1354803141284" POSITION="left" TEXT="ALTER">
 <node COLOR="#0033ff" CREATED="1328174837621" FOLDED="true" ID="ID_157638723" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1354715491844" TEXT="TABLE">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1328628615870" ID="ID_1266005469" MODIFIED="1328630853140">
