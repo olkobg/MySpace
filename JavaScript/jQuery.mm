@@ -33,8 +33,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(this).attr('style', 'fill: rgb(220, 0, 0);stroke: rgb(10, 10, 10);stroke-width:2;');
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1354697852314" FOLDED="true" ID="ID_819469706" MODIFIED="1354704475887" TEXT="mouseout">
@@ -58,8 +57,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;})
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -180,8 +178,7 @@
       $('#input').<b>val( )</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1354278104851" FOLDED="true" ID="ID_492459151" MODIFIED="1354704372504" TEXT="checkbox">
@@ -219,8 +216,7 @@
       tbodyEl.<b>append</b>('&lt;tr&gt;&lt;td colspan=&quot;2&quot; align=&quot;left&quot;&gt;Hi there&lt;/td&gt;&lt;/tr&gt;');
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1354704230349" ID="ID_88307569" LINK="http://api.jquery.com/insertBefore/" MODIFIED="1354704450119" TEXT="insertBefore">
@@ -229,7 +225,7 @@
 <node COLOR="#0033ff" CREATED="1354704518919" ID="ID_1558363711" LINK="http://api.jquery.com/insertAfter/" MODIFIED="1354704544955" TEXT="insertAfter">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354626410137" FOLDED="true" ID="ID_1968887865" LINK="http://api.jquery.com/find/" MODIFIED="1354704458890" TEXT="find">
+<node COLOR="#0033ff" CREATED="1354626410137" ID="ID_1968887865" LINK="http://api.jquery.com/find/" MODIFIED="1354901018879" TEXT="find">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354626442561" ID="ID_865912534" MODIFIED="1354626862440">
 <richcontent TYPE="NODE"><html>
@@ -278,13 +274,100 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1354900245258" ID="ID_388443493" MODIFIED="1354900250627" TEXT="move">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1354900251370" FOLDED="true" ID="ID_1696579114" MODIFIED="1354900304182" TEXT="parent">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1354900256472" ID="ID_1822084643" MODIFIED="1354900297700">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $('li').<b>parent()</b>.attr('border' , '1px solid red');
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1290773186085" ID="ID_146665972" MODIFIED="1354638433826" POSITION="left" TEXT="Select">
+</node>
+</node>
+</node>
+<node CREATED="1290773186085" ID="ID_146665972" MODIFIED="1354901216128" POSITION="left" TEXT="Select">
 <node CREATED="1354704279416" ID="ID_228668161" LINK="http://api.jquery.com/category/selectors/attribute-selectors/" MODIFIED="1354704287079" TEXT="attribute selector">
 <node CREATED="1354704305275" ID="ID_10776762" LINK="http://api.jquery.com/attribute-equals-selector/" MODIFIED="1354704315511" TEXT="attribute equals selector"/>
 </node>
+<node COLOR="#0033ff" CREATED="1354869938218" ID="ID_546897979" LINK="http://api.jquery.com/jQuery.each/" MODIFIED="1354871050258" TEXT="each">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1354208194752" ID="ID_854680832" MODIFIED="1354638524011" POSITION="left" TEXT="ajax">
+<node COLOR="#0033ff" CREATED="1354901216107" ID="ID_1748294113" MODIFIED="1354901227210" TEXT="&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="11"/>
+<node COLOR="#0033ff" CREATED="1354901019967" ID="ID_650255422" MODIFIED="1354903078728">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // only childern
+    </p>
+    <p>
+      tbl.find(&quot;<b>&gt;</b>&#160;tbody &gt; tr&quot;)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1354901183128" ID="ID_420329235" MODIFIED="1354901214460" TEXT=":only-child">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1354901192433" ID="ID_253000628" MODIFIED="1354901241095">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(&quot;div button:<b>only-child</b>&quot;)
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1354629529574" ID="ID_482385820" MODIFIED="1354638587761" POSITION="right" TEXT="object">
+<node CREATED="1354629533839" ID="ID_152595129" MODIFIED="1354629535813" TEXT="clone">
+<node CREATED="1354629536715" ID="ID_1283858177" LINK="http://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-clone-a-javascript-object" MODIFIED="1354629545574" TEXT="SO">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1354629546761" ID="ID_62210870" MODIFIED="1354698343116">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // Shallow copy
+    </p>
+    <p>
+      var newObject = jQuery.<b>extend(</b>{}, oldObject);&#160;&#160;
+    </p>
+    <p>
+      // Deep copy
+    </p>
+    <p>
+      var newObject = jQuery.<b>extend</b>(true, {}, oldObject);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1354629596482" ID="ID_471782161" LINK="http://docs.jquery.com/Utilities/jQuery.extend" MODIFIED="1354629645557" TEXT="info"/>
+</node>
+</node>
+</node>
+<node CREATED="1354208194752" ID="ID_854680832" MODIFIED="1354901178229" POSITION="left" TEXT="ajax">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354208282039" FOLDED="true" ID="ID_173706023" MODIFIED="1354704484111" TEXT="post">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -326,8 +409,7 @@
       $(&quot;element&quot;)<b>.load( )</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354208403552" ID="ID_1502818936" MODIFIED="1354208419574">
 <richcontent TYPE="NODE"><html>
@@ -361,10 +443,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1354015762809" ID="ID_749062094" LINK="jquery/jqueryUI.mm" MODIFIED="1354698249300" POSITION="left" TEXT="jqueryUI">
+<node CREATED="1354015762809" ID="ID_749062094" LINK="jquery/jqueryUI.mm" MODIFIED="1354901178217" POSITION="left" TEXT="jqueryUI">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 </node>
-<node CREATED="1354281700459" FOLDED="true" ID="ID_1321766246" LINK="http://code.jquery.com/" MODIFIED="1354704495122" POSITION="left" TEXT="CDN">
+<node CREATED="1354281700459" FOLDED="true" ID="ID_1321766246" LINK="http://code.jquery.com/" MODIFIED="1354901178211" POSITION="left" TEXT="CDN">
 <node COLOR="#0033ff" CREATED="1354698206726" ID="ID_356992878" MODIFIED="1354698238970">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -375,15 +457,14 @@
       &lt;script type=&quot;text/javascript&quot; src=&quot;http://code.jquery.com/jquery-latest.js&quot;&gt;&lt;/script&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1290779865517" ID="ID_255084957" MODIFIED="1290779867610" POSITION="left" TEXT="Links">
+<node CREATED="1290779865517" ID="ID_255084957" MODIFIED="1354901178206" POSITION="left" TEXT="Links">
 <node CREATED="1290779869785" ID="ID_944287855" LINK="http://api.jquery.com/" MODIFIED="1331742712440" TEXT="API"/>
 <node CREATED="1331741953928" ID="ID_980539677" LINK="http://jquery.com/" MODIFIED="1331742717030" TEXT="site"/>
 </node>
-<node CREATED="1354697916132" ID="ID_1014966575" LINK="http://keith-wood.name/svg.html" MODIFIED="1354697953006" POSITION="left">
+<node CREATED="1354697916132" ID="ID_1014966575" LINK="http://keith-wood.name/svg.html" MODIFIED="1354901178195" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -393,39 +474,8 @@
       <b>SVG&#160;</b>by&#160;Keith Wood
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1354629529574" ID="ID_482385820" MODIFIED="1354638587761" POSITION="right" TEXT="object">
-<node CREATED="1354629533839" ID="ID_152595129" MODIFIED="1354629535813" TEXT="clone">
-<node CREATED="1354629536715" ID="ID_1283858177" LINK="http://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-clone-a-javascript-object" MODIFIED="1354629545574" TEXT="SO">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1354629546761" ID="ID_62210870" MODIFIED="1354698343116">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      // Shallow copy
-    </p>
-    <p>
-      var newObject = jQuery.<b>extend(</b>{}, oldObject);&#160;&#160;
-    </p>
-    <p>
-      // Deep copy
-    </p>
-    <p>
-      var newObject = jQuery.<b>extend</b>(true, {}, oldObject);
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1354629596482" ID="ID_471782161" LINK="http://docs.jquery.com/Utilities/jQuery.extend" MODIFIED="1354629645557" TEXT="info"/>
-</node>
-</node>
 </node>
 </node>
 </map>

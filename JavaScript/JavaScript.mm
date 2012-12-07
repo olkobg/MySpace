@@ -561,8 +561,7 @@
       <b>ie</b>&#160;and <b>checked</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1354703955604" ID="ID_440168666" MODIFIED="1354703963006">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -585,6 +584,9 @@
 </node>
 <node CREATED="1354698089437" ID="ID_1628290940" LINK="http://srufaculty.sru.edu/david.dailey/svg/" MODIFIED="1354698136235" TEXT="David Dailey">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
+</node>
+<node CREATED="1354868472981" ID="ID_419707493" LINK="http://tutorials.jenkov.com/svg/svg-and-css.html" MODIFIED="1354868486753" TEXT="svg + css">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
