@@ -42,10 +42,10 @@
 <node CREATED="1288878841397" ID="ID_1732712561" MODIFIED="1290779781676" POSITION="left" TEXT="Types">
 <node CREATED="1288878845078" ID="ID_1393940341" MODIFIED="1288878931652" TEXT="Arrays">
 <node CREATED="1290675371398" ID="ID_1109876137" MODIFIED="1346928131190" TEXT="remove">
-<node CREATED="1288878848090" FOLDED="true" ID="ID_1345719493" MODIFIED="1346928132490" TEXT="remove(integer indices)">
+<node CREATED="1288878848090" FOLDED="true" ID="ID_1345719493" MODIFIED="1355153889789" TEXT="remove(integer indices)">
 <node COLOR="#0033ff" CREATED="1288878887152" ID="ID_66984295" MODIFIED="1307120301458" TEXT="array.splice(i,i)"/>
 </node>
-<node CREATED="1288878876243" FOLDED="true" ID="ID_34669562" MODIFIED="1346928132910" TEXT="remove(other indices)">
+<node CREATED="1288878876243" FOLDED="true" ID="ID_34669562" MODIFIED="1355153895686" TEXT="remove(other indices)">
 <node COLOR="#0033ff" CREATED="1288878903184" ID="ID_1708611684" MODIFIED="1307120302930" TEXT="delete array[&apos;text&apos;]"/>
 </node>
 </node>
@@ -192,6 +192,21 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1355153898833" FOLDED="true" ID="ID_742488482" MODIFIED="1355153925770" TEXT="remove">
+<node COLOR="#0033ff" CREATED="1355153901837" ID="ID_1620472268" MODIFIED="1355153924003">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>delete</b>&#160;object.attribute.subattribute
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -400,6 +415,33 @@
 </html></richcontent>
 </node>
 </node>
+<node COLOR="#ff0000" CREATED="1354703945396" ID="ID_202179856" MODIFIED="1355138938149" TEXT="DOM">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1354703965541" FOLDED="true" ID="ID_1690145052" MODIFIED="1354703982423">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ie</b>&#160;and <b>checked</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1354703955604" ID="ID_440168666" MODIFIED="1354703963006">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Internet Explorer doesn't like to let you change the checked value of an input that is not a part of the DOM. Try setting the checked value AFTER the item has been appended and see if that works.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#338800" CREATED="1307434903922" ID="ID_410338370" MODIFIED="1328630321580" POSITION="right" TEXT="OBJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
@@ -449,18 +491,43 @@
 <node CREATED="1306946557807" ID="ID_1154117622" LINK="http://dean.edwards.name/packer/" MODIFIED="1306946563919" TEXT="PACKER"/>
 </node>
 </node>
-<node CREATED="1299147148648" ID="ID_1061921677" LINK="JSON.mm" MODIFIED="1328630321572" POSITION="right" TEXT="JSON"/>
-<node CREATED="1307097847126" ID="ID_202185443" MODIFIED="1328630321571" POSITION="right" TEXT="ENGINE">
+<node CREATED="1299147148648" ID="ID_1061921677" LINK="JSON.mm" MODIFIED="1328630321572" POSITION="right" TEXT="JSON">
+<node CREATED="1355155687707" FOLDED="true" ID="ID_330196257" MODIFIED="1355159620828" TEXT="modify">
+<node COLOR="#0033ff" CREATED="1355155713563" ID="ID_285164846" MODIFIED="1355155773255">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // stack overflow
+    </p>
+    <p>
+      var obj = JSON.parse(info);&#160;&#160;// parse the JSON into a JavaScript object&#160;&#160;
+    </p>
+    <p>
+      obj.application.proId = id; // modify the object&#160;&#160;
+    </p>
+    <p>
+      info = JSON.stringify(obj);&#160;&#160;// stringify it into JSON if you wanted it as JSON
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1307097847126" ID="ID_202185443" MODIFIED="1355153878058" POSITION="right" TEXT="ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1307097858194" ID="ID_247812702" LINK="http://nodejs.org/" MODIFIED="1307097984573" TEXT="Node.js"/>
 <node CREATED="1307097864888" ID="ID_722061965" LINK="https://developer.mozilla.org/en/SpiderMonkey" MODIFIED="1307097894673" TEXT="SpiderMonkey"/>
 <node CREATED="1307097896172" ID="ID_604037639" LINK="http://www.mozilla.org/rhino/" MODIFIED="1307097933581" TEXT="rhino"/>
 </node>
-<node CREATED="1306262117748" ID="ID_989123574" MODIFIED="1328630321567" POSITION="right" TEXT="Security">
+<node CREATED="1306262117748" ID="ID_989123574" MODIFIED="1355153878055" POSITION="right" TEXT="Security">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1306262123782" ID="ID_274024630" LINK="http://www-cs-students.stanford.edu/~tjw/jsbn/" MODIFIED="1306262130865" TEXT="RSA algorithm"/>
 </node>
-<node COLOR="#338800" CREATED="1319713375018" ID="ID_384948737" MODIFIED="1319713395383" POSITION="right" TEXT="DOM">
+<node COLOR="#338800" CREATED="1319713375018" ID="ID_384948737" MODIFIED="1355153878052" POSITION="right" TEXT="DOM">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1319713397207" ID="ID_642013724" MODIFIED="1319713407066" TEXT="create elements">
 <node CREATED="1319713408997" FOLDED="true" ID="ID_855253354" MODIFIED="1328630368392" TEXT="option">
@@ -549,35 +616,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1354703945396" ID="ID_202179856" MODIFIED="1354703965617" TEXT="tips">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1354703965541" FOLDED="true" ID="ID_1690145052" MODIFIED="1354703982423">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>ie</b>&#160;and <b>checked</b>
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1354703955604" ID="ID_440168666" MODIFIED="1354703963006">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Internet Explorer doesn't like to let you change the checked value of an input that is not a part of the DOM. Try setting the checked value AFTER the item has been appended and see if that works.
-    </p>
-  </body>
-</html></richcontent>
 </node>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1354698019491" ID="ID_1626793799" MODIFIED="1354698088177" POSITION="right" TEXT="SVG">
+<node COLOR="#0033ff" CREATED="1354698019491" ID="ID_1626793799" MODIFIED="1355153878048" POSITION="right" TEXT="SVG">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1354698058675" ID="ID_863153170" LINK="https://developer.mozilla.org/en/docs/SVG_In_HTML_Introduction" MODIFIED="1354698142198" TEXT="MDN">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>

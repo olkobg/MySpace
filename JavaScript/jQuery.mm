@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1288878945548" ID="ID_501072028" LINK="JavaScript.mm" MODIFIED="1354635093584" TEXT="jQuery">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1288878945548" ID="ID_501072028" LINK="JavaScript.mm" MODIFIED="1355129120494" TEXT="jQuery">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1354003121161" ID="ID_144703222" MODIFIED="1354638573901" POSITION="right" TEXT="events">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1354638573883" ID="ID_1928850379" MODIFIED="1354638577874" TEXT="mouse">
@@ -288,13 +288,13 @@
       $('li').<b>parent()</b>.attr('border' , '1px solid red');
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1290773186085" ID="ID_146665972" MODIFIED="1354901216128" POSITION="left" TEXT="Select">
+<node CREATED="1290773186085" ID="ID_146665972" MODIFIED="1355159406030" POSITION="left" TEXT="select">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1354704279416" ID="ID_228668161" LINK="http://api.jquery.com/category/selectors/attribute-selectors/" MODIFIED="1354704287079" TEXT="attribute selector">
 <node CREATED="1354704305275" ID="ID_10776762" LINK="http://api.jquery.com/attribute-equals-selector/" MODIFIED="1354704315511" TEXT="attribute equals selector"/>
 </node>
@@ -316,11 +316,10 @@
       tbl.find(&quot;<b>&gt;</b>&#160;tbody &gt; tr&quot;)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354901183128" ID="ID_420329235" MODIFIED="1354901214460" TEXT=":only-child">
+<node COLOR="#0033ff" CREATED="1354901183128" ID="ID_420329235" LINK="http://api.jquery.com/only-child-selector/" MODIFIED="1355159386854" TEXT=":only-child">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354901192433" ID="ID_253000628" MODIFIED="1354901241095">
 <richcontent TYPE="NODE"><html>
@@ -332,9 +331,46 @@
       $(&quot;div button:<b>only-child</b>&quot;)
     </p>
   </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1355159097676" ID="ID_1679359587" LINK="http://api.jquery.com/not-selector/" MODIFIED="1355159186950" TEXT="not">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355159104993" ID="ID_1553101907" MODIFIED="1355159124798">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $('table#tbl &gt; tbody &gt; tr')<b>.not</b>(':first')<b>.not</b>(':last').addClass('highlight');
+    </p>
+  </body>
 </html>
 </richcontent>
-<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1355159187908" ID="ID_277238035" LINK="http://api.jquery.com/nextUntil/" MODIFIED="1355159350360" TEXT="nextUntil">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355159201636" ID="ID_1143539364" MODIFIED="1355159256294">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(&quot;tr.topRow td:first-child&quot;).click(function () {
+    </p>
+    <p>
+      &#160;&#160;&#160;$(this).parent().next().<b>nextUntil</b>('tr.topRow').slideToggle();
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -369,7 +405,7 @@
 </node>
 <node CREATED="1354208194752" ID="ID_854680832" MODIFIED="1354901178229" POSITION="left" TEXT="ajax">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1354208282039" FOLDED="true" ID="ID_173706023" MODIFIED="1354704484111" TEXT="post">
+<node COLOR="#0033ff" CREATED="1354208282039" FOLDED="true" ID="ID_173706023" MODIFIED="1355136602561" TEXT="post">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354208202473" ID="ID_809126521" MODIFIED="1354208341265">
 <richcontent TYPE="NODE"><html>
@@ -440,6 +476,31 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1354208425645" ID="ID_1858216774" MODIFIED="1354704491766" TEXT="get">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1355136250329" ID="ID_1147632180" MODIFIED="1355136252943" POSITION="left" TEXT="json">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355136253650" ID="ID_1987418383" LINK="http://api.jquery.com/jQuery.param/" MODIFIED="1355136587597" TEXT="param">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355136263173" ID="ID_1490802954" MODIFIED="1355136394052">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $.<b>param</b>({ a: [2,3,4] }) // &quot;a[]=2&amp;a[]=3&amp;a[]=4&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1355141338841" ID="ID_1621847554" LINK="http://api.jquery.com/jQuery.parseJSON/" MODIFIED="1355141371616" TEXT="parseJSON">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355141350278" ID="ID_1579933959" LINK="http://api.jquery.com/jQuery.getJSON/" MODIFIED="1355141371615" TEXT="getJSON">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
