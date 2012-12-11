@@ -29,5 +29,27 @@
 </node>
 </node>
 </node>
+<node COLOR="#ff0000" CREATED="1355135796238" ID="ID_114319840" MODIFIED="1355136811400" POSITION="left" TEXT="Tips">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#0033ff" CREATED="1355136811390" ID="ID_89835606" MODIFIED="1355136821834" TEXT="&lt;form&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355135816899" ID="ID_293500023" MODIFIED="1355136845263">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // creating js array on html page.
+    </p>
+    <p>
+      $postvalue=array(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;);&#160;<br />foreach($postvalue as $value)&#160;{&#160;&#160;<br />&#160;&#160;echo '&lt;input type=&quot;hidden&quot; name=&quot;result[]&quot; value=&quot;'. $value. '&quot;&gt;';&#160;<br />}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </map>

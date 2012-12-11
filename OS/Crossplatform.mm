@@ -51,5 +51,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#006633" CREATED="1355140437479" ID="ID_1570188883" MODIFIED="1355140453983" POSITION="left" TEXT="Development">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1355140454684" ID="ID_1576352895" MODIFIED="1355140465209" TEXT="planing">
+<node CREATED="1355140465805" ID="ID_1124056805" LINK="http://taskjuggler.org/" MODIFIED="1355140492442" TEXT="TaskJuggler">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1355149044983" ID="ID_1170115706" MODIFIED="1355149052482" TEXT="attention">
+<node CREATED="1355149052794" ID="ID_783079995" LINK="http://visitsteve.com/made/selfcontrol/" MODIFIED="1355149065612" TEXT="SelfControl"/>
+<node CREATED="1355149057377" ID="ID_56787196" LINK="http://macfreedom.com/" MODIFIED="1355149084719" TEXT="Freedom"/>
+</node>
+</node>
 </node>
 </map>

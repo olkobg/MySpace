@@ -42,9 +42,51 @@
 </node>
 </node>
 </node>
-<node CREATED="1353338690297" ID="ID_1889510088" MODIFIED="1353338699853" POSITION="left" TEXT="projects">
+<node CREATED="1353338690297" ID="ID_1889510088" MODIFIED="1355160888682" POSITION="left" TEXT="projects">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1353338701198" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1353339117713" TEXT="config"/>
+</node>
+<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1355160919148" POSITION="left" TEXT="config">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355140000578" ID="ID_624009682" MODIFIED="1355140027764">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // olko's config
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &quot;color_scheme&quot;: &quot;Packages/Color Scheme - Default/Twilight.tmTheme&quot;,
+    </p>
+    <p>
+      &quot;font_face&quot;: &quot;Monaco&quot;,
+    </p>
+    <p>
+      &quot;font_size&quot;: 10,
+    </p>
+    <p>
+      &quot;tab_size&quot;: 2,
+    </p>
+    <p>
+      &quot;translate_tabs_to_spaces&quot;: true,
+    </p>
+    <p>
+      &#160;&#160;&quot;word_wrap&quot;: true,
+    </p>
+    <p>
+      &#160;&#160;&quot;highlight_line&quot;: true
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1355140175527" ID="ID_1637713145" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=3&amp;t=2691" MODIFIED="1355140191851" TEXT="highlight_line"/>
 </node>
 </node>
 </map>
