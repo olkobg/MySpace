@@ -41,16 +41,27 @@
 </node>
 <node CREATED="1288878841397" ID="ID_1732712561" MODIFIED="1290779781676" POSITION="left" TEXT="Types">
 <node CREATED="1288878845078" ID="ID_1393940341" MODIFIED="1288878931652" TEXT="Arrays">
-<node CREATED="1290675371398" ID="ID_1109876137" MODIFIED="1346928131190" TEXT="remove">
-<node CREATED="1288878848090" FOLDED="true" ID="ID_1345719493" MODIFIED="1355153889789" TEXT="remove(integer indices)">
+<node CREATED="1290675371398" ID="ID_1109876137" MODIFIED="1355233971713" TEXT="remove">
+<node CREATED="1288878848090" FOLDED="true" ID="ID_1345719493" MODIFIED="1355235089275" TEXT="remove(integer indices)">
 <node COLOR="#0033ff" CREATED="1288878887152" ID="ID_66984295" MODIFIED="1307120301458" TEXT="array.splice(i,i)"/>
 </node>
-<node CREATED="1288878876243" FOLDED="true" ID="ID_34669562" MODIFIED="1355153895686" TEXT="remove(other indices)">
+<node CREATED="1288878876243" FOLDED="true" ID="ID_34669562" MODIFIED="1355235092331" TEXT="remove(other indices)">
 <node COLOR="#0033ff" CREATED="1288878903184" ID="ID_1708611684" MODIFIED="1307120302930" TEXT="delete array[&apos;text&apos;]"/>
 </node>
 </node>
 <node CREATED="1290675380409" ID="ID_362734002" MODIFIED="1346928134107" TEXT="clone/copy">
-<node CREATED="1290675384257" FOLDED="true" ID="ID_249125579" MODIFIED="1346928159445" TEXT="Array.slice(0)">
+<node COLOR="#0033ff" CREATED="1290675384257" FOLDED="true" ID="ID_249125579" MODIFIED="1355235083686">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Array.<b>slice(0)</b>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1290675501849" ID="ID_1768234672" MODIFIED="1346928151272" TEXT="by copying that method you can copy only simple data - String. Number and Boolean"/>
 <node COLOR="#0033ff" CREATED="1290675444181" ID="ID_250813042" MODIFIED="1346928153272">
 <richcontent TYPE="NODE"><html>
@@ -75,7 +86,26 @@
 </node>
 </node>
 </node>
-<node CREATED="1310476115190" FOLDED="true" ID="ID_1977131392" MODIFIED="1346928129796" TEXT="get Unique values">
+<node COLOR="#0033ff" CREATED="1355234865664" FOLDED="true" ID="ID_460731663" MODIFIED="1355238945504" TEXT="push">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355234871921" ID="ID_225860144" MODIFIED="1355235081126">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var fruits = [&quot;Banana&quot;, &quot;Orange&quot;, &quot;Apple&quot;, &quot;Mango&quot;];
+    </p>
+    <p>
+      fruits.<b>push</b>(&quot;Kiwi&quot;)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1310476115190" FOLDED="true" ID="ID_1977131392" MODIFIED="1355235589833" TEXT="get Unique values">
 <node COLOR="#0033ff" CREATED="1310476120894" ID="ID_1433835445" MODIFIED="1310476135700">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -108,12 +138,62 @@
 </node>
 </node>
 <node CREATED="1342533161076" ID="ID_492563830" LINK="http://www.hunlock.com/blogs/Mastering_Javascript_Arrays" MODIFIED="1342533168059" TEXT="link"/>
+<node COLOR="#0033ff" CREATED="1355235597822" ID="ID_380421879" MODIFIED="1355235910255">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      concat
+    </p>
+    <p>
+      indexOf
+    </p>
+    <p>
+      join
+    </p>
+    <p>
+      lastIndexOf
+    </p>
+    <p>
+      pop
+    </p>
+    <p>
+      reverse
+    </p>
+    <p>
+      shift
+    </p>
+    <p>
+      slice
+    </p>
+    <p>
+      sort
+    </p>
+    <p>
+      splice
+    </p>
+    <p>
+      toString
+    </p>
+    <p>
+      unshift
+    </p>
+    <p>
+      valueOf
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1342533006438" ID="ID_501702371" MODIFIED="1342533009587" TEXT="Hash">
 <node CREATED="1342533010662" ID="ID_1480116367" LINK="http://www.mojavelinux.com/articles/javascript_hashes.html" MODIFIED="1342533016000" TEXT="link"/>
 </node>
 <node CREATED="1290774098972" ID="ID_1567708926" MODIFIED="1290774101170" TEXT="Number">
-<node CREATED="1290774102071" FOLDED="true" ID="ID_1693617417" MODIFIED="1346928126257" TEXT="Parse">
+<node CREATED="1290774102071" FOLDED="true" ID="ID_1693617417" MODIFIED="1355234012324" TEXT="Parse">
 <node COLOR="#0033ff" CREATED="1290774104835" ID="ID_439384427" MODIFIED="1307120236682" TEXT="parseInt"/>
 <node COLOR="#0033ff" CREATED="1290774107815" ID="ID_140560400" MODIFIED="1307120236675">
 <richcontent TYPE="NODE"><html>
@@ -128,7 +208,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1307120187689" FOLDED="true" ID="ID_1712246304" MODIFIED="1346928121118" TEXT="is_number">
+<node CREATED="1307120187689" FOLDED="true" ID="ID_1712246304" MODIFIED="1355234017155" TEXT="is_number">
 <node COLOR="#0033ff" CREATED="1307120203127" ID="ID_1818264388" MODIFIED="1307120308577">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -151,12 +231,9 @@
 </node>
 <node CREATED="1290675321303" ID="ID_1735264457" MODIFIED="1307120379386" TEXT="Objects">
 <node CREATED="1290675341658" ID="ID_1366662398" MODIFIED="1307120386597" TEXT="copying">
-<node COLOR="#ff0000" CREATED="1307120386585" ID="ID_1845811305" MODIFIED="1307120395773" TEXT="info">
-<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1290675345898" ID="ID_1525870998" MODIFIED="1290675360709" TEXT="by copiing you just copy of refference of object "/>
 </node>
-</node>
-<node CREATED="1290675324466" FOLDED="true" ID="ID_287335239" MODIFIED="1328630220467" TEXT="cloning">
+<node CREATED="1290675324466" FOLDED="true" ID="ID_287335239" MODIFIED="1355234040580" TEXT="cloning">
 <node COLOR="#0033ff" CREATED="1290675327042" ID="ID_1189851193" MODIFIED="1307120313064">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -194,7 +271,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1355153898833" FOLDED="true" ID="ID_742488482" MODIFIED="1355153925770" TEXT="remove">
+<node CREATED="1355153898833" FOLDED="true" ID="ID_742488482" MODIFIED="1355234044180" TEXT="remove">
 <node COLOR="#0033ff" CREATED="1355153901837" ID="ID_1620472268" MODIFIED="1355153924003">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -205,9 +282,21 @@
       <b>delete</b>&#160;object.attribute.subattribute
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1355234113280" ID="ID_192641165" MODIFIED="1355234485495">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      has no <b>order</b>&#160;with its parameters
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
 </node>
 </node>
 </node>
@@ -492,7 +581,7 @@
 </node>
 </node>
 <node CREATED="1299147148648" ID="ID_1061921677" LINK="JSON.mm" MODIFIED="1328630321572" POSITION="right" TEXT="JSON">
-<node CREATED="1355155687707" FOLDED="true" ID="ID_330196257" MODIFIED="1355159620828" TEXT="modify">
+<node CREATED="1355155687707" FOLDED="true" ID="ID_330196257" MODIFIED="1355160777550" TEXT="modify">
 <node COLOR="#0033ff" CREATED="1355155713563" ID="ID_285164846" MODIFIED="1355155773255">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -512,8 +601,7 @@
       info = JSON.stringify(obj);&#160;&#160;// stringify it into JSON if you wanted it as JSON
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
