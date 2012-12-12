@@ -1,61 +1,34 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294074191258" ID="ID_1534815671" LINK="Wlike.mm" MODIFIED="1294232876494" TEXT="windows 7">
+<node COLOR="#006633" CREATED="1294074191258" ID="ID_1534815671" LINK="Wlike.mm" MODIFIED="1355337440815" TEXT="Win 7">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1294074194906" MODIFIED="1294074200457" POSITION="right" TEXT="rotarte screen">
 <node CREATED="1294074200747" MODIFIED="1294074209465" TEXT="ctrkl + alt +arrows"/>
 </node>
 <node CREATED="1294232854297" ID="ID_1372309980" MODIFIED="1294232864168" POSITION="right" TEXT="create link">
-<node CREATED="1294232864664" MODIFIED="1294232866519" TEXT="mklink"/>
+<node CREATED="1294232864664" ID="ID_1766221927" MODIFIED="1294232866519" TEXT="mklink"/>
+</node>
+<node CREATED="1355337384432" ID="ID_783833243" MODIFIED="1355337393108" POSITION="right" TEXT="remove activation">
+<node CREATED="1355337393547" ID="ID_180966757" LINK="http://forums.mydigitallife.info/threads/24214-MBR-Regenerator-The-Professional-Windows-Fix-Tool" MODIFIED="1355337459252" TEXT="MBR Regenerator"/>
+<node CREATED="1355337409749" ID="ID_82988919" LINK="http://forums.mydigitallife.info/threads/26994-WAT-Fix-Fix-your-activation-problems" MODIFIED="1355337472444" TEXT="WAT Fix"/>
 </node>
 <node CREATED="1334745723015" ID="ID_1837994311" MODIFIED="1334745759238" POSITION="left" TEXT="Repair Tips">
-<node CREATED="1334745759104" ID="ID_800339970" LINK="http://www.pcworld.com/downloads/file/fid,171319/description.html" MODIFIED="1334745817270" TEXT="boot regitsry editor">
-<node CREATED="1334745732988" ID="ID_938314211" MODIFIED="1334745753745">
+<node CREATED="1334745759104" FOLDED="true" ID="ID_800339970" LINK="http://www.pcworld.com/downloads/file/fid,171319/description.html" MODIFIED="1355337380013" TEXT="boot regitsry editor">
+<node CREATED="1334745732988" ID="ID_938314211" MODIFIED="1355337378216">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <p http-equiv="content-type" content="text/html; charset=utf-8" style="font-weight: normal; white-space: normal; background-color: rgb(0, 0, 0); margin-top: 8px; letter-spacing: normal; font-family: Arial, Helvetica, sans-serif; font-style: normal; margin-right: 0px; text-indent: 0px; text-align: -webkit-auto; font-size: 13px; margin-left: 0px; padding-bottom: 0px; color: rgb(255, 255, 255); padding-top: 0px; line-height: 20px; font-variant: normal; padding-right: 0px; text-transform: none; margin-bottom: 8px; padding-left: 0px; word-spacing: 0px">
-      Boot the CD and follow these instructions. I've put the on-screen prompts in<span class="Apple-converted-space">&#160;</span><em>italics.</em><span class="Apple-converted-space">&#160;</span>After you type your answer, press<span class="Apple-converted-space">&#160;</span><strong>Enter</strong>.
+    <p>
+      Boot the CD and follow these instructions. I've put the on-screen prompts in&#160;italics.&#160;After you type your answer, press&#160;Enter.&#160;<br />
     </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>boot:</em><span class="Apple-converted-space">&#160;</span>Just press<span class="Apple-converted-space">&#160;</span><strong>Enter</strong>.
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>Select: [1]</em>: Above the prompt you'll see a list of hard-drive partitions. Select the right one by typing that number.
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>What is the path to the registry directory?...</em>: The default is probably correct. Just press<span class="Apple-converted-space">&#160;</span><strong>Enter</strong>.
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>[1]</em>:<span class="Apple-converted-space">&#160;</span><strong>1</strong>
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>What to do? [1] -&gt;</em>:<span class="Apple-converted-space">&#160;</span><strong>1</strong>
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>or simply enter the username...</em>: Type the name of the administrator account. If you're not sure what it is, all of the account names are listed above the prompt.
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>Select: [q] &gt;</em>:<span class="Apple-converted-space">&#160;</span><strong>1</strong>
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>Select: ! - quit...</em>:<span class="Apple-converted-space">&#160;</span><strong>!</strong>
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>What to do [1]</em>:<span class="Apple-converted-space">&#160;</span><strong>q</strong>
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>About to write file(s) back...</em>:<span class="Apple-converted-space">&#160;</span><strong>y</strong>
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>New run? [n]</em>:<span class="Apple-converted-space">&#160;</span><strong>n</strong>
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; background-color: rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; font-weight: normal; margin-left: 0px; text-indent: 0px; margin-top: 8px; padding-left: 0px; font-variant: normal; text-transform: none; margin-right: 0px; font-size: 13px; line-height: 20px; margin-bottom: 8px; text-align: -webkit-auto; color: rgb(255, 255, 255); padding-right: 0px; white-space: normal; font-family: Arial, Helvetica, sans-serif; word-spacing: 0px">
-      <em>#</em><span class="Apple-converted-space">&#160;</span>Remove the CD and reboot.
+    <p>
+      &#160;boot:&#160;Just press&#160;Enter.&#160;<br /><br />&#160;Select: [1]: Above the prompt you'll see a list of hard-drive partitions. Select the right one by typing that number.&#160;<br /><br />&#160;What is the path to the registry directory?...: The default is probably correct. Just press&#160;Enter.&#160;<br /><br />&#160;[1]:&#160;1&#160;<br /><br />&#160;What to do? [1] -&gt;:&#160;1&#160;<br /><br />&#160;or simply enter the username...: Type the name of the administrator account. If you're not sure what it is, all of the account names are listed above the prompt.&#160;<br /><br />&#160;Select: [q] &gt;:&#160;1&#160;<br /><br />&#160;Select: ! - quit...:&#160;!&#160;<br /><br />&#160;What to do [1]:&#160;q&#160;<br /><br />&#160;About to write file(s) back...:&#160;y&#160;<br /><br />&#160;New run? [n]:&#160;n&#160;<br /><br />&#160;#&#160;Remove the CD and reboot.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1334745974774" ID="ID_1330143835" MODIFIED="1334745987797" TEXT="restoring Files">

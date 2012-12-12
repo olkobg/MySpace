@@ -39,53 +39,18 @@
 <node CREATED="1337155616877" ID="ID_421262654" LINK="http://www.dynamicdrive.com/" MODIFIED="1337155630825" TEXT="Dynamic Drive"/>
 </node>
 </node>
-<node CREATED="1288878841397" ID="ID_1732712561" MODIFIED="1290779781676" POSITION="left" TEXT="Types">
-<node CREATED="1288878845078" ID="ID_1393940341" MODIFIED="1288878931652" TEXT="Arrays">
+<node CREATED="1288878841397" ID="ID_1732712561" MODIFIED="1355337296106" POSITION="left" TEXT="types">
+<node COLOR="#0033ff" CREATED="1288878845078" FOLDED="true" ID="ID_1393940341" MODIFIED="1355337152680" TEXT="Array">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1290675371398" ID="ID_1109876137" MODIFIED="1355233971713" TEXT="remove">
-<node CREATED="1288878848090" FOLDED="true" ID="ID_1345719493" MODIFIED="1355235089275" TEXT="remove(integer indices)">
+<node CREATED="1288878848090" FOLDED="true" ID="ID_1345719493" MODIFIED="1355336611884" TEXT="remove(integer indices)">
 <node COLOR="#0033ff" CREATED="1288878887152" ID="ID_66984295" MODIFIED="1307120301458" TEXT="array.splice(i,i)"/>
 </node>
-<node CREATED="1288878876243" FOLDED="true" ID="ID_34669562" MODIFIED="1355235092331" TEXT="remove(other indices)">
+<node CREATED="1288878876243" ID="ID_34669562" MODIFIED="1355336981011" TEXT="remove(other indices)">
 <node COLOR="#0033ff" CREATED="1288878903184" ID="ID_1708611684" MODIFIED="1307120302930" TEXT="delete array[&apos;text&apos;]"/>
 </node>
 </node>
-<node CREATED="1290675380409" ID="ID_362734002" MODIFIED="1346928134107" TEXT="clone/copy">
-<node COLOR="#0033ff" CREATED="1290675384257" FOLDED="true" ID="ID_249125579" MODIFIED="1355235083686">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Array.<b>slice(0)</b>
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1290675501849" ID="ID_1768234672" MODIFIED="1346928151272" TEXT="by copying that method you can copy only simple data - String. Number and Boolean"/>
-<node COLOR="#0033ff" CREATED="1290675444181" ID="ID_250813042" MODIFIED="1346928153272">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      var foo = [1, 2, 3];
-    </p>
-    <p>
-      var bar = foo.slice(0);
-    </p>
-    <p>
-      bar[1] = 5;
-    </p>
-    <p>
-      alert(foo[1]);
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1355234865664" FOLDED="true" ID="ID_460731663" MODIFIED="1355238945504" TEXT="push">
+<node COLOR="#0033ff" CREATED="1355234865664" FOLDED="true" ID="ID_460731663" MODIFIED="1355336603457" TEXT="push">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355234871921" ID="ID_225860144" MODIFIED="1355235081126">
 <richcontent TYPE="NODE"><html>
@@ -103,7 +68,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1310476115190" FOLDED="true" ID="ID_1977131392" MODIFIED="1355235589833" TEXT="get Unique values">
+<node CREATED="1310476115190" FOLDED="true" ID="ID_1977131392" MODIFIED="1355336606137" TEXT="get Unique values">
 <node COLOR="#0033ff" CREATED="1310476120894" ID="ID_1433835445" MODIFIED="1310476135700">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -136,109 +101,118 @@
 </node>
 </node>
 <node CREATED="1342533161076" ID="ID_492563830" LINK="http://www.hunlock.com/blogs/Mastering_Javascript_Arrays" MODIFIED="1342533168059" TEXT="link"/>
-<node COLOR="#0033ff" CREATED="1355235597822" ID="ID_380421879" MODIFIED="1355235910255">
+<node COLOR="#0033ff" CREATED="1355235597822" ID="ID_380421879" MODIFIED="1355336584345" TEXT="shift">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336579546" FOLDED="true" ID="ID_695102395" MODIFIED="1355337145834" TEXT="slice">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1290675444181" ID="ID_250813042" MODIFIED="1355337100215">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      concat
+      <font color="#000000">// copying (cloning) array </font>
     </p>
     <p>
-      indexOf
+      <font color="#000000">// by copying that method </font>
     </p>
     <p>
-      join
+      <font color="#000000">// only simple data - String. </font>
     </p>
     <p>
-      lastIndexOf
+      <font color="#000000">// Number and Boolean</font>
     </p>
     <p>
-      pop
+      var foo = [1, 2, 3];
     </p>
     <p>
-      reverse
+      var bar = foo.slice(0);
     </p>
     <p>
-      shift
+      bar[1] = 5;
     </p>
     <p>
-      slice
-    </p>
-    <p>
-      sort
-    </p>
-    <p>
-      splice
-    </p>
-    <p>
-      toString
-    </p>
-    <p>
-      unshift
-    </p>
-    <p>
-      valueOf
+      alert(foo[1]);
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1355336573355" ID="ID_1504431818" MODIFIED="1355336587266" TEXT="sort">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336567306" ID="ID_540479072" MODIFIED="1355336587265" TEXT="splice">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336560893" ID="ID_372854107" MODIFIED="1355336587263" TEXT="toString">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336551867" ID="ID_125095957" MODIFIED="1355336587262" TEXT="unshift">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336543297" ID="ID_1737747229" MODIFIED="1355336587261" TEXT="reverse">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336535980" ID="ID_1132853151" MODIFIED="1355336587260" TEXT="pop">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336525982" ID="ID_866931670" MODIFIED="1355336585721" TEXT="lastIndexOf">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336518389" ID="ID_1873938462" MODIFIED="1355336585721" TEXT="join">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336508896" ID="ID_941979560" MODIFIED="1355336585721" TEXT="indexOf">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336498219" ID="ID_326682825" MODIFIED="1355336585721" TEXT="concat">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355336490529" ID="ID_929396360" MODIFIED="1355336585721" TEXT="valueOf">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1342533006438" ID="ID_501702371" MODIFIED="1342533009587" TEXT="Hash">
+<node CREATED="1342533006438" FOLDED="true" ID="ID_501702371" MODIFIED="1355337226205">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff"><b>Object </b></font><font color="#000000">(</font>Hash)
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1342533010662" ID="ID_1480116367" LINK="http://www.mojavelinux.com/articles/javascript_hashes.html" MODIFIED="1342533016000" TEXT="link"/>
-</node>
-<node CREATED="1290774098972" ID="ID_1567708926" MODIFIED="1290774101170" TEXT="Number">
-<node CREATED="1290774102071" FOLDED="true" ID="ID_1693617417" MODIFIED="1355234012324" TEXT="Parse">
-<node COLOR="#0033ff" CREATED="1290774104835" ID="ID_439384427" MODIFIED="1307120236682" TEXT="parseInt"/>
-<node COLOR="#0033ff" CREATED="1290774107815" ID="ID_140560400" MODIFIED="1307120236675">
+<node COLOR="#0033ff" CREATED="1290675345898" ID="ID_1525870998" MODIFIED="1355337194543">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      parseFloat
+      // copy of object&#160;refference
+    </p>
+    <p>
+      var obj1 = obj
     </p>
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1307120187689" FOLDED="true" ID="ID_1712246304" MODIFIED="1355234017155" TEXT="is_number">
-<node COLOR="#0033ff" CREATED="1307120203127" ID="ID_1818264388" MODIFIED="1307120308577">
+<node COLOR="#0033ff" CREATED="1290675327042" ID="ID_1189851193" MODIFIED="1355337194549">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      function isNumber(n) {
+      // clone sample
     </p>
     <p>
-      &#160;&#160;return !isNaN(parseFloat(n)) &amp;&amp; isFinite(n);
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1290675321303" ID="ID_1735264457" MODIFIED="1307120379386" TEXT="Objects">
-<node CREATED="1290675341658" ID="ID_1366662398" MODIFIED="1307120386597" TEXT="copying">
-<node CREATED="1290675345898" ID="ID_1525870998" MODIFIED="1290675360709" TEXT="by copiing you just copy of refference of object "/>
-</node>
-<node CREATED="1290675324466" FOLDED="true" ID="ID_287335239" MODIFIED="1355234040580" TEXT="cloning">
-<node COLOR="#0033ff" CREATED="1290675327042" ID="ID_1189851193" MODIFIED="1307120313064">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Object.prototype.clone = function() {
+      Object.prototype.<b>clone</b>&#160;= function() {
     </p>
     <p>
       &#160;&#160;var newObj = (this instanceof Array) ? [] : {};
@@ -267,22 +241,22 @@
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1355153898833" FOLDED="true" ID="ID_742488482" MODIFIED="1355234044180" TEXT="remove">
-<node COLOR="#0033ff" CREATED="1355153901837" ID="ID_1620472268" MODIFIED="1355153924003">
+<node COLOR="#0033ff" CREATED="1355153901837" ID="ID_1620472268" MODIFIED="1355337194554">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
+      // removing attribute
+    </p>
+    <p>
       <b>delete</b>&#160;object.attribute.subattribute
     </p>
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1355234113280" ID="ID_192641165" MODIFIED="1355234485495">
+<node CREATED="1355234113280" ID="ID_192641165" MODIFIED="1355337194569">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -295,7 +269,49 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1355325074109" ID="ID_11620303" MODIFIED="1355325078680" TEXT="Boolean">
+<node COLOR="#0033ff" CREATED="1290774098972" FOLDED="true" ID="ID_1567708926" MODIFIED="1355337306618" TEXT="Number">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1290774104835" ID="ID_439384427" MODIFIED="1355336626215" TEXT="parseInt">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1290774107815" ID="ID_140560400" MODIFIED="1355336626208">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      parseFloat
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1307120203127" ID="ID_1818264388" MODIFIED="1355337265780">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // alternative check fot number value
+    </p>
+    <p>
+      function isNumber(n) {
+    </p>
+    <p>
+      &#160;&#160;return !isNaN(parseFloat(n)) &amp;&amp; isFinite(n);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1355325074109" FOLDED="true" ID="ID_11620303" MODIFIED="1355337309165" TEXT="Boolean">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355325082535" ID="ID_1492842596" MODIFIED="1355325145678">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -312,13 +328,12 @@
       shaded = <b>!</b>shaded;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1290779782717" ID="ID_1147256074" MODIFIED="1290779785788" POSITION="left" TEXT="Operatiojns">
-<node CREATED="1290675749078" FOLDED="true" ID="ID_1873207825" MODIFIED="1328630218922" TEXT="clone_function">
+<node CREATED="1290779782717" ID="ID_1147256074" MODIFIED="1355337292184" POSITION="left" TEXT="operations">
+<node CREATED="1290675749078" FOLDED="true" ID="ID_1873207825" MODIFIED="1355337310574" TEXT="clone_function">
 <node COLOR="#0033ff" CREATED="1290675760303" ID="ID_1250613880" MODIFIED="1307435002764">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -423,27 +438,39 @@
 </node>
 </node>
 <node CREATED="1295345675290" ID="ID_593110569" MODIFIED="1295345683964" TEXT="flow controll">
-<node COLOR="#0033ff" CREATED="1295345687611" FOLDED="true" ID="ID_1514880238" MODIFIED="1346928115856" TEXT="switch">
-<node COLOR="#0033ff" CREATED="1295345693386" ID="ID_996238654" MODIFIED="1328630132614">
+<node COLOR="#0033ff" CREATED="1295345687611" FOLDED="true" ID="ID_1514880238" MODIFIED="1355345758840" TEXT="switch">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1295345693386" ID="ID_996238654" MODIFIED="1355337324613">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#160;switch(n)<br />{<br />case 1:<br /><i>&#160;&#160;execute code block 1</i><br />&#160; break;<br />case 2:<br /><i>&#160;&#160;execute code block 2</i><br />&#160;&#160;break;<br />default:<br /><i>&#160; code to be executed if n is different from case 1 and 2</i><br />}
+      <b>switch</b>(n) {<br />case 1:<br /><i>&#160;&#160;execute code block 1</i><br />&#160;&#160;break;<br />case 2:<br /><i>&#160;&#160;execute code block 2</i><br />&#160;&#160;break;<br />default:<br /><i>&#160; code to be executed if n is different from case 1 and 2</i><br />} // end switch
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1307120335181" ID="ID_518244207" MODIFIED="1328630158066" TEXT="if"/>
+<node COLOR="#0033ff" CREATED="1307120335181" ID="ID_518244207" MODIFIED="1355345758840" TEXT="if">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1295345684330" ID="ID_1543868029" MODIFIED="1328630151387" TEXT="cylces">
-<node COLOR="#0033ff" CREATED="1307120341316" ID="ID_1935966644" MODIFIED="1328630162996" TEXT="do"/>
-<node COLOR="#0033ff" CREATED="1307120343340" ID="ID_1535278259" MODIFIED="1328630162995" TEXT="while"/>
-<node COLOR="#0033ff" CREATED="1307120347644" ID="ID_13375185" MODIFIED="1328630162995" TEXT="forin"/>
-<node COLOR="#0033ff" CREATED="1307120350811" ID="ID_1139759020" MODIFIED="1328630162994" TEXT="for"/>
+<node COLOR="#0033ff" CREATED="1307120341316" ID="ID_1935966644" MODIFIED="1355345758840" TEXT="do">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1307120343340" ID="ID_1535278259" MODIFIED="1355345758840" TEXT="while">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1307120347644" ID="ID_13375185" MODIFIED="1355345758840" TEXT="forin">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1307120350811" ID="ID_1139759020" MODIFIED="1355345758840" TEXT="for">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1354543290974" ID="ID_1353892888" MODIFIED="1354543295325" TEXT="function">
 <node CREATED="1354543297859" ID="ID_87405008" LINK="http://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language" MODIFIED="1354543328950">
