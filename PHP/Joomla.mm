@@ -2,19 +2,41 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1291283770427" ID="ID_139034343" LINK="PHP.mm" MODIFIED="1331209121757" TEXT="Joomla">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1291283774647" FOLDED="true" ID="ID_121307815" MODIFIED="1352468596779" POSITION="right" TEXT="component">
+<node CREATED="1291283774647" ID="ID_121307815" MODIFIED="1355310234335" POSITION="right" TEXT="component">
 <node CREATED="1291284789296" ID="ID_958704200" MODIFIED="1352468594744" TEXT="siteMap">
-<node CREATED="1339877522859" ID="ID_1602528977" LINK="http://joomla.vargas.co.cr" MODIFIED="1339877531301" TEXT="Xmap">
-<node CREATED="1339879342458" ID="ID_1280536137" LINK="http://joomla.vargas.co.cr/en/documentation/18-xmap-2/104-generate-xml-sitemap" MODIFIED="1339879359644" TEXT="how to generate xml sitemap">
+<node COLOR="#0033ff" CREATED="1339877522859" ID="ID_1602528977" LINK="http://joomla.vargas.co.cr" MODIFIED="1355310330811" TEXT="Xmap">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1339879342458" ID="ID_1280536137" LINK="http://joomla.vargas.co.cr/en/documentation/18-xmap-2/104-generate-xml-sitemap" MODIFIED="1355310373127">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      gen <font color="#0033ff"><b>xml</b></font>&#160;s-map
+    </p>
+  </body>
+</html>
+</richcontent>
 <node COLOR="#0033ff" CREATED="1339879375765" ID="ID_676701541" MODIFIED="1339879378028" TEXT="index.php?option=com_xmap&amp;view=xml&amp;id=1"/>
 </node>
+</node>
+</node>
+<node CREATED="1355310238322" ID="ID_1936019334" MODIFIED="1355310241008" TEXT="ecommece">
+<node COLOR="#0033ff" CREATED="1355310297418" ID="ID_289446733" LINK="http://virtuemart.net/" MODIFIED="1355310330810" TEXT="virtuemart">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1355310258517" ID="ID_285590582" MODIFIED="1355310259737" TEXT="tools">
+<node COLOR="#0033ff" CREATED="1355310260287" ID="ID_552200051" LINK="http://www.csvimproved.com/" MODIFIED="1355310330808" TEXT="CSVI">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
 <node CREATED="1291284794962" ID="ID_361006243" MODIFIED="1291284797023" POSITION="right" TEXT="modules"/>
 <node CREATED="1320006238057" ID="ID_1314204602" MODIFIED="1352468598448" POSITION="right" TEXT="TIPS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1320006242416" FOLDED="true" ID="ID_113439028" MODIFIED="1352468603792" TEXT="change admin password">
+<node CREATED="1320006242416" FOLDED="true" ID="ID_113439028" MODIFIED="1355310393880" TEXT="change admin password">
 <icon BUILTIN="info"/>
 <node CREATED="1320006254125" ID="ID_1312108290" MODIFIED="1320006343580">
 <richcontent TYPE="NODE"><html>

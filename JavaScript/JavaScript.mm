@@ -60,8 +60,7 @@
       Array.<b>slice(0)</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1290675501849" ID="ID_1768234672" MODIFIED="1346928151272" TEXT="by copying that method you can copy only simple data - String. Number and Boolean"/>
 <node COLOR="#0033ff" CREATED="1290675444181" ID="ID_250813042" MODIFIED="1346928153272">
 <richcontent TYPE="NODE"><html>
@@ -101,8 +100,7 @@
       fruits.<b>push</b>(&quot;Kiwi&quot;)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1310476115190" FOLDED="true" ID="ID_1977131392" MODIFIED="1355235589833" TEXT="get Unique values">
@@ -184,8 +182,7 @@
       valueOf
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -293,6 +290,26 @@
   <body>
     <p>
       has no <b>order</b>&#160;with its parameters
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1355325074109" ID="ID_11620303" MODIFIED="1355325078680" TEXT="Boolean">
+<node COLOR="#0033ff" CREATED="1355325082535" ID="ID_1492842596" MODIFIED="1355325145678">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // switch between values
+    </p>
+    <p>
+      var shaded = true;
+    </p>
+    <p>
+      shaded = <b>!</b>shaded;
     </p>
   </body>
 </html>
