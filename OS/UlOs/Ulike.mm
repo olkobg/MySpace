@@ -360,5 +360,41 @@
 </node>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1313012590996" TEXT="keyboard commads"/>
 </node>
+<node CREATED="1355490607955" ID="ID_1838694125" MODIFIED="1355490610888" POSITION="left" TEXT="keyboard">
+<node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355490697959" TEXT="instructions for changing keyb layout"/>
+<node CREATED="1355490901133" ID="ID_1324979617" LINK="http://stackoverflow.com/questions/4200800/in-bash-how-do-i-bind-a-function-key-to-a-command" MODIFIED="1355490916392" TEXT="stack overflow"/>
+<node CREATED="1355490917423" ID="ID_669764537" LINK="http://www.gnewsense.org/Documentation/CustomKeyboardShortcuts" MODIFIED="1355490949629" TEXT="chengint key binding in x window"/>
+<node CREATED="1355491003420" ID="ID_542793105" LINK="http://saravananthirumuruganathan.wordpress.com/2011/02/06/using-custom-keyboard-shortcuts-in-linux/" MODIFIED="1355491021965" TEXT="another site for changing default keys"/>
+<node CREATED="1355491063632" ID="ID_338833327" MODIFIED="1355491105739">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      look into&#160;<b>XKB</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1355505715220" ID="ID_499323221" LINK="http://blog.adamsbros.org/2009/06/14/linux-macbook-function-key-mode-fnmode/" MODIFIED="1355505763691">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mac enabling <b>fn</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1355505881950" ID="ID_113344983" LINK="http://www.cyberciti.biz/faq/linux-apple-usb-keyboard-driver-installation/" MODIFIED="1355505896353" TEXT="enable mac keyb"/>
+<node CREATED="1355506831473" ID="ID_80913373" LINK="https://help.ubuntu.com/community/AppleKeyboard#Change%20Function%20Key%20behavior" MODIFIED="1355506843357" TEXT="ubuntu mac keyb"/>
+<node CREATED="1355506999889" ID="ID_1200625131" LINK="http://wiki.debian.org/InstallingDebianOn/Apple/PageFragmentKeyboard" MODIFIED="1355507009683" TEXT="debian apple keyb"/>
+<node CREATED="1355507606956" ID="ID_614934237" LINK="dpkg-reconfigure console-data" MODIFIED="1355507619763" TEXT="change keyb layout in debian"/>
+</node>
 </node>
 </map>

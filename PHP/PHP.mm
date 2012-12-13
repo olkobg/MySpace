@@ -50,6 +50,9 @@
 <node CREATED="1299138706510" ID="ID_253301276" LINK="http://www.doctrine-project.org/" MODIFIED="1299138753581" TEXT="Doctrine"/>
 <node CREATED="1299138709209" ID="ID_746365137" LINK="http://www.propelorm.org/" MODIFIED="1299138740517" TEXT="Propel"/>
 </node>
+<node CREATED="1355500305094" ID="ID_463395371" MODIFIED="1355500312054" TEXT="TEMPLATE ENGINE">
+<node CREATED="1355500326563" ID="ID_1390439074" LINK="http://twig.sensiolabs.org/" MODIFIED="1355500349425" TEXT="TWIG"/>
+</node>
 </node>
 <node CREATED="1337095412298" ID="ID_516280554" MODIFIED="1337095418369" TEXT="Captcha">
 <node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
@@ -656,8 +659,7 @@ integer     : [+-]?decimal
       To create a new object, use the <b>new</b>&#160;statement to instantiate a class:&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1299142606544" FOLDED="true" ID="ID_690735483" MODIFIED="1354283172708" TEXT="simple">
 <node CREATED="1299142610565" ID="ID_716224972" MODIFIED="1299142615034">
@@ -2976,8 +2978,7 @@ xdebug.remote_port=9000
       <b>-r</b>&#160;<font color="#000000">(run php code from console)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354282936956" ID="ID_1237659245" MODIFIED="1354282966839">
 <richcontent TYPE="NODE"><html>
@@ -2989,8 +2990,7 @@ xdebug.remote_port=9000
       $ php <b>-r</b>&#160;'print_r(get_defined_constants());'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

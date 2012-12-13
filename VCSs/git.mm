@@ -198,6 +198,9 @@
 <node CREATED="1321283274029" ID="ID_1931767887" MODIFIED="1347010286608" TEXT="get apply specified stash "/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1355397720546" ID="ID_123457488" MODIFIED="1355397725177" POSITION="left" TEXT="submodule">
+<node CREATED="1355397727127" ID="ID_148578323" LINK="http://git-scm.com/book/en/Git-Tools-Submodules" MODIFIED="1355397738280" TEXT="gitScmBook"/>
+</node>
 <node COLOR="#0033ff" CREATED="1288956281435" ID="ID_605132199" MODIFIED="1321283196140" POSITION="right">
 <richcontent TYPE="NODE"><html>
 						  <head>
