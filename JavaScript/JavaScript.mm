@@ -333,7 +333,7 @@
 </node>
 </node>
 <node CREATED="1290779782717" ID="ID_1147256074" MODIFIED="1355337292184" POSITION="left" TEXT="operations">
-<node CREATED="1290675749078" FOLDED="true" ID="ID_1873207825" MODIFIED="1355337310574" TEXT="clone_function">
+<node CREATED="1290675749078" FOLDED="true" ID="ID_1873207825" MODIFIED="1355345768216" TEXT="clone_function">
 <node COLOR="#0033ff" CREATED="1290675760303" ID="ID_1250613880" MODIFIED="1307435002764">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -548,33 +548,6 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1354703945396" ID="ID_202179856" MODIFIED="1355138938149" TEXT="DOM">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1354703965541" FOLDED="true" ID="ID_1690145052" MODIFIED="1354703982423">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>ie</b>&#160;and <b>checked</b>
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1354703955604" ID="ID_440168666" MODIFIED="1354703963006">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Internet Explorer doesn't like to let you change the checked value of an input that is not a part of the DOM. Try setting the checked value AFTER the item has been appended and see if that works.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
 </node>
 <node COLOR="#338800" CREATED="1307434903922" ID="ID_410338370" MODIFIED="1328630321580" POSITION="right" TEXT="OBJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
@@ -743,6 +716,30 @@
     </p>
     <p>
       }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1354703965541" ID="ID_1690145052" MODIFIED="1355345790586">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ie</b>&#160;and <b>checked</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1354703955604" ID="ID_440168666" MODIFIED="1354703963006">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Internet Explorer doesn't like to let you change the checked value of an input that is not a part of the DOM. Try setting the checked value AFTER the item has been appended and see if that works.
     </p>
   </body>
 </html></richcontent>

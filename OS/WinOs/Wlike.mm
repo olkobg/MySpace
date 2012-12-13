@@ -10,13 +10,45 @@
 </node>
 <node CREATED="1331808994364" ID="ID_579640305" MODIFIED="1331808997620" POSITION="left" TEXT="progs">
 <node CREATED="1304154301176" ID="ID_758491942" MODIFIED="1304154357932" TEXT="power designer ">
-<node CREATED="1304159614916" ID="ID_360486390" LINK="http://www.phpbuilder.com/board/showthread.php?t=10295629" MODIFIED="1332787574192" TEXT="php lang cpec file"/>
+<node CREATED="1304159614916" ID="ID_360486390" LINK="http://www.phpbuilder.com/board/showthread.php?t=10295629" MODIFIED="1355432006138" TEXT="php lang spec file"/>
 <node CREATED="1304154359117" ID="ID_1366564412" LINK="http://wcode.net/2010/12/customcode-generation-power-designer-15/" MODIFIED="1332787536786" TEXT="create New language specificaftion"/>
 </node>
 </node>
 <node CREATED="1353670889289" ID="ID_1906794804" MODIFIED="1353670890305" POSITION="left" TEXT="cmd">
 <node CREATED="1353670893192" ID="ID_1068245744" MODIFIED="1353704038958" TEXT="add alias (short command)">
-<node COLOR="#0033ff" CREATED="1353670908525" ID="ID_472310140" MODIFIED="1353670917340" TEXT="&gt; doskey subl=&quot;C:\Program Files\Sublime Text 2\sublime_text.exe&quot; $*"/>
+<node COLOR="#0033ff" CREATED="1353670908525" ID="ID_472310140" MODIFIED="1355432086003">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt; <b>doskey</b>&#160;subl=&quot;C:\Program Files\Sublime Text 2\sublime_text.exe&quot; $*
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1355432045584" ID="ID_890564081" MODIFIED="1355432051614" TEXT="change attribute">
+<node COLOR="#0033ff" CREATED="1355432052246" ID="ID_1505491851" MODIFIED="1355432070440">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>attr</b>&#160;-H &lt;path&gt; /S /D
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1294232854297" ID="ID_1372309980" MODIFIED="1294232864168" TEXT="create link">
+<node COLOR="#0033ff" CREATED="1294232864664" ID="ID_1766221927" MODIFIED="1355432110641" TEXT="mklink">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node CREATED="1294232880183" ID="ID_150018163" MODIFIED="1294232919015" POSITION="right" TEXT=" xp"/>
