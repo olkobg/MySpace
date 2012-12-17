@@ -37,15 +37,14 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1353338690297" ID="ID_1889510088" MODIFIED="1355160888682" POSITION="left" TEXT="projects">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1355160919148" POSITION="left" TEXT="config">
+<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1355495397333" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355140000578" ID="ID_624009682" MODIFIED="1355140027764">
 <richcontent TYPE="NODE"><html>
@@ -87,6 +86,9 @@
 </html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1355140175527" ID="ID_1637713145" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=3&amp;t=2691" MODIFIED="1355140191851" TEXT="highlight_line"/>
+</node>
+<node CREATED="1355495398680" ID="ID_348230933" LINK="http://sublimetext.info/docs/en/reference/key_bindings.html" MODIFIED="1355495411596" POSITION="left" TEXT="key binding">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </map>

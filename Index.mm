@@ -56,8 +56,7 @@
       <font color="#0033ff">hg</font>(mercurial)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1289984133008" ID="ID_1686542002" LINK="VCSs/git.mm" MODIFIED="1355393963496" TEXT="git"/>
 </node>
@@ -67,7 +66,19 @@
 </node>
 <node CREATED="1289984104773" ID="ID_148677638" MODIFIED="1298988481393" POSITION="right" TEXT="Script Lang">
 <edge COLOR="#9900cc"/>
-<node CREATED="1289984573174" ID="ID_1353140143" LINK="PHP/PHP.mm" MODIFIED="1289984710178" TEXT="PHP"/>
+<node CREATED="1289984573174" ID="ID_1353140143" LINK="PHP/PHP.mm" MODIFIED="1355500296828">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      PHP
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1289984576174" ID="ID_1784405393" LINK="Ruby&amp;Rails/ruby.mm" MODIFIED="1289984672590" TEXT="Ruby"/>
 <node CREATED="1289984579445" ID="ID_770030087" MODIFIED="1289984584299" TEXT="Python"/>
 <node CREATED="1289984590260" ID="ID_950890979" LINK="JavaScript/JavaScript.mm" MODIFIED="1307120423247" TEXT="JavaScript">

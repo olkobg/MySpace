@@ -10,8 +10,7 @@
       Currently all docs updated to Mysql 5.5
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="21"/>
 <node CREATED="1290076786055" ID="ID_956641942" MODIFIED="1290076788459" POSITION="right" TEXT="Variables"/>
 <node CREATED="1295343247690" ID="ID_1695792282" MODIFIED="1295343287416" POSITION="right" TEXT="connection">
@@ -167,8 +166,7 @@
       ALTER TABLE `delivery_options` <b>ADD COLUMN</b>&#160;`CreationDate` INT(10) UNSIGNED NULL DEFAULT NULL;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -184,8 +182,7 @@
       [<font color="#0033ff"><b>COLUMN</b></font>]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355314903472" ID="ID_1579095387" MODIFIED="1355315303447">
 <richcontent TYPE="NODE"><html>
@@ -197,8 +194,7 @@
       ALTER TABLE `jim_marketing_categories` <b>CHANGE</b>&#160;`category_order` `categoryOrder` INT(10) UNSIGNED NULL DEFAULT '0';
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1328630822139" ID="ID_1607256549" MODIFIED="1355314990724">
 <richcontent TYPE="NODE"><html>
@@ -246,7 +242,7 @@
 <node COLOR="#0033ff" CREATED="1354288727763" ID="ID_1541285120" LINK="http://dev.mysql.com/doc/refman/5.5/en/delete.html" MODIFIED="1355322051209" POSITION="left" TEXT="DELETE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354289475161" FOLDED="true" ID="ID_209240147" MODIFIED="1355322051210" POSITION="left" TEXT="DROP">
+<node COLOR="#0033ff" CREATED="1354289475161" FOLDED="true" ID="ID_209240147" MODIFIED="1355503770160" POSITION="left" TEXT="DROP">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354289481464" FOLDED="true" ID="ID_903867966" LINK="http://dev.mysql.com/doc/refman/5.5/en/drop-table.html" MODIFIED="1354294681696" TEXT="TABLE">
 <node COLOR="#0033ff" CREATED="1354289515292" ID="ID_1800160113" MODIFIED="1354289562003">
@@ -357,6 +353,23 @@
 </node>
 <node COLOR="#0033ff" CREATED="1355322041341" ID="ID_1910037551" LINK="http://dev.mysql.com/doc/refman/5.5/en/update.html" MODIFIED="1355322138431" POSITION="left" TEXT="UPDATE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1355504449518" ID="ID_595465636" MODIFIED="1355504458293" POSITION="left" TEXT="transaction">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#996600" CREATED="1355503783895" ID="ID_1263559258" LINK="http://dev.mysql.com/doc/refman/5.1/en/innodb-locking-reads.html" MODIFIED="1355504509369">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">SELECT ... FOR UPDATE</font></b>&#160;<font color="#000000">(for&#160;<b>innoDB</b>)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#ff0000" CREATED="1320946456590" ID="ID_810700224" MODIFIED="1352390335285" POSITION="left" TEXT="TIPS">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
