@@ -408,9 +408,9 @@
       multiple <b>mouse\keyb</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1355774919038" ID="ID_1673614653" LINK="http://idebian.wordpress.com/2008/07/06/manage-hid-bluetooth-devices-in-linux/" MODIFIED="1355774933541" TEXT="another article for bluetooth config"/>
 </node>
 </node>
 </node>
