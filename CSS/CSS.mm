@@ -5,7 +5,8 @@
 <node CREATED="1329167857520" ID="ID_1738733773" MODIFIED="1329167859684" POSITION="right" TEXT="Fonts">
 <node CREATED="1329167860573" ID="ID_1617167628" LINK="http://www.webfonts.info/wiki/index.php?title=%40font-face_support_in_Firefox" MODIFIED="1329167893664" TEXT="Web Fonts - Firefox"/>
 </node>
-<node COLOR="#0033ff" CREATED="1333056389137" ID="ID_1127662998" MODIFIED="1352817329436" POSITION="left" TEXT="background">
+<node COLOR="#0033ff" CREATED="1333056389137" ID="ID_1127662998" MODIFIED="1355841547390" POSITION="left" TEXT="background">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#990099" CREATED="1333056395443" FOLDED="true" ID="ID_402701821" MODIFIED="1352817323585" TEXT="transparent">
 <node COLOR="#0033ff" CREATED="1333056429605" ID="ID_1741786650" MODIFIED="1333098261851">
 <richcontent TYPE="NODE"><html>
@@ -22,9 +23,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1338239998207" ID="ID_766402262" MODIFIED="1352817329437" POSITION="left" TEXT="box">
-<node COLOR="#0033ff" CREATED="1336845362558" ID="ID_1421273977" MODIFIED="1352817332843" TEXT="border">
-<node COLOR="#0033ff" CREATED="1336845365448" ID="ID_1780697231" LINK="http://www.css3.info/preview/rounded-border/" MODIFIED="1352817335008" TEXT="radius">
+<node CREATED="1338239998207" ID="ID_766402262" MODIFIED="1355841542639" POSITION="left" TEXT="box">
+<node COLOR="#0033ff" CREATED="1336845362558" ID="ID_1421273977" MODIFIED="1355841551660" TEXT="border">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1336845365448" ID="ID_1780697231" LINK="http://www.css3.info/preview/rounded-border/" MODIFIED="1355841556527" TEXT="radius">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1336845502117" ID="ID_84836676" MODIFIED="1336845526236">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -39,7 +42,7 @@
     </p>
   </body>
 </html></richcontent>
-<node COLOR="#338800" CREATED="1338240262012" ID="ID_1403441543" MODIFIED="1338240273293">
+<node COLOR="#0033ff" CREATED="1338240262012" ID="ID_1403441543" MODIFIED="1355841566740">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -54,7 +57,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1338239993612" ID="ID_781897182" MODIFIED="1352817332842" TEXT="shadow">
+<node COLOR="#0033ff" CREATED="1338239993612" ID="ID_781897182" MODIFIED="1355841551660" TEXT="shadow">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1338240003013" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1338242889580" TEXT="site1">
 <node COLOR="#0033ff" CREATED="1338240386255" ID="ID_813752905" MODIFIED="1338240456422">
 <richcontent TYPE="NODE"><html>
@@ -108,6 +112,18 @@
 </node>
 </node>
 <node CREATED="1338240016539" ID="ID_1015713349" LINK="http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/" MODIFIED="1338240033121" TEXT="site2"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1355839571373" ID="ID_298067342" MODIFIED="1355839575120" POSITION="left" TEXT="text">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355839575754" ID="ID_715847262" MODIFIED="1355839585051" TEXT="text-shadow">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#ff0000" CREATED="1355839585956" ID="ID_1353104836" LINK="http://www.w3.org/Style/Examples/007/text-shadow.en.html" MODIFIED="1355839596640" TEXT="W3C">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1355839695904" ID="ID_434945606" LINK="http://css-tricks.com/snippets/css/css-text-shadow/" MODIFIED="1355839705373" TEXT="css-tricks">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node CREATED="1336940083970" ID="ID_657813283" MODIFIED="1352817304559" POSITION="right" TEXT="Tricks">

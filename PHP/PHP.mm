@@ -63,7 +63,7 @@
 </node>
 <node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1312370380007" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1299140234352" ID="ID_409384537" MODIFIED="1355767615685" TEXT="Variables">
+<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1355828429200" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1355767615674" TEXT="inf">
 <node CREATED="1299143282242" ID="ID_1282115974" MODIFIED="1299143314362" TEXT="represented with use of dillar sign followed by the name of the variable"/>
 <node CREATED="1299143337872" ID="ID_1019860433" MODIFIED="1299143338900" TEXT="By default, variables are always assigned by value"/>
@@ -660,8 +660,7 @@ integer     : [+-]?decimal
       <font color="#0033ff">$products[0]<b>['']</b>[0]['product_name']</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1355767626426" ID="ID_404273819" MODIFIED="1355767652150">
 <richcontent TYPE="NODE"><html>
@@ -676,8 +675,7 @@ integer     : [+-]?decimal
       <font color="#0033ff">unset($array[null]);</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1299140308253" FOLDED="true" ID="ID_1983217092" MODIFIED="1355767353196" TEXT="object">

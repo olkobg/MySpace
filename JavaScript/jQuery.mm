@@ -137,8 +137,27 @@
 </node>
 </node>
 </node>
-<node CREATED="1354635093513" ID="ID_415842503" MODIFIED="1354635258971" POSITION="right" TEXT="elements">
+<node CREATED="1354635093513" ID="ID_415842503" MODIFIED="1355839311009" POSITION="right" TEXT="elements">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355839315264" ID="ID_898696207" MODIFIED="1355839318673" TEXT="css">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355839319298" ID="ID_1604537042" MODIFIED="1355839357267">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // changing text shadow
+    </p>
+    <p>
+      $('#bla')<b>.css</b>('textShadow','#6374AB 20px -12px 2px');
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1290773244511" FOLDED="true" ID="ID_1462650909" MODIFIED="1355246208869" TEXT="html">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1290773268082" ID="ID_761812187" MODIFIED="1355246204982">
@@ -199,7 +218,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354635153239" FOLDED="true" ID="ID_1912217586" LINK="http://api.jquery.com/attr/" MODIFIED="1354704464230" TEXT="attr">
+<node COLOR="#0033ff" CREATED="1354635153239" FOLDED="true" ID="ID_1912217586" LINK="http://api.jquery.com/attr/" MODIFIED="1355839291863" TEXT="attr">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354635166481" ID="ID_1475791461" MODIFIED="1354635205222">
 <richcontent TYPE="NODE"><html>
@@ -279,7 +298,7 @@
 <node COLOR="#0033ff" CREATED="1354704046508" ID="ID_650648200" MODIFIED="1354704439718" TEXT="prepend">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354704061024" FOLDED="true" ID="ID_1984897520" LINK="http://api.jquery.com/append/" MODIFIED="1354704448418" TEXT="append">
+<node COLOR="#0033ff" CREATED="1354704061024" FOLDED="true" ID="ID_1984897520" LINK="http://api.jquery.com/append/" MODIFIED="1355839284146" TEXT="append">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354704094224" ID="ID_449389076" MODIFIED="1354704161186">
 <richcontent TYPE="NODE"><html>
@@ -626,6 +645,10 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1355838991471" ID="ID_194065213" MODIFIED="1355839006748" POSITION="left" TEXT="plugins">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355838997784" ID="ID_448961335" LINK="http://www.inwebson.com/jquery/cool-jquery-plugins-make-you-wow/" MODIFIED="1355839004413" TEXT="cool 18 lugins"/>
 </node>
 </node>
 </map>

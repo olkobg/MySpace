@@ -27,12 +27,19 @@
       &#160;boot:&#160;Just press&#160;Enter.&#160;<br /><br />&#160;Select: [1]: Above the prompt you'll see a list of hard-drive partitions. Select the right one by typing that number.&#160;<br /><br />&#160;What is the path to the registry directory?...: The default is probably correct. Just press&#160;Enter.&#160;<br /><br />&#160;[1]:&#160;1&#160;<br /><br />&#160;What to do? [1] -&gt;:&#160;1&#160;<br /><br />&#160;or simply enter the username...: Type the name of the administrator account. If you're not sure what it is, all of the account names are listed above the prompt.&#160;<br /><br />&#160;Select: [q] &gt;:&#160;1&#160;<br /><br />&#160;Select: ! - quit...:&#160;!&#160;<br /><br />&#160;What to do [1]:&#160;q&#160;<br /><br />&#160;About to write file(s) back...:&#160;y&#160;<br /><br />&#160;New run? [n]:&#160;n&#160;<br /><br />&#160;#&#160;Remove the CD and reboot.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1334745974774" ID="ID_1330143835" MODIFIED="1334745987797" TEXT="restoring Files">
 <node CREATED="1334745988096" ID="ID_459900079" LINK="http://www.pcworld.com/downloads/file/fid,82979/description.html" MODIFIED="1334746016506" TEXT="Recuva Portable"/>
+</node>
+</node>
+<node CREATED="1355828454112" ID="ID_976125818" MODIFIED="1355828456978" POSITION="left" TEXT="drivers">
+<node CREATED="1355828457438" ID="ID_759658394" MODIFIED="1355828460727" TEXT="keyboard">
+<node CREATED="1355828460995" ID="ID_415635903" MODIFIED="1355828466297" TEXT="Apple wireless">
+<node CREATED="1355828468154" ID="ID_1249199752" LINK="http://code.google.com/p/uawks/" MODIFIED="1355828473592" TEXT="UAWKS"/>
+<node CREATED="1355828801616" ID="ID_1660368325" LINK="http://www.redmondpie.com/use-apple-wireless-keyboard-on-windows-with-full-functionality-using-apple-wireless-keyboard-helper/" MODIFIED="1355828811625" TEXT="Apple Wireless Keyboard Helper "/>
+</node>
 </node>
 </node>
 </node>

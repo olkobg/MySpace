@@ -361,7 +361,7 @@
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1313012590996" TEXT="keyboard commads"/>
 </node>
 <node CREATED="1355490607955" ID="ID_1838694125" MODIFIED="1355490610888" POSITION="left" TEXT="keyboard">
-<node CREATED="1355739747130" ID="ID_683421714" MODIFIED="1355739751980" TEXT="xkb">
+<node CREATED="1355739747130" FOLDED="true" ID="ID_683421714" MODIFIED="1355831763738" TEXT="xkb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355739756941" TEXT="instructions for changing keyb layout"/>
 <node CREATED="1355490901133" ID="ID_1324979617" LINK="http://stackoverflow.com/questions/4200800/in-bash-how-do-i-bind-a-function-key-to-a-command" MODIFIED="1355739756907" TEXT="stack overflow"/>
@@ -408,8 +408,7 @@
       multiple <b>mouse\keyb</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
