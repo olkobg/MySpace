@@ -36,6 +36,13 @@
 <node COLOR="#0033ff" CREATED="1347052304928" ID="ID_127513298" MODIFIED="1347052330143" TEXT="video CNAME video.olko.org.ua."/>
 </node>
 </node>
+<node CREATED="1355930601555" ID="ID_1846721531" MODIFIED="1355930611012" TEXT="Anon Proxy">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355930607639" ID="ID_34354308" MODIFIED="1355930612773" TEXT="tor">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355930613394" ID="ID_204518597" LINK="http://compizomania.blogspot.com/2012/04/tor-ubuntu-11101204.html" MODIFIED="1355930650114" TEXT="compiz mania"/>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1322654447149" ID="ID_1927839485" MODIFIED="1348222056125" POSITION="left" TEXT="Editor">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
