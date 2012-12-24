@@ -109,9 +109,10 @@
 </node>
 <node CREATED="1320672790869" ID="ID_1402751397" MODIFIED="1320672828852" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" ID="ID_1263032258" MODIFIED="1353415900951" TEXT="loader">
-<node COLOR="#0033ff" CREATED="1294648493700" FOLDED="true" ID="ID_929058759" MODIFIED="1355996316598" TEXT="grub">
+<node COLOR="#0033ff" CREATED="1294648493700" ID="ID_929058759" MODIFIED="1356349399982" TEXT="grub">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1294648495765" ID="ID_309092339" MODIFIED="1353415904010" TEXT="grub-rescue">
+<node COLOR="#0033ff" CREATED="1294648495765" ID="ID_309092339" MODIFIED="1356349402560" TEXT="grub-rescue">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294648500654" ID="ID_116137789" MODIFIED="1315938392680">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -124,6 +125,44 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1356357621123" ID="ID_721767900" LINK="#ID_574981773" MODIFIED="1356357657582" TEXT="kernel">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1356357687476" ID="ID_1275457618" MODIFIED="1356357751659">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>kernel </b>root=/dev/sda4 single
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356357628506" ID="ID_1001575292" MODIFIED="1356357633018" TEXT="initrd">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1356357634701" ID="ID_1912515179" MODIFIED="1356357639312" TEXT="boot">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356349423222" ID="ID_192544342" MODIFIED="1356349428122" TEXT="syslinux">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356349711486" ID="ID_1227119311" LINK="http://www.debian.org/releases/stable/amd64/ch04s03.html.en#usb-copy-easy" MODIFIED="1356349737328">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cc0066"><b>Debian</b></font>-doc
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -318,6 +357,52 @@
 </node>
 </node>
 </node>
+<node CREATED="1356357594952" ID="ID_574981773" MODIFIED="1356357600340" TEXT="param">
+<node COLOR="#0033ff" CREATED="1356357600839" ID="ID_939154443" MODIFIED="1356357605487" TEXT="root">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1356357663629" ID="ID_1491289096" MODIFIED="1356357714394">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>root</b>=/dev/sda4
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1356357606131" ID="ID_118096899" LINK="#ID_1275457618" MODIFIED="1356357832164">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff"><b>single </b></font><b><font color="#000000">// </font></b><font color="#000000">to run in system recovery mode</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1356357706377" ID="ID_383652424" MODIFIED="1356357881368">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>init_opts</b>&#160;<font color="#000000">// pass params to init</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 <node CREATED="1355996052443" ID="ID_1927459662" MODIFIED="1355996058088" POSITION="right" TEXT="tips">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -440,8 +525,7 @@
       <b>tree</b>&#160;-f -i -N oaza_video/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1313012590996" TEXT="keyboard commads"/>
@@ -496,6 +580,35 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356357912120" ID="ID_131784874" MODIFIED="1356357938921" POSITION="left" TEXT="X">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff"><b>Xorg</b>&#160;-configure</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1356358111740" ID="ID_1243035833" LINK="http://wiki.debian.org/Xorg" MODIFIED="1356358136918">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cc0066"><b>Debian</b></font>&#160;wiki
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
