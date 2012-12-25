@@ -1,6 +1,20 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1355996052456" TEXT="Ulike (debian)">
+<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1356446269950" TEXT="Ulike">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (debian) almost
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1296676490534" POSITION="right" TEXT="tools">
 <node COLOR="#0033ff" CREATED="1296834785901" ID="ID_43792908" MODIFIED="1355996343522" TEXT="mount ">
@@ -105,6 +119,32 @@
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1353415898863" TEXT="optimize">
 <node CREATED="1296726279539" ID="ID_1037052627" LINK="http://guides.tinybrick.com/magento/speed-testing" MODIFIED="1343156400294" TEXT="speedtesting"/>
 </node>
+<node CREATED="1356446286405" ID="ID_1896054764" MODIFIED="1356446329188">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      on <b>CentoOS</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#0033ff" CREATED="1356446291361" ID="ID_1046560793" MODIFIED="1356446322232">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sudo /sbin/service httpd graceful
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1320672790869" ID="ID_1402751397" MODIFIED="1320672828852" POSITION="right" TEXT="Boot">
@@ -138,8 +178,7 @@
       <b>kernel </b>root=/dev/sda4 single
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1356357628506" ID="ID_1001575292" MODIFIED="1356357633018" TEXT="initrd">
@@ -161,8 +200,7 @@
       <font color="#cc0066"><b>Debian</b></font>-doc
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -370,8 +408,7 @@
       <b>root</b>=/dev/sda4
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1356357606131" ID="ID_118096899" LINK="#ID_1275457618" MODIFIED="1356357832164">
@@ -384,8 +421,7 @@
       <font color="#0033ff"><b>single </b></font><b><font color="#000000">// </font></b><font color="#000000">to run in system recovery mode</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1356357706377" ID="ID_383652424" MODIFIED="1356357881368">
@@ -398,8 +434,7 @@
       <b>init_opts</b>&#160;<font color="#000000">// pass params to init</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -594,8 +629,7 @@
       <font color="#0033ff"><b>Xorg</b>&#160;-configure</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1356358111740" ID="ID_1243035833" LINK="http://wiki.debian.org/Xorg" MODIFIED="1356358136918">
 <richcontent TYPE="NODE"><html>
@@ -607,8 +641,7 @@
       <font color="#cc0066"><b>Debian</b></font>&#160;wiki
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

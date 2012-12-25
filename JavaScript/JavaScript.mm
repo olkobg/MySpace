@@ -18,6 +18,9 @@
 <node CREATED="1354015782893" ID="ID_517049765" LINK="jquery/jqueryUI.mm" MODIFIED="1354015806719" TEXT="jqueryUI">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1356445908888" ID="ID_187919146" LINK="http://amplifyjs.com/" MODIFIED="1356445919003" TEXT="apmplify">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1294140297055" ID="ID_1539605617" LINK="prototype.mm" MODIFIED="1306946330226" TEXT="prototype">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -184,8 +187,7 @@
       <font color="#0033ff"><b>Object </b></font><font color="#000000">(</font>Hash)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1342533010662" ID="ID_1480116367" LINK="http://www.mojavelinux.com/articles/javascript_hashes.html" MODIFIED="1342533016000" TEXT="link"/>
 <node COLOR="#0033ff" CREATED="1290675345898" ID="ID_1525870998" MODIFIED="1355337194543">
 <richcontent TYPE="NODE"><html>
@@ -306,8 +308,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1355325074109" FOLDED="true" ID="ID_11620303" MODIFIED="1355337309165" TEXT="Boolean">
@@ -450,8 +451,7 @@
       <b>switch</b>(n) {<br />case 1:<br /><i>&#160;&#160;execute code block 1</i><br />&#160;&#160;break;<br />case 2:<br /><i>&#160;&#160;execute code block 2</i><br />&#160;&#160;break;<br />default:<br /><i>&#160; code to be executed if n is different from case 1 and 2</i><br />} // end switch
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1307120335181" ID="ID_518244207" MODIFIED="1355345758840" TEXT="if">
