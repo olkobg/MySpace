@@ -2,14 +2,20 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#006633" CREATED="1348054359883" ID="ID_1290849412" LINK="../Crossplatform.mm" MODIFIED="1348054500932" TEXT="Sublime">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1348054383724" ID="ID_1207364740" MODIFIED="1348054509646" POSITION="right" TEXT="plugins">
+<node CREATED="1348054383724" ID="ID_1207364740" MODIFIED="1356448658872" POSITION="right" TEXT="plugins">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
-<node CREATED="1348054390991" ID="ID_789731113" MODIFIED="1348054412553" TEXT="work remote">
+<node CREATED="1348054390991" ID="ID_789731113" MODIFIED="1356448649889" TEXT="work remote">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1348054420597" ID="ID_432849325" LINK="http://urbangiraffe.com/2011/08/13/remote-editing-with-sublime-text-2/" MODIFIED="1348054479275" TEXT="simple ssh + python"/>
 <node CREATED="1348054452693" ID="ID_869312784" LINK="http://stackoverflow.com/questions/11290606/sublime-text-2-copy-file-on-save-backup-to-another-folder" MODIFIED="1348054463234" TEXT="stackO"/>
 <node CREATED="1348054426028" ID="ID_1158431672" LINK="http://www.cuvedev.net/2011/12/sublime-text-2-rsync-on-save/" MODIFIED="1348054491816" TEXT="simple rsync"/>
 </node>
 <node CREATED="1352715895899" ID="ID_1829880842" LINK="http://wbond.net/sublime_packages/package_control" MODIFIED="1352715968498" TEXT="Plugin Controll"/>
+<node CREATED="1356448658853" ID="ID_179771754" MODIFIED="1356448663663" TEXT="validation">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356448378788" ID="ID_1600803494" LINK="https://github.com/ehamiter/Sublime-Text-2-Plugins" MODIFIED="1356448393090" TEXT="Sublime-Text2-Plugins"/>
+<node CREATED="1356448393833" ID="ID_838555007" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=5&amp;t=2262" MODIFIED="1356448418271" TEXT="Html/Css"/>
+</node>
 </node>
 <node CREATED="1352716585132" ID="ID_1303016478" MODIFIED="1352716602808" POSITION="left" TEXT="build system">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>

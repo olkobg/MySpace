@@ -34,10 +34,24 @@
 <node CREATED="1332760213065" ID="ID_186213483" LINK="http://andrejk.blogspot.com/2008/04/vimdiff-howto.html" MODIFIED="1332760808695" TEXT="vimdiff : site 2"/>
 <node CREATED="1332760760362" ID="ID_1786961035" LINK="http://blog.tplus1.com/index.php/2007/08/29/how-to-use-vimdiff-as-the-subversion-diff-tool/" MODIFIED="1332760795593" TEXT="site3 : using vim for subversion"/>
 </node>
-<node CREATED="1322655266228" ID="ID_704854240" MODIFIED="1322655268439" POSITION="left" TEXT="Cygwin">
-<node CREATED="1322655268811" ID="ID_1306109549" MODIFIED="1322655271580" TEXT="tip">
+<node CREATED="1322655268811" ID="ID_1306109549" MODIFIED="1322655271580" POSITION="left" TEXT="tip">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1322655276139" ID="ID_144269626" LINK="http://www.scottmurphy.info/cygwin-windows-vi-vim-backspace-arrow-keys-doesnt-do-not-work-right" MODIFIED="1322655287545" TEXT="work properly"/>
+<node CREATED="1356452292583" ID="ID_1729038372" MODIFIED="1356455055259" TEXT="remove all lines">
+<node CREATED="1356452296730" ID="ID_795901926" MODIFIED="1356452319073">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">gg</font>&#160;and then <font color="#0033ff">dG</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1322655266228" ID="ID_704854240" MODIFIED="1356452330792" TEXT="Cygwin">
+<node CREATED="1322655276139" ID="ID_144269626" LINK="http://www.scottmurphy.info/cygwin-windows-vi-vim-backspace-arrow-keys-doesnt-do-not-work-right" MODIFIED="1356452334457" TEXT="work properly"/>
 </node>
 </node>
 <node CREATED="1310044236747" FOLDED="true" ID="ID_424960842" MODIFIED="1352366509846" POSITION="right" TEXT="Tabulation">

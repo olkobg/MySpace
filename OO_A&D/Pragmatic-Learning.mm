@@ -42,8 +42,7 @@
       3. photo that mind map and sent via mail to your temmates
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1282735154744" ID="ID_103404598" MODIFIED="1335361986733" TEXT="Often use plain paper and pencil instad of computer">
@@ -73,8 +72,7 @@
       just rememeber about knife in your neck (look what else might escaping your atttention)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1284447083337" ID="ID_75521736" MODIFIED="1348135443323" TEXT="focus on Now">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="18"/>
@@ -90,6 +88,68 @@
 <node CREATED="1286543336873" ID="ID_1476992892" MODIFIED="1286543351639" TEXT="1. Learn to quiet your chattering L-mode. "/>
 <node CREATED="1286543352461" ID="ID_1652591801" MODIFIED="1286543399882" TEXT="2. Deliberately work with and add to thoughts in progress, even if they aren&#x2019;t &#x201c;done&#x201d; yet."/>
 <node CREATED="1286543361072" ID="ID_486369558" MODIFIED="1286543362523" TEXT="3. Be aware of just how expensive context switching can be, and avoid it in all its myriad forms."/>
+</node>
+</node>
+<node COLOR="#006633" CREATED="1356434209208" ID="ID_1841377665" MODIFIED="1356434656529" POSITION="right" TEXT="motivation">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1356434656458" FOLDED="true" ID="ID_1444549956" MODIFIED="1356435319801" TEXT="+++">
+<node CREATED="1356434213897" FOLDED="true" ID="ID_1857833755" MODIFIED="1356434662885">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      by <b>Judith S. Beck</b>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356434217925" ID="ID_550222448" MODIFIED="1356434477611">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        Develop a <b>reasonable goal</b>&#160;and <b>reasonable plan</b>.
+      </li>
+      <li>
+        Create a <b>list of reasons</b>&#160;why it's important to you to reach your goal, and read this list (even when you don't feel like it) every morning and whenever when you're tempted to deviate from your plan.
+      </li>
+      <li>
+        Give yourself <b>credit</b>&#160;whenever you engage in behaviors designed to help you reach your goal or avoid behaviors that would steer you away from your goal.
+      </li>
+      <li>
+        Set up a plan to be <b>accountable</b>&#160;(to yourself or to another person or group).
+      </li>
+      <li>
+        Respond to <b>sabotaging thinking.</b>
+      </li>
+      <li>
+        Identify <b>obstacles</b>&#160;and <b>problem solve</b>&#160;in advance.
+      </li>
+      <li>
+        Prepare for feelings of <b>discouragement, disappointment</b>&#160;and <b>deprivation.</b>
+      </li>
+      <li>
+        Decide on how you will <b>reward</b>&#160;yourself when you reach sub-goals.
+      </li>
+      <li>
+        Focus on the experiences you deem <b>&quot;worth it.&quot;</b>
+      </li>
+      <li>
+        Get <b>back to basics</b>&#160;when you get off track.
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1356434580544" ID="ID_75175539" LINK="http://www.ehow.com/how_2084520_increase-motivation-keep.html" MODIFIED="1356434597670" TEXT="ehow"/>
+<node CREATED="1356434730204" ID="ID_420530163" LINK="http://www.pickthebrain.com/blog/21-proven-motivation-tactics/" MODIFIED="1356434740503" TEXT="pick the brain"/>
+<node CREATED="1356435005266" ID="ID_304909552" LINK="http://www.coun.uvic.ca/learning/motivation/" MODIFIED="1356435015959" TEXT="univer of Victoria"/>
 </node>
 </node>
 <node COLOR="#006633" CREATED="1282726388433" ID="ID_1000589260" MODIFIED="1335361941768" POSITION="left" TEXT="learning">
@@ -203,8 +263,7 @@
       Be aware of the rhythm of your breath, the length and qualities of the inhale, the brief pause at the top of the cycle, the qualities of the exhale, and the brief pause at the bottom. Don&#8217;t try to change it; just be aware of it.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1284447970488" ID="ID_1070006603" MODIFIED="1284447972160" TEXT="Keep your mind focused on the breath. Do not use words. Do not verbalize the breath or any thoughts you have. Do not begin a conversation with yourself. This is the other hard part. "/>
 <node CREATED="1284447973332" ID="ID_1981387823" MODIFIED="1284447984908" TEXT="You may &#xfb01;nd yourself thinking about some topic or carry- ing on a conversation with yourself. Whenever your attention wanders off, just let those thoughts go and gently bring your focus back to the breath. "/>
