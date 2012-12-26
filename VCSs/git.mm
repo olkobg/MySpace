@@ -68,8 +68,7 @@
       <font color="#0033ff">git <b>merge</b>&#160;</font>&lt;branch name&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1347010308056" ID="ID_1213016915" MODIFIED="1347010356416" TEXT="merges one other &lt;branch name&gt; into current"/>
 </node>
 <node COLOR="#0033ff" CREATED="1347009784568" ID="ID_1793668466" MODIFIED="1355755089118" TEXT="--abort">
@@ -110,8 +109,7 @@
       <font color="#0033ff"><b>-d</b></font>&#160;&lt;branch name&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1289405750210" ID="ID_744809024" MODIFIED="1289405755295" TEXT="delete branch"/>
 </node>
 <node CREATED="1347010224063" ID="ID_1667049057" MODIFIED="1355754878243">
@@ -124,8 +122,7 @@
       <font color="#0033ff"><b>-D</b></font>&#160;&lt;branch name&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1347010231832" ID="ID_41076132" MODIFIED="1347010239808" TEXT="force delete branch"/>
 </node>
 <node CREATED="1347010077369" ID="ID_1159392421" MODIFIED="1355754892061">
@@ -138,8 +135,7 @@
       <font color="#0033ff"><b>-m</b></font>&#160;&lt;old branch name&gt; &lt;new branch name&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1347010140362" ID="ID_1177062940" MODIFIED="1347010144989" TEXT="renames branch"/>
 </node>
 </node>
@@ -155,8 +151,7 @@
       <font color="#0033ff"><b>-b</b></font>&#160;&lt;new branch name&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1289405830696" ID="ID_179972832" MODIFIED="1347010197917" TEXT="crates new branch from current with &lt;new branch name&gt; and checkouts that branch"/>
 </node>
 </node>
@@ -182,8 +177,7 @@
       and add plus (<font color="#0033ff"><b>+</b></font>) sing before branches names
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#0033ff" CREATED="1329936180552" ID="ID_1314317476" MODIFIED="1329936320219">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -197,6 +191,9 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1356529773115" ID="ID_852491837" MODIFIED="1356529776325" POSITION="left" TEXT="reflog">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1311116388955" ID="ID_1391649564" MODIFIED="1355754724982" POSITION="left" TEXT="reset">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -214,20 +211,73 @@
       git <b>reset</b>&#160;README
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1311117148806" ID="ID_110947359" MODIFIED="1355754741635" TEXT="--hard">
+<node COLOR="#0033ff" CREATED="1311117148806" FOLDED="true" ID="ID_110947359" MODIFIED="1356529821605" TEXT="--hard">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1311117156533" ID="ID_1139712356" MODIFIED="1311117177128" TEXT="also removes files from curent working directory"/>
-<node COLOR="#0033ff" CREATED="1311117184796" ID="ID_1714248309" MODIFIED="1355754757259">
+<node CREATED="1311117184796" ID="ID_1714248309" MODIFIED="1356529326405">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      git reset <b>--hard</b>&#160;HEAD
+      # also <b>removes files</b>&#160;from curent working directory
+    </p>
+    <p>
+      <font color="#0033ff">git reset <b>--hard</b>&#160;HEAD</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356529167620" FOLDED="true" ID="ID_631520260" MODIFIED="1356529818595" TEXT="--soft">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356529173575" ID="ID_1750030697" MODIFIED="1356529693299">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # <b>Fix amended commit</b>
+    </p>
+    <p>
+      # Move the current head so that it's pointing at the old commit
+    </p>
+    <p>
+      # Leave the index intact for redoing the commit
+    </p>
+    <p>
+      <font color="#0033ff">git reset <b>--soft</b>&#160;HEAD@{1}</font>&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # commit the current tree using the commit details of the previous
+    </p>
+    <p>
+      # HEAD commit. (Note that HEAD@{1} is pointing somewhere different from the
+    </p>
+    <p>
+      # previous command. It's now pointing at the erroneously amended commit.)
+    </p>
+    <p>
+      <font color="#0033ff">git commit -C HEAD@{1} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#000000"># <b>NB</b>&#160;if not workin look into </font>
+    </p>
+    <p>
+      <font color="#0033ff">git reflog</font>
+    </p>
+    <p>
+      #and replace <font color="#0033ff">HEAD@{1}</font>&#160;with equivalent <b>commit hash</b>
     </p>
   </body>
 </html>
@@ -296,7 +346,6 @@
 </node>
 <node COLOR="#0033ff" CREATED="1311116059975" ID="ID_764103587" MODIFIED="1355755770506" POSITION="left" TEXT="svn">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1311116084660" ID="ID_1353533869" MODIFIED="1311116089208" TEXT="works with svn"/>
 <node COLOR="#0033ff" CREATED="1311116241132" ID="ID_1717495844" MODIFIED="1355754738058" TEXT="init">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311116263505" ID="ID_537189093" MODIFIED="1311116271864" TEXT="add svn remote record"/>
@@ -311,11 +360,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1311116249030" ID="ID_1628596579" MODIFIED="1355754738059" TEXT="rebase">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1311116360205" ID="ID_743553478" MODIFIED="1311116365927" TEXT="like svn update"/>
+<node CREATED="1311116360205" ID="ID_743553478" MODIFIED="1356529732367" TEXT=" # svn update"/>
 </node>
 <node COLOR="#0033ff" CREATED="1311116253454" ID="ID_1334077120" MODIFIED="1355754738059" TEXT="dcommit">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1311116368724" ID="ID_268378093" MODIFIED="1311116372722" TEXT="like svn commit"/>
+<node CREATED="1311116368724" ID="ID_268378093" MODIFIED="1356529738825" TEXT="# svn commit"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1355755783133" ID="ID_1207555177" MODIFIED="1355755785680" POSITION="left" TEXT="tag">
@@ -343,8 +392,7 @@
       <font color="#0033ff">git <b>clone</b></font>&#160;http://github.com/olko/MySpace.git
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1311116995886" ID="ID_1201055592" MODIFIED="1355755076672" TEXT="clones git repo"/>
 </node>
 </node>
@@ -366,8 +414,7 @@
       to make <b>empty</b>&#160;commit with <b>message</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -383,8 +430,7 @@
       git <b>config</b>&#160;merge.tool &lt;tool&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1289412008534" ID="ID_793420099" MODIFIED="1347010408433" TEXT="change merge tool"/>
 </node>
 <node CREATED="1316101111376" ID="ID_983038719" MODIFIED="1347010423991" TEXT="change paginator for diff">
@@ -419,8 +465,7 @@
       git diff <b>--cached</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -435,8 +480,7 @@
       git diff <b>--color</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -453,8 +497,7 @@
       git <b>init</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1297153955101" ID="ID_163677500" MODIFIED="1297153964392" TEXT="create empty new repositorey"/>
 <node CREATED="1297153967319" ID="ID_35116379" MODIFIED="1355754954719">
@@ -467,8 +510,7 @@
       <font color="#0033ff">git <b>init</b>&#160;--bare</font>&#160;&lt;git_rep_name&gt;<font color="#0033ff">.git</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1311116937609" ID="ID_701178819" MODIFIED="1355754825087" POSITION="right" TEXT="log">
@@ -487,8 +529,7 @@
       git log <b>--graph</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1311117648174" ID="ID_1934480221" MODIFIED="1355754983607">
 <richcontent TYPE="NODE"><html>
@@ -500,8 +541,7 @@
       git log <b>--graph</b>&#160;--pretty=oneline --abbrev-commit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1347009821479" ID="ID_1601966854" MODIFIED="1355754972172" TEXT="--color">
