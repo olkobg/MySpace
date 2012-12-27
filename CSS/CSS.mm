@@ -18,8 +18,7 @@
       /* Fallback for web browsers that doesn't support RGBa */<br /><font color="#0033ff">background: rgb(0, 0, 0);</font><br />/* RGBa with 0.6 opacity */<br /><font color="#0033ff">background: rgba(0, 0, 0, 0.6);</font><br />/* For IE 5.5 - 7*/<br /><font color="#0033ff">filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);</font><br />./* For IE 8*/<br /><font color="#0033ff">-ms-filter: &quot;progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)&quot;;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -60,7 +59,8 @@
 </node>
 <node COLOR="#0033ff" CREATED="1338239993612" ID="ID_781897182" MODIFIED="1355841551660" TEXT="shadow">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1338240003013" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1356545614253" TEXT="site1">
+<node COLOR="#009999" CREATED="1338240003013" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1356606615794" TEXT="css-tricks">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1338240386255" ID="ID_813752905" MODIFIED="1356545609687">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -113,8 +113,7 @@
       <font color="#0033ff">}</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1338240016539" ID="ID_1015713349" LINK="http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/" MODIFIED="1338240033121" TEXT="site2"/>
@@ -162,6 +161,14 @@
 </node>
 <node CREATED="1356536206856" ID="ID_1085795105" LINK="http://v1.jontangerine.com/log/2007/09/the-incredible-em-and-elastic-layouts-with-css" MODIFIED="1356545375813" TEXT="elastic-layout"/>
 <node CREATED="1356545393955" ID="ID_541903450" LINK="http://stackoverflow.com/questions/4713181/elastic-layout-with-max-width-and-min-width-using-grid-based-design" MODIFIED="1356545402968" TEXT="SO">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1356606013830" ID="ID_1203122414" MODIFIED="1356606017175" POSITION="right" TEXT="Sites">
+<node COLOR="#009999" CREATED="1356606018368" ID="ID_524275382" LINK="http://www.quirksmode.org/" MODIFIED="1356606594464" TEXT="quirksmode">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1356606026933" ID="ID_40012144" LINK="http://css-tricks.com/" MODIFIED="1356606592035" TEXT="css-tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>

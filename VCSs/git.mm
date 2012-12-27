@@ -51,7 +51,28 @@
 <node CREATED="1328630705882" ID="ID_1722401629" MODIFIED="1328630708386" POSITION="left" TEXT="info">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328630710250" ID="ID_1913892373" MODIFIED="1328630716247" TEXT="books">
-<node CREATED="1328630716577" ID="ID_246836308" LINK="http://git-scm.com/book" MODIFIED="1355756448224" TEXT="Pro GIt">
+<node COLOR="#009999" CREATED="1328630716577" ID="ID_246836308" LINK="http://git-scm.com/book" MODIFIED="1356609899733" TEXT="git book">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1356611241727" ID="ID_958285507" MODIFIED="1356611252143" TEXT="cheatsheets">
+<node CREATED="1356611243693" ID="ID_1575599507" LINK="http://ndpsoftware.com/git-cheatsheet.html#loc=index;" MODIFIED="1356611246812" TEXT="np"/>
+<node CREATED="1356611253640" ID="ID_1569983938" LINK="https://na1.salesforce.com/help/doc/en/salesforce_git_developer_cheatsheet.pdf" MODIFIED="1356611303982">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>heroku</b>&#160;&amp; <b>github</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1356617232291" ID="ID_930330535" MODIFIED="1356617237397" TEXT="refferences">
+<node COLOR="#009999" CREATED="1356617238047" ID="ID_1940841492" LINK="http://git-scm.com/docs" MODIFIED="1356617245751" TEXT="git book">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -79,6 +100,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="help"/>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1356611018634" ID="ID_1250883637" MODIFIED="1356611022894" POSITION="left" TEXT="mergetool">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1289405676416" ID="ID_487111464" MODIFIED="1355754825096" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -125,34 +149,40 @@
 </html></richcontent>
 <node CREATED="1347010231832" ID="ID_41076132" MODIFIED="1347010239808" TEXT="force delete branch"/>
 </node>
-<node CREATED="1347010077369" ID="ID_1159392421" MODIFIED="1355754892061">
+<node CREATED="1347010077369" ID="ID_1159392421" MODIFIED="1356609795138">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>-m</b></font>&#160;&lt;old branch name&gt; &lt;new branch name&gt;
+      <b><font color="#000000"># </font></b><font color="#000000">renames branch</font>
+    </p>
+    <p>
+      <b><font color="#0033ff">-m</font></b>&#160;&lt;old branch name&gt; &lt;new branch name&gt;
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1347010140362" ID="ID_1177062940" MODIFIED="1347010144989" TEXT="renames branch"/>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1289405808665" ID="ID_616427300" MODIFIED="1355754825096" POSITION="right" TEXT="checkout">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1289405820303" ID="ID_594507726" MODIFIED="1355754900662">
+<node CREATED="1289405820303" ID="ID_594507726" MODIFIED="1356609866573">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>-b</b></font>&#160;&lt;new branch name&gt;
+      # crates <b>new</b>&#160;<b><font color="#000000">branch</font></b>&#160;from current with <b>&lt;new branch name&gt;</b>&#160;and <b><font color="#000000">checkout</font>s</b>&#160;that <font color="#000000">branch</font>
+    </p>
+    <p>
+      <b><font color="#0033ff">-b</font></b>&#160;<b>&lt;new branch name&gt;</b>
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1289405830696" ID="ID_179972832" MODIFIED="1347010197917" TEXT="crates new branch from current with &lt;new branch name&gt; and checkouts that branch"/>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1347009889048" ID="ID_650238942" MODIFIED="1355754825096" POSITION="right" TEXT="cherry-pick">
@@ -198,7 +228,7 @@
 <node COLOR="#0033ff" CREATED="1311116388955" ID="ID_1391649564" MODIFIED="1355754724982" POSITION="left" TEXT="reset">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311117086249" ID="ID_1164172895" MODIFIED="1355755359927" TEXT="remove file from the current index (the &quot;about to be committed&quot; area) without changing anything else."/>
-<node COLOR="#990099" CREATED="1311117229714" ID="ID_168216952" LINK="http://stackoverflow.com/questions/348170/undo-git-add" MODIFIED="1311117246714" TEXT="SO">
+<node COLOR="#009999" CREATED="1311117229714" ID="ID_168216952" LINK="http://stackoverflow.com/questions/348170/undo-git-add" MODIFIED="1356609417356" TEXT="SO">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1311117100824" ID="ID_128554429" MODIFIED="1355754748062">
@@ -228,8 +258,7 @@
       <font color="#0033ff">git reset <b>--hard</b>&#160;HEAD</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1356529167620" FOLDED="true" ID="ID_631520260" MODIFIED="1356529818595" TEXT="--soft">
@@ -280,8 +309,7 @@
       #and replace <font color="#0033ff">HEAD@{1}</font>&#160;with equivalent <b>commit hash</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -297,10 +325,10 @@
 <node COLOR="#0033ff" CREATED="1355755752961" ID="ID_54780593" MODIFIED="1355755762052" POSITION="left" TEXT="stage">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1319444453125" ID="ID_868762534" MODIFIED="1355755746898" POSITION="left" TEXT="stash">
+<node COLOR="#0033ff" CREATED="1319444453125" ID="ID_868762534" MODIFIED="1356609336188" POSITION="left" TEXT="stash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1319444456718" ID="ID_163923825" MODIFIED="1319444460284" TEXT="get diff">
-<node COLOR="#990099" CREATED="1319444460557" FOLDED="true" ID="ID_810957010" LINK="http://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash" MODIFIED="1347010280296" TEXT="SO">
+<node COLOR="#009999" CREATED="1319444460557" FOLDED="true" ID="ID_810957010" LINK="http://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash" MODIFIED="1356609411851" TEXT="SO">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1332759147846" ID="ID_473525063" MODIFIED="1332759279561">
 <richcontent TYPE="NODE"><html>
@@ -332,9 +360,25 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1321283282092" ID="ID_948165641" MODIFIED="1355754731791" TEXT="git stash apply stash@{2}">
+<node COLOR="#0033ff" CREATED="1356609336117" ID="ID_1249518554" MODIFIED="1356609339819" TEXT="apply">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1321283274029" ID="ID_1931767887" MODIFIED="1347010286608" TEXT="get apply specified stash "/>
+<node CREATED="1321283282092" ID="ID_948165641" MODIFIED="1356609376312">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # get apply specified stash
+    </p>
+    <p>
+      <font color="#0033ff">git <b>stash</b>&#160;<b>apply</b>&#160;stash@{2}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1355755773450" ID="ID_828919402" MODIFIED="1355755777426" POSITION="left" TEXT="status">
@@ -342,7 +386,44 @@
 </node>
 <node COLOR="#0033ff" CREATED="1355397720546" ID="ID_123457488" MODIFIED="1355754724980" POSITION="left" TEXT="submodule">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1355397727127" ID="ID_148578323" LINK="http://git-scm.com/book/en/Git-Tools-Submodules" MODIFIED="1355397738280" TEXT="gitScmBook"/>
+<node COLOR="#009999" CREATED="1355397727127" ID="ID_148578323" LINK="http://git-scm.com/book/en/Git-Tools-Submodules" MODIFIED="1356609905515" TEXT="git-book">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1356612125572" ID="ID_986475793" MODIFIED="1356612132141" TEXT="init">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356612140562" ID="ID_406929653" MODIFIED="1356612170700">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # initializing sibmodule file
+    </p>
+    <p>
+      <font color="#0033ff">git <b>submodule init</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356609229707" ID="ID_1519197411" MODIFIED="1356609233942" TEXT="update">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356609234595" ID="ID_1744148720" MODIFIED="1356609257740">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">git <b>submodule update</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1311116059975" ID="ID_764103587" MODIFIED="1355755770506" POSITION="left" TEXT="svn">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -418,71 +499,85 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289412005624" ID="ID_1466793587" MODIFIED="1355754825088" POSITION="right" TEXT="config">
+<node COLOR="#0033ff" CREATED="1289412005624" ID="ID_1466793587" MODIFIED="1356609571290" POSITION="right" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1289412013925" ID="ID_1715652734" MODIFIED="1355755023479">
+<node CREATED="1289412013925" ID="ID_1715652734" MODIFIED="1356609564954">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      git <b>config</b>&#160;merge.tool &lt;tool&gt;
+      # change merge tool
+    </p>
+    <p>
+      <font color="#0033ff">git <b>config</b>&#160;merge.tool &lt;tool&gt;</font>
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1289412008534" ID="ID_793420099" MODIFIED="1347010408433" TEXT="change merge tool"/>
+</html>
+</richcontent>
 </node>
-<node CREATED="1316101111376" ID="ID_983038719" MODIFIED="1347010423991" TEXT="change paginator for diff">
+<node CREATED="1316101111376" FOLDED="true" ID="ID_983038719" MODIFIED="1356609575042" TEXT="file">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1316101125350" ID="ID_970354881" MODIFIED="1316101139925">
+<node CREATED="1316101125350" ID="ID_970354881" MODIFIED="1356609539672">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      [core]
+      #change paginator for diff
     </p>
     <p>
-      &#160;pager = less -FXRS -x4
+      <font color="#0033ff">[core] </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;pager = less -FXRS -x4</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1313572779285" ID="ID_896395638" MODIFIED="1355754825088" POSITION="right" TEXT="diff">
+<node COLOR="#0033ff" CREATED="1313572779285" FOLDED="true" ID="ID_896395638" MODIFIED="1356609509869" POSITION="right" TEXT="diff">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1313572784545" ID="ID_1844496790" MODIFIED="1315865688401" TEXT="view current staged changes">
-<node COLOR="#0033ff" CREATED="1313572795090" ID="ID_631869903" MODIFIED="1355755011053">
+<node CREATED="1313572795090" ID="ID_631869903" MODIFIED="1356609456775">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      git diff <b>--cached</b>
+      # view current staged changes
+    </p>
+    <p>
+      <font color="#0033ff">git diff <b>--cached</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-</node>
-<node CREATED="1313572802694" ID="ID_799495547" MODIFIED="1313572806721" TEXT="view with color">
-<node COLOR="#0033ff" CREATED="1313572807046" ID="ID_1802370194" MODIFIED="1355755000891">
+<node CREATED="1313572807046" ID="ID_1802370194" MODIFIED="1356609479377">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      git diff <b>--color</b>
+      # view with color
+    </p>
+    <p>
+      <font color="#0033ff">git diff <b>--color</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1356611047333" ID="ID_814792527" MODIFIED="1356611050610" POSITION="right" TEXT="fetch">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1297153951399" ID="ID_1283764578" MODIFIED="1355754825087" POSITION="right" TEXT="init">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -550,6 +645,22 @@
 <node COLOR="#0033ff" CREATED="1347009826125" ID="ID_621777639" MODIFIED="1355754972171" TEXT="--name-only">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347009835785" ID="ID_1760063133" MODIFIED="1347009850600" TEXT="displates files changed in this commit"/>
+</node>
+<node CREATED="1356617685783" ID="ID_1174304165" MODIFIED="1356617748907">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # output last <b>N</b>&#160;messages
+    </p>
+    <p>
+      <font color="#0033ff">git <b>log -N</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
