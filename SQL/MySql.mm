@@ -307,19 +307,20 @@
 <node COLOR="#0033ff" CREATED="1354288820231" ID="ID_812916834" LINK="http://dev.mysql.com/doc/refman/5.5/en/select.html" MODIFIED="1355322051211" TEXT="SELECT">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354288734046" FOLDED="true" ID="ID_1954612146" LINK="http://dev.mysql.com/doc/refman/5.5/en/truncate-table.html" MODIFIED="1355322051212" TEXT="TRUNCATE">
+<node COLOR="#0033ff" CREATED="1354288734046" FOLDED="true" ID="ID_1954612146" LINK="http://dev.mysql.com/doc/refman/5.5/en/truncate-table.html" MODIFIED="1356716325161" TEXT="TRUNCATE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1354288739675" ID="ID_1288162117" MODIFIED="1354288748582">
+<node COLOR="#0033ff" CREATED="1354288739675" ID="ID_1288162117" MODIFIED="1356716319405">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      TRUNCATE [TABLE] tbl_name
+      <b>TRUNCATE</b>&#160;[TABLE] tbl_name
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1355322041341" ID="ID_1910037551" LINK="http://dev.mysql.com/doc/refman/5.5/en/update.html" MODIFIED="1355322138431" TEXT="UPDATE">
@@ -409,12 +410,17 @@
 </node>
 </node>
 </node>
-<node CREATED="1354279301177" ID="ID_623127039" MODIFIED="1356683525604" POSITION="right" TEXT="ENGINES">
-<node CREATED="1354279308104" ID="ID_1456868854" LINK="http://openquery.com/products/graph-engine" MODIFIED="1354279460267" TEXT="qGraph">
-<node CREATED="1354279437461" ID="ID_718078774" LINK="https://launchpad.net/oqgraph" MODIFIED="1354279448601" TEXT="lp"/>
+<node CREATED="1354279301177" ID="ID_623127039" MODIFIED="1356716242821" POSITION="right" TEXT="engines">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1354279308104" ID="ID_1456868854" LINK="http://openquery.com/products/graph-engine" MODIFIED="1356716234209" TEXT="qGraph">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1354279437461" ID="ID_718078774" LINK="https://launchpad.net/oqgraph" MODIFIED="1356716229042" TEXT="LP">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1352978089919" ID="ID_597483296" MODIFIED="1352978151922" POSITION="right" TEXT="information_schema">
+</node>
+<node COLOR="#0033ff" CREATED="1352978089919" ID="ID_597483296" MODIFIED="1356716301796" POSITION="right" TEXT="information_schema">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1352978101798" ID="ID_42747466" MODIFIED="1352978146894" TEXT="COLUMNS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -422,7 +428,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1299247772112" FOLDED="true" ID="ID_748683254" MODIFIED="1356683543534" POSITION="right" TEXT="Stored Procedures">
+<node CREATED="1299247772112" FOLDED="true" ID="ID_748683254" MODIFIED="1356716308511" POSITION="right" TEXT="Stored Procedures">
 <node COLOR="#0033ff" CREATED="1299247779698" ID="ID_1412236481" MODIFIED="1328173884708">
 <richcontent TYPE="NODE"><html>
   <head>
