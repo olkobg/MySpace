@@ -10,17 +10,19 @@
 <node COLOR="#009999" CREATED="1291283758871" ID="ID_651800150" MODIFIED="1351777305384" POSITION="right" TEXT="Apps">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1291284845924" ID="ID_637058664" MODIFIED="1291284849510" TEXT="webCMS">
-<node COLOR="#0033ff" CREATED="1291283799040" ID="ID_632977273" LINK="Joomla.mm" MODIFIED="1298551152412" STYLE="bubble" TEXT="Joomla">
+<node COLOR="#006633" CREATED="1291283799040" ID="ID_632977273" LINK="Joomla.mm" MODIFIED="1355996464562" STYLE="bubble" TEXT="Joomla">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 <node CREATED="1291284822116" ID="ID_797129928" MODIFIED="1291284824886" TEXT="modX"/>
 <node CREATED="1291284825792" ID="ID_1363881862" MODIFIED="1291284827913" TEXT="Drupal"/>
 </node>
 <node CREATED="1291284850357" ID="ID_1639747267" MODIFIED="1291284853873" TEXT="Blogs">
-<node CREATED="1291284864734" ID="ID_1236265952" MODIFIED="1291284870559" TEXT="wordpress"/>
+<node COLOR="#006633" CREATED="1355995323699" ID="ID_1231240454" LINK="CMS/wordpress.mm" MODIFIED="1355996464566" STYLE="bubble" TEXT="wordpress">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+</node>
 </node>
 <node CREATED="1293706091715" ID="ID_1317362145" MODIFIED="1293706097155" TEXT="commerce">
-<node COLOR="#0033ff" CREATED="1293706110767" ID="ID_295572364" LINK="CMS/Magento/magento.mm" MODIFIED="1298551152411" STYLE="bubble" TEXT="magento">
+<node COLOR="#006633" CREATED="1293706110767" ID="ID_295572364" LINK="CMS/Magento/magento.mm" MODIFIED="1355996464564" STYLE="bubble" TEXT="magento">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 <node CREATED="1293706148883" ID="ID_68755020" LINK="http://www.oscommerce.com/" MODIFIED="1352459164561" TEXT="osCommerce"/>
@@ -63,7 +65,7 @@
 </node>
 <node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1312370380007" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1299140234352" ID="ID_409384537" MODIFIED="1355767615685" TEXT="Variables">
+<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1355828429200" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1355767615674" TEXT="inf">
 <node CREATED="1299143282242" ID="ID_1282115974" MODIFIED="1299143314362" TEXT="represented with use of dillar sign followed by the name of the variable"/>
 <node CREATED="1299143337872" ID="ID_1019860433" MODIFIED="1299143338900" TEXT="By default, variables are always assigned by value"/>
@@ -660,8 +662,7 @@ integer     : [+-]?decimal
       <font color="#0033ff">$products[0]<b>['']</b>[0]['product_name']</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1355767626426" ID="ID_404273819" MODIFIED="1355767652150">
 <richcontent TYPE="NODE"><html>
@@ -676,8 +677,7 @@ integer     : [+-]?decimal
       <font color="#0033ff">unset($array[null]);</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1299140308253" FOLDED="true" ID="ID_1983217092" MODIFIED="1355767353196" TEXT="object">
@@ -2996,6 +2996,9 @@ xdebug.remote_port=9000
 </node>
 <node CREATED="1297327197869" ID="ID_1900946002" MODIFIED="1297327204681" TEXT="FirePhp">
 <node CREATED="1297327205265" ID="ID_1384841508" LINK="http://inchoo.net/ecommerce/magento/magento-firephp-extension/" MODIFIED="1297327235980" TEXT="magento inchoo instruction"/>
+</node>
+<node CREATED="1356008756106" ID="ID_1070047345" MODIFIED="1356008761557" TEXT="Syslog">
+<node CREATED="1356008762217" ID="ID_1769296643" LINK="http://www.developer.com/lang/php/article.php/3327111/Monitor-PHP-Application-Errors-and-Messages-with-syslog.htm" MODIFIED="1356008765855" TEXT="config"/>
 </node>
 </node>
 <node CREATED="1354282931319" ID="ID_1871564202" MODIFIED="1354283509870" POSITION="right" TEXT="cli">

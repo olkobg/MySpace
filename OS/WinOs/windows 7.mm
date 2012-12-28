@@ -31,5 +31,13 @@
 <node CREATED="1334745988096" ID="ID_459900079" LINK="http://www.pcworld.com/downloads/file/fid,82979/description.html" MODIFIED="1334746016506" TEXT="Recuva Portable"/>
 </node>
 </node>
+<node CREATED="1355828454112" ID="ID_976125818" MODIFIED="1355828456978" POSITION="left" TEXT="drivers">
+<node CREATED="1355828457438" ID="ID_759658394" MODIFIED="1355828460727" TEXT="keyboard">
+<node CREATED="1355828460995" ID="ID_415635903" MODIFIED="1355828466297" TEXT="Apple wireless">
+<node CREATED="1355828468154" ID="ID_1249199752" LINK="http://code.google.com/p/uawks/" MODIFIED="1355828473592" TEXT="UAWKS"/>
+<node CREATED="1355828801616" ID="ID_1660368325" LINK="http://www.redmondpie.com/use-apple-wireless-keyboard-on-windows-with-full-functionality-using-apple-wireless-keyboard-helper/" MODIFIED="1355828811625" TEXT="Apple Wireless Keyboard Helper "/>
+</node>
+</node>
+</node>
 </node>
 </map>

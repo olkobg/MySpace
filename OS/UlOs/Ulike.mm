@@ -1,9 +1,24 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1320672790906" TEXT="Ulike (debian)">
+<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1356446269950" TEXT="Ulike">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (debian) almost
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1296676490534" POSITION="right" TEXT="tools">
-<node COLOR="#0033ff" CREATED="1296834785901" ID="ID_43792908" MODIFIED="1315938353050" TEXT="mount ">
+<node COLOR="#0033ff" CREATED="1296834785901" ID="ID_43792908" MODIFIED="1355996343522" TEXT="mount ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296834787690" FOLDED="true" ID="ID_1953283382" MODIFIED="1343156494866" TEXT="iso image">
 <node COLOR="#0033ff" CREATED="1296834809060" ID="ID_1304283377" MODIFIED="1315938374860" TEXT="mount -o loop disk1.iso /mnt/disk"/>
 </node>
@@ -12,7 +27,18 @@
 <node CREATED="1296835246684" ID="ID_1630461938" MODIFIED="1343156370725" TEXT="sshfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1301326157345" ID="ID_882527601" LINK="http://andre.frimberger.de/index.php/linux/sshfs-fix-for-wrong-file-permissions-on-server/" MODIFIED="1301327963972" TEXT="patch server with perm "/>
-<node COLOR="#0033ff" CREATED="1296835255924" ID="ID_196855364" MODIFIED="1315938373611" TEXT="sshfs username@server:&lt;dir&gt; &lt;mount_point&gt;"/>
+<node COLOR="#0033ff" CREATED="1296835255924" ID="ID_196855364" MODIFIED="1355996351910">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>sshfs</b>&#160;username@server:&lt;dir&gt; &lt;mount_point&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1304068271830" ID="ID_739540109" MODIFIED="1304068289740" TEXT="ligmail">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -23,25 +49,45 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1315333831637" ID="ID_725503619" MODIFIED="1343156498791" TEXT="fsck">
+<node COLOR="#0033ff" CREATED="1315333831637" ID="ID_725503619" MODIFIED="1355996343523" TEXT="fsck">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1315333834929" FOLDED="true" ID="ID_1659318536" MODIFIED="1343156491142" TEXT="force check on boot">
 <node COLOR="#0033ff" CREATED="1315333842044" ID="ID_1185492697" MODIFIED="1315333844618" TEXT="touch /forcefsck"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1353415879109" TEXT="bittorent"/>
+<node CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1355996340772" TEXT="bittorent">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node CREATED="1296636123595" ID="ID_1552816036" MODIFIED="1315938349468" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1343156501007" TEXT="rsync">
+<node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1355996332936" TEXT="rsync">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636147905" ID="ID_489816603" MODIFIED="1315390993937" TEXT="rsync -av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/  "/>
 </node>
 </node>
 <node CREATED="1296633188976" ID="ID_1249879586" MODIFIED="1315938344540" TEXT="convert">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296633191573" ID="ID_1948378693" MODIFIED="1315391015322" TEXT="textfiles">
-<node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1343156504173" TEXT="recode"/>
-<node COLOR="#0033ff" CREATED="1296633200134" ID="ID_1622875652" MODIFIED="1343156504177" TEXT="konwert"/>
-<node COLOR="#0033ff" CREATED="1296633501316" ID="ID_1095146176" MODIFIED="1343156504180" TEXT="iconv">
-<node COLOR="#0033ff" CREATED="1296633505284" ID="ID_1871968038" MODIFIED="1315938380950" TEXT="$ iconv -f windows-1252 -t utf-8 infile &gt; outfile "/>
+<node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1355996330572" TEXT="recode">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1296633200134" ID="ID_1622875652" MODIFIED="1355996330573" TEXT="konwert">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1296633501316" ID="ID_1095146176" MODIFIED="1355996330574" TEXT="iconv">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1296633505284" ID="ID_1871968038" MODIFIED="1355996367882">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ <b>iconv</b>&#160;-f windows-1252 -t utf-8 infile &gt; outfile&#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -54,25 +100,59 @@
 </node>
 </node>
 <node CREATED="1349373401290" ID="ID_1391707833" MODIFIED="1353415891303" TEXT="Music">
-<node COLOR="#0033ff" CREATED="1349373404561" FOLDED="true" ID="ID_474345154" MODIFIED="1353415892330" TEXT="rhythmbox">
+<node COLOR="#0033ff" CREATED="1349373404561" FOLDED="true" ID="ID_474345154" MODIFIED="1355996319869" TEXT="rhythmbox">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1349373408975" ID="ID_1210463120" MODIFIED="1349373417630" TEXT="equalizer">
 <node CREATED="1349373418829" ID="ID_387619993" LINK="http://askubuntu.com/questions/109297/how-do-i-install-an-equalizer-in-rhythmbox" MODIFIED="1349373427024" TEXT="1"/>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1355996321113" ID="ID_1681422481" MODIFIED="1355996325848" TEXT="amarok">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
 <node CREATED="1296726260831" ID="ID_1130237789" MODIFIED="1296726269861" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" ID="ID_525954360" MODIFIED="1343156522675" TEXT="web">
-<node COLOR="#0033ff" CREATED="1296726271838" ID="ID_1035301467" MODIFIED="1353415894653" TEXT="apache"/>
+<node COLOR="#0033ff" CREATED="1296726271838" ID="ID_1035301467" MODIFIED="1355996318723" TEXT="apache">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1353415898863" TEXT="optimize">
 <node CREATED="1296726279539" ID="ID_1037052627" LINK="http://guides.tinybrick.com/magento/speed-testing" MODIFIED="1343156400294" TEXT="speedtesting"/>
+</node>
+<node CREATED="1356446286405" ID="ID_1896054764" MODIFIED="1356446329188">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      on <b>CentoOS</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#0033ff" CREATED="1356446291361" ID="ID_1046560793" MODIFIED="1356446322232">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sudo /sbin/service httpd graceful
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
 <node CREATED="1320672790869" ID="ID_1402751397" MODIFIED="1320672828852" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" ID="ID_1263032258" MODIFIED="1353415900951" TEXT="loader">
-<node COLOR="#0033ff" CREATED="1294648493700" FOLDED="true" ID="ID_929058759" MODIFIED="1353415907270" TEXT="grub">
-<node COLOR="#0033ff" CREATED="1294648495765" ID="ID_309092339" MODIFIED="1353415904010" TEXT="grub-rescue">
+<node COLOR="#0033ff" CREATED="1294648493700" ID="ID_929058759" MODIFIED="1356349399982" TEXT="grub">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1294648495765" ID="ID_309092339" MODIFIED="1356349402560" TEXT="grub-rescue">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294648500654" ID="ID_116137789" MODIFIED="1315938392680">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -86,10 +166,46 @@
 </html></richcontent>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1356357621123" ID="ID_721767900" LINK="#ID_574981773" MODIFIED="1356357657582" TEXT="kernel">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1356357687476" ID="ID_1275457618" MODIFIED="1356357751659">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>kernel </b>root=/dev/sda4 single
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1320672828804" ID="ID_112331071" MODIFIED="1343156512571" TEXT="Init">
-<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1356357628506" ID="ID_1001575292" MODIFIED="1356357633018" TEXT="initrd">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1356357634701" ID="ID_1912515179" MODIFIED="1356357639312" TEXT="boot">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356349423222" ID="ID_192544342" MODIFIED="1356349428122" TEXT="syslinux">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356349711486" ID="ID_1227119311" LINK="http://www.debian.org/releases/stable/amd64/ch04s03.html.en#usb-copy-easy" MODIFIED="1356349737328">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cc0066"><b>Debian</b></font>-doc
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1320672828804" ID="ID_112331071" MODIFIED="1355996314748" TEXT="Init">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1320672794255" ID="ID_1840571506" MODIFIED="1320672825032" TEXT="levels ">
 <node CREATED="1320672796991" ID="ID_485402371" MODIFIED="1320672824019">
 <richcontent TYPE="NODE"><html>
@@ -116,8 +232,9 @@
 </node>
 </node>
 <node CREATED="1300807246818" ID="ID_933728756" MODIFIED="1300807249473" POSITION="right" TEXT="Tricks">
-<node COLOR="#0033ff" CREATED="1300807250798" FOLDED="true" ID="ID_978816704" MODIFIED="1353415911661" TEXT="vmplayer">
-<node CREATED="1300807253622" FOLDED="true" ID="ID_1516105206" MODIFIED="1353415910985" TEXT="update modules">
+<node COLOR="#0033ff" CREATED="1300807250798" ID="ID_978816704" MODIFIED="1355996374319" TEXT="vmplayer">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1300807253622" ID="ID_1516105206" MODIFIED="1355996375616" TEXT="update modules">
 <node COLOR="#0033ff" CREATED="1300807264557" ID="ID_340631692" MODIFIED="1315938388012" TEXT="vmware-modconfig --console --install-all --appname=&quot;VMware Player&quot; --icon=&quot;vmware-player&quot;"/>
 </node>
 </node>
@@ -152,52 +269,8 @@
 </node>
 </node>
 <node CREATED="1296676490487" ID="ID_1251407468" MODIFIED="1353415831703" POSITION="left" TEXT="Net-admin">
-<node CREATED="1294068952478" FOLDED="true" ID="ID_1061174396" MODIFIED="1343156444380" TEXT="smtp">
-<node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1343156342657" TEXT="telnet">
-<node CREATED="1343156342596" ID="ID_1611339622" MODIFIED="1343156345449" TEXT="mail client">
-<node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div align="center">
-      <center>
-        <table border="0" width="620">
-          <tr>
-            <td>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">helo &lt;your domain name&gt;&lt;enter&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font face="Verdana, Arial, Helvetica" color="#008000"><br />response should be as follows<br />250 OK</font>
-              </p>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">mail from: &lt;your Email Address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK - mail from &lt;your Email address&gt;</font>
-              </p>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">rcpt to: &lt;recipient address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK - Recipient &lt;recipient address&gt;</font>
-              </p>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">data&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />354 Send data.&#160;&#160;End with CRLF.CRLF</font>
-              </p>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">To: &lt;recipient's display name&gt;&lt;enter&gt;<br />From: &lt;your display name&gt;&lt;enter&gt;<br />Subject: &lt;Subject field of Email message&gt;&lt;enter&gt;<br />&lt;Enter you body text&gt;&lt;enter&gt;&lt;enter&gt; . &lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK</font>
-              </p>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">quit&lt;enter&gt;</font>
-              </p>
-            </td>
-          </tr>
-        </table>
-      </center>
-    </div>
-    <font face="Verdana, Arial, Helvetica"><br class="Apple-interchange-newline" />
-    </font>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1343156443165" TEXT="dig">
+<node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1356098225032" TEXT="dig">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294070908844" ID="ID_1074468" MODIFIED="1315390874609">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -241,9 +314,13 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1310120203431" ID="ID_1470880296" LINK="iproute.mm" MODIFIED="1310120217187" TEXT="iproute"/>
-<node CREATED="1310637726990" ID="ID_1898681690" LINK="iptables.mm" MODIFIED="1310637775726" TEXT="iptables"/>
-<node CREATED="1311119874516" ID="ID_1713203094" MODIFIED="1311119880884" TEXT="routing">
+<node CREATED="1310120203431" ID="ID_1470880296" LINK="iproute.mm" MODIFIED="1356098218862" TEXT="iproute">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1310637726990" ID="ID_1898681690" LINK="iptables.mm" MODIFIED="1356098218863" TEXT="iptables">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1311119874516" FOLDED="true" ID="ID_1713203094" MODIFIED="1356098209614" TEXT="routing">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1310120203431" ID="ID_796453636" LINK="iproute.mm" MODIFIED="1311119871673" TEXT="iproute"/>
 <node CREATED="1311119653158" ID="ID_767812934" MODIFIED="1311119655407" TEXT="gated">
@@ -260,15 +337,21 @@
 <node COLOR="#990099" CREATED="1311118392979" ID="ID_1759952331" LINK="http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html" MODIFIED="1311118416275" TEXT="YOULINUX">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1343156446571" TEXT="Apt">
-<node CREATED="1303810885320" ID="ID_707364666" MODIFIED="1343156435121" TEXT="caching">
-<node CREATED="1303810890920" ID="ID_1003328043" MODIFIED="1335549008987" TEXT="apt-cacher">
+<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1356098205841" TEXT="apt">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1356098187336" TEXT="caching">
+<node COLOR="#0033ff" CREATED="1303810890920" FOLDED="true" ID="ID_1003328043" MODIFIED="1356098186406" TEXT="apt-cacher">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303810898391" ID="ID_618505239" LINK="http://www.debuntu.org/how-to-set-up-a-repository-cache-with-apt-cacher" MODIFIED="1303810903975" TEXT="instructions"/>
 </node>
-<node CREATED="1335549019671" ID="ID_756575926" MODIFIED="1335549031496" TEXT="apt-cacher-ng"/>
+<node COLOR="#0033ff" CREATED="1335549019671" ID="ID_756575926" MODIFIED="1356098182735" TEXT="apt-cacher-ng">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1304071512064" FOLDED="true" ID="ID_896573144" MODIFIED="1343156281375" TEXT="source">
-<node CREATED="1304071515888" ID="ID_811294883" MODIFIED="1304071521867" TEXT="get">
+</node>
+<node COLOR="#0033ff" CREATED="1304071512064" FOLDED="true" ID="ID_896573144" MODIFIED="1356098188009" TEXT="source">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1304071515888" ID="ID_811294883" MODIFIED="1356098179997" TEXT="get">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1304071522831" ID="ID_1794692141" MODIFIED="1315938246909" TEXT="$ apt-get source packagename "/>
 </node>
 <node CREATED="1304071534685" ID="ID_1465317215" MODIFIED="1304071541985" TEXT="get and build">
@@ -279,8 +362,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1312307204519" FOLDED="true" ID="ID_1558016268" MODIFIED="1343156448602" TEXT="openswan">
-<node CREATED="1312308716887" ID="ID_505389863" MODIFIED="1312308720686" TEXT="cmd">
+<node CREATED="1312307204519" FOLDED="true" ID="ID_1558016268" MODIFIED="1356098204425" TEXT="openswan">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1312307215413" ID="ID_756447934" MODIFIED="1312307233234" TEXT="starting">
 <node COLOR="#0033ff" CREATED="1312307233514" ID="ID_562731552" MODIFIED="1312307331371" TEXT="ipsec setup --start"/>
 </node>
@@ -299,7 +382,6 @@
 <node CREATED="1312307247696" ID="ID_211585858" MODIFIED="1312307250321" TEXT="stopping">
 <node COLOR="#0033ff" CREATED="1312307333005" ID="ID_1633578238" MODIFIED="1312307341764" TEXT="ipsec setup --stop"/>
 </node>
-</node>
 <node CREATED="1312308709846" ID="ID_868481704" MODIFIED="1312308712327" TEXT="config">
 <node CREATED="1312308721733" ID="ID_1835461235" LINK="http://www.pelagodesign.com/blog/2009/05/18/ubuntu-linux-how-to-setup-a-vpn-connection-to-a-sonicwall-router-using-openswan-and-pre-shared-keys-psk/" MODIFIED="1312308725567" TEXT="site"/>
 </node>
@@ -313,10 +395,112 @@
 </node>
 </node>
 </node>
+<node CREATED="1356357594952" ID="ID_574981773" MODIFIED="1356357600340" TEXT="param">
+<node COLOR="#0033ff" CREATED="1356357600839" ID="ID_939154443" MODIFIED="1356357605487" TEXT="root">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1356357663629" ID="ID_1491289096" MODIFIED="1356357714394">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>root</b>=/dev/sda4
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1356357606131" ID="ID_118096899" LINK="#ID_1275457618" MODIFIED="1356357832164">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff"><b>single </b></font><b><font color="#000000">// </font></b><font color="#000000">to run in system recovery mode</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1356357706377" ID="ID_383652424" MODIFIED="1356357881368">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>init_opts</b>&#160;<font color="#000000">// pass params to init</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1355996052443" ID="ID_1927459662" MODIFIED="1355996058088" POSITION="right" TEXT="tips">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355996042994" FOLDED="true" ID="ID_730085370" MODIFIED="1356098274866" TEXT="random pass generation">
+<node CREATED="1355996069470" ID="ID_1616878184" LINK="http://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/" MODIFIED="1355996075496" TEXT="10 ways"/>
+<node COLOR="#0033ff" CREATED="1355996307400" ID="ID_1133468604" MODIFIED="1355996310778" TEXT="apg">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355996502417" ID="ID_438630904" MODIFIED="1355996540298" TEXT="pwgen">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355996518135" ID="ID_591304985" MODIFIED="1355996540299" TEXT="gpw">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355996521320" ID="ID_1492237656" MODIFIED="1355996540300" TEXT="zsafe">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1356098274495" TEXT="mail telnet">
+<node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div align="center">
+      <center>
+        <table border="0" width="620">
+          <tr>
+            <td>
+              <p>
+                <font face="Verdana, Arial, Helvetica" color="#800000">helo &lt;your domain name&gt;&lt;enter&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font face="Verdana, Arial, Helvetica" color="#008000"><br />response should be as follows<br />250 OK</font>
+              </p>
+              <p>
+                <font face="Verdana, Arial, Helvetica" color="#800000">mail from: &lt;your Email Address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK - mail from &lt;your Email address&gt;</font>
+              </p>
+              <p>
+                <font face="Verdana, Arial, Helvetica" color="#800000">rcpt to: &lt;recipient address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK - Recipient &lt;recipient address&gt;</font>
+              </p>
+              <p>
+                <font face="Verdana, Arial, Helvetica" color="#800000">data&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />354 Send data.&#160;&#160;End with CRLF.CRLF</font>
+              </p>
+              <p>
+                <font face="Verdana, Arial, Helvetica" color="#800000">To: &lt;recipient's display name&gt;&lt;enter&gt;<br />From: &lt;your display name&gt;&lt;enter&gt;<br />Subject: &lt;Subject field of Email message&gt;&lt;enter&gt;<br />&lt;Enter you body text&gt;&lt;enter&gt;&lt;enter&gt; . &lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK</font>
+              </p>
+              <p>
+                <font face="Verdana, Arial, Helvetica" color="#800000">quit&lt;enter&gt;</font>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </div>
+    <font face="Verdana, Arial, Helvetica"><br class="Apple-interchange-newline" />
+    </font>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1303113839493" ID="ID_665785632" MODIFIED="1343156455615" POSITION="left" TEXT="Net-User">
-<node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1353415844013" TEXT="Mail">
-<node CREATED="1303113844068" ID="ID_1974372924" MODIFIED="1303113847066" TEXT="thunderbird">
+<node CREATED="1303113842293" ID="ID_1277503751" MODIFIED="1356098006257" TEXT="Mail">
+<node CREATED="1303113844068" FOLDED="true" ID="ID_1974372924" MODIFIED="1356098139058" TEXT="thunderbird">
 <node CREATED="1303113847356" ID="ID_526417948" MODIFIED="1303113849802" TEXT="addons">
 <node CREATED="1303113850108" ID="ID_553548097" MODIFIED="1303113858839" TEXT="lightning">
 <node CREATED="1303113858825" ID="ID_961359603" MODIFIED="1303113862599" TEXT="64bit">
@@ -325,9 +509,15 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1356098009215" ID="ID_1710824849" LINK="http://www.mutt.org/doc/devel/manual.html" MODIFIED="1356098132813" TEXT="mutt">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1315390919026" ID="ID_872112777" LINK="net/ssh.mm" MODIFIED="1324044995075" TEXT="ssh"/>
-<node CREATED="1296809859512" FOLDED="true" ID="ID_1135100366" MODIFIED="1353415841101" TEXT="wget">
+</node>
+<node COLOR="#0033ff" CREATED="1315390919026" ID="ID_872112777" LINK="net/ssh.mm" MODIFIED="1356098130648" TEXT="ssh">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1296809859512" FOLDED="true" ID="ID_1135100366" MODIFIED="1356098130650" TEXT="wget">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296809869142" ID="ID_254994748" MODIFIED="1315938253793" TEXT="wget -bqc http://path.com/url.is">
 <node CREATED="1343156303142" ID="ID_1048232847" MODIFIED="1343156304452" TEXT="back download "/>
 </node>
@@ -335,8 +525,11 @@
 </node>
 <node CREATED="1297692827245" ID="ID_1024491426" MODIFIED="1324045026293" POSITION="left" TEXT="Editors">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1310045237421" ID="ID_645437345" LINK="../Cross/vim.mm" MODIFIED="1322655254081" TEXT="vim"/>
-<node CREATED="1300896078435" FOLDED="true" ID="ID_22135888" MODIFIED="1353415822519" TEXT="gedit">
+<node COLOR="#0033ff" CREATED="1310045237421" ID="ID_645437345" LINK="../Cross/vim.mm" MODIFIED="1356098130650" TEXT="vim">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1300896078435" FOLDED="true" ID="ID_22135888" MODIFIED="1356098130651" TEXT="gedit">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1300896080539" ID="ID_969341565" MODIFIED="1300896236268" TEXT="gtksourceview">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1300896085370" ID="ID_1542663791" MODIFIED="1300896130759" TEXT="local config">
@@ -355,13 +548,25 @@
 </node>
 </node>
 <node CREATED="1296636804213" ID="ID_493133498" MODIFIED="1324045026287" POSITION="left" TEXT="bash">
-<node CREATED="1296636809316" FOLDED="true" ID="ID_604774115" MODIFIED="1353415848216" TEXT="tree">
-<node COLOR="#0033ff" CREATED="1296636817878" ID="ID_981018607" MODIFIED="1315390985082" TEXT="tree -f -i -N oaza_video/"/>
+<node COLOR="#0033ff" CREATED="1296636809316" ID="ID_604774115" MODIFIED="1356098135099" TEXT="tree">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1296636817878" ID="ID_981018607" MODIFIED="1356098118281">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>tree</b>&#160;-f -i -N oaza_video/
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1313012590996" TEXT="keyboard commads"/>
 </node>
 <node CREATED="1355490607955" ID="ID_1838694125" MODIFIED="1355490610888" POSITION="left" TEXT="keyboard">
-<node CREATED="1355739747130" ID="ID_683421714" MODIFIED="1355739751980" TEXT="xkb">
+<node CREATED="1355739747130" FOLDED="true" ID="ID_683421714" MODIFIED="1356098121427" TEXT="xkb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355739756941" TEXT="instructions for changing keyb layout"/>
 <node CREATED="1355490901133" ID="ID_1324979617" LINK="http://stackoverflow.com/questions/4200800/in-bash-how-do-i-bind-a-function-key-to-a-command" MODIFIED="1355739756907" TEXT="stack overflow"/>
@@ -410,7 +615,33 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1355774919038" ID="ID_1673614653" LINK="http://idebian.wordpress.com/2008/07/06/manage-hid-bluetooth-devices-in-linux/" MODIFIED="1355774933541" TEXT="another article for bluetooth config"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356357912120" ID="ID_131784874" MODIFIED="1356357938921" POSITION="left" TEXT="X">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff"><b>Xorg</b>&#160;-configure</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1356358111740" ID="ID_1243035833" LINK="http://wiki.debian.org/Xorg" MODIFIED="1356358136918">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cc0066"><b>Debian</b></font>&#160;wiki
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
