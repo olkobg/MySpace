@@ -19,19 +19,24 @@
       current docs linked !
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1356716452978" ID="ID_1954390032" LINK="http://httpd.apache.org/docs/current/mod/mod_rewrite.html" MODIFIED="1356716473260" TEXT="mod_rewrite">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1356716515770" ID="ID_1302979598" MODIFIED="1356716578602">
+<node CREATED="1356716814129" ID="ID_780064452" MODIFIED="1356716840824">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#009999"><b>SO:</b></font><b>&#160;</b>debugging
+      # Turn on Rewrite Log
+    </p>
+    <p>
+      <font color="#0033ff">RewriteLog &quot;/var/log/apache2/rewrite.log&quot; </font>
+    </p>
+    <p>
+      <font color="#0033ff">RewriteLogLevel 3</font>
     </p>
   </body>
 </html>
