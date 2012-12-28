@@ -26,56 +26,6 @@
 <node CREATED="1295343292234" ID="ID_11758781" MODIFIED="1295343302823" TEXT="used for both windows and unix environments"/>
 </node>
 </node>
-<node CREATED="1299247772112" FOLDED="true" ID="ID_748683254" MODIFIED="1354285505837" POSITION="left" TEXT="Stored Procedures">
-<node COLOR="#0033ff" CREATED="1299247779698" ID="ID_1412236481" MODIFIED="1328173884708">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      DELIMITER $$
-    </p>
-    <p>
-      DROP PROCEDURE IF EXISTS `magento_dev`.`sampdb_tables` $$
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      CREATE
-    </p>
-    <p>
-      &#160;&#160;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;PROCEDURE `magento_dev`.`sampdb_tables`()
-    </p>
-    <p>
-      &#160;&#160;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;BEGIN
-    </p>
-    <p>
-      SELECT *&#160;&#160;FROM api_user;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;END$$
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      DELIMITER ;
-    </p>
-    <p>
-      CALL `magento_dev`.`sampdb_tables`;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
 <node CREATED="1354284422668" ID="ID_104995101" MODIFIED="1354284431608" POSITION="left" TEXT="functions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1302007143908" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1354285538281" TEXT="Date">
@@ -150,7 +100,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1354284402795" ID="ID_721474494" MODIFIED="1356620759640" POSITION="left" TEXT="ALTER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1328174837621" ID="ID_157638723" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1356619615446" TEXT="TABLE">
+<node COLOR="#0033ff" CREATED="1328174837621" ID="ID_1937500427" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1356619615446" TEXT="TABLE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1328174837621" ID="ID_157638723" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1355314888179" TEXT="TABLE">
 <font NAME="SansSerif" SIZE="12"/>
@@ -174,7 +124,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1355314896797" ID="ID_654919516" MODIFIED="1355314961610" TEXT="CHANGE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1355314898986" ID="ID_486780388" MODIFIED="1355315384286">
+<node CREATED="1355314898986" FOLDED="true" ID="ID_486780388" MODIFIED="1356683501090">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -224,13 +174,12 @@
       <b>ALTER TABLE</b>&#160;friends <b>CONVERT TO CHARACTER SET</b>&#160;'utf8'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354284394062" ID="ID_494732714" MODIFIED="1356620763099" POSITION="left" TEXT="CREATE">
+<node COLOR="#0033ff" CREATED="1354284394062" ID="ID_494732714" MODIFIED="1356620763099" TEXT="CREATE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1328173566119" ID="ID_1115071291" LINK="http://dev.mysql.com/doc/refman/5.1/en/create-table.html" MODIFIED="1356620766046" TEXT="TABLE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -260,10 +209,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354288727763" ID="ID_1541285120" LINK="http://dev.mysql.com/doc/refman/5.5/en/delete.html" MODIFIED="1355322051209" POSITION="left" TEXT="DELETE">
+<node COLOR="#0033ff" CREATED="1354288727763" ID="ID_1541285120" LINK="http://dev.mysql.com/doc/refman/5.5/en/delete.html" MODIFIED="1355322051209" TEXT="DELETE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354289475161" FOLDED="true" ID="ID_209240147" MODIFIED="1356620785252" POSITION="left" TEXT="DROP">
+<node COLOR="#0033ff" CREATED="1354289475161" FOLDED="true" ID="ID_209240147" MODIFIED="1356620785252" TEXT="DROP">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354289481464" FOLDED="true" ID="ID_903867966" LINK="http://dev.mysql.com/doc/refman/5.5/en/drop-table.html" MODIFIED="1356620772551" TEXT="TABLE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -297,7 +246,7 @@
 <node COLOR="#0033ff" CREATED="1354290053346" ID="ID_1359645885" MODIFIED="1354290578758" TEXT="TRIGGER"/>
 <node COLOR="#0033ff" CREATED="1354290063731" ID="ID_1364430640" MODIFIED="1354290580424" TEXT="VIEW"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354285438738" FOLDED="true" ID="ID_232896590" LINK="http://dev.mysql.com/doc/refman/5.5/en/insert.html" MODIFIED="1355322051210" POSITION="left" TEXT="INSERT">
+<node COLOR="#0033ff" CREATED="1354285438738" FOLDED="true" ID="ID_232896590" LINK="http://dev.mysql.com/doc/refman/5.5/en/insert.html" MODIFIED="1356683459979" TEXT="INSERT">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354285573548" ID="ID_277094629" MODIFIED="1354285695530">
 <richcontent TYPE="NODE"><html>
@@ -324,11 +273,11 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1328173600905" ID="ID_1528012442" LINK="http://dev.mysql.com/doc/refman/5.0/en/replace.html" MODIFIED="1355322162598" POSITION="left" TEXT="REPLACE">
+<node COLOR="#0033ff" CREATED="1328173600905" ID="ID_1528012442" LINK="http://dev.mysql.com/doc/refman/5.0/en/replace.html" MODIFIED="1355322162598" TEXT="REPLACE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355319503499" ID="ID_1502990561" MODIFIED="1355322180410" TEXT="INTO">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1355322180385" ID="ID_1097383025" MODIFIED="1355322209197" TEXT="VALUES">
+<node COLOR="#0033ff" CREATED="1355322180385" FOLDED="true" ID="ID_1097383025" MODIFIED="1356683493204" TEXT="VALUES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355315490327" ID="ID_1562322340" MODIFIED="1355319520042">
 <richcontent TYPE="NODE"><html>
@@ -355,10 +304,10 @@
 </node>
 <node CREATED="1355319900918" ID="ID_1942031999" MODIFIED="1355319922319" TEXT="during REPLACE all items get replaced.."/>
 </node>
-<node COLOR="#0033ff" CREATED="1354288820231" ID="ID_812916834" LINK="http://dev.mysql.com/doc/refman/5.5/en/select.html" MODIFIED="1355322051211" POSITION="left" TEXT="SELECT">
+<node COLOR="#0033ff" CREATED="1354288820231" ID="ID_812916834" LINK="http://dev.mysql.com/doc/refman/5.5/en/select.html" MODIFIED="1355322051211" TEXT="SELECT">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354288734046" FOLDED="true" ID="ID_1954612146" LINK="http://dev.mysql.com/doc/refman/5.5/en/truncate-table.html" MODIFIED="1355322051212" POSITION="left" TEXT="TRUNCATE">
+<node COLOR="#0033ff" CREATED="1354288734046" FOLDED="true" ID="ID_1954612146" LINK="http://dev.mysql.com/doc/refman/5.5/en/truncate-table.html" MODIFIED="1355322051212" TEXT="TRUNCATE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354288739675" ID="ID_1288162117" MODIFIED="1354288748582">
 <richcontent TYPE="NODE"><html>
@@ -373,10 +322,10 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355322041341" ID="ID_1910037551" LINK="http://dev.mysql.com/doc/refman/5.5/en/update.html" MODIFIED="1355322138431" POSITION="left" TEXT="UPDATE">
+<node COLOR="#0033ff" CREATED="1355322041341" ID="ID_1910037551" LINK="http://dev.mysql.com/doc/refman/5.5/en/update.html" MODIFIED="1355322138431" TEXT="UPDATE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1355504449518" ID="ID_595465636" MODIFIED="1355504458293" POSITION="left" TEXT="transaction">
+<node CREATED="1355504449518" ID="ID_595465636" MODIFIED="1355504458293" TEXT="transaction">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#996600" CREATED="1355503783895" ID="ID_1263559258" LINK="http://dev.mysql.com/doc/refman/5.1/en/innodb-locking-reads.html" MODIFIED="1355504509369">
 <richcontent TYPE="NODE"><html>
@@ -388,12 +337,11 @@
       <b><font color="#0033ff">SELECT ... FOR UPDATE</font></b>&#160;<font color="#000000">(for&#160;<b>innoDB</b>)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1320946456590" ID="ID_810700224" MODIFIED="1352390335285" POSITION="left" TEXT="TIPS">
+<node COLOR="#ff0000" CREATED="1320946456590" ID="ID_810700224" MODIFIED="1352390335285" TEXT="TIPS">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1320946458758" FOLDED="true" ID="ID_210105990" MODIFIED="1354290652084" TEXT="tables with column name">
 <node COLOR="#0033ff" CREATED="1320946471860" ID="ID_197018626" MODIFIED="1354290647637">
@@ -460,6 +408,12 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+</node>
+<node CREATED="1354279301177" ID="ID_623127039" MODIFIED="1356683525604" POSITION="right" TEXT="ENGINES">
+<node CREATED="1354279308104" ID="ID_1456868854" LINK="http://openquery.com/products/graph-engine" MODIFIED="1354279460267" TEXT="qGraph">
+<node CREATED="1354279437461" ID="ID_718078774" LINK="https://launchpad.net/oqgraph" MODIFIED="1354279448601" TEXT="lp"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1352978089919" ID="ID_597483296" MODIFIED="1352978151922" POSITION="right" TEXT="information_schema">
 <node COLOR="#0033ff" CREATED="1352978101798" ID="ID_42747466" MODIFIED="1352978146894" TEXT="COLUMNS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -468,9 +422,54 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1354279301177" ID="ID_623127039" MODIFIED="1354279307446" POSITION="right" TEXT="ENGINES">
-<node CREATED="1354279308104" ID="ID_1456868854" LINK="http://openquery.com/products/graph-engine" MODIFIED="1354279460267" TEXT="qGraph">
-<node CREATED="1354279437461" ID="ID_718078774" LINK="https://launchpad.net/oqgraph" MODIFIED="1354279448601" TEXT="lp"/>
+<node CREATED="1299247772112" FOLDED="true" ID="ID_748683254" MODIFIED="1356683543534" POSITION="right" TEXT="Stored Procedures">
+<node COLOR="#0033ff" CREATED="1299247779698" ID="ID_1412236481" MODIFIED="1328173884708">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DELIMITER $$
+    </p>
+    <p>
+      DROP PROCEDURE IF EXISTS `magento_dev`.`sampdb_tables` $$
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CREATE
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;PROCEDURE `magento_dev`.`sampdb_tables`()
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;BEGIN
+    </p>
+    <p>
+      SELECT *&#160;&#160;FROM api_user;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;END$$
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      DELIMITER ;
+    </p>
+    <p>
+      CALL `magento_dev`.`sampdb_tables`;
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
