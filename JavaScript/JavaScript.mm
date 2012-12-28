@@ -585,8 +585,19 @@
 </node>
 <node COLOR="#0033ff" CREATED="1307434937756" ID="ID_1495479919" MODIFIED="1307434947907" TEXT="window">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1307434950203" ID="ID_1308177961" MODIFIED="1307434955801" TEXT="inf">
 <node CREATED="1307434953122" ID="ID_1409042670" MODIFIED="1307434982413" TEXT="global object which can store global info"/>
+<node CREATED="1356546558872" ID="ID_1573997681" LINK="http://stackoverflow.com/questions/3131597/closing-child-window-automatically-when-the-parent-window-is-closed" MODIFIED="1356546604438">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>SO: </b>close popup win
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

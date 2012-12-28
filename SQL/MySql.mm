@@ -148,7 +148,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354284402795" ID="ID_721474494" MODIFIED="1355322051208" POSITION="left" TEXT="ALTER">
+<node COLOR="#0033ff" CREATED="1354284402795" ID="ID_721474494" MODIFIED="1356620759640" POSITION="left" TEXT="ALTER">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1328174837621" ID="ID_157638723" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1356619615446" TEXT="TABLE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1328174837621" ID="ID_157638723" LINK="http://dev.mysql.com/doc/refman/5.1/en/alter-table.html" MODIFIED="1355314888179" TEXT="TABLE">
 <font NAME="SansSerif" SIZE="12"/>
@@ -170,9 +172,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355314896797" FOLDED="true" ID="ID_654919516" MODIFIED="1356366176704" TEXT="CHANGE">
+<node COLOR="#0033ff" CREATED="1355314896797" ID="ID_654919516" MODIFIED="1355314961610" TEXT="CHANGE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1355314898986" FOLDED="true" ID="ID_486780388" MODIFIED="1356366176400">
+<node CREATED="1355314898986" ID="ID_486780388" MODIFIED="1355315384286">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -210,15 +212,34 @@
 </node>
 </node>
 </node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1354284394062" FOLDED="true" ID="ID_494732714" MODIFIED="1356366168791" POSITION="left" TEXT="CREATE">
+<node COLOR="#0033ff" CREATED="1356619433265" FOLDED="true" ID="ID_1924640523" MODIFIED="1356619606938" TEXT="CONVERT TO CHARACTER SET">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1328173566119" ID="ID_1115071291" LINK="http://dev.mysql.com/doc/refman/5.1/en/create-table.html" MODIFIED="1354290542126" TEXT="TABLE">
-<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1356619449069" ID="ID_1204722936" MODIFIED="1356619598562">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ALTER TABLE</b>&#160;friends <b>CONVERT TO CHARACTER SET</b>&#160;'utf8'
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1354284353371" ID="ID_90919725" MODIFIED="1354290544777" TEXT="TEMPORARY TABLE"/>
-<node COLOR="#0033ff" CREATED="1354284374485" FOLDED="true" ID="ID_1311309033" MODIFIED="1354290555529" TEXT="DATABASE">
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1354284394062" ID="ID_494732714" MODIFIED="1356620763099" POSITION="left" TEXT="CREATE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1328173566119" ID="ID_1115071291" LINK="http://dev.mysql.com/doc/refman/5.1/en/create-table.html" MODIFIED="1356620766046" TEXT="TABLE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1354284353371" ID="ID_90919725" MODIFIED="1356620766046" TEXT="TEMPORARY TABLE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1354284374485" FOLDED="true" ID="ID_1311309033" MODIFIED="1356620766045" TEXT="DATABASE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1352798859363" ID="ID_1471141329" MODIFIED="1352798961169">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -242,9 +263,10 @@
 <node COLOR="#0033ff" CREATED="1354288727763" ID="ID_1541285120" LINK="http://dev.mysql.com/doc/refman/5.5/en/delete.html" MODIFIED="1355322051209" POSITION="left" TEXT="DELETE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354289475161" FOLDED="true" ID="ID_209240147" MODIFIED="1355503770160" POSITION="left" TEXT="DROP">
+<node COLOR="#0033ff" CREATED="1354289475161" FOLDED="true" ID="ID_209240147" MODIFIED="1356620785252" POSITION="left" TEXT="DROP">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1354289481464" FOLDED="true" ID="ID_903867966" LINK="http://dev.mysql.com/doc/refman/5.5/en/drop-table.html" MODIFIED="1354294681696" TEXT="TABLE">
+<node COLOR="#0033ff" CREATED="1354289481464" FOLDED="true" ID="ID_903867966" LINK="http://dev.mysql.com/doc/refman/5.5/en/drop-table.html" MODIFIED="1356620772551" TEXT="TABLE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354289515292" ID="ID_1800160113" MODIFIED="1354289562003">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -275,7 +297,7 @@
 <node COLOR="#0033ff" CREATED="1354290053346" ID="ID_1359645885" MODIFIED="1354290578758" TEXT="TRIGGER"/>
 <node COLOR="#0033ff" CREATED="1354290063731" ID="ID_1364430640" MODIFIED="1354290580424" TEXT="VIEW"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354285438738" FOLDED="true" ID="ID_232896590" LINK="http://dev.mysql.com/doc/refman/5.5/en/insert.html" MODIFIED="1356366166574" POSITION="left" TEXT="INSERT">
+<node COLOR="#0033ff" CREATED="1354285438738" FOLDED="true" ID="ID_232896590" LINK="http://dev.mysql.com/doc/refman/5.5/en/insert.html" MODIFIED="1355322051210" POSITION="left" TEXT="INSERT">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354285573548" ID="ID_277094629" MODIFIED="1354285695530">
 <richcontent TYPE="NODE"><html>
@@ -366,7 +388,8 @@
       <b><font color="#0033ff">SELECT ... FOR UPDATE</font></b>&#160;<font color="#000000">(for&#160;<b>innoDB</b>)</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>

@@ -7,19 +7,19 @@
 </node>
 <node COLOR="#0033ff" CREATED="1333056389137" ID="ID_1127662998" MODIFIED="1355841547390" POSITION="left" TEXT="background">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#990099" CREATED="1333056395443" FOLDED="true" ID="ID_402701821" MODIFIED="1352817323585" TEXT="transparent">
-<node COLOR="#0033ff" CREATED="1333056429605" ID="ID_1741786650" MODIFIED="1333098261851">
+<node COLOR="#990099" CREATED="1333056395443" FOLDED="true" ID="ID_402701821" MODIFIED="1356545686061" TEXT="transparent">
+<node CREATED="1333056429605" ID="ID_1741786650" MODIFIED="1356545671605">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b style="font-family: Times New Roman; text-align: -webkit-auto; font-style: normal; color: rgb(0, 0, 0); line-height: normal; word-spacing: 0px; font-weight: normal; text-indent: 0px; text-transform: none; white-space: normal; letter-spacing: normal; font-size: medium; font-variant: normal" id="internal-source-marker_0.0904492421541363"><font face="Times New Roman" size="medium" color="rgb(0, 0, 0)">/* Fallback for web browsers that doesn't support RGBa */</font></b><font face="Times New Roman" size="medium" color="#0000ff"><b style="text-align: -webkit-auto; font-family: Times New Roman; font-style: normal; color: rgb(0, 0, 0); line-height: normal; word-spacing: 0px; text-indent: 0px; font-weight: normal; text-transform: none; white-space: normal; letter-spacing: normal; font-size: medium; font-variant: normal" id="internal-source-marker_0.0904492421541363"><br align="-webkit-auto" size="3" style="line-height: normal; word-spacing: 0px; text-indent: 0px; white-space: normal; text-transform: none; letter-spacing: normal; font-variant: normal" color="#0000ff" /></b></font><font face="Consolas" size="3" color="#0000ff"><b style="text-align: -webkit-auto; font-family: Times New Roman; font-style: normal; color: rgb(0, 0, 0); line-height: normal; word-spacing: 0px; text-indent: 0px; font-weight: normal; text-transform: none; white-space: normal; letter-spacing: normal; font-size: medium; font-variant: normal" id="internal-source-marker_0.0904492421541363">background: rgb(0, 0, 0);</b></font><b style="text-align: -webkit-auto; font-family: Times New Roman; font-style: normal; color: rgb(0, 0, 0); line-height: normal; word-spacing: 0px; text-indent: 0px; font-weight: normal; text-transform: none; white-space: normal; letter-spacing: normal; font-size: medium; font-variant: normal" id="internal-source-marker_0.0904492421541363"><font face="Times New Roman" size="3" color="#0000ff"><br align="-webkit-auto" size="3" style="line-height: normal; word-spacing: 0px; text-indent: 0px; white-space: normal; text-transform: none; letter-spacing: normal; font-variant: normal" color="#0000ff" /></font><font face="Consolas" size="3" color="#0000ff">/* RGBa with 0.6 opacity */</font><font face="Times New Roman" size="3" color="#0000ff"><br align="-webkit-auto" size="3" style="line-height: normal; word-spacing: 0px; text-indent: 0px; white-space: normal; text-transform: none; letter-spacing: normal; font-variant: normal" color="#0000ff" /></font><font face="Consolas" size="3" color="#0000ff">background: rgba(0, 0, 0, 0.6);</font><font face="Times New Roman" size="3" color="#0000ff"><br align="-webkit-auto" size="3" style="line-height: normal; word-spacing: 0px; text-indent: 0px; white-space: normal; text-transform: none; letter-spacing: normal; font-variant: normal" color="#0000ff" /></font><font face="Consolas" size="3" color="#0000ff">/* For IE 5.5 - 7*/</font><font face="Times New Roman" size="3" color="#0000ff"><br align="-webkit-auto" size="3" style="line-height: normal; word-spacing: 0px; text-indent: 0px; white-space: normal; text-transform: none; letter-spacing: normal; font-variant: normal" color="#0000ff" /></font><font face="Consolas" size="3" color="#0000ff">filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);</font><font face="Times New Roman" size="3" color="#0000ff"><br align="-webkit-auto" size="3" style="line-height: normal; word-spacing: 0px; text-indent: 0px; white-space: normal; text-transform: none; letter-spacing: normal; font-variant: normal" color="#0000ff" /></font><font face="Consolas" size="3" color="#0000ff">./* For IE 8*/</font><font face="Times New Roman" size="3" color="#0000ff"><br align="-webkit-auto" size="3" style="line-height: normal; word-spacing: 0px; text-indent: 0px; white-space: normal; text-transform: none; letter-spacing: normal; font-variant: normal" color="#0000ff" /></font><font face="Consolas" size="3" color="#0000ff">-ms-filter: &quot;progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)&quot;;</font></b>
+      /* Fallback for web browsers that doesn't support RGBa */<br /><font color="#0033ff">background: rgb(0, 0, 0);</font><br />/* RGBa with 0.6 opacity */<br /><font color="#0033ff">background: rgba(0, 0, 0, 0.6);</font><br />/* For IE 5.5 - 7*/<br /><font color="#0033ff">filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);</font><br />./* For IE 8*/<br /><font color="#0033ff">-ms-filter: &quot;progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)&quot;;</font>
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="13"/>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
@@ -59,54 +59,59 @@
 </node>
 <node COLOR="#0033ff" CREATED="1338239993612" ID="ID_781897182" MODIFIED="1355841551660" TEXT="shadow">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1338240003013" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1338242889580" TEXT="site1">
-<node COLOR="#0033ff" CREATED="1338240386255" ID="ID_813752905" MODIFIED="1338240456422">
+<node COLOR="#009999" CREATED="1338240003013" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1356606615794" TEXT="css-tricks">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1338240386255" ID="ID_813752905" MODIFIED="1356545609687">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      .shadow {
+      /*
     </p>
     <p>
-      &#160;&#160;-moz-box-shadow:&#160;&#160;&#160;&#160;3px 3px 5px 6px #ccc;
+      The horizontal offset&#160;of the shadow, positive means the shadow will be on the right of the box, a negative offset will put the shadow on the left of the box.
     </p>
     <p>
-      &#160;&#160;-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+      
     </p>
     <p>
-      &#160;&#160;box-shadow:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3px 3px 5px 6px #ccc;
+      The vertical offset&#160;of the shadow, a negative one means the box-shadow will be above the box, a positive one means the shadow will be below the box.
     </p>
     <p>
-      }
+      
     </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1338240047506" ID="ID_1108520539" MODIFIED="1338240378788">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <ol>
-      <li>
-        The horizontal offset&#160;of the shadow, positive means the shadow will be on the right of the box, a negative offset will put the shadow on the left of the box.
-      </li>
-      <li>
-        The vertical offset&#160;of the shadow, a negative one means the box-shadow will be above the box, a positive one means the shadow will be below the box.
-      </li>
-      <li>
-        The blur radius&#160;(optional), if set to 0 the shadow will be sharp, the higher the number, the more blurred it will be.
-      </li>
-      <li>
-        The spread radius&#160;(optional), positive values increase the size of the shadow, negative values decrease the size. Default is 0 (the shadow is same size as blur).
-      </li>
-      <li>
-        Color
-      </li>
-    </ol>
+    <p>
+      The blur radius&#160;(optional), if set to 0 the shadow will be sharp, the higher the number, the more blurred it will be.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The spread radius&#160;(optional), positive values increase the size of the shadow, negative values decrease the size. Default is 0 (the shadow is same size as blur).
+    </p>
+    <p>
+      Color
+    </p>
+    <p>
+      */
+    </p>
+    <p>
+      .<font color="#0033ff">shadow { </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;-moz-box-shadow:&#160;&#160;&#160;&#160;3px 3px 5px 6px #ccc; </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;-webkit-box-shadow: 3px 3px 5px 6px #ccc; </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;box-shadow:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3px 3px 5px 6px #ccc; </font>
+    </p>
+    <p>
+      <font color="#0033ff">}</font>
+    </p>
   </body>
 </html></richcontent>
 </node>
@@ -147,6 +152,24 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1352817230139" ID="ID_909497027" LINK="http://stackoverflow.com/questions/1120335/how-to-make-css-visible-only-for-opera" MODIFIED="1352817263518" TEXT="1"/>
 <node CREATED="1352817264007" ID="ID_338981909" LINK="http://bricss.net/post/11230266445/css-hack-to-target-opera" MODIFIED="1352817276980" TEXT="2"/>
+</node>
+</node>
+<node CREATED="1356545325728" ID="ID_599683393" MODIFIED="1356545332308" POSITION="right" TEXT="Layout">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1356545332763" ID="ID_294525347" LINK="http://www.maxdesign.com.au/articles/" MODIFIED="1356545346397" TEXT="MaxDesign">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1356536206856" ID="ID_1085795105" LINK="http://v1.jontangerine.com/log/2007/09/the-incredible-em-and-elastic-layouts-with-css" MODIFIED="1356545375813" TEXT="elastic-layout"/>
+<node CREATED="1356545393955" ID="ID_541903450" LINK="http://stackoverflow.com/questions/4713181/elastic-layout-with-max-width-and-min-width-using-grid-based-design" MODIFIED="1356545402968" TEXT="SO">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1356606013830" ID="ID_1203122414" MODIFIED="1356606017175" POSITION="right" TEXT="Sites">
+<node COLOR="#009999" CREATED="1356606018368" ID="ID_524275382" LINK="http://www.quirksmode.org/" MODIFIED="1356606594464" TEXT="quirksmode">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1356606026933" ID="ID_40012144" LINK="http://css-tricks.com/" MODIFIED="1356606592035" TEXT="css-tricks">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
