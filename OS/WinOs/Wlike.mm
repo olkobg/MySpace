@@ -26,8 +26,7 @@
       &gt; <b>doskey</b>&#160;subl=&quot;C:\Program Files\Sublime Text 2\sublime_text.exe&quot; $*
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1355432045584" ID="ID_890564081" MODIFIED="1355432051614" TEXT="change attribute">
@@ -41,13 +40,31 @@
       <b>attr</b>&#160;-H &lt;path&gt; /S /D
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1294232854297" ID="ID_1372309980" MODIFIED="1294232864168" TEXT="create link">
 <node COLOR="#0033ff" CREATED="1294232864664" ID="ID_1766221927" MODIFIED="1355432110641" TEXT="mklink">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356797646640" ID="ID_1563024821" MODIFIED="1356797651113" TEXT="netstat">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356797652083" ID="ID_420283683" MODIFIED="1356797892261">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000"># check port usage</font>
+    </p>
+    <p>
+      <font color="#0033ff"><b>netstat</b>&#160;-o -n -a | <b>findstr</b>&#160;0.0.0.0:80</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -58,6 +75,48 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1331667935224" ID="ID_1273085293" LINK="http://sourceware.org/cygwinports/" MODIFIED="1331667960793" TEXT="cygwin ports ">
 <node COLOR="#0033ff" CREATED="1333098367684" ID="ID_943675007" MODIFIED="1333098390633" TEXT="cygstart -- /path/to/setup.exe -K http://cygwinports.org/ports.gpg"/>
+</node>
+<node CREATED="1356793782839" ID="ID_666231708" LINK="http://victormiti.umusebo.com/blog/installing-and-configuring-apache-php-mysql-on-cygwin" MODIFIED="1356793806291" TEXT="Lamp on Cygwin"/>
+<node COLOR="#0033ff" CREATED="1356793809787" ID="ID_1192427224" MODIFIED="1356793999239" TEXT="apt-cyg">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356793954831" ID="ID_732966932" MODIFIED="1356794023234">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000"># installing php</font>
+    </p>
+    <p>
+      <font color="#0033ff"><b>apt-cyg</b>&#160;-m ftp://ftp.cygwinports.org/pub/cygwinports/ install php</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#009999" CREATED="1356794045693" ID="ID_884074233" MODIFIED="1356794056619" TEXT="ftp://sourceware.org/pub/cygwinports/portslist.txt">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1356794060971" ID="ID_209699329" MODIFIED="1356794102958">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # instaling apt-cyg
+    </p>
+    <p>
+      <font color="#0033ff">$ svn --force export http://apt-cyg.googlecode.com/svn/trunk/ /bin/&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0033ff">$ chmod +x /bin/apt-cyg</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1331667942752" ID="ID_1755195847" LINK="http://www.mingw.org/wiki/MSYS" MODIFIED="1331668037042" TEXT="MingW\msys">

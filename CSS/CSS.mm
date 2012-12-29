@@ -59,7 +59,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1338239993612" ID="ID_781897182" MODIFIED="1355841551660" TEXT="shadow">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#009999" CREATED="1338240003013" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1356606615794" TEXT="css-tricks">
+<node COLOR="#009999" CREATED="1338240003013" FOLDED="true" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1356683791237" TEXT="css-tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1338240386255" ID="ID_813752905" MODIFIED="1356545609687">
 <richcontent TYPE="NODE"><html>
@@ -160,7 +160,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1356536206856" ID="ID_1085795105" LINK="http://v1.jontangerine.com/log/2007/09/the-incredible-em-and-elastic-layouts-with-css" MODIFIED="1356545375813" TEXT="elastic-layout"/>
-<node CREATED="1356545393955" ID="ID_541903450" LINK="http://stackoverflow.com/questions/4713181/elastic-layout-with-max-width-and-min-width-using-grid-based-design" MODIFIED="1356545402968" TEXT="SO">
+<node COLOR="#009999" CREATED="1356545393955" ID="ID_541903450" LINK="http://stackoverflow.com/questions/4713181/elastic-layout-with-max-width-and-min-width-using-grid-based-design" MODIFIED="1356683784207" TEXT="SO">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
