@@ -28,7 +28,7 @@
 <node CREATED="1282725988827" ID="ID_862307088" MODIFIED="1282725991420" TEXT="modules"/>
 </node>
 <node CREATED="1282725966377" ID="ID_1501790701" MODIFIED="1282725969516" POSITION="left" TEXT="libraryes"/>
-<node CREATED="1287582293294" FOLDED="true" ID="ID_1053723593" MODIFIED="1352468685609" POSITION="right" TEXT="strct prog">
+<node CREATED="1287582293294" ID="ID_1053723593" MODIFIED="1356803986406" POSITION="right" TEXT="strct prog">
 <node CREATED="1283360812953" FOLDED="true" ID="ID_1852096962" MODIFIED="1352468684653" TEXT="flow controll">
 <node COLOR="#0033ff" CREATED="1283360821421" FOLDED="true" ID="ID_1728327273" MODIFIED="1352468677422" TEXT="unless">
 <node COLOR="#0033ff" CREATED="1285747872723" ID="ID_1296482026" MODIFIED="1352468660347">
@@ -125,8 +125,35 @@
 <node CREATED="1297152012029" FOLDED="true" ID="ID_1832906232" MODIFIED="1352468691638" POSITION="left" TEXT="online Services">
 <node CREATED="1297152036633" ID="ID_1064207502" LINK="heroku.mm" MODIFIED="1297152036635" TEXT="heroku"/>
 </node>
-<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1352468683281" POSITION="right" TEXT="Mannagers">
-<node CREATED="1297156626966" ID="ID_1386871970" LINK="http://rvm.beginrescueend.com/]" MODIFIED="1297156633728" TEXT="rvm"/>
+<node CREATED="1297156615073" ID="ID_850662542" MODIFIED="1356802580405" POSITION="right" TEXT="Mannagers">
+<node CREATED="1297156626966" ID="ID_1386871970" LINK="http://rvm.beginrescueend.com/]" MODIFIED="1297156633728" TEXT="rvm">
+<node CREATED="1356802583376" ID="ID_1029006413" LINK="http://www.tiplite.com/how-to-install-rvm-on-windows-using-cygwin/" MODIFIED="1356802776901">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>tiplite com:</b>&#160;install on cygwin
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1356802778177" ID="ID_1900125453" LINK="http://blog.developwithpassion.com/2012/03/30/installing-rvm-with-cygwin-on-windows/" MODIFIED="1356802818207">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>developWithPatssion:</b>&#160;install on cygwin
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
