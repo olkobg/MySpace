@@ -15,8 +15,7 @@
       <font color="#0033ff">Chef</font>&#160;by <b>opscode</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1355227095693" ID="ID_175838133" MODIFIED="1355227183780">
 <richcontent TYPE="NODE"><html>
@@ -28,8 +27,7 @@
       HyperV<font color="#000000">&#160;by <b>Microsoft</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1350983178026" ID="ID_1839287286" LINK="http://www.openstack.org/" MODIFIED="1355227159172" TEXT="OpenStack">
 <node CREATED="1350983183381" ID="ID_1263939806" LINK="http://www.cisco.com/web/solutions/openstack/index.html" MODIFIED="1351611954901">
@@ -198,8 +196,7 @@
       <font color="#0033ff">Player </font>(free)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1328617338928" ID="ID_1936149363" MODIFIED="1355227038292" TEXT="Workstation"/>
 </node>
@@ -215,8 +212,7 @@
       <font color="#0033ff">vSphere Hyprevizor </font>(free)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1328617415694" ID="ID_1299533472" MODIFIED="1355227009511" TEXT="VSphere"/>
 <node COLOR="#0033ff" CREATED="1328617423333" ID="ID_750673144" MODIFIED="1355227009510" TEXT="vCenter"/>
@@ -231,8 +227,7 @@
       <font color="#0033ff">Server </font>(free) - discontinued
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1328783700101" ID="ID_1531456311" LINK="http://softwareupdate.vmware.com/cds/" MODIFIED="1328785696712" TEXT="UpdateLink"/>

@@ -67,8 +67,7 @@
       <font color="#0033ff"><b>netstat</b>&#160;-o -n -a | <b>findstr</b>&#160;0.0.0.0:80</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -83,7 +82,32 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1356793782839" ID="ID_666231708" LINK="http://victormiti.umusebo.com/blog/installing-and-configuring-apache-php-mysql-on-cygwin" MODIFIED="1356793806291" TEXT="Lamp on Cygwin"/>
+<node CREATED="1356793782839" ID="ID_666231708" LINK="http://victormiti.umusebo.com/blog/installing-and-configuring-apache-php-mysql-on-cygwin" MODIFIED="1356860126349">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>victormiti:</b>&#160;Lamp on Cygwin
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1356860080093" ID="ID_1663107226" LINK="http://www.softwareprojects.com/resources/programming/t-how-to-install-nginx-php-php-fpm-and-mysql-under-1616.html" MODIFIED="1356860106019">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>softwareprojects:</b>&#160;nginx + php
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node COLOR="#0033ff" CREATED="1356793809787" ID="ID_1192427224" MODIFIED="1356804846528" TEXT="apt-cyg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356794060971" ID="ID_209699329" MODIFIED="1356804877717">
@@ -102,8 +126,7 @@
       <font color="#0033ff">$ chmod +x /bin/apt-cyg</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1356793954831" ID="ID_732966932" MODIFIED="1356794023234">
 <richcontent TYPE="NODE"><html>
@@ -118,8 +141,7 @@
       <font color="#0033ff"><b>apt-cyg</b>&#160;-m ftp://ftp.cygwinports.org/pub/cygwinports/ install php</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
