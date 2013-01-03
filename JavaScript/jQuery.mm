@@ -154,8 +154,7 @@
       $('#bla')<b>.css</b>('textShadow','#6374AB 20px -12px 2px');
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1290773244511" FOLDED="true" ID="ID_1462650909" MODIFIED="1355246208869" TEXT="html">
@@ -393,7 +392,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1290773186085" ID="ID_146665972" MODIFIED="1355159406030" POSITION="left" TEXT="select">
+<node CREATED="1290773186085" FOLDED="true" ID="ID_146665972" MODIFIED="1357240257525" POSITION="left" TEXT="select">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1354704279416" ID="ID_228668161" LINK="http://api.jquery.com/category/selectors/attribute-selectors/" MODIFIED="1354704287079" TEXT="attribute selector">
 <node CREATED="1354704305275" ID="ID_10776762" LINK="http://api.jquery.com/attribute-equals-selector/" MODIFIED="1354704315511" TEXT="attribute equals selector"/>
@@ -512,7 +511,7 @@
 <node CREATED="1354629596482" ID="ID_471782161" LINK="http://docs.jquery.com/Utilities/jQuery.extend" MODIFIED="1354629645557" TEXT="info"/>
 </node>
 </node>
-<node CREATED="1354208194752" ID="ID_854680832" MODIFIED="1354901178229" POSITION="left" TEXT="ajax">
+<node CREATED="1354208194752" FOLDED="true" ID="ID_854680832" MODIFIED="1357240254920" POSITION="left" TEXT="ajax">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354208282039" FOLDED="true" ID="ID_173706023" MODIFIED="1355136602561" TEXT="post">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -588,7 +587,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1355136250329" ID="ID_1147632180" MODIFIED="1355136252943" POSITION="left" TEXT="json">
+<node CREATED="1355136250329" FOLDED="true" ID="ID_1147632180" MODIFIED="1357240259039" POSITION="left" TEXT="json">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355136253650" FOLDED="true" ID="ID_1987418383" LINK="http://api.jquery.com/jQuery.param/" MODIFIED="1355302582522" TEXT="param">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -615,7 +614,7 @@
 <node CREATED="1354015762809" ID="ID_749062094" LINK="jquery/jqueryUI.mm" MODIFIED="1354901178217" POSITION="left" TEXT="jqueryUI">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 </node>
-<node CREATED="1354281700459" FOLDED="true" ID="ID_1321766246" LINK="http://code.jquery.com/" MODIFIED="1354901178211" POSITION="left" TEXT="CDN">
+<node CREATED="1354281700459" FOLDED="true" ID="ID_1321766246" LINK="http://code.jquery.com/" MODIFIED="1357240261796" POSITION="left" TEXT="CDN">
 <node COLOR="#0033ff" CREATED="1354698206726" ID="ID_356992878" MODIFIED="1354698238970">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -648,7 +647,7 @@
 </node>
 <node CREATED="1355838991471" ID="ID_194065213" MODIFIED="1355839006748" POSITION="left" TEXT="plugins">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1355838997784" ID="ID_448961335" LINK="http://www.inwebson.com/jquery/cool-jquery-plugins-make-you-wow/" MODIFIED="1355839004413" TEXT="cool 18 lugins"/>
+<node CREATED="1355838997784" ID="ID_448961335" LINK="http://www.inwebson.com/jquery/cool-jquery-plugins-make-you-wow/" MODIFIED="1357240275960" TEXT="cool 18 plugins"/>
 </node>
 </node>
 </map>
