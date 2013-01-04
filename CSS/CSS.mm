@@ -58,9 +58,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1338239993612" FOLDED="true" ID="ID_781897182" MODIFIED="1357237248160" TEXT="shadow">
+<node COLOR="#0033ff" CREATED="1338239993612" FOLDED="true" ID="ID_781897182" MODIFIED="1357242840273" TEXT="shadow">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#009999" CREATED="1338240003013" FOLDED="true" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1357237247281" TEXT="css-tricks">
+<node COLOR="#009999" CREATED="1338240003013" FOLDED="true" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1357242838828" TEXT="css-tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1338240386255" ID="ID_813752905" MODIFIED="1356545609687">
 <richcontent TYPE="NODE"><html>
@@ -118,11 +118,48 @@
 </node>
 </node>
 <node CREATED="1338240016539" ID="ID_1015713349" LINK="http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/" MODIFIED="1338240033121" TEXT="site2"/>
+<node COLOR="#0033ff" CREATED="1357242773220" ID="ID_385379861" MODIFIED="1357242828933">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      .shadow {
+    </p>
+    <p>
+      &#160;&#160;-moz-box-shadow: 3px 3px 4px #000;
+    </p>
+    <p>
+      &#160;&#160;-webkit-box-shadow: 3px 3px 4px #000;
+    </p>
+    <p>
+      &#160;&#160;box-shadow: 3px 3px 4px #000;
+    </p>
+    <p>
+      /* For IE 8 */
+    </p>
+    <p>
+      &#160;&#160;-ms-filter: &quot;progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')&quot;;
+    </p>
+    <p>
+      /* For IE 5.5 - 7 */
+    </p>
+    <p>
+      &#160;&#160;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1355839571373" ID="ID_298067342" MODIFIED="1355839575120" POSITION="left" TEXT="text">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1355839575754" ID="ID_715847262" MODIFIED="1357240215753" TEXT="text-shadow">
+<node COLOR="#0033ff" CREATED="1355839575754" FOLDED="true" ID="ID_715847262" MODIFIED="1357242762156" TEXT="text-shadow">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#ff0000" CREATED="1355839585956" ID="ID_1353104836" LINK="http://www.w3.org/Style/Examples/007/text-shadow.en.html" MODIFIED="1355839596640" TEXT="W3C">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -149,8 +186,7 @@
       <font color="#0033cc">{FILTER: DropShadow(Color=color, OffX=offX, OffY=offY, Positive=positive)}</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -158,6 +194,16 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1357221103694" ID="ID_1233232076" LINK="http://www.alistapart.com/articles/understanding-css3-transitions/" MODIFIED="1357221115425" TEXT="A List Apart">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1357245023527" ID="ID_1699684778" MODIFIED="1357245026532" POSITION="left" TEXT="browsers">
+<node CREATED="1357245026983" ID="ID_1881626945" MODIFIED="1357245028208" TEXT="ie">
+<node CREATED="1357245029971" ID="ID_1444506060" LINK="http://msdn.microsoft.com/en-us/library/ms673539%28VS.85%29.aspx" MODIFIED="1357246127524" TEXT="filters">
+<node COLOR="#0033ff" CREATED="1357246998086" ID="ID_1939718771" MODIFIED="1357247001341" TEXT="filter: glow(strength=5 color=black)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1357246112135" ID="ID_1192421118" LINK="http://css3pie.com/" MODIFIED="1357246118211" TEXT="ccs3pie"/>
 </node>
 </node>
 <node CREATED="1336940083970" FOLDED="true" ID="ID_657813283" MODIFIED="1357221050016" POSITION="right" TEXT="Tricks">
