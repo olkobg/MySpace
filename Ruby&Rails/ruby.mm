@@ -6,7 +6,7 @@
 <node CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1357160557237" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1289986226478" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1357325187391" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" ID="ID_767240686" MODIFIED="1357668899194" POSITION="left" TEXT="class">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357309228766" ID="ID_1464648169" MODIFIED="1357323916878">
 <richcontent TYPE="NODE"><html>
@@ -27,8 +27,7 @@
       <font color="#0033cc">def self.method (arg, arg) ... end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1357321757675">
 <richcontent TYPE="NODE"><html>
@@ -57,8 +56,7 @@
       <font color="#0033cc">5.<b>respond_to?('class')</b>&#160;== true</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357323525020" ID="ID_676504090" MODIFIED="1357323644246">
 <richcontent TYPE="NODE"><html>
@@ -73,8 +71,7 @@
       <font color="#0033cc">5.<b>methods</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357323691457" ID="ID_372950743" MODIFIED="1357323970171">
 <richcontent TYPE="NODE"><html>
@@ -98,8 +95,7 @@
       <font color="#000000"># will reveil that this method defined in <b>Ceil</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1357320980559" FOLDED="true" ID="ID_212325198" MODIFIED="1357324952811" TEXT="types">
@@ -154,8 +150,7 @@
       @foo = 3;&#160;&#160;&#160; <b>&quot;</b>Answer is #{@foo}<b>&quot;</b>;&#160;&#160;&#160; <b>%Q{</b>Anwer is #{@foo + 1}<b>}</b>;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1357308627328" ID="ID_6391094" MODIFIED="1357323185260" TEXT="%Q{like double quotes string}">
@@ -252,8 +247,7 @@
       <font color="#0033cc"><b>Symbol</b>&#160;(:sym)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357320603395" ID="ID_1457698397" MODIFIED="1357320640754" TEXT="immutable string that represents itself"/>
 <node CREATED="1357319563417" ID="ID_1186130719" MODIFIED="1357319603670">
@@ -336,13 +330,14 @@
       evrything else and <font color="#0033cc"><b>true (TrueClass)</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1357309170312" FOLDED="true" ID="ID_259217726" MODIFIED="1357324561700" TEXT="instance">
+<node CREATED="1357309170312" ID="ID_259217726" MODIFIED="1357668915747" TEXT="instance">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1357668986176" TEXT="methods">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357309177051" ID="ID_375127362" MODIFIED="1357324559102">
 <richcontent TYPE="NODE"><html>
@@ -357,8 +352,7 @@
       <font color="#0033cc">def mehod (arg, arg) ... end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357309449713" ID="ID_623556904" MODIFIED="1357324542545">
 <richcontent TYPE="NODE"><html>
@@ -379,8 +373,27 @@
       <font color="#0033cc">def dangerous_method<b>!</b>&#160;(arg, arg) ...&#160; end</font>
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1357668925384" ID="ID_573892879" MODIFIED="1357668983007">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">def trivial_method&#160;&#160;&#160;</font>&#160;# no arguments; can also use trivial_method()
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;x = 5 </font>
+    </p>
+    <p>
+      <font color="#0033ff">end</font>
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1282725988827" ID="ID_862307088" MODIFIED="1357308973229" TEXT="modules">
@@ -399,7 +412,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357308479691" FOLDED="true" ID="ID_152061557" MODIFIED="1357324978077" POSITION="left" TEXT="constants">
+<node CREATED="1357308479691" FOLDED="true" ID="ID_152061557" MODIFIED="1357668889993" POSITION="left" TEXT="constants">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357308484483" ID="ID_1958604901" MODIFIED="1357308508652" TEXT="ClassName">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -408,7 +421,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1357325198630" POSITION="left" TEXT="operations">
+<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1357668898420" POSITION="left" TEXT="operations">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357320757977" FOLDED="true" ID="ID_1228339705" MODIFIED="1357325196450" TEXT="statements">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -422,8 +435,7 @@
       separated by newlines or sometimes by semicolons <font color="#0033cc"><b>;</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1287582250645" FOLDED="true" ID="ID_1435489590" MODIFIED="1357325195600" TEXT="?">
@@ -432,7 +444,7 @@
 <node COLOR="#0033ff" CREATED="1287582255548" ID="ID_802198233" MODIFIED="1352468637635" TEXT="a = true  ? &apos;a&apos; : &apos;b&apos; #=&gt; &quot;a&quot;"/>
 </node>
 </node>
-<node CREATED="1283360812953" FOLDED="true" ID="ID_1852096962" MODIFIED="1357325191295" TEXT="conditionals">
+<node CREATED="1283360812953" FOLDED="true" ID="ID_1852096962" MODIFIED="1357668895143" TEXT="conditionals">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1283360821421" FOLDED="true" ID="ID_1728327273" MODIFIED="1357325019776" TEXT="unless">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -474,8 +486,7 @@
       code <b>if</b>&#160;condition
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1285747995654" ID="ID_1370793914" MODIFIED="1357325038924">
 <richcontent TYPE="NODE"><html>
@@ -505,8 +516,7 @@
       <b>end</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1285748038474" FOLDED="true" ID="ID_1480025107" MODIFIED="1357325083715" TEXT="case">
@@ -536,8 +546,7 @@
       <b>end</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
