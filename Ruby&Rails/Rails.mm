@@ -260,8 +260,7 @@
       template used for generatin js in ruby
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1284043709968" FOLDED="true" ID="ID_278952093" MODIFIED="1357148715938" TEXT="effects">
 <node CREATED="1283935936421" ID="ID_357924746" MODIFIED="1357148673132">
 <richcontent TYPE="NODE"><html>
@@ -282,8 +281,7 @@
       <font color="#0033ff">:endcolor =&gt; &quot;#114411&quot;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -297,8 +295,7 @@
       used for plain html output
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357148768105" ID="ID_955436171" MODIFIED="1357148769633" TEXT="form">
 <node CREATED="1284038090046" ID="ID_1814901924" MODIFIED="1357148796473">
@@ -314,8 +311,7 @@
       <font color="#0033ff">form_for &lt;name of model &gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1283338542812" FOLDED="true" ID="ID_1767856036" MODIFIED="1357149302485" TEXT="Layouts">
@@ -330,8 +326,7 @@
       dafault layout you can specify in <font color="#0033ff"><b>app/controller/application</b></font>&#160; by setting layout <font color="#0033ff"><b>&quot;&lt;name of layout&gt;&quot;</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1283932075671" ID="ID_335798303" MODIFIED="1357149053176">
@@ -344,8 +339,7 @@
       main controller layout placed in layout directory with name of <font color="#0033ff"><b>&lt;controller_name&gt;.html.erb</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1283338546484" FOLDED="true" ID="ID_1176584498" MODIFIED="1357149100614" TEXT="content">
 <node CREATED="1283338551093" ID="ID_1043545982" MODIFIED="1357148855420">
@@ -358,8 +352,7 @@
       use <font color="#0033ff"><b>&lt;%= yield :layout %&gt;</b></font>&#160;- to display required view
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1297859917861" ID="ID_1397441571" MODIFIED="1357149035290">
 <richcontent TYPE="NODE"><html>
@@ -383,8 +376,7 @@
       <font color="#0033ff">&lt;% end %&gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357148959898" ID="ID_138995706" MODIFIED="1357149004969">
 <richcontent TYPE="NODE"><html>
@@ -408,8 +400,7 @@
       <font color="#0033ff">=end %&gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1283931946968" FOLDED="true" ID="ID_657218242" MODIFIED="1357149112537" TEXT="partials">
@@ -458,8 +449,7 @@
       <font color="#0033ff">form_authenticity_token</font>&#160;- to get it&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -552,8 +542,7 @@
       <font color="#0033ff"><b>rails</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283240138625" ID="ID_296344086" MODIFIED="1357149411286">
 <richcontent TYPE="NODE"><html>
@@ -565,8 +554,7 @@
       <font color="#0033ff"><b>server</b></font>&#160;(run&#160;server)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1283240147390" ID="ID_1575314713" MODIFIED="1357149723698" TEXT="[default]">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283240175296" ID="ID_381088539" MODIFIED="1283240190437" TEXT="if mongrel installed it will be mongrel if not - webrick"/>
@@ -584,8 +572,7 @@
       <font color="#0033ff"><b>rails server -h</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1283240195640" ID="ID_752197087" MODIFIED="1357149751776">
 <richcontent TYPE="NODE"><html>
@@ -600,8 +587,7 @@
       <font color="#0033ff"><b>rails server webrick</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1283240214093" ID="ID_138745101" MODIFIED="1357149762311">
 <richcontent TYPE="NODE"><html>
@@ -616,8 +602,7 @@
       <font color="#0033ff"><b>rails sever mongrel</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1283240265843" ID="ID_789820642" MODIFIED="1357149525113">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -628,8 +613,7 @@
       <font color="#0033ff"><b>-p</b></font>&#160;port number
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1283240277375" ID="ID_1107355410" MODIFIED="1357149511622">
 <richcontent TYPE="NODE"><html>
@@ -641,8 +625,7 @@
       <font color="#0033ff"><b>-d</b></font>&#160;to detach server
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1283442966093" ID="ID_577858243" LINK="https://www.phusionpassenger.com/" MODIFIED="1357159342617" TEXT="passenger">
@@ -657,8 +640,7 @@
       <font color="#0033ff"><b>passenger</b>&#160;start</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357159482296" ID="ID_1314646436" LINK="http://wiki.brightbox.co.uk/docs:phusion-passenger" MODIFIED="1357159542908">
 <richcontent TYPE="NODE"><html>
@@ -670,9 +652,60 @@
       <font color="#009999"><b>brigthbox.com</b></font><b>: </b>install on <font color="#990000"><b>Debian</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1357147340970" ID="ID_973348776" LINK="https://github.com/sstephenson/execjs" MODIFIED="1357147465264">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>execjs</b>&#160;<font color="#000000">(js run)</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357147874526" ID="ID_840529058" MODIFIED="1357147916147">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      therubyracer - Google V8 embedded within Ruby&#160;
+    </p>
+    <p>
+      therubyrhino - Mozilla Rhino embedded within JRuby&#160;&#160;
+    </p>
+    <p>
+      Johnson - Mozilla SpiderMonkey embedded within Ruby&#160;&#160;
+    </p>
+    <p>
+      Mustang - Mustang V8 embedded within Ruby&#160;&#160;
+    </p>
+    <p>
+      Node.js&#160;&#160;
+    </p>
+    <p>
+      Apple JavaScriptCore - Included with Mac OS X&#160;&#160;
+    </p>
+    <p>
+      Mozilla SpiderMonkey&#160;&#160;
+    </p>
+    <p>
+      Microsoft Windows Script Host (JScript)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1357147344105" ID="ID_1633713387" LINK="https://github.com/cowboyd/therubyracer" MODIFIED="1357147416302" TEXT="therubyracer">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1357147353684" ID="ID_1450723251" MODIFIED="1357147360817" TEXT="therhinoracer">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1283240143078" ID="ID_1736778221" MODIFIED="1357149550972" TEXT="generate">
@@ -700,8 +733,7 @@
       <font color="#0033ff"><b>rake db:migrate:plugin NAME=plugin_name VERSION=0</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink COLOR="#9900cc" DESTINATION="ID_733924486" ENDARROW="Default" ENDINCLINATION="1696;258;" ID="Arrow_ID_688607126" STARTARROW="None" STARTINCLINATION="1081;-434;"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -721,8 +753,7 @@
       <font color="#0033ff"><b>rake doc:app</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1284732069922" ID="ID_317568180" MODIFIED="1357149632141">
 <richcontent TYPE="NODE"><html>
@@ -737,8 +768,7 @@
       <font color="#0033ff"><b>rake stats</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

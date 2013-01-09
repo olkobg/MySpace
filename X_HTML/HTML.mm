@@ -22,34 +22,14 @@
 </node>
 <node COLOR="#0033ff" CREATED="1333449983322" ID="ID_1859611277" MODIFIED="1333450129465" POSITION="left" TEXT="5">
 <font NAME="SansSerif" SIZE="25"/>
-<node CREATED="1333450129420" ID="ID_753744998" MODIFIED="1333450131899" TEXT=" test">
-<node CREATED="1333449993758" FOLDED="true" ID="ID_759889651" MODIFIED="1356545705175" TEXT="JS performance">
-<node CREATED="1333450005828" ID="ID_915285588" LINK="http://peacekeeper.futuremark.com/" MODIFIED="1333450025438" TEXT="peacekeeper"/>
-<node CREATED="1333450026662" ID="ID_982974743" LINK="http://www.kevs3d.co.uk/dev/asteroidsbench/" MODIFIED="1333450050931" TEXT="asteroids"/>
-<node CREATED="1333450051988" ID="ID_1130689892" LINK="http://html5-benchmark.com/" MODIFIED="1333450076602" TEXT="impact"/>
+<node CREATED="1357727196578" ID="ID_77583901" MODIFIED="1357727206082" TEXT="learn">
+<node COLOR="#009999" CREATED="1357719276896" ID="ID_605188182" LINK="http://diveintohtml5.info/" MODIFIED="1357727213676" TEXT="dive into html5">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
 <node COLOR="#ff0000" CREATED="1355135796238" ID="ID_114319840" MODIFIED="1355136811400" POSITION="left" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#0033ff" CREATED="1355136811390" ID="ID_89835606" MODIFIED="1355136821834" TEXT="&lt;form&gt;">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1355135816899" ID="ID_293500023" MODIFIED="1355136845263">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      // creating js array on html page.
-    </p>
-    <p>
-      $postvalue=array(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;);&#160;<br />foreach($postvalue as $value)&#160;{&#160;&#160;<br />&#160;&#160;echo '&lt;input type=&quot;hidden&quot; name=&quot;result[]&quot; value=&quot;'. $value. '&quot;&gt;';&#160;<br />}
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
 </node>
 </node>
 </map>

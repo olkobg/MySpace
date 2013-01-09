@@ -614,7 +614,7 @@
 <node CREATED="1354015762809" ID="ID_749062094" LINK="jquery/jqueryUI.mm" MODIFIED="1354901178217" POSITION="left" TEXT="jqueryUI">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 </node>
-<node CREATED="1354281700459" FOLDED="true" ID="ID_1321766246" LINK="http://code.jquery.com/" MODIFIED="1357240261796" POSITION="left" TEXT="CDN">
+<node CREATED="1354281700459" ID="ID_1321766246" LINK="http://code.jquery.com/" MODIFIED="1357726198394" POSITION="left" TEXT="CDN">
 <node COLOR="#0033ff" CREATED="1354698206726" ID="ID_356992878" MODIFIED="1354698238970">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -648,6 +648,23 @@
 <node CREATED="1355838991471" ID="ID_194065213" MODIFIED="1355839006748" POSITION="left" TEXT="plugins">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355838997784" ID="ID_448961335" LINK="http://www.inwebson.com/jquery/cool-jquery-plugins-make-you-wow/" MODIFIED="1357240275960" TEXT="cool 18 plugins"/>
+<node CREATED="1357726200177" ID="ID_1915031401" MODIFIED="1357726258107" TEXT="Local Storage">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1357726208656" ID="ID_1969361781" LINK="http://medialize.github.com/jQuery-store/" MODIFIED="1357726250614">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $.store
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 </map>

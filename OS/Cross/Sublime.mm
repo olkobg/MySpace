@@ -16,6 +16,10 @@
 <node CREATED="1356448378788" ID="ID_1600803494" LINK="https://github.com/ehamiter/Sublime-Text-2-Plugins" MODIFIED="1356448393090" TEXT="Sublime-Text2-Plugins"/>
 <node CREATED="1356448393833" ID="ID_838555007" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=5&amp;t=2262" MODIFIED="1356448418271" TEXT="Html/Css"/>
 </node>
+<node CREATED="1357740650424" ID="ID_308180726" MODIFIED="1357740654190" TEXT="search">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357740654866" ID="ID_1981419594" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=6&amp;t=9172" MODIFIED="1357740660143" TEXT="in all opened files"/>
+</node>
 </node>
 <node CREATED="1352716585132" ID="ID_1303016478" MODIFIED="1352716602808" POSITION="left" TEXT="build system">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>

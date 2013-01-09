@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068915711" ID="ID_1460056684" LINK="../../Index.mm" MODIFIED="1331668049079" TEXT="Wlike">
+<node CREATED="1294068915711" ID="ID_1460056684" LINK="../../Index.mm" MODIFIED="1357754481929" TEXT="Wlike">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1294232876530" ID="ID_1129769802" LINK="windows%207.mm" MODIFIED="1294232913366" POSITION="right" TEXT=" 7"/>
 <node CREATED="1331808859588" ID="ID_476217934" LINK="win8.mm" MODIFIED="1331808859589" POSITION="right" TEXT="8"/>
@@ -8,14 +8,28 @@
 <node CREATED="1294232884488" ID="ID_802169902" MODIFIED="1294232928199" TEXT=" 2003"/>
 <node CREATED="1294232889928" ID="ID_1855027243" MODIFIED="1294232931607" TEXT=" 2008"/>
 </node>
-<node CREATED="1331808994364" ID="ID_579640305" MODIFIED="1331808997620" POSITION="left" TEXT="progs">
-<node CREATED="1304154301176" ID="ID_758491942" MODIFIED="1304154357932" TEXT="power designer ">
+<node CREATED="1357754481916" FOLDED="true" ID="ID_15361503" MODIFIED="1357754510178" POSITION="left" TEXT="Develop">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357754502932" FOLDED="true" ID="ID_961958929" MODIFIED="1357754509596" TEXT="design">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1304154301176" FOLDED="true" ID="ID_758491942" MODIFIED="1357754509300">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Power Designer&#160;
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1304159614916" ID="ID_360486390" LINK="http://www.phpbuilder.com/board/showthread.php?t=10295629" MODIFIED="1355432006138" TEXT="php lang spec file"/>
 <node CREATED="1304154359117" ID="ID_1366564412" LINK="http://wcode.net/2010/12/customcode-generation-power-designer-15/" MODIFIED="1332787536786" TEXT="create New language specificaftion"/>
 </node>
 </node>
+</node>
 <node CREATED="1353670889289" ID="ID_1906794804" MODIFIED="1356799767208" POSITION="left" TEXT="cmd">
-<node COLOR="#0033ff" CREATED="1356799767189" ID="ID_272044784" MODIFIED="1356799772134" TEXT="doskey">
+<node COLOR="#0033ff" CREATED="1356799767189" FOLDED="true" ID="ID_272044784" MODIFIED="1357754470975" TEXT="doskey">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1353670908525" ID="ID_472310140" MODIFIED="1356799764584">
 <richcontent TYPE="NODE"><html>
@@ -33,7 +47,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1355432045584" ID="ID_890564081" MODIFIED="1355432051614" TEXT="change attribute">
+<node CREATED="1355432045584" FOLDED="true" ID="ID_890564081" MODIFIED="1357754470322" TEXT="change attribute">
 <node COLOR="#0033ff" CREATED="1355432052246" ID="ID_1505491851" MODIFIED="1355432070440">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -47,12 +61,12 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1294232854297" ID="ID_1372309980" MODIFIED="1294232864168" TEXT="create link">
+<node CREATED="1294232854297" FOLDED="true" ID="ID_1372309980" MODIFIED="1357754469782" TEXT="create link">
 <node COLOR="#0033ff" CREATED="1294232864664" ID="ID_1766221927" MODIFIED="1355432110641" TEXT="mklink">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356797646640" ID="ID_1563024821" MODIFIED="1356797651113" TEXT="netstat">
+<node COLOR="#0033ff" CREATED="1356797646640" FOLDED="true" ID="ID_1563024821" MODIFIED="1357754469494" TEXT="netstat">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356797652083" ID="ID_420283683" MODIFIED="1356797892261">
 <richcontent TYPE="NODE"><html>
@@ -71,10 +85,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1294232880183" ID="ID_150018163" MODIFIED="1294232919015" POSITION="right" TEXT=" xp"/>
-<node CREATED="1294232901608" ID="ID_262642014" MODIFIED="1294232923687" POSITION="right" TEXT="98 se"/>
-<node CREATED="1331667907542" ID="ID_1912959258" MODIFIED="1331667911728" POSITION="right" TEXT="unix emulation">
-<node CREATED="1331667912669" ID="ID_239036694" LINK="http://cygwin.org/" MODIFIED="1331668007451" TEXT="Cygwin">
+<node CREATED="1331667907542" FOLDED="true" ID="ID_1912959258" MODIFIED="1357754523915" POSITION="right" TEXT="unix emulation">
+<node CREATED="1331667912669" FOLDED="true" ID="ID_239036694" LINK="http://cygwin.org/" MODIFIED="1357754521809" TEXT="Cygwin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1331667935224" ID="ID_1273085293" LINK="http://sourceware.org/cygwinports/" MODIFIED="1331667960793" TEXT="cygwin ports ">
 <node COLOR="#0033ff" CREATED="1333098367684" ID="ID_943675007" MODIFIED="1333098390633" TEXT="cygstart -- /path/to/setup.exe -K http://cygwinports.org/ports.gpg"/>
@@ -92,8 +104,7 @@
       <b>victormiti:</b>&#160;Lamp on Cygwin
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1356860080093" ID="ID_1663107226" LINK="http://www.softwareprojects.com/resources/programming/t-how-to-install-nginx-php-php-fpm-and-mysql-under-1616.html" MODIFIED="1356860106019">
 <richcontent TYPE="NODE"><html>
@@ -105,8 +116,7 @@
       <b>softwareprojects:</b>&#160;nginx + php
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1356793809787" ID="ID_1192427224" MODIFIED="1356804846528" TEXT="apt-cyg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -149,9 +159,14 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1332271525409" ID="ID_1805240172" MODIFIED="1332271527168" POSITION="left" TEXT="net">
-<node CREATED="1332271520704" ID="ID_1446737362" MODIFIED="1332271524577" TEXT="IM">
+<node CREATED="1332271525409" ID="ID_1805240172" MODIFIED="1357754467333" POSITION="left" TEXT="net">
+<node CREATED="1332271520704" FOLDED="true" ID="ID_1446737362" MODIFIED="1357754516515" TEXT="IM">
 <node CREATED="1332271546349" ID="ID_910397175" LINK="Skype.mm" MODIFIED="1332271546351" TEXT="Skype"/>
+</node>
+<node CREATED="1357754447089" FOLDED="true" ID="ID_136688551" MODIFIED="1357754517945" TEXT="mail">
+<node CREATED="1357754450656" ID="ID_624007127" MODIFIED="1357754452884" TEXT="backup">
+<node CREATED="1357754454341" ID="ID_1642874763" LINK="http://www.broobles.com/imapsize/" MODIFIED="1357754463353" TEXT="imapSize"/>
+</node>
 </node>
 </node>
 </node>

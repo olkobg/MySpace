@@ -2,11 +2,11 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1357309368203" TEXT="ruby">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node COLOR="#338800" CREATED="1282900446488" FOLDED="true" ID="ID_1262636553" MODIFIED="1357325203370" POSITION="right" TEXT="frameworks">
+<node COLOR="#338800" CREATED="1282900446488" ID="ID_1262636553" MODIFIED="1357725858333" POSITION="right" TEXT="frameworks">
 <node CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1357160557237" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1289986226478" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" ID="ID_767240686" MODIFIED="1357668899194" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1357718268073" POSITION="left" TEXT="class">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357309228766" ID="ID_1464648169" MODIFIED="1357323916878">
 <richcontent TYPE="NODE"><html>
@@ -391,8 +391,7 @@
       <font color="#0033ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -704,10 +703,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1357325200563" POSITION="right" TEXT="ver">
+<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1357728164524" POSITION="right" TEXT="ver">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357132426045" ID="ID_789870658" LINK="rvm.mm" MODIFIED="1357132426050" TEXT="rvm"/>
-<node CREATED="1357159596789" FOLDED="true" ID="ID_243706753" LINK="http://www.rubyenterpriseedition.com/" MODIFIED="1357159706380">
+<node CREATED="1357159596789" FOLDED="true" ID="ID_243706753" LINK="http://www.rubyenterpriseedition.com/" MODIFIED="1357728163314">
 <richcontent TYPE="NODE"><html>
   <head>
     
