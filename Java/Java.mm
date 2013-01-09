@@ -155,12 +155,11 @@
       You must use an <b>explicit cast</b>&#160;when the declared <b><font color="#0033ff">type</font></b>&#160; is <b><i>smaller</i></b>&#160;than what you&#8217;re trying to <b><font color="#0033ff">return</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1298890244846" ID="ID_719538133" MODIFIED="1298890265003" POSITION="left" TEXT="Operations">
+<node COLOR="#ff0000" CREATED="1298890244846" FOLDED="true" ID="ID_719538133" MODIFIED="1357763712733" POSITION="left" TEXT="Operations">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1349081824649" FOLDED="true" ID="ID_324948475" MODIFIED="1349255743479" TEXT="boolean">
 <node COLOR="#0033ff" CREATED="1349081831768" ID="ID_1404923741" MODIFIED="1349081889943" TEXT="&amp;&amp;"/>
@@ -198,8 +197,7 @@
       assigning <font color="#0033ff">=</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#0033ff" CREATED="1348819609006" ID="ID_727314645" MODIFIED="1348819638190">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -229,8 +227,7 @@
       &#160;increment <font color="#0033ff">++</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1348822634211" ID="ID_1228518119" MODIFIED="1352367051710">
 <richcontent TYPE="NODE"><html>
@@ -242,8 +239,7 @@
       post <b><font color="#0033ff">i++</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1348822638104" ID="ID_1037260047" MODIFIED="1352367059786">
 <richcontent TYPE="NODE"><html>
@@ -255,8 +251,7 @@
       pre <b><font color="#0033ff">++i</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1348822599462" FOLDED="true" ID="ID_1415122371" MODIFIED="1352367149801">
@@ -269,8 +264,7 @@
       &#160;decrement <b><font color="#0033ff">--</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1348822611699" ID="ID_1965798661" MODIFIED="1352367064380">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -281,8 +275,7 @@
       post <b><font color="#0033ff">i--</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1348822640886" ID="ID_420900276" MODIFIED="1352367100429">
 <richcontent TYPE="NODE"><html>
@@ -294,8 +287,7 @@
       pre <b><font color="#0033ff">--i</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1348820224895" FOLDED="true" ID="ID_632208009" MODIFIED="1352367151337">
@@ -308,8 +300,7 @@
       cast <b><font color="#0033ff">( )</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#0033ff" CREATED="1348820233410" ID="ID_1168810459" MODIFIED="1349256301225">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -407,7 +398,7 @@
 <node COLOR="#0033ff" CREATED="1348822407885" ID="ID_478538856" MODIFIED="1348822413609" TEXT="continue"/>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1349255682524" ID="ID_1241538864" MODIFIED="1349256100086" POSITION="left" TEXT="Clasess">
+<node COLOR="#ff0000" CREATED="1349255682524" FOLDED="true" ID="ID_1241538864" MODIFIED="1357763715907" POSITION="left" TEXT="Clasess">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1349255102664" FOLDED="true" ID="ID_1967325392" MODIFIED="1352367191906" TEXT="acess modificators">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -829,8 +820,8 @@ try {
 </node>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1320323528652" ID="ID_1065606760" MODIFIED="1348822110893" POSITION="right" TEXT="UI">
-<font BOLD="true" NAME="SansSerif" SIZE="18"/>
+<node CREATED="1320323528652" ID="ID_1065606760" MODIFIED="1357763727751" POSITION="right" TEXT="UI">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1320323536538" FOLDED="true" ID="ID_2994514" MODIFIED="1348819136472" TEXT="Swing">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#0033ff" CREATED="1320323542842" ID="ID_787951674" MODIFIED="1348818807796" TEXT="JButton"/>
@@ -845,8 +836,8 @@ try {
 <node COLOR="#0033ff" CREATED="1320323601050" ID="ID_109620584" MODIFIED="1348818807784" TEXT="JTable"/>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1348820274815" ID="ID_608907666" MODIFIED="1349081972940" POSITION="right" TEXT="math">
-<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1348820274815" ID="ID_608907666" MODIFIED="1357763738770" POSITION="right" TEXT="math">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1349080986708" FOLDED="true" ID="ID_757247752" MODIFIED="1349081139743" TEXT="">
 <icon BUILTIN="gohome"/>
 <node COLOR="#0033ff" CREATED="1348820288105" FOLDED="true" ID="ID_721352426" MODIFIED="1349080993755" TEXT="random()">
@@ -855,7 +846,7 @@ try {
 </node>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1349080880666" ID="ID_1434291483" MODIFIED="1349081976370" POSITION="right" TEXT="util">
+<node CREATED="1349080880666" ID="ID_1434291483" MODIFIED="1357763738769" POSITION="right" TEXT="util">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#0033ff" CREATED="1349080893673" FOLDED="true" ID="ID_221045770" MODIFIED="1349195378989" TEXT="ArrayList">
 <node COLOR="#0033ff" CREATED="1349081169270" ID="ID_1954782226" LINK="src/general/utils/ArrayList-Examples.java" MODIFIED="1349081489116" TEXT="ArrayListExamples.java"/>
@@ -869,8 +860,8 @@ try {
 <node COLOR="#0033ff" CREATED="1349081046583" ID="ID_34350624" MODIFIED="1349081128742" TEXT="get(int index)"/>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1349195361914" ID="ID_169791074" MODIFIED="1349195367790" POSITION="right" TEXT="lang">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1349195361914" ID="ID_169791074" MODIFIED="1357763738766" POSITION="right" TEXT="lang">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#0033ff" CREATED="1349195369100" FOLDED="true" ID="ID_1734836153" MODIFIED="1349195427830" TEXT="Object">
 <node COLOR="#0033ff" CREATED="1349195374243" ID="ID_1339692646" MODIFIED="1349195396816" TEXT="hashCode()"/>
 <node COLOR="#0033ff" CREATED="1349195388382" ID="ID_1910831618" MODIFIED="1349195396817" TEXT="getClass()"/>
