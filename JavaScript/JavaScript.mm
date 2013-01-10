@@ -1,10 +1,10 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1357725684316" TEXT="JS">
+<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1357837247246" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1357727979422" POSITION="right" TEXT="lib">
+<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1357825564287" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283935276328" ID="ID_1046873276" MODIFIED="1357727707438" TEXT="Frameworks">
+<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1357825561320" TEXT="Frameworks">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#0033ff" CREATED="1288878939472" ID="ID_626818632" LINK="http://mootools.net/" MODIFIED="1357726926659" TEXT="mootolls">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -31,7 +31,7 @@
 <node CREATED="1283935288203" ID="ID_310409909" LINK="http://wiki.github.com/madrobby/scriptaculous/" MODIFIED="1307097825170" TEXT="effects"/>
 </node>
 </node>
-<node CREATED="1328630279282" ID="ID_1710108581" MODIFIED="1357727944412">
+<node CREATED="1328630279282" FOLDED="true" ID="ID_1710108581" MODIFIED="1357825561704">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -41,8 +41,7 @@
       html <font color="#cc0033">5</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node COLOR="#0033ff" CREATED="1328630282633" ID="ID_102365652" LINK="http://videojs.com/" MODIFIED="1357727297743" TEXT="VideoJS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -103,7 +102,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1337155609990" ID="ID_1410910272" MODIFIED="1357727320432" TEXT="effects">
+<node CREATED="1337155609990" FOLDED="true" ID="ID_1410910272" MODIFIED="1357825563249" TEXT="effects">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#009999" CREATED="1337155616877" ID="ID_421262654" LINK="http://www.dynamicdrive.com/" MODIFIED="1357726792213" TEXT="Dynamic Drive">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -121,12 +120,11 @@
       <font color="#009999"><b>Stanford:</b></font>&#160;RSA algorithm
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1357727450830" POSITION="left" TEXT="types">
+<node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1357837219202" POSITION="left" TEXT="types">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1288878845078" FOLDED="true" ID="ID_1393940341" MODIFIED="1355337152680" TEXT="Array">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -262,7 +260,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1342533006438" FOLDED="true" ID="ID_501702371" MODIFIED="1357726630571">
+<node CREATED="1342533006438" FOLDED="true" ID="ID_501702371" MODIFIED="1357837217513">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -393,8 +391,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1355325074109" FOLDED="true" ID="ID_11620303" MODIFIED="1357726663839" TEXT="Boolean">
@@ -415,14 +412,13 @@
       shaded = <b>!</b>shaded;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1290779782717" FOLDED="true" ID="ID_1147256074" MODIFIED="1357727450630" POSITION="left" TEXT="operations">
+<node CREATED="1290779782717" FOLDED="true" ID="ID_1147256074" MODIFIED="1357837545782" POSITION="left" TEXT="operations">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1290675749078" FOLDED="true" ID="ID_1873207825" MODIFIED="1357726678623" TEXT="clone">
+<node CREATED="1290675749078" FOLDED="true" ID="ID_1873207825" MODIFIED="1357837213604" TEXT="clone">
 <node COLOR="#0033ff" CREATED="1290675760303" ID="ID_1250613880" MODIFIED="1307435002764">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -540,8 +536,7 @@
       <b>switch</b>(n) {<br />case 1:<br /><i>&#160;&#160;execute code block 1</i><br />&#160;&#160;break;<br />case 2:<br /><i>&#160;&#160;execute code block 2</i><br />&#160;&#160;break;<br />default:<br /><i>&#160; code to be executed if n is different from case 1 and 2</i><br />} <font color="#000000">// end switch</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1307120335181" ID="ID_518244207" MODIFIED="1355345758840" TEXT="if">
@@ -563,7 +558,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354543290974" FOLDED="true" ID="ID_1353892888" MODIFIED="1357726709519" TEXT="function">
+<node COLOR="#0033ff" CREATED="1354543290974" FOLDED="true" ID="ID_1353892888" MODIFIED="1357837210895" TEXT="function">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1354543297859" ID="ID_87405008" LINK="http://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language" MODIFIED="1354543328950">
 <richcontent TYPE="NODE"><html>
@@ -582,7 +577,7 @@
 <node CREATED="1290779800255" ID="ID_1854719369" LINK="http://www.jibbering.com/faq/notes/type-conversion/" MODIFIED="1328630117086" TEXT="links1"/>
 </node>
 </node>
-<node CREATED="1290785686280" ID="ID_967559904" MODIFIED="1357727462646" POSITION="right" TEXT="Tools">
+<node CREATED="1290785686280" FOLDED="true" ID="ID_967559904" MODIFIED="1357825692160" POSITION="right" TEXT="Tools">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1290785690168" FOLDED="true" ID="ID_1371837990" MODIFIED="1357727986767" TEXT="Compressor">
 <node CREATED="1290785699124" ID="ID_1468703957" LINK="http://developer.yahoo.com/yui/compressor/" MODIFIED="1306946571426" TEXT="YUI-Cpmpressor"/>
@@ -590,13 +585,13 @@
 <node CREATED="1306946557807" ID="ID_1154117622" LINK="http://dean.edwards.name/packer/" MODIFIED="1306946563919" TEXT="PACKER"/>
 </node>
 </node>
-<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1357728050725" POSITION="right" TEXT="Engine">
+<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1357825417937" POSITION="right" TEXT="Engine">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357148058475" ID="ID_290312899" LINK="server/Node.js.mm" MODIFIED="1357148058475" TEXT="Node.js"/>
 <node CREATED="1307097864888" ID="ID_722061965" LINK="https://developer.mozilla.org/en/SpiderMonkey" MODIFIED="1307097894673" TEXT="SpiderMonkey"/>
 <node CREATED="1307097896172" ID="ID_604037639" LINK="http://www.mozilla.org/rhino/" MODIFIED="1307097933581" TEXT="rhino"/>
 </node>
-<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1357727449279" POSITION="left" TEXT="OBJECTS">
+<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1357837546013" POSITION="left" TEXT="OBJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1357726603924" ID="ID_1228545119" MODIFIED="1357726606996" TEXT="document">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -634,13 +629,25 @@
       }
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1307434937756" ID="ID_1495479919" MODIFIED="1357837240170" TEXT="window">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357825620062" ID="ID_1218066818" MODIFIED="1357825674307">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If a document contain <b>frames</b>&#160;(<b><font color="#0033ff">&lt;frame&gt;</font></b>&#160;or <b><font color="#0033ff">&lt;iframe&gt;</font></b>&#160; tags), the browser creates one window object for the HTML document, and one additional <b><font color="#0033ff">window</font></b>&#160;object for each <b>frame.</b>
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1307434937756" ID="ID_1495479919" MODIFIED="1357726615566" TEXT="window">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1356546558872" ID="ID_1573997681" LINK="http://stackoverflow.com/questions/3131597/closing-child-window-automatically-when-the-parent-window-is-closed" MODIFIED="1357726434184">
+<node CREATED="1356546558872" ID="ID_1573997681" LINK="http://stackoverflow.com/questions/3131597/closing-child-window-automatically-when-the-parent-window-is-closed" MODIFIED="1357825629368">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -650,11 +657,35 @@
       <font color="#009999"><b>SO:</b></font><b>&#160;</b>close popup win
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1357827066710" ID="ID_1072123797" MODIFIED="1357827155520">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // frame loaded
+    </p>
+    <p>
+      // <b>w3</b>&#160;browsers
+    </p>
+    <p>
+      <font color="#0033ff">iframe.onload = refresh </font>
+    </p>
+    <p>
+      // <b>ie</b>
+    </p>
+    <p>
+      <font color="#0033ff">iframe.addEventListener('load', refresh, false);&#160;</font>
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1319713375018" ID="ID_384948737" MODIFIED="1357727415028" TEXT="DOM">
+<node COLOR="#338800" CREATED="1319713375018" FOLDED="true" ID="ID_384948737" MODIFIED="1357825684095" TEXT="DOM">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#0033ff" CREATED="1319713408997" FOLDED="true" ID="ID_855253354" MODIFIED="1357726882820" TEXT="option">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -801,7 +832,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1299147148648" ID="ID_1061921677" LINK="JSON.mm" MODIFIED="1357727444129" TEXT="JSON">
+<node COLOR="#0033ff" CREATED="1299147148648" FOLDED="true" ID="ID_1061921677" LINK="JSON.mm" MODIFIED="1357825685436" TEXT="JSON">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1355155713563" ID="ID_285164846" MODIFIED="1357726875493">
 <richcontent TYPE="NODE"><html>
@@ -826,7 +857,71 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1351605948750" ID="ID_1071224225" MODIFIED="1357727971875" POSITION="right" TEXT="Tips">
+<node CREATED="1357837247228" FOLDED="true" ID="ID_565291198" MODIFIED="1357837544020" POSITION="left" TEXT="functions">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357837240154" ID="ID_587763437" MODIFIED="1357837244201" TEXT="timer">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1357837225206" FOLDED="true" ID="ID_362924911" MODIFIED="1357837542548">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      setTimeout( )
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357837306844" ID="ID_375626964" MODIFIED="1357837336204">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // make on single call of function
+    </p>
+    <p>
+      <b><font color="#0033ff">setTimeout</font></b><font color="#0033ff">(func, delay);</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#009999" CREATED="1357837405627" ID="ID_246775735" LINK="http://javascript.ru/setTimeout" MODIFIED="1357837430139" TEXT="js.ru">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1357837270941" ID="ID_222235691" MODIFIED="1357837280722" TEXT="clearTimeout( )">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1357837251533" FOLDED="true" ID="ID_1732466113" MODIFIED="1357837541780" TEXT="setIneteval( )">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357837441560" ID="ID_1038214206" MODIFIED="1357837539438">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // func. call with interval<br /><b><font color="#0033ff">setInterval</font></b><font color="#0033ff">(func, delay);</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#009999" CREATED="1357837395545" ID="ID_1532165150" LINK="http://javascript.ru/setInterval" MODIFIED="1357837402669" TEXT="js.ru">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1357837261640" ID="ID_1512787065" MODIFIED="1357837269763" TEXT="clearInterval( )">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1351605948750" FOLDED="true" ID="ID_1071224225" MODIFIED="1357825689004" POSITION="right" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1351605953255" ID="ID_1441700475" LINK="http://caniuse.com/" MODIFIED="1351605973986" TEXT="canIUse"/>
 <node CREATED="1354632592619" FOLDED="true" ID="ID_783375115" MODIFIED="1357728064165" TEXT="closure">
@@ -878,7 +973,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1357728149738" POSITION="right" TEXT="Browser">
+<node CREATED="1319659786877" ID="ID_998630532" MODIFIED="1357840627030" POSITION="right" TEXT="Browser">
 <node CREATED="1319659797455" FOLDED="true" ID="ID_1332028521" MODIFIED="1357728146344" TEXT="ff">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1319659800487" ID="ID_1617789911" MODIFIED="1357728106466">
@@ -894,8 +989,7 @@
       javascript.options.showInConsole preference
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1357728117546" ID="ID_581548053" MODIFIED="1357728148351" TEXT="chrome">
@@ -909,6 +1003,25 @@
 </node>
 <node CREATED="1357728124219" ID="ID_1585452841" MODIFIED="1357728148350" TEXT="ie">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1357840628476" ID="ID_1214273483" MODIFIED="1357840645878" TEXT="&lt;iframe&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357840646586" ID="ID_1403734863" MODIFIED="1357840884457">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if<font color="#ccffcc">&#160;</font><b><font color="#0033ff">alert</font></b>&#160;occurs before <b>&lt;frame&gt;</b>&#160;displayed (even if displaying goes first)
+    </p>
+    <p>
+      -&gt; just move <b><font color="#0033ff">alert</font></b>&#160;into <b><font color="#0033ff">function</font></b>&#160;and&#160; <b><font color="#0033ff">setTimeout( function, 10 )</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
