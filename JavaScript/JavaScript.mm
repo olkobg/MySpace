@@ -591,13 +591,16 @@
 <node CREATED="1307097864888" ID="ID_722061965" LINK="https://developer.mozilla.org/en/SpiderMonkey" MODIFIED="1307097894673" TEXT="SpiderMonkey"/>
 <node CREATED="1307097896172" ID="ID_604037639" LINK="http://www.mozilla.org/rhino/" MODIFIED="1307097933581" TEXT="rhino"/>
 </node>
-<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1357837546013" POSITION="left" TEXT="OBJECTS">
+<node COLOR="#338800" CREATED="1307434903922" ID="ID_410338370" MODIFIED="1358185442157" POSITION="left" TEXT="OBJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1357726603924" ID="ID_1228545119" MODIFIED="1357726606996" TEXT="document">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1357726600076" ID="ID_452456734" MODIFIED="1357726610453" TEXT="location">
+<node COLOR="#0033ff" CREATED="1357726600076" FOLDED="true" ID="ID_452456734" MODIFIED="1358185729666" TEXT="location">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#ff0000" CREATED="1358185696068" ID="ID_1027265467" LINK="http://www.w3schools.com/jsref/obj_location.asp" MODIFIED="1358185715182" TEXT="w3c">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1290675458896" FOLDED="true" ID="ID_619064926" MODIFIED="1357726615567" TEXT="RegExp">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -632,7 +635,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1307434937756" ID="ID_1495479919" MODIFIED="1357837240170" TEXT="window">
+<node COLOR="#0033ff" CREATED="1307434937756" FOLDED="true" ID="ID_1495479919" MODIFIED="1358185425096" TEXT="window">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357825620062" ID="ID_1218066818" MODIFIED="1357825674307">
 <richcontent TYPE="NODE"><html>
@@ -644,8 +647,7 @@
       If a document contain <b>frames</b>&#160;(<b><font color="#0033ff">&lt;frame&gt;</font></b>&#160;or <b><font color="#0033ff">&lt;iframe&gt;</font></b>&#160; tags), the browser creates one window object for the HTML document, and one additional <b><font color="#0033ff">window</font></b>&#160;object for each <b>frame.</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1356546558872" ID="ID_1573997681" LINK="http://stackoverflow.com/questions/3131597/closing-child-window-automatically-when-the-parent-window-is-closed" MODIFIED="1357825629368">
 <richcontent TYPE="NODE"><html>
@@ -659,7 +661,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1357827066710" ID="ID_1072123797" MODIFIED="1357827155520">
+<node CREATED="1357827066710" ID="ID_1072123797" MODIFIED="1358185423743">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -672,17 +674,37 @@
       // <b>w3</b>&#160;browsers
     </p>
     <p>
-      <font color="#0033ff">iframe.onload = refresh </font>
+      <font color="#0033ff">iframe.<b>onload</b>&#160;= refresh </font>
     </p>
     <p>
       // <b>ie</b>
     </p>
     <p>
-      <font color="#0033ff">iframe.addEventListener('load', refresh, false);&#160;</font>
+      <font color="#0033ff">iframe.<b>addEventListener</b>('load', refresh, false);&#160;</font>
     </p>
   </body>
 </html>
 </richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1358185346809" ID="ID_1915956566" MODIFIED="1358185399096">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000">// object that points </font>
+    </p>
+    <p>
+      <font color="#000000">// to parent window</font>
+    </p>
+    <p>
+      <b>window.opener</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node COLOR="#338800" CREATED="1319713375018" FOLDED="true" ID="ID_384948737" MODIFIED="1357825684095" TEXT="DOM">
@@ -871,8 +893,7 @@
       setTimeout( )
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357837306844" ID="ID_375626964" MODIFIED="1357837336204">
 <richcontent TYPE="NODE"><html>
@@ -887,8 +908,7 @@
       <b><font color="#0033ff">setTimeout</font></b><font color="#0033ff">(func, delay);</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#009999" CREATED="1357837405627" ID="ID_246775735" LINK="http://javascript.ru/setTimeout" MODIFIED="1357837430139" TEXT="js.ru">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -909,8 +929,7 @@
       // func. call with interval<br /><b><font color="#0033ff">setInterval</font></b><font color="#0033ff">(func, delay);</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#009999" CREATED="1357837395545" ID="ID_1532165150" LINK="http://javascript.ru/setInterval" MODIFIED="1357837402669" TEXT="js.ru">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1018,8 +1037,7 @@
       -&gt; just move <b><font color="#0033ff">alert</font></b>&#160;into <b><font color="#0033ff">function</font></b>&#160;and&#160; <b><font color="#0033ff">setTimeout( function, 10 )</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
