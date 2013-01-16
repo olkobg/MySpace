@@ -1,12 +1,12 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1357309368203" TEXT="ruby">
+<node CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1358329576466" TEXT="ruby">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node COLOR="#338800" CREATED="1282900446488" ID="ID_1262636553" MODIFIED="1357725858333" POSITION="right" TEXT="frameworks">
+<node COLOR="#338800" CREATED="1282900446488" FOLDED="true" ID="ID_1262636553" MODIFIED="1358355907485" POSITION="right" TEXT="frameworks">
 <node CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1357160557237" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1289986226478" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1357718268073" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1358355905715" POSITION="left" TEXT="class">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357309228766" ID="ID_1464648169" MODIFIED="1357323916878">
 <richcontent TYPE="NODE"><html>
@@ -29,6 +29,31 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1358331090040" ID="ID_411122332" MODIFIED="1358331239602">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #inheritance
+    </p>
+    <p>
+      <font color="#0033ff">class MyCollection <b>&lt;</b>&#160;Array </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;<b>includes</b>&#160;Enumerable </font>
+    </p>
+    <p>
+      <font color="#0033ff">... </font>
+    </p>
+    <p>
+      <font color="#0033ff">end</font>&#160;#class
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1357321757675">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -41,7 +66,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1357323325888" FOLDED="true" ID="ID_565082171" MODIFIED="1357324512826" TEXT="refflection">
+<node CREATED="1357323325888" FOLDED="true" ID="ID_565082171" MODIFIED="1358331071523" TEXT="refflection">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357323331656" ID="ID_1844910866" MODIFIED="1357323597072">
 <richcontent TYPE="NODE"><html>
@@ -98,7 +123,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1357320980559" FOLDED="true" ID="ID_212325198" MODIFIED="1357324952811" TEXT="types">
+<node CREATED="1357320980559" FOLDED="true" ID="ID_212325198" MODIFIED="1358331082593" TEXT="types">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357320986721" FOLDED="true" ID="ID_1582160026" MODIFIED="1357323959504" TEXT="Fixnum">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -118,7 +143,7 @@
 <node COLOR="#0033ff" CREATED="1357320993022" ID="ID_465787465" MODIFIED="1357320998299" TEXT="Float">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1357320998642" ID="ID_398020654" MODIFIED="1357323923343" TEXT="String">
+<node COLOR="#0033ff" CREATED="1357320998642" FOLDED="true" ID="ID_398020654" MODIFIED="1358331078035" TEXT="String">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357308656681" ID="ID_1556089582" MODIFIED="1357323945955">
 <richcontent TYPE="NODE"><html>
@@ -237,7 +262,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357308642985" FOLDED="true" ID="ID_1182852612" MODIFIED="1357323955609">
+<node CREATED="1357308642985" FOLDED="true" ID="ID_1182852612" MODIFIED="1358331079736">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -275,7 +300,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357321010545" FOLDED="true" ID="ID_801856610" MODIFIED="1357323520607" TEXT="Array">
+<node COLOR="#0033ff" CREATED="1357321010545" FOLDED="true" ID="ID_801856610" MODIFIED="1358331080804" TEXT="Array">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357309001031" ID="ID_1809692463" MODIFIED="1357323394905">
 <richcontent TYPE="NODE"><html>
@@ -335,9 +360,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1357309170312" ID="ID_259217726" MODIFIED="1357668915747" TEXT="instance">
+<node CREATED="1357309170312" FOLDED="true" ID="ID_259217726" MODIFIED="1358331245595" TEXT="instance">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1357668986176" TEXT="methods">
+<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1358331245415" TEXT="methods">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357309177051" ID="ID_375127362" MODIFIED="1357324559102">
 <richcontent TYPE="NODE"><html>
@@ -393,13 +418,128 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1358329896832" ID="ID_1063930564" MODIFIED="1358329925677">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">initialize</font></b>&#160;- constructor
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1358330048294" ID="ID_1451657911" MODIFIED="1358330128976">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #getter
+    </p>
+    <p>
+      <font color="#0033ff">def title </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;@title </font>
+    </p>
+    <p>
+      <font color="#0033ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1358330132313" ID="ID_374899658" MODIFIED="1358330191756">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #setter
+    </p>
+    <p>
+      <font color="#0033ff">def title=(new_title) </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;@title = new_title </font>
+    </p>
+    <p>
+      <font color="#0033ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1358330684795" ID="ID_1618414090" MODIFIED="1358330744544">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # setting the class (static) variable
+    </p>
+    <p>
+      <font color="#0033ff">def <b>Movie.include_year=</b>(new_value) </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160; <b>@@include_year</b>&#160;= new_value </font>
+    </p>
+    <p>
+      <font color="#0033ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1358330570804" ID="ID_1372365196" MODIFIED="1358330656610">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # using special key word <b>self </b>
+    </p>
+    <p>
+      <b># <font color="#0033ff">@@include_year</font></b>&#160;is class variable
+    </p>
+    <p>
+      <font color="#0033ff">def full_title </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;if @@include_year </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;&#160;&quot;#{<b>self</b>.title} (#{<b>self</b>.year})&quot; </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;else </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160; <b>self</b>.title </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1282725988827" ID="ID_862307088" MODIFIED="1357308973229" TEXT="modules">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-</node>
-<node CREATED="1357308445090" FOLDED="true" ID="ID_1298889748" MODIFIED="1357324976205" POSITION="left" TEXT="variables">
+<node CREATED="1357308445090" ID="ID_1298889748" MODIFIED="1358330024736" TEXT="variables">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357308452203" ID="ID_1965634422" MODIFIED="1357324971455" TEXT="local_variable">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -411,7 +551,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357308479691" FOLDED="true" ID="ID_152061557" MODIFIED="1357668889993" POSITION="left" TEXT="constants">
+</node>
+<node CREATED="1357308479691" FOLDED="true" ID="ID_152061557" MODIFIED="1358330036216" POSITION="left" TEXT="constants">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357308484483" ID="ID_1958604901" MODIFIED="1357308508652" TEXT="ClassName">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -420,9 +561,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1357668898420" POSITION="left" TEXT="operations">
+<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1358330910256" POSITION="left" TEXT="operations">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357320757977" FOLDED="true" ID="ID_1228339705" MODIFIED="1357325196450" TEXT="statements">
+<node CREATED="1357320757977" FOLDED="true" ID="ID_1228339705" MODIFIED="1358330909565" TEXT="statements">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357320764083" ID="ID_1880345362" MODIFIED="1357324992413">
 <richcontent TYPE="NODE"><html>
@@ -442,8 +583,22 @@
 <node COLOR="#0033ff" CREATED="1287582242976" ID="ID_1885788642" MODIFIED="1352468637636" TEXT="a = (true  &amp;&amp; &apos;a&apos;) || b #=&gt; &quot;a&quot;"/>
 <node COLOR="#0033ff" CREATED="1287582255548" ID="ID_802198233" MODIFIED="1352468637635" TEXT="a = true  ? &apos;a&apos; : &apos;b&apos; #=&gt; &quot;a&quot;"/>
 </node>
+<node CREATED="1358330821269" ID="ID_650712071" MODIFIED="1358330877933">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">#{..}</font>&#160;evaluates and <font color="#0033ff">to_s()</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1283360812953" FOLDED="true" ID="ID_1852096962" MODIFIED="1357668895143" TEXT="conditionals">
+</node>
+<node CREATED="1283360812953" FOLDED="true" ID="ID_1852096962" MODIFIED="1358330792306" TEXT="conditionals">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1283360821421" FOLDED="true" ID="ID_1728327273" MODIFIED="1357325019776" TEXT="unless">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -549,7 +704,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1287582283908" FOLDED="true" ID="ID_705038099" MODIFIED="1357325086939" TEXT="iteration">
+<node CREATED="1287582283908" FOLDED="true" ID="ID_705038099" MODIFIED="1358330797659" TEXT="iteration">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357309710351" FOLDED="true" ID="ID_638283469" MODIFIED="1357309835016" TEXT="while">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -666,40 +821,41 @@
 </node>
 </node>
 </node>
-<node CREATED="1357309661550" FOLDED="true" ID="ID_1055739871" MODIFIED="1357325010109" TEXT="exceptions">
+<node CREATED="1357309661550" FOLDED="true" ID="ID_1055739871" MODIFIED="1358330817064" TEXT="exceptions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357309847337" ID="ID_1385874221" MODIFIED="1357310034433">
+<node CREATED="1357309847337" ID="ID_1385874221" MODIFIED="1358330815274">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033cc">begin</font>
+      <b><font color="#0033cc">begin</font></b>
     </p>
     <p>
       &#160;statements
     </p>
     <p>
-      <font color="#0033cc">rescue AnError =&gt; e </font>
+      <b><font color="#0033cc">rescue AnError =&gt; e </font></b>
     </p>
     <p>
       <font color="#000000">&#160;# <b>e</b>&#160;is an <b>excetion</b>&#160;of class <b>AnError </b></font>
     </p>
     <p>
-      <font color="#000000"><b>&#160;</b>multiple </font><font color="#0033cc">rescue </font>
+      <b><font color="#000000">&#160;</font></b><font color="#000000">multiple </font><b><font color="#0033cc">rescue</font></b><font color="#0033cc">&#160;</font>
     </p>
     <p>
-      <font color="#0033cc">ensure </font>
+      <b><font color="#0033cc">ensure</font></b><font color="#0033cc">&#160;</font>
     </p>
     <p>
       <font color="#0033cc">&#160; </font><font color="#000000">this code always executes</font>
     </p>
     <p>
-      <font color="#0033cc">end </font>
+      <b><font color="#0033cc">end </font></b>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -745,7 +901,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="idea"/>
 </node>
-<node CREATED="1357308309238" FOLDED="true" ID="ID_1850656586" MODIFIED="1357309370454" POSITION="right" TEXT="theory">
+<node CREATED="1357308309238" FOLDED="true" ID="ID_1850656586" MODIFIED="1358329871876" POSITION="right" TEXT="theory">
 <node CREATED="1357308313645" ID="ID_1943693068" MODIFIED="1357308324168" TEXT="Everything is an object"/>
 <node CREATED="1357308324461" ID="ID_68744473" MODIFIED="1357308361012" TEXT="every  operation is a method call and returns a value."/>
 <node CREATED="1357308361431" ID="ID_593119991" MODIFIED="1357308404617" TEXT="All programming is metaprogramming: classes and methods can be added or changed at any time, even while programming"/>
