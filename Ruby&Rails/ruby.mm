@@ -6,7 +6,7 @@
 <node CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1357160557237" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1289986226478" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1358355905715" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1358421624675" POSITION="left" TEXT="class">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357309228766" ID="ID_1464648169" MODIFIED="1357323916878">
 <richcontent TYPE="NODE"><html>
@@ -51,8 +51,7 @@
       <font color="#0033ff">end</font>&#160;#class
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1357321757675">
 <richcontent TYPE="NODE"><html>
@@ -360,7 +359,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357309170312" FOLDED="true" ID="ID_259217726" MODIFIED="1358331245595" TEXT="instance">
+<node CREATED="1357309170312" FOLDED="true" ID="ID_259217726" MODIFIED="1358420169488" TEXT="instance">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1358331245415" TEXT="methods">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -428,8 +427,7 @@
       <b><font color="#0033ff">initialize</font></b>&#160;- constructor
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1358330048294" ID="ID_1451657911" MODIFIED="1358330128976">
 <richcontent TYPE="NODE"><html>
@@ -450,8 +448,7 @@
       <font color="#0033ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1358330132313" ID="ID_374899658" MODIFIED="1358330191756">
 <richcontent TYPE="NODE"><html>
@@ -472,8 +469,7 @@
       <font color="#0033ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1358330684795" ID="ID_1618414090" MODIFIED="1358330744544">
 <richcontent TYPE="NODE"><html>
@@ -494,8 +490,7 @@
       <font color="#0033ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1358330570804" ID="ID_1372365196" MODIFIED="1358330656610">
 <richcontent TYPE="NODE"><html>
@@ -531,15 +526,43 @@
       <font color="#0033ff">&#160;end</font>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1358420012536" ID="ID_1305922158" MODIFIED="1358420167993">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # create getter and setter for <font color="#0033ff">@foo</font>
+    </p>
+    <p>
+      <font color="#0033ff"><b>attr_accestor</b>&#160;:foo </font>
+    </p>
+    <p>
+      <font color="#000000"># create only getter </font>
+    </p>
+    <p>
+      <font color="#0033ff"><b>attr_reader</b>&#160;:bar</font>
+    </p>
+    <p>
+      <font color="#000000"># create only setter </font>
+    </p>
+    <p>
+      <font color="#0033ff"><b>attr_writer</b>&#160;:baz</font>
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1282725988827" ID="ID_862307088" MODIFIED="1357308973229" TEXT="modules">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1357308445090" ID="ID_1298889748" MODIFIED="1358330024736" TEXT="variables">
+<node CREATED="1357308445090" FOLDED="true" ID="ID_1298889748" MODIFIED="1358421622385" TEXT="variables">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357308452203" ID="ID_1965634422" MODIFIED="1357324971455" TEXT="local_variable">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -593,8 +616,7 @@
       <font color="#0033ff">#{..}</font>&#160;evaluates and <font color="#0033ff">to_s()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -854,8 +876,7 @@
       <b><font color="#0033cc">end </font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
