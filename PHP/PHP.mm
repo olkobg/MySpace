@@ -2936,8 +2936,8 @@ bool(true)</pre>
 <node COLOR="#0033ff" CREATED="1318329353289" ID="ID_605558807" MODIFIED="1318329358232" TEXT="continue"/>
 </node>
 </node>
-<node CREATED="1299171161417" ID="ID_1497261246" MODIFIED="1356545922179" TEXT="functions">
-<node CREATED="1293626385953" FOLDED="true" ID="ID_246842598" MODIFIED="1356545948830" TEXT="send mail">
+<node CREATED="1299171161417" FOLDED="true" ID="ID_1497261246" MODIFIED="1358505727936" TEXT="functions">
+<node CREATED="1293626385953" FOLDED="true" ID="ID_246842598" MODIFIED="1358505672379" TEXT="send mail">
 <node COLOR="#ff0000" CREATED="1293626402273" ID="ID_693816562" MODIFIED="1293705982788">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2953,13 +2953,31 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1356545925631" FOLDED="true" ID="ID_1171433851" MODIFIED="1356545953925" TEXT="string">
+<node CREATED="1356545925631" FOLDED="true" ID="ID_1171433851" MODIFIED="1358505673399" TEXT="string">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1356545928525" ID="ID_1637813816" MODIFIED="1356545942637" TEXT="parse_str">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1356545936140" ID="ID_1948568401" MODIFIED="1356545942637" TEXT="parse_url">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1358505674098" FOLDED="true" ID="ID_553221125" MODIFIED="1358505726906" TEXT="system">
+<node CREATED="1358505680660" ID="ID_1856082406" MODIFIED="1358505725235">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // set environment variable
+    </p>
+    <p>
+      <b><font color="#0033ff">putenv</font></b><font color="#0033ff">(&quot;VARIABLE=value&quot;);</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -3036,6 +3054,19 @@ xdebug.remote_port=9000
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1358505554394" ID="ID_1233169223" LINK="http://www.sitepoint.com/php-command-line-2/" MODIFIED="1358505579816">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">sitepoint:</font></b>&#160;cli tricks
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1299142324772" POSITION="left" STYLE="bubble" TEXT="tools">
