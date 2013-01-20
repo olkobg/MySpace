@@ -1,13 +1,13 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1357923712117" TEXT="Ulike">
+<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1358701540573" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<b><font color="#cc0033">Debian</font></b>) in most cases
+      (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
   </body>
 </html>
@@ -152,7 +152,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1357923570043" POSITION="right" TEXT="Multimedia">
+<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1358705963737" POSITION="right" TEXT="Multimedia">
 <node CREATED="1296636862873" ID="ID_1528497792" LINK="Video_edit.mm" MODIFIED="1296636862876" TEXT="Video_edit"/>
 <node CREATED="1324044759394" FOLDED="true" ID="ID_1381627127" MODIFIED="1357753681480" TEXT="Photo">
 <node CREATED="1324047954760" FOLDED="true" ID="ID_630141721" MODIFIED="1357753681281" TEXT="Picasa">
@@ -205,15 +205,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1357923579471" POSITION="right" TEXT="tools">
-<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1357753670865" TEXT="mount ">
+<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1358701540461" POSITION="right" TEXT="tools">
+<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1358701540457" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296834787690" FOLDED="true" ID="ID_1953283382" MODIFIED="1357753652397" TEXT="iso image">
 <node COLOR="#0033ff" CREATED="1296834809060" ID="ID_1304283377" MODIFIED="1315938374860" TEXT="mount -o loop disk1.iso /mnt/disk"/>
 </node>
-<node CREATED="1304068264056" FOLDED="true" ID="ID_1628728647" MODIFIED="1357753670249" TEXT="Fuse">
+<node CREATED="1304068264056" FOLDED="true" ID="ID_1628728647" MODIFIED="1358701540453" TEXT="Fuse">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296835246684" FOLDED="true" ID="ID_1630461938" MODIFIED="1357753669188" TEXT="sshfs">
+<node COLOR="#0033ff" CREATED="1296835246684" FOLDED="true" ID="ID_1630461938" MODIFIED="1358701540449" TEXT="sshfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1301326157345" ID="ID_882527601" LINK="http://andre.frimberger.de/index.php/linux/sshfs-fix-for-wrong-file-permissions-on-server/" MODIFIED="1301327963972" TEXT="patch server with perm "/>
 <node COLOR="#0033ff" CREATED="1296835255924" ID="ID_196855364" MODIFIED="1355996351910">
@@ -261,7 +261,7 @@
 </node>
 <node CREATED="1296636123595" ID="ID_1552816036" MODIFIED="1315938349468" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1357753599531" TEXT="rsync">
+<node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1358701539210" TEXT="rsync">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636147905" ID="ID_489816603" MODIFIED="1315390993937" TEXT="rsync -av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/  "/>
 </node>
@@ -427,12 +427,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1357923542158" POSITION="left" TEXT="Editors">
+<node CREATED="1297692827245" ID="ID_1024491426" MODIFIED="1358701542252" POSITION="left" TEXT="Editors">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1310045237421" ID="ID_645437345" LINK="../Cross/vim.mm" MODIFIED="1356098130650" TEXT="vim">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1300896078435" FOLDED="true" ID="ID_22135888" MODIFIED="1356098130651" TEXT="gedit">
+<node COLOR="#0033ff" CREATED="1300896078435" FOLDED="true" ID="ID_22135888" MODIFIED="1358701535675" TEXT="gedit">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1300896080539" ID="ID_969341565" MODIFIED="1300896236268" TEXT="gtksourceview">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -622,7 +622,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1303113839493" FOLDED="true" ID="ID_665785632" MODIFIED="1357923548451" POSITION="left" TEXT="Net-User">
+<node CREATED="1303113839493" FOLDED="true" ID="ID_665785632" MODIFIED="1358702515495" POSITION="left" TEXT="Net-User">
 <node CREATED="1303113842293" ID="ID_1277503751" MODIFIED="1356098006257" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1356098009215" ID="ID_1710824849" LINK="http://www.mutt.org/doc/devel/manual.html" MODIFIED="1356098132813" TEXT="mutt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>

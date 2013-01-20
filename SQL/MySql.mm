@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1289386315255" ID="ID_428651575" LINK="DB.mm" MODIFIED="1355322145885" TEXT="MySql">
+<node CREATED="1289386315255" ID="ID_428651575" LINK="DB.mm" MODIFIED="1358705988168" TEXT="MySql">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -10,20 +10,40 @@
       Currently all docs updated to Mysql 5.5
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="21"/>
 <node CREATED="1290076786055" ID="ID_956641942" MODIFIED="1290076788459" POSITION="right" TEXT="Variables"/>
-<node CREATED="1295343247690" ID="ID_1695792282" MODIFIED="1295343287416" POSITION="right" TEXT="connection">
-<node CREATED="1295343251881" FOLDED="true" ID="ID_324878977" MODIFIED="1353415796355" TEXT="windows">
-<node CREATED="1295343258650" FOLDED="true" ID="ID_1267807285" MODIFIED="1353415795951" TEXT="named pipe">
+<node CREATED="1295343247690" FOLDED="true" ID="ID_1695792282" MODIFIED="1358705995651" POSITION="right" TEXT="connection">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1295343251881" FOLDED="true" ID="ID_324878977" MODIFIED="1358702613384" TEXT="windows">
+<node CREATED="1295343258650" FOLDED="true" ID="ID_1267807285" MODIFIED="1358702613092" TEXT="named pipe">
 <node CREATED="1295343262858" ID="ID_1082517732" MODIFIED="1295343269591" TEXT="just use . instead of host name"/>
 </node>
 </node>
-<node CREATED="1295343256266" FOLDED="true" ID="ID_1448955835" MODIFIED="1353415798802" TEXT="unix">
+<node CREATED="1295343256266" FOLDED="true" ID="ID_1448955835" MODIFIED="1358702615668" TEXT="unix">
 <node CREATED="1295343304585" ID="ID_1301350965" MODIFIED="1295343306521" TEXT="socket"/>
 </node>
-<node CREATED="1295343288730" FOLDED="true" ID="ID_937813895" MODIFIED="1353415801856" TEXT="tcp/ip">
+<node CREATED="1295343288730" FOLDED="true" ID="ID_937813895" MODIFIED="1358702617645" TEXT="tcp/ip">
 <node CREATED="1295343292234" ID="ID_11758781" MODIFIED="1295343302823" TEXT="used for both windows and unix environments"/>
+</node>
+<node CREATED="1358702532860" FOLDED="true" ID="ID_1844368029" MODIFIED="1358702607539" TEXT="ssh tunnel">
+<node CREATED="1358702541177" ID="ID_152075303" MODIFIED="1358702604538">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      please note that connection shoudl be invoked with <b>-h </b>
+    </p>
+    <p>
+      <font color="#0033ff">mysql&#160;-u root -port &lt;ssh local port&gt; <b>--host 127.0.0.1</b>&#160; -p</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1354284422668" ID="ID_104995101" MODIFIED="1354284431608" POSITION="left" TEXT="functions">
@@ -319,8 +339,7 @@
       <b>TRUNCATE</b>&#160;[TABLE] tbl_name
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1355322041341" ID="ID_1910037551" LINK="http://dev.mysql.com/doc/refman/5.5/en/update.html" MODIFIED="1355322138431" TEXT="UPDATE">
@@ -364,8 +383,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1334757024106" FOLDED="true" ID="ID_1588593607" MODIFIED="1354284463210" TEXT="generating dump">
-<node CREATED="1334757036368" FOLDED="true" ID="ID_603425483" MODIFIED="1354284462766" TEXT="xml">
+<node CREATED="1334757024106" FOLDED="true" ID="ID_1588593607" MODIFIED="1358705988118" TEXT="generating dump">
+<node CREATED="1334757036368" FOLDED="true" ID="ID_603425483" MODIFIED="1358705988116" TEXT="xml">
 <node COLOR="#0033ff" CREATED="1334757039475" ID="ID_1812803923" MODIFIED="1334757044221" TEXT="mysqldump --xml -t -u [username] --password=[password] [database] &gt; /path/to/file.xml"/>
 </node>
 </node>
@@ -381,7 +400,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1353402378051" FOLDED="true" ID="ID_1330433967" LINK="http://www.cyberciti.biz/tips/howto-copy-mysql-database-remote-server.html" MODIFIED="1354290610307">
+<node CREATED="1353402378051" FOLDED="true" ID="ID_1330433967" LINK="http://www.cyberciti.biz/tips/howto-copy-mysql-database-remote-server.html" MODIFIED="1358705984225">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -476,6 +495,46 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1358705998459" FOLDED="true" ID="ID_414904595" MODIFIED="1358706162326" POSITION="right" TEXT="dump">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1358706004978" ID="ID_481266675" MODIFIED="1358706159311">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b># separate tables</b>
+    </p>
+    <p>
+      <font color="#0033ff">$ sudo chown -R _mysqld:_mysqld <b>~/output/dir </b></font>
+    </p>
+    <p>
+      <font color="#0033ff">$ mysqldump --user=dbuser --password <b>--tab</b>=~/output/dir dbname </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # After running the above, you will have one <b>tablename.sql</b>&#160;file
+    </p>
+    <p>
+      # containing each table's schema (create table statement)
+    </p>
+    <p>
+      #and tablename.txt file containing the data.&#160;&#160;
+    </p>
+    <p>
+      #If you want a dump with schema only, add the <b>--no-data flag</b>:&#160;&#160;
+    </p>
+    <p>
+      <font color="#0033ff">$ mysqldump --user=dbuser --password <b>--no-data</b>&#160;--tab=~/output/dir dbname</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

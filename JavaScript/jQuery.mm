@@ -419,8 +419,7 @@
       <font color="#0033ff">&#160;&#160;&#160;});</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1290773186085" FOLDED="true" ID="ID_146665972" MODIFIED="1357240257525" POSITION="left" TEXT="select">
@@ -502,9 +501,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1354629529574" ID="ID_482385820" MODIFIED="1355227442224" POSITION="right" TEXT="object">
+<node CREATED="1354629529574" FOLDED="true" ID="ID_482385820" MODIFIED="1358677459301" POSITION="right" TEXT="object">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1355227397309" FOLDED="true" ID="ID_603243915" MODIFIED="1355227761988">
+<node CREATED="1355227397309" FOLDED="true" ID="ID_603243915" MODIFIED="1358677458051">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -540,6 +539,34 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1354629596482" ID="ID_471782161" LINK="http://docs.jquery.com/Utilities/jQuery.extend" MODIFIED="1354629645557" TEXT="info"/>
+</node>
+</node>
+<node CREATED="1358677336819" FOLDED="true" ID="ID_1314634758" MODIFIED="1358677459098" POSITION="right" TEXT="effects">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1358677341547" FOLDED="true" ID="ID_1973929881" MODIFIED="1358677458362" TEXT="animate">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1358677347831" ID="ID_111222615" MODIFIED="1358677451273">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // to make animation simultaneous&#160;<br /><font color="#0033cc">$(this).animate( </font>
+    </p>
+    <p>
+      <font color="#0033cc">&#160;&#160;{opacity:&quot;1&quot;}, </font>
+    </p>
+    <p>
+      <font color="#0033cc">&#160;&#160;{duration:600,<b>queue&#160;: false</b>} </font>
+    </p>
+    <p>
+      <font color="#0033cc">);</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1354208194752" FOLDED="true" ID="ID_854680832" MODIFIED="1357240254920" POSITION="left" TEXT="ajax">
