@@ -10,8 +10,7 @@
       Currently all docs updated to Mysql 5.5
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="21"/>
 <node CREATED="1290076786055" ID="ID_956641942" MODIFIED="1290076788459" POSITION="right" TEXT="Variables"/>
 <node CREATED="1295343247690" FOLDED="true" ID="ID_1695792282" MODIFIED="1358705995651" POSITION="right" TEXT="connection">
@@ -41,8 +40,7 @@
       <font color="#0033ff">mysql&#160;-u root -port &lt;ssh local port&gt; <b>--host 127.0.0.1</b>&#160; -p</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -497,7 +495,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1358705998459" FOLDED="true" ID="ID_414904595" MODIFIED="1358706162326" POSITION="right" TEXT="dump">
+<node CREATED="1358705998459" FOLDED="true" ID="ID_414904595" MODIFIED="1358767808004" POSITION="right" TEXT="dump">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358706004978" ID="ID_481266675" MODIFIED="1358706159311">
 <richcontent TYPE="NODE"><html>
@@ -531,6 +529,21 @@
     </p>
     <p>
       <font color="#0033ff">$ mysqldump --user=dbuser --password <b>--no-data</b>&#160;--tab=~/output/dir dbname</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1358767742770" ID="ID_1993935633" MODIFIED="1358767802901">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # each data row in separate insert statement
+    </p>
+    <p>
+      <font color="#0033ff">$ mysqldump <b>--extended-insert=FALSE</b>&#160;</font>
     </p>
   </body>
 </html>

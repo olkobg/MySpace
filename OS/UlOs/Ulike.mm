@@ -10,8 +10,7 @@
       (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1357753782908" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1357753727639" TEXT="loader">
@@ -293,7 +292,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1357753852979" POSITION="right" TEXT="tricks">
+<node CREATED="1355996052443" ID="ID_1927459662" MODIFIED="1358780615482" POSITION="right" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355996042994" FOLDED="true" ID="ID_730085370" MODIFIED="1357753852231" TEXT="rand pass gen.">
 <node CREATED="1355996069470" ID="ID_1616878184" LINK="http://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/" MODIFIED="1355996075496" TEXT="10 ways"/>
@@ -357,6 +356,77 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1300807253622" ID="ID_1516105206" MODIFIED="1355996375616" TEXT="update modules">
 <node COLOR="#0033ff" CREATED="1300807264557" ID="ID_340631692" MODIFIED="1315938388012" TEXT="vmware-modconfig --console --install-all --appname=&quot;VMware Player&quot; --icon=&quot;vmware-player&quot;"/>
+</node>
+</node>
+<node CREATED="1358766836000" ID="ID_1775241023" MODIFIED="1358781604903" TEXT="terminal">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1358780648039" ID="ID_1664465546" MODIFIED="1358781605709" TEXT="sed">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # multiple rename
+    </p>
+    <p>
+      <font color="#0033cc">for file in `ls pdb*.ent` </font>
+    </p>
+    <p>
+      <font color="#0033cc">do&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0033cc">&#160;&#160;&#160;&#160;new_name=`echo $file | sed 's/^pdb//;s/.ent/.txt/'`&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0033cc">&#160;&#160;&#160;&#160;mv $file $new_name </font>
+    </p>
+    <p>
+      <font color="#0033cc">done</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1358780619879" ID="ID_1811648582" MODIFIED="1358781874190">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # removing spaces
+    </p>
+    <p>
+      <b># NB</b>(be carefull: there special invisible characters
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;like spaces &#160;which don't belong to space class)
+    </p>
+    <p>
+      <font color="#0033ff">echo &quot;mlj_xmap_sitemap.sql&#160;&#160;&#160;&#160;&quot; | <b>sed 's/ //g' </b></font>
+    </p>
+    <p>
+      # output only mlj_xmap_sitemap.sql
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1358768672598" ID="ID_993782329" LINK="http://linux.icydog.net/rename.php" MODIFIED="1358768694214">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>icydog</b></font>&#160;rename
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -427,7 +497,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1297692827245" ID="ID_1024491426" MODIFIED="1358701542252" POSITION="left" TEXT="Editors">
+<node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1358768701415" POSITION="left" TEXT="Editors">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1310045237421" ID="ID_645437345" LINK="../Cross/vim.mm" MODIFIED="1356098130650" TEXT="vim">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -622,7 +692,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1303113839493" FOLDED="true" ID="ID_665785632" MODIFIED="1358702515495" POSITION="left" TEXT="Net-User">
+<node CREATED="1303113839493" FOLDED="true" ID="ID_665785632" MODIFIED="1358768700588" POSITION="left" TEXT="Net-User">
 <node CREATED="1303113842293" ID="ID_1277503751" MODIFIED="1356098006257" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1356098009215" ID="ID_1710824849" LINK="http://www.mutt.org/doc/devel/manual.html" MODIFIED="1356098132813" TEXT="mutt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
