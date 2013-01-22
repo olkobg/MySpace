@@ -31,7 +31,13 @@
 </node>
 </node>
 <node CREATED="1337095407580" ID="ID_1268790834" MODIFIED="1337095411091" POSITION="left" TEXT="libs">
-<node CREATED="1292929906380" ID="ID_995126132" MODIFIED="1302022150517" TEXT="Frameworks">
+<node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1358869154236" TEXT="Captcha">
+<node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
+<node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
+<node CREATED="1337095493488" ID="ID_1074773125" LINK="http://code.google.com/p/cool-php-captcha/" MODIFIED="1337095517343" TEXT="cool php captcha"/>
+<node CREATED="1337095518492" ID="ID_1870135368" LINK="http://www.phpcaptcha.org/" MODIFIED="1337095552753" TEXT="php captcha"/>
+</node>
+<node CREATED="1292929906380" ID="ID_995126132" MODIFIED="1358869151372" TEXT="Frameworks">
 <node COLOR="#cc3300" CREATED="1302022150489" ID="ID_538144076" MODIFIED="1302022160350" TEXT="MVC">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#338800" CREATED="1292929957082" ID="ID_1178615153" LINK="Zend.mm" MODIFIED="1298549601890" STYLE="bubble" TEXT="ZendFramework">
@@ -56,11 +62,34 @@
 <node CREATED="1355500326563" ID="ID_1390439074" LINK="http://twig.sensiolabs.org/" MODIFIED="1355500349425" TEXT="TWIG"/>
 </node>
 </node>
-<node CREATED="1337095412298" ID="ID_516280554" MODIFIED="1337095418369" TEXT="Captcha">
-<node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
-<node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
-<node CREATED="1337095493488" ID="ID_1074773125" LINK="http://code.google.com/p/cool-php-captcha/" MODIFIED="1337095517343" TEXT="cool php captcha"/>
-<node CREATED="1337095518492" ID="ID_1870135368" LINK="http://www.phpcaptcha.org/" MODIFIED="1337095552753" TEXT="php captcha"/>
+<node CREATED="1358869147332" FOLDED="true" ID="ID_635581923" MODIFIED="1358877961999" TEXT="pdf">
+<node CREATED="1358869156154" ID="ID_589350561" LINK="http://www.tcpdf.org/" MODIFIED="1358877951100">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff"><b>TCPDF</b></font>&#160;- geratest <b>pdf</b>&#160;with <font color="#0033ff"><b>php</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1358877859720" ID="ID_1371169850" LINK="http://www.mpdf1.com/mpdf/index.php" MODIFIED="1358877955278">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff"><b>mpdf</b></font>- generatest <b>pdf</b>&#160;form <font color="#0033ff"><b>html</b></font>&#160;by <font color="#0033ff"><b>php</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1312370380007" POSITION="left" TEXT="CORE">
@@ -2976,8 +3005,7 @@ bool(true)</pre>
       <b><font color="#0033ff">putenv</font></b><font color="#0033ff">(&quot;VARIABLE=value&quot;);</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3030,17 +3058,18 @@ xdebug.remote_port=9000
 </node>
 <node CREATED="1354282931319" ID="ID_1871564202" MODIFIED="1354283509870" POSITION="right" TEXT="cli">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#0033ff" CREATED="1354282933136" ID="ID_1074862425" MODIFIED="1354283371891">
+<node COLOR="#0033ff" CREATED="1354282933136" ID="ID_1074862425" MODIFIED="1358871797230">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>-r</b>&#160;<font color="#000000">(run php code from console)</font>
+      <b>-r</b>&#160;<font color="#000000">(run php code)</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354282936956" ID="ID_1237659245" MODIFIED="1354282966839">
 <richcontent TYPE="NODE"><html>
@@ -3065,14 +3094,13 @@ xdebug.remote_port=9000
       <b><font color="#009999">sitepoint:</font></b>&#160;cli tricks
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1299142324772" POSITION="left" STYLE="bubble" TEXT="tools">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#cc3300" CREATED="1299140143728" ID="ID_1046039985" MODIFIED="1299169136802" POSITION="left" TEXT="TIPS &amp; Notes">
+<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1358859314538" POSITION="left" TEXT="TIPS &amp; Notes">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299140152828" ID="ID_1927321205" MODIFIED="1299140158690" TEXT="last tag">
 <node CREATED="1299140159252" ID="ID_487593545" MODIFIED="1354283499246" TEXT="it&apos;s preffered to not close the last tag (it&apos;s usefull when hidden rows at the end of file)"/>
@@ -3095,6 +3123,22 @@ xdebug.remote_port=9000
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1358859283808" ID="ID_989941738" MODIFIED="1358859311290">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // increase memory limit
+    </p>
+    <p>
+      <font color="#0033ff">ini_set('<b>memory_limit</b>', '64M');</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

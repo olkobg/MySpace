@@ -234,6 +234,69 @@
 <node CREATED="1329128834759" ID="ID_1017179913" MODIFIED="1329128837033" TEXT="Blogs">
 <node CREATED="1329128837307" ID="ID_1478129280" LINK="http://weltall.heliohost.org/" MODIFIED="1329128845753" TEXT="Weltall"/>
 </node>
+<node CREATED="1358846717493" FOLDED="true" ID="ID_95946341" MODIFIED="1358847580208" TEXT="trick">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1358846726817" FOLDED="true" ID="ID_1654892535" MODIFIED="1358847579066" TEXT="lsb fix for linux">
+<node CREATED="1358846735903" ID="ID_1172668533" MODIFIED="1358847569360">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h2 dir="ltr">
+      vmware LSB FIX
+    </h2>
+    On <font color="#cc0033"><b>Debian</b></font>&#160;the easiest way to fix this issue is two create three executable override files containing the missing and corrected LSB header information gathered above:<br />
+
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">/etc/insserv/overrides/vmware </font>
+    </p>
+    <p>
+      <font color="#0033ff">/etc/insserv/overrides/vmware-USBArbitrator </font>
+    </p>
+    <p>
+      <font color="#0033ff">/etc/insserv/overrides/vmware-workstation-server.</font>
+    </p>
+    <p>
+      <br />
+      <font color="#0033ff">### BEGIN INIT INFO<br color="#0033ff" /># Provides: vmware<br color="#0033ff" /># Required-Start: $network $syslog<br color="#0033ff" /># Required-Stop: $network $syslog<br color="#0033ff" /># X-Start-Before:<br color="#0033ff" /># X-Start-After:<br color="#0033ff" /># Default-Start: 2 3 5<br color="#0033ff" /># Default-Stop: 0 6<br color="#0033ff" /># Short-Description: This service starts and stops VMware services<br color="#0033ff" />### END INIT INFO<br color="#0033ff" /><br color="#0033ff" /></font><font color="#0033ff" face="Arial">#</font><font color="#0033ff">## BEGIN INIT INFO<br color="#0033ff" /># Provides: vmware-USBArbitrator<br color="#0033ff" /># Required-Start: $local_fs<br color="#0033ff" /># Required-Stop: $local_fs<br color="#0033ff" /># X-Start-Before:<br color="#0033ff" /># X-Start-After:<br color="#0033ff" /># Default-Start: 2 3 5<br color="#0033ff" /># Default-Stop: 0 6<br color="#0033ff" /># Short-Description: This service starts and stops USB Arbitrator<br color="#0033ff" />### END INIT INFO<br color="#0033ff" /><br color="#0033ff" /></font><font color="#0033ff" face="Arial">#</font><font color="#0033ff">## BEGIN INIT INFO<br color="#0033ff" /># Provides: vmware-workstation-server<br color="#0033ff" /># Required-Start: $network vmware vmware-USBArbitrator hal<br color="#0033ff" /># Required-Stop: $network vmware vmware-USBArbitrator hal<br color="#0033ff" /># X-Start-Before:<br color="#0033ff" /># X-Start-After:<br color="#0033ff" /># Default-Start: 2 3 5<br color="#0033ff" /># Default-Stop: 0 6<br color="#0033ff" /># Short-Description: This service starts and stops VMware Server<br color="#0033ff" />### END INIT INFO</font><br /><br />Next we need to remove the mess created by the installer by removing and correctly recreating the associated vmware scripts from our rc folders:<br />
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">sudo insserv -r vmware-workstation-server</font>
+    </p>
+    <p>
+      <font color="#0033ff">sudo insserv -r vmware-USBArbitrator</font>
+    </p>
+    <p>
+      <font color="#0033ff">sudo insserv -r vmware</font>
+    </p>
+    <p>
+      <font color="#0033ff">sudo insserv vmware</font>
+    </p>
+    <p>
+      <font color="#0033ff">sudo insserv vmware-USBArbitrator</font>
+    </p>
+    <p>
+      <font color="#0033ff">sudo insserv vmware-workstation-server</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After this everything works smoothly for me with no issues.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1355227100648" ID="ID_1785650799" MODIFIED="1355227139191" TEXT="Xen"/>
 <node COLOR="#0033ff" CREATED="1355227104082" ID="ID_856539475" MODIFIED="1355227139190" TEXT="XenServer"/>
