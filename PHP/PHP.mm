@@ -30,7 +30,7 @@
 <node CREATED="1354274546352" ID="ID_1054520689" LINK="eCommerce/PrestaShop.mm" MODIFIED="1354274546354" TEXT="PrestaShop"/>
 </node>
 </node>
-<node CREATED="1337095407580" ID="ID_1268790834" MODIFIED="1337095411091" POSITION="left" TEXT="libs">
+<node CREATED="1337095407580" ID="ID_1268790834" MODIFIED="1359042034693" POSITION="left" TEXT="libs">
 <node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1358869154236" TEXT="Captcha">
 <node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
 <node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
@@ -73,8 +73,7 @@
       <font color="#0033ff"><b>TCPDF</b></font>&#160;- geratest <b>pdf</b>&#160;with <font color="#0033ff"><b>php</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1358877859720" ID="ID_1371169850" LINK="http://www.mpdf1.com/mpdf/index.php" MODIFIED="1358877955278">
@@ -87,12 +86,103 @@
       <font color="#0033ff"><b>mpdf</b></font>- generatest <b>pdf</b>&#160;form <font color="#0033ff"><b>html</b></font>&#160;by <font color="#0033ff"><b>php</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1359042034679" ID="ID_656337819" MODIFIED="1359042040219" TEXT="alt">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1359041996764" ID="ID_83881258" LINK="http://php-fpm.org/" MODIFIED="1359042011822" TEXT="PHP-FPM">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1312370380007" POSITION="left" TEXT="CORE">
+<node COLOR="#cc3300" CREATED="1293715627303" ID="ID_238630762" MODIFIED="1351777292302" POSITION="right" TEXT="Debug">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1293715633004" ID="ID_335545435" MODIFIED="1300955910353" TEXT="Zend Debugger">
+<node CREATED="1293783245381" FOLDED="true" ID="ID_1713486316" MODIFIED="1354283393492" TEXT="php.ini">
+<node CREATED="1293783249578" ID="ID_182132240" MODIFIED="1300955929097" STYLE="bubble">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="padding-bottom: 5px; padding-right: 5px; padding-left: 5px; padding-top: 5px; background-color: #FFF0FF">
+      zend_extension=/usr/lib/php5/20090626+lfs/ZendDebugger.so<br />zend_debugger.allow_hosts=127.0.0.1 odemyanyuk localhost 10.10.1.197 mgwork<br />zend_debugger.expose_remotely=always<br />zend_debugger.httpd_uid=-1&#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1293715638988" ID="ID_1471253451" MODIFIED="1293715640652" TEXT="Xdebug">
+<node CREATED="1293715641292" FOLDED="true" ID="ID_930891949" MODIFIED="1354283395554" TEXT="php.ini">
+<node CREATED="1293715648924" ID="ID_884123245" MODIFIED="1300956124819" STYLE="bubble">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="padding-left: 5px; padding-top: 5px; padding-right: 5px; font-size: 12pt; background-color: #f0fdda; color: black; padding-bottom: 5px; font-family: Consolas, monospace">xdebug.remote_enable=on
+xdebug.remote_log=&quot;/var/log/xdebug.log&quot;
+xdebug.remote_host=localhost
+xdebug.remote_handler=dbgp
+xdebug.remote_port=9000
+    </pre>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+</node>
+<node CREATED="1351777268909" ID="ID_275707846" LINK="http://clearfix.be/2011/12/06/debugging-php-cli-scripts-with-netbeans/" MODIFIED="1351777279886" TEXT="debug cli script"/>
+</node>
+<node CREATED="1297327197869" ID="ID_1900946002" MODIFIED="1297327204681" TEXT="FirePhp">
+<node CREATED="1297327205265" ID="ID_1384841508" LINK="http://inchoo.net/ecommerce/magento/magento-firephp-extension/" MODIFIED="1297327235980" TEXT="magento inchoo instruction"/>
+</node>
+<node CREATED="1356008756106" ID="ID_1070047345" MODIFIED="1356008761557" TEXT="Syslog">
+<node CREATED="1356008762217" ID="ID_1769296643" LINK="http://www.developer.com/lang/php/article.php/3327111/Monitor-PHP-Application-Errors-and-Messages-with-syslog.htm" MODIFIED="1356008765855" TEXT="config"/>
+</node>
+</node>
+<node CREATED="1354282931319" ID="ID_1871564202" MODIFIED="1354283509870" POSITION="right" TEXT="cli">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#0033ff" CREATED="1354282933136" ID="ID_1074862425" MODIFIED="1358871797230">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>-r</b>&#160;<font color="#000000">(run php code)</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1354282936956" ID="ID_1237659245" MODIFIED="1354282966839">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ php <b>-r</b>&#160;'print_r(get_defined_constants());'
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1358505554394" ID="ID_1233169223" LINK="http://www.sitepoint.com/php-command-line-2/" MODIFIED="1358505579816">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">sitepoint:</font></b>&#160;cli tricks
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1359042029273" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1355828429200" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1355767615674" TEXT="inf">
@@ -3010,97 +3100,10 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1293715627303" ID="ID_238630762" MODIFIED="1351777292302" POSITION="right" TEXT="Debug">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1293715633004" ID="ID_335545435" MODIFIED="1300955910353" TEXT="Zend Debugger">
-<node CREATED="1293783245381" FOLDED="true" ID="ID_1713486316" MODIFIED="1354283393492" TEXT="php.ini">
-<node CREATED="1293783249578" ID="ID_182132240" MODIFIED="1300955929097" STYLE="bubble">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p style="padding-bottom: 5px; padding-right: 5px; padding-left: 5px; padding-top: 5px; background-color: #FFF0FF">
-      zend_extension=/usr/lib/php5/20090626+lfs/ZendDebugger.so<br />zend_debugger.allow_hosts=127.0.0.1 odemyanyuk localhost 10.10.1.197 mgwork<br />zend_debugger.expose_remotely=always<br />zend_debugger.httpd_uid=-1&#160;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1293715638988" ID="ID_1471253451" MODIFIED="1293715640652" TEXT="Xdebug">
-<node CREATED="1293715641292" FOLDED="true" ID="ID_930891949" MODIFIED="1354283395554" TEXT="php.ini">
-<node CREATED="1293715648924" ID="ID_884123245" MODIFIED="1300956124819" STYLE="bubble">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="padding-left: 5px; padding-top: 5px; padding-right: 5px; font-size: 12pt; background-color: #f0fdda; color: black; padding-bottom: 5px; font-family: Consolas, monospace">xdebug.remote_enable=on
-xdebug.remote_log=&quot;/var/log/xdebug.log&quot;
-xdebug.remote_host=localhost
-xdebug.remote_handler=dbgp
-xdebug.remote_port=9000
-    </pre>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="10"/>
-</node>
-</node>
-<node CREATED="1351777268909" ID="ID_275707846" LINK="http://clearfix.be/2011/12/06/debugging-php-cli-scripts-with-netbeans/" MODIFIED="1351777279886" TEXT="debug cli script"/>
-</node>
-<node CREATED="1297327197869" ID="ID_1900946002" MODIFIED="1297327204681" TEXT="FirePhp">
-<node CREATED="1297327205265" ID="ID_1384841508" LINK="http://inchoo.net/ecommerce/magento/magento-firephp-extension/" MODIFIED="1297327235980" TEXT="magento inchoo instruction"/>
-</node>
-<node CREATED="1356008756106" ID="ID_1070047345" MODIFIED="1356008761557" TEXT="Syslog">
-<node CREATED="1356008762217" ID="ID_1769296643" LINK="http://www.developer.com/lang/php/article.php/3327111/Monitor-PHP-Application-Errors-and-Messages-with-syslog.htm" MODIFIED="1356008765855" TEXT="config"/>
-</node>
-</node>
-<node CREATED="1354282931319" ID="ID_1871564202" MODIFIED="1354283509870" POSITION="right" TEXT="cli">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#0033ff" CREATED="1354282933136" ID="ID_1074862425" MODIFIED="1358871797230">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>-r</b>&#160;<font color="#000000">(run php code)</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1354282936956" ID="ID_1237659245" MODIFIED="1354282966839">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ php <b>-r</b>&#160;'print_r(get_defined_constants());'
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1358505554394" ID="ID_1233169223" LINK="http://www.sitepoint.com/php-command-line-2/" MODIFIED="1358505579816">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font color="#009999">sitepoint:</font></b>&#160;cli tricks
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1299142324772" POSITION="left" STYLE="bubble" TEXT="tools">
+<node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1359042029267" POSITION="left" STYLE="bubble" TEXT="tools">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1358859314538" POSITION="left" TEXT="TIPS &amp; Notes">
+<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1359042029265" POSITION="left" TEXT="TIPS &amp; Notes">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299140152828" ID="ID_1927321205" MODIFIED="1299140158690" TEXT="last tag">
 <node CREATED="1299140159252" ID="ID_487593545" MODIFIED="1354283499246" TEXT="it&apos;s preffered to not close the last tag (it&apos;s usefull when hidden rows at the end of file)"/>
@@ -3137,8 +3140,7 @@ xdebug.remote_port=9000
       <font color="#0033ff">ini_set('<b>memory_limit</b>', '64M');</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
