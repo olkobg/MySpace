@@ -576,7 +576,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1357923548455" POSITION="left" TEXT="Net-admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1359113665820" POSITION="left" TEXT="Net-admin">
 <node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1356098225032" TEXT="dig">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294070908844" ID="ID_1074468" MODIFIED="1315390874609">
@@ -645,9 +645,9 @@
 <node COLOR="#009999" CREATED="1311118392979" ID="ID_1759952331" LINK="http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html" MODIFIED="1357753193197" TEXT="YOULINUX">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1356098205841" TEXT="apt">
+<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1359113664319" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1356098187336" TEXT="caching">
+<node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1359113663789" TEXT="caching">
 <node COLOR="#0033ff" CREATED="1303810890920" FOLDED="true" ID="ID_1003328043" MODIFIED="1356098186406" TEXT="apt-cacher">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303810898391" ID="ID_618505239" LINK="http://www.debuntu.org/how-to-set-up-a-repository-cache-with-apt-cacher" MODIFIED="1303810903975" TEXT="instructions"/>
@@ -656,17 +656,48 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1304071512064" FOLDED="true" ID="ID_896573144" MODIFIED="1356098188009" TEXT="source">
+<node COLOR="#0033ff" CREATED="1304071512064" FOLDED="true" ID="ID_896573144" MODIFIED="1359113663217" TEXT="source">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1304071515888" ID="ID_811294883" MODIFIED="1356098179997" TEXT="get">
+<node COLOR="#0033ff" CREATED="1304071515888" FOLDED="true" ID="ID_811294883" MODIFIED="1359113503677" TEXT="get">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1304071522831" ID="ID_1794692141" MODIFIED="1315938246909" TEXT="$ apt-get source packagename "/>
 </node>
-<node CREATED="1304071534685" ID="ID_1465317215" MODIFIED="1304071541985" TEXT="get and build">
+<node CREATED="1304071534685" FOLDED="true" ID="ID_1465317215" MODIFIED="1359113498761" TEXT="get and build">
 <node COLOR="#0033ff" CREATED="1304071544052" ID="ID_106268996" MODIFIED="1315938246908" TEXT="$ apt-get -b source packagename "/>
 </node>
-<node CREATED="1304071552891" ID="ID_1085808032" MODIFIED="1304071556580" TEXT="just build">
+<node CREATED="1304071552891" FOLDED="true" ID="ID_1085808032" MODIFIED="1359113499159" TEXT="just build">
 <node COLOR="#0033ff" CREATED="1304071557907" ID="ID_1671130281" MODIFIED="1315938246904" TEXT="$ dpkg-buildpackage -rfakeroot -uc -b "/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1359113506298" FOLDED="true" ID="ID_613350324" MODIFIED="1359113662942" TEXT="get">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1359113514741" ID="ID_569014954" MODIFIED="1359113656533">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # installing specific verison
+    </p>
+    <p>
+      # apt-get install &lt;package name&gt;=&lt;version&gt;
+    </p>
+    <p>
+      # check version availability
+    </p>
+    <p>
+      <font color="#0033ff">apt-cache<b>&#160;showpkg</b>&#160;subversion-tools</font>
+    </p>
+    <p>
+      #install
+    </p>
+    <p>
+      <font color="#0033ff">apt-get install <b>subversion-tools=1.3.2-5~bpo1</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

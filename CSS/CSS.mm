@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1298379398131" ID="ID_1454701070" LINK="../Index.mm" MODIFIED="1338239998359" TEXT="CSS">
+<node CREATED="1298379398131" ID="ID_1454701070" LINK="../Index.mm" MODIFIED="1359130724368" TEXT="CSS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1329167857520" FOLDED="true" ID="ID_1738733773" MODIFIED="1357221049000" POSITION="right" TEXT="Fonts">
 <node CREATED="1329167860573" ID="ID_1617167628" LINK="http://www.webfonts.info/wiki/index.php?title=%40font-face_support_in_Firefox" MODIFIED="1329167893664" TEXT="Web Fonts - Firefox"/>
@@ -156,7 +156,41 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355839571373" FOLDED="true" ID="ID_298067342" MODIFIED="1357936770268" POSITION="left" TEXT="text">
+<node CREATED="1359130724342" FOLDED="true" ID="ID_1689246156" MODIFIED="1359130832136" POSITION="left" TEXT="page-brake">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1359130530013" ID="ID_1519553482" MODIFIED="1359130774897">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # set not brakin page e.g. inside <font color="#0033ff"><b>&lt;td&gt;</b></font>
+    </p>
+    <p>
+      <font color="#0033ff">page-brake-before </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1359130730037" ID="ID_1208662858" LINK="http://www.w3schools.com/cssref/pr_print_pagebb.asp" MODIFIED="1359130825539">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>w3school</b></font>&#160;<font color="#0033ff">page-brake-after</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1355839571373" FOLDED="true" ID="ID_298067342" MODIFIED="1359130513543" POSITION="left" TEXT="text">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355839575754" FOLDED="true" ID="ID_715847262" MODIFIED="1357242762156" TEXT="text-shadow">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -228,8 +262,7 @@
       <font color="#0033cc">display: <b>inline-block;</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
