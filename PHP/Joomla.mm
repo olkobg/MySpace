@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1291283770427" ID="ID_139034343" LINK="PHP.mm" MODIFIED="1331209121757" TEXT="Joomla">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1291283774647" FOLDED="true" ID="ID_121307815" MODIFIED="1359237557475" POSITION="right" TEXT="component">
+<node CREATED="1291283774647" ID="ID_121307815" MODIFIED="1359476629826" POSITION="right" TEXT="component">
 <node CREATED="1291284789296" FOLDED="true" ID="ID_958704200" MODIFIED="1358705031242" TEXT="siteMap">
 <node COLOR="#0033ff" CREATED="1339877522859" FOLDED="true" ID="ID_1602528977" LINK="http://joomla.vargas.co.cr" MODIFIED="1358705017345" TEXT="Xmap">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -21,18 +21,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1355310238322" FOLDED="true" ID="ID_1936019334" MODIFIED="1359237557079" TEXT="ecommerce">
-<node COLOR="#0033ff" CREATED="1355310297418" FOLDED="true" ID="ID_289446733" LINK="http://virtuemart.net/" MODIFIED="1359237556646" TEXT="virtuemart">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1358704703544" FOLDED="true" ID="ID_1340122918" MODIFIED="1359237556222" TEXT="child product">
-<node COLOR="#009999" CREATED="1358704720377" ID="ID_1749519941" LINK="http://forum.virtuemart.net/index.php?topic=98648.0" MODIFIED="1358704731163" TEXT="vm2 forum">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#009999" CREATED="1358704731822" ID="ID_1250755769" LINK="http://www.swaysearch.com/blog/item/18-creating-generic-child-products-with-virtuemart-208" MODIFIED="1358704748960" TEXT="sway-search">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
+<node CREATED="1355310238322" ID="ID_1936019334" MODIFIED="1359476630948" TEXT="ecommerce">
+<node CREATED="1359476662934" ID="ID_1019138654" LINK="CMS/Joomla/virtuemart.mm" MODIFIED="1359476662939" TEXT="virtuemart"/>
 </node>
 <node CREATED="1355310258517" FOLDED="true" ID="ID_285590582" MODIFIED="1358705030430" TEXT="tools">
 <node COLOR="#0033ff" CREATED="1355310260287" ID="ID_552200051" LINK="http://www.csvimproved.com/" MODIFIED="1355310330808" TEXT="CSVI">

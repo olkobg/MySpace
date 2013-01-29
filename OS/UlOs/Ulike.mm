@@ -151,7 +151,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1358859505833" POSITION="right" TEXT="Multimedia">
+<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1359493339001" POSITION="right" TEXT="Multimedia">
 <node CREATED="1296636862873" ID="ID_1528497792" LINK="Video_edit.mm" MODIFIED="1296636862876" TEXT="Video_edit"/>
 <node CREATED="1324044759394" FOLDED="true" ID="ID_1381627127" MODIFIED="1357753681480" TEXT="Photo">
 <node CREATED="1324047954760" FOLDED="true" ID="ID_630141721" MODIFIED="1357753681281" TEXT="Picasa">
@@ -195,8 +195,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1359236558200" POSITION="right" TEXT="tools">
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1359236465596" TEXT="fs">
+<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1359493509658" POSITION="right" TEXT="tools">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1359493509178" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1358701540457" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -246,6 +246,41 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1359493343878" FOLDED="true" ID="ID_579324498" MODIFIED="1359493508528" TEXT="cp">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1359493349061" ID="ID_1303745494" MODIFIED="1359493471994">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # save owner uid, gid
+    </p>
+    <p>
+      <font color="#0033ff">cp <b>-p</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1359493382125" ID="ID_980646345" MODIFIED="1359493447766">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # interactive
+    </p>
+    <p>
+      <font color="#0033ff">cp <b>-i</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -603,8 +638,7 @@
       <b><font color="#009999">github</font></b>&#160;gnome-weather-indicator
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
