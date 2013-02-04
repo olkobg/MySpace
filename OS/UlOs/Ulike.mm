@@ -195,10 +195,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1359493509658" POSITION="right" TEXT="tools">
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1359493509178" TEXT="fs">
+<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1359980080555" POSITION="right" TEXT="tools">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1359980080136" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1358701540457" TEXT="mount ">
+<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1359980077469" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296834787690" FOLDED="true" ID="ID_1953283382" MODIFIED="1357753652397" TEXT="iso image">
 <node COLOR="#0033ff" CREATED="1296834809060" ID="ID_1304283377" MODIFIED="1315938374860" TEXT="mount -o loop disk1.iso /mnt/disk"/>
@@ -230,7 +230,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1315333831637" FOLDED="true" ID="ID_725503619" MODIFIED="1357753635611" TEXT="fsck">
+<node COLOR="#0033ff" CREATED="1315333831637" FOLDED="true" ID="ID_725503619" MODIFIED="1359980076163" TEXT="fsck">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1315333842044" ID="ID_1185492697" MODIFIED="1357753626789">
 <richcontent TYPE="NODE"><html>
@@ -248,7 +248,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1359493343878" FOLDED="true" ID="ID_579324498" MODIFIED="1359493508528" TEXT="cp">
+<node COLOR="#0033ff" CREATED="1359493343878" FOLDED="true" ID="ID_579324498" MODIFIED="1359980079391" TEXT="cp">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359493349061" ID="ID_1303745494" MODIFIED="1359493471994">
 <richcontent TYPE="NODE"><html>
@@ -263,8 +263,7 @@
       <font color="#0033ff">cp <b>-p</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1359493382125" ID="ID_980646345" MODIFIED="1359493447766">
 <richcontent TYPE="NODE"><html>
@@ -279,8 +278,7 @@
       <font color="#0033ff">cp <b>-i</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -325,11 +323,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1359236451047" TEXT="crypt">
+<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1359980073921" TEXT="crypt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1359229846381" TEXT="gpg">
+<node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1359980073653" TEXT="gpg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1359229799008" FOLDED="true" ID="ID_31851057" MODIFIED="1359229846135">
+<node CREATED="1359229799008" FOLDED="true" ID="ID_31851057" MODIFIED="1359980073130">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -710,7 +708,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1359236440068" POSITION="right" TEXT="tricks">
+<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1359980068434" POSITION="right" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355996042994" FOLDED="true" ID="ID_730085370" MODIFIED="1358859497116" TEXT="rand pass gen.">
 <node CREATED="1355996069470" ID="ID_1616878184" LINK="http://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/" MODIFIED="1355996075496" TEXT="10 ways"/>
@@ -776,7 +774,7 @@
 <node COLOR="#0033ff" CREATED="1300807264557" ID="ID_340631692" MODIFIED="1315938388012" TEXT="vmware-modconfig --console --install-all --appname=&quot;VMware Player&quot; --icon=&quot;vmware-player&quot;"/>
 </node>
 </node>
-<node CREATED="1358766836000" FOLDED="true" ID="ID_1775241023" MODIFIED="1358859495192" TEXT="terminal">
+<node CREATED="1358766836000" FOLDED="true" ID="ID_1775241023" MODIFIED="1359980066705" TEXT="terminal">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1358781948573" TEXT="sed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
