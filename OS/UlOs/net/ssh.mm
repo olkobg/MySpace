@@ -71,8 +71,7 @@
       <font color="#0033ff">$ ssh root@server1.nixcraft.com</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1356444434250" ID="ID_1915937075" MODIFIED="1356444577938">
 <richcontent TYPE="NODE"><html>
@@ -100,7 +99,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1358702630781" FOLDED="true" ID="ID_1170322785" MODIFIED="1358705211582" POSITION="right" TEXT="connect">
+<node COLOR="#0033ff" CREATED="1358702630781" ID="ID_1170322785" MODIFIED="1359236543649" POSITION="right" TEXT="-L">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358702634735" ID="ID_149448698" MODIFIED="1358705209915">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -114,8 +114,7 @@
       <font color="#0033ff">$ ssh <b>-L</b>&#160;&lt;<b>local_port</b>&gt;:&lt;remote_addr&gt;:&lt;remote_port&gt; user@remote_host</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

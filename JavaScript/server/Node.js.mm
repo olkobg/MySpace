@@ -24,9 +24,35 @@
       <font color="#009999"><b>so: </b></font><font color="#000000">install on </font><font color="#ff0033"><b>Debian 6</b></font>
     </p>
   </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1359227565798" ID="ID_303527403" LINK="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager" MODIFIED="1359227635628">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">github</font></b>&#160;via package manager
+    </p>
+  </body>
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1359227593878" ID="ID_1200124468" LINK="https://github.com/creationix/nvm" MODIFIED="1359227651261">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">github</font></b>&#160;npm
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#009999" CREATED="1357148111017" ID="ID_734403246" LINK="http://nodejs.org/" MODIFIED="1357148160890" POSITION="left" TEXT="org">
