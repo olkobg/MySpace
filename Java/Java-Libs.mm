@@ -10,8 +10,7 @@
       Java Libs
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="20"/>
 <node COLOR="#cc3300" CREATED="1299146828736" ID="ID_733542333" MODIFIED="1299148365281" POSITION="left" TEXT="JSON">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -54,8 +53,7 @@
       array.add(jsonObject);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299148141133" FOLDED="true" ID="ID_674627022" MODIFIED="1299148264771" TEXT="parse">
@@ -72,8 +70,7 @@
       &#160;&#160;addressRecord.get(COUNTRY_PARAM_NAME);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -93,6 +90,12 @@
 <node CREATED="1299148525484" ID="ID_1144032364" MODIFIED="1299148527186" TEXT="compare">
 <node CREATED="1299148527553" ID="ID_1962059576" LINK="http://stackoverflow.com/questions/338586/a-better-java-json-library" MODIFIED="1299148543388" TEXT="stackoverflow"/>
 </node>
+</node>
+<node CREATED="1360079009437" ID="ID_20690903" MODIFIED="1360079012601" POSITION="right" TEXT="testing">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1360079014784" ID="ID_1224026357" MODIFIED="1360079019070" TEXT="jUnit"/>
+<node CREATED="1360079021406" ID="ID_728068232" MODIFIED="1360079023628" TEXT="testNG"/>
+<node CREATED="1360079023921" ID="ID_1279429010" LINK="http://www.gradle.org/" MODIFIED="1360079028774" TEXT="Gradle"/>
 </node>
 </node>
 </map>

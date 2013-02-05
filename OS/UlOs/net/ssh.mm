@@ -1,9 +1,8 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1296463732267" ID="ID_1626618680" LINK="../Ulike.mm" MODIFIED="1358705089654" TEXT="ssh">
+<node CREATED="1296463732267" ID="ID_1626618680" LINK="../Ulike.mm" MODIFIED="1360068554933" TEXT="ssh">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1296463753332" FOLDED="true" ID="ID_1077609531" MODIFIED="1358705216629" POSITION="left" TEXT="key-auth">
-<node CREATED="1296463758423" ID="ID_1523739275" MODIFIED="1356444600114">
+<node CREATED="1296463758423" ID="ID_1523739275" MODIFIED="1356444600114" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -15,10 +14,9 @@
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1358705089641" ID="ID_629302074" MODIFIED="1358705092333" POSITION="right" TEXT="config">
+<node COLOR="#0033ff" CREATED="1358705089641" ID="ID_629302074" MODIFIED="1360068609000" POSITION="right" TEXT="~/.ssh/config/">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1301476145773" FOLDED="true" ID="ID_133796077" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1358705200943" TEXT="per host">
+<node CREATED="1301476145773" FOLDED="true" ID="ID_133796077" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1360068916219" TEXT="per host">
 <node CREATED="1301478206031" ID="ID_583588422" MODIFIED="1358705194423">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -97,9 +95,23 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1360068501058" ID="ID_326373734" LINK="http://nerderati.com/2011/03/simplify-your-life-with-an-ssh-config-file/" MODIFIED="1360068543414">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">nerderatti</font></b>&#160;adv. man.
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1358702630781" ID="ID_1170322785" MODIFIED="1359236543649" POSITION="right" TEXT="-L">
+</node>
+<node COLOR="#0033ff" CREATED="1360068554912" ID="ID_1490526552" MODIFIED="1360068682157" POSITION="left" TEXT="ssh">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1358702630781" FOLDED="true" ID="ID_1170322785" MODIFIED="1360068681139" TEXT="-L">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358702634735" ID="ID_149448698" MODIFIED="1358705209915">
 <richcontent TYPE="NODE"><html>
@@ -115,6 +127,7 @@
     </p>
   </body>
 </html></richcontent>
+</node>
 </node>
 </node>
 </node>

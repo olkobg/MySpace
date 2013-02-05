@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1359236565249" TEXT="Ulike">
+<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1360068689303" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -665,7 +665,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1303113839493" FOLDED="true" ID="ID_665785632" MODIFIED="1359236555423" POSITION="left" TEXT="Net-User">
+<node CREATED="1303113839493" FOLDED="true" ID="ID_665785632" MODIFIED="1360068689086" POSITION="left" TEXT="Net-User">
 <node CREATED="1303113842293" ID="ID_1277503751" MODIFIED="1356098006257" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1356098009215" ID="ID_1710824849" LINK="http://www.mutt.org/doc/devel/manual.html" MODIFIED="1356098132813" TEXT="mutt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
