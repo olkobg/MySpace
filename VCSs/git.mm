@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1328630699427" TEXT="git">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1357898708852" POSITION="left" TEXT="Tips">
+<node COLOR="#ff6666" CREATED="1311116090530" ID="ID_1081305118" MODIFIED="1360239844607" POSITION="left" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1311116129871" ID="ID_538447464" MODIFIED="1311116135869" TEXT="fix svn rebase">
 <node CREATED="1311116138985" ID="ID_1672421427" LINK="http://brandon.dimcheff.com/2009/01/04/commit-a-linear-git-history-to-subversion.html" MODIFIED="1311116151127" TEXT="site"/>
@@ -189,34 +189,48 @@
 <node COLOR="#0033ff" CREATED="1329936112092" ID="ID_1784311335" MODIFIED="1355754724982" POSITION="left" TEXT="pull">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1329936116593" FOLDED="true" ID="ID_1595520806" MODIFIED="1357898693639" POSITION="left" TEXT="push">
+<node COLOR="#0033ff" CREATED="1329936116593" FOLDED="true" ID="ID_1595520806" MODIFIED="1360240025712" POSITION="left" TEXT="push">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1329936120120" ID="ID_1196135519" MODIFIED="1355755317296">
+<node CREATED="1329936120120" ID="ID_1196135519" MODIFIED="1360240001329">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      if you need <b>update</b>&#160;previous commit (after <font color="#0033ff"><b>push</b></font>&#160;were made)<br />make changes --=&gt; <font color="#0033ff">git commit --amend</font><br />
+      # if you need <b>update</b>&#160;previous commit (after <font color="#0033ff"><b>push</b></font>&#160;were made)<br /># make changes --=&gt; <font color="#0033ff">git commit --amend</font><br />
     </p>
     <p>
-      and add plus (<font color="#0033ff"><b>+</b></font>) sing before branches names
+      # and add plus (<font color="#0033ff"><b>+</b></font>) sing before branches names
     </p>
-  </body>
-</html></richcontent>
-<node COLOR="#0033ff" CREATED="1329936180552" ID="ID_1314317476" MODIFIED="1329936320219">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
     <p>
-      git push &lt;repos&gt;&#160;<b><font size="5">+</font></b>&lt;branch_name&gt;:&lt;branch_name&gt;
+      <font color="#0033cc">git push &lt;repos&gt;&#160;</font><font color="#0033cc" size="5"><b>+</b></font><font color="#0033cc">&lt;branch_name&gt;:&lt;branch_name&gt;</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
+<node CREATED="1360239851720" ID="ID_1118854774" MODIFIED="1360240021247">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # <b>remove branch </b>on server v <b>1.7</b>
+    </p>
+    <p>
+      <font color="#0033cc">$ git push origin --delete &lt;branchName&gt; </font>
+    </p>
+    <p>
+      # on git <b>1.5</b>
+    </p>
+    <p>
+      <font color="#0033cc">$ git push origin :&lt;branchName&gt;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1356529773115" ID="ID_852491837" MODIFIED="1356529776325" POSITION="left" TEXT="reflog">
@@ -551,8 +565,7 @@
       <font color="#009999"><b>SO</b></font>&#160;stash diff
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1332759147846" ID="ID_473525063" MODIFIED="1332759279561">
 <richcontent TYPE="NODE"><html>
