@@ -85,76 +85,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1331667907542" FOLDED="true" ID="ID_1912959258" MODIFIED="1357754523915" POSITION="right" TEXT="unix emulation">
-<node CREATED="1331667912669" FOLDED="true" ID="ID_239036694" LINK="http://cygwin.org/" MODIFIED="1357754521809" TEXT="Cygwin">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1331667935224" ID="ID_1273085293" LINK="http://sourceware.org/cygwinports/" MODIFIED="1331667960793" TEXT="cygwin ports ">
-<node COLOR="#0033ff" CREATED="1333098367684" ID="ID_943675007" MODIFIED="1333098390633" TEXT="cygstart -- /path/to/setup.exe -K http://cygwinports.org/ports.gpg"/>
-<node COLOR="#009999" CREATED="1356794045693" ID="ID_884074233" MODIFIED="1356804852906" TEXT="ftp://sourceware.org/pub/cygwinports/portslist.txt">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1356793782839" ID="ID_666231708" LINK="http://victormiti.umusebo.com/blog/installing-and-configuring-apache-php-mysql-on-cygwin" MODIFIED="1356860126349">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>victormiti:</b>&#160;Lamp on Cygwin
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1356860080093" ID="ID_1663107226" LINK="http://www.softwareprojects.com/resources/programming/t-how-to-install-nginx-php-php-fpm-and-mysql-under-1616.html" MODIFIED="1356860106019">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>softwareprojects:</b>&#160;nginx + php
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#0033ff" CREATED="1356793809787" ID="ID_1192427224" MODIFIED="1356804846528" TEXT="apt-cyg">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1356794060971" ID="ID_209699329" MODIFIED="1356804877717">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # instaling <b>apt-cyg</b>
-    </p>
-    <p>
-      <font color="#0033ff">$ svn --force export http://apt-cyg.googlecode.com/svn/trunk/ /bin/&#160;&#160;&#160; </font>
-    </p>
-    <p>
-      <font color="#0033ff">$ chmod +x /bin/apt-cyg</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1356793954831" ID="ID_732966932" MODIFIED="1356794023234">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#000000"># installing php</font>
-    </p>
-    <p>
-      <font color="#0033ff"><b>apt-cyg</b>&#160;-m ftp://ftp.cygwinports.org/pub/cygwinports/ install php</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
+<node CREATED="1331667907542" ID="ID_1912959258" MODIFIED="1360703695381" POSITION="right" TEXT="unix emulation">
+<node CREATED="1360703713577" ID="ID_886347586" LINK="Cygwin.mm" MODIFIED="1360703713579" TEXT="Cygwin"/>
 <node CREATED="1331667942752" ID="ID_1755195847" LINK="http://www.mingw.org/wiki/MSYS" MODIFIED="1331668037042" TEXT="MingW\msys">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>

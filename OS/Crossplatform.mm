@@ -91,6 +91,13 @@
 <node CREATED="1343156549171" ID="ID_157367992" LINK="http://plantuml.sourceforge.net/" MODIFIED="1343239641261" TEXT="plantUML"/>
 </node>
 </node>
+<node CREATED="1360703563556" ID="ID_520683796" MODIFIED="1360703567975" TEXT="diff/merge">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1360703568619" ID="ID_1843180555" MODIFIED="1360703574313" TEXT="Beyond Compare">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1360703656113" ID="ID_358364546" LINK="http://www.scootersoftware.com/support.php?zz=kb_vcs#gitlinux" MODIFIED="1360703682218" TEXT="+ dcvs"/>
+</node>
+</node>
 </node>
 <node COLOR="#006633" CREATED="1359978105678" ID="ID_1806015071" MODIFIED="1359978118368" POSITION="left" TEXT="Fun">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>

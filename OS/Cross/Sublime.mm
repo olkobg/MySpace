@@ -2,25 +2,25 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#006633" CREATED="1348054359883" ID="ID_1290849412" LINK="../Crossplatform.mm" MODIFIED="1348054500932" TEXT="Sublime">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1348054383724" ID="ID_1207364740" MODIFIED="1358849240933" POSITION="right" TEXT="plugins">
+<node CREATED="1348054383724" ID="ID_1207364740" MODIFIED="1360703522274" POSITION="right" TEXT="plugins">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
-<node CREATED="1348054390991" FOLDED="true" ID="ID_789731113" MODIFIED="1358849219661" TEXT="work remote">
+<node CREATED="1348054390991" FOLDED="true" ID="ID_789731113" MODIFIED="1360703475905" TEXT="work remote">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1348054420597" ID="ID_432849325" LINK="http://urbangiraffe.com/2011/08/13/remote-editing-with-sublime-text-2/" MODIFIED="1348054479275" TEXT="simple ssh + python"/>
 <node CREATED="1348054452693" ID="ID_869312784" LINK="http://stackoverflow.com/questions/11290606/sublime-text-2-copy-file-on-save-backup-to-another-folder" MODIFIED="1348054463234" TEXT="stackO"/>
 <node CREATED="1348054426028" ID="ID_1158431672" LINK="http://www.cuvedev.net/2011/12/sublime-text-2-rsync-on-save/" MODIFIED="1348054491816" TEXT="simple rsync"/>
 </node>
 <node CREATED="1352715895899" ID="ID_1829880842" LINK="http://wbond.net/sublime_packages/package_control" MODIFIED="1352715968498" TEXT="Plugin Controll"/>
-<node CREATED="1356448658853" FOLDED="true" ID="ID_179771754" MODIFIED="1358849217277" TEXT="validation">
+<node CREATED="1356448658853" FOLDED="true" ID="ID_179771754" MODIFIED="1360703473207" TEXT="validation">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356448378788" ID="ID_1600803494" LINK="https://github.com/ehamiter/Sublime-Text-2-Plugins" MODIFIED="1356448393090" TEXT="Sublime-Text2-Plugins"/>
 <node CREATED="1356448393833" ID="ID_838555007" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=5&amp;t=2262" MODIFIED="1356448418271" TEXT="Html/Css"/>
 </node>
-<node CREATED="1357740650424" FOLDED="true" ID="ID_308180726" MODIFIED="1358849216923" TEXT="search">
+<node CREATED="1357740650424" FOLDED="true" ID="ID_308180726" MODIFIED="1360703470601" TEXT="search">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357740654866" ID="ID_1981419594" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=6&amp;t=9172" MODIFIED="1357740660143" TEXT="in all opened files"/>
 </node>
-<node CREATED="1358849186461" FOLDED="true" ID="ID_1642636777" MODIFIED="1358849215339" TEXT="reindent">
+<node CREATED="1358849186461" FOLDED="true" ID="ID_1642636777" MODIFIED="1360703469389" TEXT="reindent">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358849190732" ID="ID_60933777" LINK="http://stackoverflow.com/questions/8839753/formatting-html-code-using-sublime-text-2" MODIFIED="1358849212343">
 <richcontent TYPE="NODE"><html>
@@ -32,8 +32,22 @@
       <font color="#009999"><b>so</b></font>&#160;reindent
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1360703522221" FOLDED="true" ID="ID_627433256" MODIFIED="1360703532102" TEXT="sess">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1360703477511" ID="ID_1180477952" LINK="https://github.com/titoBouzout/BufferScrol" MODIFIED="1360703518535">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>github</b></font>&#160;BufferScrol
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
