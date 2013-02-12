@@ -130,5 +130,22 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1360701677589" ID="ID_348083143" MODIFIED="1360701681162" POSITION="left" TEXT="sshfs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1360701777868" ID="ID_1297928765" LINK="http://blog.philippklaus.de/2011/07/sshfs-on-mac-os-x-10-6-8-with-fuse4x/" MODIFIED="1360701838394">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mac &gt; 10.6
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </map>

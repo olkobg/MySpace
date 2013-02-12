@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1343378780192" TEXT="MacOS">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1316179374343" ID="ID_1570912865" MODIFIED="1316179382789" POSITION="right" TEXT="keyboard compatibility">
+<node CREATED="1316179374343" ID="ID_1570912865" MODIFIED="1360702210793" POSITION="right" TEXT="win keys">
 <node CREATED="1316179383238" ID="ID_1611495993" MODIFIED="1316179388588" TEXT="Windows">
 <node CREATED="1316179388829" ID="ID_1034038969" MODIFIED="1316179398851" TEXT="Command"/>
 </node>
@@ -16,8 +16,11 @@
 <node CREATED="1316179419577" ID="ID_1408461364" MODIFIED="1316179422056" TEXT="Control"/>
 </node>
 </node>
-<node CREATED="1343289776094" ID="ID_1441127359" MODIFIED="1343289778140" POSITION="left" TEXT="NFS">
+<node CREATED="1343289776094" FOLDED="true" ID="ID_1441127359" MODIFIED="1360702168274" POSITION="left" TEXT="NFS">
 <node CREATED="1343289833275" ID="ID_1038036597" LINK="http://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" MODIFIED="1343289839791" TEXT="article"/>
+</node>
+<node CREATED="1360702155057" FOLDED="true" ID="ID_830285801" MODIFIED="1360702168036" POSITION="left" TEXT="vpn">
+<node CREATED="1360702158290" ID="ID_922360138" LINK="http://www.lobotomo.com/products/IPSecuritas/" MODIFIED="1360702165805" TEXT="IPSecuritas"/>
 </node>
 </node>
 </map>
