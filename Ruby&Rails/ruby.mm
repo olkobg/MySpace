@@ -6,29 +6,10 @@
 <node CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1357160557237" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1289986226478" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1358421624675" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" ID="ID_767240686" MODIFIED="1360774066806" POSITION="left" TEXT="class">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357309228766" ID="ID_1464648169" MODIFIED="1357323916878">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # class static method
-    </p>
-    <p>
-      <font color="#0033cc">def ClassName.method (arg, arg)&#160; ... end </font>
-    </p>
-    <p>
-      <font color="#000000"># or </font>
-    </p>
-    <p>
-      <font color="#0033cc">def self.method (arg, arg) ... end</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
+<node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1360774129486" TEXT="inheritance">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358331090040" ID="ID_411122332" MODIFIED="1358331239602">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -53,6 +34,23 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1360774075037" ID="ID_1606693131" MODIFIED="1360774126547">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Calling <b><font color="#0033cc">super</font></b>&#160;with no arguments passes the <b>original method call</b>&#160;
+    </p>
+    <p>
+      and its <b>original arguments</b>&#160;intact <b>up the inheritance</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1357321757675">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -65,7 +63,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1357323325888" FOLDED="true" ID="ID_565082171" MODIFIED="1358331071523" TEXT="refflection">
+<node CREATED="1357323325888" FOLDED="true" ID="ID_565082171" MODIFIED="1360758593462" TEXT="refflection">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357323331656" ID="ID_1844910866" MODIFIED="1357323597072">
 <richcontent TYPE="NODE"><html>
@@ -122,7 +120,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1357320980559" FOLDED="true" ID="ID_212325198" MODIFIED="1358331082593" TEXT="types">
+<node CREATED="1357320980559" FOLDED="true" ID="ID_212325198" MODIFIED="1360770146150" TEXT="types">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357320986721" FOLDED="true" ID="ID_1582160026" MODIFIED="1357323959504" TEXT="Fixnum">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -339,7 +337,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357308516412" FOLDED="true" ID="ID_97731342" MODIFIED="1357323519717" TEXT="boolean">
+<node CREATED="1357308516412" FOLDED="true" ID="ID_97731342" MODIFIED="1360769881681" TEXT="boolean">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357308526541" ID="ID_1729984863" MODIFIED="1357323511041" TEXT=" false, nil (FalseClass)">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -358,119 +356,153 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node CREATED="1360759790418" FOLDED="true" ID="ID_1673471247" MODIFIED="1360770143516" TEXT="collection">
+<node CREATED="1357310164668" FOLDED="true" ID="ID_1984380672" MODIFIED="1360769885366">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>collection<font color="#0033cc">.each</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1357310186286" ID="ID_694591747" MODIFIED="1357310228715">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>collection.<font color="#0033cc">each </font></b><font color="#0033cc">do |elt| </font>
+    </p>
+    <p>
+      <font color="#0033cc">&#160;... </font>
+    </p>
+    <p>
+      <font color="#0033cc"><b>end</b></font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1357309170312" FOLDED="true" ID="ID_259217726" MODIFIED="1358420169488" TEXT="instance">
+</node>
+<node CREATED="1360759252523" FOLDED="true" ID="ID_1802914079" MODIFIED="1360769886822">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>collection</b>.<b><font color="#0033cc">map</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1360759211635" ID="ID_1335098916" MODIFIED="1360759229355">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #short version
+    </p>
+    <p>
+      <font color="#0033cc">new_collection = collection.map { |elt| 2 * elt }</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1360769889999" ID="ID_1834539232" MODIFIED="1360770139441">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Closure&#160;&#160;num arguments what happend with collection.
+    </p>
+    <p>
+      <b>c.map</b>&#160;&#160;&#160;&#160;&#160;1&#160;&#160;&#160;&#160;elements obtained by applying block to each element of
+    </p>
+    <p>
+      <b>c c.select</b>&#160;1 Subset of c for which block evaluates to true
+    </p>
+    <p>
+      <b>c.reject</b>&#160;&#160;&#160;1 Subset of c obtained by removing elements for which block evaluates to true
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>c.uniq</b>&#160;all elements of c with duplicates removed c.reverse elements of c in reverse order
+    </p>
+    <p>
+      <b>c.compact</b>&#160;all non-nil elements of c
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>c.flatten</b>&#160;elements of c and any of its sub-arrays, recursively flattened to contain only non-array elements
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>c.partition</b>&#160;1 Two collections, the first containing elements of c for which the block evaluates to true, and the second containing those for which it evaluates to false
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>c.sort</b>&#160;2 Elements of c sorted according to a block that takes 2 arguments and returns -1 if the first element should be sorted earlier, +1 if the second element should be sorted earlier, and 0 if the two elements can be sorted in either order. The following methods require the collection elements to respond to &lt;=&gt;;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>c.sort</b>&#160;If sort is called without a block, the elements are sorted according to how they respond to &lt;=&gt;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>c.sort_by</b>&#160;1 Applies the block to each element of c and sorts the result. For example, movies.sort_by { |m| m.title } sorts Movie objects according to how their titles respond to &lt;=&gt;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>c.max, c.min</b>&#160;Largest or smallest element in the collection Figure 3.7: Some common Ruby methods on collections. For those that expect a block, we show
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1357309170312" ID="ID_259217726" MODIFIED="1360769866815" TEXT="instance">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1358331245415" TEXT="methods">
+<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1360758588439" TEXT="methods">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357309177051" ID="ID_375127362" MODIFIED="1357324559102">
+<node CREATED="1358329896832" ID="ID_1063930564" MODIFIED="1360758221526">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      # instance method (use *args for variable number of arguments)
-    </p>
-    <p>
-      <font color="#0033cc">def mehod (arg, arg) ... end</font>
+      <b><font color="#0033ff">initialize</font></b>&#160;- <b>constructor</b>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1357309449713" ID="ID_623556904" MODIFIED="1357324542545">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # Special method names (endings is optional but idiomatic)
-    </p>
-    <p>
-      <font color="#0033cc">def setter<b>=</b>&#160;(arg, arg) ... end </font>
-    </p>
-    <p>
-      <font color="#0033cc">def boolean_mehod<b>?</b>&#160;(arg, arg)&#160; ...&#160; end </font>
-    </p>
-    <p>
-      <font color="#0033cc">def dangerous_method<b>!</b>&#160;(arg, arg) ...&#160; end</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1357668925384" ID="ID_573892879" MODIFIED="1357668983007">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0033ff">def trivial_method&#160;&#160;&#160;</font>&#160;# no arguments; can also use trivial_method()
-    </p>
-    <p>
-      <font color="#0033ff">&#160;&#160;x = 5 </font>
-    </p>
-    <p>
-      <font color="#0033ff">end</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1358329896832" ID="ID_1063930564" MODIFIED="1358329925677">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font color="#0033ff">initialize</font></b>&#160;- constructor
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1358330048294" ID="ID_1451657911" MODIFIED="1358330128976">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      #getter
-    </p>
-    <p>
-      <font color="#0033ff">def title </font>
-    </p>
-    <p>
-      <font color="#0033ff">&#160;@title </font>
-    </p>
-    <p>
-      <font color="#0033ff">end</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1358330132313" ID="ID_374899658" MODIFIED="1358330191756">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      #setter
-    </p>
-    <p>
-      <font color="#0033ff">def title=(new_title) </font>
-    </p>
-    <p>
-      <font color="#0033ff">&#160;@title = new_title </font>
-    </p>
-    <p>
-      <font color="#0033ff">end</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
+<node CREATED="1360758409739" FOLDED="true" ID="ID_1901276234" MODIFIED="1360758418823" TEXT="static">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358330684795" ID="ID_1618414090" MODIFIED="1358330744544">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -492,7 +524,161 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1358330570804" ID="ID_1372365196" MODIFIED="1358330656610">
+<node CREATED="1357309228766" ID="ID_1464648169" MODIFIED="1357323916878">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # class static method
+    </p>
+    <p>
+      <font color="#0033cc">def ClassName.method (arg, arg)&#160; ... end </font>
+    </p>
+    <p>
+      <font color="#000000"># or </font>
+    </p>
+    <p>
+      <font color="#0033cc">def self.method (arg, arg) ... end</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1360758434157" ID="ID_806357009" MODIFIED="1360758585361" TEXT="attr">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1358420012536" ID="ID_1305922158" MODIFIED="1358420167993">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # create getter and setter for <font color="#0033ff">@foo</font>
+    </p>
+    <p>
+      <font color="#0033ff"><b>attr_accestor</b>&#160;:foo </font>
+    </p>
+    <p>
+      <font color="#000000"># create only getter </font>
+    </p>
+    <p>
+      <font color="#0033ff"><b>attr_reader</b>&#160;:bar</font>
+    </p>
+    <p>
+      <font color="#000000"># create only setter </font>
+    </p>
+    <p>
+      <font color="#0033ff"><b>attr_writer</b>&#160;:baz</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1357309177051" ID="ID_375127362" MODIFIED="1360758471633">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # instance method (use <b><font color="#0033cc">*args</font></b>&#160;for variable number of arguments)
+    </p>
+    <p>
+      <font color="#0033cc">def mehod (arg, arg) ... end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1357309449713" ID="ID_623556904" MODIFIED="1360758471626">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Special method names (endings is optional but idiomatic)
+    </p>
+    <p>
+      <font color="#0033cc">def setter<b>=</b>&#160;(arg, arg) ... end </font>
+    </p>
+    <p>
+      <font color="#0033cc">def boolean_mehod<b>?</b>&#160;(arg, arg)&#160; ...&#160; end </font>
+    </p>
+    <p>
+      <font color="#0033cc">def dangerous_method<b>!</b>&#160;(arg, arg) ...&#160; end</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1357668925384" ID="ID_573892879" MODIFIED="1360758471613">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # no arguments; can also use trivial_method()
+    </p>
+    <p>
+      <font color="#0033ff">def trivial_method</font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;x = 5 </font>
+    </p>
+    <p>
+      <font color="#0033ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1358330048294" ID="ID_1451657911" MODIFIED="1360758467274">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #getter
+    </p>
+    <p>
+      <font color="#0033ff">def title </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;@title </font>
+    </p>
+    <p>
+      <font color="#0033ff">end</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1358330132313" ID="ID_374899658" MODIFIED="1360758467266">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #setter
+    </p>
+    <p>
+      <font color="#0033ff">def title=(new_title) </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;@title = new_title </font>
+    </p>
+    <p>
+      <font color="#0033ff">end</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1358330570804" ID="ID_1372365196" MODIFIED="1360758464093">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -529,40 +715,11 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1358420012536" ID="ID_1305922158" MODIFIED="1358420167993">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # create getter and setter for <font color="#0033ff">@foo</font>
-    </p>
-    <p>
-      <font color="#0033ff"><b>attr_accestor</b>&#160;:foo </font>
-    </p>
-    <p>
-      <font color="#000000"># create only getter </font>
-    </p>
-    <p>
-      <font color="#0033ff"><b>attr_reader</b>&#160;:bar</font>
-    </p>
-    <p>
-      <font color="#000000"># create only setter </font>
-    </p>
-    <p>
-      <font color="#0033ff"><b>attr_writer</b>&#160;:baz</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 </node>
 <node CREATED="1282725988827" ID="ID_862307088" MODIFIED="1357308973229" TEXT="modules">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1357308445090" FOLDED="true" ID="ID_1298889748" MODIFIED="1358421622385" TEXT="variables">
+<node CREATED="1357308445090" ID="ID_1298889748" MODIFIED="1360758197278" TEXT="variables">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357308452203" ID="ID_1965634422" MODIFIED="1357324971455" TEXT="local_variable">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -575,7 +732,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357308479691" FOLDED="true" ID="ID_152061557" MODIFIED="1358330036216" POSITION="left" TEXT="constants">
+<node CREATED="1357308479691" ID="ID_152061557" MODIFIED="1360774011585" POSITION="left" TEXT="constants">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357308484483" ID="ID_1958604901" MODIFIED="1357308508652" TEXT="ClassName">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -584,9 +741,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1358330910256" POSITION="left" TEXT="operations">
+<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1360770150494" POSITION="left" TEXT="operations">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357320757977" FOLDED="true" ID="ID_1228339705" MODIFIED="1358330909565" TEXT="statements">
+<node CREATED="1357320757977" FOLDED="true" ID="ID_1228339705" MODIFIED="1360758617199" TEXT="statements">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357320764083" ID="ID_1880345362" MODIFIED="1357324992413">
 <richcontent TYPE="NODE"><html>
@@ -620,7 +777,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1283360812953" FOLDED="true" ID="ID_1852096962" MODIFIED="1358330792306" TEXT="conditionals">
+<node CREATED="1283360812953" FOLDED="true" ID="ID_1852096962" MODIFIED="1360758608890" TEXT="conditionals">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1283360821421" FOLDED="true" ID="ID_1728327273" MODIFIED="1357325019776" TEXT="unless">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -726,7 +883,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1287582283908" FOLDED="true" ID="ID_705038099" MODIFIED="1358330797659" TEXT="iteration">
+<node CREATED="1287582283908" ID="ID_705038099" MODIFIED="1360769850435" TEXT="iterator">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357309710351" FOLDED="true" ID="ID_638283469" MODIFIED="1357309835016" TEXT="while">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -791,7 +948,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357310114844" FOLDED="true" ID="ID_512896360" MODIFIED="1357325004147" TEXT=".times">
+<node COLOR="#0033ff" CREATED="1357310114844" FOLDED="true" ID="ID_512896360" MODIFIED="1360759210794" TEXT=".times">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357310118864" ID="ID_1850639222" MODIFIED="1357310153792">
 <richcontent TYPE="NODE"><html>
@@ -812,38 +969,39 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1357310164668" FOLDED="true" ID="ID_1984380672" MODIFIED="1357325005568">
+<node CREATED="1360759571528" ID="ID_1916879904" MODIFIED="1360759603053">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>collection<font color="#0033cc">.each</font></b>
+      #return list of words some file
+    </p>
+    <p>
+      <font color="#0033cc">words = IO.read(&quot;file&quot;). </font>
+    </p>
+    <p>
+      <font color="#0033cc">&#160;&#160;split(/\W+/). </font>
+    </p>
+    <p>
+      <font color="#0033cc">&#160;&#160;select { |s| s =~ /^[aeiou]/i }. </font>
+    </p>
+    <p>
+      <font color="#0033cc">&#160;&#160;map { |s| s.downcase }. </font>
+    </p>
+    <p>
+      <font color="#0033cc">&#160;&#160;uniq. </font>
+    </p>
+    <p>
+      <font color="#0033cc">&#160;&#160;sort</font>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1357310186286" ID="ID_694591747" MODIFIED="1357310228715">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>collection.<font color="#0033cc">each </font></b><font color="#0033cc">do |elt| </font>
-    </p>
-    <p>
-      <font color="#0033cc">&#160;... </font>
-    </p>
-    <p>
-      <font color="#0033cc"><b>end</b></font>
-    </p>
-  </body>
-</html></richcontent>
 </node>
+<node CREATED="1360769854124" ID="ID_285747937" LINK="#ID_1673471247" MODIFIED="1360769872991" TEXT="collections"/>
 </node>
-</node>
-<node CREATED="1357309661550" FOLDED="true" ID="ID_1055739871" MODIFIED="1358330817064" TEXT="exceptions">
+<node CREATED="1357309661550" FOLDED="true" ID="ID_1055739871" MODIFIED="1360759208312" TEXT="exceptions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357309847337" ID="ID_1385874221" MODIFIED="1358330815274">
 <richcontent TYPE="NODE"><html>
@@ -922,10 +1080,49 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="idea"/>
 </node>
-<node CREATED="1357308309238" FOLDED="true" ID="ID_1850656586" MODIFIED="1358329871876" POSITION="right" TEXT="theory">
+<node CREATED="1357308309238" FOLDED="true" ID="ID_1850656586" MODIFIED="1360770155306" POSITION="right" TEXT="theory">
 <node CREATED="1357308313645" ID="ID_1943693068" MODIFIED="1357308324168" TEXT="Everything is an object"/>
-<node CREATED="1357308324461" ID="ID_68744473" MODIFIED="1357308361012" TEXT="every  operation is a method call and returns a value."/>
-<node CREATED="1357308361431" ID="ID_593119991" MODIFIED="1357308404617" TEXT="All programming is metaprogramming: classes and methods can be added or changed at any time, even while programming"/>
+<node CREATED="1357308324461" ID="ID_68744473" MODIFIED="1360758884184">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      every&#160;&#160;<b>operation</b>&#160;<b>is a method call</b>&#160;and returns a value.
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1357308361431" ID="ID_593119991" MODIFIED="1360758860305">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      All programming is <b>metaprogramming</b>: <b>classes</b>&#160;and <b>methods</b>&#160; can be added or changed at <b>any time</b>, even while programming
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1360758747881" ID="ID_1379811" MODIFIED="1360758834529">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      a <b>ruby block</b>&#160;is a <b>closure</b>&#160;- wherever block executes it can <b>&quot;see&quot;</b>&#160;the <b>entire</b>&#160;lexical <b>scope</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </map>
