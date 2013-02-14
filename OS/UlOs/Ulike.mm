@@ -151,26 +151,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1360156274254" POSITION="right" TEXT="services">
-<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1360156031650" TEXT="web">
-<node COLOR="#0033ff" CREATED="1296726271838" FOLDED="true" ID="ID_1035301467" MODIFIED="1359236514557" TEXT="apache">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1356446291361" ID="ID_1046560793" MODIFIED="1359236508091">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#000000"># on <b>CentoOS</b></font>
-    </p>
-    <p>
-      sudo /sbin/service httpd graceful
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
+<node CREATED="1296726260831" ID="ID_1130237789" MODIFIED="1360840335654" POSITION="right" TEXT="services">
+<node CREATED="1296726270161" ID="ID_525954360" MODIFIED="1360840335656" TEXT="web">
+<node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" ID="ID_200655277" MODIFIED="1359236480154" TEXT="optimize">
 <node CREATED="1296726279539" ID="ID_1037052627" LINK="http://guides.tinybrick.com/magento/speed-testing" MODIFIED="1343156400294" TEXT="speedtesting"/>
 </node>
