@@ -6,6 +6,19 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 <node CREATED="1299074229111" ID="ID_1032614444" LINK="http://phing.info/docs/guide/current/" MODIFIED="1299074235203" POSITION="right" TEXT="online manual"/>
+<node CREATED="1361273238936" ID="ID_950954818" MODIFIED="1361279979570" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>HipHop</b>&#160;php converts php to c++
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1299137833498" ID="ID_1278823281" MODIFIED="1299137839034" POSITION="left" TEXT="PEAR">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299137840048" ID="ID_1776483513" MODIFIED="1299137843434" TEXT="channel">
