@@ -16,14 +16,18 @@
       <b>HipHop</b>&#160;php converts php to c++
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1299137833498" ID="ID_1278823281" MODIFIED="1299137839034" POSITION="left" TEXT="PEAR">
+<node CREATED="1299137833498" ID="ID_1278823281" MODIFIED="1361449411370" POSITION="left" TEXT="PEAR">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299137840048" ID="ID_1776483513" MODIFIED="1299137843434" TEXT="channel">
-<node COLOR="#0033ff" CREATED="1299137843737" ID="ID_1148392153" MODIFIED="1299137882291" TEXT="channe-discover">
+<node COLOR="#0033ff" CREATED="1299137843737" ID="ID_1148392153" MODIFIED="1361449040837" TEXT="channel-discover">
 <node COLOR="#0033ff" CREATED="1299137871096" ID="ID_800257669" MODIFIED="1333098906864" TEXT="pear channel-discover pear.phpunit.de "/>
+</node>
+</node>
+<node CREATED="1361449411358" ID="ID_1072674554" MODIFIED="1361449416001" TEXT="list">
+<node COLOR="#0033ff" CREATED="1361449173409" ID="ID_749146692" MODIFIED="1361449178019" TEXT="pear remote-list -c phpunit">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>

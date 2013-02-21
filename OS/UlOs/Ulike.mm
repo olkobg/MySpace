@@ -573,7 +573,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1360156342740" POSITION="left" TEXT="admin">
+<node CREATED="1361454450545" ID="ID_82349326" MODIFIED="1361454453367" POSITION="right" TEXT="distribs">
+<node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
+</node>
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1361461485770" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1356098225032" TEXT="dig">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -738,7 +741,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1360156342739" POSITION="left" TEXT="X">
+<node COLOR="#0033ff" CREATED="1356357912120" ID="ID_131784874" MODIFIED="1361461486087" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
@@ -815,6 +818,11 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1361461487216" ID="ID_386274153" MODIFIED="1361461491591" TEXT="xvfb">
+<node CREATED="1361461492480" ID="ID_1130473563" LINK="http://docs.codehaus.org/display/FEST/Running+FEST+under+Xvfb" MODIFIED="1361461497309" TEXT="article 1"/>
+<node CREATED="1361461507672" ID="ID_401431363" LINK="http://askubuntu.com/questions/9694/how-to-run-two-x-sessions-at-the-same-time" MODIFIED="1361461527280" TEXT="x session on same machine"/>
+<node CREATED="1361462308716" ID="ID_578732248" LINK="http://www.vanemery.com/Linux/XoverSSH/X-over-SSH2.html" MODIFIED="1361462319909" TEXT="x over ssh2 tutorial"/>
 </node>
 </node>
 <node CREATED="1355996052443" ID="ID_1927459662" MODIFIED="1360156509941" POSITION="right" TEXT="tricks">

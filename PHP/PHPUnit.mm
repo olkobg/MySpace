@@ -7,6 +7,9 @@
 <node CREATED="1285850542328" ID="ID_113277864" LINK="http://www.phpunit.de/manual/current/en/index.html" MODIFIED="1334852803245" TEXT="site"/>
 <node CREATED="1334852808222" ID="ID_1119045196" LINK="https://github.com/sebastianbergmann/phpunit/" MODIFIED="1334852827784" TEXT="github"/>
 </node>
+<node CREATED="1361459486836" ID="ID_439740" MODIFIED="1361459493978" POSITION="right" TEXT="Selenium">
+<node CREATED="1361459494632" ID="ID_628171521" LINK="http://blog.moove-it.com/running-selenium-on-a-headless-server-and-running-tests-with-phpunit/" MODIFIED="1361460210972" TEXT="headles with screenshot"/>
+</node>
 <node CREATED="1334852834933" ID="ID_1826097865" MODIFIED="1334852932117" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1334852839307" ID="ID_490675826" MODIFIED="1334852936505" TEXT="view output data">
