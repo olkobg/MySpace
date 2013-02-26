@@ -19,17 +19,49 @@
 </node>
 <node COLOR="#006633" CREATED="1292430947822" ID="ID_312852694" MODIFIED="1348135791731" POSITION="right" TEXT="features">
 <font BOLD="true" NAME="SansSerif" SIZE="20"/>
-<node CREATED="1292430966261" ID="ID_287074705" MODIFIED="1299498637252" TEXT="Continuous Integration">
-<node COLOR="#0033ff" CREATED="1292430979656" ID="ID_1738507034" MODIFIED="1348135841698" TEXT="Hudson"/>
-<node COLOR="#0033ff" CREATED="1348135719575" ID="ID_386432650" MODIFIED="1348135841698" TEXT="Jenkins"/>
-<node COLOR="#0033ff" CREATED="1292430985789" ID="ID_603993624" MODIFIED="1348135841697" TEXT="Cruise Controll">
-<node CREATED="1293970449085" ID="ID_675480196" MODIFIED="1293970452147" TEXT="addons">
-<node CREATED="1293970452840" ID="ID_1532942046" MODIFIED="1293970495828" TEXT="phpUndercontroll">
+<node CREATED="1292430966261" ID="ID_287074705" MODIFIED="1361879699099" TEXT="CI ">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Continuos Integration
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1292430979656" ID="ID_1738507034" MODIFIED="1361878298513" TEXT="Hudson">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1348135719575" ID="ID_386432650" MODIFIED="1361878298514" TEXT="Jenkins">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1292430985789" ID="ID_603993624" MODIFIED="1361878298514" TEXT="Cruise Controll">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1293970449085" FOLDED="true" ID="ID_675480196" MODIFIED="1361878306480" TEXT="addons">
+<node CREATED="1293970452840" FOLDED="true" ID="ID_1532942046" MODIFIED="1361878304605" TEXT="phpUndercontroll">
 <node CREATED="1293970486216" ID="ID_1211430000" LINK="http://phpundercontrol.org/" MODIFIED="1293970491181" TEXT="site"/>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1292431143001" ID="ID_931535858" MODIFIED="1348135841697" TEXT="Apache Gump"/>
+<node COLOR="#0033ff" CREATED="1292431143001" ID="ID_931535858" MODIFIED="1361878298514" TEXT="Apache Gump">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1361878236576" ID="ID_1349138492" LINK="http://travis-ci.org" MODIFIED="1361878293505">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">Travic-CI</font></b>&#160;for open source projects
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1297765180174" ID="ID_1413047711" MODIFIED="1348135795150" POSITION="right" TEXT="Agile Manifesto">
@@ -44,8 +76,7 @@
       <b>Individuals and interactions </b>over <i><b>processes and tools</b></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1297765194094" ID="ID_1472719311" MODIFIED="1348135686601">
 <richcontent TYPE="NODE"><html>
@@ -57,8 +88,7 @@
       <b>Working software</b>&#160;over <i><b>comprehensive documentation&#160;</b></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1297765194406" ID="ID_959241392" MODIFIED="1348135698819">
 <richcontent TYPE="NODE"><html>
@@ -70,8 +100,7 @@
       <b>Customer collaboration</b>&#160;over <i><b>contract negotiation</b></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1297765470519" ID="ID_1287956340" MODIFIED="1348135711858">
 <richcontent TYPE="NODE"><html>
@@ -83,13 +112,12 @@
       <b>Responding to change</b>&#160;over <i><b>following a plan&#160;</b></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#ff0000" CREATED="1329221499553" ID="ID_1164555257" MODIFIED="1348135802662" POSITION="right" TEXT="TIPs">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1329221502092" ID="ID_1105788457" MODIFIED="1329221574176">
+<node CREATED="1329221502092" ID="ID_1105788457" MODIFIED="1361878339756">
 <richcontent TYPE="NODE"><html>
   <head>
     

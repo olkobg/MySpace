@@ -99,6 +99,46 @@
 </node>
 </node>
 </node>
+<node COLOR="#006699" CREATED="1361892302799" ID="ID_229964903" MODIFIED="1361893106047" POSITION="left" TEXT="Learn">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1361892314710" ID="ID_21108970" MODIFIED="1361893106417" TEXT="memory">
+<node COLOR="#0033ff" CREATED="1361892320400" FOLDED="true" ID="ID_207583043" MODIFIED="1361893107881" TEXT="mnemosyne">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1361892328103" ID="ID_1576778765" MODIFIED="1361892400041">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b># directories where data stored&#160;</b><br />
+    </p>
+    <p>
+      &#160;- Windows: C:\Users\&lt;your user name&gt;\Application Data\Mnemosyne&#160;<br />&#160; - Linux: ~/.local/share/mnemosyne and ~/.config/mnemosyne/&#160;<br />&#160;- OSX: ~/Library/Mnemosyne/
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1361893069053" ID="ID_1402684216" MODIFIED="1361893102760">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b># config for linux</b>
+    </p>
+    <p>
+      ~/.local/share/mnemosyne
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 <node COLOR="#006633" CREATED="1359978105678" ID="ID_1806015071" MODIFIED="1359978118368" POSITION="left" TEXT="Fun">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1359978119344" ID="ID_1590523028" MODIFIED="1359978120936" TEXT="books">

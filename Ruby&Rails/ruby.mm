@@ -6,7 +6,7 @@
 <node CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1357160557237" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1289986226478" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" ID="ID_767240686" MODIFIED="1360774066806" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1360868278710" POSITION="left" TEXT="class">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1360774129486" TEXT="inheritance">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -47,8 +47,7 @@
       and its <b>original arguments</b>&#160;intact <b>up the inheritance</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1357321757675">
@@ -479,8 +478,7 @@
       <b>c.max, c.min</b>&#160;Largest or smallest element in the collection Figure 3.7: Some common Ruby methods on collections. For those that expect a block, we show
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -498,8 +496,7 @@
       <b><font color="#0033ff">initialize</font></b>&#160;- <b>constructor</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1360758409739" FOLDED="true" ID="ID_1901276234" MODIFIED="1360758418823" TEXT="static">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -590,8 +587,7 @@
       <font color="#0033cc">def mehod (arg, arg) ... end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357309449713" ID="ID_623556904" MODIFIED="1360758471626">
 <richcontent TYPE="NODE"><html>
@@ -633,8 +629,7 @@
       <font color="#0033ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1358330048294" ID="ID_1451657911" MODIFIED="1360758467274">
 <richcontent TYPE="NODE"><html>
@@ -732,7 +727,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357308479691" ID="ID_152061557" MODIFIED="1360774011585" POSITION="left" TEXT="constants">
+<node CREATED="1357308479691" FOLDED="true" ID="ID_152061557" MODIFIED="1360868279719" POSITION="left" TEXT="constants">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357308484483" ID="ID_1958604901" MODIFIED="1357308508652" TEXT="ClassName">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1080,7 +1075,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="idea"/>
 </node>
-<node CREATED="1357308309238" FOLDED="true" ID="ID_1850656586" MODIFIED="1360770155306" POSITION="right" TEXT="theory">
+<node CREATED="1357308309238" FOLDED="true" ID="ID_1850656586" MODIFIED="1360868277871" POSITION="right" TEXT="theory">
 <node CREATED="1357308313645" ID="ID_1943693068" MODIFIED="1357308324168" TEXT="Everything is an object"/>
 <node CREATED="1357308324461" ID="ID_68744473" MODIFIED="1360758884184">
 <richcontent TYPE="NODE"><html>
@@ -1092,8 +1087,7 @@
       every&#160;&#160;<b>operation</b>&#160;<b>is a method call</b>&#160;and returns a value.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1357308361431" ID="ID_593119991" MODIFIED="1360758860305">
@@ -1106,8 +1100,7 @@
       All programming is <b>metaprogramming</b>: <b>classes</b>&#160;and <b>methods</b>&#160; can be added or changed at <b>any time</b>, even while programming
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1360758747881" ID="ID_1379811" MODIFIED="1360758834529">
 <richcontent TYPE="NODE"><html>
@@ -1119,8 +1112,7 @@
       a <b>ruby block</b>&#160;is a <b>closure</b>&#160;- wherever block executes it can <b>&quot;see&quot;</b>&#160;the <b>entire</b>&#160;lexical <b>scope</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>

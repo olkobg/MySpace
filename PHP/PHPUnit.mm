@@ -9,7 +9,7 @@
 </node>
 <node CREATED="1361459486836" ID="ID_439740" MODIFIED="1361459493978" POSITION="right" TEXT="Selenium">
 <node CREATED="1361459494632" ID="ID_628171521" LINK="http://blog.moove-it.com/running-selenium-on-a-headless-server-and-running-tests-with-phpunit/" MODIFIED="1361460210972" TEXT="headles with screenshot"/>
-<node CREATED="1361539122051" FOLDED="true" ID="ID_157997501" MODIFIED="1361539172331" TEXT="Selenium Web Elelement">
+<node CREATED="1361539122051" FOLDED="true" ID="ID_157997501" MODIFIED="1361882199321" TEXT="Selenium Web Elelement">
 <node CREATED="1361539146028" ID="ID_1687235407" MODIFIED="1361539165281">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -78,14 +78,13 @@
 </node>
 </node>
 <node CREATED="1361793415651" ID="ID_1218565415" LINK="http://mestachs.wordpress.com/2012/08/13/selenium-best-practices/" MODIFIED="1361794211069" TEXT="best practises."/>
-<node COLOR="#990000" CREATED="1361794212705" ID="ID_1546655787" LINK="http://element34.ca/products/saunter/saunterphp" MODIFIED="1361797040403" TEXT="SaunterPHP"/>
 </node>
 <node CREATED="1334852834933" ID="ID_1826097865" MODIFIED="1334852932117" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1334852839307" ID="ID_490675826" MODIFIED="1334852936505" TEXT="view output data">
+<node CREATED="1334852839307" FOLDED="true" ID="ID_490675826" MODIFIED="1361882202144" TEXT="view output data">
 <node COLOR="#0033ff" CREATED="1334852855575" ID="ID_1244222818" MODIFIED="1334852871692" TEXT="phpunit --debug"/>
 </node>
-<node CREATED="1334852873614" ID="ID_1664939236" MODIFIED="1334852941292" TEXT="coverage">
+<node CREATED="1334852873614" FOLDED="true" ID="ID_1664939236" MODIFIED="1361879752539" TEXT="coverage">
 <node COLOR="#0033ff" CREATED="1334852883629" ID="ID_526989911" MODIFIED="1334852916048" TEXT="phpunit --coverage-html ./report &lt;test-file&gt;"/>
 </node>
 </node>

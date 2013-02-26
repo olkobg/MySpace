@@ -2,31 +2,69 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1337095407605" TEXT="PHP">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1285850528231" ID="ID_449599395" MODIFIED="1299074195611" POSITION="right" TEXT="Testing">
-<node CREATED="1285850518723" ID="ID_349465635" MODIFIED="1285850525919" TEXT="UnitTesting">
+<node CREATED="1285850528231" ID="ID_449599395" MODIFIED="1361879970187" POSITION="right" TEXT="Testing">
+<node CREATED="1285850518723" FOLDED="true" ID="ID_349465635" MODIFIED="1361879964441" TEXT="UnitTesting">
 <node CREATED="1334852774584" ID="ID_671076897" LINK="PHPUnit.mm" MODIFIED="1334852774585" TEXT="PHPUnit"/>
 </node>
-<node CREATED="1361539099498" ID="ID_374024873" MODIFIED="1361539101636" TEXT="UI">
-<node CREATED="1361539102038" ID="ID_549985678" MODIFIED="1361539107147" TEXT="Selenium">
-<node CREATED="1361539108975" ID="ID_610802670" MODIFIED="1361539117819" TEXT="via PHPUnit"/>
+<node CREATED="1361539099498" FOLDED="true" ID="ID_374024873" MODIFIED="1361879968523" TEXT="UI">
+<node CREATED="1361539102038" FOLDED="true" ID="ID_549985678" MODIFIED="1361879967815" TEXT="Selenium">
+<node CREATED="1361539108975" ID="ID_610802670" LINK="#ID_671076897" MODIFIED="1361879945697" TEXT="via PHPUnit"/>
+<node CREATED="1361879770688" ID="ID_629972318" MODIFIED="1361879813121" TEXT="element34">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1361794212705" ID="ID_1546655787" LINK="http://element34.ca/products/saunter/saunterphp" MODIFIED="1361879774337" TEXT="SaunterPHP"/>
+<node CREATED="1361879777255" ID="ID_899978171" LINK="https://github.com/Element-34/php-webdriver" MODIFIED="1361879808011">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">git</font></b>&#160;thin php Selenium driver
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1361879849062" ID="ID_1298623659" LINK="https://github.com/facebook/php-webdriver" MODIFIED="1361879902151">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">git</font></b>&#160;php web driver
+    </p>
+  </body>
+</html></richcontent>
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      by facebook
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
 <node COLOR="#009999" CREATED="1291283758871" ID="ID_651800150" MODIFIED="1351777305384" POSITION="right" TEXT="Apps">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1291284845924" ID="ID_637058664" MODIFIED="1291284849510" TEXT="webCMS">
+<node CREATED="1291284845924" FOLDED="true" ID="ID_637058664" MODIFIED="1361879973118" TEXT="webCMS">
 <node COLOR="#006633" CREATED="1291283799040" ID="ID_632977273" LINK="Joomla.mm" MODIFIED="1355996464562" STYLE="bubble" TEXT="Joomla">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 <node CREATED="1291284822116" ID="ID_797129928" MODIFIED="1291284824886" TEXT="modX"/>
 <node CREATED="1291284825792" ID="ID_1363881862" MODIFIED="1291284827913" TEXT="Drupal"/>
 </node>
-<node CREATED="1291284850357" ID="ID_1639747267" MODIFIED="1291284853873" TEXT="Blogs">
+<node CREATED="1291284850357" FOLDED="true" ID="ID_1639747267" MODIFIED="1361879973470" TEXT="Blogs">
 <node COLOR="#006633" CREATED="1355995323699" ID="ID_1231240454" LINK="CMS/wordpress.mm" MODIFIED="1355996464566" STYLE="bubble" TEXT="wordpress">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 </node>
 </node>
-<node CREATED="1293706091715" ID="ID_1317362145" MODIFIED="1293706097155" TEXT="commerce">
+<node CREATED="1293706091715" FOLDED="true" ID="ID_1317362145" MODIFIED="1361879976474" TEXT="commerce">
 <node COLOR="#006633" CREATED="1293706110767" ID="ID_295572364" LINK="CMS/Magento/magento.mm" MODIFIED="1355996464564" STYLE="bubble" TEXT="magento">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
@@ -36,13 +74,13 @@
 </node>
 </node>
 <node CREATED="1337095407580" ID="ID_1268790834" MODIFIED="1359042034693" POSITION="left" TEXT="libs">
-<node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1358869154236" TEXT="Captcha">
+<node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1361879998505" TEXT="Captcha">
 <node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
 <node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
 <node CREATED="1337095493488" ID="ID_1074773125" LINK="http://code.google.com/p/cool-php-captcha/" MODIFIED="1337095517343" TEXT="cool php captcha"/>
 <node CREATED="1337095518492" ID="ID_1870135368" LINK="http://www.phpcaptcha.org/" MODIFIED="1337095552753" TEXT="php captcha"/>
 </node>
-<node CREATED="1292929906380" ID="ID_995126132" MODIFIED="1358869151372" TEXT="Frameworks">
+<node CREATED="1292929906380" FOLDED="true" ID="ID_995126132" MODIFIED="1361879999677" TEXT="Frameworks">
 <node COLOR="#cc3300" CREATED="1302022150489" ID="ID_538144076" MODIFIED="1302022160350" TEXT="MVC">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#338800" CREATED="1292929957082" ID="ID_1178615153" LINK="Zend.mm" MODIFIED="1298549601890" STYLE="bubble" TEXT="ZendFramework">
@@ -67,7 +105,7 @@
 <node CREATED="1355500326563" ID="ID_1390439074" LINK="http://twig.sensiolabs.org/" MODIFIED="1355500349425" TEXT="TWIG"/>
 </node>
 </node>
-<node CREATED="1358869147332" FOLDED="true" ID="ID_635581923" MODIFIED="1358877961999" TEXT="pdf">
+<node CREATED="1358869147332" FOLDED="true" ID="ID_635581923" MODIFIED="1361879995819" TEXT="pdf">
 <node CREATED="1358869156154" ID="ID_589350561" LINK="http://www.tcpdf.org/" MODIFIED="1358877951100">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -101,7 +139,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1293715627303" ID="ID_238630762" MODIFIED="1351777292302" POSITION="right" TEXT="Debug">
+<node COLOR="#cc3300" CREATED="1293715627303" FOLDED="true" ID="ID_238630762" MODIFIED="1361879984451" POSITION="right" TEXT="Debug">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1293715633004" ID="ID_335545435" MODIFIED="1300955910353" TEXT="Zend Debugger">
 <node CREATED="1293783245381" FOLDED="true" ID="ID_1713486316" MODIFIED="1354283393492" TEXT="php.ini">
@@ -1499,8 +1537,8 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299149825660" FOLDED="true" ID="ID_1260115731" MODIFIED="1312370638067" TEXT="Classes">
-<node CREATED="1299160408769" FOLDED="true" ID="ID_1067806093" MODIFIED="1301995097651" TEXT="inf">
+<node CREATED="1299149825660" ID="ID_1260115731" MODIFIED="1361884072329" TEXT="Classes">
+<node CREATED="1299160408769" FOLDED="true" ID="ID_1067806093" MODIFIED="1361884097338" TEXT="inf">
 <node CREATED="1299161595122" ID="ID_1519705349" MODIFIED="1299161651236">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1566,7 +1604,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299162511720" FOLDED="true" ID="ID_1956375870" MODIFIED="1312536067523" STYLE="fork" TEXT="constuct/destruct">
+<node CREATED="1299162511720" FOLDED="true" ID="ID_1956375870" MODIFIED="1361884095474" STYLE="fork" TEXT="constuct/destruct">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299162579233" ID="ID_521821062" MODIFIED="1299163372300" TEXT="Classes which have a constructor method call this method on each newly-created object, so it is suitable for any initialization that the object may need before it is used."/>
@@ -1880,8 +1918,8 @@ integer     : [+-]?decimal
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1299149830514" ID="ID_902834209" MODIFIED="1312536069686" TEXT="ex">
-<node CREATED="1299160446732" FOLDED="true" ID="ID_1627791006" MODIFIED="1301404003321">
+<node CREATED="1299149830514" FOLDED="true" ID="ID_902834209" MODIFIED="1361884098177" TEXT="ex">
+<node CREATED="1299160446732" FOLDED="true" ID="ID_1627791006" MODIFIED="1361884078762">
 <richcontent TYPE="NODE"><html>
   <head>
     

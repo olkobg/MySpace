@@ -4,9 +4,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1296835925807" ID="ID_915433591" MODIFIED="1296835945283" POSITION="left" TEXT="TDD"/>
 <node CREATED="1289984627900" ID="ID_880339721" LINK="Agile.mm" MODIFIED="1315390181695" POSITION="left" TEXT="Agile">
-<node CREATED="1289984630647" ID="ID_1719059817" MODIFIED="1289984811009" TEXT="Pragmaric">
-<node CREATED="1289984798504" ID="ID_175964393" LINK="Pragmatic-Learning.mm" MODIFIED="1299236712924" TEXT="Learning"/>
-</node>
+<node CREATED="1289984798504" ID="ID_175964393" LINK="Pragmatic-Learning.mm" MODIFIED="1361878375586" TEXT="Pragmaric Learning"/>
 <node CREATED="1289984639926" ID="ID_1753350196" LINK="Scrum.mm" MODIFIED="1299236720888" TEXT="SCRUM"/>
 <node CREATED="1297689878385" ID="ID_275709927" LINK="KanBan.mm" MODIFIED="1299236726650" TEXT="KanBan"/>
 <node CREATED="1296835922393" ID="ID_228552236" MODIFIED="1296835925074" TEXT="XP"/>
@@ -93,8 +91,7 @@
       describes what <font color="#0033ff"><b>object</b></font>&#160;<b><i>know</i></b>&#160;and what <font color="#0033ff"><b>object</b></font>&#160;<b><i>does</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
