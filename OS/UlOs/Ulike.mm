@@ -163,8 +163,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1360701983913" POSITION="right" TEXT="tools">
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1360156277306" TEXT="fs">
+<node CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1361971703973" POSITION="right" TEXT="tools">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1361971719441" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1359980077469" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -268,14 +268,14 @@
 <node CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1360156086338" TEXT="bittorent">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1360156388623" TEXT="backup">
+<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1361971720248" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1360156381555" TEXT="rsync">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636147905" ID="ID_489816603" MODIFIED="1315390993937" TEXT="rsync -av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/  "/>
 </node>
 </node>
-<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1360156392978" TEXT="convert">
+<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1361971727308" TEXT="convert">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1360156390949" TEXT="textfiles">
 <node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1355996330572" TEXT="recode">
@@ -362,7 +362,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1360701983610" TEXT="net">
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1361971725824" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1360701983192" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
@@ -443,6 +443,43 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1361971728537" FOLDED="true" ID="ID_1193412117" MODIFIED="1361971912712" TEXT="group">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1361971738758" ID="ID_178516778" MODIFIED="1361971910707">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # see group you are in
+    </p>
+    <p>
+      <b><font color="#0033ff">groups</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1361971741959" ID="ID_1965423477" MODIFIED="1361971902042">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # change group for current user
+    </p>
+    <p>
+      <b><font color="#0033ff">$ newgrp&#160;</font></b><font color="#0033ff">my-fav-group</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1358768672598" ID="ID_993782329" LINK="http://linux.icydog.net/rename.php" MODIFIED="1360156514135">
@@ -553,7 +590,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1360156521599" POSITION="right" TEXT="interpet">
+<node CREATED="1360156096178" ID="ID_44235768" MODIFIED="1361971702004" POSITION="right" TEXT="interpet">
 <node COLOR="#0033ff" CREATED="1296636804213" ID="ID_493133498" MODIFIED="1360156095153" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
