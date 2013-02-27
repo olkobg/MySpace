@@ -3,7 +3,7 @@
 <node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1337095407605" TEXT="PHP">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
 <node CREATED="1285850528231" ID="ID_449599395" MODIFIED="1361879970187" POSITION="right" TEXT="Testing">
-<node CREATED="1285850518723" FOLDED="true" ID="ID_349465635" MODIFIED="1361879964441" TEXT="UnitTesting">
+<node CREATED="1285850518723" ID="ID_349465635" MODIFIED="1361985792993" TEXT="UnitTesting">
 <node CREATED="1334852774584" ID="ID_671076897" LINK="PHPUnit.mm" MODIFIED="1334852774585" TEXT="PHPUnit"/>
 </node>
 <node CREATED="1361539099498" FOLDED="true" ID="ID_374024873" MODIFIED="1361879968523" TEXT="UI">
@@ -74,34 +74,37 @@
 </node>
 </node>
 <node CREATED="1337095407580" ID="ID_1268790834" MODIFIED="1359042034693" POSITION="left" TEXT="libs">
-<node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1361879998505" TEXT="Captcha">
+<node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1361977750136" TEXT="Captcha">
 <node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
 <node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
 <node CREATED="1337095493488" ID="ID_1074773125" LINK="http://code.google.com/p/cool-php-captcha/" MODIFIED="1337095517343" TEXT="cool php captcha"/>
 <node CREATED="1337095518492" ID="ID_1870135368" LINK="http://www.phpcaptcha.org/" MODIFIED="1337095552753" TEXT="php captcha"/>
 </node>
-<node CREATED="1292929906380" FOLDED="true" ID="ID_995126132" MODIFIED="1361879999677" TEXT="Frameworks">
-<node COLOR="#cc3300" CREATED="1302022150489" ID="ID_538144076" MODIFIED="1302022160350" TEXT="MVC">
+<node CREATED="1292929906380" FOLDED="true" ID="ID_995126132" MODIFIED="1361977859720" TEXT="Frameworks">
+<node COLOR="#cc3300" CREATED="1302022150489" FOLDED="true" ID="ID_538144076" MODIFIED="1361977857760" TEXT="MVC">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#338800" CREATED="1292929957082" ID="ID_1178615153" LINK="Zend.mm" MODIFIED="1298549601890" STYLE="bubble" TEXT="ZendFramework">
+<node CREATED="1292929920445" ID="ID_1482400630" LINK="http://ellislab.com/codeigniter" MODIFIED="1361977848553" TEXT="CodeIgnitter">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 </node>
-<node CREATED="1292929920445" ID="ID_1482400630" MODIFIED="1299141795554" TEXT="CodeIgnitter">
+<node CREATED="1302022140177" ID="ID_767875219" LINK="http://kohanaframework.org/" MODIFIED="1361977815932" TEXT="Kohana">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1361977790424" ID="ID_1613289485" LINK="http://phalconphp.com/" MODIFIED="1361977799358" TEXT="Phalcon php">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1302022135002" ID="ID_1046566590" MODIFIED="1361977785992" TEXT="Symphony">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1292929957082" ID="ID_1178615153" LINK="Zend.mm" MODIFIED="1361977782702" STYLE="bubble" TEXT="ZendFramework">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 </node>
-<node CREATED="1302022135002" ID="ID_1046566590" MODIFIED="1302022171070" TEXT="Symphony">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1302022140177" ID="ID_767875219" MODIFIED="1302022172045" TEXT="Kohana">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1299138699860" FOLDED="true" ID="ID_1659667816" MODIFIED="1354282995595" TEXT="ORM">
+<node CREATED="1299138699860" FOLDED="true" ID="ID_1659667816" MODIFIED="1361977752558" TEXT="ORM">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299138706510" ID="ID_253301276" LINK="http://www.doctrine-project.org/" MODIFIED="1299138753581" TEXT="Doctrine"/>
 <node CREATED="1299138709209" ID="ID_746365137" LINK="http://www.propelorm.org/" MODIFIED="1299138740517" TEXT="Propel"/>
 </node>
-<node CREATED="1355500305094" ID="ID_463395371" MODIFIED="1355500312054" TEXT="TEMPLATE ENGINE">
+<node CREATED="1355500305094" FOLDED="true" ID="ID_463395371" MODIFIED="1361977859158" TEXT="TEMPLATE ENGINE">
 <node CREATED="1355500326563" ID="ID_1390439074" LINK="http://twig.sensiolabs.org/" MODIFIED="1355500349425" TEXT="TWIG"/>
 </node>
 </node>
@@ -139,7 +142,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1293715627303" FOLDED="true" ID="ID_238630762" MODIFIED="1361879984451" POSITION="right" TEXT="Debug">
+<node COLOR="#cc3300" CREATED="1293715627303" ID="ID_238630762" MODIFIED="1361981158126" POSITION="right" TEXT="Debug">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1293715633004" ID="ID_335545435" MODIFIED="1300955910353" TEXT="Zend Debugger">
 <node CREATED="1293783245381" FOLDED="true" ID="ID_1713486316" MODIFIED="1354283393492" TEXT="php.ini">
@@ -157,8 +160,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1293715638988" ID="ID_1471253451" MODIFIED="1293715640652" TEXT="Xdebug">
-<node CREATED="1293715641292" FOLDED="true" ID="ID_930891949" MODIFIED="1354283395554" TEXT="php.ini">
+<node CREATED="1293715638988" ID="ID_1471253451" MODIFIED="1361985790133" TEXT="Xdebug">
+<node CREATED="1293715641292" FOLDED="true" ID="ID_930891949" MODIFIED="1361981163632" TEXT="php.ini">
 <node CREATED="1293715648924" ID="ID_884123245" MODIFIED="1300956124819" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -176,7 +179,30 @@ xdebug.remote_port=9000
 <font NAME="SansSerif" SIZE="10"/>
 </node>
 </node>
-<node CREATED="1351777268909" ID="ID_275707846" LINK="http://clearfix.be/2011/12/06/debugging-php-cli-scripts-with-netbeans/" MODIFIED="1351777279886" TEXT="debug cli script"/>
+<node CREATED="1351777268909" FOLDED="true" ID="ID_275707846" LINK="http://clearfix.be/2011/12/06/debugging-php-cli-scripts-with-netbeans/" MODIFIED="1361985724000" TEXT="debug cli script">
+<node CREATED="1361985413325" ID="ID_677975297" MODIFIED="1361985718674">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # inside netbeans see the <b>SESSION_ID </b>(e.g <b><font color="#0033ff">netbeans-xdebug</font></b>)
+    </p>
+    <p>
+      # and then on terminal do the next
+    </p>
+    <p>
+      <font color="#0033ff">$ export XDEBUG_CONFIG=&quot;idekey=<b>netbeans-xdebug</b>&quot; </font>
+    </p>
+    <p>
+      <font color="#0033ff">$ <b>php</b>&#160;mydebug-script.php</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1297327197869" ID="ID_1900946002" MODIFIED="1297327204681" TEXT="FirePhp">
 <node CREATED="1297327205265" ID="ID_1384841508" LINK="http://inchoo.net/ecommerce/magento/magento-firephp-extension/" MODIFIED="1297327235980" TEXT="magento inchoo instruction"/>
