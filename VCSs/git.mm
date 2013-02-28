@@ -27,7 +27,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1357898708041" POSITION="left" TEXT="repository">
+<node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1362046897654" POSITION="left" TEXT="repository">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297154051581" ID="ID_1278066541" MODIFIED="1297154057954" TEXT="online">
 <node CREATED="1297154058338" ID="ID_227546252" LINK="http://github.com/" MODIFIED="1297154079091" TEXT="gtihub"/>
@@ -45,6 +45,33 @@
 </node>
 <node CREATED="1298285074594" ID="ID_1083371090" MODIFIED="1298285080239" TEXT="based on DAV">
 <node CREATED="1298285080937" ID="ID_1630430379" LINK="http://www.kernel.org/pub/software/scm/git/docs/howto/setup-git-server-over-http.txt" MODIFIED="1298285084556" TEXT="site"/>
+</node>
+</node>
+<node CREATED="1362046826543" FOLDED="true" ID="ID_1759957539" MODIFIED="1362046897219" TEXT="config">
+<node CREATED="1362046829239" ID="ID_285008206" MODIFIED="1362046889367">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Configure the repository for <b>group sharing</b>.
+    </p>
+    <p>
+      # This will effectively forcibly widen the umask for future Git operations.&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">$ cd /path/to/repository.git </font>
+    </p>
+    <p>
+      <font color="#0033ff">$ git config <b>core.sharedRepository</b>&#160;group&#160;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

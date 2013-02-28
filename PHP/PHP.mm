@@ -179,7 +179,7 @@ xdebug.remote_port=9000
 <font NAME="SansSerif" SIZE="10"/>
 </node>
 </node>
-<node CREATED="1351777268909" FOLDED="true" ID="ID_275707846" LINK="http://clearfix.be/2011/12/06/debugging-php-cli-scripts-with-netbeans/" MODIFIED="1361985724000" TEXT="debug cli script">
+<node CREATED="1351777268909" ID="ID_275707846" LINK="http://clearfix.be/2011/12/06/debugging-php-cli-scripts-with-netbeans/" MODIFIED="1362073168232" TEXT="debug cli script">
 <node CREATED="1361985413325" ID="ID_677975297" MODIFIED="1361985718674">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -199,8 +199,7 @@ xdebug.remote_port=9000
       <font color="#0033ff">$ <b>php</b>&#160;mydebug-script.php</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -251,7 +250,7 @@ xdebug.remote_port=9000
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1359042029273" POSITION="left" TEXT="CORE">
+<node CREATED="1293626384065" ID="ID_415569466" MODIFIED="1362073622299" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1355828429200" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1355767615674" TEXT="inf">
@@ -1563,8 +1562,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299149825660" ID="ID_1260115731" MODIFIED="1361884072329" TEXT="Classes">
-<node CREATED="1299160408769" FOLDED="true" ID="ID_1067806093" MODIFIED="1361884097338" TEXT="inf">
+<node CREATED="1299149825660" FOLDED="true" ID="ID_1260115731" MODIFIED="1362063419614" TEXT="Classes">
 <node CREATED="1299161595122" ID="ID_1519705349" MODIFIED="1299161651236">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1591,7 +1589,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299160411145" FOLDED="true" ID="ID_543816041" MODIFIED="1301309593735">
+<node CREATED="1299160411145" FOLDED="true" ID="ID_543816041" MODIFIED="1362063075589">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1603,9 +1601,23 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1299160414636" ID="ID_888619576" LINK="#ID_1108734492" MODIFIED="1299161000363" TEXT="The pseudo-variable $this is available when a method is called from within an object context. $this is a reference to the calling object"/>
+<node CREATED="1299160450298" ID="ID_1108734492" MODIFIED="1362063069870">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="example-contents">
+      <div class="phpcode">
+        <code><font color="#000000">// $this = current object<br /></font><font color="rgb(0, 0, 187)">&lt;?php<br /></font><font color="rgb(0, 119, 0)">class&#160;</font><font color="rgb(0, 0, 187)">A<br /></font><font color="rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;function&#160;</font><font color="rgb(0, 0, 187)">foo</font><font color="rgb(0, 119, 0)">()<br />&#160;&#160;&#160;&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(isset(</font><font color="rgb(0, 0, 187)">$this</font><font color="rgb(0, 119, 0)">))&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</font><font color="rgb(221, 0, 0)">'$this&#160;is&#160;defined&#160;('</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</font><font color="rgb(0, 0, 187)">get_class</font><font color="rgb(0, 119, 0)">(</font><font color="rgb(0, 0, 187)">$this</font><font color="rgb(0, 119, 0)">);<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</font><font color="rgb(221, 0, 0)">&quot;)\n&quot;</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;else&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</font><font color="rgb(221, 0, 0)">&quot;\$this&#160;is&#160;not&#160;defined.\n&quot;</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<br />&#160;&#160;&#160;&#160;}<br />}<br /><br />class&#160;</font><font color="rgb(0, 0, 187)">B<br /></font><font color="rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;function&#160;</font><font color="rgb(0, 0, 187)">bar</font><font color="rgb(0, 119, 0)">()<br />&#160;&#160;&#160;&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="rgb(255, 128, 0)">//&#160;Note:&#160;the&#160;next&#160;line&#160;will&#160;issue&#160;a&#160;warning&#160;if&#160;E_STRICT&#160;is&#160;enabled.<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="rgb(0, 0, 187)">A</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">foo</font><font color="rgb(0, 119, 0)">();<br />&#160;&#160;&#160;&#160;}<br />}<br /><br /></font><font color="rgb(0, 0, 187)">$a&#160;</font><font color="rgb(0, 119, 0)">=&#160;new&#160;</font><font color="rgb(0, 0, 187)">A</font><font color="rgb(0, 119, 0)">();<br /></font><font color="rgb(0, 0, 187)">$a</font><font color="rgb(0, 119, 0)">-&gt;</font><font color="rgb(0, 0, 187)">foo</font><font color="rgb(0, 119, 0)">();<br /><br /></font><font color="rgb(255, 128, 0)">//&#160;Note:&#160;the&#160;next&#160;line&#160;will&#160;issue&#160;a&#160;warning&#160;if&#160;E_STRICT&#160;is&#160;enabled.<br /></font><font color="rgb(0, 0, 187)">A</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">foo</font><font color="rgb(0, 119, 0)">();<br /></font><font color="rgb(0, 0, 187)">$b&#160;</font><font color="rgb(0, 119, 0)">=&#160;new&#160;</font><font color="rgb(0, 0, 187)">B</font><font color="rgb(0, 119, 0)">();<br /></font><font color="rgb(0, 0, 187)">$b</font><font color="rgb(0, 119, 0)">-&gt;</font><font color="rgb(0, 0, 187)">bar</font><font color="rgb(0, 119, 0)">();<br /><br /></font><font color="rgb(255, 128, 0)">//&#160;Note:&#160;the&#160;next&#160;line&#160;will&#160;issue&#160;a&#160;warning&#160;if&#160;E_STRICT&#160;is&#160;enabled.<br /></font><font color="rgb(0, 0, 187)">B</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">bar</font><font color="rgb(0, 119, 0)">();<br /></font><font color="rgb(0, 0, 187)">?&gt;</font><font color="rgb(0, 0, 0)">&#160; </font></code>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1299162365651" FOLDED="true" ID="ID_803718573" MODIFIED="1301309593728">
+</node>
+<node CREATED="1299162365651" FOLDED="true" ID="ID_803718573" MODIFIED="1362063077107">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1629,8 +1641,36 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1299162356900" ID="ID_1309445242" MODIFIED="1299162360552">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="example-contents">
+      <div class="phpcode">
+        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">__autoload</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">(</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$class_name</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">)&#160;{<br />&#160;&#160;&#160;&#160;include&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$class_name&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'.php'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />}<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$obj&#160;&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">MyClass1</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$obj2&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">MyClass2</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();&#160;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1299162511720" FOLDED="true" ID="ID_1956375870" MODIFIED="1361884095474" STYLE="fork" TEXT="constuct/destruct">
+<node CREATED="1299162486079" ID="ID_932409982" MODIFIED="1299162489470">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="example-contents">
+      <div class="phpcode">
+        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">__autoload</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">(</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$name</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">)&#160;{<br />&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;Want&#160;to&#160;load&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$name</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">.\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;throw&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Exception</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">(</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;Unable&#160;to&#160;load&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$name</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">.&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">);<br />}<br /><br />try&#160;{<br />&#160;&#160;&#160;&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$obj&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">NonLoadableClass</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br />}&#160;catch&#160;(</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Exception&#160;$e</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">)&#160;{<br />&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$e</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">getMessage</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">(),&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />}<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1299162511720" FOLDED="true" ID="ID_1956375870" MODIFIED="1362063078836" STYLE="fork" TEXT="constuct/destruct">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299162579233" ID="ID_521821062" MODIFIED="1299163372300" TEXT="Classes which have a constructor method call this method on each newly-created object, so it is suitable for any initialization that the object may need before it is used."/>
@@ -1647,7 +1687,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299163077317" FOLDED="true" ID="ID_1095648745" MODIFIED="1299165805473" TEXT="visibility">
+<node CREATED="1299163077317" FOLDED="true" ID="ID_1095648745" MODIFIED="1362053084230" TEXT="visibility">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1299163080773" ID="ID_734921694" MODIFIED="1299163143599" STYLE="fork">
 <richcontent TYPE="NODE"><html>
@@ -1663,7 +1703,7 @@ integer     : [+-]?decimal
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1299163289338" FOLDED="true" ID="ID_671618037" MODIFIED="1312536069657" STYLE="fork">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1299163289338" FOLDED="true" ID="ID_671618037" MODIFIED="1362053084229" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1699,7 +1739,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299164086015" FOLDED="true" ID="ID_804566709" MODIFIED="1301309596415">
+<node CREATED="1299164086015" FOLDED="true" ID="ID_804566709" MODIFIED="1362053084226">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1728,7 +1768,7 @@ integer     : [+-]?decimal
 </node>
 <node CREATED="1299164655677" ID="ID_281184367" MODIFIED="1299164657870" TEXT="Its possible for interfaces to have constants. Interface constants works exactly like class constants except they cannot be overridden by a class/interface that inherits it. "/>
 </node>
-<node CREATED="1299165343200" FOLDED="true" ID="ID_1408513066" MODIFIED="1300955800338" TEXT="overloading">
+<node CREATED="1299165343200" FOLDED="true" ID="ID_1408513066" MODIFIED="1362053084223" TEXT="overloading">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299165348255" ID="ID_1299329519" MODIFIED="1299165396647">
 <richcontent TYPE="NODE"><html>
@@ -1773,11 +1813,11 @@ integer     : [+-]?decimal
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1299165788829" FOLDED="true" ID="ID_844222219" MODIFIED="1300955804721" TEXT="object iteration">
+<node CREATED="1299165788829" FOLDED="true" ID="ID_844222219" MODIFIED="1362053084222" TEXT="object iteration">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299165798928" ID="ID_1601230446" MODIFIED="1299166245246" TEXT="PHP 5 provides a way for objects to be defined so it is possible to iterate through a list of items, with, for example a foreach statement. By default, all visible properties will be used for the iteration. "/>
 </node>
-<node CREATED="1299166709472" FOLDED="true" ID="ID_1932649051" MODIFIED="1300955887184" TEXT="magic functions">
+<node CREATED="1299166709472" FOLDED="true" ID="ID_1932649051" MODIFIED="1362053084220" TEXT="magic functions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1299166722008" FOLDED="true" ID="ID_423022767" MODIFIED="1301995097650" TEXT="__invoke">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1856,7 +1896,7 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299167386033" FOLDED="true" ID="ID_1138846849" MODIFIED="1301309597463">
+<node CREATED="1299167386033" FOLDED="true" ID="ID_1138846849" MODIFIED="1362053084219">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1870,7 +1910,7 @@ integer     : [+-]?decimal
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299167398151" ID="ID_660393576" MODIFIED="1299167403489" TEXT="PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended"/>
 </node>
-<node CREATED="1299167984280" FOLDED="true" ID="ID_1570908959" MODIFIED="1300955473943" TEXT="comparing">
+<node CREATED="1299167984280" FOLDED="true" ID="ID_1570908959" MODIFIED="1362063419108" TEXT="comparing">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299167988752" ID="ID_1876510878" MODIFIED="1299168012534">
 <richcontent TYPE="NODE"><html>
@@ -1891,7 +1931,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299168108504" FOLDED="true" ID="ID_1148174175" MODIFIED="1300955473283" TEXT="type Hinting">
+<node CREATED="1299168108504" FOLDED="true" ID="ID_1148174175" MODIFIED="1362053084215" TEXT="type Hinting">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299168112833" ID="ID_405552196" MODIFIED="1299168231375">
 <richcontent TYPE="NODE"><html>
@@ -1918,11 +1958,11 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299168679625" FOLDED="true" ID="ID_610920909" MODIFIED="1300955369921" TEXT="refferences">
+<node CREATED="1299168679625" FOLDED="true" ID="ID_610920909" MODIFIED="1362053084214" TEXT="refferences">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299168688618" ID="ID_160244326" MODIFIED="1299168699032" TEXT="One of the key-points of PHP5 OOP that is often mentioned is that &quot;objects are passed by references by default&quot;. This is not completely true. This section rectifies that general thought using some examples.  A PHP reference is an alias, which allows two different variables to write to the same value. As of PHP5, an object variable doesn&apos;t contain the object itself as value anymore. It only contains an object identifier which allows object accessors to find the actual object. When an object is sent by argument, returned or assigned to another variable, the different variables are not aliases: they hold a copy of the identifier, which points to the same object. "/>
 </node>
-<node CREATED="1299169165694" FOLDED="true" ID="ID_366280398" MODIFIED="1301402808770" TEXT="serialization">
+<node CREATED="1299169165694" FOLDED="true" ID="ID_366280398" MODIFIED="1362053084212" TEXT="serialization">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299169170082" ID="ID_823159848" MODIFIED="1299169183061">
 <richcontent TYPE="NODE"><html>
@@ -1940,24 +1980,35 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1301402811122" ID="ID_1299419191" LINK="#ID_1785265889" MODIFIED="1301404123211" TEXT="constants">
+<node CREATED="1301402811122" FOLDED="true" ID="ID_1299419191" LINK="#ID_1785265889" MODIFIED="1362063216788" TEXT="constants">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1299149830514" FOLDED="true" ID="ID_902834209" MODIFIED="1361884098177" TEXT="ex">
-<node CREATED="1299160446732" FOLDED="true" ID="ID_1627791006" MODIFIED="1361884078762">
+<node CREATED="1301404036335" ID="ID_1914742666" MODIFIED="1301404098859">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0000ff">this</font>
+      <font color="rgb(0, 0, 187)">&lt;?php<br /></font><font color="rgb(0, 119, 0)">class&#160;</font><font color="rgb(0, 0, 187)">MyClass<br /></font><font color="rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;const&#160;</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">=&#160;</font><font color="rgb(221, 0, 0)">'constant&#160;value'</font><font color="rgb(0, 119, 0)">;<br /><br />&#160;&#160;&#160;&#160;function&#160;</font><font color="rgb(0, 0, 187)">showConstant</font><font color="rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;&#160;</font><font color="rgb(0, 0, 187)">self</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">.&#160;</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;}<br />}<br /><br />echo&#160;</font><font color="rgb(0, 0, 187)">MyClass</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">.&#160;</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;<br /><br /></font><font color="rgb(0, 0, 187)">$classname&#160;</font><font color="rgb(0, 119, 0)">=&#160;</font><font color="rgb(221, 0, 0)">&quot;MyClass&quot;</font><font color="rgb(0, 119, 0)">;<br />echo&#160;</font><font color="rgb(0, 0, 187)">$classname</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">.&#160;</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;&#160;</font><font color="rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /><br /></font><font color="rgb(0, 0, 187)">$class&#160;</font><font color="rgb(0, 119, 0)">=&#160;new&#160;</font><font color="rgb(0, 0, 187)">MyClass</font><font color="rgb(0, 119, 0)">();<br /></font><font color="rgb(0, 0, 187)">$class</font><font color="rgb(0, 119, 0)">-&gt;</font><font color="rgb(0, 0, 187)">showConstant</font><font color="rgb(0, 119, 0)">();<br /><br />echo&#160;</font><font color="rgb(0, 0, 187)">$class</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant</font><font color="rgb(0, 119, 0)">.</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;&#160;</font><font color="rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /></font><font color="rgb(0, 0, 187)">?&gt;</font><font color="rgb(0, 0, 0)">&#160; </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1299163786053" FOLDED="true" ID="ID_1049876510" MODIFIED="1362063215189">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">static</font>
     </p>
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1299160450298" ID="ID_1108734492" MODIFIED="1299160454150">
+<node CREATED="1299163788373" FOLDED="true" ID="ID_645630477" MODIFIED="1362063089457" TEXT="static property">
+<node CREATED="1299163799763" ID="ID_944103680" MODIFIED="1299163806770">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1965,14 +2016,29 @@ integer     : [+-]?decimal
   <body>
     <div class="example-contents">
       <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">A<br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()<br />&#160;&#160;&#160;&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(isset(</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$this</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">))&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'$this&#160;is&#160;defined&#160;('</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">get_class</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">(</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$this</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">);<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;)\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;else&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\$this&#160;is&#160;not&#160;defined.\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<br />&#160;&#160;&#160;&#160;}<br />}<br /><br />class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">B<br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">bar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()<br />&#160;&#160;&#160;&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Note:&#160;the&#160;next&#160;line&#160;will&#160;issue&#160;a&#160;warning&#160;if&#160;E_STRICT&#160;is&#160;enabled.<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">A</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br />&#160;&#160;&#160;&#160;}<br />}<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$a&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">A</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$a</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /><br /></span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Note:&#160;the&#160;next&#160;line&#160;will&#160;issue&#160;a&#160;warning&#160;if&#160;E_STRICT&#160;is&#160;enabled.<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">A</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$b&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">B</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$b</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">bar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /><br /></span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Note:&#160;the&#160;next&#160;line&#160;will&#160;issue&#160;a&#160;warning&#160;if&#160;E_STRICT&#160;is&#160;enabled.<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">B</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">bar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
+        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo<br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;public&#160;static&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'foo'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /><br />&#160;&#160;&#160;&#160;public&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">staticValue</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">self</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;}<br />}<br /><br />class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Bar&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">extends&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo<br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;public&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">fooStatic</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">parent</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;}<br />}<br /><br /><br />print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$foo&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br />print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">staticValue</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;&#160;&#160;&#160;&#160;&#160;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Undefined&#160;&quot;Property&quot;&#160;my_static&#160;<br /><br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$classname&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'Foo'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$classname</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /><br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Bar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$bar&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Bar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br />print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$bar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">fooStatic</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
       </div>
     </div>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299160422217" FOLDED="true" ID="ID_1739453224" MODIFIED="1299160425228" TEXT="simple">
+<node CREATED="1299163817495" FOLDED="true" ID="ID_52727664" MODIFIED="1362063092209" TEXT="static method">
+<node CREATED="1299163821050" ID="ID_1433152721" MODIFIED="1299163824115">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="example-contents">
+      <div class="phpcode">
+        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;public&#160;static&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">aStaticMethod</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;...<br />&#160;&#160;&#160;&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">}<br />}<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">aStaticMethod</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$classname&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'Foo'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$classname</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">aStaticMethod</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1299160335376" ID="ID_1859718493" MODIFIED="1299160340258">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1987,24 +2053,6 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1299161031755" FOLDED="true" ID="ID_1770330501" MODIFIED="1299166463733" TEXT="Instanse via variable">
-<node CREATED="1299161047489" ID="ID_1166159945" MODIFIED="1299161051825">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="example-contents">
-      <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br />$instance&#160;</span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">SimpleClass</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /><br /></span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;This&#160;can&#160;also&#160;be&#160;done&#160;with&#160;a&#160;variable:<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$className&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'Foo'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$instance&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$className</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Foo()<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1299161721017" FOLDED="true" ID="ID_395986300" MODIFIED="1299162082953" TEXT="property declaration">
 <node CREATED="1299161725846" ID="ID_1898685294" MODIFIED="1299161742128">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2020,111 +2068,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299162085072" FOLDED="true" ID="ID_1385166900" MODIFIED="1299162093605" TEXT="class constants">
-<node CREATED="1299162089540" ID="ID_654274341" MODIFIED="1299162092570">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="example-contents">
-      <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">MyClass<br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;const&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">constant&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'constant&#160;value'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /><br />&#160;&#160;&#160;&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">showConstant</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">self</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">constant&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;}<br />}<br /><br />echo&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">MyClass</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">constant&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$classname&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;MyClass&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />echo&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$classname</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">constant&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$class&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">MyClass</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$class</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">showConstant</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /><br />echo&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$class</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">constant</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1299161122379" FOLDED="true" ID="ID_810996958" MODIFIED="1299161149148" TEXT="obj assigment">
-<node CREATED="1299161126654" ID="ID_848342476" MODIFIED="1299161147461">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="example-contents">
-      <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code>&lt;?php<br /><br />$instance&#160;</code></font><code><font color="rgb(0, 119, 0)">=&#160;new&#160;</font><font color="rgb(0, 0, 187)">SimpleClass</font><font color="rgb(0, 119, 0)">();<br /><br /></font><font color="rgb(0, 0, 187)">$assigned&#160;&#160;&#160;</font><font color="rgb(0, 119, 0)">=&#160;&#160;</font><font color="rgb(0, 0, 187)">$instance</font><font color="rgb(0, 119, 0)">;<br /></font><font color="rgb(0, 0, 187)">$reference&#160;&#160;</font><font color="rgb(0, 119, 0)">=&amp;&#160;</font><font color="rgb(0, 0, 187)">$instance</font><font color="rgb(0, 119, 0)">;<br /><br /></font><font color="rgb(0, 0, 187)">$instance</font><font color="rgb(0, 119, 0)">-&gt;</font><font color="rgb(0, 0, 187)">var&#160;</font><font color="rgb(0, 119, 0)">=&#160;</font><font color="rgb(221, 0, 0)">'$assigned&#160;will&#160;have&#160;this&#160;value'</font><font color="rgb(0, 119, 0)">;<br /><br /></font><font color="rgb(0, 0, 187)">$instance&#160;</font><font color="rgb(0, 119, 0)">=&#160;</font><font color="rgb(0, 0, 187)">null</font><font color="rgb(0, 119, 0)">;&#160;</font><font color="rgb(255, 128, 0)">//&#160;$instance&#160;and&#160;$reference&#160;become&#160;null<br /><br /></font><font color="rgb(0, 0, 187)">var_dump</font><font color="rgb(0, 119, 0)">(</font><font color="rgb(0, 0, 187)">$instance</font><font color="rgb(0, 119, 0)">);<br /></font><font color="rgb(0, 0, 187)">var_dump</font><font color="rgb(0, 119, 0)">(</font><font color="rgb(0, 0, 187)">$reference</font><font color="rgb(0, 119, 0)">);<br /></font><font color="rgb(0, 0, 187)">var_dump</font><font color="rgb(0, 119, 0)">(</font><font color="rgb(0, 0, 187)">$assigned</font><font color="rgb(0, 119, 0)">);<br /></font><font color="rgb(0, 0, 187)">?&gt;</font><font color="rgb(0, 0, 0)">&#160; </font></code>
-      </div>
-    </div>
-    <p>
-      
-    </p>
-    <p>
-      OUTPUT:
-    </p>
-    <pre>NULL
-NULL
-object(SimpleClass)#1 (1) {
-   [&quot;var&quot;]=&gt;
-     string(30) &quot;$assigned will have this value&quot;</pre>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1299161232290" FOLDED="true" ID="ID_1501468758" MODIFIED="1312536088983" TEXT="Inheritance">
-<node CREATED="1299161236515" ID="ID_1771778923" MODIFIED="1299161241196">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="example-contents">
-      <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">ExtendClass&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">extends&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">SimpleClass<br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Redefine&#160;the&#160;parent&#160;method<br />&#160;&#160;&#160;&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">displayVar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()<br />&#160;&#160;&#160;&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;Extending&#160;class\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">parent</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">displayVar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br />&#160;&#160;&#160;&#160;}<br />}<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$extended&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">ExtendClass</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$extended</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">displayVar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1299162608901" FOLDED="true" ID="ID_1254162012" MODIFIED="1301404000854">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">__autoload</font>
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1299162354536" FOLDED="true" ID="ID_981761507" MODIFIED="1300955459924" TEXT="simple">
-<node CREATED="1299162356900" ID="ID_1309445242" MODIFIED="1299162360552">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="example-contents">
-      <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">__autoload</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">(</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$class_name</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">)&#160;{<br />&#160;&#160;&#160;&#160;include&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$class_name&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'.php'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />}<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$obj&#160;&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">MyClass1</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$obj2&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">MyClass2</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();&#160;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1299162474311" FOLDED="true" ID="ID_208226627" MODIFIED="1300955461991" TEXT="autoload with exception">
-<node CREATED="1299162486079" ID="ID_932409982" MODIFIED="1299162489470">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="example-contents">
-      <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">__autoload</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">(</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$name</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">)&#160;{<br />&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;Want&#160;to&#160;load&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$name</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">.\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;throw&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Exception</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">(</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;Unable&#160;to&#160;load&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$name</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">.&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">);<br />}<br /><br />try&#160;{<br />&#160;&#160;&#160;&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$obj&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">NonLoadableClass</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br />}&#160;catch&#160;(</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Exception&#160;$e</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">)&#160;{<br />&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$e</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">getMessage</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">(),&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />}<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1299163855616" FOLDED="true" ID="ID_289698167" MODIFIED="1301404000849">
+<node CREATED="1299163855616" FOLDED="true" ID="ID_289698167" MODIFIED="1362063213029">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2161,7 +2105,65 @@ FOO_ConcreteClass2</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299162688760" FOLDED="true" ID="ID_190385460" MODIFIED="1301576725067" TEXT="constr/destruct">
+<node CREATED="1299161047489" ID="ID_1166159945" MODIFIED="1362063221659">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="example-contents">
+      <div class="phpcode">
+        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br />$instance&#160;</span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">SimpleClass</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /><br /></span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;This&#160;can&#160;also&#160;be&#160;done&#160;with&#160;a&#160;variable:<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$className&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'Foo'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$instance&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$className</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Foo()<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1299149830514" FOLDED="true" ID="ID_902834209" MODIFIED="1362063414620" TEXT="ex">
+<node CREATED="1299161122379" FOLDED="true" ID="ID_810996958" MODIFIED="1362050047515" TEXT="obj assigment">
+<node CREATED="1299161126654" ID="ID_848342476" MODIFIED="1299161147461">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="example-contents">
+      <div class="phpcode">
+        <font color="rgb(0, 0, 187)"><code>&lt;?php<br /><br />$instance&#160;</code></font><code><font color="rgb(0, 119, 0)">=&#160;new&#160;</font><font color="rgb(0, 0, 187)">SimpleClass</font><font color="rgb(0, 119, 0)">();<br /><br /></font><font color="rgb(0, 0, 187)">$assigned&#160;&#160;&#160;</font><font color="rgb(0, 119, 0)">=&#160;&#160;</font><font color="rgb(0, 0, 187)">$instance</font><font color="rgb(0, 119, 0)">;<br /></font><font color="rgb(0, 0, 187)">$reference&#160;&#160;</font><font color="rgb(0, 119, 0)">=&amp;&#160;</font><font color="rgb(0, 0, 187)">$instance</font><font color="rgb(0, 119, 0)">;<br /><br /></font><font color="rgb(0, 0, 187)">$instance</font><font color="rgb(0, 119, 0)">-&gt;</font><font color="rgb(0, 0, 187)">var&#160;</font><font color="rgb(0, 119, 0)">=&#160;</font><font color="rgb(221, 0, 0)">'$assigned&#160;will&#160;have&#160;this&#160;value'</font><font color="rgb(0, 119, 0)">;<br /><br /></font><font color="rgb(0, 0, 187)">$instance&#160;</font><font color="rgb(0, 119, 0)">=&#160;</font><font color="rgb(0, 0, 187)">null</font><font color="rgb(0, 119, 0)">;&#160;</font><font color="rgb(255, 128, 0)">//&#160;$instance&#160;and&#160;$reference&#160;become&#160;null<br /><br /></font><font color="rgb(0, 0, 187)">var_dump</font><font color="rgb(0, 119, 0)">(</font><font color="rgb(0, 0, 187)">$instance</font><font color="rgb(0, 119, 0)">);<br /></font><font color="rgb(0, 0, 187)">var_dump</font><font color="rgb(0, 119, 0)">(</font><font color="rgb(0, 0, 187)">$reference</font><font color="rgb(0, 119, 0)">);<br /></font><font color="rgb(0, 0, 187)">var_dump</font><font color="rgb(0, 119, 0)">(</font><font color="rgb(0, 0, 187)">$assigned</font><font color="rgb(0, 119, 0)">);<br /></font><font color="rgb(0, 0, 187)">?&gt;</font><font color="rgb(0, 0, 0)">&#160; </font></code>
+      </div>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      OUTPUT:
+    </p>
+    <pre>NULL
+NULL
+object(SimpleClass)#1 (1) {
+   [&quot;var&quot;]=&gt;
+     string(30) &quot;$assigned will have this value&quot;</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1299161232290" FOLDED="true" ID="ID_1501468758" MODIFIED="1362050047513" TEXT="Inheritance">
+<node CREATED="1299161236515" ID="ID_1771778923" MODIFIED="1299161241196">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="example-contents">
+      <div class="phpcode">
+        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">ExtendClass&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">extends&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">SimpleClass<br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Redefine&#160;the&#160;parent&#160;method<br />&#160;&#160;&#160;&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">displayVar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()<br />&#160;&#160;&#160;&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;Extending&#160;class\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">parent</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">displayVar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br />&#160;&#160;&#160;&#160;}<br />}<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$extended&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">ExtendClass</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$extended</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">displayVar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1299162688760" FOLDED="true" ID="ID_190385460" MODIFIED="1362050047505" TEXT="constr/destruct">
 <node CREATED="1299162710661" FOLDED="true" ID="ID_940515950" MODIFIED="1301995097651" TEXT="constr">
 <node CREATED="1299162714782" ID="ID_479837709" MODIFIED="1299162723411">
 <richcontent TYPE="NODE"><html>
@@ -2195,7 +2197,7 @@ FOO_ConcreteClass2</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299163019788" FOLDED="true" ID="ID_1456233873" MODIFIED="1299167444977" TEXT="visible from objects">
+<node CREATED="1299163019788" FOLDED="true" ID="ID_1456233873" MODIFIED="1362050047504" TEXT="visible from objects">
 <node CREATED="1299163030215" ID="ID_1916924413" MODIFIED="1299163053942">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2219,52 +2221,7 @@ Accessed the private method</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299163786053" FOLDED="true" ID="ID_1049876510" MODIFIED="1301404006670">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">static</font>
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1299163788373" FOLDED="true" ID="ID_645630477" MODIFIED="1299175216745" TEXT="static property">
-<node CREATED="1299163799763" ID="ID_944103680" MODIFIED="1299163806770">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="example-contents">
-      <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo<br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;public&#160;static&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'foo'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /><br />&#160;&#160;&#160;&#160;public&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">staticValue</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">self</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;}<br />}<br /><br />class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Bar&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">extends&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo<br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;public&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">fooStatic</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">parent</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;}<br />}<br /><br /><br />print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$foo&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br />print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">staticValue</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;&#160;&#160;&#160;&#160;&#160;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Undefined&#160;&quot;Property&quot;&#160;my_static&#160;<br /><br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$classname&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'Foo'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$classname</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /><br /></span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Bar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$my_static&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$bar&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;new&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Bar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br />print&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$bar</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">-&gt;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">fooStatic</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;.&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1299163817495" FOLDED="true" ID="ID_52727664" MODIFIED="1299163956863" TEXT="static method">
-<node CREATED="1299163821050" ID="ID_1433152721" MODIFIED="1299163824115">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="example-contents">
-      <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;public&#160;static&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">aStaticMethod</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;...<br />&#160;&#160;&#160;&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">}<br />}<br /><br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">Foo</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">aStaticMethod</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$classname&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">=&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">'Foo'</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">$classname</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">::</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">aStaticMethod</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">();&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1299164680261" FOLDED="true" ID="ID_1472175396" MODIFIED="1301404006665">
+<node CREATED="1299164680261" FOLDED="true" ID="ID_1472175396" MODIFIED="1362050047499">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2309,8 +2266,8 @@ Accessed the private method</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299165612445" FOLDED="true" ID="ID_402144208" MODIFIED="1299167443143" TEXT="overloading">
-<node CREATED="1299165615905" FOLDED="true" ID="ID_985112055" MODIFIED="1299165667731" TEXT="value">
+<node CREATED="1299165612445" FOLDED="true" ID="ID_402144208" MODIFIED="1362063408332" TEXT="overloading">
+<node CREATED="1299165615905" FOLDED="true" ID="ID_985112055" MODIFIED="1362063379365" TEXT="value">
 <node CREATED="1299165617665" ID="ID_538305958" MODIFIED="1299165649522">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2352,7 +2309,7 @@ Notice:  Undefined property via __get(): hidden in &lt;file&gt; on line 70 in &l
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299165668098" FOLDED="true" ID="ID_1709537132" MODIFIED="1299165696699" TEXT="method">
+<node CREATED="1299165668098" FOLDED="true" ID="ID_1709537132" MODIFIED="1362063407202" TEXT="method">
 <node CREATED="1299165678528" ID="ID_482128731" MODIFIED="1299165695791">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2377,8 +2334,8 @@ Calling static method 'runTest' in static context</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299165940097" FOLDED="true" ID="ID_1697731101" MODIFIED="1299167442740" TEXT="object Iteration">
-<node CREATED="1299165945026" FOLDED="true" ID="ID_846507313" MODIFIED="1299166010071" TEXT="simple">
+<node CREATED="1299165940097" FOLDED="true" ID="ID_1697731101" MODIFIED="1362063411081" TEXT="object Iteration">
+<node CREATED="1299165945026" FOLDED="true" ID="ID_846507313" MODIFIED="1362063362626" TEXT="simple">
 <node CREATED="1299165950229" ID="ID_1223110332" MODIFIED="1299166007374">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2405,7 +2362,7 @@ private =&gt; private var</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299166010451" FOLDED="true" ID="ID_1793500060" MODIFIED="1299166049705" TEXT="with Iterator">
+<node CREATED="1299166010451" FOLDED="true" ID="ID_1793500060" MODIFIED="1362063410699" TEXT="with Iterator">
 <node CREATED="1299166015721" ID="ID_261352207" MODIFIED="1299166043055">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2441,7 +2398,7 @@ valid: </pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299166061620" FOLDED="true" ID="ID_692481556" MODIFIED="1299166082134" TEXT="iterrator agregate">
+<node CREATED="1299166061620" FOLDED="true" ID="ID_692481556" MODIFIED="1362063367001" TEXT="iterrator agregate">
 <node CREATED="1299166067101" ID="ID_1557093638" MODIFIED="1299166081243">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2485,9 +2442,9 @@ valid:</pre>
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1299166126175" FOLDED="true" ID="ID_75331329" MODIFIED="1299167442352" TEXT="patterns">
+<node COLOR="#996600" CREATED="1299166126175" FOLDED="true" ID="ID_75331329" MODIFIED="1362063409569" TEXT="patterns">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1299166250047" FOLDED="true" ID="ID_1107998930" MODIFIED="1299166299676" TEXT="Factory">
+<node CREATED="1299166250047" FOLDED="true" ID="ID_1107998930" MODIFIED="1362063234316" TEXT="Factory">
 <node CREATED="1299166269425" ID="ID_1872703685" MODIFIED="1299166298413">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2514,7 +2471,7 @@ valid:</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299166255696" FOLDED="true" ID="ID_1563272779" MODIFIED="1299166315053" TEXT="Singletone">
+<node CREATED="1299166255696" FOLDED="true" ID="ID_1563272779" MODIFIED="1362063236626" TEXT="Singletone">
 <node CREATED="1299166274330" ID="ID_1455569213" MODIFIED="1299166314349">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2542,8 +2499,8 @@ valid:</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299166635305" FOLDED="true" ID="ID_124157290" MODIFIED="1300955491936" TEXT="magic functions">
-<node CREATED="1299166643682" FOLDED="true" ID="ID_926125091" MODIFIED="1300955416668">
+<node CREATED="1299166635305" FOLDED="true" ID="ID_124157290" MODIFIED="1362063412207" TEXT="magic functions">
+<node COLOR="#0033ff" CREATED="1299166643682" FOLDED="true" ID="ID_926125091" MODIFIED="1362063247620">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2554,6 +2511,7 @@ valid:</pre>
     </p>
   </body>
 </html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299166669117" ID="ID_573779343" MODIFIED="1299166672167">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2569,7 +2527,8 @@ valid:</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299167081510" FOLDED="true" ID="ID_432435468" MODIFIED="1300955434039" TEXT="__invoke">
+<node COLOR="#0033ff" CREATED="1299167081510" FOLDED="true" ID="ID_432435468" MODIFIED="1362063247625" TEXT="__invoke">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299167089910" ID="ID_764887513" MODIFIED="1299167143778">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2593,7 +2552,8 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299167106891" FOLDED="true" ID="ID_1527815796" MODIFIED="1300955436361" TEXT="__toString">
+<node COLOR="#0033ff" CREATED="1299167106891" FOLDED="true" ID="ID_1527815796" MODIFIED="1362063247625" TEXT="__toString">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299167115260" ID="ID_1000606256" MODIFIED="1299167129911">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2616,7 +2576,8 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299167167432" FOLDED="true" ID="ID_1325231811" MODIFIED="1300955444314" TEXT="__set_state">
+<node COLOR="#0033ff" CREATED="1299167167432" FOLDED="true" ID="ID_1325231811" MODIFIED="1362063247626" TEXT="__set_state">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299167170812" ID="ID_491492576" MODIFIED="1299167181644">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2645,7 +2606,7 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299167450394" FOLDED="true" ID="ID_1334166098" MODIFIED="1301575672404">
+<node COLOR="#0033ff" CREATED="1299167450394" FOLDED="true" ID="ID_1334166098" MODIFIED="1362063352677">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2656,9 +2617,8 @@ bool(true)</pre>
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1299167466565" FOLDED="true" ID="ID_691213654" MODIFIED="1301575666404" TEXT="method">
-<node CREATED="1299167459282" ID="ID_383462451" MODIFIED="1299167462983">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1299167459282" ID="ID_383462451" MODIFIED="1362063312621">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2666,15 +2626,14 @@ bool(true)</pre>
   <body>
     <div class="example-contents">
       <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">BaseClass&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;public&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">test</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;BaseClass::test()&#160;called\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;}<br />&#160;&#160;&#160;<br />&#160;&#160;&#160;final&#160;public&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">moreTesting</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;BaseClass::moreTesting()&#160;called\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;}<br />}<br /><br />class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">ChildClass&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">extends&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">BaseClass&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;public&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">moreTesting</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;ChildClass::moreTesting()&#160;called\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;}<br />}<br /></span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Results&#160;in&#160;Fatal&#160;error:&#160;Cannot&#160;override&#160;final&#160;method&#160;BaseClass::moreTesting()<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
+        <code><font color="#000000">// used for method</font><br /><font color="rgb(0, 0, 187)">&lt;?php<br /></font><font color="rgb(0, 119, 0)">class&#160;</font><font color="rgb(0, 0, 187)">BaseClass&#160;</font><font color="rgb(0, 119, 0)">{<br />&#160;&#160;&#160;public&#160;function&#160;</font><font color="rgb(0, 0, 187)">test</font><font color="rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</font><font color="rgb(221, 0, 0)">&quot;BaseClass::test()&#160;called\n&quot;</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;}<br />&#160;&#160;&#160;<br />&#160;&#160;&#160;final&#160;public&#160;function&#160;</font><font color="rgb(0, 0, 187)">moreTesting</font><font color="rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</font><font color="rgb(221, 0, 0)">&quot;BaseClass::moreTesting()&#160;called\n&quot;</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;}<br />}<br /><br />class&#160;</font><font color="rgb(0, 0, 187)">ChildClass&#160;</font><font color="rgb(0, 119, 0)">extends&#160;</font><font color="rgb(0, 0, 187)">BaseClass&#160;</font><font color="rgb(0, 119, 0)">{<br />&#160;&#160;&#160;public&#160;function&#160;</font><font color="rgb(0, 0, 187)">moreTesting</font><font color="rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</font><font color="rgb(221, 0, 0)">&quot;ChildClass::moreTesting()&#160;called\n&quot;</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;}<br />}<br /></font><font color="rgb(255, 128, 0)">//&#160;Results&#160;in&#160;Fatal&#160;error:&#160;Cannot&#160;override&#160;final&#160;method&#160;BaseClass::moreTesting()<br /></font><font color="rgb(0, 0, 187)">?&gt;</font><font color="rgb(0, 0, 0)">&#160; </font></code>
       </div>
     </div>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-</node>
-<node CREATED="1299167481029" FOLDED="true" ID="ID_1574058295" MODIFIED="1301575672164" TEXT="class">
-<node CREATED="1299167483216" ID="ID_34899163" MODIFIED="1299167489288">
+<node CREATED="1299167483216" ID="ID_34899163" MODIFIED="1362063350657">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2682,16 +2641,16 @@ bool(true)</pre>
   <body>
     <div class="example-contents">
       <div class="phpcode">
-        <font color="rgb(0, 0, 187)"><code><span style="color: rgb(0, 0, 187)">&lt;?php<br /></span></code></font><code><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">final&#160;class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">BaseClass&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />&#160;&#160;&#160;public&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">test</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;BaseClass::test()&#160;called\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;}<br /><br />&#160;&#160;&#160;</span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Here&#160;it&#160;doesn't&#160;matter&#160;if&#160;you&#160;specify&#160;the&#160;function&#160;as&#160;final&#160;or&#160;not<br />&#160;&#160;&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">final&#160;public&#160;function&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">moreTesting</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</span></font><font color="rgb(221, 0, 0)"><span style="color: rgb(221, 0, 0)">&quot;BaseClass::moreTesting()&#160;called\n&quot;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">;<br />&#160;&#160;&#160;}<br />}<br /><br />class&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">ChildClass&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">extends&#160;</span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">BaseClass&#160;</span></font><font color="rgb(0, 119, 0)"><span style="color: rgb(0, 119, 0)">{<br />}<br /></span></font><font color="rgb(255, 128, 0)"><span style="color: rgb(255, 128, 0)">//&#160;Results&#160;in&#160;Fatal&#160;error:&#160;Class&#160;ChildClass&#160;may&#160;not&#160;inherit&#160;from&#160;final&#160;class&#160;(BaseClass)<br /></span></font><font color="rgb(0, 0, 187)"><span style="color: rgb(0, 0, 187)">?&gt;</span></font><font color="rgb(0, 0, 0)"><span style="color: rgb(0, 0, 0)">&#160; </span></font></code>
+        // used for class<br /><code><font color="rgb(0, 0, 187)">&lt;?php<br /></font><font color="rgb(0, 119, 0)">final&#160;class&#160;</font><font color="rgb(0, 0, 187)">BaseClass&#160;</font><font color="rgb(0, 119, 0)">{<br />&#160;&#160;&#160;public&#160;function&#160;</font><font color="rgb(0, 0, 187)">test</font><font color="rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</font><font color="rgb(221, 0, 0)">&quot;BaseClass::test()&#160;called\n&quot;</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;}<br /><br />&#160;&#160;&#160;</font><font color="rgb(255, 128, 0)">//&#160;Here&#160;it&#160;doesn't&#160;matter&#160;if&#160;you&#160;specify&#160;the&#160;function&#160;as&#160;final&#160;or&#160;not<br />&#160;&#160;&#160;</font><font color="rgb(0, 119, 0)">final&#160;public&#160;function&#160;</font><font color="rgb(0, 0, 187)">moreTesting</font><font color="rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;</font><font color="rgb(221, 0, 0)">&quot;BaseClass::moreTesting()&#160;called\n&quot;</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;}<br />}<br /><br />class&#160;</font><font color="rgb(0, 0, 187)">ChildClass&#160;</font><font color="rgb(0, 119, 0)">extends&#160;</font><font color="rgb(0, 0, 187)">BaseClass&#160;</font><font color="rgb(0, 119, 0)">{<br />}<br /></font><font color="rgb(255, 128, 0)">//&#160;Results&#160;in&#160;Fatal&#160;error:&#160;Class&#160;ChildClass&#160;may&#160;not&#160;inherit&#160;from&#160;final&#160;class&#160;(BaseClass)<br /></font><font color="rgb(0, 0, 187)">?&gt;</font><font color="rgb(0, 0, 0)">&#160; </font></code>
       </div>
     </div>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-</node>
-<node CREATED="1299167504710" FOLDED="true" ID="ID_663741336" MODIFIED="1300955447998" TEXT="clone">
-<node CREATED="1299167506274" FOLDED="true" ID="ID_265039266" MODIFIED="1300955383383" TEXT="simple">
+<node CREATED="1299167504710" ID="ID_663741336" MODIFIED="1362063317896" TEXT="clone">
+<node CREATED="1299167506274" FOLDED="true" ID="ID_265039266" MODIFIED="1362063320485" TEXT="simple">
 <node CREATED="1299167508344" ID="ID_1485117239" MODIFIED="1299167571917">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2742,7 +2701,7 @@ MyCloneable Object
 </node>
 </node>
 </node>
-<node CREATED="1299168032033" FOLDED="true" ID="ID_434389702" MODIFIED="1300955449156" TEXT="compare">
+<node CREATED="1299168032033" FOLDED="true" ID="ID_434389702" MODIFIED="1362050047484" TEXT="compare">
 <node CREATED="1299168039623" ID="ID_1402073793" MODIFIED="1299168052582">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2781,7 +2740,7 @@ o1 !== o2 : TRUE</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299168133061" FOLDED="true" ID="ID_671383129" MODIFIED="1300955387775" TEXT="type hinting">
+<node CREATED="1299168133061" FOLDED="true" ID="ID_671383129" MODIFIED="1362050047483" TEXT="type hinting">
 <node CREATED="1299168135958" FOLDED="true" ID="ID_1774058480" MODIFIED="1299168142104" TEXT="simple">
 <node CREATED="1299168137727" ID="ID_739362156" MODIFIED="1299168140745">
 <richcontent TYPE="NODE"><html>
@@ -2847,7 +2806,7 @@ o1 !== o2 : TRUE</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299168726322" FOLDED="true" ID="ID_625804262" MODIFIED="1300955390949" TEXT="refferences">
+<node CREATED="1299168726322" FOLDED="true" ID="ID_625804262" MODIFIED="1362050047482" TEXT="refferences">
 <node CREATED="1299168737385" FOLDED="true" ID="ID_1707311912" MODIFIED="1301995097651" TEXT="simple">
 <node CREATED="1299168734908" ID="ID_509811534" MODIFIED="1299168755056">
 <richcontent TYPE="NODE"><html>
@@ -2874,7 +2833,7 @@ o1 !== o2 : TRUE</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299169143338" FOLDED="true" ID="ID_1474237629" MODIFIED="1301404107403" TEXT="serialization">
+<node CREATED="1299169143338" FOLDED="true" ID="ID_1474237629" MODIFIED="1362050047480" TEXT="serialization">
 <node CREATED="1299169146482" FOLDED="true" ID="ID_126135271" MODIFIED="1301404106995" TEXT="simple">
 <node CREATED="1299169148272" ID="ID_909581275" MODIFIED="1299169158972">
 <richcontent TYPE="NODE"><html>
@@ -2894,25 +2853,9 @@ o1 !== o2 : TRUE</pre>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1301403993561" FOLDED="true" ID="ID_1785265889" MODIFIED="1301404136905" TEXT="const">
-<node CREATED="1301404031063" FOLDED="true" ID="ID_1741766220" MODIFIED="1301995097651" TEXT="ex">
-<node CREATED="1301404036335" ID="ID_1914742666" MODIFIED="1301404098859">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="rgb(0, 0, 187)">&lt;?php<br /></font><font color="rgb(0, 119, 0)">class&#160;</font><font color="rgb(0, 0, 187)">MyClass<br /></font><font color="rgb(0, 119, 0)">{<br />&#160;&#160;&#160;&#160;const&#160;</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">=&#160;</font><font color="rgb(221, 0, 0)">'constant&#160;value'</font><font color="rgb(0, 119, 0)">;<br /><br />&#160;&#160;&#160;&#160;function&#160;</font><font color="rgb(0, 0, 187)">showConstant</font><font color="rgb(0, 119, 0)">()&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo&#160;&#160;</font><font color="rgb(0, 0, 187)">self</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">.&#160;</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;<br />&#160;&#160;&#160;&#160;}<br />}<br /><br />echo&#160;</font><font color="rgb(0, 0, 187)">MyClass</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">.&#160;</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;<br /><br /></font><font color="rgb(0, 0, 187)">$classname&#160;</font><font color="rgb(0, 119, 0)">=&#160;</font><font color="rgb(221, 0, 0)">&quot;MyClass&quot;</font><font color="rgb(0, 119, 0)">;<br />echo&#160;</font><font color="rgb(0, 0, 187)">$classname</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant&#160;</font><font color="rgb(0, 119, 0)">.&#160;</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;&#160;</font><font color="rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /><br /></font><font color="rgb(0, 0, 187)">$class&#160;</font><font color="rgb(0, 119, 0)">=&#160;new&#160;</font><font color="rgb(0, 0, 187)">MyClass</font><font color="rgb(0, 119, 0)">();<br /></font><font color="rgb(0, 0, 187)">$class</font><font color="rgb(0, 119, 0)">-&gt;</font><font color="rgb(0, 0, 187)">showConstant</font><font color="rgb(0, 119, 0)">();<br /><br />echo&#160;</font><font color="rgb(0, 0, 187)">$class</font><font color="rgb(0, 119, 0)">::</font><font color="rgb(0, 0, 187)">constant</font><font color="rgb(0, 119, 0)">.</font><font color="rgb(221, 0, 0)">&quot;\n&quot;</font><font color="rgb(0, 119, 0)">;&#160;</font><font color="rgb(255, 128, 0)">//&#160;As&#160;of&#160;PHP&#160;5.3.0<br /></font><font color="rgb(0, 0, 187)">?&gt;</font><font color="rgb(0, 0, 0)">&#160; </font>
-    </p>
-  </body>
-</html></richcontent>
 </node>
 </node>
-</node>
-</node>
-</node>
-<node CREATED="1299143116211" FOLDED="true" ID="ID_1331082950" MODIFIED="1354283444525" TEXT="operations">
+<node CREATED="1299143116211" FOLDED="true" ID="ID_1331082950" MODIFIED="1362063083701" TEXT="operations">
 <node CREATED="1299143122865" FOLDED="true" ID="ID_148913195" MODIFIED="1318329313495" STYLE="fork" TEXT="casting">
 <node CREATED="1299143165114" FOLDED="true" ID="ID_1088536286" MODIFIED="1318329313321" TEXT="inf">
 <node CREATED="1299143137038" ID="ID_1593388172" MODIFIED="1299143157751">
