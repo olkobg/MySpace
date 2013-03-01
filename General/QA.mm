@@ -19,8 +19,7 @@
       <b><font color="#009999">Sauce Labs</font></b>&#160;custom selectors
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1362072576969" ID="ID_1783086012" MODIFIED="1362072639396">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -37,8 +36,7 @@
       css=a[id*='id_pattern'] - A link with an id that ends with the id_pattern
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1362072681041" ID="ID_118427675" LINK="http://sauceio.com/index.php/2010/03/selenium-tips-finding-elements-by-their-inner-text-using-contains-a-css-pseudo-class/" MODIFIED="1362072707612">
@@ -51,8 +49,25 @@
       <b><font color="#009999">Sauce Labs</font></b>&#160;contains text
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1362156199160" ID="ID_121067158" MODIFIED="1362156203787" TEXT="selenium server">
+<node CREATED="1362156204090" ID="ID_1596151124" MODIFIED="1362156221880">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # hub
+    </p>
+    <p>
+      <font color="#0033cc">http://127.0.0.1:4444/wd/hub/static/resource/hub.html</font>
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1362072849759" ID="ID_1190664650" LINK="http://sauceio.com/" MODIFIED="1362072872102">
@@ -65,8 +80,7 @@
       <b><font color="#009999">Sauce Lab</font></b>&#160;blog
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
