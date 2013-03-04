@@ -101,8 +101,9 @@
 </node>
 <node COLOR="#006699" CREATED="1361892302799" ID="ID_229964903" MODIFIED="1361893106047" POSITION="left" TEXT="Learn">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1361892314710" ID="ID_21108970" MODIFIED="1361893106417" TEXT="memory">
-<node COLOR="#0033ff" CREATED="1361892320400" FOLDED="true" ID="ID_207583043" MODIFIED="1361893107881" TEXT="mnemosyne">
+<node CREATED="1361892314710" ID="ID_21108970" MODIFIED="1362431431759" TEXT="memory">
+<node CREATED="1362431431696" ID="ID_1908142474" MODIFIED="1362431435690" TEXT="flashcards">
+<node COLOR="#0033ff" CREATED="1361892320400" FOLDED="true" ID="ID_207583043" LINK="mnemosyne-proj.org" MODIFIED="1362431490872" TEXT="mnemosyne">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361892328103" ID="ID_1576778765" MODIFIED="1361892400041">
 <richcontent TYPE="NODE"><html>
@@ -117,8 +118,7 @@
       &#160;- Windows: C:\Users\&lt;your user name&gt;\Application Data\Mnemosyne&#160;<br />&#160; - Linux: ~/.local/share/mnemosyne and ~/.config/mnemosyne/&#160;<br />&#160;- OSX: ~/Library/Mnemosyne/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1361893069053" ID="ID_1402684216" MODIFIED="1361893102760">
 <richcontent TYPE="NODE"><html>
@@ -131,6 +131,20 @@
     </p>
     <p>
       ~/.local/share/mnemosyne
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1362431436881" ID="ID_108471204" LINK="ankisrs.net" MODIFIED="1362431474924" TEXT="Anki"/>
+<node CREATED="1362431505275" ID="ID_1747168731" LINK="www.flashcardexchange.com" MODIFIED="1362431534979">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>flash cards db</b></font>
     </p>
   </body>
 </html>

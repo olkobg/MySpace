@@ -26,6 +26,19 @@
 <node COLOR="#009999" CREATED="1357719276896" ID="ID_605188182" LINK="http://diveintohtml5.info/" MODIFIED="1357727213676" TEXT="dive into html5">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1362431798832" ID="ID_1676050199" LINK="http://collegegfx.com/15-useful-html5-tutorials-and-cheat-sheets" MODIFIED="1362431830630">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>collegegfx</b></font>&#160;html tutors
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#ff0000" CREATED="1355135796238" ID="ID_114319840" MODIFIED="1355136811400" POSITION="left" TEXT="Tips">
