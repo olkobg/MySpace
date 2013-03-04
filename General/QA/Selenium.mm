@@ -59,6 +59,18 @@
       <font color="#0033cc">selenium.click(&quot;//a[@title='Click for the Manual Class LOV']/img&quot;);</font>
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1362432353220" ID="ID_1365286636" LINK="http://testerfriend.blogspot.com/2011/11/element-locators-using-selenium.html" MODIFIED="1362432379631">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>test frieds</b></font>&#160;selectors
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
@@ -93,9 +105,22 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1362432053252" ID="ID_1822394903" LINK="http://mestachs.wordpress.com/2012/08/13/selenium-best-practices/" MODIFIED="1362432088120" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>mestachs.WP</b></font>&#160;best pracitses
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1362156882837" ID="ID_1321311435" MODIFIED="1362156895120" POSITION="right" TEXT="Firefox broser addons">
-<node CREATED="1361877855022" LINK="http://sebuilder.github.com/se-builder/" MODIFIED="1361877864508" TEXT="Selenium Builder"/>
-<node CREATED="1361878943818" MODIFIED="1361878948550" TEXT="Selenium IDE"/>
+<node CREATED="1361877855022" ID="ID_1752886742" LINK="http://sebuilder.github.com/se-builder/" MODIFIED="1361877864508" TEXT="Selenium Builder"/>
+<node CREATED="1361878943818" ID="ID_1470803951" MODIFIED="1361878948550" TEXT="Selenium IDE"/>
 </node>
 </node>
 </map>
