@@ -186,55 +186,104 @@
 </node>
 <node COLOR="#0033ff" CREATED="1328617043258" ID="ID_58976500" LINK="http://vmware.com/" MODIFIED="1355227159157" TEXT="vmWare">
 <node CREATED="1328617345963" ID="ID_1627048671" MODIFIED="1328617351694" TEXT="Desktop">
-<node CREATED="1328617328546" ID="ID_328125451" MODIFIED="1355227082055">
+<node CREATED="1328617328546" ID="ID_328125451" MODIFIED="1362411262349">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff">Player </font>(free)
+      <b><font color="#0033ff">Player</font></b><font color="#0033ff">&#160;</font>(free)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<node CREATED="1362411149684" ID="ID_1167703467" LINK="http://matthewsiemens.com/running-vmware-player-virtual-machine-from-the-terminal/" MODIFIED="1362411190488">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">matthewsiemens</font></b>&#160;run as server
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1328617338928" ID="ID_1936149363" MODIFIED="1355227038292" TEXT="Workstation"/>
+</node>
+<node COLOR="#0033ff" CREATED="1328617338928" ID="ID_1936149363" MODIFIED="1362411258894" TEXT="Workstation">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1328617372172" ID="ID_934110208" MODIFIED="1328617373523" TEXT="Server">
-<node CREATED="1328617374811" ID="ID_411763591" MODIFIED="1328617383058" TEXT="ESX/ESXi family">
-<node CREATED="1328617396985" ID="ID_1390212091" MODIFIED="1355227261513">
+<node CREATED="1328617374811" ID="ID_411763591" MODIFIED="1362411305012">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff">vSphere Hyprevizor </font>(free)
+      <b><font color="#0033ff">ESX</font></b><font color="#0033ff">/<b>ESXi</b></font>&#160;family
     </p>
   </body>
-</html></richcontent>
-</node>
-<node COLOR="#0033ff" CREATED="1328617415694" ID="ID_1299533472" MODIFIED="1355227009511" TEXT="VSphere"/>
-<node COLOR="#0033ff" CREATED="1328617423333" ID="ID_750673144" MODIFIED="1355227009510" TEXT="vCenter"/>
-</node>
-<node CREATED="1328617335041" ID="ID_1289443115" MODIFIED="1355227072822">
+</html>
+</richcontent>
+<node CREATED="1328617396985" ID="ID_1390212091" MODIFIED="1362411256358">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff">Server </font>(free) - discontinued
+      <b><font color="#0033ff">vSphere Hyprevizor</font></b><font color="#0033ff">&#160;</font>(free)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1328617415694" ID="ID_1299533472" MODIFIED="1362411248992" TEXT="VSphere">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1328617423333" ID="ID_750673144" MODIFIED="1362411248991" TEXT="vCenter">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1328617335041" ID="ID_1289443115" MODIFIED="1362411320656">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">Server</font></b><font color="#0033ff">&#160;</font>- discontinued
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1362411230391" ID="ID_1380109310" MODIFIED="1362411234708" TEXT="Vix-Api">
+<node CREATED="1362411235608" ID="ID_1592509003" MODIFIED="1362411385656">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">vmrun</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1328783700101" ID="ID_1531456311" LINK="http://softwareupdate.vmware.com/cds/" MODIFIED="1328785696712" TEXT="UpdateLink"/>
 <node CREATED="1329128834759" ID="ID_1017179913" MODIFIED="1329128837033" TEXT="Blogs">
 <node CREATED="1329128837307" ID="ID_1478129280" LINK="http://weltall.heliohost.org/" MODIFIED="1329128845753" TEXT="Weltall"/>
 </node>
-<node CREATED="1358846717493" FOLDED="true" ID="ID_95946341" MODIFIED="1358847580208" TEXT="trick">
+<node CREATED="1358846717493" ID="ID_95946341" MODIFIED="1362411116952" TEXT="trick">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358846726817" FOLDED="true" ID="ID_1654892535" MODIFIED="1358847579066" TEXT="lsb fix for linux">
 <node CREATED="1358846735903" ID="ID_1172668533" MODIFIED="1358847569360">
@@ -292,10 +341,10 @@
       After this everything works smoothly for me with no issues.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+<node CREATED="1362411117774" ID="ID_1718589456" LINK="http://www.pschweitzer.fr/?p=22" MODIFIED="1362411124647" TEXT="vmware + libvirt"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1355227100648" ID="ID_1785650799" MODIFIED="1355227139191" TEXT="Xen"/>
