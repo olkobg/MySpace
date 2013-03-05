@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1357837247246" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1357825564287" POSITION="right" TEXT="lib">
+<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1362497610136" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1357825561320" TEXT="Frameworks">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -124,7 +124,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1357837219202" POSITION="left" TEXT="types">
+<node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1362498349280" POSITION="left" TEXT="types">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1288878845078" FOLDED="true" ID="ID_1393940341" MODIFIED="1355337152680" TEXT="Array">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -416,7 +416,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1290779782717" FOLDED="true" ID="ID_1147256074" MODIFIED="1357837545782" POSITION="left" TEXT="operations">
+<node CREATED="1290779782717" FOLDED="true" ID="ID_1147256074" MODIFIED="1362498350362" POSITION="left" TEXT="operations">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1290675749078" FOLDED="true" ID="ID_1873207825" MODIFIED="1357837213604" TEXT="clone">
 <node COLOR="#0033ff" CREATED="1290675760303" ID="ID_1250613880" MODIFIED="1307435002764">
@@ -577,21 +577,21 @@
 <node CREATED="1290779800255" ID="ID_1854719369" LINK="http://www.jibbering.com/faq/notes/type-conversion/" MODIFIED="1328630117086" TEXT="links1"/>
 </node>
 </node>
-<node CREATED="1290785686280" FOLDED="true" ID="ID_967559904" MODIFIED="1357825692160" POSITION="right" TEXT="Tools">
+<node CREATED="1290785686280" FOLDED="true" ID="ID_967559904" MODIFIED="1362497608764" POSITION="right" TEXT="Tools">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1290785690168" FOLDED="true" ID="ID_1371837990" MODIFIED="1357727986767" TEXT="Compressor">
+<node CREATED="1290785690168" ID="ID_1371837990" MODIFIED="1362497607543" TEXT="Compressor">
 <node CREATED="1290785699124" ID="ID_1468703957" LINK="http://developer.yahoo.com/yui/compressor/" MODIFIED="1306946571426" TEXT="YUI-Cpmpressor"/>
 <node CREATED="1306946614455" ID="ID_769234349" LINK="http://code.google.com/closure/" MODIFIED="1310476151092" TEXT="Google closure tools"/>
 <node CREATED="1306946557807" ID="ID_1154117622" LINK="http://dean.edwards.name/packer/" MODIFIED="1306946563919" TEXT="PACKER"/>
 </node>
 </node>
-<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1359236551822" POSITION="right" TEXT="Engine">
+<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1362497606386" POSITION="right" TEXT="Engine">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357148058475" ID="ID_290312899" LINK="server/Node.js.mm" MODIFIED="1357148058475" TEXT="Node.js"/>
 <node CREATED="1307097864888" ID="ID_722061965" LINK="https://developer.mozilla.org/en/SpiderMonkey" MODIFIED="1307097894673" TEXT="SpiderMonkey"/>
 <node CREATED="1307097896172" ID="ID_604037639" LINK="http://www.mozilla.org/rhino/" MODIFIED="1307097933581" TEXT="rhino"/>
 </node>
-<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1358186475388" POSITION="left" TEXT="OBJECTS">
+<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1362498340199" POSITION="left" TEXT="OBJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1357726603924" ID="ID_1228545119" MODIFIED="1357726606996" TEXT="document">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -990,7 +990,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1357840939188" POSITION="right" TEXT="Browser">
+<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1362498338509" POSITION="right" TEXT="Browser">
 <node CREATED="1319659797455" FOLDED="true" ID="ID_1332028521" MODIFIED="1357728146344" TEXT="ff">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1319659800487" ID="ID_1617789911" MODIFIED="1357728106466">
@@ -1009,8 +1009,28 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1357728117546" ID="ID_581548053" MODIFIED="1357728148351" TEXT="chrome">
+<node CREATED="1357728117546" FOLDED="true" ID="ID_581548053" MODIFIED="1362498337239" TEXT="chrome">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1362497618819" FOLDED="true" ID="ID_1499538186" MODIFIED="1362498335354" TEXT="xpath">
+<node CREATED="1362497636736" FOLDED="true" ID="ID_183184559" MODIFIED="1362498331295" TEXT="debug">
+<node CREATED="1362497640125" ID="ID_529153595" MODIFIED="1362497689346">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // in console use next
+    </p>
+    <p>
+      <font color="#0033ff">$x('//html/element');</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1357728130460" ID="ID_1879172063" MODIFIED="1357728148350" TEXT="safary">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>

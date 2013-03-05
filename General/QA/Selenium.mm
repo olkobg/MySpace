@@ -71,12 +71,18 @@
       <font color="#009999"><b>test frieds</b></font>&#160;selectors
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+<node CREATED="1362500889427" ID="ID_184281649" MODIFIED="1362500893105" POSITION="left" TEXT="drivers">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1362500893489" ID="ID_860721704" LINK="https://code.google.com/p/chromedriver/" MODIFIED="1362500898184" TEXT="google chrome"/>
+<node CREATED="1362505030415" ID="ID_321420415" LINK="http://code.google.com/p/selenium/wiki/InternetExplorerDriver" MODIFIED="1362505041625" TEXT="internet Explorer"/>
+<node CREATED="1362505196398" ID="ID_327355286" LINK="http://code.google.com/p/selenium/wiki/IPhoneDriver" MODIFIED="1362505255579" TEXT="iphone "/>
+<node CREATED="1362505256050" ID="ID_120313011" LINK="http://code.google.com/p/selenium/wiki/AndroidDriver" MODIFIED="1362505259742" TEXT="android"/>
 </node>
 <node CREATED="1362156199160" ID="ID_555750420" MODIFIED="1362156203787" POSITION="right" TEXT="selenium server">
-<node CREATED="1362156204090" MODIFIED="1362156221880">
+<node CREATED="1362156204090" ID="ID_1880542938" MODIFIED="1362156221880">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -115,12 +121,25 @@
       <font color="#009999"><b>mestachs.WP</b></font>&#160;best pracitses
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1362156882837" ID="ID_1321311435" MODIFIED="1362156895120" POSITION="right" TEXT="Firefox broser addons">
 <node CREATED="1361877855022" ID="ID_1752886742" LINK="http://sebuilder.github.com/se-builder/" MODIFIED="1361877864508" TEXT="Selenium Builder"/>
-<node CREATED="1361878943818" ID="ID_1470803951" MODIFIED="1361878948550" TEXT="Selenium IDE"/>
+<node CREATED="1361878943818" ID="ID_1470803951" LINK="http://docs.seleniumhq.org/docs/02_selenium_ide.jsp" MODIFIED="1362496131398" TEXT="Selenium IDE"/>
+</node>
+<node CREATED="1362501007123" ID="ID_102805438" LINK="http://code.google.com/p/selenium/" MODIFIED="1362501060515" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">google-code</font></b>&#160;selenium&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </map>
