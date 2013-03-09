@@ -460,8 +460,7 @@
       <b><font color="#0033ff">groups</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1361971741959" ID="ID_1965423477" MODIFIED="1361971902042">
@@ -477,8 +476,7 @@
       <b><font color="#0033ff">$ newgrp&#160;</font></b><font color="#0033ff">my-fav-group</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -617,51 +615,52 @@
 <node CREATED="1361454450545" ID="ID_82349326" MODIFIED="1361454453367" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1361461485770" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" ID="ID_1251407468" MODIFIED="1362823964795" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1356098225032" TEXT="dig">
+<node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1362824221128" TEXT="dig">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1294070908844" ID="ID_1074468" MODIFIED="1315390874609">
+<node COLOR="#0033ff" CREATED="1294070908844" ID="ID_1074468" MODIFIED="1362824218255">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#160;# get the address(es) for yahoo.com
+      <font color="#000000">&#160;# get the address(es) for yahoo.com</font>
     </p>
     <p>
-      dig yahoo.com A +noall +answer
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # get a list of yahoo's mail servers
-    </p>
-    <p>
-      dig yahoo.com MX +noall +answer
+      $ dig yahoo.com A +noall +answer
     </p>
     <p>
       
     </p>
     <p>
-      # get a list of DNS servers authoritative for yahoo.com
+      <font color="#000000"># get a list of yahoo's mail servers</font>
     </p>
     <p>
-      dig yahoo.com NS +noall +answer
+      $ dig yahoo.com MX +noall +answer
     </p>
     <p>
       
     </p>
     <p>
-      # get all of the above
+      <font color="#000000"># get a list of DNS servers authoritative for yahoo.com</font>
     </p>
     <p>
-      dig yahoo.com ANY +noall +answer
+      $ dig yahoo.com NS +noall +answer
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#000000"># get all of the above</font>
+    </p>
+    <p>
+      $ dig yahoo.com ANY +noall +answer
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1310637726990" ID="ID_1898681690" LINK="iptables.mm" MODIFIED="1356098218863" TEXT="iptables">
@@ -687,9 +686,9 @@
 <node COLOR="#009999" CREATED="1311118392979" ID="ID_1759952331" LINK="http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html" MODIFIED="1357753193197" TEXT="YOULINUX">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1359236519892" TEXT="apt">
+<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1362824169049" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1359113663789" TEXT="caching">
+<node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1362824062656" TEXT="caching">
 <node COLOR="#0033ff" CREATED="1303810890920" FOLDED="true" ID="ID_1003328043" MODIFIED="1356098186406" TEXT="apt-cacher">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303810898391" ID="ID_618505239" LINK="http://www.debuntu.org/how-to-set-up-a-repository-cache-with-apt-cacher" MODIFIED="1303810903975" TEXT="instructions"/>
@@ -698,22 +697,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1304071512064" FOLDED="true" ID="ID_896573144" MODIFIED="1359113663217" TEXT="source">
+<node COLOR="#0033ff" CREATED="1359113506298" FOLDED="true" ID="ID_613350324" MODIFIED="1362824153443" TEXT="-get">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1304071515888" FOLDED="true" ID="ID_811294883" MODIFIED="1359113503677" TEXT="get">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1304071522831" ID="ID_1794692141" MODIFIED="1315938246909" TEXT="$ apt-get source packagename "/>
-</node>
-<node CREATED="1304071534685" FOLDED="true" ID="ID_1465317215" MODIFIED="1359113498761" TEXT="get and build">
-<node COLOR="#0033ff" CREATED="1304071544052" ID="ID_106268996" MODIFIED="1315938246908" TEXT="$ apt-get -b source packagename "/>
-</node>
-<node CREATED="1304071552891" FOLDED="true" ID="ID_1085808032" MODIFIED="1359113499159" TEXT="just build">
-<node COLOR="#0033ff" CREATED="1304071557907" ID="ID_1671130281" MODIFIED="1315938246904" TEXT="$ dpkg-buildpackage -rfakeroot -uc -b "/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1359113506298" FOLDED="true" ID="ID_613350324" MODIFIED="1359113662942" TEXT="get">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1359113514741" ID="ID_569014954" MODIFIED="1359113656533">
+<node CREATED="1359113514741" ID="ID_569014954" MODIFIED="1362824151006">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -729,16 +715,44 @@
       # check version availability
     </p>
     <p>
-      <font color="#0033ff">apt-cache<b>&#160;showpkg</b>&#160;subversion-tools</font>
+      <font color="#0033ff">$ apt-cache<b>&#160;showpkg</b>&#160;subversion-tools</font>
     </p>
     <p>
       #install
     </p>
     <p>
-      <font color="#0033ff">apt-get install <b>subversion-tools=1.3.2-5~bpo1</b></font>
+      <font color="#0033ff">$ apt-get install <b>subversion-tools=1.3.2-5~bpo1</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1304071512064" ID="ID_896573144" MODIFIED="1362824074546" TEXT="source">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1304071522831" ID="ID_1794692141" MODIFIED="1315938246909" TEXT="$ apt-get source packagename "/>
+<node CREATED="1304071534685" ID="ID_1465317215" MODIFIED="1362824030276" TEXT="get and build">
+<node COLOR="#0033ff" CREATED="1304071544052" ID="ID_106268996" MODIFIED="1315938246908" TEXT="$ apt-get -b source packagename "/>
+</node>
+<node CREATED="1304071552891" ID="ID_1085808032" LINK="#ID_1671130281" MODIFIED="1362824127408" TEXT="just build"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1362823968287" FOLDED="true" ID="ID_1187696625" MODIFIED="1362824116552" TEXT="-file">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1362823973533" ID="ID_1105450039" MODIFIED="1362824014377">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # show files in package
+    </p>
+    <p>
+      <font color="#0033ff">apt-file <b>list</b>&#160;&lt;package name&gt;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1359222281970" FOLDED="true" ID="ID_1374387518" MODIFIED="1359223210361" TEXT="reps">
@@ -757,32 +771,141 @@
 </node>
 </node>
 </node>
-<node CREATED="1312307204519" FOLDED="true" ID="ID_1558016268" MODIFIED="1359222434227" TEXT="openswan">
+<node COLOR="#0033ff" CREATED="1362824035592" FOLDED="true" ID="ID_730872792" MODIFIED="1362824168330" TEXT="dpkg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1312307215413" ID="ID_756447934" MODIFIED="1312307233234" TEXT="starting">
-<node COLOR="#0033ff" CREATED="1312307233514" ID="ID_562731552" MODIFIED="1312307331371" TEXT="ipsec setup --start"/>
-</node>
-<node CREATED="1312307235514" ID="ID_1931295205" MODIFIED="1312307432056" TEXT="adding tunnel config">
-<node COLOR="#0033ff" CREATED="1312307380935" ID="ID_1836545349" MODIFIED="1312307478882" TEXT="ipsec auto &#x2013;&#x2013;add sonicwall"/>
-</node>
-<node CREATED="1312307369274" ID="ID_1775892817" MODIFIED="1312307452214" TEXT="if tunnel config changed">
-<node COLOR="#0033ff" CREATED="1312307374663" ID="ID_773017039" MODIFIED="1312307478882" TEXT="ipsec auto &#x2013;&#x2013;replace sonicwall"/>
-</node>
-<node CREATED="1312307434615" ID="ID_636669525" MODIFIED="1312307439406" TEXT="initializing tunnel">
-<node COLOR="#0033ff" CREATED="1312307440207" ID="ID_1781431390" MODIFIED="1312307478882" TEXT="ipsec whack &#x2013;&#x2013;name sonicwall &#x2013;&#x2013;initiate"/>
-</node>
-<node CREATED="1312307242961" ID="ID_1559491980" MODIFIED="1312307247185" TEXT="stoppng tunnel">
-<node COLOR="#0033ff" CREATED="1312307402803" ID="ID_1898646837" MODIFIED="1312307478881" TEXT=" whack &#x2013;&#x2013;name sonicwall &#x2013;&#x2013;terminate"/>
-</node>
-<node CREATED="1312307247696" ID="ID_211585858" MODIFIED="1312307250321" TEXT="stopping">
-<node COLOR="#0033ff" CREATED="1312307333005" ID="ID_1633578238" MODIFIED="1312307341764" TEXT="ipsec setup --stop"/>
-</node>
-<node CREATED="1312308709846" ID="ID_868481704" MODIFIED="1312308712327" TEXT="config">
-<node CREATED="1312308721733" ID="ID_1835461235" LINK="http://www.pelagodesign.com/blog/2009/05/18/ubuntu-linux-how-to-setup-a-vpn-connection-to-a-sonicwall-router-using-openswan-and-pre-shared-keys-psk/" MODIFIED="1312308725567" TEXT="site"/>
+<node COLOR="#0033ff" CREATED="1362824042150" FOLDED="true" ID="ID_610085462" MODIFIED="1362824167799" TEXT="-buildpackage">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1304071557907" ID="ID_1671130281" MODIFIED="1362824141483">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ <b>dpkg-buildpackage</b>&#160;-rfakeroot -uc -b&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" ID="ID_131784874" MODIFIED="1361461486087" POSITION="left" TEXT="X">
+<node CREATED="1312307204519" FOLDED="true" ID="ID_1558016268" MODIFIED="1362824529233" TEXT="openswan">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1362824471424" FOLDED="true" ID="ID_1774633522" MODIFIED="1362824502129" TEXT="service">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1312307233514" ID="ID_562731552" MODIFIED="1362824305924">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #starting
+    </p>
+    <p>
+      <font color="#0033ff">ipsec setup --start</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1312307333005" ID="ID_1633578238" MODIFIED="1362824469378">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # stopping service
+    </p>
+    <p>
+      <font color="#0033ff">ipsec setup --stop</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1362824462531" FOLDED="true" ID="ID_1189574202" MODIFIED="1362824502887" TEXT="tunnel">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1312307380935" ID="ID_1836545349" MODIFIED="1362824335218">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # adding tunner config
+    </p>
+    <p>
+      <font color="#0033ff">ipsec auto &#8211;&#8211;add sonicwall</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1312307374663" ID="ID_773017039" MODIFIED="1362824365098">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # if tunnel config changed
+    </p>
+    <p>
+      <font color="#0033ff">ipsec auto &#8211;&#8211;replace sonicwall</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1312307440207" ID="ID_1781431390" MODIFIED="1362824388229">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # initiate tunnel
+    </p>
+    <p>
+      <font color="#0033ff">ipsec whack &#8211;&#8211;name sonicwall &#8211;&#8211;initiate</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1312307402803" ID="ID_1898646837" MODIFIED="1362824420409">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # stopping tunnel
+    </p>
+    <p>
+      <font color="#0033ff">ipsec whack &#8211;&#8211;name sonicwall &#8211;&#8211;terminate</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1312308709846" FOLDED="true" ID="ID_868481704" MODIFIED="1362824528318" TEXT="config">
+<node CREATED="1312308721733" ID="ID_1835461235" LINK="http://www.pelagodesign.com/blog/2009/05/18/ubuntu-linux-how-to-setup-a-vpn-connection-to-a-sonicwall-router-using-openswan-and-pre-shared-keys-psk/" MODIFIED="1362824521876">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>pegalodesign</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356357912120" ID="ID_131784874" MODIFIED="1362824263897" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
@@ -808,8 +931,8 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1360156128591" TEXT="keyboard">
-<node CREATED="1355739747130" FOLDED="true" ID="ID_683421714" MODIFIED="1360156128363" TEXT="xkb">
+<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1362824269389" TEXT="keyboard">
+<node CREATED="1355739747130" ID="ID_683421714" MODIFIED="1362824268107" TEXT="xkb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355739756941" TEXT="instructions for changing keyb layout"/>
 <node CREATED="1355490901133" ID="ID_1324979617" LINK="http://stackoverflow.com/questions/4200800/in-bash-how-do-i-bind-a-function-key-to-a-command" MODIFIED="1355739756907" TEXT="stack overflow"/>
@@ -860,7 +983,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1361461487216" ID="ID_386274153" MODIFIED="1361461491591" TEXT="xvfb">
+<node CREATED="1361461487216" FOLDED="true" ID="ID_386274153" MODIFIED="1362824272823" TEXT="xvfb">
 <node CREATED="1361461492480" ID="ID_1130473563" LINK="http://docs.codehaus.org/display/FEST/Running+FEST+under+Xvfb" MODIFIED="1361461497309" TEXT="article 1"/>
 <node CREATED="1361461507672" ID="ID_401431363" LINK="http://askubuntu.com/questions/9694/how-to-run-two-x-sessions-at-the-same-time" MODIFIED="1361461527280" TEXT="x session on same machine"/>
 <node CREATED="1361462308716" ID="ID_578732248" LINK="http://www.vanemery.com/Linux/XoverSSH/X-over-SSH2.html" MODIFIED="1361462319909" TEXT="x over ssh2 tutorial"/>
