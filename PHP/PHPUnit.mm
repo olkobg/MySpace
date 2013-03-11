@@ -134,13 +134,79 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1334852834933" ID="ID_1826097865" MODIFIED="1334852932117" POSITION="left" TEXT="config">
+<node CREATED="1334852834933" ID="ID_1826097865" MODIFIED="1363003409278" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1334852839307" FOLDED="true" ID="ID_490675826" MODIFIED="1361882202144" TEXT="view output data">
+<node COLOR="#0033ff" CREATED="1363003409249" ID="ID_1888258565" MODIFIED="1363003491085" TEXT="$phpunit">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1334852839307" ID="ID_490675826" MODIFIED="1363003403234" TEXT="view output data">
 <node COLOR="#0033ff" CREATED="1334852855575" ID="ID_1244222818" MODIFIED="1334852871692" TEXT="phpunit --debug"/>
 </node>
-<node CREATED="1334852873614" FOLDED="true" ID="ID_1664939236" MODIFIED="1361879752539" TEXT="coverage">
+<node CREATED="1334852873614" ID="ID_1664939236" MODIFIED="1363003404519" TEXT="coverage">
 <node COLOR="#0033ff" CREATED="1334852883629" ID="ID_526989911" MODIFIED="1334852916048" TEXT="phpunit --coverage-html ./report &lt;test-file&gt;"/>
+</node>
+<node CREATED="1363003491056" ID="ID_1153871683" MODIFIED="1363003496605" TEXT="paramenters">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1363003416813" ID="ID_734848989" MODIFIED="1363003485442">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      --log-graphviz &lt;file&gt;&#160;&#160;Log test execution in GraphViz markup.&#160;&#160;&#160;
+    </p>
+    <p>
+      --log-json &lt;file&gt;&#160;&#160;&#160;&#160;&#160;&#160;Log test execution in JSON format.&#160;&#160;&#160;
+    </p>
+    <p>
+      --log-tap &lt;file&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Log test execution in TAP format to file.&#160;&#160;&#160;
+    </p>
+    <p>
+      --log-xml &lt;file&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Log test execution in XML format to file.&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      --report &lt;dir&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Generate combined test/coverage report in HTML format.&#160;&#160;&#160;
+    </p>
+    <p>
+      --testdox-html &lt;file&gt;&#160;&#160;Write agile documentation in HTML format to file.&#160;&#160;&#160;
+    </p>
+    <p>
+      --testdox-text &lt;file&gt;&#160;&#160;Write agile documentation in Text format to file.&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      --filter &lt;pattern&gt;&#160;&#160;&#160;&#160;&#160;Filter which tests to run.&#160;&#160;&#160;
+    </p>
+    <p>
+      --loader &lt;loader&gt;&#160;&#160;&#160;&#160;&#160;&#160;TestSuiteLoader implementation to use.&#160;&#160;&#160;
+    </p>
+    <p>
+      --repeat &lt;times&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Runs the test(s) repeatedly.&#160;&#160;&#160;
+    </p>
+    <p>
+      --tap&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Report test execution progress in TAP format.&#160;&#160;&#160;
+    </p>
+    <p>
+      --verbose&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Output more verbose information.&#160;&#160;&#160;
+    </p>
+    <p>
+      --wait&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Waits for a keystroke after each test.&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      --skeleton&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Generate skeleton UnitTest class for Unit in Unit.php.&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      --help&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Prints this usage information.&#160;&#160;&#160;
+    </p>
+    <p>
+      --version&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Prints the version and exits.&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      -d key[=value]&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Sets a php.ini value.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>

@@ -16,6 +16,21 @@
 <node CREATED="1329495147392" ID="ID_338958224" LINK="http://sixrevisions.com/css/font-face-guide/" MODIFIED="1329495152902" TEXT="guide "/>
 </node>
 <node CREATED="1307017640234" ID="ID_1749666599" LINK="http://code.google.com/apis/libraries/devguide.html" MODIFIED="1307017877227" POSITION="right" TEXT="google api"/>
+<node CREATED="1363001593353" ID="ID_1265772728" MODIFIED="1363001595733" POSITION="right" TEXT="css">
+<node CREATED="1363001598666" ID="ID_443450653" LINK="http://www.dynamicdrive.com/style/csslibrary/item/css_triangle_arrow_divs/" MODIFIED="1363001723955">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>dynamic drive</b></font>&#160;create tirangels
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1297155298254" ID="ID_751982683" MODIFIED="1356545710287" POSITION="left" TEXT="script">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297155302594" ID="ID_1348269822" LINK="../JavaScript/JavaScript.mm" MODIFIED="1297155325275" TEXT="JavaScript"/>
@@ -36,8 +51,7 @@
       <font color="#009999"><b>collegegfx</b></font>&#160;html tutors
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

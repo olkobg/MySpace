@@ -10,6 +10,22 @@
 <node CREATED="1348054452693" ID="ID_869312784" LINK="http://stackoverflow.com/questions/11290606/sublime-text-2-copy-file-on-save-backup-to-another-folder" MODIFIED="1348054463234" TEXT="stackO"/>
 <node CREATED="1348054426028" ID="ID_1158431672" LINK="http://www.cuvedev.net/2011/12/sublime-text-2-rsync-on-save/" MODIFIED="1348054491816" TEXT="simple rsync"/>
 </node>
+<node CREATED="1363104282068" ID="ID_1515952988" MODIFIED="1363104288297" TEXT="aligment">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1363104288995" ID="ID_1422909372" LINK="http://wbond.net/sublime_packages/alignment" MODIFIED="1363104318453">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">wbond</font></b>&#160;Sublime Aligment
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node CREATED="1352715895899" ID="ID_1829880842" LINK="http://wbond.net/sublime_packages/package_control" MODIFIED="1352715968498" TEXT="Plugin Controll"/>
 <node CREATED="1356448658853" FOLDED="true" ID="ID_179771754" MODIFIED="1360703473207" TEXT="validation">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -20,7 +36,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357740654866" ID="ID_1981419594" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=6&amp;t=9172" MODIFIED="1357740660143" TEXT="in all opened files"/>
 </node>
-<node CREATED="1358849186461" FOLDED="true" ID="ID_1642636777" MODIFIED="1360703469389" TEXT="reindent">
+<node CREATED="1358849186461" FOLDED="true" ID="ID_1642636777" MODIFIED="1363104279863" TEXT="reindent">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358849190732" ID="ID_60933777" LINK="http://stackoverflow.com/questions/8839753/formatting-html-code-using-sublime-text-2" MODIFIED="1358849212343">
 <richcontent TYPE="NODE"><html>
@@ -35,7 +51,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360703522221" FOLDED="true" ID="ID_627433256" MODIFIED="1360703532102" TEXT="sess">
+<node CREATED="1360703522221" FOLDED="true" ID="ID_627433256" MODIFIED="1363104264153" TEXT="sess">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1360703477511" ID="ID_1180477952" LINK="https://github.com/titoBouzout/BufferScrol" MODIFIED="1360703518535">
 <richcontent TYPE="NODE"><html>
@@ -84,7 +100,7 @@
 <node CREATED="1353338690297" ID="ID_1889510088" MODIFIED="1355160888682" POSITION="left" TEXT="projects">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1358849234265" POSITION="left" TEXT="config">
+<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1363104253211" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355140000578" ID="ID_624009682" MODIFIED="1355140027764">
 <richcontent TYPE="NODE"><html>
