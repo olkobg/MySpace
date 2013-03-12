@@ -1,8 +1,8 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#006633" CREATED="1348054359883" ID="ID_1290849412" LINK="../Crossplatform.mm" MODIFIED="1348054500932" TEXT="Sublime">
+<node COLOR="#006633" CREATED="1348054359883" ID="ID_1290849412" LINK="../Crossplatform.mm" MODIFIED="1363106915286" TEXT="Sublime">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1348054383724" ID="ID_1207364740" MODIFIED="1360703522274" POSITION="right" TEXT="plugins">
+<node CREATED="1348054383724" ID="ID_1207364740" MODIFIED="1363106917455" POSITION="right" TEXT="plugins">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1348054390991" FOLDED="true" ID="ID_789731113" MODIFIED="1360703475905" TEXT="work remote">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -10,7 +10,7 @@
 <node CREATED="1348054452693" ID="ID_869312784" LINK="http://stackoverflow.com/questions/11290606/sublime-text-2-copy-file-on-save-backup-to-another-folder" MODIFIED="1348054463234" TEXT="stackO"/>
 <node CREATED="1348054426028" ID="ID_1158431672" LINK="http://www.cuvedev.net/2011/12/sublime-text-2-rsync-on-save/" MODIFIED="1348054491816" TEXT="simple rsync"/>
 </node>
-<node CREATED="1363104282068" ID="ID_1515952988" MODIFIED="1363104288297" TEXT="aligment">
+<node CREATED="1363104282068" FOLDED="true" ID="ID_1515952988" MODIFIED="1363105351422" TEXT="aligment">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1363104288995" ID="ID_1422909372" LINK="http://wbond.net/sublime_packages/alignment" MODIFIED="1363104318453">
 <richcontent TYPE="NODE"><html>
@@ -27,7 +27,7 @@
 </node>
 </node>
 <node CREATED="1352715895899" ID="ID_1829880842" LINK="http://wbond.net/sublime_packages/package_control" MODIFIED="1352715968498" TEXT="Plugin Controll"/>
-<node CREATED="1356448658853" FOLDED="true" ID="ID_179771754" MODIFIED="1360703473207" TEXT="validation">
+<node CREATED="1356448658853" FOLDED="true" ID="ID_179771754" MODIFIED="1363106169531" TEXT="validation">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356448378788" ID="ID_1600803494" LINK="https://github.com/ehamiter/Sublime-Text-2-Plugins" MODIFIED="1356448393090" TEXT="Sublime-Text2-Plugins"/>
 <node CREATED="1356448393833" ID="ID_838555007" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=5&amp;t=2262" MODIFIED="1356448418271" TEXT="Html/Css"/>
@@ -66,41 +66,27 @@
 </html></richcontent>
 </node>
 </node>
-</node>
-<node CREATED="1352716585132" ID="ID_1303016478" MODIFIED="1352716602808" POSITION="left" TEXT="build system">
+<node CREATED="1363106171499" FOLDED="true" ID="ID_43054520" MODIFIED="1363106236231" TEXT="build">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1352716591221" FOLDED="true" ID="ID_1252305111" LINK="http://joeybaker.tumblr.com/post/7304011987/how-to-add-php-validation-to-sublime-text-2" MODIFIED="1353670928532" TEXT="validate php">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1353670059473" ID="ID_218911513" MODIFIED="1353670170584">
+<node CREATED="1363106174420" ID="ID_541301195" LINK="https://github.com/stuartherbert/sublime-phpunit" MODIFIED="1363106233773">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      {
-    </p>
-    <p>
-      &#160;&#160;&#160;&quot;cmd&quot;: [&quot;/usr/bin/php&quot;, &quot;-l&quot;, &quot;$file&quot;],
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;selector&quot;: &quot;source.php&quot;,
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;file_regex&quot;: &quot;^Parse error: .* in (.*?) on line ([0-9]*)&quot;
-    </p>
-    <p>
-      }
+      <b><font color="#009999">github</font></b>&#160;<b><font color="#0033ff">sublime-phpunit</font></b>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1353338690297" ID="ID_1889510088" MODIFIED="1355160888682" POSITION="left" TEXT="projects">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1363104253211" POSITION="left" TEXT="config">
+<node CREATED="1353338701198" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1363106924995" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355140000578" ID="ID_624009682" MODIFIED="1355140027764">
 <richcontent TYPE="NODE"><html>
@@ -152,6 +138,37 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1358849063683" ID="ID_269352641" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/" MODIFIED="1358849073236" TEXT="nettuts">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1363106137025" ID="ID_1688653347" MODIFIED="1363106146586" POSITION="left" TEXT="build system">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1363106141257" ID="ID_1778669221" LINK="http://docs.sublimetext.info/en/latest/file_processing/build_systems.html" MODIFIED="1363106144444" TEXT="docs"/>
+<node CREATED="1352716591221" FOLDED="true" ID="ID_1252305111" LINK="http://joeybaker.tumblr.com/post/7304011987/how-to-add-php-validation-to-sublime-text-2" MODIFIED="1363106153439" TEXT="validate php">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1353670059473" ID="ID_218911513" MODIFIED="1353670170584">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&quot;cmd&quot;: [&quot;/usr/bin/php&quot;, &quot;-l&quot;, &quot;$file&quot;],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;selector&quot;: &quot;source.php&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;file_regex&quot;: &quot;^Parse error: .* in (.*?) on line ([0-9]*)&quot;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
