@@ -146,66 +146,7 @@
 </node>
 <node CREATED="1363003491056" ID="ID_1153871683" MODIFIED="1363003496605" TEXT="paramenters">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1363003416813" ID="ID_734848989" MODIFIED="1363003485442">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      --log-graphviz &lt;file&gt;&#160;&#160;Log test execution in GraphViz markup.&#160;&#160;&#160;
-    </p>
-    <p>
-      --log-json &lt;file&gt;&#160;&#160;&#160;&#160;&#160;&#160;Log test execution in JSON format.&#160;&#160;&#160;
-    </p>
-    <p>
-      --log-tap &lt;file&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Log test execution in TAP format to file.&#160;&#160;&#160;
-    </p>
-    <p>
-      --log-xml &lt;file&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Log test execution in XML format to file.&#160;&#160;&#160;&#160;
-    </p>
-    <p>
-      --report &lt;dir&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Generate combined test/coverage report in HTML format.&#160;&#160;&#160;
-    </p>
-    <p>
-      --testdox-html &lt;file&gt;&#160;&#160;Write agile documentation in HTML format to file.&#160;&#160;&#160;
-    </p>
-    <p>
-      --testdox-text &lt;file&gt;&#160;&#160;Write agile documentation in Text format to file.&#160;&#160;&#160;&#160;
-    </p>
-    <p>
-      --filter &lt;pattern&gt;&#160;&#160;&#160;&#160;&#160;Filter which tests to run.&#160;&#160;&#160;
-    </p>
-    <p>
-      --loader &lt;loader&gt;&#160;&#160;&#160;&#160;&#160;&#160;TestSuiteLoader implementation to use.&#160;&#160;&#160;
-    </p>
-    <p>
-      --repeat &lt;times&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Runs the test(s) repeatedly.&#160;&#160;&#160;
-    </p>
-    <p>
-      --tap&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Report test execution progress in TAP format.&#160;&#160;&#160;
-    </p>
-    <p>
-      --verbose&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Output more verbose information.&#160;&#160;&#160;
-    </p>
-    <p>
-      --wait&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Waits for a keystroke after each test.&#160;&#160;&#160;&#160;
-    </p>
-    <p>
-      --skeleton&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Generate skeleton UnitTest class for Unit in Unit.php.&#160;&#160;&#160;&#160;
-    </p>
-    <p>
-      --help&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Prints this usage information.&#160;&#160;&#160;
-    </p>
-    <p>
-      --version&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Prints the version and exits.&#160;&#160;&#160;&#160;
-    </p>
-    <p>
-      -d key[=value]&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Sets a php.ini value.
-    </p>
-  </body>
-</html></richcontent>
-</node>
+<node CREATED="1363200447129" ID="ID_1400149528" LINK="http://www.phpunit.de/manual/current/en/textui.html" MODIFIED="1363200452578" TEXT="new ones"/>
 </node>
 </node>
 </node>
