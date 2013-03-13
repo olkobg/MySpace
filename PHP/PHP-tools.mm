@@ -12,8 +12,7 @@
       <b><font color="#009999">phing</font></b><font color="#000000">&#160;build tool</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299074229111" ID="ID_1032614444" LINK="http://phing.info/docs/guide/current/" MODIFIED="1299074235203" TEXT="online manual"/>
 </node>
@@ -27,8 +26,7 @@
       <b><font color="#009999">composer</font></b>&#160;- <b><font color="#0033ff">php</font></b>&#160;depency manager
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1361273238936" ID="ID_950954818" LINK="https://github.com/facebook/hiphop-php/wiki" MODIFIED="1362076621876" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -40,8 +38,7 @@
       <b><font color="#009999">hiphop</font></b>&#160;php converts php to c++
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1299137833498" ID="ID_1278823281" MODIFIED="1362073742919" POSITION="left" TEXT="PEAR">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -58,8 +55,7 @@
       <b>pear channel-discover</b>&#160;pear.phpunit.de&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -74,8 +70,7 @@
       <font color="#0033ff">pear <b>remote-list</b>&#160;<b>-c</b>&#160;phpunit</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -104,6 +99,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1362073760223" ID="ID_128298590" MODIFIED="1362073775081" TEXT="symfony">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1363200200899" ID="ID_973196156" MODIFIED="1363200203837" TEXT="config">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1363200205478" ID="ID_199410938" LINK="http://pear.php.net/manual/en/guide.users.commandline.config.php" MODIFIED="1363200214994" TEXT="config options"/>
 </node>
 </node>
 </node>
