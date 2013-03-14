@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1360156163826" TEXT="Ulike">
+<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1363283051260" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -615,7 +615,7 @@
 <node CREATED="1361454450545" ID="ID_82349326" MODIFIED="1361454453367" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 </node>
-<node CREATED="1296676490487" ID="ID_1251407468" MODIFIED="1362823964795" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1363283053836" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1362824221128" TEXT="dig">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -659,8 +659,7 @@
       $ dig yahoo.com ANY +noall +answer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1310637726990" ID="ID_1898681690" LINK="iptables.mm" MODIFIED="1356098218863" TEXT="iptables">
@@ -724,8 +723,7 @@
       <font color="#0033ff">$ apt-get install <b>subversion-tools=1.3.2-5~bpo1</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1304071512064" ID="ID_896573144" MODIFIED="1362824074546" TEXT="source">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -751,8 +749,7 @@
       <font color="#0033ff">apt-file <b>list</b>&#160;&lt;package name&gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1359222281970" FOLDED="true" ID="ID_1374387518" MODIFIED="1359223210361" TEXT="reps">
@@ -785,8 +782,7 @@
       $ <b>dpkg-buildpackage</b>&#160;-rfakeroot -uc -b&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -899,13 +895,12 @@
       <font color="#009999"><b>pegalodesign</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" ID="ID_131784874" MODIFIED="1362824263897" POSITION="left" TEXT="X">
+<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1363283053568" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
@@ -931,7 +926,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1362824269389" TEXT="keyboard">
+<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1363283050400" TEXT="keyboard">
 <node CREATED="1355739747130" ID="ID_683421714" MODIFIED="1362824268107" TEXT="xkb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355739756941" TEXT="instructions for changing keyb layout"/>
@@ -981,6 +976,7 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1363282523347" ID="ID_802223042" LINK="http://www.trial-n-error.de/posts/2012/12/31/logitech-k810-keyboard-configurator/" MODIFIED="1363282540065" TEXT="Logitech K810 hack for Fn key"/>
 </node>
 </node>
 <node CREATED="1361461487216" FOLDED="true" ID="ID_386274153" MODIFIED="1362824272823" TEXT="xvfb">

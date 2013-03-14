@@ -7,6 +7,7 @@
 </node>
 <node CREATED="1361878157495" ID="ID_1954151142" MODIFIED="1361878161748" POSITION="left" TEXT="UI Testing">
 <node CREATED="1362156937205" ID="ID_327147454" LINK="QA/Selenium.mm" MODIFIED="1362156937206" TEXT="Selenium"/>
+<node CREATED="1363193756256" ID="ID_1318407635" LINK="http://www.autoitscript.com/site/autoit/" MODIFIED="1363193764353" TEXT="AutoitScript"/>
 </node>
 </node>
 </map>

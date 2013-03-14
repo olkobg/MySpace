@@ -2,8 +2,8 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1337095407605" TEXT="PHP">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1362411840051" POSITION="right" TEXT="Testing">
-<node CREATED="1285850518723" ID="ID_349465635" MODIFIED="1361985792993" TEXT="UnitTesting">
+<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1363200506077" POSITION="right" TEXT="Testing">
+<node CREATED="1285850518723" FOLDED="true" ID="ID_349465635" MODIFIED="1363200505742" TEXT="UnitTesting">
 <node CREATED="1334852774584" ID="ID_671076897" LINK="PHPUnit.mm" MODIFIED="1334852774585" TEXT="PHPUnit"/>
 </node>
 <node CREATED="1361539099498" FOLDED="true" ID="ID_374024873" MODIFIED="1361879968523" TEXT="UI">
@@ -250,9 +250,9 @@ xdebug.remote_port=9000
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1362411834208" POSITION="left" TEXT="CORE">
+<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1363282507626" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1362411833927" TEXT="Variables">
+<node CREATED="1299140234352" ID="ID_409384537" MODIFIED="1363282506415" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1362411827693" TEXT="inf">
 <node CREATED="1299143282242" ID="ID_1282115974" MODIFIED="1299143314362" TEXT="represented with use of dillar sign followed by the name of the variable"/>
 <node CREATED="1299143337872" ID="ID_1019860433" MODIFIED="1299143338900" TEXT="By default, variables are always assigned by value"/>
@@ -885,8 +885,7 @@ integer     : [+-]?decimal
       <font color="#0033ff">$my_fruits = unserialize (FRUITS);</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1299140308253" FOLDED="true" ID="ID_1983217092" MODIFIED="1355767353196" TEXT="object">
