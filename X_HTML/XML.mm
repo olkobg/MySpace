@@ -55,8 +55,7 @@
       <b><font color="#0033ff">//myparent/mychild[text( ) = 'foo']</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1363366235032" ID="ID_473406210" MODIFIED="1363366312492">
@@ -70,6 +69,21 @@
     </p>
     <p>
       <font color="#0033ff">//bookstore/book<b>[@location='US'][1]</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1363715415800" ID="ID_846972693" MODIFIED="1363715897911">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;!-- select by two or more parameters --&gt;
+    </p>
+    <p>
+      <font color="#0033ff">//a[@class='shit' <b>and</b>&#160;&#160;@id = 'tada']</font>
     </p>
   </body>
 </html>

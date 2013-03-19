@@ -900,7 +900,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1363283053568" POSITION="left" TEXT="X">
+<node COLOR="#0033ff" CREATED="1356357912120" ID="ID_131784874" MODIFIED="1363610097404" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
@@ -926,7 +926,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1363283050400" TEXT="keyboard">
+<node CREATED="1355490607955" ID="ID_1838694125" MODIFIED="1363610120242" TEXT="controls">
 <node CREATED="1355739747130" ID="ID_683421714" MODIFIED="1362824268107" TEXT="xkb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355739756941" TEXT="instructions for changing keyb layout"/>
@@ -978,8 +978,25 @@
 </node>
 <node CREATED="1363282523347" ID="ID_802223042" LINK="http://www.trial-n-error.de/posts/2012/12/31/logitech-k810-keyboard-configurator/" MODIFIED="1363282540065" TEXT="Logitech K810 hack for Fn key"/>
 </node>
+<node COLOR="#0033ff" CREATED="1363610100720" ID="ID_1985775145" MODIFIED="1363610123982" TEXT="xinput">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1363610124515" ID="ID_952038532" LINK="http://unix.stackexchange.com/questions/30401/is-there-a-way-to-control-the-mouse-wheel-resolution-in-debian" MODIFIED="1363610166520">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>se</b></font>&#160;config
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1361461487216" FOLDED="true" ID="ID_386274153" MODIFIED="1362824272823" TEXT="xvfb">
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1361461487216" ID="ID_386274153" MODIFIED="1363610120212" TEXT="xvfb">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361461492480" ID="ID_1130473563" LINK="http://docs.codehaus.org/display/FEST/Running+FEST+under+Xvfb" MODIFIED="1361461497309" TEXT="article 1"/>
 <node CREATED="1361461507672" ID="ID_401431363" LINK="http://askubuntu.com/questions/9694/how-to-run-two-x-sessions-at-the-same-time" MODIFIED="1361461527280" TEXT="x session on same machine"/>
 <node CREATED="1361462308716" ID="ID_578732248" LINK="http://www.vanemery.com/Linux/XoverSSH/X-over-SSH2.html" MODIFIED="1361462319909" TEXT="x over ssh2 tutorial"/>

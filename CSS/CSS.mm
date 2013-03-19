@@ -171,8 +171,7 @@
       <font color="#0033ff">page-brake-before </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1359130730037" ID="ID_1208662858" LINK="http://www.w3schools.com/cssref/pr_print_pagebb.asp" MODIFIED="1359130825539">
@@ -185,8 +184,7 @@
       <font color="#009999"><b>w3school</b></font>&#160;<font color="#0033ff">page-brake-after</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -266,7 +264,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1352817196890" FOLDED="true" ID="ID_1052342100" MODIFIED="1357221050217" POSITION="right" TEXT="hacks">
+<node COLOR="#cc3300" CREATED="1352817196890" FOLDED="true" ID="ID_1052342100" MODIFIED="1363610402416" POSITION="right" TEXT="hacks">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1352817281211" FOLDED="true" ID="ID_1327576642" MODIFIED="1357221043355" TEXT="all">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -296,6 +294,10 @@
 <node COLOR="#009999" CREATED="1356606026933" ID="ID_40012144" LINK="http://css-tricks.com/" MODIFIED="1356606592035" TEXT="css-tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+<node CREATED="1363610406267" ID="ID_468479430" MODIFIED="1363610410029" POSITION="right" TEXT="tools">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1363610410637" ID="ID_1594849939" LINK="http://susy.oddbird.net/" MODIFIED="1363610419358" TEXT="susy"/>
 </node>
 </node>
 </map>
