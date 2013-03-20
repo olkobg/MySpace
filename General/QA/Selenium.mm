@@ -4,7 +4,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1362156875647" ID="ID_1190320724" MODIFIED="1362156948176" POSITION="left" TEXT="selectors">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1362065583400" FOLDED="true" ID="ID_1508722303" LINK="http://sauceio.com/index.php/2010/01/selenium-totw-css-selectors-in-selenium-demystified/" MODIFIED="1362072874998">
+<node CREATED="1362065583400" ID="ID_1508722303" LINK="http://sauceio.com/index.php/2010/01/selenium-totw-css-selectors-in-selenium-demystified/" MODIFIED="1363711181661">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -15,7 +15,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1362072576969" MODIFIED="1362072639396">
+<node CREATED="1362072576969" ID="ID_1399713134" MODIFIED="1362072639396">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -137,8 +137,7 @@
       <b><font color="#009999">google-code</font></b>&#160;selenium&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>

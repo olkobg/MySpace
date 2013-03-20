@@ -1,10 +1,10 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1357837247246" TEXT="JS">
+<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1363790035220" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1362497610136" POSITION="right" TEXT="lib">
+<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1363790035934" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1357825561320" TEXT="Frameworks">
+<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1363790034762" TEXT="Frameworks">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#0033ff" CREATED="1288878939472" ID="ID_626818632" LINK="http://mootools.net/" MODIFIED="1357726926659" TEXT="mootolls">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -21,7 +21,8 @@
 <node COLOR="#0033ff" CREATED="1294140297055" ID="ID_1539605617" LINK="prototype.mm" MODIFIED="1357726752261" TEXT="prototype">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1306946336508" ID="ID_1625499138" MODIFIED="1306946338295" TEXT="tips">
+<node CREATED="1306946336508" ID="ID_1625499138" MODIFIED="1363790031961" TEXT="tips">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1306946338796" ID="ID_986855513" LINK="http://projects.nickstakenburg.com/tipped" MODIFIED="1357726746392" TEXT="tipped">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 </node>
@@ -29,6 +30,22 @@
 <node COLOR="#0033ff" CREATED="1283935280234" FOLDED="true" ID="ID_569325362" LINK="http://script.aculo.us/" MODIFIED="1357727843426" TEXT="script.aculo.us">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1283935288203" ID="ID_310409909" LINK="http://wiki.github.com/madrobby/scriptaculous/" MODIFIED="1307097825170" TEXT="effects"/>
+</node>
+<node CREATED="1363789987681" ID="ID_1552324385" MODIFIED="1363790030716" TEXT="mvc">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1363789995060" ID="ID_355465255" LINK="http://developer.yahoo.com/cocktails/mojito/" MODIFIED="1363790028246">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>yahoo</b></font>&#160;mojito
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1328630279282" FOLDED="true" ID="ID_1710108581" MODIFIED="1357825561704">
@@ -585,7 +602,7 @@
 <node CREATED="1306946557807" ID="ID_1154117622" LINK="http://dean.edwards.name/packer/" MODIFIED="1306946563919" TEXT="PACKER"/>
 </node>
 </node>
-<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1362497606386" POSITION="right" TEXT="Engine">
+<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1363789981600" POSITION="right" TEXT="Engine">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357148058475" ID="ID_290312899" LINK="server/Node.js.mm" MODIFIED="1357148058475" TEXT="Node.js"/>
 <node CREATED="1307097864888" ID="ID_722061965" LINK="https://developer.mozilla.org/en/SpiderMonkey" MODIFIED="1307097894673" TEXT="SpiderMonkey"/>
@@ -1026,8 +1043,7 @@
       <font color="#0033ff">$x('//html/element');</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

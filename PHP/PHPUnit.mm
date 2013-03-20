@@ -150,5 +150,23 @@
 </node>
 </node>
 </node>
+<node CREATED="1363784259187" ID="ID_1690276654" MODIFIED="1363784263430" POSITION="left" TEXT="bootstrap">
+<node CREATED="1363784263755" ID="ID_1959607376" LINK="http://jes.st/2011/phpunit-bootstrap-and-autoloading-classes/" MODIFIED="1363784291454">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>jes.st</b></font>&#160;and autoloader
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1363803114261" ID="ID_268352612" MODIFIED="1363803115997" POSITION="left" TEXT="tips">
+<node CREATED="1363803116930" ID="ID_507506103" LINK="http://blog.fedecarg.com/2008/12/27/testing-zend-framework-controllers/" MODIFIED="1363803124128" TEXT="with Zend"/>
+</node>
 </node>
 </map>
