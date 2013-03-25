@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1363283051260" TEXT="Ulike">
+<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1364219693757" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -99,11 +99,39 @@
 </node>
 </node>
 </node>
-<node CREATED="1303468898144" FOLDED="true" ID="ID_685911646" MODIFIED="1361977876162" POSITION="right" TEXT="Kernel">
-<node CREATED="1303468903258" FOLDED="true" ID="ID_477414553" MODIFIED="1357753739861" TEXT="2.6.38">
-<node CREATED="1303468907393" FOLDED="true" ID="ID_1759444751" MODIFIED="1357753739232" TEXT="patches">
-<node CREATED="1303810851046" FOLDED="true" ID="ID_1300745750" MODIFIED="1357753738672" TEXT="faster UI">
+<node CREATED="1303468898144" FOLDED="true" ID="ID_685911646" MODIFIED="1364219693084" POSITION="right" TEXT="Kernel">
+<node CREATED="1303468903258" FOLDED="true" ID="ID_477414553" MODIFIED="1364219692524" TEXT="2.6.38">
+<node COLOR="#0033ff" CREATED="1364219529233" FOLDED="true" ID="ID_1334995368" MODIFIED="1364219692290" TEXT="sysctl">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1303810851046" FOLDED="true" ID="ID_1300745750" MODIFIED="1364219691662" TEXT="faster UI">
 <node COLOR="#0033ff" CREATED="1303468910289" ID="ID_1922817270" MODIFIED="1315938397165" TEXT=" sysctl kernel.sched_autogroup_enabled=1"/>
+</node>
+<node CREATED="1364219546657" FOLDED="true" ID="ID_619998213" MODIFIED="1364219691402" TEXT="clear cache">
+<node CREATED="1364219557184" ID="ID_1781340970" MODIFIED="1364219676621">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      To free pagecache:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#0033ff">echo 1 &gt; /proc/sys/vm/drop_caches </font>
+    </p>
+    <p>
+      To free dentries and inodes:&#160;&#160;<font color="#0033ff">echo 2 &gt; /proc/sys/vm/drop_caches </font>
+    </p>
+    <p>
+      To free all previous :&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#0033ff">echo 3 &gt; /proc/sys/vm/drop_caches</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">sysctl <b>vm.drop_caches</b>&#160;= 1</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -155,7 +183,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1361977873290" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1364219506712" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1361977872822" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" ID="ID_200655277" MODIFIED="1359236480154" TEXT="optimize">
@@ -163,7 +191,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1361977335495" POSITION="right" TEXT="tools">
+<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1364219504482" POSITION="right" TEXT="tools">
 <node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1361971719441" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1359980077469" TEXT="mount ">
@@ -900,7 +928,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" ID="ID_131784874" MODIFIED="1363610097404" POSITION="left" TEXT="X">
+<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1364219694673" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
@@ -990,8 +1018,7 @@
       <font color="#009999"><b>se</b></font>&#160;config
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
