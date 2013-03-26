@@ -70,8 +70,7 @@
       <font color="#0033ff">$ git config <b>core.sharedRepository</b>&#160;group&#160;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -103,7 +102,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116397871" FOLDED="true" ID="ID_315343330" MODIFIED="1357898695460" POSITION="left" TEXT="merge">
+<node COLOR="#0033ff" CREATED="1311116397871" FOLDED="true" ID="ID_315343330" MODIFIED="1364323434686" POSITION="left" TEXT="merge">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347010374336" ID="ID_276273301" MODIFIED="1355754800083">
 <richcontent TYPE="NODE"><html>
@@ -125,6 +124,22 @@
 <node COLOR="#0033ff" CREATED="1355755091203" ID="ID_1971187925" MODIFIED="1355755103258" TEXT="--continue">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="help"/>
+</node>
+<node CREATED="1364323378487" ID="ID_431939521" MODIFIED="1364323432275">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #get <b>their changes</b>&#160;during <b>commit</b>
+    </p>
+    <p>
+      <font color="#0033ff">$ git checkout <b>--theirs</b>&#160;-- path/to/file.txt</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1356611018634" ID="ID_1250883637" MODIFIED="1356611022894" POSITION="left" TEXT="mergetool">

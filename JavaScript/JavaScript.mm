@@ -43,8 +43,7 @@
       <font color="#009999"><b>yahoo</b></font>&#160;mojito
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -602,13 +601,15 @@
 <node CREATED="1306946557807" ID="ID_1154117622" LINK="http://dean.edwards.name/packer/" MODIFIED="1306946563919" TEXT="PACKER"/>
 </node>
 </node>
-<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1363789981600" POSITION="right" TEXT="Engine">
+<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1364305672228" POSITION="right" TEXT="Engine">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357148058475" ID="ID_290312899" LINK="server/Node.js.mm" MODIFIED="1357148058475" TEXT="Node.js"/>
+<node CREATED="1364305444132" ID="ID_103084548" MODIFIED="1364305447471" TEXT="mozilla">
 <node CREATED="1307097864888" ID="ID_722061965" LINK="https://developer.mozilla.org/en/SpiderMonkey" MODIFIED="1307097894673" TEXT="SpiderMonkey"/>
 <node CREATED="1307097896172" ID="ID_604037639" LINK="http://www.mozilla.org/rhino/" MODIFIED="1307097933581" TEXT="rhino"/>
 </node>
-<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1362498340199" POSITION="left" TEXT="OBJECTS">
+</node>
+<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1364323366438" POSITION="left" TEXT="OBJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1357726603924" ID="ID_1228545119" MODIFIED="1357726606996" TEXT="document">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1007,24 +1008,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1362498338509" POSITION="right" TEXT="Browser">
-<node CREATED="1319659797455" FOLDED="true" ID="ID_1332028521" MODIFIED="1357728146344" TEXT="ff">
+<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1364305671577" POSITION="right" TEXT="Browser">
+<node CREATED="1364305502013" ID="ID_1392687097" LINK="../OS/Cross/Web/Firefox.mm" MODIFIED="1364305666952" TEXT="firefox">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1319659800487" ID="ID_1617789911" MODIFIED="1357728106466">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#000000">// turn <b>on</b>&#160;js </font>
-    </p>
-    <p>
-      javascript.options.showInConsole preference
-    </p>
-  </body>
-</html></richcontent>
-</node>
 </node>
 <node CREATED="1357728117546" FOLDED="true" ID="ID_581548053" MODIFIED="1362498337239" TEXT="chrome">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
