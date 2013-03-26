@@ -3118,7 +3118,7 @@ bool(true)</pre>
 <node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1359042029267" POSITION="left" STYLE="bubble" TEXT="tools">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1362144118185" POSITION="left" TEXT="TIPS &amp; Notes">
+<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1364287242661" POSITION="left" TEXT="TIPS &amp; Notes">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299140152828" ID="ID_1927321205" MODIFIED="1299140158690" TEXT="last tag">
 <node CREATED="1299140159252" ID="ID_487593545" MODIFIED="1354283499246" TEXT="it&apos;s preffered to not close the last tag (it&apos;s usefull when hidden rows at the end of file)"/>
@@ -3156,6 +3156,37 @@ bool(true)</pre>
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1364287104076" ID="ID_1130690758" MODIFIED="1364287223690">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // missing function
+    </p>
+    <p>
+      &lt;?
+    </p>
+    <p>
+      &#160; <font color="#0033ff">if(! <b>function_exists</b>('ctype_alpha')) { </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;function ctype_alpha($text)&#160;&#160;{ </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;&#160;return preg_match(&quot;/[A-Za-z]/&quot;,$text);&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;} </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
