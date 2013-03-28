@@ -2,8 +2,18 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1297692830782" ID="ID_1675629856" LINK="../Crossplatform.mm" MODIFIED="1351777232291" TEXT="vim">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1297692832611" FOLDED="true" ID="ID_963268630" MODIFIED="1357753405343" POSITION="left" TEXT="fork">
+<node CREATED="1297692832611" FOLDED="true" ID="ID_963268630" MODIFIED="1364488814316" POSITION="left" TEXT="fork">
 <node CREATED="1297692838824" ID="ID_894392305" LINK="https://github.com/carlhuda/janus" MODIFIED="1297692843016" TEXT="Janus"/>
+<node CREATED="1364488594322" FOLDED="true" ID="ID_408990398" MODIFIED="1364488814116" TEXT="browser">
+<node CREATED="1364488597009" ID="ID_856983535" LINK="http://sourceforge.net/apps/trac/vimprobable/" MODIFIED="1364488607453" TEXT="vimprobable"/>
+<node CREATED="1364488802021" ID="ID_979468313" MODIFIED="1364488806047" TEXT="chrome">
+<node CREATED="1364488735499" ID="ID_491714714" LINK="http://vimium.github.com/" MODIFIED="1364488745129" TEXT="vimium"/>
+<node CREATED="1364488790680" ID="ID_1913428643" LINK="http://www.chromeextensions.org/other/vrome/" MODIFIED="1364488793784" TEXT="vrome"/>
+</node>
+<node CREATED="1364488807238" ID="ID_1480220125" MODIFIED="1364488808775" TEXT="ff">
+<node CREATED="1364488738771" ID="ID_1832042245" LINK="http://www.vimperator.org/vimperator" MODIFIED="1364488798683" TEXT="vimperator"/>
+</node>
+</node>
 </node>
 <node CREATED="1304072292265" FOLDED="true" ID="ID_481574189" MODIFIED="1357753404997" POSITION="left" TEXT="config">
 <node CREATED="1304072294337" ID="ID_1699414785" MODIFIED="1304072315695" TEXT="create config">
@@ -13,7 +23,21 @@
 <node COLOR="#0033ff" CREATED="1304072329796" ID="ID_21523396" MODIFIED="1310045254652" TEXT="mv ~/.exrc ~/.vimrc "/>
 </node>
 </node>
-<node CREATED="1310398086417" ID="ID_1153701436" MODIFIED="1357753416677" POSITION="left" TEXT="tutorial"/>
+<node CREATED="1310398086417" ID="ID_1153701436" MODIFIED="1357753416677" POSITION="left" TEXT="tutorial">
+<node CREATED="1364487944576" ID="ID_1894261179" LINK="http://net.tutsplus.com/articles/web-roundups/25-vim-tutorials-screencasts-and-resources/" MODIFIED="1364487962537">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">nettuts</font></b>&#160;12 cool info
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node CREATED="1311076066199" FOLDED="true" ID="ID_1137717804" MODIFIED="1357753403533" POSITION="left" TEXT="editing">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311076070262" FOLDED="true" ID="ID_427727716" MODIFIED="1357753371899" TEXT="commenting">
@@ -33,8 +57,7 @@
       :w<b>!</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1355398992961" ID="ID_1374107260" MODIFIED="1357753243072" TEXT=":w">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -155,8 +178,7 @@
       <font color="#0033ff"><b>:nohlsearch</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1310470099393" ID="ID_69542900" MODIFIED="1310470113918" TEXT="links">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
