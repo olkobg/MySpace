@@ -190,7 +190,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1364490075101" POSITION="right" TEXT="tools">
+<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1364551425865" POSITION="right" TEXT="tools">
 <node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1364489796524" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1359980077469" TEXT="mount ">
@@ -653,7 +653,7 @@
 <node CREATED="1361454450545" ID="ID_82349326" MODIFIED="1361454453367" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1363283053836" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1364552437730" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1362824221128" TEXT="dig">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -937,8 +937,75 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_140635818" MODIFIED="1364552437364" TEXT="bluez">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1364551462610" ID="ID_918738490" MODIFIED="1364552351416">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # dump all bluetooth data
+    </p>
+    <p>
+      <font color="#0033ff">$ hcidump -at</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1364219694673" POSITION="left" TEXT="X">
+<node CREATED="1364551499783" ID="ID_1486268015" MODIFIED="1364552373067">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000"># mark bluetooth device as trusted</font>
+    </p>
+    <p>
+      <font color="#0033ff">$ bluez-test-device <b>trusted</b>&#160;xx:xx:xx:xx:xx <b>yes</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1364551535647" ID="ID_323701898" MODIFIED="1364552397040">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000"># connect device with terminal</font>
+    </p>
+    <p>
+      <font color="#0033ff">$ bluez-simple-agent <b>hci0</b>&#160;xx:xx:xx:xx:xx&#160;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1364551572454" ID="ID_1391987966" MODIFIED="1364552420186">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000"># repair bluetooth device in terminal</font>
+    </p>
+    <p>
+      <font color="#0033ff">$ bluez-simple-agent hci0 xx:xx:xx:xx:xx <b>repair</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1364551421525" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
@@ -964,7 +1031,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1355490607955" ID="ID_1838694125" MODIFIED="1363610120242" TEXT="controls">
+<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1364551419086" TEXT="controls">
 <node CREATED="1355739747130" ID="ID_683421714" MODIFIED="1362824268107" TEXT="xkb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355739756941" TEXT="instructions for changing keyb layout"/>
