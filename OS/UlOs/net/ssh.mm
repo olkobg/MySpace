@@ -14,9 +14,9 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1358705089641" ID="ID_629302074" MODIFIED="1360068609000" POSITION="right" TEXT="~/.ssh/config/">
+<node COLOR="#0033ff" CREATED="1358705089641" FOLDED="true" ID="ID_629302074" MODIFIED="1364753624982" POSITION="right" TEXT="~/.ssh/config/">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1301476145773" FOLDED="true" ID="ID_133796077" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1360702711502" TEXT="per host">
+<node CREATED="1301476145773" FOLDED="true" ID="ID_133796077" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1364753624650" TEXT="per host">
 <node CREATED="1301478206031" ID="ID_583588422" MODIFIED="1358705194423">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -109,9 +109,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1360068554912" ID="ID_1490526552" MODIFIED="1360702716251" POSITION="left" TEXT="ssh">
+<node COLOR="#0033ff" CREATED="1360068554912" FOLDED="true" ID="ID_1490526552" MODIFIED="1364753630582" POSITION="left" TEXT="ssh">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1358702630781" FOLDED="true" ID="ID_1170322785" MODIFIED="1360702715050" TEXT="-L">
+<node COLOR="#0033ff" CREATED="1358702630781" FOLDED="true" ID="ID_1170322785" MODIFIED="1364753630089" TEXT="-L">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358702634735" ID="ID_149448698" MODIFIED="1358705209915">
 <richcontent TYPE="NODE"><html>
@@ -130,7 +130,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1360701677589" ID="ID_348083143" MODIFIED="1360701681162" POSITION="left" TEXT="sshfs">
+<node COLOR="#0033ff" CREATED="1360701677589" FOLDED="true" ID="ID_348083143" MODIFIED="1364753631453" POSITION="left" TEXT="sshfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1360701777868" ID="ID_1297928765" LINK="http://blog.philippklaus.de/2011/07/sshfs-on-mac-os-x-10-6-8-with-fuse4x/" MODIFIED="1360701838394">
 <richcontent TYPE="NODE"><html>
@@ -142,8 +142,7 @@
       mac &gt; 10.6
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
