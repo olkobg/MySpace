@@ -190,7 +190,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1364551425865" POSITION="right" TEXT="tools">
+<node CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1364752986605" POSITION="right" TEXT="tools">
 <node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1364489796524" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1359980077469" TEXT="mount ">
@@ -626,7 +626,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1361977870307" POSITION="right" TEXT="interpet">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1364752907381" POSITION="right" TEXT="interpet">
 <node COLOR="#0033ff" CREATED="1296636804213" ID="ID_493133498" MODIFIED="1360156095153" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
@@ -653,7 +653,7 @@
 <node CREATED="1361454450545" ID="ID_82349326" MODIFIED="1361454453367" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1364552437730" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" ID="ID_1251407468" MODIFIED="1364752993927" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1362824221128" TEXT="dig">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -937,7 +937,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_140635818" MODIFIED="1364552437364" TEXT="bluez">
+<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_140635818" MODIFIED="1364753012571" TEXT="bluez">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1364551462610" ID="ID_918738490" MODIFIED="1364552351416">
 <richcontent TYPE="NODE"><html>
@@ -952,8 +952,7 @@
       <font color="#0033ff">$ hcidump -at</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1364551499783" ID="ID_1486268015" MODIFIED="1364552373067">
 <richcontent TYPE="NODE"><html>
@@ -968,8 +967,7 @@
       <font color="#0033ff">$ bluez-test-device <b>trusted</b>&#160;xx:xx:xx:xx:xx <b>yes</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1364551535647" ID="ID_323701898" MODIFIED="1364552397040">
 <richcontent TYPE="NODE"><html>
@@ -984,8 +982,7 @@
       <font color="#0033ff">$ bluez-simple-agent <b>hci0</b>&#160;xx:xx:xx:xx:xx&#160;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1364551572454" ID="ID_1391987966" MODIFIED="1364552420186">
 <richcontent TYPE="NODE"><html>
@@ -1000,9 +997,14 @@
       <font color="#0033ff">$ bluez-simple-agent hci0 xx:xx:xx:xx:xx <b>repair</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1364752998610" ID="ID_536955064" LINK="http://wiki.opscode.com/display/chef/Shef" MODIFIED="1364753052895" TEXT="shef">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1364753013894" ID="ID_980082429" LINK="http://www.aircrack-ng.org/" MODIFIED="1364753040762" TEXT="aircrack-ng">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1364551421525" POSITION="left" TEXT="X">
@@ -1108,8 +1110,8 @@
 </node>
 <node CREATED="1355996052443" ID="ID_1927459662" MODIFIED="1364489809572" POSITION="right" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357753828458" FOLDED="true" ID="ID_1937859101" MODIFIED="1364489807343" TEXT="mail">
-<node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1364489807092" TEXT="telnet">
+<node CREATED="1357753828458" FOLDED="true" ID="ID_1937859101" MODIFIED="1364752905072" TEXT="mail">
+<node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1364752904547" TEXT="telnet">
 <node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
 <richcontent TYPE="NODE"><html>
   <head>
