@@ -756,7 +756,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_140635818" MODIFIED="1364753012571" TEXT="bluez">
+<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" MODIFIED="1364753012571" TEXT="bluez">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1364551462610" ID="ID_918738490" MODIFIED="1364552351416">
 <richcontent TYPE="NODE"><html>
@@ -1014,7 +1014,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1364551421525" POSITION="left" TEXT="X">
+<node COLOR="#0033ff" CREATED="1356357912120" ID="ID_131784874" MODIFIED="1364843846246" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
@@ -1040,8 +1040,8 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1364551419086" TEXT="controls">
-<node CREATED="1355739747130" ID="ID_683421714" MODIFIED="1362824268107" TEXT="xkb">
+<node CREATED="1355490607955" ID="ID_1838694125" MODIFIED="1364843850075" TEXT="controls">
+<node CREATED="1355739747130" FOLDED="true" ID="ID_683421714" MODIFIED="1364843866276" TEXT="xkb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355739756941" TEXT="instructions for changing keyb layout"/>
 <node CREATED="1355490901133" ID="ID_1324979617" LINK="http://stackoverflow.com/questions/4200800/in-bash-how-do-i-bind-a-function-key-to-a-command" MODIFIED="1355739756907" TEXT="stack overflow"/>
@@ -1092,7 +1092,7 @@
 </node>
 <node CREATED="1363282523347" ID="ID_802223042" LINK="http://www.trial-n-error.de/posts/2012/12/31/logitech-k810-keyboard-configurator/" MODIFIED="1363282540065" TEXT="Logitech K810 hack for Fn key"/>
 </node>
-<node COLOR="#0033ff" CREATED="1363610100720" ID="ID_1985775145" MODIFIED="1363610123982" TEXT="xinput">
+<node COLOR="#0033ff" CREATED="1363610100720" FOLDED="true" ID="ID_1985775145" MODIFIED="1364843920674" TEXT="xinput">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1363610124515" ID="ID_952038532" LINK="http://unix.stackexchange.com/questions/30401/is-there-a-way-to-control-the-mouse-wheel-resolution-in-debian" MODIFIED="1363610166520">
 <richcontent TYPE="NODE"><html>
@@ -1106,6 +1106,22 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1364843921623" ID="ID_640899124" MODIFIED="1364843925012" TEXT="xev">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1364843932980" ID="ID_1454881677" MODIFIED="1364843954132">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">xmodmap</font></b>&#160;modify mapping
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1361461487216" ID="ID_386274153" MODIFIED="1363610120212" TEXT="xvfb">
