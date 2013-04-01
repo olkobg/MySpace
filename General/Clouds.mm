@@ -46,5 +46,11 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1364808129729" ID="ID_1282145179" MODIFIED="1364808164623" POSITION="left" TEXT="manage hosts">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1364752998610" ID="ID_536955064" LINK="http://wiki.opscode.com/display/chef/Shef" MODIFIED="1364808160408" TEXT="chef">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </map>
