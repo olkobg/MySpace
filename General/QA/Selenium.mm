@@ -4,7 +4,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1362156875647" ID="ID_1190320724" MODIFIED="1362156948176" POSITION="left" TEXT="selectors">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1362065583400" FOLDED="true" ID="ID_1508722303" LINK="http://sauceio.com/index.php/2010/01/selenium-totw-css-selectors-in-selenium-demystified/" MODIFIED="1364912697399">
+<node CREATED="1362065583400" FOLDED="true" ID="ID_1508722303" LINK="http://sauceio.com/index.php/2010/01/selenium-totw-css-selectors-in-selenium-demystified/" MODIFIED="1365178612639">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45,6 +45,19 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1365178793736" ID="ID_1533749006" LINK="http://marakana.com/bookshelf/selenium_tutorial/locators.html" MODIFIED="1365178832591">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>marakana </b></font>selectors
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 <node CREATED="1362156845442" ID="ID_1918777985" MODIFIED="1362156980241">
 <richcontent TYPE="NODE"><html>
