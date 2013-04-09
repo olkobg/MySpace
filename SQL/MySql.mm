@@ -208,8 +208,7 @@
       <font color="#0033ff"><b>ALTER DATABASE</b>&#160;mal <b>DEFAULT CHARACTER SET</b>&#160;utf8 COLLATE utf8_unicode_ci</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -226,8 +225,7 @@
       <font color="#0033ff"><b>DELETE&#160;FROM </b>mal_content<b>&#160;WHERE </b>ContentID &gt; 20</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1354289475161" FOLDED="true" ID="ID_209240147" MODIFIED="1356620785252" POSITION="left" TEXT="DROP">
@@ -264,7 +262,7 @@
 <node COLOR="#0033ff" CREATED="1354290053346" ID="ID_1359645885" MODIFIED="1354290578758" TEXT="TRIGGER"/>
 <node COLOR="#0033ff" CREATED="1354290063731" ID="ID_1364430640" MODIFIED="1354290580424" TEXT="VIEW"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354285438738" FOLDED="true" ID="ID_232896590" LINK="http://dev.mysql.com/doc/refman/5.5/en/insert.html" MODIFIED="1356683459979" POSITION="left" TEXT="INSERT">
+<node COLOR="#0033ff" CREATED="1354285438738" FOLDED="true" ID="ID_232896590" LINK="http://dev.mysql.com/doc/refman/5.5/en/insert.html" MODIFIED="1365504887762" POSITION="left" TEXT="INSERT">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354285573548" ID="ID_277094629" MODIFIED="1354285695530">
 <richcontent TYPE="NODE"><html>
