@@ -37,9 +37,13 @@
       <font color="#0033ff">Command + Shift + 4</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1365585009526" ID="ID_1508479409" MODIFIED="1365586094086" POSITION="right" TEXT="hackintosh">
+<node COLOR="#009999" CREATED="1365585019963" ID="ID_377081837" LINK="http://www.souldevteam.net/" MODIFIED="1365585031365" TEXT="souldev team">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1343289776094" FOLDED="true" ID="ID_1441127359" MODIFIED="1360702168274" POSITION="left" TEXT="NFS">

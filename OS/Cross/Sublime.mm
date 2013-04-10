@@ -81,19 +81,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1353338690297" ID="ID_1889510088" MODIFIED="1355160888682" POSITION="left" TEXT="projects">
+<node CREATED="1353338690297" ID="ID_1889510088" LINK="http://www.sublimetext.com/docs/2/projects.html" MODIFIED="1365592909476" POSITION="left" TEXT="projects">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1365522705072" POSITION="left" TEXT="config">
+<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1365592951453" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1355140000578" ID="ID_624009682" MODIFIED="1355140027764">
+<node COLOR="#0033ff" CREATED="1355140000578" ID="ID_624009682" MODIFIED="1365592926400">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      // olko's config
+      <font color="#000000">// olko's config</font>
     </p>
     <p>
       {
@@ -123,7 +123,8 @@
       }
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1355140175527" ID="ID_1637713145" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=3&amp;t=2691" MODIFIED="1358849230705" TEXT="highlight_line">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -138,8 +139,7 @@
       <b><font color="#009999">sublime docs</font></b>&#160;intendation config
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1355495398680" ID="ID_348230933" LINK="http://sublimetext.info/docs/en/reference/key_bindings.html" MODIFIED="1355495411596" POSITION="left" TEXT="key binding">
