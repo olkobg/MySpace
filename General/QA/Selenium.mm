@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1361878162081" ID="ID_1703692073" LINK="../QA.mm" MODIFIED="1362156955584" TEXT="Selenium">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1362156875647" ID="ID_1190320724" MODIFIED="1362156948176" POSITION="left" TEXT="selectors">
+<node CREATED="1362156875647" FOLDED="true" ID="ID_1190320724" MODIFIED="1365788846385" POSITION="left" TEXT="selectors">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362065583400" FOLDED="true" ID="ID_1508722303" LINK="http://sauceio.com/index.php/2010/01/selenium-totw-css-selectors-in-selenium-demystified/" MODIFIED="1365178612639">
 <richcontent TYPE="NODE"><html>
@@ -56,8 +56,7 @@
       <font color="#009999"><b>marakana </b></font>selectors
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1362156845442" ID="ID_1918777985" MODIFIED="1362156980241">
 <richcontent TYPE="NODE"><html>
@@ -86,15 +85,28 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1365777011261" ID="ID_126863129" LINK="http://stackoverflow.com/questions/3422262/take-a-screenshot-with-selenium-webdriver" MODIFIED="1365777053757">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">SO</font></b>&#160;take screenshots
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1362500889427" ID="ID_184281649" MODIFIED="1362500893105" POSITION="left" TEXT="drivers">
+</node>
+<node CREATED="1362500889427" FOLDED="true" ID="ID_184281649" MODIFIED="1365788846625" POSITION="left" TEXT="drivers">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362500893489" ID="ID_860721704" LINK="https://code.google.com/p/chromedriver/" MODIFIED="1362500898184" TEXT="google chrome"/>
 <node CREATED="1362505030415" ID="ID_321420415" LINK="http://code.google.com/p/selenium/wiki/InternetExplorerDriver" MODIFIED="1362505041625" TEXT="internet Explorer"/>
 <node CREATED="1362505196398" ID="ID_327355286" LINK="http://code.google.com/p/selenium/wiki/IPhoneDriver" MODIFIED="1362505255579" TEXT="iphone "/>
 <node CREATED="1362505256050" ID="ID_120313011" LINK="http://code.google.com/p/selenium/wiki/AndroidDriver" MODIFIED="1362505259742" TEXT="android"/>
 </node>
-<node CREATED="1362156199160" ID="ID_555750420" MODIFIED="1362156203787" POSITION="right" TEXT="selenium server">
+<node CREATED="1362156199160" FOLDED="true" ID="ID_555750420" MODIFIED="1365788848435" POSITION="right" TEXT="selenium server">
 <node CREATED="1362156204090" ID="ID_1880542938" MODIFIED="1362156221880">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -136,7 +148,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1362156882837" ID="ID_1321311435" MODIFIED="1362156895120" POSITION="right" TEXT="Firefox broser addons">
+<node CREATED="1362156882837" FOLDED="true" ID="ID_1321311435" MODIFIED="1365788850545" POSITION="right" TEXT="Firefox broser addons">
 <node CREATED="1361877855022" ID="ID_1752886742" LINK="http://sebuilder.github.com/se-builder/" MODIFIED="1361877864508" TEXT="Selenium Builder"/>
 <node CREATED="1361878943818" ID="ID_1470803951" LINK="http://docs.seleniumhq.org/docs/02_selenium_ide.jsp" MODIFIED="1362496131398" TEXT="Selenium IDE"/>
 </node>
