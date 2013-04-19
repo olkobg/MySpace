@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1357132643779" ID="ID_971064340" LINK="../Index.mm" MODIFIED="1357132710954" TEXT="Clouds">
+<node CREATED="1357132643779" ID="ID_971064340" LINK="../Index.mm" MODIFIED="1366365351109" TEXT="Clouds">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1297152036633" ID="ID_1064207502" LINK="heroku.mm" MODIFIED="1357132703628" POSITION="right" TEXT="heroku">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -34,6 +34,10 @@
 </node>
 </node>
 </node>
+<node CREATED="1366365555799" ID="ID_747695623" MODIFIED="1366365562584" POSITION="right" TEXT="mockups">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1366365564342" ID="ID_483617961" LINK="http://builds.balsamiq.com/b/mockups-web-demo/" MODIFIED="1366365571309" TEXT="balsamiq"/>
+</node>
 <node CREATED="1357132673084" ID="ID_1752594914" LINK="http://aws.amazon.com/" MODIFIED="1357140633872" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -46,10 +50,13 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1364808129729" ID="ID_1282145179" MODIFIED="1364808164623" POSITION="left" TEXT="manage hosts">
+<node CREATED="1366365351082" ID="ID_1504582347" MODIFIED="1366365354072" POSITION="left" TEXT="tools">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1364808129729" ID="ID_1282145179" MODIFIED="1366365340143" TEXT="manage hosts">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1364752998610" ID="ID_536955064" LINK="http://wiki.opscode.com/display/chef/Shef" MODIFIED="1364808160408" TEXT="chef">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
