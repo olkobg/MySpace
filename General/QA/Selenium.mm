@@ -95,8 +95,7 @@
       <b><font color="#009999">SO</font></b>&#160;take screenshots
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1362500889427" FOLDED="true" ID="ID_184281649" MODIFIED="1365788846625" POSITION="left" TEXT="drivers">
@@ -164,6 +163,20 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1366642514155" ID="ID_1177308242" LINK="http://code.google.com/p/flash-selenium/" MODIFIED="1366642530343" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999">flash selenium</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </map>
