@@ -90,6 +90,25 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1366920984382" ID="ID_1775583034" MODIFIED="1366921100800">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;!-- finding last element with attribute --&gt;
+    </p>
+    <p>
+      <font color="#0033ff">(//table[@class=&quot;body&quot;])[<b>last()</b>]/tbody/tr[2]/td&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0033ff">(//span[@class='myPrice'])[<b>last()</b>]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1298903424927" ID="ID_1661081815" MODIFIED="1363794264362" POSITION="left" TEXT="xform"/>
 <node CREATED="1298903427756" ID="ID_190128776" MODIFIED="1363794266524" POSITION="left" TEXT="xlink"/>
