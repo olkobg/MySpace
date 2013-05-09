@@ -13,7 +13,7 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="21"/>
 <node CREATED="1290076786055" ID="ID_956641942" MODIFIED="1290076788459" POSITION="right" TEXT="Variables"/>
-<node CREATED="1295343247690" FOLDED="true" ID="ID_1695792282" MODIFIED="1358705995651" POSITION="right" TEXT="connection">
+<node CREATED="1295343247690" FOLDED="true" ID="ID_1695792282" MODIFIED="1368089873622" POSITION="right" TEXT="connection">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1295343251881" FOLDED="true" ID="ID_324878977" MODIFIED="1358702613384" TEXT="windows">
 <node CREATED="1295343258650" FOLDED="true" ID="ID_1267807285" MODIFIED="1358702613092" TEXT="named pipe">
@@ -44,7 +44,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1354284422668" ID="ID_104995101" MODIFIED="1354284431608" POSITION="left" TEXT="functions">
+<node CREATED="1354284422668" FOLDED="true" ID="ID_104995101" MODIFIED="1368089932971" POSITION="left" TEXT="functions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1302007143908" FOLDED="true" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1359491632965" TEXT="Date">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
@@ -380,6 +380,23 @@
 </node>
 </node>
 </node>
+<node CREATED="1368089881938" FOLDED="true" ID="ID_1952603060" MODIFIED="1368089930449" POSITION="right" TEXT="PATCH">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1368089895748" ID="ID_1916465749" LINK="https://launchpad.net/mysql-udf-regexp" MODIFIED="1368089924137">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>LP</b></font>&#160;UDF
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1352978089919" ID="ID_597483296" MODIFIED="1356716301796" POSITION="right" TEXT="information_schema">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1352978101798" ID="ID_42747466" MODIFIED="1352978146894" TEXT="COLUMNS">
@@ -389,7 +406,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1299247772112" FOLDED="true" ID="ID_748683254" MODIFIED="1356716308511" POSITION="right" TEXT="Stored Procedures">
+<node CREATED="1299247772112" FOLDED="true" ID="ID_748683254" MODIFIED="1368089871787" POSITION="right" TEXT="Stored Procedures">
 <node COLOR="#0033ff" CREATED="1299247779698" ID="ID_1412236481" MODIFIED="1328173884708">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -493,7 +510,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1320946456590" ID="ID_810700224" MODIFIED="1359491603262" POSITION="right" TEXT="TIPS">
+<node COLOR="#ff0000" CREATED="1320946456590" FOLDED="true" ID="ID_810700224" MODIFIED="1368089931529" POSITION="right" TEXT="TIPS">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1320946458758" FOLDED="true" ID="ID_210105990" MODIFIED="1354290652084" TEXT="tables with column name">
 <node COLOR="#0033ff" CREATED="1320946471860" ID="ID_197018626" MODIFIED="1354290647637">
@@ -560,7 +577,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1355504449518" ID="ID_595465636" MODIFIED="1359491629441" POSITION="left" TEXT="transaction">
+<node CREATED="1355504449518" FOLDED="true" ID="ID_595465636" MODIFIED="1368089936694" POSITION="left" TEXT="transaction">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#996600" CREATED="1355503783895" ID="ID_1263559258" LINK="http://dev.mysql.com/doc/refman/5.1/en/innodb-locking-reads.html" MODIFIED="1355504509369">
 <richcontent TYPE="NODE"><html>

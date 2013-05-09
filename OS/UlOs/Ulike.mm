@@ -10,10 +10,9 @@
       (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1364489803455" POSITION="right" TEXT="Boot">
+<node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1365673949773" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1358859511956" TEXT="loader">
 <node CREATED="1294648493700" ID="ID_929058759" MODIFIED="1357753710269" TEXT="grub">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -73,9 +72,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1320672828804" ID="ID_112331071" MODIFIED="1355996314748" TEXT="Init">
+<node COLOR="#0033ff" CREATED="1320672828804" FOLDED="true" ID="ID_112331071" MODIFIED="1365673949375" TEXT="Init">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1320672794255" ID="ID_1840571506" MODIFIED="1358859508569" TEXT="levels ">
+<node CREATED="1320672794255" FOLDED="true" ID="ID_1840571506" MODIFIED="1365673948995" TEXT="levels ">
 <node CREATED="1320672796991" ID="ID_485402371" MODIFIED="1320672824019">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -100,11 +99,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1303468898144" FOLDED="true" ID="ID_685911646" MODIFIED="1364489802209" POSITION="right" TEXT="Kernel">
-<node CREATED="1303468903258" FOLDED="true" ID="ID_477414553" MODIFIED="1364219692524" TEXT="2.6.38">
-<node COLOR="#0033ff" CREATED="1364219529233" FOLDED="true" ID="ID_1334995368" MODIFIED="1364219692290" TEXT="sysctl">
+<node CREATED="1303468898144" FOLDED="true" ID="ID_685911646" MODIFIED="1368085129619" POSITION="right" TEXT="Kernel">
+<node CREATED="1303468903258" FOLDED="true" ID="ID_477414553" MODIFIED="1365673939641" TEXT="2.6.38">
+<node COLOR="#0033ff" CREATED="1364219529233" FOLDED="true" ID="ID_1334995368" MODIFIED="1365673939236" TEXT="sysctl">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303810851046" FOLDED="true" ID="ID_1300745750" MODIFIED="1364219691662" TEXT="faster UI">
+<node CREATED="1303810851046" FOLDED="true" ID="ID_1300745750" MODIFIED="1365673938937" TEXT="faster UI">
 <node COLOR="#0033ff" CREATED="1303468910289" ID="ID_1922817270" MODIFIED="1315938397165" TEXT=" sysctl kernel.sched_autogroup_enabled=1"/>
 </node>
 <node CREATED="1364219546657" FOLDED="true" ID="ID_619998213" MODIFIED="1364219691402" TEXT="clear cache">
@@ -135,7 +134,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1356357594952" FOLDED="true" ID="ID_574981773" MODIFIED="1361977875204" TEXT="param">
+<node CREATED="1356357594952" FOLDED="true" ID="ID_574981773" MODIFIED="1365673946304" TEXT="param">
 <node COLOR="#0033ff" CREATED="1356357600839" ID="ID_939154443" MODIFIED="1356357605487" TEXT="root">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1356357663629" ID="ID_1491289096" MODIFIED="1356357714394">
@@ -183,16 +182,58 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1364489800861" POSITION="right" TEXT="services">
-<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1364489800428" TEXT="web">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1368085127891" POSITION="right" TEXT="services">
+<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1365673936061" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
-<node CREATED="1296726276372" ID="ID_200655277" MODIFIED="1359236480154" TEXT="optimize">
+<node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1365673935760" TEXT="optimize">
 <node CREATED="1296726279539" ID="ID_1037052627" LINK="http://guides.tinybrick.com/magento/speed-testing" MODIFIED="1343156400294" TEXT="speedtesting"/>
 </node>
 </node>
 </node>
-<node CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1365667897421" POSITION="right" TEXT="tools">
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1365668012110" TEXT="fs">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1368086835603" POSITION="right" TEXT="@term">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1368085180759" TEXT="backup">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1368085180477" TEXT="rsync">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1296636147905" ID="ID_489816603" MODIFIED="1315390993937" TEXT="rsync -av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/  "/>
+</node>
+</node>
+<node CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1368085151516" TEXT="bittorent">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1368085154249" TEXT="convert">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1360156390949" TEXT="textfiles">
+<node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1355996330572" TEXT="recode">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1296633200134" ID="ID_1622875652" MODIFIED="1355996330573" TEXT="konwert">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1296633501316" ID="ID_1095146176" MODIFIED="1355996330574" TEXT="iconv">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1296633505284" ID="ID_1871968038" MODIFIED="1355996367882">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ <b>iconv</b>&#160;-f windows-1252 -t utf-8 infile &gt; outfile&#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1358860071749" FOLDED="true" ID="ID_1481202249" MODIFIED="1360156392288" TEXT="html 2 pdf">
+<node COLOR="#0033ff" CREATED="1358860077030" ID="ID_1765131650" MODIFIED="1358860085027" TEXT="wkhtmltopdf">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1368085173855" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1365667996826" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -292,54 +333,86 @@
 </html></richcontent>
 </node>
 </node>
-</node>
-<node CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1360156086338" TEXT="bittorent">
+<node COLOR="#0033ff" CREATED="1368084753391" FOLDED="true" ID="ID_603699916" MODIFIED="1368084790903" TEXT="ln">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1365668015167" TEXT="backup">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296636127305" ID="ID_1976659628" MODIFIED="1365667865228" TEXT="rsync">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296636147905" ID="ID_489816603" MODIFIED="1315390993937" TEXT="rsync -av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/  "/>
-</node>
-</node>
-<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1365668014073" TEXT="convert">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1360156390949" TEXT="textfiles">
-<node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1355996330572" TEXT="recode">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1296633200134" ID="ID_1622875652" MODIFIED="1355996330573" TEXT="konwert">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1296633501316" ID="ID_1095146176" MODIFIED="1355996330574" TEXT="iconv">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296633505284" ID="ID_1871968038" MODIFIED="1355996367882">
+<node CREATED="1368084759116" ID="ID_715067300" LINK="http://unix.stackexchange.com/questions/62260/how-could-i-make-multiple-symbolic-links-for-multiple-directories-conveniently" MODIFIED="1368084779272">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      $ <b>iconv</b>&#160;-f windows-1252 -t utf-8 infile &gt; outfile&#160;
+      <font color="#009999"><b>so</b></font>&#160;multiple links
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1364490060955" ID="ID_1308648567" MODIFIED="1368085184384" TEXT="grep">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1364490064741" ID="ID_1648787011" LINK="http://www.thegeekstuff.com/2011/10/grep-or-and-not-operators/" MODIFIED="1364490069873" TEXT="logic"/>
+</node>
+<node CREATED="1358768672598" ID="ID_993782329" LINK="http://linux.icydog.net/rename.php" MODIFIED="1368085164268">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>icydog</b></font>&#160;rename
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1368085253838" TEXT="net">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1368085193191" TEXT="Mail">
+<node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1360156430947" ID="ID_864050672" MODIFIED="1360156434346" TEXT="getmail">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1360156435684" ID="ID_896716456" MODIFIED="1360156439961" TEXT="fetchmail">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1360158840598" ID="ID_1102101212" MODIFIED="1360158845379" TEXT="msmtp">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1315390919026" ID="ID_872112777" LINK="net/ssh.mm" MODIFIED="1356098130648" TEXT="ssh">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1296809859512" FOLDED="true" ID="ID_1135100366" MODIFIED="1368085253341" TEXT="wget">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1296809869142" ID="ID_254994748" MODIFIED="1365667980112">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # back download
+    </p>
+    <p>
+      <font color="#0033cc">$ wget <b>-bqc </b>http://path.com/url.is</font>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-</node>
-<node CREATED="1358860071749" FOLDED="true" ID="ID_1481202249" MODIFIED="1360156392288" TEXT="html 2 pdf">
-<node COLOR="#0033ff" CREATED="1358860077030" ID="ID_1765131650" MODIFIED="1358860085027" TEXT="wkhtmltopdf">
+<node COLOR="#0033ff" CREATED="1360155957220" ID="ID_891897716" MODIFIED="1360155960288" TEXT="curl">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-</node>
-<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1365667992511" TEXT="security">
-<node CREATED="1359236444041" ID="ID_505284719" MODIFIED="1365667868291" TEXT="crypt">
+<node CREATED="1365667897397" ID="ID_1127765149" MODIFIED="1368085194125" TEXT="security">
+<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1368085212697" TEXT="crypt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1365667889391" TEXT="gpg">
+<node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1368085207591" TEXT="gpg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1359229799008" FOLDED="true" ID="ID_31851057" MODIFIED="1365667888490">
+<node CREATED="1359229799008" ID="ID_31851057" MODIFIED="1368085205100">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -350,7 +423,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1359223216597" FOLDED="true" ID="ID_1192978031" MODIFIED="1365667881854">
+<node CREATED="1359223216597" FOLDED="true" ID="ID_1192978031" MODIFIED="1368085200021">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -374,7 +447,7 @@
 <node COLOR="#0033ff" CREATED="1360156400359" ID="ID_1287445385" MODIFIED="1360156404919" TEXT="stunnel">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1355996042994" FOLDED="true" ID="ID_730085370" MODIFIED="1365667892453" TEXT="rand pass gen.">
+<node CREATED="1355996042994" FOLDED="true" ID="ID_730085370" MODIFIED="1368085211231" TEXT="rand pass gen.">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355996069470" ID="ID_1616878184" LINK="http://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/" MODIFIED="1355996075496" TEXT="10 ways"/>
 <node COLOR="#0033ff" CREATED="1355996307400" ID="ID_1133468604" MODIFIED="1355996310778" TEXT="apg">
@@ -392,49 +465,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1365668017761" TEXT="net">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1365667990924" TEXT="Mail">
-<node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1360156430947" ID="ID_864050672" MODIFIED="1360156434346" TEXT="getmail">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1360156435684" ID="ID_896716456" MODIFIED="1360156439961" TEXT="fetchmail">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1360158840598" ID="ID_1102101212" MODIFIED="1360158845379" TEXT="msmtp">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1315390919026" ID="ID_872112777" LINK="net/ssh.mm" MODIFIED="1356098130648" TEXT="ssh">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1296809859512" FOLDED="true" ID="ID_1135100366" MODIFIED="1365667985829" TEXT="wget">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296809869142" ID="ID_254994748" MODIFIED="1365667980112">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # back download
-    </p>
-    <p>
-      <font color="#0033cc">$ wget <b>-bqc </b>http://path.com/url.is</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1360155957220" ID="ID_891897716" MODIFIED="1360155960288" TEXT="curl">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1358780648039" ID="ID_1664465546" MODIFIED="1365668018083" TEXT="sed">
+<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1368085242948" TEXT="sed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
 <richcontent TYPE="NODE"><html>
@@ -482,11 +513,16 @@
       <font color="#0033ff">$ echo &quot;mlj_xmap_sitemap.sql&#160;&#160;&#160;&#160;&quot; | <b>sed 's/ //g' </b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1365667859315" TEXT="users">
+<node CREATED="1368085258406" FOLDED="true" ID="ID_1345591290" MODIFIED="1368086823030" TEXT="subshell">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1368085262684" ID="ID_526814332" LINK="http://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it" MODIFIED="1368085285029" TEXT="so: unix">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1368085249087" TEXT="users">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361971728537" FOLDED="true" ID="ID_1193412117" MODIFIED="1365667858949" TEXT="group">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -539,25 +575,8 @@
       # change username login-name&#160;<br /><font color="#0033cc">$ usermod <b>-l login-name</b>&#160; old-name</font>
     </p>
   </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1364490060955" ID="ID_1308648567" MODIFIED="1364490071484" TEXT="grep">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1364490064741" ID="ID_1648787011" LINK="http://www.thegeekstuff.com/2011/10/grep-or-and-not-operators/" MODIFIED="1364490069873" TEXT="logic"/>
-</node>
-<node CREATED="1358768672598" ID="ID_993782329" LINK="http://linux.icydog.net/rename.php" MODIFIED="1360156514135">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>icydog</b></font>&#160;rename
-    </p>
-  </body>
 </html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1295869094914" FOLDED="true" ID="ID_55523155" MODIFIED="1360156533829" POSITION="left" TEXT="high-end">
@@ -590,7 +609,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1364488663688" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1365673955003" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1364488641338" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -662,7 +681,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1364752907381" POSITION="right" TEXT="interpet">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1368085187697" POSITION="right" TEXT="interpet">
 <node COLOR="#0033ff" CREATED="1296636804213" ID="ID_493133498" MODIFIED="1360156095153" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
@@ -686,7 +705,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1361454450545" ID="ID_82349326" MODIFIED="1361454453367" POSITION="right" TEXT="distribs">
+<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1365673927298" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 </node>
 <node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1364753639296" POSITION="left" TEXT="admin">
@@ -1050,7 +1069,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" ID="ID_131784874" MODIFIED="1364843846246" POSITION="left" TEXT="X">
+<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1365673920015" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
@@ -1076,7 +1095,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1355490607955" ID="ID_1838694125" MODIFIED="1364843850075" TEXT="controls">
+<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1365673918759" TEXT="controls">
 <node CREATED="1355739747130" FOLDED="true" ID="ID_683421714" MODIFIED="1364843866276" TEXT="xkb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355739756941" TEXT="instructions for changing keyb layout"/>
@@ -1159,17 +1178,17 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1361461487216" ID="ID_386274153" MODIFIED="1363610120212" TEXT="xvfb">
+<node COLOR="#0033ff" CREATED="1361461487216" FOLDED="true" ID="ID_386274153" MODIFIED="1365673919693" TEXT="xvfb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361461492480" ID="ID_1130473563" LINK="http://docs.codehaus.org/display/FEST/Running+FEST+under+Xvfb" MODIFIED="1361461497309" TEXT="article 1"/>
 <node CREATED="1361461507672" ID="ID_401431363" LINK="http://askubuntu.com/questions/9694/how-to-run-two-x-sessions-at-the-same-time" MODIFIED="1361461527280" TEXT="x session on same machine"/>
 <node CREATED="1361462308716" ID="ID_578732248" LINK="http://www.vanemery.com/Linux/XoverSSH/X-over-SSH2.html" MODIFIED="1361462319909" TEXT="x over ssh2 tutorial"/>
 </node>
 </node>
-<node CREATED="1355996052443" ID="ID_1927459662" MODIFIED="1364489809572" POSITION="right" TEXT="tricks">
+<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1368084741461" POSITION="right" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357753828458" FOLDED="true" ID="ID_1937859101" MODIFIED="1364752905072" TEXT="mail">
-<node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1364752904547" TEXT="telnet">
+<node CREATED="1357753828458" FOLDED="true" ID="ID_1937859101" MODIFIED="1368084740859" TEXT="mail">
+<node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1368084740572" TEXT="telnet">
 <node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
 <richcontent TYPE="NODE"><html>
   <head>
