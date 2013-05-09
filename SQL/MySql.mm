@@ -380,21 +380,24 @@
 </node>
 </node>
 </node>
-<node CREATED="1368089881938" FOLDED="true" ID="ID_1952603060" MODIFIED="1368089930449" POSITION="right" TEXT="PATCH">
+<node CREATED="1368089881938" ID="ID_1952603060" MODIFIED="1368128357753" POSITION="right" TEXT="UDF">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1368089895748" ID="ID_1916465749" LINK="https://launchpad.net/mysql-udf-regexp" MODIFIED="1368089924137">
+<node CREATED="1368089895748" ID="ID_1916465749" LINK="https://launchpad.net/mysql-udf-regexp" MODIFIED="1368128200574">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#009999"><b>LP</b></font>&#160;UDF
+      <font color="#009999"><b>LP</b></font>&#160;mysql-udf-regexp
     </p>
   </body>
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1368128358923" ID="ID_281389471" LINK="http://www.mysqludf.org/" MODIFIED="1368128374424" TEXT="mysqlUDF.org">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1352978089919" ID="ID_597483296" MODIFIED="1356716301796" POSITION="right" TEXT="information_schema">
