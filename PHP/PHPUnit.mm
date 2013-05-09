@@ -2,13 +2,13 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1285850533738" ID="ID_1771014150" LINK="PHP.mm" MODIFIED="1334852967628" TEXT="PHPUnit">
 <font NAME="SansSerif" SIZE="18"/>
-<node CREATED="1334852946206" FOLDED="true" ID="ID_1306483905" MODIFIED="1365768541304" POSITION="right" TEXT="net">
+<node CREATED="1334852946206" FOLDED="true" ID="ID_1306483905" MODIFIED="1368099816792" POSITION="right" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1285850542328" ID="ID_113277864" LINK="http://www.phpunit.de/manual/current/en/index.html" MODIFIED="1334852803245" TEXT="site"/>
 <node CREATED="1334852808222" ID="ID_1119045196" LINK="https://github.com/sebastianbergmann/phpunit/" MODIFIED="1334852827784" TEXT="github"/>
 </node>
-<node CREATED="1361459486836" FOLDED="true" ID="ID_439740" MODIFIED="1365788863177" POSITION="right" TEXT="Selenium">
-<node COLOR="#0033ff" CREATED="1361539122051" FOLDED="true" ID="ID_157997501" MODIFIED="1365521710795" TEXT="Selenium2TestCase">
+<node CREATED="1361459486836" FOLDED="true" ID="ID_439740" MODIFIED="1368100352108" POSITION="right" TEXT="Selenium">
+<node COLOR="#0033ff" CREATED="1361539122051" ID="ID_157997501" MODIFIED="1368099818828" TEXT="Selenium2TestCase">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1361985963596" FOLDED="true" ID="ID_931322483" MODIFIED="1361986298573" TEXT="Element">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -160,6 +160,37 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1368099836075" ID="ID_188134970" LINK="http://stackoverflow.com/questions/5700917/cant-get-selenium-to-wait-tests-only-working-when-stepping-through-manually" MODIFIED="1368100218800">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // change selelnium speed
+    </p>
+    <p>
+      <font color="#0033ff">protected function login() { </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;$this-&gt;open ( &quot;/login.php&quot; ); </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;<b>$this-&gt;setSpeed('120'); </b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;try { </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$this-&gt;waitForPageToLoad ( &quot;30000&quot; );</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1334852834933" FOLDED="true" ID="ID_1826097865" MODIFIED="1365768554462" POSITION="left" TEXT="config">
