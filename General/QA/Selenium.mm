@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1361878162081" ID="ID_1703692073" LINK="../QA.mm" MODIFIED="1362156955584" TEXT="Selenium">
+<node COLOR="#990099" CREATED="1361878162081" ID="ID_1703692073" LINK="../QA.mm" MODIFIED="1368614692863" TEXT="Selenium">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1362156875647" FOLDED="true" ID="ID_1190320724" MODIFIED="1365788846385" POSITION="left" TEXT="selectors">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -174,9 +174,14 @@
       <font color="#009999">flash selenium</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1368614692856" ID="ID_686628948" MODIFIED="1368614694990" POSITION="right" TEXT="lib">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1368614652247" ID="ID_373673702" LINK="../../PHP/PHPUnitSelenium.mm" MODIFIED="1368614710250" TEXT="PHPUnit Selenium">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </map>
