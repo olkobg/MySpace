@@ -190,7 +190,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1368086835603" POSITION="right" TEXT="@term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1368721731674" POSITION="right" TEXT="$term">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1368085180759" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -231,6 +231,21 @@
 <node COLOR="#0033ff" CREATED="1358860077030" ID="ID_1765131650" MODIFIED="1358860085027" TEXT="wkhtmltopdf">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+</node>
+<node CREATED="1368717489841" ID="ID_1699667427" MODIFIED="1368717535117" TEXT="color">
+<node CREATED="1368717500084" ID="ID_1760124834" LINK="http://unix.stackexchange.com/questions/148/colorizing-your-terminal-and-shell-environment" MODIFIED="1368717526400">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>so</b></font><font color="#000000">&#160;colorize</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1368085173855" TEXT="fs">
@@ -345,8 +360,7 @@
       <font color="#009999"><b>so</b></font>&#160;multiple links
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -465,7 +479,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1368085242948" TEXT="sed">
+<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1368720995420" TEXT="sed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
 <richcontent TYPE="NODE"><html>
@@ -516,13 +530,47 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1368085258406" FOLDED="true" ID="ID_1345591290" MODIFIED="1368086823030" TEXT="subshell">
+<node CREATED="1368085258406" ID="ID_1345591290" MODIFIED="1368720989134" TEXT="subshell">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1368085262684" ID="ID_526814332" LINK="http://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it" MODIFIED="1368085285029" TEXT="so: unix">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1368085249087" TEXT="users">
+<node CREATED="1368720998980" FOLDED="true" ID="ID_654338804" MODIFIED="1368721148286" TEXT="alias">
+<node CREATED="1368721010789" ID="ID_1798528219" MODIFIED="1368721146570">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # create alias for grep to output color
+    </p>
+    <p>
+      <font color="#0000ff">$ <b>alias</b>&#160;grep='grep --color'</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1368721106753" ID="ID_720717344" MODIFIED="1368721138972">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #unalias command
+    </p>
+    <p>
+      <font color="#0000ff">$ <b>unalias</b>&#160;grep</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1368720992161" TEXT="users">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361971728537" FOLDED="true" ID="ID_1193412117" MODIFIED="1365667858949" TEXT="group">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -609,7 +657,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1365673955003" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1368717541525" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1364488641338" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -681,7 +729,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1368085187697" POSITION="right" TEXT="interpet">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1368721008771" POSITION="right" TEXT="interpet">
 <node COLOR="#0033ff" CREATED="1296636804213" ID="ID_493133498" MODIFIED="1360156095153" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
