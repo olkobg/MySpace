@@ -3118,7 +3118,7 @@ bool(true)</pre>
 <node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1359042029267" POSITION="left" STYLE="bubble" TEXT="tools">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1364287242661" POSITION="left" TEXT="TIPS &amp; Notes">
+<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1368634815881" POSITION="left" TEXT="TIPS &amp; Notes">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299140152828" ID="ID_1927321205" MODIFIED="1299140158690" TEXT="last tag">
 <node CREATED="1299140159252" ID="ID_487593545" MODIFIED="1354283499246" TEXT="it&apos;s preffered to not close the last tag (it&apos;s usefull when hidden rows at the end of file)"/>
@@ -3186,6 +3186,22 @@ bool(true)</pre>
     </p>
   </body>
 </html></richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1368634185008" FOLDED="true" ID="ID_1880580369" MODIFIED="1368634815328" TEXT="sting">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1368634198351" ID="ID_1202946887" LINK="http://stackoverflow.com/questions/4356289/php-random-string-generator" MODIFIED="1368634235190">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999">so</font>&#160;generate random string
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>

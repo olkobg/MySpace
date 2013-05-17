@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1348222052114" TEXT="CrossOS">
+<node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1368719434638" TEXT="CrossOS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1362820183761" POSITION="right" TEXT="Services">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
@@ -58,15 +58,34 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1356528038293" ID="ID_875794081" LINK="http://getsongbird.com/" MODIFIED="1356528045283" TEXT="songbird"/>
 </node>
-<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1368021938832" POSITION="left" TEXT="Development">
+<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1368719501469" POSITION="left" TEXT="Development">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1355140454684" FOLDED="true" ID="ID_1576352895" MODIFIED="1368021929640" TEXT="planing">
+<node CREATED="1355149044983" FOLDED="true" ID="ID_1170115706" MODIFIED="1368021930644" TEXT="attention">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1355140465805" ID="ID_1124056805" LINK="http://taskjuggler.org/" MODIFIED="1356618368274" TEXT="TaskJuggler">
-<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355149052794" ID="ID_783079995" LINK="http://visitsteve.com/made/selfcontrol/" MODIFIED="1355149065612" TEXT="SelfControl"/>
+<node CREATED="1355149057377" ID="ID_56787196" LINK="http://macfreedom.com/" MODIFIED="1355149084719" TEXT="Freedom"/>
+</node>
+<node CREATED="1368719196122" FOLDED="true" ID="ID_1132657387" MODIFIED="1368719500709" TEXT="coding">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1368719236571" ID="ID_43784894" LINK="http://emmet.io/" MODIFIED="1368719243636" TEXT="Emmet">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1356106524994" FOLDED="true" ID="ID_1227477125" MODIFIED="1368021928758" TEXT="managment">
+<node CREATED="1357753147521" FOLDED="true" ID="ID_294725118" MODIFIED="1368719220467" TEXT="design">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1302606521801" FOLDED="true" ID="ID_1875004905" MODIFIED="1368021934742" TEXT="uml tools">
+<node CREATED="1302606529840" ID="ID_577029644" LINK="topcased.org" MODIFIED="1302606553926" TEXT="topcased.org"/>
+<node CREATED="1343156549171" ID="ID_157367992" LINK="http://plantuml.sourceforge.net/" MODIFIED="1343239641261" TEXT="plantUML"/>
+</node>
+</node>
+<node CREATED="1360703563556" FOLDED="true" ID="ID_520683796" MODIFIED="1368719220466" TEXT="diff/merge">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1360703568619" ID="ID_1843180555" MODIFIED="1360703574313" TEXT="Beyond Compare">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1360703656113" ID="ID_358364546" LINK="http://www.scootersoftware.com/support.php?zz=kb_vcs#gitlinux" MODIFIED="1360703682218" TEXT="+ dcvs"/>
+</node>
+</node>
+<node CREATED="1356106524994" FOLDED="true" ID="ID_1227477125" MODIFIED="1368719233351" TEXT="managment">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356106529120" ID="ID_698683549" LINK="http://www.projectpier.org/" MODIFIED="1356106535858" TEXT="ProjectPier"/>
 <node CREATED="1356106536492" ID="ID_1639115656" LINK="https://www.pivotaltracker.com/" MODIFIED="1356106564696" TEXT="Pivotal Tracker"/>
@@ -76,31 +95,18 @@
 <node CREATED="1356618383256" ID="ID_1872233564" LINK="http://www.reviewboard.org/" MODIFIED="1356618462402" TEXT="ReviewBoard"/>
 </node>
 </node>
-<node CREATED="1356106588981" FOLDED="true" ID="ID_320514756" MODIFIED="1362820177265" TEXT="team colaboration">
+<node CREATED="1355140454684" FOLDED="true" ID="ID_1576352895" MODIFIED="1368719233345" TEXT="planing">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355140465805" ID="ID_1124056805" LINK="http://taskjuggler.org/" MODIFIED="1356618368274" TEXT="TaskJuggler">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1356106588981" FOLDED="true" ID="ID_320514756" MODIFIED="1368719233343" TEXT="team colaboration">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356106595085" ID="ID_1565818023" LINK="http://basecamp.com/" MODIFIED="1356106610920" TEXT="Base Camp"/>
 <node CREATED="1362820120862" FOLDED="true" ID="ID_68019861" MODIFIED="1362820175012" TEXT="group chats">
 <node CREATED="1362820130724" ID="ID_594785155" LINK="https://www.hipchat.com/" MODIFIED="1362820156396" TEXT="hipchat"/>
 <node CREATED="1362820157373" ID="ID_910921562" LINK="https://hall.com/" MODIFIED="1362820171335" TEXT="hall"/>
-</node>
-</node>
-<node CREATED="1355149044983" FOLDED="true" ID="ID_1170115706" MODIFIED="1368021930644" TEXT="attention">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1355149052794" ID="ID_783079995" LINK="http://visitsteve.com/made/selfcontrol/" MODIFIED="1355149065612" TEXT="SelfControl"/>
-<node CREATED="1355149057377" ID="ID_56787196" LINK="http://macfreedom.com/" MODIFIED="1355149084719" TEXT="Freedom"/>
-</node>
-<node CREATED="1357753147521" FOLDED="true" ID="ID_294725118" MODIFIED="1368021938457" TEXT="design">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1302606521801" FOLDED="true" ID="ID_1875004905" MODIFIED="1368021934742" TEXT="uml tools">
-<node CREATED="1302606529840" ID="ID_577029644" LINK="topcased.org" MODIFIED="1302606553926" TEXT="topcased.org"/>
-<node CREATED="1343156549171" ID="ID_157367992" LINK="http://plantuml.sourceforge.net/" MODIFIED="1343239641261" TEXT="plantUML"/>
-</node>
-</node>
-<node CREATED="1360703563556" FOLDED="true" ID="ID_520683796" MODIFIED="1368021931593" TEXT="diff/merge">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1360703568619" ID="ID_1843180555" MODIFIED="1360703574313" TEXT="Beyond Compare">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1360703656113" ID="ID_358364546" LINK="http://www.scootersoftware.com/support.php?zz=kb_vcs#gitlinux" MODIFIED="1360703682218" TEXT="+ dcvs"/>
 </node>
 </node>
 </node>
