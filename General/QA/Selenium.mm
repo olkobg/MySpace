@@ -177,10 +177,16 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1368614692856" ID="ID_686628948" MODIFIED="1368614694990" POSITION="right" TEXT="lib">
+<node CREATED="1368614692856" FOLDED="true" ID="ID_686628948" MODIFIED="1369124294897" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1368614652247" ID="ID_373673702" LINK="../../PHP/PHPUnitSelenium.mm" MODIFIED="1368614710250" TEXT="PHPUnit Selenium">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1369124236324" ID="ID_394683647" MODIFIED="1369124238534" TEXT="python">
+<node CREATED="1369124242301" ID="ID_1881634022" LINK="http://selenium.googlecode.com/git/docs/api/py/index.html" MODIFIED="1369124285707" TEXT="webdriver api"/>
+</node>
+<node CREATED="1369124238862" ID="ID_129722432" MODIFIED="1369124240367" TEXT="ruby">
+<node CREATED="1369124242301" ID="ID_660984107" LINK="http://selenium.googlecode.com/svn/trunk/docs/api/rb/Selenium/WebDriver.html" MODIFIED="1369124289364" TEXT="webdriver api"/>
 </node>
 </node>
 </node>

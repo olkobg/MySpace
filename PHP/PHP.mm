@@ -1,8 +1,8 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1337095407605" TEXT="PHP">
+<node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1369129021465" TEXT="PHP">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1364752782065" POSITION="right" TEXT="Testing">
+<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1369126992437" POSITION="right" TEXT="Testing">
 <node CREATED="1285850518723" FOLDED="true" ID="ID_349465635" MODIFIED="1364752781433" TEXT="UnitTesting">
 <node CREATED="1334852774584" ID="ID_671076897" LINK="PHPUnit.mm" MODIFIED="1334852774585" TEXT="PHPUnit"/>
 </node>
@@ -50,7 +50,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#009999" CREATED="1291283758871" FOLDED="true" ID="ID_651800150" MODIFIED="1364767399965" POSITION="right" TEXT="Apps">
+<node COLOR="#009999" CREATED="1291283758871" FOLDED="true" ID="ID_651800150" MODIFIED="1369126991504" POSITION="right" TEXT="Apps">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1291284845924" FOLDED="true" ID="ID_637058664" MODIFIED="1364767395135" TEXT="webCMS">
 <node COLOR="#006633" CREATED="1291283799040" ID="ID_632977273" LINK="Joomla.mm" MODIFIED="1355996464562" STYLE="bubble" TEXT="Joomla">
@@ -73,14 +73,19 @@
 <node CREATED="1354274546352" ID="ID_1054520689" LINK="eCommerce/PrestaShop.mm" MODIFIED="1354274546354" TEXT="PrestaShop"/>
 </node>
 </node>
-<node CREATED="1337095407580" FOLDED="true" ID="ID_1268790834" MODIFIED="1364752804746" POSITION="left" TEXT="libs">
+<node CREATED="1337095407580" FOLDED="true" ID="ID_1268790834" MODIFIED="1369129021145" POSITION="left" TEXT="libs">
 <node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1361977750136" TEXT="Captcha">
 <node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
 <node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
 <node CREATED="1337095493488" ID="ID_1074773125" LINK="http://code.google.com/p/cool-php-captcha/" MODIFIED="1337095517343" TEXT="cool php captcha"/>
 <node CREATED="1337095518492" ID="ID_1870135368" LINK="http://www.phpcaptcha.org/" MODIFIED="1337095552753" TEXT="php captcha"/>
 </node>
-<node CREATED="1292929906380" FOLDED="true" ID="ID_995126132" MODIFIED="1364752804333" TEXT="Frameworks">
+<node CREATED="1369128812901" FOLDED="true" ID="ID_1576208377" MODIFIED="1369129019260" TEXT="csv">
+<node COLOR="#009999" CREATED="1369128834923" ID="ID_1691425039" LINK="http://code.google.com/p/parsecsv-for-php/" MODIFIED="1369128857981" TEXT="parsecsv-for-php">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1292929906380" FOLDED="true" ID="ID_995126132" MODIFIED="1369129017916" TEXT="Frameworks">
 <node COLOR="#cc3300" CREATED="1302022150489" FOLDED="true" ID="ID_538144076" MODIFIED="1364752804078" TEXT="MVC">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1292929920445" ID="ID_1482400630" LINK="http://ellislab.com/codeigniter" MODIFIED="1361977848553" TEXT="CodeIgnitter">
@@ -108,18 +113,19 @@
 <node CREATED="1355500326563" ID="ID_1390439074" LINK="http://twig.sensiolabs.org/" MODIFIED="1355500349425" TEXT="TWIG"/>
 </node>
 </node>
-<node CREATED="1358869147332" FOLDED="true" ID="ID_635581923" MODIFIED="1364752787203" TEXT="pdf">
-<node CREATED="1358869156154" ID="ID_589350561" LINK="http://www.tcpdf.org/" MODIFIED="1358877951100">
+<node CREATED="1358869147332" FOLDED="true" ID="ID_635581923" MODIFIED="1369128980431" TEXT="pdf">
+<node CREATED="1358869156154" ID="ID_589350561" LINK="http://www.tcpdf.org/" MODIFIED="1369128885707">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>TCPDF</b></font>&#160;- geratest <b>pdf</b>&#160;with <font color="#0033ff"><b>php</b></font>
+      <font color="#0033ff"><b>TCPDF</b></font>&#160;- generates&#160;<b>pdf</b>&#160;with <font color="#0033ff"><b>php</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1358877859720" ID="ID_1371169850" LINK="http://www.mpdf1.com/mpdf/index.php" MODIFIED="1358877955278">
@@ -134,6 +140,7 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1369128898408" ID="ID_1935785236" MODIFIED="1369128904633" TEXT="wkpdftohtml"/>
 </node>
 <node CREATED="1359042034679" ID="ID_656337819" MODIFIED="1359042040219" TEXT="alt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -142,7 +149,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1293715627303" FOLDED="true" ID="ID_238630762" MODIFIED="1364767392616" POSITION="right" TEXT="Debug">
+<node COLOR="#cc3300" CREATED="1293715627303" FOLDED="true" ID="ID_238630762" MODIFIED="1369126990618" POSITION="right" TEXT="Debug">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1293715633004" FOLDED="true" ID="ID_335545435" MODIFIED="1364752715244" TEXT="Zend Debugger">
 <node CREATED="1293783245381" FOLDED="true" ID="ID_1713486316" MODIFIED="1364752714339" TEXT="php.ini">
@@ -210,9 +217,9 @@ xdebug.remote_port=9000
 <node CREATED="1356008762217" ID="ID_1769296643" LINK="http://www.developer.com/lang/php/article.php/3327111/Monitor-PHP-Application-Errors-and-Messages-with-syslog.htm" MODIFIED="1356008765855" TEXT="config"/>
 </node>
 </node>
-<node CREATED="1354282931319" FOLDED="true" ID="ID_1871564202" MODIFIED="1364752783878" POSITION="right" TEXT="cli">
+<node CREATED="1354282931319" ID="ID_1871564202" MODIFIED="1369126898564" POSITION="right" TEXT="cli">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#0033ff" CREATED="1354282933136" FOLDED="true" ID="ID_1074862425" MODIFIED="1364752744120">
+<node COLOR="#0033ff" CREATED="1354282933136" FOLDED="true" ID="ID_1074862425" MODIFIED="1369127007881">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -250,7 +257,7 @@ xdebug.remote_port=9000
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1363282507626" POSITION="left" TEXT="CORE">
+<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1369128862749" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1299140234352" ID="ID_409384537" MODIFIED="1363282506415" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1362411827693" TEXT="inf">
@@ -3118,7 +3125,7 @@ bool(true)</pre>
 <node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1359042029267" POSITION="left" STYLE="bubble" TEXT="tools">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1368634815881" POSITION="left" TEXT="TIPS &amp; Notes">
+<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1369145286064" POSITION="left" TEXT="TIPS &amp; Notes">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299140152828" ID="ID_1927321205" MODIFIED="1299140158690" TEXT="last tag">
 <node CREATED="1299140159252" ID="ID_487593545" MODIFIED="1354283499246" TEXT="it&apos;s preffered to not close the last tag (it&apos;s usefull when hidden rows at the end of file)"/>
@@ -3187,7 +3194,7 @@ bool(true)</pre>
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1368634185008" FOLDED="true" ID="ID_1880580369" MODIFIED="1368634815328" TEXT="sting">
+<node COLOR="#0033ff" CREATED="1368634185008" FOLDED="true" ID="ID_1880580369" MODIFIED="1369126984222" TEXT="sting">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1368634198351" ID="ID_1202946887" LINK="http://stackoverflow.com/questions/4356289/php-random-string-generator" MODIFIED="1368634235190">
 <richcontent TYPE="NODE"><html>
@@ -3197,6 +3204,37 @@ bool(true)</pre>
   <body>
     <p>
       <font color="#009999">so</font>&#160;generate random string
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1369139458322" FOLDED="true" ID="ID_733960258" MODIFIED="1369145284386" TEXT="fs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369139464269" ID="ID_452073364" LINK="http://stackoverflow.com/questions/1707801/making-a-temporary-dir-for-unpacking-a-zipfile-into" MODIFIED="1369139480450">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>SO</b></font>&#160;create temp dir
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1369139503651" FOLDED="true" ID="ID_1938299763" MODIFIED="1369145284003" TEXT="csv">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369139507859" ID="ID_1097500418" LINK="http://stackoverflow.com/questions/5133162/php-how-can-i-get-the-contents-of-a-csv-file-into-a-mysql-database-row-by-row" MODIFIED="1369139527819">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>SO</b></font>&#160;return array from csv
     </p>
   </body>
 </html>
