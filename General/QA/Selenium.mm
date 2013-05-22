@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1361878162081" ID="ID_1703692073" LINK="../QA.mm" MODIFIED="1368614692863" TEXT="Selenium">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1362156875647" FOLDED="true" ID="ID_1190320724" MODIFIED="1365788846385" POSITION="left" TEXT="selectors">
+<node CREATED="1362156875647" FOLDED="true" ID="ID_1190320724" MODIFIED="1369222777795" POSITION="left" TEXT="selectors">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362065583400" FOLDED="true" ID="ID_1508722303" LINK="http://sauceio.com/index.php/2010/01/selenium-totw-css-selectors-in-selenium-demystified/" MODIFIED="1365178612639">
 <richcontent TYPE="NODE"><html>
@@ -98,16 +98,38 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1362500889427" FOLDED="true" ID="ID_184281649" MODIFIED="1365788846625" POSITION="left" TEXT="drivers">
+<node CREATED="1362500889427" FOLDED="true" ID="ID_184281649" MODIFIED="1369222776338" POSITION="left" TEXT="drivers">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362500893489" ID="ID_860721704" LINK="https://code.google.com/p/chromedriver/" MODIFIED="1362500898184" TEXT="google chrome"/>
 <node CREATED="1362505030415" ID="ID_321420415" LINK="http://code.google.com/p/selenium/wiki/InternetExplorerDriver" MODIFIED="1362505041625" TEXT="internet Explorer"/>
 <node CREATED="1362505196398" ID="ID_327355286" LINK="http://code.google.com/p/selenium/wiki/IPhoneDriver" MODIFIED="1362505255579" TEXT="iphone "/>
 <node CREATED="1362505256050" ID="ID_120313011" LINK="http://code.google.com/p/selenium/wiki/AndroidDriver" MODIFIED="1362505259742" TEXT="android"/>
 </node>
-<node COLOR="#cc3300" CREATED="1369210838325" FOLDED="true" ID="ID_1020874233" MODIFIED="1369210898514" POSITION="left" TEXT="tricks">
+<node CREATED="1369224712362" ID="ID_1105511277" LINK="http://release.seleniumhq.org/selenium-core/0.8.0/reference.html" MODIFIED="1369224718704" POSITION="left" TEXT="commands"/>
+<node CREATED="1369224730412" ID="ID_1671109232" MODIFIED="1369224731593" POSITION="left" TEXT="server">
+<node CREATED="1369224733991" ID="ID_112387330" LINK="http://svn.openqa.org/fisheye/browse/~raw,r=1879/selenium-rc/trunk/website/options.html" MODIFIED="1369224744225" TEXT="command line options">
+<node CREATED="1369224841390" ID="ID_773249557" LINK="http://release.seleniumhq.org/selenium-remote-control/0.9.2/doc/server/org/openqa/selenium/server/SeleniumServer.html" MODIFIED="1369224845217" TEXT="see also"/>
+</node>
+</node>
+<node COLOR="#cc3300" CREATED="1369210838325" ID="ID_1020874233" MODIFIED="1369222461405" POSITION="left" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1369210845552" ID="ID_1084795172" LINK="https://www.phz.fi/2011/10/05/how-to-test-file-download-by-selenium/" MODIFIED="1369210886810">
+<node CREATED="1369222762132" ID="ID_262987757" MODIFIED="1369222773177" TEXT="firefox">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369222462798" ID="ID_1213704629" LINK="http://automatictester.wordpress.com/2013/04/07/selenium-running-custom-firefox-profile/" MODIFIED="1369228139083">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">automatictestter</font></b>&#160;custom firefox profiles
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1369221931431" ID="ID_1975137321" LINK="http://www.danstraw.com/running-selenium-tests-on-debian-headlessly-using-iceweasel-and-firefox/2010/11/24/" MODIFIED="1369222767920" TEXT="headless iceweasel on debian"/>
+<node CREATED="1369210845552" ID="ID_1084795172" LINK="https://www.phz.fi/2011/10/05/how-to-test-file-download-by-selenium/" MODIFIED="1369222771383">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -117,11 +139,25 @@
       <b><font color="#009999">phz.fi</font></b>&#160;ff file download
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1369228109272" ID="ID_1683148629" MODIFIED="1369228109272" TEXT=""/>
+</node>
+<node CREATED="1369228053703" ID="ID_155338667" LINK="http://code.google.com/p/selenium/wiki/TipsAndTricks" MODIFIED="1369228089513">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">google-code</font></b>&#160;tips &amp; tricks
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node CREATED="1362156199160" FOLDED="true" ID="ID_555750420" MODIFIED="1365788848435" POSITION="right" TEXT="selenium server">
+<node CREATED="1362156199160" FOLDED="true" ID="ID_555750420" MODIFIED="1369221922200" POSITION="right" TEXT="selenium server">
 <node CREATED="1362156204090" ID="ID_1880542938" MODIFIED="1362156221880">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -163,7 +199,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1362156882837" FOLDED="true" ID="ID_1321311435" MODIFIED="1365788850545" POSITION="right" TEXT="Firefox broser addons">
+<node CREATED="1362156882837" FOLDED="true" ID="ID_1321311435" MODIFIED="1369221916573" POSITION="right" TEXT="Firefox broser addons">
 <node CREATED="1361877855022" ID="ID_1752886742" LINK="http://sebuilder.github.com/se-builder/" MODIFIED="1361877864508" TEXT="Selenium Builder"/>
 <node CREATED="1361878943818" ID="ID_1470803951" LINK="http://docs.seleniumhq.org/docs/02_selenium_ide.jsp" MODIFIED="1362496131398" TEXT="Selenium IDE"/>
 </node>
@@ -193,7 +229,7 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1368614692856" FOLDED="true" ID="ID_686628948" MODIFIED="1369124294897" POSITION="right" TEXT="lib">
+<node CREATED="1368614692856" FOLDED="true" ID="ID_686628948" MODIFIED="1369221948231" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1368614652247" ID="ID_373673702" LINK="../../PHP/PHPUnitSelenium.mm" MODIFIED="1368614710250" TEXT="PHPUnit Selenium">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
