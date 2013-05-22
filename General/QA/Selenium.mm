@@ -105,6 +105,22 @@
 <node CREATED="1362505196398" ID="ID_327355286" LINK="http://code.google.com/p/selenium/wiki/IPhoneDriver" MODIFIED="1362505255579" TEXT="iphone "/>
 <node CREATED="1362505256050" ID="ID_120313011" LINK="http://code.google.com/p/selenium/wiki/AndroidDriver" MODIFIED="1362505259742" TEXT="android"/>
 </node>
+<node COLOR="#cc3300" CREATED="1369210838325" FOLDED="true" ID="ID_1020874233" MODIFIED="1369210898514" POSITION="left" TEXT="tricks">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369210845552" ID="ID_1084795172" LINK="https://www.phz.fi/2011/10/05/how-to-test-file-download-by-selenium/" MODIFIED="1369210886810">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">phz.fi</font></b>&#160;ff file download
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node CREATED="1362156199160" FOLDED="true" ID="ID_555750420" MODIFIED="1365788848435" POSITION="right" TEXT="selenium server">
 <node CREATED="1362156204090" ID="ID_1880542938" MODIFIED="1362156221880">
 <richcontent TYPE="NODE"><html>
