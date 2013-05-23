@@ -657,7 +657,41 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1369226125185" POSITION="left" TEXT="app">
+<node COLOR="#990099" CREATED="1369307010049" FOLDED="true" ID="ID_501338769" MODIFIED="1369307187571" POSITION="left" TEXT="doc">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369307013463" FOLDED="true" ID="ID_863651094" MODIFIED="1369307187380" TEXT="permissions">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369307022678" ID="ID_1038878792" MODIFIED="1369307158154">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>calculation of final permissions for creted dirs and files</b>
+    </p>
+    <p>
+      default new file permission = 0666
+    </p>
+    <p>
+      default new dir permission = 0777
+    </p>
+    <p>
+      defailt umask = 022
+    </p>
+    <p>
+      new filer permission = f_perm - umask = 0666 - 0022 = 0644 &#160;
+    </p>
+    <p>
+      new filer permission = f_perm - umask = 0666 - 0022 = 0755
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1369306991779" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1364488641338" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -737,8 +771,7 @@
       <b><font color="#009999">SO</font></b>&#160;install instead iceweasel
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1304,8 +1337,7 @@
       <b>tmpfs</b>&#160;- ram filesystem stores data in volatile memory
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
