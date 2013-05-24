@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1319659797455" ID="ID_142943099" LINK="../../../JavaScript/JavaScript.mm" MODIFIED="1369323887440" TEXT="Firefox">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1369323887423" FOLDED="true" ID="ID_1273773188" MODIFIED="1369329294889" POSITION="right" TEXT="plugins">
+<node CREATED="1369323887423" ID="ID_1273773188" MODIFIED="1369407907955" POSITION="right" TEXT="plugins">
 <node CREATED="1364305457823" FOLDED="true" ID="ID_1939847957" MODIFIED="1369329293236" TEXT="firebug">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1364305512650" ID="ID_1463867361" MODIFIED="1369323875862" TEXT="console">
@@ -36,13 +36,13 @@
 <node CREATED="1369323995693" ID="ID_1786110627" MODIFIED="1369324000387" TEXT="fireRainbow"/>
 <node CREATED="1369323892336" ID="ID_925199279" MODIFIED="1369323897049" TEXT="livehttpHeader"/>
 <node CREATED="1369323897538" ID="ID_1004109796" MODIFIED="1369323914477" TEXT="modify headers"/>
-<node CREATED="1369323929846" ID="ID_767986037" MODIFIED="1369323947583" TEXT="SeleniumBuilder"/>
-<node CREATED="1369323935104" ID="ID_1646206882" MODIFIED="1369323942575" TEXT="SeleniumIDE"/>
 <node CREATED="1369323950031" ID="ID_62360505" MODIFIED="1369324077510" TEXT="YSlow"/>
 <node CREATED="1369324004633" ID="ID_721000610" MODIFIED="1369324010422" TEXT="DownThemAll"/>
 <node CREATED="1369324086111" ID="ID_1839857985" MODIFIED="1369324090108" TEXT="DownloadHelper"/>
 <node CREATED="1369324031209" ID="ID_355794015" MODIFIED="1369324051376" TEXT="Easy xdebug"/>
 <node CREATED="1369324051909" ID="ID_839050547" MODIFIED="1369324059329" TEXT="JSON View"/>
+<node CREATED="1361877855022" ID="ID_1752886742" LINK="http://sebuilder.github.com/se-builder/" MODIFIED="1369301551446" TEXT="Selenium Builder"/>
+<node CREATED="1361878943818" ID="ID_1470803951" LINK="http://docs.seleniumhq.org/docs/02_selenium_ide.jsp" MODIFIED="1369301551446" TEXT="Selenium IDE"/>
 </node>
 <node CREATED="1369226582132" FOLDED="true" ID="ID_80659525" MODIFIED="1369323874350" POSITION="left" TEXT="config">
 <node CREATED="1369226589533" ID="ID_1073775853" LINK="https://support.mozilla.org/en-US/kb/search-web-address-bar" MODIFIED="1369226597092" TEXT="location as search"/>
@@ -59,8 +59,7 @@
       prefferences (<font color="#0033ff"><b>prefs.js</b></font>)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1369305914324" FOLDED="true" ID="ID_1856250005" MODIFIED="1369323438214" TEXT="downloading">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369305691489" ID="ID_1086270642" MODIFIED="1369306055410">
@@ -100,8 +99,7 @@
       <font color="#0033ff"><b>browser.download.manager.showWhenStarting</b>&#160;= False</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -135,8 +133,7 @@
       <font color="#009999"><b>mozillazine</b></font>&#160;cmd options
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1369228398262" ID="ID_865581386" MODIFIED="1369228556673">
 <richcontent TYPE="NODE"><html>
@@ -199,8 +196,7 @@
       <font color="#0033ff">$ firefox -no-remote <b>-CreateProfile</b>&#160;john</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

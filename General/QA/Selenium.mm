@@ -122,11 +122,10 @@
       <font color="#009999"><b>SO</b></font>&#160;-D firefox profile
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1369210838325" ID="ID_1020874233" MODIFIED="1369301551441" POSITION="left" TEXT="tricks">
+<node COLOR="#cc3300" CREATED="1369210838325" FOLDED="true" ID="ID_1020874233" MODIFIED="1369407871468" POSITION="left" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369222762132" ID="ID_262987757" MODIFIED="1369301551441" TEXT="firefox">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -170,7 +169,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1369297697715" ID="ID_1146826170" MODIFIED="1369301551443" POSITION="left" TEXT="src">
+<node CREATED="1369297697715" FOLDED="true" ID="ID_1146826170" MODIFIED="1369407871171" POSITION="left" TEXT="src">
 <node CREATED="1369297703801" ID="ID_834131168" LINK="http://code.google.com/p/selenium/wiki/JsonWireProtocol" MODIFIED="1369301551443" TEXT="(JSON) web driver wire protocol">
 <node CREATED="1369297946875" ID="ID_227332910" LINK="http://code.google.com/p/selenium/wiki/FirefoxDriver" MODIFIED="1369301551444" TEXT="Firefox Driver">
 <node CREATED="1369297998296" ID="ID_92502839" LINK="http://stackoverflow.com/questions/6787095/how-to-stop-selenium-from-creating-temporary-firefox-profiles-using-web-driver" MODIFIED="1369301551444">
@@ -183,8 +182,7 @@
       <font color="#009999"><b>SO</b></font>&#160;custom profile
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -231,9 +229,8 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1362156882837" ID="ID_1321311435" MODIFIED="1369301551446" POSITION="right" TEXT="Firefox broser addons">
-<node CREATED="1361877855022" ID="ID_1752886742" LINK="http://sebuilder.github.com/se-builder/" MODIFIED="1369301551446" TEXT="Selenium Builder"/>
-<node CREATED="1361878943818" ID="ID_1470803951" LINK="http://docs.seleniumhq.org/docs/02_selenium_ide.jsp" MODIFIED="1369301551446" TEXT="Selenium IDE"/>
+<node CREATED="1362156882837" ID="ID_1321311435" LINK="../../OS/Cross/Web/Firefox.mm" MODIFIED="1369407938476" POSITION="right" TEXT="Firefox broser addons">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1362501007123" ID="ID_102805438" LINK="http://code.google.com/p/selenium/" MODIFIED="1369301551446" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -263,7 +260,7 @@
 </node>
 <node CREATED="1368614692856" ID="ID_686628948" MODIFIED="1369301551447" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1369299298592" ID="ID_891729530" MODIFIED="1369301551447" TEXT="php">
+<node CREATED="1369299298592" FOLDED="true" ID="ID_891729530" MODIFIED="1369407869444" TEXT="php">
 <node COLOR="#0033ff" CREATED="1368614652247" ID="ID_373673702" LINK="../../PHP/PHPUnitSelenium.mm" MODIFIED="1369301551447" TEXT="PHPUnit Selenium">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -276,6 +273,31 @@
   <body>
     <p>
       <font color="#009999"><b>SO</b></font>&#160;set custom ff profile
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1369404445597" ID="ID_1136651533" MODIFIED="1369404937403">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>github</b>&#160;facebook/webdriver
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1369404939278" ID="ID_1028339420" LINK="http://stackoverflow.com/questions/7328494/selenium2-firefox-use-the-default-profile" MODIFIED="1369404971242">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">SO</font></b>&#160;change ff profile
     </p>
   </body>
 </html>
