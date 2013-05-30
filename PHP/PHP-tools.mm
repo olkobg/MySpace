@@ -16,17 +16,18 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299074229111" ID="ID_1032614444" LINK="http://phing.info/docs/guide/current/" MODIFIED="1299074235203" TEXT="online manual"/>
 </node>
-<node CREATED="1362073810412" ID="ID_1661072826" LINK="http://getcomposer.org/" MODIFIED="1362076579860" POSITION="right">
+<node CREATED="1369440550595" ID="ID_416928426" LINK="Utils/composer.mm" MODIFIED="1369440752773" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b><font color="#009999">composer</font></b>&#160;- <b><font color="#0033ff">php</font></b>&#160;depency manager
+      <b><font color="#009999">composer</font></b>&#160;- <b><font color="#0033ff">php</font></b>&#160;dep. manager
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1361273238936" ID="ID_950954818" LINK="https://github.com/facebook/hiphop-php/wiki" MODIFIED="1362076621876" POSITION="right">
 <richcontent TYPE="NODE"><html>
