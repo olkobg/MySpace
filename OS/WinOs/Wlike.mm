@@ -102,8 +102,7 @@
       <font color="#0033ff"><b>rasdial </b>&lt;connection name&gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -127,6 +126,9 @@
 <node CREATED="1362431691304" ID="ID_1800403970" LINK="http://ice.hotmint.com/putty/" MODIFIED="1362431708187" TEXT="putty patch"/>
 </node>
 </node>
+</node>
+<node CREATED="1369949246908" ID="ID_137447076" MODIFIED="1369949248487" POSITION="left" TEXT="config">
+<node CREATED="1369949249636" ID="ID_989469088" LINK="http://www.techrepublic.com/blog/itdojo/delete-hiberfilsys-by-disabling-windows-hibernate-function/1493" MODIFIED="1369949257221" TEXT="dissable hibernation"/>
 </node>
 </node>
 </map>

@@ -190,7 +190,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1369235197490" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1369944425905" POSITION="right" TEXT="$term">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1368085180759" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -423,8 +423,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1369216442452" TEXT="security">
-<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1369216442179" TEXT="crypt">
+<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1369944425021" TEXT="security">
+<node CREATED="1359236444041" ID="ID_505284719" MODIFIED="1369943932226" TEXT="crypt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1369216441643" TEXT="gpg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -477,6 +477,88 @@
 </node>
 <node COLOR="#0033ff" CREATED="1355996521320" ID="ID_1492237656" MODIFIED="1355996540300" TEXT="zsafe">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1369943937324" FOLDED="true" ID="ID_1026528888" MODIFIED="1369944422811" TEXT="hash">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369943941361" FOLDED="true" ID="ID_126741669" MODIFIED="1369944421724" TEXT="md5">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369943952462" ID="ID_1061356057" MODIFIED="1369944415948">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # md5 sum of few words
+    </p>
+    <p>
+      <font color="#0033cc">$ echo -n 'hello world' | md5sum -</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # show md5 for single file
+    </p>
+    <p>
+      <font color="#0033cc">$ md5sum file.txt </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # show md5 for files
+    </p>
+    <p>
+      <font color="#0033cc">$ md5sum doc1.odt doc2.odt </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # write md5 into file for a list of files
+    </p>
+    <p>
+      <font color="#0033cc">$ md5sum a.txt b.txt &gt; md5sums.md5</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # write md5 of directory into file
+    </p>
+    <p>
+      <font color="#0033cc">$ md5deep -rl directory &gt; file.md5 </font>
+    </p>
+    <p>
+      <font color="#0033cc">$ find directory -type f -print0 | xargs -0 md5sum &gt;&gt; file.md5</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # check md5 sum of directory
+    </p>
+    <p>
+      <font color="#0033cc">$ md5sum -c /path/to/file.md5</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # check the files with faild sums
+    </p>
+    <p>
+      <font color="#0033cc">$ md5sum -c file.md5 | grep FAILED$ &gt; failed_hashes </font>
+    </p>
+    <p>
+      <font color="#0033cc">$ md5sum -c file.md5 | grep -v OK$ &gt; failed_hashes</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -686,8 +768,7 @@
       new filer permission = f_perm - umask = 0666 - 0022 = 0755
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
