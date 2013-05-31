@@ -138,8 +138,7 @@
       <font color="#0033ff">$ git checkout <b>--theirs</b>&#160;-- path/to/file.txt</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1356611018634" ID="ID_1250883637" MODIFIED="1356611022894" POSITION="left" TEXT="mergetool">
@@ -472,7 +471,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1357920920993" POSITION="right" TEXT="config">
+<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1370015052492" POSITION="right" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1289412013925" ID="ID_1715652734" MODIFIED="1356609564954">
 <richcontent TYPE="NODE"><html>
@@ -489,16 +488,19 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1316101111376" FOLDED="true" ID="ID_983038719" MODIFIED="1357920920269" TEXT="file">
+<node CREATED="1316101111376" FOLDED="true" ID="ID_983038719" MODIFIED="1370015052283" TEXT="file">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1316101125350" ID="ID_970354881" MODIFIED="1356609539672">
+<node CREATED="1316101125350" ID="ID_970354881" MODIFIED="1370008774609">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      #change paginator for diff
+      # change paginator for diff
+    </p>
+    <p>
+      # currently paginator use 4 tabs to display text
     </p>
     <p>
       <font color="#0033ff">[core] </font>
@@ -507,7 +509,8 @@
       <font color="#0033ff">&#160;pager = less -FXRS -x4</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1357920134455" ID="ID_1911421514" MODIFIED="1357920195307">
 <richcontent TYPE="NODE"><html>
