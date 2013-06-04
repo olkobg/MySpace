@@ -182,7 +182,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1369226146699" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1370354732470" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1369226040337" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1365673935760" TEXT="optimize">
@@ -190,21 +190,33 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1369944425905" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1370354803554" POSITION="right" TEXT="$term">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1368085180759" TEXT="backup">
+<node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1370354717318" TEXT="rsync">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1368085180477" TEXT="rsync">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296636147905" ID="ID_489816603" MODIFIED="1315390993937" TEXT="rsync -av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/  "/>
+<node COLOR="#0033ff" CREATED="1296636147905" ID="ID_489816603" MODIFIED="1370354714685">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $&#160;<b>rsync</b>&#160;-av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/&#160;&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1368085151516" TEXT="bittorent">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1296633188976" ID="ID_1249879586" MODIFIED="1369234981910" TEXT="convert">
+<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1370354719996" TEXT="convert">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1360156390949" TEXT="textfiles">
+<node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1370354692106" TEXT="textfiles">
 <node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1355996330572" TEXT="recode">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -227,7 +239,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1358860071749" FOLDED="true" ID="ID_1481202249" MODIFIED="1360156392288" TEXT="html 2 pdf">
+<node CREATED="1358860071749" FOLDED="true" ID="ID_1481202249" MODIFIED="1370354693514" TEXT="html 2 pdf">
 <node COLOR="#0033ff" CREATED="1358860077030" ID="ID_1765131650" MODIFIED="1358860085027" TEXT="wkhtmltopdf">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -236,7 +248,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1368717489841" ID="ID_1699667427" MODIFIED="1368717535117" TEXT="color">
+<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1370354688330" TEXT="color">
 <node CREATED="1368717500084" ID="ID_1760124834" LINK="http://unix.stackexchange.com/questions/148/colorizing-your-terminal-and-shell-environment" MODIFIED="1368717526400">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -250,7 +262,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1369226152762" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1370354730231" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1365667996826" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -365,6 +377,28 @@
 </html></richcontent>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1370354576586" FOLDED="true" ID="ID_336954991" MODIFIED="1370354685535" TEXT="find">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1370354585174" ID="ID_1176320040" MODIFIED="1370354680880">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # to make expression negative add <b>!</b>
+    </p>
+    <p>
+      # it should be escaped in term <b>\!</b>
+    </p>
+    <p>
+      <font color="#0033ff">$&#160;<b>find</b>&#160;. <b>\!</b>&#160;-user foo -print</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1364490060955" ID="ID_1308648567" MODIFIED="1368085184384" TEXT="grep">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -382,7 +416,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1368085253838" TEXT="net">
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1370354766350" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1368085193191" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
@@ -401,7 +435,7 @@
 <node COLOR="#0033ff" CREATED="1315390919026" ID="ID_872112777" LINK="net/ssh.mm" MODIFIED="1356098130648" TEXT="ssh">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1296809859512" FOLDED="true" ID="ID_1135100366" MODIFIED="1368085253341" TEXT="wget">
+<node COLOR="#0033ff" CREATED="1296809859512" FOLDED="true" ID="ID_1135100366" MODIFIED="1370354764584" TEXT="wget">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296809869142" ID="ID_254994748" MODIFIED="1365667980112">
 <richcontent TYPE="NODE"><html>
@@ -423,8 +457,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1369944425021" TEXT="security">
-<node CREATED="1359236444041" ID="ID_505284719" MODIFIED="1369943932226" TEXT="crypt">
+<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1370354773335" TEXT="security">
+<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1370354767981" TEXT="crypt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1369216441643" TEXT="gpg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -479,9 +513,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1369943937324" FOLDED="true" ID="ID_1026528888" MODIFIED="1369944422811" TEXT="hash">
+</node>
+<node CREATED="1369943937324" FOLDED="true" ID="ID_1026528888" MODIFIED="1370354772783" TEXT="hash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1369943941361" FOLDED="true" ID="ID_126741669" MODIFIED="1369944421724" TEXT="md5">
+<node CREATED="1369943941361" FOLDED="true" ID="ID_126741669" MODIFIED="1370354772543" TEXT="md5">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369943952462" ID="ID_1061356057" MODIFIED="1369944415948">
 <richcontent TYPE="NODE"><html>
@@ -556,14 +591,12 @@
       <font color="#0033cc">$ md5sum -c file.md5 | grep -v OK$ &gt; failed_hashes</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1368720995420" TEXT="sed">
+<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1370354780048" TEXT="sed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
 <richcontent TYPE="NODE"><html>
@@ -620,7 +653,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1368720998980" FOLDED="true" ID="ID_654338804" MODIFIED="1368721148286" TEXT="alias">
+<node CREATED="1368720998980" FOLDED="true" ID="ID_654338804" MODIFIED="1370354783294" TEXT="alias">
 <node CREATED="1368721010789" ID="ID_1798528219" MODIFIED="1368721146570">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -652,7 +685,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1368720992161" TEXT="users">
+<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1370354797051" TEXT="users">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361971728537" FOLDED="true" ID="ID_1193412117" MODIFIED="1365667858949" TEXT="group">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -739,9 +772,23 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1369307010049" FOLDED="true" ID="ID_501338769" MODIFIED="1369307187571" POSITION="left" TEXT="doc">
+<node COLOR="#990099" CREATED="1369307010049" FOLDED="true" ID="ID_501338769" MODIFIED="1370354852474" POSITION="left" TEXT="doc">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1369307013463" FOLDED="true" ID="ID_863651094" MODIFIED="1369307187380" TEXT="permissions">
+<node CREATED="1370354833806" FOLDED="true" ID="ID_1971328720" MODIFIED="1370354847651" TEXT="fs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1370354820917" ID="ID_1720010701" MODIFIED="1370354831305">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>tmpfs</b>&#160;- ram filesystem stores data in volatile memory&#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1369307013463" FOLDED="true" ID="ID_863651094" MODIFIED="1370354847113" TEXT="permissions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369307022678" ID="ID_1038878792" MODIFIED="1369307158154">
 <richcontent TYPE="NODE"><html>
@@ -772,7 +819,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1369306991779" POSITION="left" TEXT="app">
+</node>
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1370354813678" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1364488641338" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1363,10 +1411,10 @@
 <node CREATED="1361462308716" ID="ID_578732248" LINK="http://www.vanemery.com/Linux/XoverSSH/X-over-SSH2.html" MODIFIED="1361462319909" TEXT="x over ssh2 tutorial"/>
 </node>
 </node>
-<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1369235199878" POSITION="right" TEXT="tricks">
+<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1370354851481" POSITION="right" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357753828458" FOLDED="true" ID="ID_1937859101" MODIFIED="1369226181678" TEXT="mail">
-<node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1368084740572" TEXT="telnet">
+<node CREATED="1357753828458" FOLDED="true" ID="ID_1937859101" MODIFIED="1370354810067" TEXT="mail">
+<node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1370354808303" TEXT="telnet">
 <node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1407,19 +1455,6 @@
 </html></richcontent>
 </node>
 </node>
-</node>
-<node CREATED="1369226182167" ID="ID_1270635373" MODIFIED="1369226223701">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>tmpfs</b>&#160;- ram filesystem stores data in volatile memory
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
