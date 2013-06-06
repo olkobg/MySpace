@@ -73,7 +73,7 @@
 <node CREATED="1354274546352" ID="ID_1054520689" LINK="eCommerce/PrestaShop.mm" MODIFIED="1354274546354" TEXT="PrestaShop"/>
 </node>
 </node>
-<node CREATED="1337095407580" FOLDED="true" ID="ID_1268790834" MODIFIED="1369129021145" POSITION="left" TEXT="libs">
+<node CREATED="1337095407580" FOLDED="true" ID="ID_1268790834" MODIFIED="1370531281858" POSITION="left" TEXT="libs">
 <node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1361977750136" TEXT="Captcha">
 <node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
 <node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
@@ -124,8 +124,7 @@
       <font color="#0033ff"><b>TCPDF</b></font>&#160;- generates&#160;<b>pdf</b>&#160;with <font color="#0033ff"><b>php</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1358877859720" ID="ID_1371169850" LINK="http://www.mpdf1.com/mpdf/index.php" MODIFIED="1358877955278">
@@ -257,7 +256,7 @@ xdebug.remote_port=9000
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1369128862749" POSITION="left" TEXT="CORE">
+<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1370531282933" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1299140234352" ID="ID_409384537" MODIFIED="1363282506415" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1362411827693" TEXT="inf">
@@ -3221,8 +3220,7 @@ bool(true)</pre>
       <font color="#009999"><b>SO</b></font>&#160;create temp dir
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1369139503651" FOLDED="true" ID="ID_1938299763" MODIFIED="1369145284003" TEXT="csv">
@@ -3237,8 +3235,7 @@ bool(true)</pre>
       <font color="#009999"><b>SO</b></font>&#160;return array from csv
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

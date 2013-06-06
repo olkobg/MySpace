@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1299074201694" ID="ID_1433943534" LINK="PHP.mm" MODIFIED="1299145481828" TEXT="PHP tools">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1299074227023" FOLDED="true" ID="ID_1026261536" LINK="http://www.phing.info/" MODIFIED="1362076582216" POSITION="right">
+<node CREATED="1299074227023" FOLDED="true" ID="ID_1026261536" LINK="http://www.phing.info/" MODIFIED="1370531440691" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26,8 +26,7 @@
       <b><font color="#009999">composer</font></b>&#160;- <b><font color="#0033ff">php</font></b>&#160;dep. manager
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1361273238936" ID="ID_950954818" LINK="https://github.com/facebook/hiphop-php/wiki" MODIFIED="1362076621876" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -41,9 +40,10 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1299137833498" ID="ID_1278823281" MODIFIED="1362073742919" POSITION="left" TEXT="PEAR">
+<node COLOR="#0033ff" CREATED="1299137833498" FOLDED="true" ID="ID_1278823281" MODIFIED="1370531427110" POSITION="left" TEXT="PEAR">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1299137840048" ID="ID_1776483513" MODIFIED="1299137843434" TEXT="channel">
+<node COLOR="#0033ff" CREATED="1299137840048" ID="ID_1776483513" MODIFIED="1370531422977" TEXT="channel">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1299137843737" ID="ID_1148392153" MODIFIED="1362073697551" TEXT="channel-discover">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1299137871096" ID="ID_800257669" MODIFIED="1362073704350">
@@ -60,7 +60,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1361449411358" ID="ID_1072674554" MODIFIED="1361449416001" TEXT="list">
+<node COLOR="#0033ff" CREATED="1361449411358" ID="ID_1072674554" MODIFIED="1370531422977" TEXT="list">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361449173409" ID="ID_749146692" MODIFIED="1362073732859">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -73,6 +74,22 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1370531375079" ID="ID_1880740945" MODIFIED="1370531422978" TEXT="uninstall">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1370531379998" ID="ID_746509568" MODIFIED="1370531411890">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">$ pear <b>unintstall</b>&#160;element-34/PHPWebDriver</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1362073629236" ID="ID_1946728433" MODIFIED="1362073755834" TEXT="packages">
