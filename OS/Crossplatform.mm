@@ -58,7 +58,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1356528038293" ID="ID_875794081" LINK="http://getsongbird.com/" MODIFIED="1356528045283" TEXT="songbird"/>
 </node>
-<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1370509319287" POSITION="left" TEXT="Development">
+<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1373272224200" POSITION="left" TEXT="Development">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1355149044983" FOLDED="true" ID="ID_1170115706" MODIFIED="1370509296533" TEXT="attention">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -166,18 +166,24 @@
 <node CREATED="1359978155953" ID="ID_152877535" LINK="Cross/fun/Calibre.mm" MODIFIED="1359978155954" TEXT="Calibre"/>
 </node>
 </node>
-<node COLOR="#006633" CREATED="1359978105678" ID="ID_1806015071" MODIFIED="1370509334467" POSITION="left" TEXT="Fun">
+<node COLOR="#006633" CREATED="1359978105678" FOLDED="true" ID="ID_1806015071" MODIFIED="1373272228063" POSITION="left" TEXT="Fun">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1373272176933" FOLDED="true" ID="ID_739324670" MODIFIED="1373272227431" TEXT="music">
+<node CREATED="1373272180693" FOLDED="true" ID="ID_1088194619" MODIFIED="1373272227219" TEXT="straming">
+<node CREATED="1373272191697" ID="ID_597965662" LINK="http://subsonic.sourceforge.net/" MODIFIED="1373272200540" TEXT="subsonic"/>
+<node CREATED="1373272194220" ID="ID_1830900188" MODIFIED="1373272196179" TEXT="ampalache"/>
 </node>
-<node CREATED="1357752667538" FOLDED="true" ID="ID_116532665" MODIFIED="1370509339527" POSITION="left" TEXT="net">
+</node>
+</node>
+<node CREATED="1357752667538" FOLDED="true" ID="ID_116532665" MODIFIED="1373272968332" POSITION="left" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1357752766592" FOLDED="true" ID="ID_900912881" MODIFIED="1369226860356" TEXT="mail">
+<node CREATED="1357752766592" FOLDED="true" ID="ID_900912881" MODIFIED="1373272967989" TEXT="mail">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303113844068" FOLDED="true" ID="ID_1974372924" MODIFIED="1369226713160" TEXT="thunderbird">
+<node CREATED="1303113844068" FOLDED="true" ID="ID_1974372924" MODIFIED="1373272967639" TEXT="thunderbird">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303113847356" FOLDED="true" ID="ID_526417948" MODIFIED="1369226712941" TEXT="add.">
+<node CREATED="1303113847356" FOLDED="true" ID="ID_526417948" MODIFIED="1373272967298" TEXT="add.">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357752939337" FOLDED="true" ID="ID_379244032" MODIFIED="1357753057604" TEXT="cal">
+<node CREATED="1357752939337" FOLDED="true" ID="ID_379244032" MODIFIED="1373272884075" TEXT="cal">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1303113850108" ID="ID_553548097" LINK="https://addons.mozilla.org/uk/thunderbird/addon/lightning/?src=search" MODIFIED="1357752917331" TEXT="lightning">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -198,28 +204,44 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357752981420" FOLDED="true" ID="ID_1471875575" MODIFIED="1357753055197" TEXT="contacts">
+<node CREATED="1357752981420" FOLDED="true" ID="ID_1471875575" MODIFIED="1373272879548" TEXT="contacts">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357752988252" ID="ID_1467802001" LINK="https://addons.mozilla.org/uk/thunderbird/addon/zindus/?src=search" MODIFIED="1357753009903" TEXT="zindus">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357753012426" FOLDED="true" ID="ID_594139568" MODIFIED="1357753054338" TEXT="security">
+<node CREATED="1357753012426" FOLDED="true" ID="ID_594139568" MODIFIED="1373272878558" TEXT="security">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357753020465" ID="ID_1741780233" LINK="https://addons.mozilla.org/uk/thunderbird/addon/enigmail/?src=ss" MODIFIED="1357753047910" TEXT="enigmail">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357752955418" FOLDED="true" ID="ID_843559642" MODIFIED="1357753053335" TEXT="backup">
+<node CREATED="1357752955418" FOLDED="true" ID="ID_843559642" MODIFIED="1373272877236" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357752777110" ID="ID_92140853" LINK="https://addons.mozilla.org/uk/thunderbird/addon/copy-folder/?src=ss" MODIFIED="1357752896168" TEXT="copyFolder">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357753077446" FOLDED="true" ID="ID_719668383" MODIFIED="1357753114963" TEXT="style">
+<node CREATED="1357753077446" FOLDED="true" ID="ID_719668383" MODIFIED="1373272933170" TEXT="style">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357753081529" ID="ID_986831458" LINK="https://addons.mozilla.org/uk/thunderbird/addon/compactheader/?src=ss" MODIFIED="1357753112625" TEXT="CompactHeader">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1373272886064" FOLDED="true" ID="ID_1469915482" MODIFIED="1373272966168" TEXT="sending">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1373272889848" ID="ID_1788160679" LINK="https://addons.mozilla.org/en-US/thunderbird/addon/blunderdelay/" MODIFIED="1373272964003">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033cc"><b>BlunderDelay</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -228,6 +250,12 @@
 <node CREATED="1369226556011" FOLDED="true" ID="ID_850941728" MODIFIED="1369229312124" TEXT="browser">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369226559664" ID="ID_1903784369" LINK="Cross/Web/Firefox.mm" MODIFIED="1369226680050" TEXT="Firefox"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1373272238017" FOLDED="true" ID="ID_1933367924" MODIFIED="1373272276437" POSITION="left" TEXT="Security">
+<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1373272260894" FOLDED="true" ID="ID_599129076" MODIFIED="1373272276212" TEXT="disc encryption">
+<node CREATED="1373272267989" ID="ID_1702520692" LINK="http://www.truecrypt.org/" MODIFIED="1373272274271" TEXT="TrueCrypt"/>
 </node>
 </node>
 </node>

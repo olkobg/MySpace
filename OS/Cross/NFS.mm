@@ -1,8 +1,8 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1330464526919" ID="ID_1279976728" LINK="../../General/Internet.mm" MODIFIED="1331713378097" TEXT="NFS">
+<node COLOR="#990099" CREATED="1330464526919" ID="ID_1279976728" LINK="../../General/Internet.mm" MODIFIED="1371405225730" TEXT="NFS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1331713350830" ID="ID_1538758996" MODIFIED="1331713353077" POSITION="right" TEXT="client">
+<node CREATED="1331713350830" FOLDED="true" ID="ID_1538758996" MODIFIED="1371405225398" POSITION="right" TEXT="client">
 <node CREATED="1331713267735" ID="ID_1818210269" MODIFIED="1331713349272" TEXT="win">
 <node CREATED="1331713254260" ID="ID_206679108" MODIFIED="1331713373926" TEXT="v3">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>

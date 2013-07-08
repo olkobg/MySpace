@@ -392,8 +392,7 @@
       <font color="#009999"><b>LP</b></font>&#160;mysql-udf-regexp
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#009999" CREATED="1368128358923" ID="ID_281389471" LINK="http://www.mysqludf.org/" MODIFIED="1368128374424" TEXT="mysqlUDF.org">
@@ -459,7 +458,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1358705998459" FOLDED="true" ID="ID_414904595" MODIFIED="1358767808004" POSITION="right" TEXT="dump">
+<node CREATED="1358705998459" ID="ID_414904595" MODIFIED="1370456725228" POSITION="right" TEXT="dump">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358706004978" ID="ID_481266675" MODIFIED="1358706159311">
 <richcontent TYPE="NODE"><html>

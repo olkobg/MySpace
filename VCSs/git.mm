@@ -509,8 +509,7 @@
       <font color="#0033ff">&#160;pager = less -FXRS -x4</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357920134455" ID="ID_1911421514" MODIFIED="1357920195307">
 <richcontent TYPE="NODE"><html>
@@ -792,7 +791,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116937609" FOLDED="true" ID="ID_701178819" MODIFIED="1358162327957" POSITION="right" TEXT="log">
+<node COLOR="#0033ff" CREATED="1311116937609" ID="ID_701178819" MODIFIED="1373273904722" POSITION="right" TEXT="log">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311116942074" ID="ID_1121532703" MODIFIED="1311116950025" TEXT="show commit messages"/>
 <node COLOR="#0033ff" CREATED="1311116951586" ID="ID_1847534764" MODIFIED="1355754972172" TEXT="--graph">
@@ -844,6 +843,55 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1373273907131" ID="ID_1354463121" MODIFIED="1373273956713">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git log origin/master..master
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      or, more generally:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log &lt;since&gt;..&lt;until&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      You can use this with grep to check for a specific, known commit:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log &lt;since&gt;..&lt;until&gt; | grep &lt;commit-hash&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Or you can also use git-rev-list to search for a specific commit:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git rev-list origin/master | grep &lt;commit-hash&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
