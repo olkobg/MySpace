@@ -29,5 +29,36 @@
 </html></richcontent>
 </node>
 <node CREATED="1374074616856" ID="ID_146513261" LINK="https://ffmpeg.org/trac/ffmpeg/wiki/x264EncodingGuide" MODIFIED="1374074627850" POSITION="right" TEXT="x264 encodiing guide"/>
+<node CREATED="1374771164042" ID="ID_101210930" MODIFIED="1374771169108" POSITION="left" TEXT="grab screen">
+<node CREATED="1374771175786" ID="ID_599013386" MODIFIED="1374771205853">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">$ ffmpeg <b>-f x11grab</b>&#160;-s 1280x800 -r 25 -i :0.0 -sameq /tmp/screencast.mp4</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1374771222361" ID="ID_855734086" MODIFIED="1374771243589">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #convert
+    </p>
+    <p>
+      <font color="#0033ff">ffmpeg -i /tmp/screencast.mp4 /tmp/screencast.flv</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </map>
