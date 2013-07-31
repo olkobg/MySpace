@@ -16,7 +16,7 @@
 <node CREATED="1363794226861" ID="ID_1083258656" LINK="http://infohost.nmt.edu/tcc/help/xml/lint.html" MODIFIED="1363794232983" TEXT="doc"/>
 </node>
 </node>
-<node CREATED="1298903350178" ID="ID_344704111" MODIFIED="1363794261041" POSITION="left" TEXT="xpath">
+<node CREATED="1298903350178" FOLDED="true" ID="ID_344704111" MODIFIED="1374858596767" POSITION="left" TEXT="xpath">
 <node CREATED="1362506900818" ID="ID_770134559" MODIFIED="1362507016394">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -106,8 +106,7 @@
       <font color="#0033ff">(//span[@class='myPrice'])[<b>last()</b>]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1298903424927" ID="ID_1661081815" MODIFIED="1363794264362" POSITION="left" TEXT="xform"/>
