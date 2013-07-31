@@ -44,7 +44,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1354284422668" FOLDED="true" ID="ID_104995101" MODIFIED="1368089932971" POSITION="left" TEXT="functions">
+<node CREATED="1354284422668" ID="ID_104995101" MODIFIED="1375026716572" POSITION="left" TEXT="functions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1302007143908" FOLDED="true" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1359491632965" TEXT="Date">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
@@ -61,10 +61,16 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1349875759209" FOLDED="true" ID="ID_646879198" MODIFIED="1359491632467" TEXT="String">
+<node CREATED="1349875759209" ID="ID_646879198" MODIFIED="1375026717649" TEXT="String">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1349875769533" ID="ID_1426053239" MODIFIED="1349875781945" TEXT="LENGTH( )">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1375026466940" ID="ID_753046908" MODIFIED="1375026480344" TEXT="REPLACE">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1375026483340" ID="ID_1164202207" LINK="http://stackoverflow.com/questions/5956993/mysql-string-replace" MODIFIED="1375026494529" TEXT="so">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node CREATED="1354803143510" FOLDED="true" ID="ID_1944344488" MODIFIED="1359491632198" TEXT="Compare">
