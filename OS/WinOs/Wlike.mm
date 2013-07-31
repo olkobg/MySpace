@@ -115,8 +115,7 @@
       <font color="#009999"><b>robvanderwoude</b></font>&#160;adimin
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1331667907542" FOLDED="true" ID="ID_1912959258" MODIFIED="1364220475562" POSITION="right" TEXT="unix emulation">
@@ -137,6 +136,13 @@
 <node CREATED="1362431689007" FOLDED="true" ID="ID_1973994209" MODIFIED="1373269208717" TEXT="ssh">
 <node CREATED="1362431699117" ID="ID_597897924" LINK="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" MODIFIED="1362431723862" TEXT="putty">
 <node CREATED="1362431691304" ID="ID_1800403970" LINK="http://ice.hotmint.com/putty/" MODIFIED="1362431708187" TEXT="putty patch"/>
+</node>
+</node>
+</node>
+<node CREATED="1375209568836" ID="ID_772994984" MODIFIED="1375209570628" POSITION="left" TEXT="media">
+<node CREATED="1375209572493" ID="ID_1176343643" MODIFIED="1375209574058" TEXT="video">
+<node CREATED="1375209574723" ID="ID_454136906" MODIFIED="1375209577239" TEXT="editing">
+<node CREATED="1375209578249" ID="ID_433297257" LINK="http://www.lwks.com/" MODIFIED="1375209589739" TEXT=""/>
 </node>
 </node>
 </node>

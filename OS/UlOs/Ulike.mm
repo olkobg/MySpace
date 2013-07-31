@@ -190,7 +190,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1375271462799" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1375298971821" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -414,9 +414,9 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1370354766350" TEXT="net">
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1375298970935" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1368085193191" TEXT="Mail">
+<node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1375298949179" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -433,7 +433,7 @@
 <node COLOR="#0033ff" CREATED="1315390919026" ID="ID_872112777" LINK="net/ssh.mm" MODIFIED="1356098130648" TEXT="ssh">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1296809859512" FOLDED="true" ID="ID_1135100366" MODIFIED="1370354764584" TEXT="wget">
+<node COLOR="#0033ff" CREATED="1296809859512" FOLDED="true" ID="ID_1135100366" MODIFIED="1375298969849" TEXT="wget">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296809869142" ID="ID_254994748" MODIFIED="1365667980112">
 <richcontent TYPE="NODE"><html>
@@ -455,7 +455,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1375271461390" TEXT="security">
+<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1375298946826" TEXT="security">
 <node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1375271461010" TEXT="crypt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1375271460744" TEXT="gpg">
@@ -818,7 +818,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1375261784156" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1375298952339" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1370509206796" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -844,15 +844,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156292809" FOLDED="true" ID="ID_1734196193" MODIFIED="1370509207722" TEXT="virtual">
-<node COLOR="#0033ff" CREATED="1300807250798" FOLDED="true" ID="ID_978816704" MODIFIED="1360156282791" TEXT="vmplayer">
+<node CREATED="1360156292809" FOLDED="true" ID="ID_1734196193" MODIFIED="1375298935800" TEXT="virtual">
+<node COLOR="#0033ff" CREATED="1300807250798" FOLDED="true" ID="ID_978816704" MODIFIED="1375298932906" TEXT="vmplayer">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1300807253622" ID="ID_1516105206" MODIFIED="1355996375616" TEXT="update modules">
+<node CREATED="1300807253622" FOLDED="true" ID="ID_1516105206" MODIFIED="1375298932649" TEXT="update modules">
 <node COLOR="#0033ff" CREATED="1300807264557" ID="ID_340631692" MODIFIED="1315938388012" TEXT="vmware-modconfig --console --install-all --appname=&quot;VMware Player&quot; --icon=&quot;vmware-player&quot;"/>
 </node>
 </node>
 </node>
-<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1375099580707" TEXT="multimedia">
+<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1375298929956" TEXT="multimedia">
 <node CREATED="1296636862873" ID="ID_1528497792" LINK="Video_edit.mm" MODIFIED="1296636862876" TEXT="Video_edit"/>
 <node CREATED="1324044759394" FOLDED="true" ID="ID_1381627127" MODIFIED="1360156332920" TEXT="Photo">
 <node CREATED="1324047954760" FOLDED="true" ID="ID_630141721" MODIFIED="1357753681281" TEXT="Picasa">
@@ -892,8 +892,8 @@
 <node CREATED="1374771346000" ID="ID_1338521270" LINK="http://www.openlogic.com/wazi/bid/188040/Four-Top-Open-Source-Screencast-Applications" MODIFIED="1374771355701" TEXT="best 4 apps"/>
 </node>
 </node>
-<node CREATED="1364488643637" FOLDED="true" ID="ID_1031012619" MODIFIED="1375106000260" TEXT="net">
-<node CREATED="1364488645581" FOLDED="true" ID="ID_1521194640" MODIFIED="1375106000002" TEXT="browser">
+<node CREATED="1364488643637" FOLDED="true" ID="ID_1031012619" MODIFIED="1375298928396" TEXT="net">
+<node CREATED="1364488645581" FOLDED="true" ID="ID_1521194640" MODIFIED="1375298928105" TEXT="browser">
 <node CREATED="1364488648023" ID="ID_1718375211" MODIFIED="1364488653155" TEXT="links"/>
 <node CREATED="1364488653454" ID="ID_151657057" MODIFIED="1364488656488" TEXT="lynx"/>
 <node CREATED="1364488656780" ID="ID_1402024634" LINK="http://uzbl.org/" MODIFIED="1364488660394" TEXT="uzbl"/>
@@ -944,9 +944,9 @@
 <node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1370509235365" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 </node>
-<node CREATED="1296676490487" ID="ID_1251407468" MODIFIED="1375273622780" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1375301249314" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1370526368693" TEXT="apt">
+<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1375298958093" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1362824062656" TEXT="caching">
 <node COLOR="#0033ff" CREATED="1303810890920" FOLDED="true" ID="ID_1003328043" MODIFIED="1356098186406" TEXT="apt-cacher">
@@ -1042,9 +1042,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1362824035592" FOLDED="true" ID="ID_730872792" MODIFIED="1375273623940" TEXT="dpkg">
+<node COLOR="#0033ff" CREATED="1362824035592" FOLDED="true" ID="ID_730872792" MODIFIED="1375298959042" TEXT="dpkg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1362824042150" FOLDED="true" ID="ID_610085462" MODIFIED="1362824167799" TEXT="-buildpackage">
+<node COLOR="#0033ff" CREATED="1362824042150" ID="ID_610085462" MODIFIED="1375298953816" TEXT="-buildpackage">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1304071557907" ID="ID_1671130281" MODIFIED="1362824141483">
 <richcontent TYPE="NODE"><html>
@@ -1060,7 +1060,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1364551432068" ID="ID_887666938" MODIFIED="1375273624116" TEXT="bluez">
+<node CREATED="1364551432068" FOLDED="true" ID="ID_140635818" MODIFIED="1375298959900" TEXT="bluetooth">
+<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_887666938" MODIFIED="1375298909875" TEXT="bluez">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1364551462610" ID="ID_918738490" MODIFIED="1364552351416">
 <richcontent TYPE="NODE"><html>
@@ -1124,7 +1125,7 @@
 </node>
 <node CREATED="1375261800018" ID="ID_1224452446" LINK="cwiki.gentoo.org/wiki/Bluetooth" MODIFIED="1375262970412" TEXT="gentoo wiki"/>
 </node>
-<node COLOR="#0033ff" CREATED="1375273626780" ID="ID_20229116" MODIFIED="1375273633580" TEXT="bluez-tools">
+<node COLOR="#0033ff" CREATED="1375273626780" FOLDED="true" ID="ID_20229116" MODIFIED="1375298909873" TEXT="bluez-tools">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1375273635079" ID="ID_1185302319" MODIFIED="1375273682231">
 <richcontent TYPE="NODE"><html>
@@ -1139,15 +1140,15 @@
       <font color="#0033ff">$ bt-device <b>--list</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1370509202137" TEXT="net">
+</node>
+<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1375301249022" TEXT="net">
 <node COLOR="#0033ff" CREATED="1364753013894" ID="ID_980082429" LINK="http://www.aircrack-ng.org/" MODIFIED="1364808207979" TEXT="aircrack-ng">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1364808303400" TEXT="dig">
+<node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1375298839474" TEXT="dig">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294070908844" ID="ID_1074468" MODIFIED="1362824218255">
 <richcontent TYPE="NODE"><html>
@@ -1195,7 +1196,7 @@
 <node CREATED="1310637726990" ID="ID_1898681690" LINK="iptables.mm" MODIFIED="1364808215514" TEXT="iptables">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1311119874516" FOLDED="true" ID="ID_1713203094" MODIFIED="1364808215511" TEXT="routing">
+<node CREATED="1311119874516" FOLDED="true" ID="ID_1713203094" MODIFIED="1375298939401" TEXT="routing">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1310120203431" ID="ID_796453636" LINK="iproute.mm" MODIFIED="1311119871673" TEXT="iproute"/>
 <node CREATED="1311119653158" ID="ID_767812934" MODIFIED="1311119655407" TEXT="gated">
@@ -1212,9 +1213,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1312307204519" FOLDED="true" ID="ID_1558016268" MODIFIED="1364808220879" TEXT="openswan">
+<node CREATED="1312307204519" FOLDED="true" ID="ID_1558016268" MODIFIED="1375298904346" TEXT="openswan">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1362824471424" FOLDED="true" ID="ID_1774633522" MODIFIED="1362824502129" TEXT="service">
+<node CREATED="1362824471424" ID="ID_1774633522" MODIFIED="1375298889790" TEXT="service">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1312307233514" ID="ID_562731552" MODIFIED="1362824305924">
 <richcontent TYPE="NODE"><html>
@@ -1247,9 +1248,7 @@
 </html></richcontent>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_140635818" MODIFIED="1364753391956" TEXT="bluez">
-<node CREATED="1362824462531" FOLDED="true" ID="ID_1189574202" MODIFIED="1362824502887" TEXT="tunnel">
+<node CREATED="1362824462531" ID="ID_1189574202" MODIFIED="1375298883856" TEXT="tunnel">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1312307380935" ID="ID_1836545349" MODIFIED="1362824335218">
 <richcontent TYPE="NODE"><html>
@@ -1312,7 +1311,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1312308709846" FOLDED="true" ID="ID_868481704" MODIFIED="1362824528318" TEXT="config">
+<node CREATED="1312308709846" FOLDED="true" ID="ID_868481704" MODIFIED="1375298845632" TEXT="config">
 <node CREATED="1312308721733" ID="ID_1835461235" LINK="http://www.pelagodesign.com/blog/2009/05/18/ubuntu-linux-how-to-setup-a-vpn-connection-to-a-sonicwall-router-using-openswan-and-pre-shared-keys-psk/" MODIFIED="1362824521876">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1333,8 +1332,42 @@
 <node COLOR="#0033ff" CREATED="1364808281864" ID="ID_1927389827" LINK="https://code.google.com/p/packetsquare-capedit/" MODIFIED="1364808294649" TEXT="packetsquare">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#009999" CREATED="1311118392979" ID="ID_1759952331" LINK="http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html" MODIFIED="1364808231351" TEXT="YOULINUX">
+<node COLOR="#006699" CREATED="1311118392979" ID="ID_1759952331" LINK="http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html" MODIFIED="1375298981700" TEXT="YOULINUX">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1375298982931" FOLDED="true" ID="ID_1308149011" MODIFIED="1375301246605" TEXT="fs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1375298986840" FOLDED="true" ID="ID_94479630" MODIFIED="1375301246257" TEXT="samba">
+<node CREATED="1375298993114" ID="ID_1235217364" MODIFIED="1375299049753">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # mounting samba file system from console
+    </p>
+    <p>
+      <font color="#0033cc">$ mount -t cifs -o user=luke //192.168.1.104/share /mnt/linky_share</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1375300893134" ID="ID_1291432311" MODIFIED="1375301239268">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # fstab samba mount record&#160;&#160;<br /># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#160;&#160;&#160;&#160;&#160;/&lt;mount point&gt;&#160;&#160;&#160;&#160;cifs&#160;&#160;&#160;&#160;&#160;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#160;&#160;&#160;&#160;0 0&#160;<br /># <b>cifs</b>&#160;- fs type&#160;<b>_netdev</b>&#160;- wait for network will be available <b>uid</b>-current&#160;unix user<br /><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#160;&#160;cifs&#160;&#160;&#160;guest,_netdev,uid=mike 0 0</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
