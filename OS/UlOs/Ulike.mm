@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1294068909567" ID="ID_920392477" LINK="../../Index.mm" MODIFIED="1370509240395" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1375456148880" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -10,9 +10,10 @@
       (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
   </body>
-</html></richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1370509242306" POSITION="right" TEXT="Boot">
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1375456034039" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
 <node CREATED="1294648493700" FOLDED="true" ID="ID_929058759" MODIFIED="1369226175553" TEXT="grub">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -20,30 +21,30 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294648500654" ID="ID_116137789" MODIFIED="1315938392680">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      grub rescue&gt; set prefix=(hd0,x)/boot/grub<br />grub rescue&gt; insmod (hd0,x)/boot/grub/normal.mod<br />rescue:grub&gt; normal
-    </p>
-  </body>
-</html></richcontent>
+                <head>
+
+                </head>
+                <body>
+                  <p>
+                    grub rescue&gt; set prefix=(hd0,x)/boot/grub<br />grub rescue&gt; insmod (hd0,x)/boot/grub/normal.mod<br />rescue:grub&gt; normal
+                  </p>
+                </body>
+              </html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1356357621123" ID="ID_721767900" LINK="#ID_574981773" MODIFIED="1356357657582" TEXT="kernel">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1356357687476" ID="ID_1275457618" MODIFIED="1356357751659">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>kernel </b>root=/dev/sda4 single
-    </p>
-  </body>
-</html></richcontent>
+                <head>
+
+                </head>
+                <body>
+                  <p>
+                    <b>kernel </b>root=/dev/sda4 single
+                  </p>
+                </body>
+              </html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1356357628506" ID="ID_1001575292" MODIFIED="1356357633018" TEXT="initrd">
@@ -57,15 +58,15 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356349711486" ID="ID_1227119311" LINK="http://www.debian.org/releases/stable/amd64/ch04s03.html.en#usb-copy-easy" MODIFIED="1356349737328">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#cc0066"><b>Debian</b></font>-doc
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  <font color="#cc0066"><b>Debian</b></font>-doc
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 <node CREATED="1357753686072" ID="ID_1411726632" MODIFIED="1357753699459" TEXT="lilo">
@@ -77,29 +78,29 @@
 <node CREATED="1320672794255" FOLDED="true" ID="ID_1840571506" MODIFIED="1369226020222" TEXT="levels ">
 <node CREATED="1320672796991" ID="ID_485402371" MODIFIED="1320672824019">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      0 (halt the system),
-    </p>
-    <p>
-      1 (single-user mode),
-    </p>
-    <p>
-      2 through 5 (various multi-user modes),
-    </p>
-    <p>
-      6 (reboot the system).&#160;
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  0 (halt the system),
+                </p>
+                <p>
+                  1 (single-user mode),
+                </p>
+                <p>
+                  2 through 5 (various multi-user modes),
+                </p>
+                <p>
+                  6 (reboot the system).&#160;
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1303468898144" FOLDED="true" ID="ID_685911646" MODIFIED="1370509239430" POSITION="right" TEXT="Kernel">
+<node CREATED="1303468898144" FOLDED="true" ID="ID_685911646" MODIFIED="1375456032824" POSITION="right" TEXT="Kernel">
 <node CREATED="1303468903258" FOLDED="true" ID="ID_477414553" MODIFIED="1365673939641" TEXT="2.6.38">
 <node COLOR="#0033ff" CREATED="1364219529233" FOLDED="true" ID="ID_1334995368" MODIFIED="1365673939236" TEXT="sysctl">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -109,27 +110,27 @@
 <node CREATED="1364219546657" FOLDED="true" ID="ID_619998213" MODIFIED="1364219691402" TEXT="clear cache">
 <node CREATED="1364219557184" ID="ID_1781340970" MODIFIED="1364219676621">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      To free pagecache:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#0033ff">echo 1 &gt; /proc/sys/vm/drop_caches </font>
-    </p>
-    <p>
-      To free dentries and inodes:&#160;&#160;<font color="#0033ff">echo 2 &gt; /proc/sys/vm/drop_caches </font>
-    </p>
-    <p>
-      To free all previous :&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#0033ff">echo 3 &gt; /proc/sys/vm/drop_caches</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#0033ff">sysctl <b>vm.drop_caches</b>&#160;= 1</font>
-    </p>
-  </body>
-</html></richcontent>
+                <head>
+
+                </head>
+                <body>
+                  <p>
+                    To free pagecache:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#0033ff">echo 1 &gt; /proc/sys/vm/drop_caches </font>
+                  </p>
+                  <p>
+                    To free dentries and inodes:&#160;&#160;<font color="#0033ff">echo 2 &gt; /proc/sys/vm/drop_caches </font>
+                  </p>
+                  <p>
+                    To free all previous :&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#0033ff">echo 3 &gt; /proc/sys/vm/drop_caches</font>
+                  </p>
+                  <p>
+
+                  </p>
+                  <p>
+                    <font color="#0033ff">sysctl <b>vm.drop_caches</b>&#160;= 1</font>
+                  </p>
+                </body>
+              </html></richcontent>
 </node>
 </node>
 </node>
@@ -139,41 +140,41 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1356357663629" ID="ID_1491289096" MODIFIED="1356357714394">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>root</b>=/dev/sda4
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  <b>root</b>=/dev/sda4
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 <node CREATED="1356357606131" ID="ID_118096899" LINK="#ID_1275457618" MODIFIED="1356357832164">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0033ff"><b>single </b></font><b><font color="#000000">// </font></b><font color="#000000">to run in system recovery mode</font>
-    </p>
-  </body>
-</html></richcontent>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                <font color="#0033ff"><b>single </b></font><b><font color="#000000">// </font></b><font color="#000000">to run in system recovery mode</font>
+              </p>
+            </body>
+          </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1356357706377" ID="ID_383652424" MODIFIED="1356357881368">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>init_opts</b>&#160;<font color="#000000">// pass params to init</font>
-    </p>
-  </body>
-</html></richcontent>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                <b>init_opts</b>&#160;<font color="#000000">// pass params to init</font>
+              </p>
+            </body>
+          </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1361540072616" ID="ID_482533202" MODIFIED="1361540080727" TEXT="vga">
@@ -182,15 +183,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1370509241024" POSITION="right" TEXT="services">
-<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1369226040337" TEXT="web">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1375456142310" POSITION="right" TEXT="services">
+<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375456030732" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
-<node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1365673935760" TEXT="optimize">
+<node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
 <node CREATED="1296726279539" ID="ID_1037052627" LINK="http://guides.tinybrick.com/magento/speed-testing" MODIFIED="1343156400294" TEXT="speedtesting"/>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1375298971821" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1375456139972" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -198,22 +199,22 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636147905" ID="ID_489816603" MODIFIED="1370354714685">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $&#160;<b>rsync</b>&#160;-av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/&#160;&#160;
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  $&#160;<b>rsync</b>&#160;-av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/&#160;&#160;
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1368085151516" TEXT="bittorent">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1370354719996" TEXT="convert">
+<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1375456022542" TEXT="convert">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1370354692106" TEXT="textfiles">
 <node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1355996330572" TEXT="recode">
@@ -226,15 +227,15 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296633505284" ID="ID_1871968038" MODIFIED="1355996367882">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ <b>iconv</b>&#160;-f windows-1252 -t utf-8 infile &gt; outfile&#160;
-    </p>
-  </body>
-</html></richcontent>
+                <head>
+
+                </head>
+                <body>
+                  <p>
+                    $ <b>iconv</b>&#160;-f windows-1252 -t utf-8 infile &gt; outfile&#160;
+                  </p>
+                </body>
+              </html></richcontent>
 </node>
 </node>
 </node>
@@ -247,21 +248,21 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1370354688330" TEXT="color">
+<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1375456021304" TEXT="color">
 <node CREATED="1368717500084" ID="ID_1760124834" LINK="http://unix.stackexchange.com/questions/148/colorizing-your-terminal-and-shell-environment" MODIFIED="1368717526400">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>so</b></font><font color="#000000">&#160;colorize</font>
-    </p>
-  </body>
-</html></richcontent>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                <font color="#009999"><b>so</b></font><font color="#000000">&#160;colorize</font>
+              </p>
+            </body>
+          </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1370354730231" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1375456020089" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1365667996826" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -275,15 +276,15 @@
 <node CREATED="1301326157345" ID="ID_882527601" LINK="http://andre.frimberger.de/index.php/linux/sshfs-fix-for-wrong-file-permissions-on-server/" MODIFIED="1301327963972" TEXT="patch server with perm "/>
 <node COLOR="#0033ff" CREATED="1296835255924" ID="ID_196855364" MODIFIED="1355996351910">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>sshfs</b>&#160;username@server:&lt;dir&gt; &lt;mount_point&gt;
-    </p>
-  </body>
-</html></richcontent>
+                  <head>
+
+                  </head>
+                  <body>
+                    <p>
+                      <b>sshfs</b>&#160;username@server:&lt;dir&gt; &lt;mount_point&gt;
+                    </p>
+                  </body>
+                </html></richcontent>
 </node>
 </node>
 <node CREATED="1304068271830" FOLDED="true" ID="ID_739540109" MODIFIED="1357753668770" TEXT="ligmail">
@@ -299,102 +300,102 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1315333842044" ID="ID_1185492697" MODIFIED="1357753626789">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#000000"># force check on boot</font>
-    </p>
-    <p>
-      touch /forcefsck
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  <font color="#000000"># force check on boot</font>
+                </p>
+                <p>
+                  touch /forcefsck
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1359493343878" FOLDED="true" ID="ID_579324498" MODIFIED="1365668005849" TEXT="cp">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359493349061" ID="ID_1303745494" MODIFIED="1359493471994">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # save owner uid, gid
-    </p>
-    <p>
-      <font color="#0033ff">cp <b>-p</b></font>
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  # save owner uid, gid
+                </p>
+                <p>
+                  <font color="#0033ff">cp <b>-p</b></font>
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 <node CREATED="1359493382125" ID="ID_980646345" MODIFIED="1359493447766">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # interactive
-    </p>
-    <p>
-      <font color="#0033ff">cp <b>-i</b></font>
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  # interactive
+                </p>
+                <p>
+                  <font color="#0033ff">cp <b>-i</b></font>
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1296636809316" FOLDED="true" ID="ID_604774115" MODIFIED="1365668007073" TEXT="tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636817878" ID="ID_981018607" MODIFIED="1356098118281">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>tree</b>&#160;-f -i -N oaza_video/
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  <b>tree</b>&#160;-f -i -N oaza_video/
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1368084753391" FOLDED="true" ID="ID_603699916" MODIFIED="1368084790903" TEXT="ln">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1368084759116" ID="ID_715067300" LINK="http://unix.stackexchange.com/questions/62260/how-could-i-make-multiple-symbolic-links-for-multiple-directories-conveniently" MODIFIED="1368084779272">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>so</b></font>&#160;multiple links
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  <font color="#009999"><b>so</b></font>&#160;multiple links
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1370354576586" FOLDED="true" ID="ID_336954991" MODIFIED="1370354685535" TEXT="find">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1370354585174" ID="ID_1176320040" MODIFIED="1370354680880">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # to make expression negative add <b>!</b>
-    </p>
-    <p>
-      # it should be escaped in term <b>\!</b>
-    </p>
-    <p>
-      <font color="#0033ff">$&#160;<b>find</b>&#160;. <b>\!</b>&#160;-user foo -print</font>
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  # to make expression negative add <b>!</b>
+                </p>
+                <p>
+                  # it should be escaped in term <b>\!</b>
+                </p>
+                <p>
+                  <font color="#0033ff">$&#160;<b>find</b>&#160;. <b>\!</b>&#160;-user foo -print</font>
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 </node>
@@ -404,17 +405,17 @@
 </node>
 <node CREATED="1358768672598" ID="ID_993782329" LINK="http://linux.icydog.net/rename.php" MODIFIED="1368085164268">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>icydog</b></font>&#160;rename
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              <font color="#009999"><b>icydog</b></font>&#160;rename
+            </p>
+          </body>
+        </html></richcontent>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1375298970935" TEXT="net">
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1375456015769" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1375298949179" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
@@ -437,54 +438,54 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296809869142" ID="ID_254994748" MODIFIED="1365667980112">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # back download
-    </p>
-    <p>
-      <font color="#0033cc">$ wget <b>-bqc </b>http://path.com/url.is</font>
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  # back download
+                </p>
+                <p>
+                  <font color="#0033cc">$ wget <b>-bqc </b>http://path.com/url.is</font>
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1360155957220" ID="ID_891897716" MODIFIED="1360155960288" TEXT="curl">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1375298946826" TEXT="security">
+<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1375456014824" TEXT="security">
 <node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1375271461010" TEXT="crypt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1375271460744" TEXT="gpg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359229799008" FOLDED="true" ID="ID_31851057" MODIFIED="1375271459901">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      get key <b><font color="#0033ff">buntu</font></b>&#160;<b>ppa</b>
-    </p>
-  </body>
-</html></richcontent>
+                <head>
+
+                </head>
+                <body>
+                  <p>
+                    get key <b><font color="#0033ff">buntu</font></b>&#160;<b>ppa</b>
+                  </p>
+                </body>
+              </html></richcontent>
 <node CREATED="1359223216597" FOLDED="true" ID="ID_1192978031" MODIFIED="1375271458920">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # importing key for ppa repo from ubuntu into debian
-    </p>
-    <p>
-      <b><font color="#0033ff">gpg</font></b><font color="#0033ff">&#160;--ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.18b85lA90Z --trustdb-name /etc/apt//trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-automatic.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-stable.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-wheezy-automatic.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-wheezy-stable.gpg --keyserver keyserver.ubuntu.com --recv-keys <b>5FFFCB6756E761C2</b></font>
-    </p>
-  </body>
-</html></richcontent>
+                  <head>
+
+                  </head>
+                  <body>
+                    <p>
+                      # importing key for ppa repo from ubuntu into debian
+                    </p>
+                    <p>
+                      <b><font color="#0033ff">gpg</font></b><font color="#0033ff">&#160;--ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.18b85lA90Z --trustdb-name /etc/apt//trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-automatic.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-stable.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-wheezy-automatic.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-wheezy-stable.gpg --keyserver keyserver.ubuntu.com --recv-keys <b>5FFFCB6756E761C2</b></font>
+                    </p>
+                  </body>
+                </html></richcontent>
 <node CREATED="1359229511422" ID="ID_336272647" MODIFIED="1359229516142" TEXT="gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.uUhrl2USt0 --trustdb-name /etc/apt//trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-automatic.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-stable.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-wheezy-automatic.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-wheezy-stable.gpg --keyserver keyserver.ubuntu.com --recv-keys B9316A7BC7917B12"/>
 </node>
 </node>
@@ -518,278 +519,351 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369943952462" ID="ID_1061356057" MODIFIED="1369944415948">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # md5 sum of few words
-    </p>
-    <p>
-      <font color="#0033cc">$ echo -n 'hello world' | md5sum -</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # show md5 for single file
-    </p>
-    <p>
-      <font color="#0033cc">$ md5sum file.txt </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # show md5 for files
-    </p>
-    <p>
-      <font color="#0033cc">$ md5sum doc1.odt doc2.odt </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # write md5 into file for a list of files
-    </p>
-    <p>
-      <font color="#0033cc">$ md5sum a.txt b.txt &gt; md5sums.md5</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # write md5 of directory into file
-    </p>
-    <p>
-      <font color="#0033cc">$ md5deep -rl directory &gt; file.md5 </font>
-    </p>
-    <p>
-      <font color="#0033cc">$ find directory -type f -print0 | xargs -0 md5sum &gt;&gt; file.md5</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # check md5 sum of directory
-    </p>
-    <p>
-      <font color="#0033cc">$ md5sum -c /path/to/file.md5</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # check the files with faild sums
-    </p>
-    <p>
-      <font color="#0033cc">$ md5sum -c file.md5 | grep FAILED$ &gt; failed_hashes </font>
-    </p>
-    <p>
-      <font color="#0033cc">$ md5sum -c file.md5 | grep -v OK$ &gt; failed_hashes</font>
-    </p>
-  </body>
-</html></richcontent>
+                <head>
+
+                </head>
+                <body>
+                  <p>
+                    # md5 sum of few words
+                  </p>
+                  <p>
+                    <font color="#0033cc">$ echo -n 'hello world' | md5sum -</font>
+                  </p>
+                  <p>
+
+                  </p>
+                  <p>
+                    # show md5 for single file
+                  </p>
+                  <p>
+                    <font color="#0033cc">$ md5sum file.txt </font>
+                  </p>
+                  <p>
+
+                  </p>
+                  <p>
+                    # show md5 for files
+                  </p>
+                  <p>
+                    <font color="#0033cc">$ md5sum doc1.odt doc2.odt </font>
+                  </p>
+                  <p>
+
+                  </p>
+                  <p>
+                    # write md5 into file for a list of files
+                  </p>
+                  <p>
+                    <font color="#0033cc">$ md5sum a.txt b.txt &gt; md5sums.md5</font>
+                  </p>
+                  <p>
+
+                  </p>
+                  <p>
+                    # write md5 of directory into file
+                  </p>
+                  <p>
+                    <font color="#0033cc">$ md5deep -rl directory &gt; file.md5 </font>
+                  </p>
+                  <p>
+                    <font color="#0033cc">$ find directory -type f -print0 | xargs -0 md5sum &gt;&gt; file.md5</font>
+                  </p>
+                  <p>
+
+                  </p>
+                  <p>
+                    # check md5 sum of directory
+                  </p>
+                  <p>
+                    <font color="#0033cc">$ md5sum -c /path/to/file.md5</font>
+                  </p>
+                  <p>
+
+                  </p>
+                  <p>
+                    # check the files with faild sums
+                  </p>
+                  <p>
+                    <font color="#0033cc">$ md5sum -c file.md5 | grep FAILED$ &gt; failed_hashes </font>
+                  </p>
+                  <p>
+                    <font color="#0033cc">$ md5sum -c file.md5 | grep -v OK$ &gt; failed_hashes</font>
+                  </p>
+                </body>
+              </html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1370354780048" TEXT="sed">
+<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1375456013339" TEXT="sed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # multiple rename
-    </p>
-    <p>
-      <font color="#0033cc">for file in `ls pdb*.ent` </font>
-    </p>
-    <p>
-      <font color="#0033cc">do&#160;&#160;&#160;&#160; </font>
-    </p>
-    <p>
-      <font color="#0033cc">&#160;&#160;&#160;&#160;new_name=`echo $file | sed 's/^pdb//;s/.ent/.txt/'`&#160;&#160;&#160;&#160; </font>
-    </p>
-    <p>
-      <font color="#0033cc">&#160;&#160;&#160;&#160;mv $file $new_name </font>
-    </p>
-    <p>
-      <font color="#0033cc">done</font>
-    </p>
-  </body>
-</html></richcontent>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                # multiple rename
+              </p>
+              <p>
+                <font color="#0033cc">for file in `ls pdb*.ent` </font>
+              </p>
+              <p>
+                <font color="#0033cc">do&#160;&#160;&#160;&#160; </font>
+              </p>
+              <p>
+                <font color="#0033cc">&#160;&#160;&#160;&#160;new_name=`echo $file | sed 's/^pdb//;s/.ent/.txt/'`&#160;&#160;&#160;&#160; </font>
+              </p>
+              <p>
+                <font color="#0033cc">&#160;&#160;&#160;&#160;mv $file $new_name </font>
+              </p>
+              <p>
+                <font color="#0033cc">done</font>
+              </p>
+            </body>
+          </html></richcontent>
 </node>
 <node CREATED="1358780619879" ID="ID_1811648582" MODIFIED="1365668100867">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # removing spaces
-    </p>
-    <p>
-      <b># NB: </b>be carefull: there special invisible characters like spaces &#160;which don't belong to space class
-    </p>
-    <p>
-      # output only <b>mlj_xmap_sitemap.sql</b>
-    </p>
-    <p>
-      <font color="#0033ff">$ echo &quot;mlj_xmap_sitemap.sql&#160;&#160;&#160;&#160;&quot; | <b>sed 's/ //g' </b></font>
-    </p>
-  </body>
-</html></richcontent>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                # removing spaces
+              </p>
+              <p>
+                <b># NB: </b>be carefull: there special invisible characters like spaces &#160;which don't belong to space class
+              </p>
+              <p>
+                # output only <b>mlj_xmap_sitemap.sql</b>
+              </p>
+              <p>
+                <font color="#0033ff">$ echo &quot;mlj_xmap_sitemap.sql&#160;&#160;&#160;&#160;&quot; | <b>sed 's/ //g' </b></font>
+              </p>
+            </body>
+          </html></richcontent>
 </node>
 </node>
-<node CREATED="1368085258406" ID="ID_1345591290" MODIFIED="1368720989134" TEXT="subshell">
+<node CREATED="1368085258406" FOLDED="true" ID="ID_1345591290" MODIFIED="1375456012237" TEXT="subshell">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1368085262684" ID="ID_526814332" LINK="http://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it" MODIFIED="1368085285029" TEXT="so: unix">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1368720998980" FOLDED="true" ID="ID_654338804" MODIFIED="1370354783294" TEXT="alias">
+<node CREATED="1368720998980" FOLDED="true" ID="ID_654338804" MODIFIED="1375456011133" TEXT="alias">
 <node CREATED="1368721010789" ID="ID_1798528219" MODIFIED="1368721146570">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # create alias for grep to output color
-    </p>
-    <p>
-      <font color="#0000ff">$ <b>alias</b>&#160;grep='grep --color'</font>
-    </p>
-  </body>
-</html></richcontent>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                # create alias for grep to output color
+              </p>
+              <p>
+                <font color="#0000ff">$ <b>alias</b>&#160;grep='grep --color'</font>
+              </p>
+            </body>
+          </html></richcontent>
 </node>
 <node CREATED="1368721106753" ID="ID_720717344" MODIFIED="1368721138972">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      #unalias command
-    </p>
-    <p>
-      <font color="#0000ff">$ <b>unalias</b>&#160;grep</font>
-    </p>
-  </body>
-</html></richcontent>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                #unalias command
+              </p>
+              <p>
+                <font color="#0000ff">$ <b>unalias</b>&#160;grep</font>
+              </p>
+            </body>
+          </html></richcontent>
 </node>
 </node>
-<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1370354797051" TEXT="users">
+<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1375456009829" TEXT="users">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361971728537" FOLDED="true" ID="ID_1193412117" MODIFIED="1365667858949" TEXT="group">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361971738758" ID="ID_178516778" MODIFIED="1361971910707">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # see group you are in
-    </p>
-    <p>
-      <b><font color="#0033ff">groups</font></b>
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  # see group you are in
+                </p>
+                <p>
+                  <b><font color="#0033ff">groups</font></b>
+                </p>
+              </body>
+            </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1361971741959" ID="ID_1965423477" MODIFIED="1361971902042">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # change group for current user
-    </p>
-    <p>
-      <b><font color="#0033ff">$ newgrp&#160;</font></b><font color="#0033ff">my-fav-group</font>
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  # change group for current user
+                </p>
+                <p>
+                  <b><font color="#0033ff">$ newgrp&#160;</font></b><font color="#0033ff">my-fav-group</font>
+                </p>
+              </body>
+            </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1365667517509" ID="ID_932103160" MODIFIED="1365667777121">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # change username name uid
-    </p>
-    <p>
-      <font color="#0033cc">$usermod&#160;<b>-u UID</b>&#160;username</font>
-    </p>
-    <p>
-      # change username login-name&#160;<br /><font color="#0033cc">$ usermod <b>-l login-name</b>&#160; old-name</font>
-    </p>
-  </body>
-</html></richcontent>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                # change username name uid
+              </p>
+              <p>
+                <font color="#0033cc">$usermod&#160;<b>-u UID</b>&#160;username</font>
+              </p>
+              <p>
+                # change username login-name&#160;<br /><font color="#0033cc">$ usermod <b>-l login-name</b>&#160; old-name</font>
+              </p>
+            </body>
+          </html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1369307010049" FOLDED="true" ID="ID_501338769" MODIFIED="1375105990936" POSITION="left" TEXT="doc">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1375456037212" POSITION="right" TEXT="interpet">
+<node COLOR="#0033ff" CREATED="1296636804213" ID="ID_493133498" MODIFIED="1360156095153" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1370354833806" FOLDED="true" ID="ID_1971328720" MODIFIED="1375105985954" TEXT="fs">
+<node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
+<richcontent TYPE="NODE"><html>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                <font color="#009999"><b>tuxfiles:</b></font>&#160;keyboard commads
+              </p>
+            </body>
+          </html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1360156468308" ID="ID_1190528675" MODIFIED="1360156478802" TEXT="zsh">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1360156472383" ID="ID_291630477" MODIFIED="1360156478802" TEXT="csh">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1375456039777" POSITION="right" TEXT="distribs">
+<node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
+</node>
+<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1375455979972" POSITION="right" TEXT="tricks">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357753828458" ID="ID_1937859101" MODIFIED="1370509236236" TEXT="mail">
+<node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1370354808303" TEXT="telnet">
+<node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
+<richcontent TYPE="NODE"><html>
+          <head>
+
+          </head>
+          <body>
+            <div align="center">
+              <center>
+                <table border="0" width="620">
+                  <tr>
+                    <td>
+                      <p>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">helo &lt;your domain name&gt;&lt;enter&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font face="Verdana, Arial, Helvetica" color="#008000"><br />response should be as follows<br />250 OK</font>
+                      </p>
+                      <p>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">mail from: &lt;your Email Address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK - mail from &lt;your Email address&gt;</font>
+                      </p>
+                      <p>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">rcpt to: &lt;recipient address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK - Recipient &lt;recipient address&gt;</font>
+                      </p>
+                      <p>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">data&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />354 Send data.&#160;&#160;End with CRLF.CRLF</font>
+                      </p>
+                      <p>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">To: &lt;recipient's display name&gt;&lt;enter&gt;<br />From: &lt;your display name&gt;&lt;enter&gt;<br />Subject: &lt;Subject field of Email message&gt;&lt;enter&gt;<br />&lt;Enter you body text&gt;&lt;enter&gt;&lt;enter&gt; . &lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK</font>
+                      </p>
+                      <p>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">quit&lt;enter&gt;</font>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </center>
+            </div>
+            <font face="Verdana, Arial, Helvetica"><br class="Apple-interchange-newline" />
+          </font>
+        </body>
+      </html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#990099" CREATED="1369307010049" FOLDED="true" ID="ID_501338769" MODIFIED="1375456138710" POSITION="left" TEXT="doc">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1370354833806" FOLDED="true" ID="ID_1971328720" MODIFIED="1375456004247" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1370354820917" ID="ID_1720010701" MODIFIED="1370354831305">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>tmpfs</b>&#160;- ram filesystem stores data in volatile memory&#160;
-    </p>
-  </body>
-</html></richcontent>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                <b>tmpfs</b>&#160;- ram filesystem stores data in volatile memory&#160;
+              </p>
+            </body>
+          </html></richcontent>
 </node>
-<node CREATED="1369307013463" FOLDED="true" ID="ID_863651094" MODIFIED="1375105985708" TEXT="permissions">
+<node CREATED="1369307013463" FOLDED="true" ID="ID_863651094" MODIFIED="1375456002877" TEXT="permissions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369307022678" ID="ID_1038878792" MODIFIED="1369307158154">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>calculation of final permissions for creted dirs and files</b>
-    </p>
-    <p>
-      default new file permission = 0666
-    </p>
-    <p>
-      default new dir permission = 0777
-    </p>
-    <p>
-      defailt umask = 022
-    </p>
-    <p>
-      new filer permission = f_perm - umask = 0666 - 0022 = 0644 &#160;
-    </p>
-    <p>
-      new filer permission = f_perm - umask = 0666 - 0022 = 0755
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  <b>calculation of final permissions for creted dirs and files</b>
+                </p>
+                <p>
+                  default new file permission = 0666
+                </p>
+                <p>
+                  default new dir permission = 0777
+                </p>
+                <p>
+                  defailt umask = 022
+                </p>
+                <p>
+                  new filer permission = f_perm - umask = 0666 - 0022 = 0644 &#160;
+                </p>
+                <p>
+                  new filer permission = f_perm - umask = 0666 - 0022 = 0755
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1295869094914" FOLDED="true" ID="ID_55523155" MODIFIED="1370509227395" TEXT="high-end">
+<node CREATED="1295869094914" FOLDED="true" ID="ID_55523155" MODIFIED="1375456000199" TEXT="high-end">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1295869105552" FOLDED="true" ID="ID_1343309052" MODIFIED="1370509223793" TEXT="load-balancing">
+<node CREATED="1295869105552" FOLDED="true" ID="ID_1343309052" MODIFIED="1375455997072" TEXT="load-balancing">
 <node CREATED="1295869472976" FOLDED="true" ID="ID_1193787588" MODIFIED="1370509219642" TEXT="dns">
 <node CREATED="1295869475024" ID="ID_155396967" LINK="http://www.zytrax.com/books/dns/ch9/rr.html" MODIFIED="1295869477990" TEXT="1"/>
 </node>
@@ -811,14 +885,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1297151452343" FOLDED="true" ID="ID_699124209" MODIFIED="1360156361918" TEXT="Cache">
-<node CREATED="1297151476134" FOLDED="true" ID="ID_282506355" MODIFIED="1360156225125" TEXT="web">
+<node CREATED="1297151452343" FOLDED="true" ID="ID_699124209" MODIFIED="1375455999434" TEXT="Cache">
+<node CREATED="1297151476134" FOLDED="true" ID="ID_282506355" MODIFIED="1375455999254" TEXT="web">
 <node CREATED="1297151454754" ID="ID_905484883" LINK="http://www.varnish-cache.org/" MODIFIED="1297151469725" TEXT="Varnish"/>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1375298952339" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1375456138148" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1370509206796" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -844,15 +918,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156292809" FOLDED="true" ID="ID_1734196193" MODIFIED="1375298935800" TEXT="virtual">
-<node COLOR="#0033ff" CREATED="1300807250798" FOLDED="true" ID="ID_978816704" MODIFIED="1375298932906" TEXT="vmplayer">
+<node CREATED="1360156292809" FOLDED="true" ID="ID_1734196193" MODIFIED="1370509207722" TEXT="virtual">
+<node COLOR="#0033ff" CREATED="1300807250798" FOLDED="true" ID="ID_978816704" MODIFIED="1360156282791" TEXT="vmplayer">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1300807253622" FOLDED="true" ID="ID_1516105206" MODIFIED="1375298932649" TEXT="update modules">
+<node CREATED="1300807253622" ID="ID_1516105206" MODIFIED="1355996375616" TEXT="update modules">
 <node COLOR="#0033ff" CREATED="1300807264557" ID="ID_340631692" MODIFIED="1315938388012" TEXT="vmware-modconfig --console --install-all --appname=&quot;VMware Player&quot; --icon=&quot;vmware-player&quot;"/>
 </node>
 </node>
 </node>
-<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1375298929956" TEXT="multimedia">
+<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1375455962917" TEXT="multimedia">
 <node CREATED="1296636862873" ID="ID_1528497792" LINK="Video_edit.mm" MODIFIED="1296636862876" TEXT="Video_edit"/>
 <node CREATED="1324044759394" FOLDED="true" ID="ID_1381627127" MODIFIED="1360156332920" TEXT="Photo">
 <node CREATED="1324047954760" FOLDED="true" ID="ID_630141721" MODIFIED="1357753681281" TEXT="Picasa">
@@ -892,23 +966,23 @@
 <node CREATED="1374771346000" ID="ID_1338521270" LINK="http://www.openlogic.com/wazi/bid/188040/Four-Top-Open-Source-Screencast-Applications" MODIFIED="1374771355701" TEXT="best 4 apps"/>
 </node>
 </node>
-<node CREATED="1364488643637" FOLDED="true" ID="ID_1031012619" MODIFIED="1375298928396" TEXT="net">
-<node CREATED="1364488645581" FOLDED="true" ID="ID_1521194640" MODIFIED="1375298928105" TEXT="browser">
+<node CREATED="1364488643637" FOLDED="true" ID="ID_1031012619" MODIFIED="1375106000260" TEXT="net">
+<node CREATED="1364488645581" FOLDED="true" ID="ID_1521194640" MODIFIED="1375106000002" TEXT="browser">
 <node CREATED="1364488648023" ID="ID_1718375211" MODIFIED="1364488653155" TEXT="links"/>
 <node CREATED="1364488653454" ID="ID_151657057" MODIFIED="1364488656488" TEXT="lynx"/>
 <node CREATED="1364488656780" ID="ID_1402024634" LINK="http://uzbl.org/" MODIFIED="1364488660394" TEXT="uzbl"/>
 <node CREATED="1369215311703" FOLDED="true" ID="ID_1887345882" MODIFIED="1375105999260" TEXT="firefox">
 <node CREATED="1369215317033" ID="ID_565457821" LINK="http://superuser.com/questions/322376/how-to-install-real-firefox-on-debian" MODIFIED="1369215346826">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font color="#009999">SO</font></b>&#160;install instead iceweasel
-    </p>
-  </body>
-</html></richcontent>
+                <head>
+
+                </head>
+                <body>
+                  <p>
+                    <b><font color="#009999">SO</font></b>&#160;install instead iceweasel
+                  </p>
+                </body>
+              </html></richcontent>
 </node>
 </node>
 </node>
@@ -917,36 +991,9 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1370509233630" POSITION="right" TEXT="interpet">
-<node COLOR="#0033ff" CREATED="1296636804213" ID="ID_493133498" MODIFIED="1360156095153" TEXT="bash">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1375456137856" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>tuxfiles:</b></font>&#160;keyboard commads
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1360156468308" ID="ID_1190528675" MODIFIED="1360156478802" TEXT="zsh">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1360156472383" ID="ID_291630477" MODIFIED="1360156478802" TEXT="csh">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1370509235365" POSITION="right" TEXT="distribs">
-<node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
-</node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1375301249314" POSITION="left" TEXT="admin">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1375298958093" TEXT="apt">
+<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1375455970814" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1362824062656" TEXT="caching">
 <node COLOR="#0033ff" CREATED="1303810890920" FOLDED="true" ID="ID_1003328043" MODIFIED="1356098186406" TEXT="apt-cacher">
@@ -957,34 +1004,34 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1359113506298" FOLDED="true" ID="ID_613350324" MODIFIED="1370509194676" TEXT="-get">
+<node COLOR="#0033ff" CREATED="1359113506298" FOLDED="true" ID="ID_613350324" MODIFIED="1375455957404" TEXT="-get">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359113514741" ID="ID_569014954" MODIFIED="1362824151006">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # installing specific verison
-    </p>
-    <p>
-      # apt-get install &lt;package name&gt;=&lt;version&gt;
-    </p>
-    <p>
-      # check version availability
-    </p>
-    <p>
-      <font color="#0033ff">$ apt-cache<b>&#160;showpkg</b>&#160;subversion-tools</font>
-    </p>
-    <p>
-      #install
-    </p>
-    <p>
-      <font color="#0033ff">$ apt-get install <b>subversion-tools=1.3.2-5~bpo1</b></font>
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  # installing specific verison
+                </p>
+                <p>
+                  # apt-get install &lt;package name&gt;=&lt;version&gt;
+                </p>
+                <p>
+                  # check version availability
+                </p>
+                <p>
+                  <font color="#0033ff">$ apt-cache<b>&#160;showpkg</b>&#160;subversion-tools</font>
+                </p>
+                <p>
+                  #install
+                </p>
+                <p>
+                  <font color="#0033ff">$ apt-get install <b>subversion-tools=1.3.2-5~bpo1</b></font>
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1304071512064" FOLDED="true" ID="ID_896573144" MODIFIED="1370509194258" TEXT="source">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -999,204 +1046,239 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362823973533" ID="ID_1105450039" MODIFIED="1362824014377">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # show files in package
-    </p>
-    <p>
-      <font color="#0033ff">apt-file <b>list</b>&#160;&lt;package name&gt;</font>
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  # show files in package
+                </p>
+                <p>
+                  <font color="#0033ff">apt-file <b>list</b>&#160;&lt;package name&gt;</font>
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 <node CREATED="1359222281970" FOLDED="true" ID="ID_1374387518" MODIFIED="1370526368293" TEXT="reps">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359222288291" ID="ID_101063605" LINK="https://github.com/Neroth/gnome-shell-extension-weather" MODIFIED="1359222466892">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font color="#009999">github</font></b>&#160;gnome-weather-indicator
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  <b><font color="#009999">github</font></b>&#160;gnome-weather-indicator
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 <node CREATED="1369216497130" ID="ID_862099790" LINK="http://packages.linuxmint.com/" MODIFIED="1369216504351" TEXT="lnux mint repo"/>
 <node CREATED="1370509354044" ID="ID_1298592678" LINK="http://www.webupd8.org/2011/03/nevernote-ubuntu-ppa.html" MODIFIED="1370509382999">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font color="#009999">webupd</font></b>&#160;nixnote
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  <b><font color="#009999">webupd</font></b>&#160;nixnote
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1362824035592" FOLDED="true" ID="ID_730872792" MODIFIED="1375298959042" TEXT="dpkg">
+<node COLOR="#0033ff" CREATED="1362824035592" FOLDED="true" ID="ID_730872792" MODIFIED="1375455972344" TEXT="dpkg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1362824042150" ID="ID_610085462" MODIFIED="1375298953816" TEXT="-buildpackage">
+<node COLOR="#0033ff" CREATED="1362824042150" ID="ID_610085462" MODIFIED="1375455953899" TEXT="-buildpackage">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1304071557907" ID="ID_1671130281" MODIFIED="1362824141483">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ <b>dpkg-buildpackage</b>&#160;-rfakeroot -uc -b&#160;
-    </p>
-  </body>
-</html></richcontent>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  $ <b>dpkg-buildpackage</b>&#160;-rfakeroot -uc -b&#160;
+                </p>
+              </body>
+            </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1364551432068" FOLDED="true" ID="ID_140635818" MODIFIED="1375298959900" TEXT="bluetooth">
-<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_887666938" MODIFIED="1375298909875" TEXT="bluez">
+<node CREATED="1375273752631" FOLDED="true" ID="ID_597450845" MODIFIED="1375455974122" TEXT="bluetooth">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_887666938" MODIFIED="1375455973875" TEXT="bluez">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1364551462610" ID="ID_918738490" MODIFIED="1364552351416">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # dump all bluetooth data
-    </p>
-    <p>
-      <font color="#0033ff">$ hcidump -at</font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              # dump all bluetooth data
+            </p>
+            <p>
+              <font color="#0033ff">$ hcidump -at</font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1364551499783" ID="ID_1486268015" MODIFIED="1364552373067">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#000000"># mark bluetooth device as trusted</font>
-    </p>
-    <p>
-      <font color="#0033ff">$ bluez-test-device <b>trusted</b>&#160;xx:xx:xx:xx:xx <b>yes</b></font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              <font color="#000000"># mark bluetooth device as trusted</font>
+            </p>
+            <p>
+              <font color="#0033ff">$ bluez-test-device <b>trusted</b>&#160;xx:xx:xx:xx:xx <b>yes</b></font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1364551535647" ID="ID_323701898" MODIFIED="1364552397040">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#000000"># connect device with terminal</font>
-    </p>
-    <p>
-      <font color="#0033ff">$ bluez-simple-agent <b>hci0</b>&#160;xx:xx:xx:xx:xx&#160;</font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              <font color="#000000"># connect device with terminal</font>
+            </p>
+            <p>
+              <font color="#0033ff">$ bluez-simple-agent <b>hci0</b>&#160;xx:xx:xx:xx:xx&#160;</font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1364551572454" ID="ID_1391987966" MODIFIED="1364552420186">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#000000"># repair bluetooth device in terminal</font>
-    </p>
-    <p>
-      <font color="#0033ff">$ bluez-simple-agent hci0 xx:xx:xx:xx:xx <b>repair</b></font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              <font color="#000000"># repair bluetooth device in terminal</font>
+            </p>
+            <p>
+              <font color="#0033ff">$ bluez-simple-agent hci0 xx:xx:xx:xx:xx <b>repair</b></font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
-<node CREATED="1375261800018" ID="ID_1224452446" LINK="cwiki.gentoo.org/wiki/Bluetooth" MODIFIED="1375262970412" TEXT="gentoo wiki"/>
+<node COLOR="#009999" CREATED="1375261800018" ID="ID_1224452446" LINK="http://wiki.gentoo.org/wiki/Bluetooth" MODIFIED="1375441081503" TEXT="gentoo wiki">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1375273626780" FOLDED="true" ID="ID_20229116" MODIFIED="1375298909873" TEXT="bluez-tools">
+<node COLOR="#009999" CREATED="1375440994071" ID="ID_1653807098" LINK="https://wiki.debian.org/BluetoothUser" MODIFIED="1375441079683" TEXT="debian wiki">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1375441018796" FOLDED="true" ID="ID_894525019" MODIFIED="1375441153415" TEXT="keyboard">
+<node CREATED="1375441147923" FOLDED="true" ID="ID_451358907" MODIFIED="1375441153193" TEXT=" logitech K810">
+<node CREATED="1375441023206" ID="ID_1809958159" LINK="https://bbs.archlinux.org/viewtopic.php?id=156847" MODIFIED="1375441145391">
+<richcontent TYPE="NODE"><html>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  <font color="#009999"><b>Arch wiki</b></font>
+                </p>
+              </body>
+            </html></richcontent>
+</node>
+<node CREATED="1375441115119" ID="ID_799268981" LINK="http://devasive.blogspot.com/2012/11/ubuntu-1204-persistent-bluetooth-pairing.html" MODIFIED="1375441134767">
+<richcontent TYPE="NODE"><html>
+              <head>
+
+              </head>
+              <body>
+                <p>
+                  <font color="#009999"><b>devisive blogspot</b></font>
+                </p>
+              </body>
+            </html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1375273626780" FOLDED="true" ID="ID_20229116" MODIFIED="1375455949191" TEXT="bluez-tools">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1375273635079" ID="ID_1185302319" MODIFIED="1375273682231">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#000000"># show bluetooth devices</font>
-    </p>
-    <p>
-      <font color="#0033ff">$ bt-device <b>--list</b></font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              <font color="#000000"># show bluetooth devices</font>
+            </p>
+            <p>
+              <font color="#0033ff">$ bt-device <b>--list</b></font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1375301249022" TEXT="net">
+<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1375456135223" TEXT="net">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1364753013894" ID="ID_980082429" LINK="http://www.aircrack-ng.org/" MODIFIED="1364808207979" TEXT="aircrack-ng">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1375298839474" TEXT="dig">
+<node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1364808303400" TEXT="dig">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294070908844" ID="ID_1074468" MODIFIED="1362824218255">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#000000">&#160;# get the address(es) for yahoo.com</font>
-    </p>
-    <p>
-      $ dig yahoo.com A +noall +answer
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#000000"># get a list of yahoo's mail servers</font>
-    </p>
-    <p>
-      $ dig yahoo.com MX +noall +answer
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#000000"># get a list of DNS servers authoritative for yahoo.com</font>
-    </p>
-    <p>
-      $ dig yahoo.com NS +noall +answer
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#000000"># get all of the above</font>
-    </p>
-    <p>
-      $ dig yahoo.com ANY +noall +answer
-    </p>
-  </body>
-</html></richcontent>
+        <head>
+
+        </head>
+        <body>
+          <p>
+            <font color="#000000">&#160;# get the address(es) for yahoo.com</font>
+          </p>
+          <p>
+            $ dig yahoo.com A +noall +answer
+          </p>
+          <p>
+
+          </p>
+          <p>
+            <font color="#000000"># get a list of yahoo's mail servers</font>
+          </p>
+          <p>
+            $ dig yahoo.com MX +noall +answer
+          </p>
+          <p>
+
+          </p>
+          <p>
+            <font color="#000000"># get a list of DNS servers authoritative for yahoo.com</font>
+          </p>
+          <p>
+            $ dig yahoo.com NS +noall +answer
+          </p>
+          <p>
+
+          </p>
+          <p>
+            <font color="#000000"># get all of the above</font>
+          </p>
+          <p>
+            $ dig yahoo.com ANY +noall +answer
+          </p>
+        </body>
+      </html></richcontent>
 </node>
 </node>
 <node CREATED="1310637726990" ID="ID_1898681690" LINK="iptables.mm" MODIFIED="1364808215514" TEXT="iptables">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1311119874516" FOLDED="true" ID="ID_1713203094" MODIFIED="1375298939401" TEXT="routing">
+<node CREATED="1311119874516" FOLDED="true" ID="ID_1713203094" MODIFIED="1364808215511" TEXT="routing">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1310120203431" ID="ID_796453636" LINK="iproute.mm" MODIFIED="1311119871673" TEXT="iproute"/>
 <node CREATED="1311119653158" ID="ID_767812934" MODIFIED="1311119655407" TEXT="gated">
@@ -1213,116 +1295,116 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1312307204519" FOLDED="true" ID="ID_1558016268" MODIFIED="1375298904346" TEXT="openswan">
+<node CREATED="1312307204519" FOLDED="true" ID="ID_1558016268" MODIFIED="1375456080727" TEXT="openswan">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1362824471424" ID="ID_1774633522" MODIFIED="1375298889790" TEXT="service">
+<node CREATED="1362824471424" ID="ID_1774633522" MODIFIED="1375456071019" TEXT="service">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1312307233514" ID="ID_562731552" MODIFIED="1362824305924">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      #starting
-    </p>
-    <p>
-      <font color="#0033ff">ipsec setup --start</font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              #starting
+            </p>
+            <p>
+              <font color="#0033ff">ipsec setup --start</font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1312307333005" ID="ID_1633578238" MODIFIED="1362824469378">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # stopping service
-    </p>
-    <p>
-      <font color="#0033ff">ipsec setup --stop</font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              # stopping service
+            </p>
+            <p>
+              <font color="#0033ff">ipsec setup --stop</font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 </node>
-<node CREATED="1362824462531" ID="ID_1189574202" MODIFIED="1375298883856" TEXT="tunnel">
+<node CREATED="1362824462531" FOLDED="true" ID="ID_1189574202" MODIFIED="1375456054762" TEXT="tunnel">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1312307380935" ID="ID_1836545349" MODIFIED="1362824335218">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # adding tunner config
-    </p>
-    <p>
-      <font color="#0033ff">ipsec auto &#8211;&#8211;add sonicwall</font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              # adding tunner config
+            </p>
+            <p>
+              <font color="#0033ff">ipsec auto &#8211;&#8211;add sonicwall</font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1312307374663" ID="ID_773017039" MODIFIED="1362824365098">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # if tunnel config changed
-    </p>
-    <p>
-      <font color="#0033ff">ipsec auto &#8211;&#8211;replace sonicwall</font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              # if tunnel config changed
+            </p>
+            <p>
+              <font color="#0033ff">ipsec auto &#8211;&#8211;replace sonicwall</font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1312307440207" ID="ID_1781431390" MODIFIED="1362824388229">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # initiate tunnel
-    </p>
-    <p>
-      <font color="#0033ff">ipsec whack &#8211;&#8211;name sonicwall &#8211;&#8211;initiate</font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              # initiate tunnel
+            </p>
+            <p>
+              <font color="#0033ff">ipsec whack &#8211;&#8211;name sonicwall &#8211;&#8211;initiate</font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1312307402803" ID="ID_1898646837" MODIFIED="1362824420409">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # stopping tunnel
-    </p>
-    <p>
-      <font color="#0033ff">ipsec whack &#8211;&#8211;name sonicwall &#8211;&#8211;terminate</font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              # stopping tunnel
+            </p>
+            <p>
+              <font color="#0033ff">ipsec whack &#8211;&#8211;name sonicwall &#8211;&#8211;terminate</font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 </node>
-<node CREATED="1312308709846" FOLDED="true" ID="ID_868481704" MODIFIED="1375298845632" TEXT="config">
+<node CREATED="1312308709846" FOLDED="true" ID="ID_868481704" MODIFIED="1362824528318" TEXT="config">
 <node CREATED="1312308721733" ID="ID_1835461235" LINK="http://www.pelagodesign.com/blog/2009/05/18/ubuntu-linux-how-to-setup-a-vpn-connection-to-a-sonicwall-router-using-openswan-and-pre-shared-keys-psk/" MODIFIED="1362824521876">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>pegalodesign</b></font>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              <font color="#009999"><b>pegalodesign</b></font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 </node>
 </node>
@@ -1332,72 +1414,70 @@
 <node COLOR="#0033ff" CREATED="1364808281864" ID="ID_1927389827" LINK="https://code.google.com/p/packetsquare-capedit/" MODIFIED="1364808294649" TEXT="packetsquare">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#006699" CREATED="1311118392979" ID="ID_1759952331" LINK="http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html" MODIFIED="1375298981700" TEXT="YOULINUX">
+<node COLOR="#009999" CREATED="1311118392979" ID="ID_1759952331" LINK="http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html" MODIFIED="1364808231351" TEXT="YOULINUX">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1375298982931" FOLDED="true" ID="ID_1308149011" MODIFIED="1375301246605" TEXT="fs">
+<node CREATED="1375298982931" FOLDED="true" ID="ID_1308149011" MODIFIED="1375456094227" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1375298986840" FOLDED="true" ID="ID_94479630" MODIFIED="1375301246257" TEXT="samba">
+<node CREATED="1375298986840" FOLDED="true" ID="ID_94479630" MODIFIED="1375456093890" TEXT="samba">
 <node CREATED="1375298993114" ID="ID_1235217364" MODIFIED="1375299049753">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # mounting samba file system from console
-    </p>
-    <p>
-      <font color="#0033cc">$ mount -t cifs -o user=luke //192.168.1.104/share /mnt/linky_share</font>
-    </p>
-  </body>
-</html>
-</richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              # mounting samba file system from console
+            </p>
+            <p>
+              <font color="#0033cc">$ mount -t cifs -o user=luke //192.168.1.104/share /mnt/linky_share</font>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1375300893134" ID="ID_1291432311" MODIFIED="1375301239268">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # fstab samba mount record&#160;&#160;<br /># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#160;&#160;&#160;&#160;&#160;/&lt;mount point&gt;&#160;&#160;&#160;&#160;cifs&#160;&#160;&#160;&#160;&#160;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#160;&#160;&#160;&#160;0 0&#160;<br /># <b>cifs</b>&#160;- fs type&#160;<b>_netdev</b>&#160;- wait for network will be available <b>uid</b>-current&#160;unix user<br /><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#160;&#160;cifs&#160;&#160;&#160;guest,_netdev,uid=mike 0 0</font>
-    </p>
-  </body>
-</html>
-</richcontent>
+        <head>
+
+        </head>
+        <body>
+          <p>
+            # fstab samba mount record&#160;&#160;<br /># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#160;&#160;&#160;&#160;&#160;/&lt;mount point&gt;&#160;&#160;&#160;&#160;cifs&#160;&#160;&#160;&#160;&#160;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#160;&#160;&#160;&#160;0 0&#160;<br /># <b>cifs</b>&#160;- fs type&#160;<b>_netdev</b>&#160;- wait for network will be available <b>uid</b>-current&#160;unix user<br /><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#160;&#160;cifs&#160;&#160;&#160;guest,_netdev,uid=mike 0 0</font>
+          </p>
+        </body>
+      </html></richcontent>
 </node>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1365673920015" POSITION="left" TEXT="X">
+<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1375456134098" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0033ff"><b>Xorg</b>&#160;-configure</font>
-    </p>
-  </body>
-</html></richcontent>
+      <head>
+
+      </head>
+      <body>
+        <p>
+          <font color="#0033ff"><b>Xorg</b>&#160;-configure</font>
+        </p>
+      </body>
+    </html></richcontent>
 </node>
 <node CREATED="1356358111740" ID="ID_1243035833" LINK="http://wiki.debian.org/Xorg" MODIFIED="1356358136918">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#cc0066"><b>Debian</b></font>&#160;wiki
-    </p>
-  </body>
-</html></richcontent>
+      <head>
+
+      </head>
+      <body>
+        <p>
+          <font color="#cc0066"><b>Debian</b></font>&#160;wiki
+        </p>
+      </body>
+    </html></richcontent>
 </node>
-<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1365673918759" TEXT="controls">
+<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1375456111350" TEXT="controls">
 <node CREATED="1355739747130" FOLDED="true" ID="ID_683421714" MODIFIED="1364843866276" TEXT="xkb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355739756941" TEXT="instructions for changing keyb layout"/>
@@ -1406,27 +1486,27 @@
 <node CREATED="1355491003420" ID="ID_542793105" LINK="http://saravananthirumuruganathan.wordpress.com/2011/02/06/using-custom-keyboard-shortcuts-in-linux/" MODIFIED="1355739756901" TEXT="another site for changing default keys"/>
 <node CREATED="1355491063632" ID="ID_338833327" MODIFIED="1355739756898">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      look into&#160;<b>XKB</b>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              look into&#160;<b>XKB</b>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1355505715220" ID="ID_499323221" LINK="http://blog.adamsbros.org/2009/06/14/linux-macbook-function-key-mode-fnmode/" MODIFIED="1355739756891">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      mac enabling <b>fn</b>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              mac enabling <b>fn</b>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1355505881950" ID="ID_113344983" LINK="http://www.cyberciti.biz/faq/linux-apple-usb-keyboard-driver-installation/" MODIFIED="1355739756885" TEXT="enable mac keyb"/>
 <node CREATED="1355506831473" ID="ID_80913373" LINK="https://help.ubuntu.com/community/AppleKeyboard#Change%20Function%20Key%20behavior" MODIFIED="1355739756882" TEXT="ubuntu mac keyb"/>
@@ -1437,15 +1517,15 @@
 </node>
 <node CREATED="1355741034843" ID="ID_1984451809" LINK="http://blog.ankurs.com/2010/10/multiple-mouse-keyboard-in-linux/" MODIFIED="1355741069491">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      multiple <b>mouse\keyb</b>
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              multiple <b>mouse\keyb</b>
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 <node CREATED="1363282523347" ID="ID_802223042" LINK="http://www.trial-n-error.de/posts/2012/12/31/logitech-k810-keyboard-configurator/" MODIFIED="1363282540065" TEXT="Logitech K810 hack for Fn key"/>
 </node>
@@ -1453,15 +1533,15 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1363610124515" ID="ID_952038532" LINK="http://unix.stackexchange.com/questions/30401/is-there-a-way-to-control-the-mouse-wheel-resolution-in-debian" MODIFIED="1363610166520">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>se</b></font>&#160;config
-    </p>
-  </body>
-</html></richcontent>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              <font color="#009999"><b>se</b></font>&#160;config
+            </p>
+          </body>
+        </html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1364843921623" ID="ID_640899124" MODIFIED="1364843925012" TEXT="xev">
@@ -1469,68 +1549,22 @@
 </node>
 <node CREATED="1364843932980" ID="ID_1454881677" MODIFIED="1364843954132">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font color="#0000ff">xmodmap</font></b>&#160;modify mapping
-    </p>
-  </body>
-</html></richcontent>
+        <head>
+
+        </head>
+        <body>
+          <p>
+            <b><font color="#0000ff">xmodmap</font></b>&#160;modify mapping
+          </p>
+        </body>
+      </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1361461487216" FOLDED="true" ID="ID_386274153" MODIFIED="1365673919693" TEXT="xvfb">
+<node COLOR="#0033ff" CREATED="1361461487216" FOLDED="true" ID="ID_386274153" MODIFIED="1375456108177" TEXT="xvfb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361461492480" ID="ID_1130473563" LINK="http://docs.codehaus.org/display/FEST/Running+FEST+under+Xvfb" MODIFIED="1361461497309" TEXT="article 1"/>
 <node CREATED="1361461507672" ID="ID_401431363" LINK="http://askubuntu.com/questions/9694/how-to-run-two-x-sessions-at-the-same-time" MODIFIED="1361461527280" TEXT="x session on same machine"/>
 <node CREATED="1361462308716" ID="ID_578732248" LINK="http://www.vanemery.com/Linux/XoverSSH/X-over-SSH2.html" MODIFIED="1361462319909" TEXT="x over ssh2 tutorial"/>
-</node>
-</node>
-<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1370509237997" POSITION="right" TEXT="tricks">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357753828458" ID="ID_1937859101" MODIFIED="1370509236236" TEXT="mail">
-<node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1370354808303" TEXT="telnet">
-<node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div align="center">
-      <center>
-        <table border="0" width="620">
-          <tr>
-            <td>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">helo &lt;your domain name&gt;&lt;enter&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font face="Verdana, Arial, Helvetica" color="#008000"><br />response should be as follows<br />250 OK</font>
-              </p>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">mail from: &lt;your Email Address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK - mail from &lt;your Email address&gt;</font>
-              </p>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">rcpt to: &lt;recipient address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK - Recipient &lt;recipient address&gt;</font>
-              </p>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">data&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />354 Send data.&#160;&#160;End with CRLF.CRLF</font>
-              </p>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">To: &lt;recipient's display name&gt;&lt;enter&gt;<br />From: &lt;your display name&gt;&lt;enter&gt;<br />Subject: &lt;Subject field of Email message&gt;&lt;enter&gt;<br />&lt;Enter you body text&gt;&lt;enter&gt;&lt;enter&gt; . &lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK</font>
-              </p>
-              <p>
-                <font face="Verdana, Arial, Helvetica" color="#800000">quit&lt;enter&gt;</font>
-              </p>
-            </td>
-          </tr>
-        </table>
-      </center>
-    </div>
-    <font face="Verdana, Arial, Helvetica"><br class="Apple-interchange-newline" />
-    </font>
-  </body>
-</html></richcontent>
-</node>
-</node>
 </node>
 </node>
 </node>
