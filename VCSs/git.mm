@@ -27,22 +27,23 @@
 </node>
 </node>
 </node>
-<node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1362046897654" POSITION="left" TEXT="repository">
+<node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1375702514124" POSITION="left" TEXT="repository">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297154051581" ID="ID_1278066541" MODIFIED="1297154057954" TEXT="online">
 <node CREATED="1297154058338" ID="ID_227546252" LINK="http://github.com/" MODIFIED="1297154079091" TEXT="gtihub"/>
 <node CREATED="1297154085470" ID="ID_1918676788" LINK="http://gitorious.org/" MODIFIED="1297154101256" TEXT="gitorious"/>
 </node>
-<node CREATED="1298283592059" ID="ID_551907682" MODIFIED="1298284522448" TEXT="create ">
+<node CREATED="1298283592059" FOLDED="true" ID="ID_551907682" MODIFIED="1375702513541" TEXT="create ">
 <node CREATED="1298284522339" ID="ID_239006364" MODIFIED="1298284524847" TEXT="gitweb">
 <node CREATED="1298283594730" ID="ID_658837188" LINK="http://www.howtoforge.com/how-to-install-a-public-git-repository-on-a-debian-server" MODIFIED="1298283597788" TEXT="site"/>
 </node>
 <node CREATED="1298284891299" ID="ID_996707234" MODIFIED="1298284895912" TEXT="gitosis">
 <node CREATED="1298284896829" ID="ID_549057906" LINK="http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way" MODIFIED="1298284900053" TEXT="site"/>
 </node>
-<node CREATED="1298284525266" ID="ID_882343359" MODIFIED="1298284528536" TEXT="gitorious">
-<node CREATED="1298284529993" ID="ID_1392800651" LINK="http://cjohansen.no/en/ruby/setting_up_gitorious_on_your_own_server" MODIFIED="1298284536772" TEXT="site"/>
+<node CREATED="1298284525266" ID="ID_882343359" LINK="http://gitorious.org/" MODIFIED="1375702504068" TEXT="gitorious">
+<node CREATED="1298284529993" ID="ID_1392800651" LINK="http://cjohansen.no/en/ruby/setting_up_gitorious_on_your_own_server" MODIFIED="1375702495445" TEXT="instruction"/>
 </node>
+<node CREATED="1375702480511" ID="ID_453224030" LINK="http://gitlab.org/" MODIFIED="1375702510733" TEXT="gitlab"/>
 <node CREATED="1298285074594" ID="ID_1083371090" MODIFIED="1298285080239" TEXT="based on DAV">
 <node CREATED="1298285080937" ID="ID_1630430379" LINK="http://www.kernel.org/pub/software/scm/git/docs/howto/setup-git-server-over-http.txt" MODIFIED="1298285084556" TEXT="site"/>
 </node>
@@ -369,7 +370,7 @@
 <node COLOR="#0033ff" CREATED="1357900732315" ID="ID_1954485470" LINK="http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html" MODIFIED="1357900750975" POSITION="left" TEXT="rev-parse">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1355755723037" FOLDED="true" ID="ID_1772285910" MODIFIED="1357921208733" POSITION="left" TEXT="show">
+<node COLOR="#0033ff" CREATED="1355755723037" FOLDED="true" ID="ID_1772285910" MODIFIED="1375709950276" POSITION="left" TEXT="show">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357921040713" ID="ID_516186076" MODIFIED="1357921091267">
 <richcontent TYPE="NODE"><html>
@@ -660,7 +661,7 @@
 <node COLOR="#0033ff" CREATED="1355755752961" ID="ID_54780593" MODIFIED="1357921195912" POSITION="left" TEXT="stage">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1319444453125" FOLDED="true" ID="ID_868762534" MODIFIED="1358162389278" POSITION="left" TEXT="stash">
+<node COLOR="#0033ff" CREATED="1319444453125" FOLDED="true" ID="ID_868762534" MODIFIED="1375709955834" POSITION="left" TEXT="stash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1356609336117" ID="ID_1249518554" MODIFIED="1356609339819" TEXT="apply">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -694,7 +695,7 @@
 <node COLOR="#0033ff" CREATED="1355755773450" ID="ID_828919402" MODIFIED="1357921195910" POSITION="left" TEXT="status">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1355397720546" FOLDED="true" ID="ID_123457488" MODIFIED="1357921195909" POSITION="left" TEXT="submodule">
+<node COLOR="#0033ff" CREATED="1355397720546" FOLDED="true" ID="ID_123457488" MODIFIED="1375709959276" POSITION="left" TEXT="submodule">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1355397727127" ID="ID_148578323" LINK="http://git-scm.com/book/en/Git-Tools-Submodules" MODIFIED="1356609905515" TEXT="git-book">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -733,7 +734,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116059975" FOLDED="true" ID="ID_764103587" MODIFIED="1357921195907" POSITION="left" TEXT="svn">
+<node COLOR="#0033ff" CREATED="1311116059975" FOLDED="true" ID="ID_764103587" MODIFIED="1375709960583" POSITION="left" TEXT="svn">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1311116241132" ID="ID_1717495844" MODIFIED="1355754738058" TEXT="init">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -791,7 +792,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116937609" ID="ID_701178819" MODIFIED="1373273904722" POSITION="right" TEXT="log">
+<node COLOR="#0033ff" CREATED="1311116937609" FOLDED="true" ID="ID_701178819" MODIFIED="1375702474556" POSITION="right" TEXT="log">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311116942074" ID="ID_1121532703" MODIFIED="1311116950025" TEXT="show commit messages"/>
 <node COLOR="#0033ff" CREATED="1311116951586" ID="ID_1847534764" MODIFIED="1355754972172" TEXT="--graph">
@@ -890,8 +891,7 @@
       git rev-list origin/master | grep &lt;commit-hash&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
