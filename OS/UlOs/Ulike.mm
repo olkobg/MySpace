@@ -10,8 +10,7 @@
       (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1375456034039" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
@@ -991,7 +990,7 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1375456137856" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1375784912002" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1375455970814" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1107,7 +1106,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1375273752631" FOLDED="true" ID="ID_597450845" MODIFIED="1375455974122" TEXT="bluetooth">
+<node CREATED="1375273752631" FOLDED="true" ID="ID_597450845" MODIFIED="1375784325063" TEXT="bluetooth">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_887666938" MODIFIED="1375455973875" TEXT="bluez">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1225,7 +1224,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1375456135223" TEXT="net">
+<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1375784911801" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1364753013894" ID="ID_980082429" LINK="http://www.aircrack-ng.org/" MODIFIED="1364808207979" TEXT="aircrack-ng">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1417,9 +1416,9 @@
 <node COLOR="#009999" CREATED="1311118392979" ID="ID_1759952331" LINK="http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html" MODIFIED="1364808231351" TEXT="YOULINUX">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1375298982931" FOLDED="true" ID="ID_1308149011" MODIFIED="1375456094227" TEXT="fs">
+<node CREATED="1375298982931" FOLDED="true" ID="ID_1308149011" MODIFIED="1375784715058" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1375298986840" FOLDED="true" ID="ID_94479630" MODIFIED="1375456093890" TEXT="samba">
+<node CREATED="1375298986840" FOLDED="true" ID="ID_94479630" MODIFIED="1375784714225" TEXT="samba">
 <node CREATED="1375298993114" ID="ID_1235217364" MODIFIED="1375299049753">
 <richcontent TYPE="NODE"><html>
           <head>
@@ -1435,17 +1434,18 @@
           </body>
         </html></richcontent>
 </node>
-<node CREATED="1375300893134" ID="ID_1291432311" MODIFIED="1375301239268">
+<node CREATED="1375300893134" ID="ID_1291432311" MODIFIED="1375784712326">
 <richcontent TYPE="NODE"><html>
-        <head>
-
-        </head>
-        <body>
-          <p>
-            # fstab samba mount record&#160;&#160;<br /># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#160;&#160;&#160;&#160;&#160;/&lt;mount point&gt;&#160;&#160;&#160;&#160;cifs&#160;&#160;&#160;&#160;&#160;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#160;&#160;&#160;&#160;0 0&#160;<br /># <b>cifs</b>&#160;- fs type&#160;<b>_netdev</b>&#160;- wait for network will be available <b>uid</b>-current&#160;unix user<br /><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#160;&#160;cifs&#160;&#160;&#160;guest,_netdev,uid=mike 0 0</font>
-          </p>
-        </body>
-      </html></richcontent>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # fstab samba mount record&#160;&#160;<br /># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#160;&#160;&#160;&#160;&#160;/&lt;mount point&gt;&#160;&#160;&#160;&#160;cifs&#160;&#160;&#160;&#160;&#160;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#160;&#160;&#160;&#160;0 0&#160;<br /># <b>cifs</b>&#160;- fs type&#160;<b>_netdev</b>&#160;- wait for network will be available, <b>uid</b>-current&#160;unix user, <b>user </b>used to connect to share<br /><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#160;&#160;cifs&#160;&#160;&#160;user=olkobg,_netdev,uid=mike 0 0</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
