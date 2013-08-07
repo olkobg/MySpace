@@ -1,16 +1,20 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1375456148880" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1375866601507" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
+    </p>
+    <p>
+      used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1375456034039" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
@@ -182,12 +186,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1375456142310" POSITION="right" TEXT="services">
-<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375456030732" TEXT="web">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1375866539604" POSITION="right" TEXT="services">
+<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375866538685" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
 <node CREATED="1296726279539" ID="ID_1037052627" LINK="http://guides.tinybrick.com/magento/speed-testing" MODIFIED="1343156400294" TEXT="speedtesting"/>
 </node>
+</node>
+<node CREATED="1375866527148" FOLDED="true" ID="ID_1398874093" MODIFIED="1375866536670" TEXT="auth">
+<node CREATED="1375807985936" ID="ID_433023142" LINK="Cross/pam.mm" MODIFIED="1375807985937" TEXT="pam"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1375456139972" POSITION="right" TEXT="$term">
@@ -1444,8 +1451,7 @@
       # fstab samba mount record&#160;&#160;<br /># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#160;&#160;&#160;&#160;&#160;/&lt;mount point&gt;&#160;&#160;&#160;&#160;cifs&#160;&#160;&#160;&#160;&#160;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#160;&#160;&#160;&#160;0 0&#160;<br /># <b>cifs</b>&#160;- fs type&#160;<b>_netdev</b>&#160;- wait for network will be available, <b>uid</b>-current&#160;unix user, <b>user </b>used to connect to share<br /><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#160;&#160;cifs&#160;&#160;&#160;user=olkobg,_netdev,uid=mike 0 0</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
