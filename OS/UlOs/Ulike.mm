@@ -1,13 +1,13 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1375866601507" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1375964449322" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<b><font color="#cc0033">Debian</font></b>) in most cases
+      (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -186,18 +186,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1375866539604" POSITION="right" TEXT="services">
-<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375866538685" TEXT="web">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1375964449307" POSITION="right" TEXT="services">
+<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375958322893" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
 <node CREATED="1296726279539" ID="ID_1037052627" LINK="http://guides.tinybrick.com/magento/speed-testing" MODIFIED="1343156400294" TEXT="speedtesting"/>
 </node>
 </node>
-<node CREATED="1375866527148" FOLDED="true" ID="ID_1398874093" MODIFIED="1375866536670" TEXT="auth">
-<node CREATED="1375807985936" ID="ID_433023142" LINK="Cross/pam.mm" MODIFIED="1375807985937" TEXT="pam"/>
+<node CREATED="1375866527148" FOLDED="true" ID="ID_1398874093" MODIFIED="1375964447913" TEXT="auth">
+<node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1375456139972" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1375958320780" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -747,7 +747,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1375456037212" POSITION="right" TEXT="interpet">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1375871409971" POSITION="right" TEXT="interpet">
 <node COLOR="#0033ff" CREATED="1296636804213" ID="ID_493133498" MODIFIED="1360156095153" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
@@ -771,10 +771,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1375456039777" POSITION="right" TEXT="distribs">
+<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1375871408620" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 </node>
-<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1375455979972" POSITION="right" TEXT="tricks">
+<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1375871407113" POSITION="right" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357753828458" ID="ID_1937859101" MODIFIED="1370509236236" TEXT="mail">
 <node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1370354808303" TEXT="telnet">
@@ -898,7 +898,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1375456138148" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1375958319676" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1370509206796" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -924,10 +924,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156292809" FOLDED="true" ID="ID_1734196193" MODIFIED="1370509207722" TEXT="virtual">
-<node COLOR="#0033ff" CREATED="1300807250798" FOLDED="true" ID="ID_978816704" MODIFIED="1360156282791" TEXT="vmplayer">
+<node CREATED="1360156292809" FOLDED="true" ID="ID_1734196193" MODIFIED="1375878344342" TEXT="virtual">
+<node COLOR="#0033ff" CREATED="1300807250798" FOLDED="true" ID="ID_978816704" MODIFIED="1375878344139" TEXT="vmplayer">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1300807253622" ID="ID_1516105206" MODIFIED="1355996375616" TEXT="update modules">
+<node CREATED="1300807253622" FOLDED="true" ID="ID_1516105206" MODIFIED="1375878343937" TEXT="update modules">
 <node COLOR="#0033ff" CREATED="1300807264557" ID="ID_340631692" MODIFIED="1315938388012" TEXT="vmware-modconfig --console --install-all --appname=&quot;VMware Player&quot; --icon=&quot;vmware-player&quot;"/>
 </node>
 </node>
@@ -997,7 +997,7 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1375784912002" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1375958312656" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1375455970814" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1231,7 +1231,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1375784911801" TEXT="net">
+<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1375958312433" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1364753013894" ID="ID_980082429" LINK="http://www.aircrack-ng.org/" MODIFIED="1364808207979" TEXT="aircrack-ng">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
