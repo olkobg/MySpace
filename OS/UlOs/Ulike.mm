@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1375964449322" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1376556390154" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,8 +13,7 @@
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1375456034039" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
@@ -197,7 +196,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1375958320780" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1376556389818" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -746,6 +745,27 @@
           </html></richcontent>
 </node>
 </node>
+<node CREATED="1376555918102" FOLDED="true" ID="ID_580851467" MODIFIED="1376556039246" TEXT="video">
+<node CREATED="1376555922107" ID="ID_513424609" MODIFIED="1376556033808">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # check video parameters
+    </p>
+    <p>
+      # debian package libav-tools
+    </p>
+    <p>
+      <font color="#0033ff">$ <b>avprobe</b>&#160;./video_file.ogv</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1375871409971" POSITION="right" TEXT="interpet">
 <node COLOR="#0033ff" CREATED="1296636804213" ID="ID_493133498" MODIFIED="1360156095153" TEXT="bash">
@@ -898,7 +918,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1375958319676" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1376569047659" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1370509206796" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -932,8 +952,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1375455962917" TEXT="multimedia">
-<node CREATED="1296636862873" ID="ID_1528497792" LINK="Video_edit.mm" MODIFIED="1296636862876" TEXT="Video_edit"/>
+<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1376569047142" TEXT="multimedia">
+<node CREATED="1296636862873" ID="ID_1528497792" LINK="Video_edit.mm" MODIFIED="1296636862876" TEXT="Video_edit">
+<node CREATED="1376555908227" ID="ID_422187846" MODIFIED="1376555910566" TEXT="cmd">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 <node CREATED="1324044759394" FOLDED="true" ID="ID_1381627127" MODIFIED="1360156332920" TEXT="Photo">
 <node CREATED="1324047954760" FOLDED="true" ID="ID_630141721" MODIFIED="1357753681281" TEXT="Picasa">
 <node CREATED="1324047965695" ID="ID_890940857" LINK="http://www.nslms.com/2008/12/14/uploading-to-flickr-from-picasa-on-linux/" MODIFIED="1324047980620" TEXT="install flickr plugin"/>
@@ -968,8 +992,22 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1374771338643" FOLDED="true" ID="ID_939616085" MODIFIED="1374774480460" TEXT="screencast">
+<node CREATED="1374771338643" FOLDED="true" ID="ID_939616085" MODIFIED="1376569046579" TEXT="screencast">
 <node CREATED="1374771346000" ID="ID_1338521270" LINK="http://www.openlogic.com/wazi/bid/188040/Four-Top-Open-Source-Screencast-Applications" MODIFIED="1374771355701" TEXT="best 4 apps"/>
+<node CREATED="1376568885004" ID="ID_726555846" LINK="https://launchpad.net/kazam" MODIFIED="1376568947200">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>launchpad</b></font><b>&#160;</b>kazam
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node CREATED="1364488643637" FOLDED="true" ID="ID_1031012619" MODIFIED="1375106000260" TEXT="net">
