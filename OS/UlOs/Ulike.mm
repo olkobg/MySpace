@@ -762,8 +762,7 @@
       <font color="#0033ff">$ <b>avprobe</b>&#160;./video_file.ogv</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -918,7 +917,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1376569047659" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1376658401671" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1370509206796" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -942,6 +941,41 @@
 <node CREATED="1307093843844" ID="ID_476962927" LINK="http://j4mie.org/blog/javascript-syntax-checking-from-gedit/" MODIFIED="1307093857215" TEXT="JSlint for javascript">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+</node>
+<node CREATED="1376657553247" FOLDED="true" ID="ID_538272395" MODIFIED="1376658401517" TEXT="default">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1376657561718" ID="ID_731555942" MODIFIED="1376657598042">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # file with default openers
+    </p>
+    <p>
+      <font color="#0033ff">~/.local/share/applications/defaults.list</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1376657707969" ID="ID_1004697669" MODIFIED="1376658345713" TEXT="xdg-open">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1376658379823" ID="ID_796840200" LINK="https://wiki.archlinux.org/index.php/Default_Applications" MODIFIED="1376658398999">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">wiki</font></b>&#160;archlinux
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1360156292809" FOLDED="true" ID="ID_1734196193" MODIFIED="1375878344342" TEXT="virtual">
@@ -1004,8 +1038,7 @@
       <font color="#009999"><b>launchpad</b></font><b>&#160;</b>kazam
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
