@@ -196,7 +196,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1376556389818" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1376935560665" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -267,7 +267,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1375456020089" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1376935559739" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1365667996826" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -401,6 +401,31 @@
                 </p>
               </body>
             </html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1376935430837" FOLDED="true" ID="ID_183713393" MODIFIED="1376935559313" TEXT="ls">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1376935435741" ID="ID_19570944" MODIFIED="1376935555722">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # sort by date with flag - <b>t</b>
+    </p>
+    <p>
+      <font color="#0033ff">$ ls -la<b>t </b></font>
+    </p>
+    <p>
+      <font color="#000000">#reverse order with -<b>&#160;r </b></font>
+    </p>
+    <p>
+      <font color="#0033ff">$ ls -la<b>rt</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -745,7 +770,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1376555918102" FOLDED="true" ID="ID_580851467" MODIFIED="1376556039246" TEXT="video">
+<node CREATED="1376555918102" FOLDED="true" ID="ID_580851467" MODIFIED="1376935426947" TEXT="video">
 <node CREATED="1376555922107" ID="ID_513424609" MODIFIED="1376556033808">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -917,7 +942,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1376658401671" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" ID="ID_1569600326" MODIFIED="1376935409718" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1370509206796" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -958,8 +983,7 @@
       <font color="#0033ff">~/.local/share/applications/defaults.list</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1376657707969" ID="ID_1004697669" MODIFIED="1376658345713" TEXT="xdg-open">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -974,8 +998,7 @@
       <b><font color="#009999">wiki</font></b>&#160;archlinux
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1360156292809" FOLDED="true" ID="ID_1734196193" MODIFIED="1375878344342" TEXT="virtual">
