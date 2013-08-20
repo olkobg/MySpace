@@ -424,8 +424,7 @@
       <font color="#0033ff">$ ls -la<b>rt</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -942,7 +941,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" ID="ID_1569600326" MODIFIED="1376935409718" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" ID="ID_1569600326" MODIFIED="1376997449558" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1370509206796" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>

@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1375867561306" TEXT="CrossOS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1375867560996" POSITION="right" TEXT="Services">
+<node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1376997517920" POSITION="right" TEXT="Services">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1331668059479" FOLDED="true" ID="ID_716532882" MODIFIED="1375867559402" TEXT="Auth">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -34,20 +34,34 @@
 <node CREATED="1355930613394" ID="ID_204518597" LINK="http://compizomania.blogspot.com/2012/04/tor-ubuntu-11101204.html" MODIFIED="1355930650114" TEXT="compiz mania"/>
 </node>
 </node>
-<node CREATED="1375830121785" FOLDED="true" ID="ID_1223809425" MODIFIED="1375830421358" TEXT="book-server">
+<node CREATED="1375830121785" FOLDED="true" ID="ID_1223809425" MODIFIED="1376997517110" TEXT="book-server">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1375830137762" FOLDED="true" ID="ID_584895294" MODIFIED="1375830419059" TEXT="calibre-server">
-<node CREATED="1375442256384" ID="ID_40425872" LINK="http://alt236.blogspot.com/2010/09/gettng-calibre-server-to-run-at-boot-in.html" MODIFIED="1375830115572">
+<node CREATED="1375830137762" FOLDED="true" ID="ID_584895294" MODIFIED="1376997516865" TEXT="calibre-server">
+<node CREATED="1375442256384" ID="ID_40425872" LINK="http://alt236.blogspot.com/2010/09/gettng-calibre-server-to-run-at-boot-in.html" MODIFIED="1376997509242">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#009999"><b>alt236</b></font>&#160;run calibre as server service
+      <b><font color="#009999">alt236</font></b>&#160;run calibre server
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+<node CREATED="1376997472088" ID="ID_1377049588" LINK="http://linuxserver2011.wordpress.com/2011/03/26/calibre-ebook-server-setup-ubuntu-10-10/" MODIFIED="1376997495151">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">linuxserver2011</font></b>&#160;run calibre server
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 <node CREATED="1375442287573" ID="ID_700139929" MODIFIED="1375830115563">
 <richcontent TYPE="NODE"><html>
