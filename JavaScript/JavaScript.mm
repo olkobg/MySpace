@@ -2,9 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1375978808264" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1375978807747" POSITION="right" TEXT="lib">
+<node COLOR="#990099" CREATED="1328630299553" ID="ID_1803455928" MODIFIED="1377210450242" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1375978807524" TEXT="Frameworks">
+<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1377210455663" TEXT="Frameworks">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#0033ff" CREATED="1288878939472" ID="ID_626818632" LINK="http://mootools.net/" MODIFIED="1375964515614" TEXT="mootolls">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -57,7 +57,7 @@
 <node CREATED="1375964470929" ID="ID_1612792037" LINK="http://blog.bigbinary.com/2011/08/18/understanding-bind-and-bindall-in-backbone.html" MODIFIED="1375964476446" TEXT="bind difference"/>
 </node>
 </node>
-<node CREATED="1328630279282" FOLDED="true" ID="ID_1710108581" MODIFIED="1375964495383">
+<node CREATED="1328630279282" FOLDED="true" ID="ID_1710108581" MODIFIED="1377210457287">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -128,7 +128,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1337155609990" FOLDED="true" ID="ID_1410910272" MODIFIED="1375964495378" TEXT="effects">
+<node CREATED="1337155609990" FOLDED="true" ID="ID_1410910272" MODIFIED="1377210459227" TEXT="effects">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#009999" CREATED="1337155616877" ID="ID_421262654" LINK="http://www.dynamicdrive.com/" MODIFIED="1357726792213" TEXT="Dynamic Drive">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -148,6 +148,9 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1377210482197" ID="ID_1445245110" LINK="http://gruntjs.com/" MODIFIED="1377210497158" TEXT="grunt">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1362498349280" POSITION="left" TEXT="types">
@@ -603,7 +606,7 @@
 <node CREATED="1290779800255" ID="ID_1854719369" LINK="http://www.jibbering.com/faq/notes/type-conversion/" MODIFIED="1328630117086" TEXT="links1"/>
 </node>
 </node>
-<node CREATED="1290785686280" FOLDED="true" ID="ID_967559904" MODIFIED="1362497608764" POSITION="right" TEXT="Tools">
+<node CREATED="1290785686280" FOLDED="true" ID="ID_967559904" MODIFIED="1377210480842" POSITION="right" TEXT="Tools">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1290785690168" ID="ID_1371837990" MODIFIED="1362497607543" TEXT="Compressor">
 <node CREATED="1290785699124" ID="ID_1468703957" LINK="http://developer.yahoo.com/yui/compressor/" MODIFIED="1306946571426" TEXT="YUI-Cpmpressor"/>
