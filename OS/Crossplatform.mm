@@ -47,8 +47,7 @@
       <b><font color="#009999">alt236</font></b>&#160;run calibre server
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1376997472088" ID="ID_1377049588" LINK="http://linuxserver2011.wordpress.com/2011/03/26/calibre-ebook-server-setup-ubuntu-10-10/" MODIFIED="1376997495151">
 <richcontent TYPE="NODE"><html>
@@ -60,8 +59,7 @@
       <b><font color="#009999">linuxserver2011</font></b>&#160;run calibre server
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1375442287573" ID="ID_700139929" MODIFIED="1375830115563">
 <richcontent TYPE="NODE"><html>
@@ -111,24 +109,38 @@
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1356528038293" ID="ID_875794081" LINK="http://getsongbird.com/" MODIFIED="1356528045283" TEXT="songbird"/>
 </node>
-<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1373272224200" POSITION="left" TEXT="Development">
+<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1377267033092" POSITION="left" TEXT="Development">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1355149044983" FOLDED="true" ID="ID_1170115706" MODIFIED="1370509296533" TEXT="attention">
+<node CREATED="1355149044983" FOLDED="true" ID="ID_1170115706" MODIFIED="1377266807483" TEXT="attention">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355149052794" ID="ID_783079995" LINK="http://visitsteve.com/made/selfcontrol/" MODIFIED="1355149065612" TEXT="SelfControl"/>
 <node CREATED="1355149057377" ID="ID_56787196" LINK="http://macfreedom.com/" MODIFIED="1355149084719" TEXT="Freedom"/>
 </node>
-<node CREATED="1368719196122" FOLDED="true" ID="ID_1132657387" MODIFIED="1370509294219" TEXT="coding">
+<node CREATED="1368719196122" FOLDED="true" ID="ID_1132657387" MODIFIED="1377267020717" TEXT="coding">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#009999" CREATED="1368719236571" ID="ID_43784894" LINK="http://emmet.io/" MODIFIED="1368719243636" TEXT="Emmet">
+<node COLOR="#0033ff" CREATED="1368719236571" ID="ID_43784894" LINK="http://emmet.io/" MODIFIED="1377266843865" TEXT="Emmet">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1377266808900" ID="ID_1629364418" MODIFIED="1377266818755" TEXT="cloud">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1377266819677" ID="ID_1486260650" LINK="https://codenvy.com/" MODIFIED="1377266841998" TEXT="code envy">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357753147521" FOLDED="true" ID="ID_294725118" MODIFIED="1370509292393" TEXT="design">
+</node>
+<node CREATED="1357753147521" FOLDED="true" ID="ID_294725118" MODIFIED="1377267026703" TEXT="design">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1302606521801" ID="ID_1875004905" MODIFIED="1370509290494" TEXT="uml tools">
+<node CREATED="1302606521801" FOLDED="true" ID="ID_1875004905" MODIFIED="1377267026522" TEXT="uml tools">
 <node CREATED="1302606529840" ID="ID_577029644" LINK="topcased.org" MODIFIED="1302606553926" TEXT="topcased.org"/>
-<node CREATED="1343156549171" ID="ID_157367992" LINK="http://plantuml.sourceforge.net/" MODIFIED="1343239641261" TEXT="plantUML"/>
+<node CREATED="1377266634922" ID="ID_778682273" MODIFIED="1377266639047" TEXT="cloud">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1377266622464" ID="ID_1179923808" LINK="http://www.genmymodel.com/" MODIFIED="1377266834685" TEXT="GenMyModel">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1343156549171" ID="ID_157367992" LINK="http://plantuml.sourceforge.net/" MODIFIED="1377266837723" TEXT="plantUML">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1360703563556" FOLDED="true" ID="ID_520683796" MODIFIED="1370509298900" TEXT="diff/merge">
@@ -163,10 +175,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#006699" CREATED="1361892302799" FOLDED="true" ID="ID_229964903" MODIFIED="1375830449988" POSITION="left" TEXT="Learn">
+<node COLOR="#006699" CREATED="1361892302799" FOLDED="true" ID="ID_229964903" MODIFIED="1377267032304" POSITION="left" TEXT="Learn">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1361892314710" FOLDED="true" ID="ID_21108970" MODIFIED="1375830430709" TEXT="memory">
-<node CREATED="1362431431696" FOLDED="true" ID="ID_1908142474" MODIFIED="1375830430434" TEXT="flashcards">
+<node CREATED="1361892314710" FOLDED="true" ID="ID_21108970" MODIFIED="1377267031539" TEXT="memory">
+<node CREATED="1362431431696" FOLDED="true" ID="ID_1908142474" MODIFIED="1377267029245" TEXT="flashcards">
 <node COLOR="#0033ff" CREATED="1361892320400" FOLDED="true" ID="ID_207583043" LINK="mnemosyne-proj.org" MODIFIED="1362431490872" TEXT="mnemosyne">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361892328103" ID="ID_1576778765" MODIFIED="1361892400041">
@@ -201,22 +213,24 @@
 </node>
 </node>
 <node CREATED="1362431436881" ID="ID_108471204" LINK="ankisrs.net" MODIFIED="1362431474924" TEXT="Anki"/>
-<node CREATED="1362431505275" ID="ID_1747168731" LINK="www.flashcardexchange.com" MODIFIED="1362431534979">
+<node COLOR="#009999" CREATED="1362431505275" ID="ID_1747168731" LINK="http://cram.com/" MODIFIED="1377263801690">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#009999"><b>flash cards db</b></font>
+      flashcards db
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1359978119344" ID="ID_1590523028" MODIFIED="1375830431520" TEXT="books">
-<node CREATED="1359978155953" ID="ID_152877535" LINK="Cross/fun/Calibre.mm" MODIFIED="1359978155954" TEXT="Calibre">
+<node CREATED="1359978119344" FOLDED="true" ID="ID_1590523028" MODIFIED="1377267030999" TEXT="books">
+<node CREATED="1359978155953" FOLDED="true" ID="ID_152877535" LINK="Cross/fun/Calibre.mm" MODIFIED="1377267030819" TEXT="Calibre">
 <node CREATED="1375830161247" ID="ID_1134605496" LINK="#ID_584895294" MODIFIED="1375830166978" TEXT="server"/>
 </node>
 </node>
