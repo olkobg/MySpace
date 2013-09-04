@@ -1,9 +1,23 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375807969931" ID="ID_1219146609" LINK="../UlOs/Ulike.mm" MODIFIED="1375964444046" TEXT="pam">
+<node CREATED="1375807969931" ID="ID_1219146609" LINK="../UlOs/Ulike.mm" MODIFIED="1378288986451" TEXT="pam">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1375807988203" ID="ID_1088234788" MODIFIED="1375807997271" POSITION="right" TEXT="pluggable auth modules"/>
-<node CREATED="1375808005932" ID="ID_1444797237" MODIFIED="1375959527149" POSITION="left" TEXT="config">
+<node CREATED="1378288898567" ID="ID_1001053738" MODIFIED="1378288988977" POSITION="right" TEXT="links">
+<node COLOR="#009999" CREATED="1378288904483" ID="ID_1939494740" LINK="http://www.xakep.ru/magazine/xa/128/076/1.asp" MODIFIED="1378288991992" TEXT="xaker">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1378288912402" ID="ID_1544551736" LINK="http://www.ibm.com/developerworks/ru/library/l-pam/" MODIFIED="1378288991990" TEXT="imb">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1378288925295" ID="ID_1564503006" LINK="http://www.opennet.ru/base/net/pam_linux.txt.html" MODIFIED="1378289008233" TEXT="openNet">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1378288939988" ID="ID_307726555" LINK="http://www.freebsd.org/doc/ru_RU.KOI8-R/articles/pam/pam-config.html" MODIFIED="1378288991986" TEXT="freeBSD">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1375808005932" FOLDED="true" ID="ID_1444797237" MODIFIED="1378288987598" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1375864517045" FOLDED="true" ID="ID_1900198936" MODIFIED="1375959705011" TEXT="module-type">
 <font NAME="SansSerif" SIZE="12"/>
@@ -81,8 +95,7 @@
       <font face="Monospaced"><b>optional</b>&#160;&#160;&#160;&#8722; The result from this module is only important if it is the only one in the stack.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1375864771869" FOLDED="true" ID="ID_1055150265" MODIFIED="1375959861792" TEXT="complex">
@@ -124,8 +137,7 @@
       <font face="Monospaced"><b>reset</b>&#160;&#160;- Clear the stack's memory and start again with the next stacked module.</font><br /><br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1375864864111" ID="ID_471106542" MODIFIED="1375959297548">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -235,8 +247,7 @@
       <font color="#000000" face="Monospaced"><b>user_unknown&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </b>User not known to the underlying authenticaiton module.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1375865337895" ID="ID_559233791" MODIFIED="1375959052044">
 <richcontent TYPE="NODE"><html>
@@ -260,8 +271,7 @@
       <font color="#0033ff" face="Monospaced"><b>optional</b>&#160;&#160;&#160;= [ success=ok&#160;&#160;&#160;new_authtok_reqd=ok&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;default =ignore ]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -282,8 +292,7 @@
       <font color="#0033ff"><b>include</b></font>&#160;statment
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1375959964775" ID="ID_1655202166" MODIFIED="1375959967209" TEXT="include&#x9; &#x2212;&#x9; Includes all lines of the same module type found in an additional configuration file, the name of which is specified as an argument. substack&#x9; &#x2212;&#x9; Idem, except that evaluation of the done and die actions in a substack do not cause PAM to skip the rest of the stack (only the substack), jumps cannot escape the substack process (the substack is treated as a single module), and the reset action will only return the entire stack to the state it was in when the substack evaluation started."/>
 <node COLOR="#0033ff" CREATED="1375959968668" ID="ID_815453980" MODIFIED="1375960012007">
 <richcontent TYPE="NODE"><html>
@@ -295,8 +304,7 @@
       module-type keyword file-path
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1375959983833" ID="ID_1423076694" MODIFIED="1375960012003">
 <richcontent TYPE="NODE"><html>
@@ -308,8 +316,7 @@
       @include file-path
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1375864116141" ID="ID_1552118320" MODIFIED="1375959527766" TEXT="files">

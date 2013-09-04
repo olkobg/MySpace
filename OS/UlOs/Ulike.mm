@@ -185,14 +185,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1375964449307" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1378289024003" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375958322893" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
 <node CREATED="1296726279539" ID="ID_1037052627" LINK="http://guides.tinybrick.com/magento/speed-testing" MODIFIED="1343156400294" TEXT="speedtesting"/>
 </node>
 </node>
-<node CREATED="1375866527148" FOLDED="true" ID="ID_1398874093" MODIFIED="1375964447913" TEXT="auth">
+<node CREATED="1375866527148" FOLDED="true" ID="ID_1398874093" MODIFIED="1378289023733" TEXT="auth">
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
@@ -1561,8 +1561,7 @@
       <b><font color="#009999">gist</font></b>&#160;7 init script
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
