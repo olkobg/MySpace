@@ -44,7 +44,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1354284422668" ID="ID_104995101" MODIFIED="1375026716572" POSITION="left" TEXT="functions">
+<node CREATED="1354284422668" FOLDED="true" ID="ID_104995101" MODIFIED="1378292142543" POSITION="left" TEXT="functions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1302007143908" FOLDED="true" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1359491632965" TEXT="Date">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
@@ -377,7 +377,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1354279301177" ID="ID_623127039" MODIFIED="1356716242821" POSITION="right" TEXT="engines">
+<node CREATED="1354279301177" FOLDED="true" ID="ID_623127039" MODIFIED="1378292138741" POSITION="right" TEXT="engines">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1354279308104" ID="ID_1456868854" LINK="http://openquery.com/products/graph-engine" MODIFIED="1356716234209" TEXT="qGraph">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -386,7 +386,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1368089881938" ID="ID_1952603060" MODIFIED="1368128357753" POSITION="right" TEXT="UDF">
+<node CREATED="1368089881938" FOLDED="true" ID="ID_1952603060" MODIFIED="1378292138066" POSITION="right" TEXT="UDF">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1368089895748" ID="ID_1916465749" LINK="https://launchpad.net/mysql-udf-regexp" MODIFIED="1368128200574">
 <richcontent TYPE="NODE"><html>
@@ -405,7 +405,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1352978089919" ID="ID_597483296" MODIFIED="1356716301796" POSITION="right" TEXT="information_schema">
+<node COLOR="#0033ff" CREATED="1352978089919" FOLDED="true" ID="ID_597483296" MODIFIED="1378292129358" POSITION="right" TEXT="information_schema">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1352978101798" ID="ID_42747466" MODIFIED="1352978146894" TEXT="COLUMNS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -464,7 +464,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1358705998459" ID="ID_414904595" MODIFIED="1370456725228" POSITION="right" TEXT="dump">
+<node CREATED="1358705998459" FOLDED="true" ID="ID_414904595" MODIFIED="1378292128053" POSITION="right" TEXT="dump">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358706004978" ID="ID_481266675" MODIFIED="1358706159311">
 <richcontent TYPE="NODE"><html>
@@ -518,9 +518,9 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1320946456590" FOLDED="true" ID="ID_810700224" MODIFIED="1368089931529" POSITION="right" TEXT="TIPS">
+<node COLOR="#ff0000" CREATED="1320946456590" FOLDED="true" ID="ID_810700224" MODIFIED="1378292092122" POSITION="right" TEXT="TIPS">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1320946458758" FOLDED="true" ID="ID_210105990" MODIFIED="1354290652084" TEXT="tables with column name">
+<node CREATED="1320946458758" FOLDED="true" ID="ID_210105990" MODIFIED="1378292091041" TEXT="tables with column name">
 <node COLOR="#0033ff" CREATED="1320946471860" ID="ID_197018626" MODIFIED="1354290647637">
 <richcontent TYPE="NODE"><html>
   <head>
