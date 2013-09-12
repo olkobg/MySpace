@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1375867561306" TEXT="CrossOS">
+<node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1378984862375" TEXT="CrossOS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1376997517920" POSITION="right" TEXT="Services">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -91,7 +91,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1322654447149" FOLDED="true" ID="ID_1927839485" MODIFIED="1370509268806" POSITION="left" TEXT="Editor">
+<node COLOR="#0033ff" CREATED="1322654447149" FOLDED="true" ID="ID_1927839485" MODIFIED="1378984862160" POSITION="left" TEXT="Editor">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1322654449616" ID="ID_1624123020" LINK="Cross/vim.mm" MODIFIED="1322655239234" TEXT="Vim"/>
 <node CREATED="1348054382032" ID="ID_155321148" LINK="Cross/Sublime.mm" MODIFIED="1348054382033" TEXT="Sublime"/>
@@ -223,8 +223,7 @@
       flashcards db
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
