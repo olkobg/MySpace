@@ -1090,7 +1090,7 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1377260748220" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1379503338786" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1375455970814" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1324,7 +1324,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1377260745929" TEXT="net">
+<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1379503338091" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1364753013894" ID="ID_980082429" LINK="http://www.aircrack-ng.org/" MODIFIED="1364808207979" TEXT="aircrack-ng">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1374,10 +1374,10 @@
       </html></richcontent>
 </node>
 </node>
-<node CREATED="1310637726990" ID="ID_1898681690" LINK="iptables.mm" MODIFIED="1364808215514" TEXT="iptables">
+<node CREATED="1310637726990" ID="ID_1898681690" LINK="iptables.mm" MODIFIED="1379503262934" TEXT="iptables">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1311119874516" FOLDED="true" ID="ID_1713203094" MODIFIED="1364808215511" TEXT="routing">
+<node CREATED="1311119874516" FOLDED="true" ID="ID_1713203094" MODIFIED="1379503270163" TEXT="routing">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1310120203431" ID="ID_796453636" LINK="iproute.mm" MODIFIED="1311119871673" TEXT="iproute"/>
 <node CREATED="1311119653158" ID="ID_767812934" MODIFIED="1311119655407" TEXT="gated">
@@ -1565,9 +1565,37 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1379503274751" FOLDED="true" ID="ID_257373994" MODIFIED="1379503336109" TEXT="rfkill">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1379503281928" ID="ID_719853565" MODIFIED="1379503334068">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # list devices that blocked
+    </p>
+    <p>
+      <font color="#0000ff">$ rfkill list all</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # unlock all devices
+    </p>
+    <p>
+      <font color="#0000ff">$ rfkill unblock all</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1377260701107" POSITION="left" TEXT="X">
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1379503272007" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
