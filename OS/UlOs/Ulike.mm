@@ -196,7 +196,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1376935560665" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" ID="ID_1597325646" MODIFIED="1379760482089" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -253,7 +253,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1375456021304" TEXT="color">
+<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1379760490621" TEXT="color">
 <node CREATED="1368717500084" ID="ID_1760124834" LINK="http://unix.stackexchange.com/questions/148/colorizing-your-terminal-and-shell-environment" MODIFIED="1368717526400">
 <richcontent TYPE="NODE"><html>
             <head>
@@ -267,16 +267,13 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1376935559739" TEXT="fs">
+<node CREATED="1359236458625" ID="ID_849174610" MODIFIED="1379760483696" STYLE="fork" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1365667996826" TEXT="mount ">
+<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1379760799205" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296834787690" FOLDED="true" ID="ID_1953283382" MODIFIED="1357753652397" TEXT="iso image">
-<node COLOR="#0033ff" CREATED="1296834809060" ID="ID_1304283377" MODIFIED="1315938374860" TEXT="mount -o loop disk1.iso /mnt/disk"/>
-</node>
-<node CREATED="1304068264056" FOLDED="true" ID="ID_1628728647" MODIFIED="1364753381843" TEXT="Fuse">
+<node CREATED="1304068264056" FOLDED="true" ID="ID_1628728647" MODIFIED="1379760797672" TEXT="fuse">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296835246684" FOLDED="true" ID="ID_1630461938" MODIFIED="1364753381841" TEXT="sshfs">
+<node COLOR="#0033ff" CREATED="1296835246684" FOLDED="true" ID="ID_1630461938" MODIFIED="1379755793052" TEXT="sshfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1301326157345" ID="ID_882527601" LINK="http://andre.frimberger.de/index.php/linux/sshfs-fix-for-wrong-file-permissions-on-server/" MODIFIED="1301327963972" TEXT="patch server with perm "/>
 <node COLOR="#0033ff" CREATED="1296835255924" ID="ID_196855364" MODIFIED="1355996351910">
@@ -292,16 +289,71 @@
                 </html></richcontent>
 </node>
 </node>
-<node CREATED="1304068271830" FOLDED="true" ID="ID_739540109" MODIFIED="1357753668770" TEXT="ligmail">
+<node CREATED="1304068271830" FOLDED="true" ID="ID_739540109" MODIFIED="1379755485850" TEXT="ligmail">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1304068275366" ID="ID_1635838983" LINK="http://wiki.vpslink.com/Mount_a_Gmail_Account_as_a_FUSE_Filesystem#Test_your_Gmail_FUSE_Drive" MODIFIED="1304068279938" TEXT="instruction"/>
 </node>
 <node COLOR="#0033ff" CREATED="1304068282013" ID="ID_1060940447" MODIFIED="1357753664163" TEXT="curlftpfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#0033ff" CREATED="1379755490576" FOLDED="true" ID="ID_884183239" LINK="http://fuse-convmvfs.sourceforge.net/" MODIFIED="1379760785992" TEXT="convmvfs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1379755979671" ID="ID_1629047305" MODIFIED="1379756075167">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #mount
+    </p>
+    <p>
+      <font color="#0033ff">$ convmvfs /ftp/pub_gbk -o srcdir=/ftp/pub, icharset=utf8,ocharset=gbk</font><br />
+    </p>
+    <p>
+      # unmount&#160;<br /><font color="#0033ff">$ fusermount -u /ftp/pub_gbk</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1315333831637" FOLDED="true" ID="ID_725503619" MODIFIED="1365668011462" TEXT="fsck">
+</node>
+<node CREATED="1296834787690" FOLDED="true" ID="ID_1953283382" MODIFIED="1379756080905" TEXT="iso image">
+<node COLOR="#0033ff" CREATED="1296834809060" ID="ID_1304283377" MODIFIED="1315938374860" TEXT="mount -o loop disk1.iso /mnt/disk"/>
+</node>
+<node CREATED="1375298986840" FOLDED="true" ID="ID_94479630" MODIFIED="1379760790372" TEXT="samba">
+<node CREATED="1375298993114" ID="ID_1235217364" MODIFIED="1375299049753">
+<richcontent TYPE="NODE"><html>
+          <head>
+
+          </head>
+          <body>
+            <p>
+              # mounting samba file system from console
+            </p>
+            <p>
+              <font color="#0033cc">$ mount -t cifs -o user=luke //192.168.1.104/share /mnt/linky_share</font>
+            </p>
+          </body>
+        </html></richcontent>
+</node>
+<node CREATED="1375300893134" ID="ID_1291432311" MODIFIED="1375784712326">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # fstab samba mount record&#160;&#160;<br /># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#160;&#160;&#160;&#160;&#160;/&lt;mount point&gt;&#160;&#160;&#160;&#160;cifs&#160;&#160;&#160;&#160;&#160;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#160;&#160;&#160;&#160;0 0&#160;<br /># <b>cifs</b>&#160;- fs type&#160;<b>_netdev</b>&#160;- wait for network will be available, <b>uid</b>-current&#160;unix user, <b>user </b>used to connect to share<br /><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#160;&#160;cifs&#160;&#160;&#160;user=olkobg,_netdev,uid=mike 0 0</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1379760495867" ID="ID_253863982" LINK="../Cross/NFS.mm" MODIFIED="1379760795606" TEXT="nfs"/>
+</node>
+<node COLOR="#0033ff" CREATED="1315333831637" FOLDED="true" ID="ID_725503619" MODIFIED="1379755474986" TEXT="fsck">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1315333842044" ID="ID_1185492697" MODIFIED="1357753626789">
 <richcontent TYPE="NODE"><html>
@@ -352,7 +404,7 @@
             </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296636809316" FOLDED="true" ID="ID_604774115" MODIFIED="1365668007073" TEXT="tree">
+<node COLOR="#0033ff" CREATED="1296636809316" FOLDED="true" ID="ID_604774115" MODIFIED="1379756104780" TEXT="tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636817878" ID="ID_981018607" MODIFIED="1356098118281">
 <richcontent TYPE="NODE"><html>
@@ -863,9 +915,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1369307010049" FOLDED="true" ID="ID_501338769" MODIFIED="1375456138710" POSITION="left" TEXT="doc">
+<node COLOR="#990099" CREATED="1369307010049" FOLDED="true" ID="ID_501338769" MODIFIED="1379755467834" POSITION="left" TEXT="doc">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1370354833806" FOLDED="true" ID="ID_1971328720" MODIFIED="1375456004247" TEXT="fs">
+<node CREATED="1370354833806" ID="ID_1971328720" MODIFIED="1379755456542" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1370354820917" ID="ID_1720010701" MODIFIED="1370354831305">
 <richcontent TYPE="NODE"><html>
@@ -879,7 +931,7 @@
             </body>
           </html></richcontent>
 </node>
-<node CREATED="1369307013463" FOLDED="true" ID="ID_863651094" MODIFIED="1375456002877" TEXT="permissions">
+<node CREATED="1369307013463" ID="ID_863651094" MODIFIED="1379755458685" TEXT="permissions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369307022678" ID="ID_1038878792" MODIFIED="1369307158154">
 <richcontent TYPE="NODE"><html>
@@ -941,14 +993,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1377263608079" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1379755802720" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1370509206796" TEXT="editors">
+<node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1379755477698" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1310045237421" ID="ID_645437345" LINK="../Cross/vim.mm" MODIFIED="1356098130650" TEXT="vim">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1300896078435" FOLDED="true" ID="ID_22135888" MODIFIED="1358701535675" TEXT="gedit">
+<node COLOR="#0033ff" CREATED="1300896078435" FOLDED="true" ID="ID_22135888" MODIFIED="1379755477693" TEXT="gedit">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1300896080539" ID="ID_969341565" MODIFIED="1300896236268" TEXT="gtksourceview">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1090,7 +1142,7 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1379503338786" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1379755886911" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1375455970814" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1324,7 +1376,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1379503338091" TEXT="net">
+<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1379755886491" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1364753013894" ID="ID_980082429" LINK="http://www.aircrack-ng.org/" MODIFIED="1364808207979" TEXT="aircrack-ng">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1516,37 +1568,8 @@
 <node COLOR="#009999" CREATED="1311118392979" ID="ID_1759952331" LINK="http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html" MODIFIED="1364808231351" TEXT="YOULINUX">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1375298982931" FOLDED="true" ID="ID_1308149011" MODIFIED="1375784715058" TEXT="fs">
+<node CREATED="1375298982931" ID="ID_1308149011" LINK="#ID_43792908" MODIFIED="1379755875179" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1375298986840" FOLDED="true" ID="ID_94479630" MODIFIED="1375784714225" TEXT="samba">
-<node CREATED="1375298993114" ID="ID_1235217364" MODIFIED="1375299049753">
-<richcontent TYPE="NODE"><html>
-          <head>
-
-          </head>
-          <body>
-            <p>
-              # mounting samba file system from console
-            </p>
-            <p>
-              <font color="#0033cc">$ mount -t cifs -o user=luke //192.168.1.104/share /mnt/linky_share</font>
-            </p>
-          </body>
-        </html></richcontent>
-</node>
-<node CREATED="1375300893134" ID="ID_1291432311" MODIFIED="1375784712326">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # fstab samba mount record&#160;&#160;<br /># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#160;&#160;&#160;&#160;&#160;/&lt;mount point&gt;&#160;&#160;&#160;&#160;cifs&#160;&#160;&#160;&#160;&#160;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#160;&#160;&#160;&#160;0 0&#160;<br /># <b>cifs</b>&#160;- fs type&#160;<b>_netdev</b>&#160;- wait for network will be available, <b>uid</b>-current&#160;unix user, <b>user </b>used to connect to share<br /><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#160;&#160;cifs&#160;&#160;&#160;user=olkobg,_netdev,uid=mike 0 0</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
 </node>
 <node CREATED="1377260706799" FOLDED="true" ID="ID_1718118543" MODIFIED="1377260742529" TEXT="web">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1589,13 +1612,12 @@
       <font color="#0000ff">$ rfkill unblock all</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1379503272007" POSITION="left" TEXT="X">
+<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1379755885042" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
