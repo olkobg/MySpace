@@ -185,7 +185,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1378289024003" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1379931741507" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375958322893" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
@@ -196,7 +196,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1376935560665" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1379933284315" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -253,7 +253,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1375456021304" TEXT="color">
+<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1379931743728" TEXT="color">
 <node CREATED="1368717500084" ID="ID_1760124834" LINK="http://unix.stackexchange.com/questions/148/colorizing-your-terminal-and-shell-environment" MODIFIED="1368717526400">
 <richcontent TYPE="NODE"><html>
             <head>
@@ -267,12 +267,83 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1376935559739" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1379933284019" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1365667996826" TEXT="mount ">
+<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1379933282851" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296834787690" FOLDED="true" ID="ID_1953283382" MODIFIED="1357753652397" TEXT="iso image">
-<node COLOR="#0033ff" CREATED="1296834809060" ID="ID_1304283377" MODIFIED="1315938374860" TEXT="mount -o loop disk1.iso /mnt/disk"/>
+<node CREATED="1296834787690" ID="ID_1953283382" MODIFIED="1379931746609" TEXT="iso image">
+<node COLOR="#0033ff" CREATED="1296834809060" ID="ID_1304283377" MODIFIED="1379931790324" TEXT="$ mount -o loop disk1.iso /mnt/disk"/>
+</node>
+<node CREATED="1379931748027" FOLDED="true" ID="ID_1988488636" MODIFIED="1379933282042" TEXT="dmg file">
+<node CREATED="1379931751490" ID="ID_1564136333" MODIFIED="1379931780295">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">$&#160;mount -t hfs -o loop'/home/joh/Desktop/Alumin Fortis.dmg' /macdisk</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1379932945752" ID="ID_326263794" MODIFIED="1379933019727">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">$ 7z x file.dmg </font>
+    </p>
+    <p>
+      # To my surprise it spit out the following:
+    </p>
+    <p>
+      Extracting 0.ddm
+    </p>
+    <p>
+      Extracting 1.Apple_partition_map
+    </p>
+    <p>
+      Extracting 2.hfs
+    </p>
+    <p>
+      Extracting 3.free&#160;&#160;
+    </p>
+    <p>
+      # Then it was only a matter of issuing
+    </p>
+    <p>
+      <font color="#0033ff">$ mount -t hfsplus -o loop 2.hfs /mnt</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1379933181576" ID="ID_1090784213" MODIFIED="1379933279464">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">$ dmg2img ./path-to-dmg file</font>
+    </p>
+    <p>
+      <font color="#0033ff">$ mount -t hfs -o loop /path-to-img-file /mnt/mount-dir</font>
+    </p>
+    <p>
+      # or
+    </p>
+    <p>
+      <font color="#0033ff">$ mount -t hfsplus -o loop /path-to-img-file /mnt/mnt-dir</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1304068264056" FOLDED="true" ID="ID_1628728647" MODIFIED="1364753381843" TEXT="Fuse">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1589,8 +1660,7 @@
       <font color="#0000ff">$ rfkill unblock all</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
