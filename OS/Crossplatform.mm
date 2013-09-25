@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1379072053240" TEXT="CrossOS">
+<node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1380119805428" TEXT="CrossOS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1379071971882" POSITION="right" TEXT="Services">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -109,7 +109,7 @@
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1356528038293" ID="ID_875794081" LINK="http://getsongbird.com/" MODIFIED="1356528045283" TEXT="songbird"/>
 </node>
-<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1379072052837" POSITION="left" TEXT="Development">
+<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1380119805047" POSITION="left" TEXT="Development">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1355149044983" FOLDED="true" ID="ID_1170115706" MODIFIED="1379072031956" TEXT="attention">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -176,6 +176,27 @@
 <node CREATED="1362820120862" ID="ID_68019861" MODIFIED="1370509313836" TEXT="group chats">
 <node CREATED="1362820130724" ID="ID_594785155" LINK="https://www.hipchat.com/" MODIFIED="1362820156396" TEXT="hipchat"/>
 <node CREATED="1362820157373" ID="ID_910921562" LINK="https://hall.com/" MODIFIED="1362820171335" TEXT="hall"/>
+</node>
+</node>
+<node CREATED="1380113284279" FOLDED="true" ID="ID_589273960" MODIFIED="1380119785741" TEXT="emulation">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1380113288553" FOLDED="true" ID="ID_1865300703" LINK="http://www.winehq.org/" MODIFIED="1380119785515" TEXT="wine">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1380113292963" FOLDED="true" ID="ID_784646871" LINK="https://code.google.com/p/winetricks/" MODIFIED="1380119784998">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>google-code</b></font>&#160;winetricks
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1380113380398" ID="ID_1391638811" LINK="https://code.google.com/p/osxwinebuilder/wiki/WinetricksOnMacOSX" MODIFIED="1380113390618" TEXT="winetricks on max os x"/>
+</node>
+<node CREATED="1380113298453" ID="ID_493290352" LINK="https://code.google.com/p/osxwinebuilder/wiki/WinetricksOnMacOSX" MODIFIED="1380113307658" TEXT="osxwinebuilder"/>
 </node>
 </node>
 </node>
@@ -267,8 +288,7 @@
       musiccabinet
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>

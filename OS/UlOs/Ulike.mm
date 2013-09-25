@@ -1,13 +1,13 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1377260748963" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1380113210156" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -102,7 +102,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1303468898144" FOLDED="true" ID="ID_685911646" MODIFIED="1375456032824" POSITION="right" TEXT="Kernel">
+<node CREATED="1303468898144" FOLDED="true" ID="ID_685911646" MODIFIED="1380018181840" POSITION="right" TEXT="Kernel">
 <node CREATED="1303468903258" FOLDED="true" ID="ID_477414553" MODIFIED="1365673939641" TEXT="2.6.38">
 <node COLOR="#0033ff" CREATED="1364219529233" FOLDED="true" ID="ID_1334995368" MODIFIED="1365673939236" TEXT="sysctl">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -137,7 +137,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1356357594952" FOLDED="true" ID="ID_574981773" MODIFIED="1365673946304" TEXT="param">
+<node CREATED="1356357594952" FOLDED="true" ID="ID_574981773" MODIFIED="1380018181838" TEXT="param">
 <node COLOR="#0033ff" CREATED="1356357600839" ID="ID_939154443" MODIFIED="1356357605487" TEXT="root">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1356357663629" ID="ID_1491289096" MODIFIED="1356357714394">
@@ -185,18 +185,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1379931741507" POSITION="right" TEXT="services">
-<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375958322893" TEXT="web">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1380018106855" POSITION="right" TEXT="services">
+<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1380018105053" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
 <node CREATED="1296726279539" ID="ID_1037052627" LINK="http://guides.tinybrick.com/magento/speed-testing" MODIFIED="1343156400294" TEXT="speedtesting"/>
 </node>
 </node>
-<node CREATED="1375866527148" FOLDED="true" ID="ID_1398874093" MODIFIED="1378289023733" TEXT="auth">
+<node CREATED="1375866527148" FOLDED="true" ID="ID_1398874093" MODIFIED="1380018106474" TEXT="auth">
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1379933284315" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1380018214541" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -285,8 +285,7 @@
       <font color="#0033ff">$&#160;mount -t hfs -o loop'/home/joh/Desktop/Alumin Fortis.dmg' /macdisk</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1379932945752" ID="ID_326263794" MODIFIED="1379933019727">
 <richcontent TYPE="NODE"><html>
@@ -319,8 +318,7 @@
       <font color="#0033ff">$ mount -t hfsplus -o loop 2.hfs /mnt</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1379933181576" ID="ID_1090784213" MODIFIED="1379933279464">
 <richcontent TYPE="NODE"><html>
@@ -341,8 +339,7 @@
       <font color="#0033ff">$ mount -t hfsplus -o loop /path-to-img-file /mnt/mnt-dir</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1304068264056" FOLDED="true" ID="ID_1628728647" MODIFIED="1364753381843" TEXT="Fuse">
@@ -556,8 +553,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1375456014824" TEXT="security">
-<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1375271461010" TEXT="crypt">
+<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1380018213774" TEXT="security">
+<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1380018212987" TEXT="crypt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1375271460744" TEXT="gpg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -596,7 +593,7 @@
 <node COLOR="#0033ff" CREATED="1360156400359" ID="ID_1287445385" MODIFIED="1360156404919" TEXT="stunnel">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1355996042994" FOLDED="true" ID="ID_730085370" MODIFIED="1368085211231" TEXT="rand pass gen.">
+<node CREATED="1355996042994" FOLDED="true" ID="ID_730085370" MODIFIED="1380018212785" TEXT="rand pass gen.">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355996069470" ID="ID_1616878184" LINK="http://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/" MODIFIED="1355996075496" TEXT="10 ways"/>
 <node COLOR="#0033ff" CREATED="1355996307400" ID="ID_1133468604" MODIFIED="1355996310778" TEXT="apg">
@@ -861,7 +858,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1375871409971" POSITION="right" TEXT="interpet">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1380018061968" POSITION="right" TEXT="interpet">
 <node COLOR="#0033ff" CREATED="1296636804213" ID="ID_493133498" MODIFIED="1360156095153" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
@@ -885,10 +882,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1375871408620" POSITION="right" TEXT="distribs">
+<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1380018060731" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 </node>
-<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1375871407113" POSITION="right" TEXT="tricks">
+<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1380018059114" POSITION="right" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357753828458" ID="ID_1937859101" MODIFIED="1370509236236" TEXT="mail">
 <node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1370354808303" TEXT="telnet">
