@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1330464526919" ID="ID_1279976728" LINK="../../General/Internet.mm" MODIFIED="1371405225730" TEXT="NFS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1331713350830" FOLDED="true" ID="ID_1538758996" MODIFIED="1380365527450" POSITION="right" TEXT="client">
+<node CREATED="1331713350830" FOLDED="true" ID="ID_1538758996" MODIFIED="1380410888542" POSITION="right" TEXT="client">
 <node CREATED="1331713267735" FOLDED="true" ID="ID_1818210269" MODIFIED="1379760708372" TEXT="win">
 <node CREATED="1331713254260" FOLDED="true" ID="ID_206679108" MODIFIED="1379760707641" TEXT="v3">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -54,8 +54,20 @@
 </node>
 </node>
 </node>
-<node CREATED="1331713276883" FOLDED="true" ID="ID_1982378087" MODIFIED="1380365526859" TEXT="ulike">
-<node COLOR="#0033ff" CREATED="1350426609593" ID="ID_926913916" MODIFIED="1379760682714" TEXT="$ mount -t nfs nameofcomputer:/directory-on-hat-machine /directory-you-should-have-already-created"/>
+<node CREATED="1331713276883" FOLDED="true" ID="ID_1982378087" MODIFIED="1380410888288" TEXT="ulike">
+<node COLOR="#0033ff" CREATED="1350426609593" ID="ID_926913916" MODIFIED="1380410547757">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ mount -t nfs nameofcomputer:/directory-on-hat-machine /your-dir-on-pc
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node COLOR="#0033ff" CREATED="1350427224632" ID="ID_360896702" MODIFIED="1379760626859">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -78,7 +90,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1331713356750" FOLDED="true" ID="ID_829738455" MODIFIED="1380365524767" POSITION="left" TEXT="server">
+<node CREATED="1331713356750" FOLDED="true" ID="ID_829738455" MODIFIED="1380410891198" POSITION="left" TEXT="server">
 <node COLOR="#0033ff" CREATED="1379760715243" FOLDED="true" ID="ID_670330243" MODIFIED="1380365524411" TEXT="/etc/exports">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1379760721472" ID="ID_1743482859" MODIFIED="1379760773300">

@@ -1,19 +1,20 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1377260748963" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1380410078521" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1375456034039" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
@@ -196,7 +197,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1380365535000" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1380411065562" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -267,9 +268,9 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1380365534450" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1380411065120" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1380365534095" TEXT="mount ">
+<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1380411064064" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296834787690" ID="ID_1333431511" MODIFIED="1380365473028" TEXT="iso image">
 <node COLOR="#0033ff" CREATED="1296834809060" ID="ID_638641727" MODIFIED="1315938374860" TEXT="mount -o loop disk1.iso /mnt/disk"/>
@@ -419,6 +420,28 @@
 </node>
 </node>
 <node CREATED="1379760495867" ID="ID_253863982" LINK="../Cross/NFS.mm" MODIFIED="1379760795606" TEXT="nfs"/>
+<node CREATED="1380410931896" FOLDED="true" ID="ID_1097022472" MODIFIED="1380411063399" TEXT="binding">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1380410940917" ID="ID_239983081" MODIFIED="1380411061162">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # bind path into antoher path&#160;<br /># olddir stay the same<br /><font color="#0000ff">$&#160;mount --bind olddier newdir</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # rebind all subdirs recursively<br /><font color="#0000ff">$ mount -r --rbind locationA locationB</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1315333831637" FOLDED="true" ID="ID_725503619" MODIFIED="1365668011462" TEXT="fsck">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1713,7 +1736,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1379503272007" POSITION="left" TEXT="X">
+<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1380410078356" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
@@ -1739,8 +1762,8 @@
       </body>
     </html></richcontent>
 </node>
-<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1375456111350" TEXT="controls">
-<node CREATED="1355739747130" FOLDED="true" ID="ID_683421714" MODIFIED="1364843866276" TEXT="xkb">
+<node CREATED="1355490607955" FOLDED="true" ID="ID_1838694125" MODIFIED="1380410078353" TEXT="controls">
+<node CREATED="1355739747130" FOLDED="true" ID="ID_683421714" MODIFIED="1380410078336" TEXT="xkb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355490648259" ID="ID_1951027835" LINK="http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php" MODIFIED="1355739756941" TEXT="instructions for changing keyb layout"/>
 <node CREATED="1355490901133" ID="ID_1324979617" LINK="http://stackoverflow.com/questions/4200800/in-bash-how-do-i-bind-a-function-key-to-a-command" MODIFIED="1355739756907" TEXT="stack overflow"/>

@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1360702274580" TEXT="git">
+<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1380365716511" TEXT="git">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
 <node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1360702223921" POSITION="left" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
@@ -103,7 +103,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116397871" FOLDED="true" ID="ID_315343330" MODIFIED="1364323434686" POSITION="left" TEXT="merge">
+<node COLOR="#0033ff" CREATED="1311116397871" FOLDED="true" ID="ID_315343330" MODIFIED="1380365714834" POSITION="left" TEXT="merge">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347010374336" ID="ID_276273301" MODIFIED="1355754800083">
 <richcontent TYPE="NODE"><html>
@@ -142,8 +142,29 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356611018634" ID="ID_1250883637" MODIFIED="1356611022894" POSITION="left" TEXT="mergetool">
+<node COLOR="#0033ff" CREATED="1356611018634" FOLDED="true" ID="ID_1250883637" MODIFIED="1380366012076" POSITION="left" TEXT="mergetool">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1380365720135" FOLDED="true" ID="ID_405889953" MODIFIED="1380366011858" TEXT="araxis ">
+<node CREATED="1380365726641" ID="ID_1800950299" MODIFIED="1380366002464">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # under cygwin should use other name than <b>araxis</b>
+    </p>
+    <p>
+      <font color="#0000ff">$ git config --global merge.tool <b>araxism </b></font>
+    </p>
+    <p>
+      <font color="#0000ff">$<b>&#160;</b>git config --global mergetool.araxism.cmd <b>/cygdrive/c/Progs/Araxis/Araxis\ Merge/AraxisGitMerge.exe `cygpath -w $REMOTE` `cygpath -w $BASE` `cygpath -w $LOCAL` `cygpath -w $MERGED`</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1289405676416" FOLDED="true" ID="ID_487111464" MODIFIED="1357898687829" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -472,8 +493,43 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1370015052492" POSITION="right" TEXT="config">
+<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1380366214134" POSITION="right" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1380366053475" ID="ID_1009881573" MODIFIED="1380366208842">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # config gloabal settings which stored at <b><font color="#0000ff">~/.gitconfig </font></b><font color="#000000">use: </font>
+    </p>
+    <p>
+      <font color="#0000ff">$ git config --global</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#000000"># config local - stored <b>.git/config</b>&#160;use: </font>
+    </p>
+    <p>
+      <font color="#0000ff">$ git config --local</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # show list of configurations:
+    </p>
+    <p>
+      <font color="#0000ff">$ git configl --llst</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1380366033268" ID="ID_134535296" MODIFIED="1380366058080" TEXT="merge">
 <node CREATED="1289412013925" ID="ID_1715652734" MODIFIED="1356609564954">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -489,7 +545,9 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1316101111376" FOLDED="true" ID="ID_983038719" MODIFIED="1370015052283" TEXT="file">
+</node>
+<node CREATED="1380366039152" ID="ID_1529737347" MODIFIED="1380366058069" TEXT="mergetool"/>
+<node CREATED="1316101111376" FOLDED="true" ID="ID_983038719" MODIFIED="1380366058063" TEXT="file">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1316101125350" ID="ID_970354881" MODIFIED="1370008774609">
 <richcontent TYPE="NODE"><html>
@@ -535,7 +593,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1313572779285" FOLDED="true" ID="ID_896395638" MODIFIED="1360749025557" POSITION="right" TEXT="diff">
+<node COLOR="#0033ff" CREATED="1313572779285" FOLDED="true" ID="ID_896395638" MODIFIED="1380366212319" POSITION="right" TEXT="diff">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313572795090" ID="ID_631869903" MODIFIED="1356609456775">
 <richcontent TYPE="NODE"><html>
