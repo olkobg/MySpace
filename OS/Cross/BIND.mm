@@ -23,6 +23,28 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1380540051178" ID="ID_1875144661" MODIFIED="1380540140379">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # subdomain.hostone.com --&gt; subdomain.hosttwo.com
+    </p>
+    <p>
+      <font color="#0000ff">subdomain&#160;&#160;&#160;&#160;&#160;&#160;<b>CNAME</b>&#160;&#160;&#160;&#160;subdomain.<b>hosttwo.</b>com </font>
+    </p>
+    <p>
+      <font color="#0000ff">hostone.com&#160;&#160;&#160;<b>A</b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;192.168.1.1</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#009999" CREATED="1380539766731" ID="ID_1181450073" LINK="http://en.wikipedia.org/wiki/CNAME_record" MODIFIED="1380539771213" TEXT="wiki">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1308233145010" ID="ID_1164917997" MODIFIED="1308233150927" TEXT="A">
 <node CREATED="1308233233918" ID="ID_1783426346" MODIFIED="1308233241829" TEXT="designate host address"/>

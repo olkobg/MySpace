@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1380119805428" TEXT="CrossOS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1379071971882" POSITION="right" TEXT="Services">
+<node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1380540642640" POSITION="right" TEXT="Services">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1331668059479" FOLDED="true" ID="ID_716532882" MODIFIED="1379071962926" TEXT="Auth">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -23,7 +23,7 @@
 <node CREATED="1347524832946" ID="ID_829137802" LINK="http://deployingradius.com/documents/configuration/eap.html" MODIFIED="1347524852470" TEXT="dev docs"/>
 </node>
 </node>
-<node CREATED="1347052263122" FOLDED="true" ID="ID_44848701" MODIFIED="1379071966346" TEXT="dns">
+<node CREATED="1347052263122" FOLDED="true" ID="ID_44848701" MODIFIED="1380540641897" TEXT="dns">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347052267011" ID="ID_853681695" LINK="Cross/BIND.mm" MODIFIED="1375830262539" TEXT="bind"/>
 </node>
@@ -192,8 +192,7 @@
       <font color="#009999"><b>google-code</b></font>&#160;winetricks
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1380113380398" ID="ID_1391638811" LINK="https://code.google.com/p/osxwinebuilder/wiki/WinetricksOnMacOSX" MODIFIED="1380113390618" TEXT="winetricks on max os x"/>
 </node>
 <node CREATED="1380113298453" ID="ID_493290352" LINK="https://code.google.com/p/osxwinebuilder/wiki/WinetricksOnMacOSX" MODIFIED="1380113307658" TEXT="osxwinebuilder"/>
