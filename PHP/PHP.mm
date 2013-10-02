@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1369129021465" TEXT="PHP">
+<node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1380727556206" TEXT="PHP">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
 <node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1369126992437" POSITION="right" TEXT="Testing">
 <node CREATED="1285850518723" FOLDED="true" ID="ID_349465635" MODIFIED="1364752781433" TEXT="UnitTesting">
@@ -256,7 +256,7 @@ xdebug.remote_port=9000
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1378915181551" POSITION="left" TEXT="CORE">
+<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1380727555917" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1299140234352" ID="ID_409384537" MODIFIED="1363282506415" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1362411827693" TEXT="inf">
@@ -3076,8 +3076,8 @@ bool(true)</pre>
 <node COLOR="#0033ff" CREATED="1318329353289" ID="ID_605558807" MODIFIED="1318329358232" TEXT="continue"/>
 </node>
 </node>
-<node CREATED="1299171161417" FOLDED="true" ID="ID_1497261246" MODIFIED="1358505727936" TEXT="functions">
-<node CREATED="1293626385953" FOLDED="true" ID="ID_246842598" MODIFIED="1358505672379" TEXT="send mail">
+<node CREATED="1299171161417" FOLDED="true" ID="ID_1497261246" MODIFIED="1380727555375" TEXT="functions">
+<node CREATED="1293626385953" FOLDED="true" ID="ID_246842598" MODIFIED="1380725045057" TEXT="send mail">
 <node COLOR="#ff0000" CREATED="1293626402273" ID="ID_693816562" MODIFIED="1293705982788">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3093,7 +3093,7 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1356545925631" FOLDED="true" ID="ID_1171433851" MODIFIED="1358505673399" TEXT="string">
+<node CREATED="1356545925631" FOLDED="true" ID="ID_1171433851" MODIFIED="1380725280721" TEXT="string">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1356545928525" ID="ID_1637813816" MODIFIED="1356545942637" TEXT="parse_str">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -3102,7 +3102,7 @@ bool(true)</pre>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1358505674098" FOLDED="true" ID="ID_553221125" MODIFIED="1358505726906" TEXT="system">
+<node CREATED="1358505674098" FOLDED="true" ID="ID_553221125" MODIFIED="1380727550155" TEXT="system">
 <node CREATED="1358505680660" ID="ID_1856082406" MODIFIED="1358505725235">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3117,6 +3117,36 @@ bool(true)</pre>
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1380725049894" FOLDED="true" ID="ID_532156074" MODIFIED="1380727555104" TEXT="services">
+<node COLOR="#0033ff" CREATED="1380725210431" FOLDED="true" ID="ID_784962109" MODIFIED="1380727554903" TEXT="cUrl">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1380725212860" ID="ID_1588675184" LINK="http://www.maxrice.com/php-curl-connect-to-ftp-server-with-implicit-ssl-tls/" MODIFIED="1380725271820">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>Max Rice</b></font>&#160;ftp ssl
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1380725319444" ID="ID_366474144" LINK="http://stackoverflow.com/questions/12236697/php-amazone-webservice-uncaught-curl-exception" MODIFIED="1380725345345">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>so</b></font>&#160;ca bundle file
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
