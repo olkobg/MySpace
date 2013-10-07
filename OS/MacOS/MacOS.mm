@@ -46,6 +46,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node CREATED="1381165282002" ID="ID_114835899" MODIFIED="1381165383755" POSITION="right" TEXT="dev">
+<node CREATED="1381165383592" ID="ID_1986999715" MODIFIED="1381165384876" TEXT="ios">
+<node CREATED="1381165283782" ID="ID_983746521" LINK="https://developer.apple.com/library/ios/design/index.html#//apple_ref/doc/uid/TP40013289" MODIFIED="1381165296314" TEXT="ui guidelines"/>
+</node>
+</node>
 <node CREATED="1343289776094" FOLDED="true" ID="ID_1441127359" MODIFIED="1360702168274" POSITION="left" TEXT="NFS">
 <node CREATED="1343289833275" ID="ID_1038036597" LINK="http://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" MODIFIED="1343289839791" TEXT="article"/>
 </node>
