@@ -2,14 +2,14 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1380727556206" TEXT="PHP">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1369126992437" POSITION="right" TEXT="Testing">
-<node CREATED="1285850518723" FOLDED="true" ID="ID_349465635" MODIFIED="1364752781433" TEXT="UnitTesting">
+<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1381830947618" POSITION="right" TEXT="Testing">
+<node CREATED="1285850518723" FOLDED="true" ID="ID_349465635" MODIFIED="1381830947280" TEXT="UnitTesting">
 <node CREATED="1334852774584" ID="ID_671076897" LINK="PHPUnit.mm" MODIFIED="1334852774585" TEXT="PHPUnit"/>
 </node>
-<node CREATED="1361539099498" FOLDED="true" ID="ID_374024873" MODIFIED="1364752756360" TEXT="UI">
-<node CREATED="1361539102038" FOLDED="true" ID="ID_549985678" MODIFIED="1364752754908" TEXT="Selenium">
+<node CREATED="1361539099498" FOLDED="true" ID="ID_374024873" MODIFIED="1381830946650" TEXT="UI">
+<node CREATED="1361539102038" FOLDED="true" ID="ID_549985678" MODIFIED="1381830946246" TEXT="Selenium">
 <node CREATED="1361539108975" ID="ID_610802670" LINK="#ID_671076897" MODIFIED="1361879945697" TEXT="via PHPUnit"/>
-<node CREATED="1361879770688" ID="ID_629972318" MODIFIED="1361879813121" TEXT="element34">
+<node CREATED="1361879770688" FOLDED="true" ID="ID_629972318" MODIFIED="1381830945976" TEXT="element34">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361794212705" ID="ID_1546655787" LINK="http://element34.ca/products/saunter/saunterphp" MODIFIED="1361879774337" TEXT="SaunterPHP"/>
 <node CREATED="1361879777255" ID="ID_899978171" LINK="https://github.com/Element-34/php-webdriver" MODIFIED="1361879808011">
@@ -256,7 +256,7 @@ xdebug.remote_port=9000
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1380727555917" POSITION="left" TEXT="CORE">
+<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1381830938262" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1299140234352" ID="ID_409384537" MODIFIED="1363282506415" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1362411827693" TEXT="inf">
@@ -3132,8 +3132,7 @@ bool(true)</pre>
       <font color="#009999"><b>Max Rice</b></font>&#160;ftp ssl
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1380725319444" ID="ID_366474144" LINK="http://stackoverflow.com/questions/12236697/php-amazone-webservice-uncaught-curl-exception" MODIFIED="1380725345345">
 <richcontent TYPE="NODE"><html>
@@ -3151,33 +3150,7 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1359042029267" POSITION="left" STYLE="bubble" TEXT="tools">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1369145286064" POSITION="left" TEXT="TIPS &amp; Notes">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1299140152828" ID="ID_1927321205" MODIFIED="1299140158690" TEXT="last tag">
-<node CREATED="1299140159252" ID="ID_487593545" MODIFIED="1354283499246" TEXT="it&apos;s preffered to not close the last tag (it&apos;s usefull when hidden rows at the end of file)"/>
-</node>
-<node CREATED="1299141568600" ID="ID_342456349" MODIFIED="1299141573995" TEXT="array string index">
-<node CREATED="1299141574516" ID="ID_1922331894" MODIFIED="1299141575587" TEXT="ways use quotes around a string literal array index. "/>
-</node>
-<node CREATED="1299145729848" ID="ID_403227810" MODIFIED="1299145747205" TEXT="Varibles in superglobal">
-<node CREATED="1299145749257" ID="ID_531508553" MODIFIED="1299145761755" TEXT="Dots and spaces in variable names are converted to underscores"/>
-</node>
-<node CREATED="1299145915930" ID="ID_968928524" MODIFIED="1299164038753" TEXT="turn globals flags off"/>
-<node CREATED="1312288560930" ID="ID_1882146353" MODIFIED="1312288669703">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      php interpretter removes every <b>Enter</b>&#160;symbol after <font color="#0000ff">&lt;?php ?&gt;</font><font color="#000000">&#160; tags</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
+<node CREATED="1381830952388" FOLDED="true" ID="ID_949250264" MODIFIED="1381831257738" POSITION="left" TEXT="config">
 <node CREATED="1358859283808" ID="ID_989941738" MODIFIED="1358859311290">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3193,7 +3166,91 @@ bool(true)</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1364287104076" ID="ID_1130690758" MODIFIED="1364287223690">
+</node>
+<node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1381830960444" POSITION="left" STYLE="bubble" TEXT="tools">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1381831255646" POSITION="left" TEXT="TIPS &amp; Notes">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1299140152828" FOLDED="true" ID="ID_1927321205" MODIFIED="1381831218406" TEXT="last tag">
+<node CREATED="1299140159252" ID="ID_487593545" MODIFIED="1354283499246" TEXT="it&apos;s preffered to not close the last tag (it&apos;s usefull when hidden rows at the end of file)"/>
+</node>
+<node CREATED="1312288560930" ID="ID_1882146353" MODIFIED="1381831220155">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      php interpretter removes every <b>Enter</b>&#160;symbol after <font color="#0000ff">&lt;?php ?&gt;</font><font color="#000000">&#160; tags</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1299145729848" FOLDED="true" ID="ID_403227810" MODIFIED="1381831224719" TEXT="Varibles in superglobal">
+<node CREATED="1299145749257" ID="ID_531508553" MODIFIED="1299145761755" TEXT="Dots and spaces in variable names are converted to underscores"/>
+</node>
+<node COLOR="#0033ff" CREATED="1368634185008" FOLDED="true" ID="ID_1880580369" MODIFIED="1381831224715" TEXT="sting">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1368634198351" ID="ID_1202946887" LINK="http://stackoverflow.com/questions/4356289/php-random-string-generator" MODIFIED="1368634235190">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999">so</font>&#160;generate random string
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1369139458322" FOLDED="true" ID="ID_733960258" MODIFIED="1381831119924" TEXT="fs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369139464269" ID="ID_452073364" LINK="http://stackoverflow.com/questions/1707801/making-a-temporary-dir-for-unpacking-a-zipfile-into" MODIFIED="1369139480450">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>SO</b></font>&#160;create temp dir
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1369139503651" FOLDED="true" ID="ID_1938299763" MODIFIED="1381831121723" TEXT="csv">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369139507859" ID="ID_1097500418" LINK="http://stackoverflow.com/questions/5133162/php-how-can-i-get-the-contents-of-a-csv-file-into-a-mysql-database-row-by-row" MODIFIED="1369139527819">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>SO</b></font>&#160;return array from csv
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#cc3300" CREATED="1381830976620" FOLDED="true" ID="ID_1793755710" MODIFIED="1381831168052" TEXT="error-handling">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1381830998325" ID="ID_80004262" LINK="http://nukium.com/developpement/erreur-php-cannot-create-references-to-elements-of-a-temporary-array-expression/" MODIFIED="1381831014718">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cannot create references to elements of a temporary array expression
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1364287104076" FOLDED="true" ID="ID_1130690758" MODIFIED="1381831162922">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3202,6 +3259,15 @@ bool(true)</pre>
     <p>
       // missing function
     </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1381831158646" ID="ID_599687363" MODIFIED="1381831161740">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
     <p>
       &lt;?
     </p>
@@ -3221,51 +3287,9 @@ bool(true)</pre>
       <font color="#0033ff">&#160;&#160;}</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1368634185008" FOLDED="true" ID="ID_1880580369" MODIFIED="1369126984222" TEXT="sting">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1368634198351" ID="ID_1202946887" LINK="http://stackoverflow.com/questions/4356289/php-random-string-generator" MODIFIED="1368634235190">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999">so</font>&#160;generate random string
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1369139458322" FOLDED="true" ID="ID_733960258" MODIFIED="1369145284386" TEXT="fs">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1369139464269" ID="ID_452073364" LINK="http://stackoverflow.com/questions/1707801/making-a-temporary-dir-for-unpacking-a-zipfile-into" MODIFIED="1369139480450">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>SO</b></font>&#160;create temp dir
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1369139503651" FOLDED="true" ID="ID_1938299763" MODIFIED="1369145284003" TEXT="csv">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1369139507859" ID="ID_1097500418" LINK="http://stackoverflow.com/questions/5133162/php-how-can-i-get-the-contents-of-a-csv-file-into-a-mysql-database-row-by-row" MODIFIED="1369139527819">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>SO</b></font>&#160;return array from csv
-    </p>
-  </body>
-</html></richcontent>
 </node>
 </node>
 </node>
