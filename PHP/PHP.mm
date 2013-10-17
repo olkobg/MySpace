@@ -3150,7 +3150,7 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node CREATED="1381830952388" FOLDED="true" ID="ID_949250264" MODIFIED="1381831257738" POSITION="left" TEXT="config">
+<node CREATED="1381830952388" FOLDED="true" ID="ID_949250264" MODIFIED="1381831926082" POSITION="left" TEXT="config">
 <node CREATED="1358859283808" ID="ID_989941738" MODIFIED="1358859311290">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3170,7 +3170,7 @@ bool(true)</pre>
 <node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1381830960444" POSITION="left" STYLE="bubble" TEXT="tools">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1381831255646" POSITION="left" TEXT="TIPS &amp; Notes">
+<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1381836207725" POSITION="left" TEXT="TIPS &amp; Notes">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299140152828" FOLDED="true" ID="ID_1927321205" MODIFIED="1381831218406" TEXT="last tag">
 <node CREATED="1299140159252" ID="ID_487593545" MODIFIED="1354283499246" TEXT="it&apos;s preffered to not close the last tag (it&apos;s usefull when hidden rows at the end of file)"/>
@@ -3235,7 +3235,7 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1381830976620" FOLDED="true" ID="ID_1793755710" MODIFIED="1381831168052" TEXT="error-handling">
+<node COLOR="#cc3300" CREATED="1381830976620" FOLDED="true" ID="ID_1793755710" MODIFIED="1381836207094" TEXT="error-handling">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1381830998325" ID="ID_80004262" LINK="http://nukium.com/developpement/erreur-php-cannot-create-references-to-elements-of-a-temporary-array-expression/" MODIFIED="1381831014718">
 <richcontent TYPE="NODE"><html>

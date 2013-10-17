@@ -7,8 +7,11 @@
 <node COLOR="#009999" CREATED="1378288904483" ID="ID_1939494740" LINK="http://www.xakep.ru/magazine/xa/128/076/1.asp" MODIFIED="1378288991992" TEXT="xaker">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#009999" CREATED="1378288912402" ID="ID_1544551736" LINK="http://www.ibm.com/developerworks/ru/library/l-pam/" MODIFIED="1378288991990" TEXT="imb">
+<node COLOR="#009999" CREATED="1378288912402" ID="ID_1544551736" LINK="http://www.ibm.com/developerworks/ru/library/l-pam/" MODIFIED="1382022826402" TEXT="ibm">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1382022827231" ID="ID_536596563" LINK="http://www.ibm.com/developerworks/library/l-pam/" MODIFIED="1382022837537" TEXT="eng: ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#009999" CREATED="1378288925295" ID="ID_1564503006" LINK="http://www.opennet.ru/base/net/pam_linux.txt.html" MODIFIED="1378289008233" TEXT="openNet">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -16,10 +19,13 @@
 <node COLOR="#009999" CREATED="1378288939988" ID="ID_307726555" LINK="http://www.freebsd.org/doc/ru_RU.KOI8-R/articles/pam/pam-config.html" MODIFIED="1378288991986" TEXT="freeBSD">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-</node>
-<node CREATED="1375808005932" FOLDED="true" ID="ID_1444797237" MODIFIED="1378288987598" POSITION="left" TEXT="config">
+<node COLOR="#009999" CREATED="1382022393924" ID="ID_110813583" LINK="http://content.hccfl.edu/faculty/wayne_pollock/AUnix2/PAM-Help.htm" MODIFIED="1382022404634" TEXT="by Wayne Pollack">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1375864517045" FOLDED="true" ID="ID_1900198936" MODIFIED="1375959705011" TEXT="module-type">
+</node>
+</node>
+<node CREATED="1375808005932" FOLDED="true" ID="ID_1444797237" MODIFIED="1382022382224" POSITION="left" TEXT="config">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1375864517045" FOLDED="true" ID="ID_1900198936" MODIFIED="1382022369488" TEXT="module-type">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1375864522922" ID="ID_1556167631" MODIFIED="1375864611007">
 <richcontent TYPE="NODE"><html>
@@ -60,7 +66,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1375864759143" ID="ID_1556454127" MODIFIED="1375959705300" TEXT="control">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1375864766997" FOLDED="true" ID="ID_1344173888" MODIFIED="1375959861320" TEXT="simple">
+<node CREATED="1375864766997" FOLDED="true" ID="ID_1344173888" MODIFIED="1382022363098" TEXT="simple">
 <node CREATED="1375864774785" ID="ID_149638035" MODIFIED="1375959260082">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -98,7 +104,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1375864771869" FOLDED="true" ID="ID_1055150265" MODIFIED="1375959861792" TEXT="complex">
+<node CREATED="1375864771869" FOLDED="true" ID="ID_1055150265" MODIFIED="1382022366428" TEXT="complex">
 <node CREATED="1375864810338" FOLDED="true" ID="ID_799710262" MODIFIED="1375959853300">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -276,13 +282,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1375959667008" FOLDED="true" ID="ID_1048470849" MODIFIED="1375959889490" TEXT="module-path">
+<node COLOR="#0033ff" CREATED="1375959667008" FOLDED="true" ID="ID_1048470849" MODIFIED="1382022360173" TEXT="module-path">
 <node CREATED="1375959866651" ID="ID_822660571" MODIFIED="1375959887670" TEXT="The module path is either the full filename of the module, beginning with a &quot;/&quot;, or a pathname that is relative to the default module directory, which is"/>
 </node>
-<node COLOR="#0033ff" CREATED="1375959672791" FOLDED="true" ID="ID_16897410" MODIFIED="1375959927943" TEXT="arguments">
+<node COLOR="#0033ff" CREATED="1375959672791" FOLDED="true" ID="ID_16897410" MODIFIED="1382022358778" TEXT="arguments">
 <node CREATED="1375959925310" ID="ID_1053781129" MODIFIED="1375959926417" TEXT="The last field is a space-separated list of tokens that can be used to modify the behavior of a module."/>
 </node>
-<node CREATED="1375959929338" ID="ID_268834132" MODIFIED="1375959947366">
+<node CREATED="1375959929338" FOLDED="true" ID="ID_268834132" MODIFIED="1382022372279">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -319,8 +325,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1375864116141" ID="ID_1552118320" MODIFIED="1375959527766" TEXT="files">
-<node CREATED="1375864119048" FOLDED="true" ID="ID_1654726455" MODIFIED="1375959693468">
+<node CREATED="1375864116141" FOLDED="true" ID="ID_1552118320" MODIFIED="1382022381526" TEXT="files">
+<node CREATED="1375864119048" FOLDED="true" ID="ID_1654726455" MODIFIED="1382022376666">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -350,7 +356,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1375864241001" FOLDED="true" ID="ID_223887814" MODIFIED="1375959697226">
+<node CREATED="1375864241001" FOLDED="true" ID="ID_223887814" MODIFIED="1382022379433">
 <richcontent TYPE="NODE"><html>
   <head>
     
