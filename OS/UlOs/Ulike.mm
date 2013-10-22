@@ -13,8 +13,7 @@
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1375456034039" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
@@ -186,14 +185,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1378289024003" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1382027223422" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375958322893" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
 <node CREATED="1296726279539" ID="ID_1037052627" LINK="http://guides.tinybrick.com/magento/speed-testing" MODIFIED="1343156400294" TEXT="speedtesting"/>
 </node>
 </node>
-<node CREATED="1375866527148" FOLDED="true" ID="ID_1398874093" MODIFIED="1378289023733" TEXT="auth">
+<node CREATED="1375866527148" FOLDED="true" ID="ID_1398874093" MODIFIED="1382027223220" TEXT="auth">
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
@@ -438,8 +437,7 @@
       # rebind all subdirs recursively<br /><font color="#0000ff">$ mount -r --rbind locationA locationB</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1083,7 +1081,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1377263608079" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1382458977413" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1370509206796" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1207,7 +1205,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1364488643637" FOLDED="true" ID="ID_1031012619" MODIFIED="1375106000260" TEXT="net">
+<node CREATED="1364488643637" FOLDED="true" ID="ID_1031012619" MODIFIED="1382458976735" TEXT="net">
 <node CREATED="1364488645581" FOLDED="true" ID="ID_1521194640" MODIFIED="1375106000002" TEXT="browser">
 <node CREATED="1364488648023" ID="ID_1718375211" MODIFIED="1364488653155" TEXT="links"/>
 <node CREATED="1364488653454" ID="ID_151657057" MODIFIED="1364488656488" TEXT="lynx"/>
@@ -1224,6 +1222,23 @@
                   </p>
                 </body>
               </html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1382458910345" FOLDED="true" ID="ID_226517043" MODIFIED="1382458975543" TEXT="bandwidth">
+<node CREATED="1382458931014" FOLDED="true" ID="ID_1444461502" MODIFIED="1382458975361" TEXT="trickle">
+<node CREATED="1382458939070" ID="ID_372242883" MODIFIED="1382458971125">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">$ trickle -s -u 10 -d 0 /usr/bin/spotify</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

@@ -1,9 +1,9 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375807969931" ID="ID_1219146609" LINK="../UlOs/Ulike.mm" MODIFIED="1378288986451" TEXT="pam">
+<node CREATED="1375807969931" ID="ID_1219146609" LINK="../UlOs/Ulike.mm" MODIFIED="1382027216259" TEXT="pam">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1375807988203" ID="ID_1088234788" MODIFIED="1375807997271" POSITION="right" TEXT="pluggable auth modules"/>
-<node CREATED="1378288898567" ID="ID_1001053738" MODIFIED="1378288988977" POSITION="right" TEXT="links">
+<node CREATED="1378288898567" FOLDED="true" ID="ID_1001053738" MODIFIED="1382027215908" POSITION="right" TEXT="links">
 <node COLOR="#009999" CREATED="1378288904483" ID="ID_1939494740" LINK="http://www.xakep.ru/magazine/xa/128/076/1.asp" MODIFIED="1378288991992" TEXT="xaker">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -20,6 +20,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#009999" CREATED="1382022393924" ID="ID_110813583" LINK="http://content.hccfl.edu/faculty/wayne_pollock/AUnix2/PAM-Help.htm" MODIFIED="1382022404634" TEXT="by Wayne Pollack">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1382022873402" ID="ID_1089520192" LINK="http://linuxtutorial.info/modules.php?name=Howto&amp;pagename=User-Authentication-HOWTO/x115.html" MODIFIED="1382022885619" TEXT="lunuxtutorial.info">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
