@@ -200,7 +200,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1353338701198" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1381704749292" POSITION="left" TEXT="config">
+<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1382641620549" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355140000578" ID="ID_624009682" MODIFIED="1381704791242">
 <richcontent TYPE="NODE"><html>
@@ -239,8 +239,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1355140175527" ID="ID_1637713145" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=3&amp;t=2691" MODIFIED="1358849230705" TEXT="highlight_line">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -256,6 +255,22 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1382641554621" ID="ID_1919255911" MODIFIED="1382641616729">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // set default line ending to 'unix'
+    </p>
+    <p>
+      <font color="#0033ff">&quot;default_line_ending&quot;: &quot;unix&quot;,</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 <node CREATED="1381704793268" ID="ID_474132999" MODIFIED="1381704857683">
 <richcontent TYPE="NODE"><html>
@@ -276,8 +291,7 @@
       <font color="#0033cc">$ ~/.config/sublime-text-2</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1355495398680" ID="ID_348230933" LINK="http://sublimetext.info/docs/en/reference/key_bindings.html" MODIFIED="1355495411596" POSITION="left" TEXT="key binding">
