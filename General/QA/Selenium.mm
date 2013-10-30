@@ -1,8 +1,8 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1361878162081" ID="ID_1703692073" LINK="../QA.mm" MODIFIED="1369301551450" STYLE="fork" TEXT="Selenium">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1362156875647" FOLDED="true" ID="ID_1190320724" MODIFIED="1369301551440" POSITION="left" TEXT="selectors">
+<node CREATED="1362156875647" FOLDED="true" ID="ID_1190320724" MODIFIED="1383146756327" POSITION="left" TEXT="selectors">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362065583400" FOLDED="true" ID="ID_1508722303" LINK="http://sauceio.com/index.php/2010/01/selenium-totw-css-selectors-in-selenium-demystified/" MODIFIED="1365178612639">
 <richcontent TYPE="NODE"><html>
@@ -11,7 +11,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">Sauce Labs</font></b>&#160;custom selectors
+      <b><font color="#009999">Sauce Labs</font></b>&#xa0;custom selectors
     </p>
   </body>
 </html></richcontent>
@@ -22,10 +22,10 @@
   </head>
   <body>
     <p>
-      css=a[id^='id_prefix_']&#160;&#160;A link with an id that starts with the text id_prefix_.&#160;&#160;
+      css=a[id^='id_prefix_']&#xa0;&#xa0;A link with an id that starts with the text id_prefix_.&#xa0;&#xa0;
     </p>
     <p>
-      css=a[id$='_id_sufix']&#160;&#160;A link with an id that ends with the text _id_sufix.&#160;&#160;
+      css=a[id$='_id_sufix']&#xa0;&#xa0;A link with an id that ends with the text _id_sufix.&#xa0;&#xa0;
     </p>
     <p>
       css=a[id*='id_pattern'] - A link with an id that ends with the id_pattern
@@ -41,7 +41,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">Sauce Labs</font></b>&#160;contains text
+      <b><font color="#009999">Sauce Labs</font></b>&#xa0;contains text
     </p>
   </body>
 </html></richcontent>
@@ -68,7 +68,7 @@
       #select anchor with img tag @StackOverflow
     </p>
     <p>
-      <font color="#0033cc">selenium.click(&quot;//a[@title='Click for the Manual Class LOV']/img&quot;);</font>
+      <font color="#0033cc">selenium.click("//a[@title='Click for the Manual Class LOV']/img");</font>
     </p>
   </body>
 </html></richcontent>
@@ -80,7 +80,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>test frieds</b></font>&#160;selectors
+      <font color="#009999"><b>test frieds</b></font>&#xa0;selectors
     </p>
   </body>
 </html></richcontent>
@@ -92,13 +92,13 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">SO</font></b>&#160;take screenshots
+      <b><font color="#009999">SO</font></b>&#xa0;take screenshots
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1362500889427" FOLDED="true" ID="ID_184281649" MODIFIED="1369301551440" POSITION="left" TEXT="drivers">
+<node CREATED="1362500889427" FOLDED="true" ID="ID_184281649" MODIFIED="1383146757652" POSITION="left" TEXT="drivers">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362500893489" ID="ID_860721704" LINK="https://code.google.com/p/chromedriver/" MODIFIED="1362500898184" TEXT="google chrome"/>
 <node CREATED="1362505030415" ID="ID_321420415" LINK="http://code.google.com/p/selenium/wiki/InternetExplorerDriver" MODIFIED="1362505041625" TEXT="internet Explorer"/>
@@ -119,7 +119,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>SO</b></font>&#160;-D firefox profile
+      <font color="#009999"><b>SO</b></font>&#xa0;-D firefox profile
     </p>
   </body>
 </html></richcontent>
@@ -136,7 +136,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">automatictestter</font></b>&#160;custom firefox profiles
+      <b><font color="#009999">automatictestter</font></b>&#xa0;custom firefox profiles
     </p>
   </body>
 </html></richcontent>
@@ -149,7 +149,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">phz.fi</font></b>&#160;ff file download
+      <b><font color="#009999">phz.fi</font></b>&#xa0;ff file download
     </p>
   </body>
 </html></richcontent>
@@ -163,7 +163,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">google-code</font></b>&#160;tips &amp; tricks
+      <b><font color="#009999">google-code</font></b>&#xa0;tips &amp; tricks
     </p>
   </body>
 </html></richcontent>
@@ -179,7 +179,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>SO</b></font>&#160;custom profile
+      <font color="#009999"><b>SO</b></font>&#xa0;custom profile
     </p>
   </body>
 </html></richcontent>
@@ -211,7 +211,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">Sauce Lab</font></b>&#160;blog
+      <b><font color="#009999">Sauce Lab</font></b>&#xa0;blog
     </p>
   </body>
 </html></richcontent>
@@ -224,7 +224,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>mestachs.WP</b></font>&#160;best pracitses
+      <font color="#009999"><b>mestachs.WP</b></font>&#xa0;best pracitses
     </p>
   </body>
 </html></richcontent>
@@ -239,7 +239,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">google-code</font></b>&#160;selenium&#160;
+      <b><font color="#009999">google-code</font></b>&#xa0;selenium&#xa0;
     </p>
   </body>
 </html></richcontent>
@@ -272,7 +272,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>SO</b></font>&#160;set custom ff profile
+      <font color="#009999"><b>SO</b></font>&#xa0;set custom ff profile
     </p>
   </body>
 </html></richcontent>
@@ -285,7 +285,7 @@
   </head>
   <body>
     <p>
-      <b>github</b>&#160;facebook/webdriver
+      <b>github</b>&#xa0;facebook/webdriver
     </p>
   </body>
 </html></richcontent>
@@ -296,7 +296,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">SO</font></b>&#160;change ff profile
+      <b><font color="#009999">SO</font></b>&#xa0;change ff profile
     </p>
   </body>
 </html></richcontent>
@@ -308,11 +308,10 @@
   </head>
   <body>
     <p>
-      <b>github</b>&#160;element-34
+      <b>github</b>&#xa0;element-34
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

@@ -1,8 +1,8 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#006699" CREATED="1356437366236" ID="ID_1690554490" LINK="../Index.mm" MODIFIED="1361879742034" TEXT="QA">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1361879742021" ID="ID_1568052229" MODIFIED="1378899306851" POSITION="right" TEXT="Learn">
+<node CREATED="1361879742021" ID="ID_1568052229" MODIFIED="1383150340528" POSITION="right" TEXT="Learn">
 <node CREATED="1356437553324" ID="ID_1638441621" LINK="http://istqb.org/" MODIFIED="1356437577574" TEXT="ISTQB"/>
 <node CREATED="1368633308331" FOLDED="true" ID="ID_1450676961" MODIFIED="1378899330678" TEXT="patterns">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -31,7 +31,7 @@
 <node CREATED="1368633764443" ID="ID_609701801" MODIFIED="1368633765658" TEXT="xUnit Test Patterns: Refactoring Test Code"/>
 </node>
 </node>
-<node CREATED="1361878157495" FOLDED="true" ID="ID_1954151142" MODIFIED="1378899302283" POSITION="left" TEXT="UI">
+<node CREATED="1361878157495" FOLDED="true" ID="ID_1954151142" MODIFIED="1383150333642" POSITION="left" TEXT="UI">
 <node CREATED="1362156937205" ID="ID_327147454" LINK="QA/Selenium.mm" MODIFIED="1362156937206" TEXT="Selenium"/>
 <node CREATED="1363193756256" ID="ID_1318407635" LINK="http://www.autoitscript.com/site/autoit/" MODIFIED="1363193764353" TEXT="AutoitScript"/>
 <node CREATED="1363350370142" ID="ID_556506093" LINK="http://watir.com/" MODIFIED="1363350373264" TEXT="Watir"/>
@@ -43,7 +43,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">Sikuli script</font>&#160;</b>uses <b><font color="#0033ff">python</font></b>&#160;and has <b><font color="#0033ff">java</font></b>&#160; api
+      <b><font color="#009999">Sikuli script</font>&#xa0;</b>uses <b><font color="#0033ff">python</font></b>&#xa0;and has <b><font color="#0033ff">java</font></b>&#xa0; api
     </p>
   </body>
 </html></richcontent>
@@ -90,8 +90,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1378896057447" ID="ID_1426046147" MODIFIED="1379072465196" POSITION="left" TEXT="manage">
-<node COLOR="#009999" CREATED="1378896064445" ID="ID_506121364" LINK="http://www.gurock.com/testrail/" MODIFIED="1378896957545" TEXT="test rail">
+<node CREATED="1378896057447" FOLDED="true" ID="ID_1426046147" MODIFIED="1383150338096" POSITION="left" TEXT="manage">
+<node COLOR="#009999" CREATED="1378896064445" FOLDED="true" ID="ID_506121364" LINK="http://www.gurock.com/testrail/" MODIFIED="1383150335868" TEXT="test rail">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1379072478312" ID="ID_1854810197" LINK="http://docs.gurock.com/testrail-api2/start" MODIFIED="1379072552477" TEXT="api docs"/>
 <node CREATED="1379072553868" ID="ID_1128318432" LINK="http://docs.gurock.com/testrail-api/start" MODIFIED="1379073258755" TEXT="old api docs"/>
@@ -129,7 +129,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1378898551272" ID="ID_1964484641" MODIFIED="1379072466613" POSITION="left" TEXT="tools">
+<node CREATED="1378898551272" FOLDED="true" ID="ID_1964484641" MODIFIED="1383150338491" POSITION="left" TEXT="tools">
 <node COLOR="#0033ff" CREATED="1378898484717" FOLDED="true" ID="ID_1692998594" LINK="www.soapui.org/" MODIFIED="1379072268410" TEXT="soapUI">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1378898534869" ID="ID_1313242903" LINK="http://www.soapui.org/REST-Testing/getting-started.html" MODIFIED="1378898540161" TEXT="rest testing"/>
@@ -144,7 +144,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>so</b></font>&#160;rest
+      <font color="#009999"><b>so</b></font>&#xa0;rest
     </p>
   </body>
 </html></richcontent>
