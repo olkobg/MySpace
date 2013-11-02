@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1363347987174" TEXT="MacOS">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -51,10 +51,18 @@
 <node CREATED="1381165283782" ID="ID_983746521" LINK="https://developer.apple.com/library/ios/design/index.html#//apple_ref/doc/uid/TP40013289" MODIFIED="1381165296314" TEXT="ui guidelines"/>
 </node>
 </node>
-<node CREATED="1343289776094" FOLDED="true" ID="ID_1441127359" MODIFIED="1360702168274" POSITION="left" TEXT="NFS">
+<node CREATED="1383317457031" ID="ID_1533319353" MODIFIED="1383317458224" POSITION="right" TEXT="apps">
+<node CREATED="1383317471926" ID="ID_1044769603" MODIFIED="1383317479473" TEXT="safary">
+<node CREATED="1383317480686" ID="ID_821115825" LINK="http://browsers.about.com/od/s5/a/safarishortcuts.htm" MODIFIED="1383317491245" TEXT="shortcuts"/>
+</node>
+</node>
+<node CREATED="1383382735381" ID="ID_320566450" MODIFIED="1383382737695" POSITION="right" TEXT="sshfs">
+<node CREATED="1383382738892" ID="ID_828449256" LINK="http://www.read-write.fr/blog/blog/2012/02/26/my-guide-for-sshfs/" MODIFIED="1383382750058" TEXT="read-write"/>
+</node>
+<node CREATED="1343289776094" FOLDED="true" ID="ID_1441127359" MODIFIED="1383382733847" POSITION="left" TEXT="NFS">
 <node CREATED="1343289833275" ID="ID_1038036597" LINK="http://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" MODIFIED="1343289839791" TEXT="article"/>
 </node>
-<node CREATED="1360702155057" FOLDED="true" ID="ID_830285801" MODIFIED="1360702168036" POSITION="left" TEXT="vpn">
+<node CREATED="1360702155057" FOLDED="true" ID="ID_830285801" MODIFIED="1383382732519" POSITION="left" TEXT="vpn">
 <node CREATED="1360702158290" ID="ID_922360138" LINK="http://www.lobotomo.com/products/IPSecuritas/" MODIFIED="1360702165805" TEXT="IPSecuritas"/>
 </node>
 </node>

@@ -1,19 +1,20 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1380410078521" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1383345175205" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<b><font color="#cc0033">Debian</font></b>) in most cases
+      (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1375456034039" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
@@ -28,7 +29,7 @@
                 </head>
                 <body>
                   <p>
-                    grub rescue&gt; set prefix=(hd0,x)/boot/grub<br />grub rescue&gt; insmod (hd0,x)/boot/grub/normal.mod<br />rescue:grub&gt; normal
+                    grub rescue&gt; set prefix=(hd0,x)/boot/grub<br/>grub rescue&gt; insmod (hd0,x)/boot/grub/normal.mod<br/>rescue:grub&gt; normal
                   </p>
                 </body>
               </html></richcontent>
@@ -94,7 +95,7 @@
                   2 through 5 (various multi-user modes),
                 </p>
                 <p>
-                  6 (reboot the system).&#160;
+                  6 (reboot the system).&#xa0;
                 </p>
               </body>
             </html></richcontent>
@@ -117,19 +118,19 @@
                 </head>
                 <body>
                   <p>
-                    To free pagecache:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#0033ff">echo 1 &gt; /proc/sys/vm/drop_caches </font>
+                    To free pagecache:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <font color="#0033ff">echo 1 &gt; /proc/sys/vm/drop_caches </font>
                   </p>
                   <p>
-                    To free dentries and inodes:&#160;&#160;<font color="#0033ff">echo 2 &gt; /proc/sys/vm/drop_caches </font>
+                    To free dentries and inodes:&#xa0;&#xa0;<font color="#0033ff">echo 2 &gt; /proc/sys/vm/drop_caches </font>
                   </p>
                   <p>
-                    To free all previous :&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#0033ff">echo 3 &gt; /proc/sys/vm/drop_caches</font>
+                    To free all previous :&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <font color="#0033ff">echo 3 &gt; /proc/sys/vm/drop_caches</font>
                   </p>
                   <p>
 
                   </p>
                   <p>
-                    <font color="#0033ff">sysctl <b>vm.drop_caches</b>&#160;= 1</font>
+                    <font color="#0033ff">sysctl <b>vm.drop_caches</b>&#xa0;= 1</font>
                   </p>
                 </body>
               </html></richcontent>
@@ -173,7 +174,7 @@
             </head>
             <body>
               <p>
-                <b>init_opts</b>&#160;<font color="#000000">// pass params to init</font>
+                <b>init_opts</b>&#xa0;<font color="#000000">// pass params to init</font>
               </p>
             </body>
           </html></richcontent>
@@ -196,7 +197,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1380411065562" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1383345280318" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -209,7 +210,7 @@
               </head>
               <body>
                 <p>
-                  $&#160;<b>rsync</b>&#160;-av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/&#160;&#160;
+                  $&#xa0;<b>rsync</b>&#xa0;-av -e ssh username@oldserverhost:/home/old_home/ /home/new_home/&#xa0;&#xa0;
                 </p>
               </body>
             </html></richcontent>
@@ -237,7 +238,7 @@
                 </head>
                 <body>
                   <p>
-                    $ <b>iconv</b>&#160;-f windows-1252 -t utf-8 infile &gt; outfile&#160;
+                    $ <b>iconv</b>&#xa0;-f windows-1252 -t utf-8 infile &gt; outfile&#xa0;
                   </p>
                 </body>
               </html></richcontent>
@@ -261,22 +262,22 @@
             </head>
             <body>
               <p>
-                <font color="#009999"><b>so</b></font><font color="#000000">&#160;colorize</font>
+                <font color="#009999"><b>so</b></font><font color="#000000">&#xa0;colorize</font>
               </p>
             </body>
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1380411065120" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1383345280316" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1380411064064" TEXT="mount ">
+<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1383345280314" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296834787690" ID="ID_1333431511" MODIFIED="1380365473028" TEXT="iso image">
 <node COLOR="#0033ff" CREATED="1296834809060" ID="ID_638641727" MODIFIED="1315938374860" TEXT="mount -o loop disk1.iso /mnt/disk"/>
 </node>
-<node CREATED="1304068264056" FOLDED="true" ID="ID_1628728647" MODIFIED="1380365481390" TEXT="Fuse">
+<node CREATED="1304068264056" FOLDED="true" ID="ID_1628728647" MODIFIED="1383345280312" TEXT="Fuse">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296835246684" FOLDED="true" ID="ID_1630461938" MODIFIED="1364753381841" TEXT="sshfs">
+<node COLOR="#0033ff" CREATED="1296835246684" ID="ID_1630461938" MODIFIED="1383345275174" TEXT="sshfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1301326157345" ID="ID_882527601" LINK="http://andre.frimberger.de/index.php/linux/sshfs-fix-for-wrong-file-permissions-on-server/" MODIFIED="1301327963972" TEXT="patch server with perm "/>
 <node COLOR="#0033ff" CREATED="1296835255924" ID="ID_196855364" MODIFIED="1355996351910">
@@ -286,7 +287,7 @@
                   </head>
                   <body>
                     <p>
-                      <b>sshfs</b>&#160;username@server:&lt;dir&gt; &lt;mount_point&gt;
+                      <b>sshfs</b>&#xa0;username@server:&lt;dir&gt; &lt;mount_point&gt;
                     </p>
                   </body>
                 </html></richcontent>
@@ -311,10 +312,10 @@
       #mount
     </p>
     <p>
-      <font color="#0033ff">$ convmvfs /ftp/pub_gbk -o srcdir=/ftp/pub, icharset=utf8,ocharset=gbk</font><br />
+      <font color="#0033ff">$ convmvfs /ftp/pub_gbk -o srcdir=/ftp/pub, icharset=utf8,ocharset=gbk</font><br/>
     </p>
     <p>
-      # unmount&#160;<br /><font color="#0033ff">$ fusermount -u /ftp/pub_gbk</font>
+      # unmount&#xa0;<br/><font color="#0033ff">$ fusermount -u /ftp/pub_gbk</font>
     </p>
   </body>
 </html></richcontent>
@@ -329,7 +330,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff">$&#160;mount -t hfs -o loop'/home/joh/Desktop/Alumin Fortis.dmg' /macdisk</font>
+      <font color="#0033ff">$&#xa0;mount -t hfs -o loop'/home/joh/Desktop/Alumin Fortis.dmg' /macdisk</font>
     </p>
   </body>
 </html></richcontent>
@@ -356,7 +357,7 @@
       Extracting 2.hfs
     </p>
     <p>
-      Extracting 3.free&#160;&#160;
+      Extracting 3.free&#xa0;&#xa0;
     </p>
     <p>
       # Then it was only a matter of issuing
@@ -412,7 +413,7 @@
   </head>
   <body>
     <p>
-      # fstab samba mount record&#160;&#160;<br /># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#160;&#160;&#160;&#160;&#160;/&lt;mount point&gt;&#160;&#160;&#160;&#160;cifs&#160;&#160;&#160;&#160;&#160;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#160;&#160;&#160;&#160;0 0&#160;<br /># <b>cifs</b>&#160;- fs type&#160;<b>_netdev</b>&#160;- wait for network will be available, <b>uid</b>-current&#160;unix user, <b>user </b>used to connect to share<br /><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#160;&#160;cifs&#160;&#160;&#160;user=olkobg,_netdev,uid=mike 0 0</font>
+      # fstab samba mount record&#xa0;&#xa0;<br/># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/&lt;mount point&gt;&#xa0;&#xa0;&#xa0;&#xa0;cifs&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#xa0;&#xa0;&#xa0;&#xa0;0 0&#xa0;<br/># <b>cifs</b>&#xa0;- fs type&#xa0;<b>_netdev</b>&#xa0;- wait for network will be available, <b>uid</b>-current&#xa0;unix user, <b>user </b>used to connect to share<br/><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#xa0;&#xa0;cifs&#xa0;&#xa0;&#xa0;user=olkobg,_netdev,uid=mike 0 0</font>
     </p>
   </body>
 </html></richcontent>
@@ -428,13 +429,13 @@
   </head>
   <body>
     <p>
-      # bind path into antoher path&#160;<br /># olddir stay the same<br /><font color="#0000ff">$&#160;mount --bind olddier newdir</font>
+      # bind path into antoher path&#xa0;<br/># olddir stay the same<br/><font color="#0000ff">$&#xa0;mount --bind olddier newdir</font>
     </p>
     <p>
       
     </p>
     <p>
-      # rebind all subdirs recursively<br /><font color="#0000ff">$ mount -r --rbind locationA locationB</font>
+      # rebind all subdirs recursively<br/><font color="#0000ff">$ mount -r --rbind locationA locationB</font>
     </p>
   </body>
 </html></richcontent>
@@ -501,7 +502,7 @@
               </head>
               <body>
                 <p>
-                  <b>tree</b>&#160;-f -i -N oaza_video/
+                  <b>tree</b>&#xa0;-f -i -N oaza_video/
                 </p>
               </body>
             </html></richcontent>
@@ -516,7 +517,7 @@
               </head>
               <body>
                 <p>
-                  <font color="#009999"><b>so</b></font>&#160;multiple links
+                  <font color="#009999"><b>so</b></font>&#xa0;multiple links
                 </p>
               </body>
             </html></richcontent>
@@ -537,7 +538,7 @@
                   # it should be escaped in term <b>\!</b>
                 </p>
                 <p>
-                  <font color="#0033ff">$&#160;<b>find</b>&#160;. <b>\!</b>&#160;-user foo -print</font>
+                  <font color="#0033ff">$&#xa0;<b>find</b>&#xa0;. <b>\!</b>&#xa0;-user foo -print</font>
                 </p>
               </body>
             </html></richcontent>
@@ -558,7 +559,7 @@
       <font color="#0033ff">$ ls -la<b>t </b></font>
     </p>
     <p>
-      <font color="#000000">#reverse order with -<b>&#160;r </b></font>
+      <font color="#000000">#reverse order with -<b>&#xa0;r </b></font>
     </p>
     <p>
       <font color="#0033ff">$ ls -la<b>rt</b></font>
@@ -579,7 +580,7 @@
           </head>
           <body>
             <p>
-              <font color="#009999"><b>icydog</b></font>&#160;rename
+              <font color="#009999"><b>icydog</b></font>&#xa0;rename
             </p>
           </body>
         </html></richcontent>
@@ -637,7 +638,7 @@
                 </head>
                 <body>
                   <p>
-                    get key <b><font color="#0033ff">buntu</font></b>&#160;<b>ppa</b>
+                    get key <b><font color="#0033ff">buntu</font></b>&#xa0;<b>ppa</b>
                   </p>
                 </body>
               </html></richcontent>
@@ -651,7 +652,7 @@
                       # importing key for ppa repo from ubuntu into debian
                     </p>
                     <p>
-                      <b><font color="#0033ff">gpg</font></b><font color="#0033ff">&#160;--ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.18b85lA90Z --trustdb-name /etc/apt//trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-automatic.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-stable.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-wheezy-automatic.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-wheezy-stable.gpg --keyserver keyserver.ubuntu.com --recv-keys <b>5FFFCB6756E761C2</b></font>
+                      <b><font color="#0033ff">gpg</font></b><font color="#0033ff">&#xa0;--ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.18b85lA90Z --trustdb-name /etc/apt//trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-automatic.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-stable.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-wheezy-automatic.gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-wheezy-stable.gpg --keyserver keyserver.ubuntu.com --recv-keys <b>5FFFCB6756E761C2</b></font>
                     </p>
                   </body>
                 </html></richcontent>
@@ -779,13 +780,13 @@
                 <font color="#0033cc">for file in `ls pdb*.ent` </font>
               </p>
               <p>
-                <font color="#0033cc">do&#160;&#160;&#160;&#160; </font>
+                <font color="#0033cc">do&#xa0;&#xa0;&#xa0;&#xa0; </font>
               </p>
               <p>
-                <font color="#0033cc">&#160;&#160;&#160;&#160;new_name=`echo $file | sed 's/^pdb//;s/.ent/.txt/'`&#160;&#160;&#160;&#160; </font>
+                <font color="#0033cc">&#xa0;&#xa0;&#xa0;&#xa0;new_name=`echo $file | sed 's/^pdb//;s/.ent/.txt/'`&#xa0;&#xa0;&#xa0;&#xa0; </font>
               </p>
               <p>
-                <font color="#0033cc">&#160;&#160;&#160;&#160;mv $file $new_name </font>
+                <font color="#0033cc">&#xa0;&#xa0;&#xa0;&#xa0;mv $file $new_name </font>
               </p>
               <p>
                 <font color="#0033cc">done</font>
@@ -803,13 +804,13 @@
                 # removing spaces
               </p>
               <p>
-                <b># NB: </b>be carefull: there special invisible characters like spaces &#160;which don't belong to space class
+                <b># NB: </b>be carefull: there special invisible characters like spaces &#xa0;which don't belong to space class
               </p>
               <p>
                 # output only <b>mlj_xmap_sitemap.sql</b>
               </p>
               <p>
-                <font color="#0033ff">$ echo &quot;mlj_xmap_sitemap.sql&#160;&#160;&#160;&#160;&quot; | <b>sed 's/ //g' </b></font>
+                <font color="#0033ff">$ echo "mlj_xmap_sitemap.sql&#xa0;&#xa0;&#xa0;&#xa0;" | <b>sed 's/ //g' </b></font>
               </p>
             </body>
           </html></richcontent>
@@ -832,7 +833,7 @@
                 # create alias for grep to output color
               </p>
               <p>
-                <font color="#0000ff">$ <b>alias</b>&#160;grep='grep --color'</font>
+                <font color="#0000ff">$ <b>alias</b>&#xa0;grep='grep --color'</font>
               </p>
             </body>
           </html></richcontent>
@@ -847,7 +848,7 @@
                 #unalias command
               </p>
               <p>
-                <font color="#0000ff">$ <b>unalias</b>&#160;grep</font>
+                <font color="#0000ff">$ <b>unalias</b>&#xa0;grep</font>
               </p>
             </body>
           </html></richcontent>
@@ -883,7 +884,7 @@
                   # change group for current user
                 </p>
                 <p>
-                  <b><font color="#0033ff">$ newgrp&#160;</font></b><font color="#0033ff">my-fav-group</font>
+                  <b><font color="#0033ff">$ newgrp&#xa0;</font></b><font color="#0033ff">my-fav-group</font>
                 </p>
               </body>
             </html></richcontent>
@@ -900,10 +901,10 @@
                 # change username name uid
               </p>
               <p>
-                <font color="#0033cc">$usermod&#160;<b>-u UID</b>&#160;username</font>
+                <font color="#0033cc">$usermod&#xa0;<b>-u UID</b>&#xa0;username</font>
               </p>
               <p>
-                # change username login-name&#160;<br /><font color="#0033cc">$ usermod <b>-l login-name</b>&#160; old-name</font>
+                # change username login-name&#xa0;<br/><font color="#0033cc">$ usermod <b>-l login-name</b>&#xa0; old-name</font>
               </p>
             </body>
           </html></richcontent>
@@ -923,7 +924,7 @@
       # debian package libav-tools
     </p>
     <p>
-      <font color="#0033ff">$ <b>avprobe</b>&#160;./video_file.ogv</font>
+      <font color="#0033ff">$ <b>avprobe</b>&#xa0;./video_file.ogv</font>
     </p>
   </body>
 </html></richcontent>
@@ -940,7 +941,7 @@
             </head>
             <body>
               <p>
-                <font color="#009999"><b>tuxfiles:</b></font>&#160;keyboard commads
+                <font color="#009999"><b>tuxfiles:</b></font>&#xa0;keyboard commads
               </p>
             </body>
           </html></richcontent>
@@ -973,19 +974,19 @@
                   <tr>
                     <td>
                       <p>
-                        <font face="Verdana, Arial, Helvetica" color="#800000">helo &lt;your domain name&gt;&lt;enter&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font face="Verdana, Arial, Helvetica" color="#008000"><br />response should be as follows<br />250 OK</font>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">helo &lt;your domain name&gt;&lt;enter&gt;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</font><font face="Verdana, Arial, Helvetica" color="#008000"><br/>response should be as follows<br/>250 OK</font>
                       </p>
                       <p>
-                        <font face="Verdana, Arial, Helvetica" color="#800000">mail from: &lt;your Email Address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK - mail from &lt;your Email address&gt;</font>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">mail from: &lt;your Email Address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br/></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br/>250 OK - mail from &lt;your Email address&gt;</font>
                       </p>
                       <p>
-                        <font face="Verdana, Arial, Helvetica" color="#800000">rcpt to: &lt;recipient address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK - Recipient &lt;recipient address&gt;</font>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">rcpt to: &lt;recipient address&gt;&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br/></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br/>250 OK - Recipient &lt;recipient address&gt;</font>
                       </p>
                       <p>
-                        <font face="Verdana, Arial, Helvetica" color="#800000">data&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />354 Send data.&#160;&#160;End with CRLF.CRLF</font>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">data&lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br/></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br/>354 Send data.&#xa0;&#xa0;End with CRLF.CRLF</font>
                       </p>
                       <p>
-                        <font face="Verdana, Arial, Helvetica" color="#800000">To: &lt;recipient's display name&gt;&lt;enter&gt;<br />From: &lt;your display name&gt;&lt;enter&gt;<br />Subject: &lt;Subject field of Email message&gt;&lt;enter&gt;<br />&lt;Enter you body text&gt;&lt;enter&gt;&lt;enter&gt; . &lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br /></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br />250 OK</font>
+                        <font face="Verdana, Arial, Helvetica" color="#800000">To: &lt;recipient's display name&gt;&lt;enter&gt;<br/>From: &lt;your display name&gt;&lt;enter&gt;<br/>Subject: &lt;Subject field of Email message&gt;&lt;enter&gt;<br/>&lt;Enter you body text&gt;&lt;enter&gt;&lt;enter&gt; . &lt;enter&gt;</font><font face="Verdana, Arial, Helvetica" color="#FF0000"><br/></font><font face="Verdana, Arial, Helvetica" color="#008000">response should be as follows<br/>250 OK</font>
                       </p>
                       <p>
                         <font face="Verdana, Arial, Helvetica" color="#800000">quit&lt;enter&gt;</font>
@@ -995,7 +996,7 @@
                 </table>
               </center>
             </div>
-            <font face="Verdana, Arial, Helvetica"><br class="Apple-interchange-newline" />
+            <font face="Verdana, Arial, Helvetica"><br class="Apple-interchange-newline"/>
           </font>
         </body>
       </html></richcontent>
@@ -1014,7 +1015,7 @@
             </head>
             <body>
               <p>
-                <b>tmpfs</b>&#160;- ram filesystem stores data in volatile memory&#160;
+                <b>tmpfs</b>&#xa0;- ram filesystem stores data in volatile memory&#xa0;
               </p>
             </body>
           </html></richcontent>
@@ -1040,7 +1041,7 @@
                   defailt umask = 022
                 </p>
                 <p>
-                  new filer permission = f_perm - umask = 0666 - 0022 = 0644 &#160;
+                  new filer permission = f_perm - umask = 0666 - 0022 = 0644 &#xa0;
                 </p>
                 <p>
                   new filer permission = f_perm - umask = 0666 - 0022 = 0755
@@ -1081,14 +1082,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1382458977413" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1383345273844" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1370509206796" TEXT="editors">
+<node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1383345273843" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1310045237421" ID="ID_645437345" LINK="../Cross/vim.mm" MODIFIED="1356098130650" TEXT="vim">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1300896078435" FOLDED="true" ID="ID_22135888" MODIFIED="1358701535675" TEXT="gedit">
+<node COLOR="#0033ff" CREATED="1300896078435" FOLDED="true" ID="ID_22135888" MODIFIED="1383345273841" TEXT="gedit">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1300896080539" ID="ID_969341565" MODIFIED="1300896236268" TEXT="gtksourceview">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1098,9 +1099,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1301319734575" ID="ID_225274347" MODIFIED="1301319750309" TEXT="gedit+sshfs">
+<node CREATED="1301319734575" ID="ID_225274347" MODIFIED="1383345271495" STYLE="fork" TEXT="gedit+sshfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1301319750934" ID="ID_721938946" LINK="http://ubuntuforums.org/showthread.php?t=1624776" MODIFIED="1301319764035" TEXT="cant save solution"/>
+<node CREATED="1301319750934" ID="ID_721938946" LINK="http://ubuntuforums.org/showthread.php?t=1624776" MODIFIED="1383345271495" TEXT="cant save solution"/>
 </node>
 <node CREATED="1307093843844" ID="ID_476962927" LINK="http://j4mie.org/blog/javascript-syntax-checking-from-gedit/" MODIFIED="1307093857215" TEXT="JSlint for javascript">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1134,7 +1135,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">wiki</font></b>&#160;archlinux
+      <b><font color="#009999">wiki</font></b>&#xa0;archlinux
     </p>
   </body>
 </html></richcontent>
@@ -1197,7 +1198,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>launchpad</b></font><b>&#160;</b>kazam
+      <font color="#009999"><b>launchpad</b></font><b>&#xa0;</b>kazam
     </p>
   </body>
 </html></richcontent>
@@ -1218,7 +1219,7 @@
                 </head>
                 <body>
                   <p>
-                    <b><font color="#009999">SO</font></b>&#160;install instead iceweasel
+                    <b><font color="#009999">SO</font></b>&#xa0;install instead iceweasel
                   </p>
                 </body>
               </html></richcontent>
@@ -1237,8 +1238,7 @@
       <font color="#0033ff">$ trickle -s -u 10 -d 0 /usr/bin/spotify</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1278,7 +1278,7 @@
                   # check version availability
                 </p>
                 <p>
-                  <font color="#0033ff">$ apt-cache<b>&#160;showpkg</b>&#160;subversion-tools</font>
+                  <font color="#0033ff">$ apt-cache<b>&#xa0;showpkg</b>&#xa0;subversion-tools</font>
                 </p>
                 <p>
                   #install
@@ -1310,7 +1310,7 @@
                   # show files in package
                 </p>
                 <p>
-                  <font color="#0033ff">apt-file <b>list</b>&#160;&lt;package name&gt;</font>
+                  <font color="#0033ff">apt-file <b>list</b>&#xa0;&lt;package name&gt;</font>
                 </p>
               </body>
             </html></richcontent>
@@ -1325,7 +1325,7 @@
               </head>
               <body>
                 <p>
-                  <b><font color="#009999">github</font></b>&#160;gnome-weather-indicator
+                  <b><font color="#009999">github</font></b>&#xa0;gnome-weather-indicator
                 </p>
               </body>
             </html></richcontent>
@@ -1338,7 +1338,7 @@
               </head>
               <body>
                 <p>
-                  <b><font color="#009999">webupd</font></b>&#160;nixnote
+                  <b><font color="#009999">webupd</font></b>&#xa0;nixnote
                 </p>
               </body>
             </html></richcontent>
@@ -1356,7 +1356,7 @@
               </head>
               <body>
                 <p>
-                  $ <b>dpkg-buildpackage</b>&#160;-rfakeroot -uc -b&#160;
+                  $ <b>dpkg-buildpackage</b>&#xa0;-rfakeroot -uc -b&#xa0;
                 </p>
               </body>
             </html></richcontent>
@@ -1392,7 +1392,7 @@
               <font color="#000000"># mark bluetooth device as trusted</font>
             </p>
             <p>
-              <font color="#0033ff">$ bluez-test-device <b>trusted</b>&#160;xx:xx:xx:xx:xx <b>yes</b></font>
+              <font color="#0033ff">$ bluez-test-device <b>trusted</b>&#xa0;xx:xx:xx:xx:xx <b>yes</b></font>
             </p>
           </body>
         </html></richcontent>
@@ -1407,7 +1407,7 @@
               <font color="#000000"># connect device with terminal</font>
             </p>
             <p>
-              <font color="#0033ff">$ bluez-simple-agent <b>hci0</b>&#160;xx:xx:xx:xx:xx&#160;</font>
+              <font color="#0033ff">$ bluez-simple-agent <b>hci0</b>&#xa0;xx:xx:xx:xx:xx&#xa0;</font>
             </p>
           </body>
         </html></richcontent>
@@ -1495,7 +1495,7 @@
         </head>
         <body>
           <p>
-            <font color="#000000">&#160;# get the address(es) for yahoo.com</font>
+            <font color="#000000">&#xa0;# get the address(es) for yahoo.com</font>
           </p>
           <p>
             $ dig yahoo.com A +noall +answer
@@ -1598,7 +1598,7 @@
               # adding tunner config
             </p>
             <p>
-              <font color="#0033ff">ipsec auto &#8211;&#8211;add sonicwall</font>
+              <font color="#0033ff">ipsec auto &#x2013;&#x2013;add sonicwall</font>
             </p>
           </body>
         </html></richcontent>
@@ -1613,7 +1613,7 @@
               # if tunnel config changed
             </p>
             <p>
-              <font color="#0033ff">ipsec auto &#8211;&#8211;replace sonicwall</font>
+              <font color="#0033ff">ipsec auto &#x2013;&#x2013;replace sonicwall</font>
             </p>
           </body>
         </html></richcontent>
@@ -1628,7 +1628,7 @@
               # initiate tunnel
             </p>
             <p>
-              <font color="#0033ff">ipsec whack &#8211;&#8211;name sonicwall &#8211;&#8211;initiate</font>
+              <font color="#0033ff">ipsec whack &#x2013;&#x2013;name sonicwall &#x2013;&#x2013;initiate</font>
             </p>
           </body>
         </html></richcontent>
@@ -1643,7 +1643,7 @@
               # stopping tunnel
             </p>
             <p>
-              <font color="#0033ff">ipsec whack &#8211;&#8211;name sonicwall &#8211;&#8211;terminate</font>
+              <font color="#0033ff">ipsec whack &#x2013;&#x2013;name sonicwall &#x2013;&#x2013;terminate</font>
             </p>
           </body>
         </html></richcontent>
@@ -1698,7 +1698,7 @@
   </head>
   <body>
     <p>
-      # fstab samba mount record&#160;&#160;<br /># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#160;&#160;&#160;&#160;&#160;/&lt;mount point&gt;&#160;&#160;&#160;&#160;cifs&#160;&#160;&#160;&#160;&#160;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#160;&#160;&#160;&#160;0 0&#160;<br /># <b>cifs</b>&#160;- fs type&#160;<b>_netdev</b>&#160;- wait for network will be available, <b>uid</b>-current&#160;unix user, <b>user </b>used to connect to share<br /><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#160;&#160;cifs&#160;&#160;&#160;user=olkobg,_netdev,uid=mike 0 0</font>
+      # fstab samba mount record&#xa0;&#xa0;<br/># format //&lt;IP address of NAS box 192.168.x.y&gt;/&lt;shared folder&gt;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/&lt;mount point&gt;&#xa0;&#xa0;&#xa0;&#xa0;cifs&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;guest,_netdev,uid=&lt;your user name on Linux box&gt;&#xa0;&#xa0;&#xa0;&#xa0;0 0&#xa0;<br/># <b>cifs</b>&#xa0;- fs type&#xa0;<b>_netdev</b>&#xa0;- wait for network will be available, <b>uid</b>-current&#xa0;unix user, <b>user </b>used to connect to share<br/><font color="#0033cc">//192.168.2.100/share /mnt/oneterra&#xa0;&#xa0;cifs&#xa0;&#xa0;&#xa0;user=olkobg,_netdev,uid=mike 0 0</font>
     </p>
   </body>
 </html></richcontent>
@@ -1715,7 +1715,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">gist</font></b>&#160;7 init script
+      <b><font color="#009999">gist</font></b>&#xa0;7 init script
     </p>
   </body>
 </html></richcontent>
@@ -1760,7 +1760,7 @@
       </head>
       <body>
         <p>
-          <font color="#0033ff"><b>Xorg</b>&#160;-configure</font>
+          <font color="#0033ff"><b>Xorg</b>&#xa0;-configure</font>
         </p>
       </body>
     </html></richcontent>
@@ -1772,7 +1772,7 @@
       </head>
       <body>
         <p>
-          <font color="#cc0066"><b>Debian</b></font>&#160;wiki
+          <font color="#cc0066"><b>Debian</b></font>&#xa0;wiki
         </p>
       </body>
     </html></richcontent>
@@ -1791,7 +1791,7 @@
           </head>
           <body>
             <p>
-              look into&#160;<b>XKB</b>
+              look into&#xa0;<b>XKB</b>
             </p>
           </body>
         </html></richcontent>
@@ -1838,7 +1838,7 @@
           </head>
           <body>
             <p>
-              <font color="#009999"><b>se</b></font>&#160;config
+              <font color="#009999"><b>se</b></font>&#xa0;config
             </p>
           </body>
         </html></richcontent>
@@ -1854,7 +1854,7 @@
         </head>
         <body>
           <p>
-            <b><font color="#0000ff">xmodmap</font></b>&#160;modify mapping
+            <b><font color="#0000ff">xmodmap</font></b>&#xa0;modify mapping
           </p>
         </body>
       </html></richcontent>

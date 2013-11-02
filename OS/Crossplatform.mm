@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1380119805428" TEXT="CrossOS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
@@ -44,7 +44,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">alt236</font></b>&#160;run calibre server
+      <b><font color="#009999">alt236</font></b>&#xa0;run calibre server
     </p>
   </body>
 </html></richcontent>
@@ -56,7 +56,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">linuxserver2011</font></b>&#160;run calibre server
+      <b><font color="#009999">linuxserver2011</font></b>&#xa0;run calibre server
     </p>
   </body>
 </html></richcontent>
@@ -71,7 +71,7 @@
       # command line calibre sever run
     </p>
     <p>
-      <font color="#0033ff">calibre-server &#8211;port 8080 &#8211;with-library C:\Users\Admin\Documents\Calibre\Nameofyourlibrary</font>
+      <font color="#0033ff">calibre-server &#x2013;port 8080 &#x2013;with-library C:\Users\Admin\Documents\Calibre\Nameofyourlibrary</font>
     </p>
   </body>
 </html></richcontent>
@@ -83,7 +83,7 @@
   </head>
   <body>
     <p>
-      opds url -&#160;&#160;<font color="#0033ff">http://&lt;device_ip&gt;:&lt;port_set_in_script&gt;/opds/&#160;&#160;</font>
+      opds url -&#xa0;&#xa0;<font color="#0033ff">http://&lt;device_ip&gt;:&lt;port_set_in_script&gt;/opds/&#xa0;&#xa0;</font>
     </p>
   </body>
 </html></richcontent>
@@ -91,7 +91,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1322654447149" FOLDED="true" ID="ID_1927839485" MODIFIED="1381704863507" POSITION="left" TEXT="Editor">
+<node COLOR="#0033ff" CREATED="1322654447149" FOLDED="true" ID="ID_1927839485" MODIFIED="1383317781059" POSITION="left" TEXT="Editor">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1322654449616" ID="ID_1624123020" LINK="Cross/vim.mm" MODIFIED="1322655239234" TEXT="Vim"/>
 <node CREATED="1348054382032" ID="ID_155321148" LINK="Cross/Sublime.mm" MODIFIED="1348054382033" TEXT="Sublime"/>
@@ -108,6 +108,65 @@
 <node COLOR="#cc3300" CREATED="1356528028749" FOLDED="true" ID="ID_1160034425" MODIFIED="1374074051339" POSITION="left" TEXT="Player">
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1356528038293" ID="ID_875794081" LINK="http://getsongbird.com/" MODIFIED="1356528045283" TEXT="songbird"/>
+</node>
+<node COLOR="#006699" CREATED="1361892302799" FOLDED="true" ID="ID_229964903" MODIFIED="1383313537056" POSITION="left" TEXT="Learn">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1361892314710" FOLDED="true" ID="ID_21108970" MODIFIED="1383313323244" TEXT="memory">
+<node CREATED="1362431431696" FOLDED="true" ID="ID_1908142474" MODIFIED="1383313322877" TEXT="flashcards">
+<node COLOR="#0033ff" CREATED="1361892320400" FOLDED="true" ID="ID_207583043" LINK="mnemosyne-proj.org" MODIFIED="1383313322242" TEXT="mnemosyne">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1361892328103" ID="ID_1576778765" MODIFIED="1383313320579">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b># directories where data stored&#xa0;</b><br/>
+    </p>
+    <p>
+      &#xa0;- Windows: C:\Users\&lt;your user name&gt;\Application Data\Mnemosyne&#xa0;<br/>&#xa0; - Linux: ~/.local/share/mnemosyne and ~/.config/mnemosyne/&#xa0;<br/>&#xa0;- OSX: ~/Library/Mnemosyne/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1361893069053" ID="ID_1402684216" MODIFIED="1361893102760">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b># config for linux</b>
+    </p>
+    <p>
+      ~/.local/share/mnemosyne
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1362431436881" ID="ID_108471204" LINK="ankisrs.net" MODIFIED="1362431474924" TEXT="Anki"/>
+<node COLOR="#009999" CREATED="1362431505275" ID="ID_1747168731" LINK="http://cram.com/" MODIFIED="1377263801690">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      flashcards db
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1359978119344" FOLDED="true" ID="ID_1590523028" MODIFIED="1379071951406" TEXT="books">
+<node CREATED="1359978155953" FOLDED="true" ID="ID_152877535" LINK="Cross/fun/Calibre.mm" MODIFIED="1379071950865" TEXT="Calibre">
+<node CREATED="1375830161247" ID="ID_1134605496" LINK="#ID_584895294" MODIFIED="1375830166978" TEXT="server"/>
+</node>
+</node>
 </node>
 <node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1380119805047" POSITION="left" TEXT="Development">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -189,72 +248,13 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>google-code</b></font>&#160;winetricks
+      <font color="#009999"><b>google-code</b></font>&#xa0;winetricks
     </p>
   </body>
 </html></richcontent>
 <node CREATED="1380113380398" ID="ID_1391638811" LINK="https://code.google.com/p/osxwinebuilder/wiki/WinetricksOnMacOSX" MODIFIED="1380113390618" TEXT="winetricks on max os x"/>
 </node>
 <node CREATED="1380113298453" ID="ID_493290352" LINK="https://code.google.com/p/osxwinebuilder/wiki/WinetricksOnMacOSX" MODIFIED="1380113307658" TEXT="osxwinebuilder"/>
-</node>
-</node>
-</node>
-<node COLOR="#006699" CREATED="1361892302799" FOLDED="true" ID="ID_229964903" MODIFIED="1379071973478" POSITION="left" TEXT="Learn">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1361892314710" FOLDED="true" ID="ID_21108970" MODIFIED="1379071859289" TEXT="memory">
-<node CREATED="1362431431696" FOLDED="true" ID="ID_1908142474" MODIFIED="1379071859020" TEXT="flashcards">
-<node COLOR="#0033ff" CREATED="1361892320400" FOLDED="true" ID="ID_207583043" LINK="mnemosyne-proj.org" MODIFIED="1362431490872" TEXT="mnemosyne">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1361892328103" ID="ID_1576778765" MODIFIED="1361892400041">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b># directories where data stored&#160;</b><br />
-    </p>
-    <p>
-      &#160;- Windows: C:\Users\&lt;your user name&gt;\Application Data\Mnemosyne&#160;<br />&#160; - Linux: ~/.local/share/mnemosyne and ~/.config/mnemosyne/&#160;<br />&#160;- OSX: ~/Library/Mnemosyne/
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1361893069053" ID="ID_1402684216" MODIFIED="1361893102760">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b># config for linux</b>
-    </p>
-    <p>
-      ~/.local/share/mnemosyne
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1362431436881" ID="ID_108471204" LINK="ankisrs.net" MODIFIED="1362431474924" TEXT="Anki"/>
-<node COLOR="#009999" CREATED="1362431505275" ID="ID_1747168731" LINK="http://cram.com/" MODIFIED="1377263801690">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      flashcards db
-    </p>
-  </body>
-</html></richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-<node CREATED="1359978119344" FOLDED="true" ID="ID_1590523028" MODIFIED="1379071951406" TEXT="books">
-<node CREATED="1359978155953" FOLDED="true" ID="ID_152877535" LINK="Cross/fun/Calibre.mm" MODIFIED="1379071950865" TEXT="Calibre">
-<node CREATED="1375830161247" ID="ID_1134605496" LINK="#ID_584895294" MODIFIED="1375830166978" TEXT="server"/>
 </node>
 </node>
 </node>
@@ -271,7 +271,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">github</font></b>&#160;supersonic
+      <b><font color="#009999">github</font></b>&#xa0;supersonic
     </p>
   </body>
 </html></richcontent>
@@ -317,7 +317,7 @@
   </head>
   <body>
     <p>
-      <b>mirror</b>&#160;url
+      <b>mirror</b>&#xa0;url
     </p>
   </body>
 </html></richcontent>

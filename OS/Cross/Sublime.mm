@@ -1,8 +1,8 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#006633" CREATED="1348054359883" ID="ID_1290849412" LINK="../Crossplatform.mm" MODIFIED="1381704746960" TEXT="Sublime">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1348054383724" FOLDED="true" ID="ID_1207364740" MODIFIED="1381704747646" POSITION="right" TEXT="plugins">
+<node CREATED="1348054383724" FOLDED="true" ID="ID_1207364740" MODIFIED="1383317652331" POSITION="right" TEXT="plugins">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1348054390991" FOLDED="true" ID="ID_789731113" MODIFIED="1381704088371" TEXT="work remote">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -14,7 +14,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">github</font></b>&#160;SublimeFileSync
+      <b><font color="#009999">github</font></b>&#xa0;SublimeFileSync
     </p>
   </body>
 </html></richcontent>
@@ -26,7 +26,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">github</font></b>&#160;SublimeRsyncer
+      <b><font color="#009999">github</font></b>&#xa0;SublimeRsyncer
     </p>
   </body>
 </html></richcontent>
@@ -38,7 +38,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">wbond</font></b>&#160;sftp
+      <b><font color="#009999">wbond</font></b>&#xa0;sftp
     </p>
   </body>
 </html></richcontent>
@@ -55,7 +55,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">wbond</font></b>&#160;Sublime Aligment
+      <b><font color="#009999">wbond</font></b>&#xa0;Sublime Aligment
     </p>
   </body>
 </html></richcontent>
@@ -78,7 +78,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">github</font></b>&#160;sublimeLinter
+      <b><font color="#009999">github</font></b>&#xa0;sublimeLinter
     </p>
   </body>
 </html></richcontent>
@@ -97,7 +97,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>so</b></font>&#160;reindent
+      <font color="#009999"><b>so</b></font>&#xa0;reindent
     </p>
   </body>
 </html></richcontent>
@@ -112,7 +112,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>github</b></font>&#160;BufferScrol
+      <font color="#009999"><b>github</b></font>&#xa0;BufferScrol
     </p>
   </body>
 </html></richcontent>
@@ -127,7 +127,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">github</font></b>&#160;<b><font color="#0033ff">sublime-phpunit</font></b>
+      <b><font color="#009999">github</font></b>&#xa0;<b><font color="#0033ff">sublime-phpunit</font></b>
     </p>
   </body>
 </html></richcontent>
@@ -140,7 +140,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">github</font></b>&#160;repo
+      <b><font color="#009999">github</font></b>&#xa0;repo
     </p>
   </body>
 </html></richcontent>
@@ -161,37 +161,37 @@
       <font color="#0033ff">{ </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&quot;folders&quot;: </font>
+      <font color="#0033ff">&#xa0;&#xa0;"folders": </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;[ </font>
+      <font color="#0033ff">&#xa0;&#xa0;[ </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;{ </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;{ </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;&#160;&quot;follow_symlinks&quot;: true, </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;"follow_symlinks": true, </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;&#160;&quot;path&quot;: &quot;api-tests&quot; </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;"path": "api-tests" </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;} </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;} </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;], </font>
+      <font color="#0033ff">&#xa0;&#xa0;], </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&quot;settings&quot;: </font>
+      <font color="#0033ff">&#xa0;&#xa0;"settings": </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;{ </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;{ </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;&#160;&quot;tab_size&quot;: 2, </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;"tab_size": 2, </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;} </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;} </font>
     </p>
     <p>
       <font color="#0033ff">} </font>
@@ -200,7 +200,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1382641620549" POSITION="left" TEXT="config">
+<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1383317771618" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355140000578" ID="ID_624009682" MODIFIED="1381704791242">
 <richcontent TYPE="NODE"><html>
@@ -215,25 +215,25 @@
       {
     </p>
     <p>
-      &quot;color_scheme&quot;: &quot;Packages/Color Scheme - Default/Twilight.tmTheme&quot;,
+      "color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
     </p>
     <p>
-      &quot;font_face&quot;: &quot;Monaco&quot;,
+      "font_face": "Monaco",
     </p>
     <p>
-      &quot;font_size&quot;: 10,
+      "font_size": 10,
     </p>
     <p>
-      &quot;tab_size&quot;: 2,
+      "tab_size": 2,
     </p>
     <p>
-      &quot;translate_tabs_to_spaces&quot;: true,
+      "translate_tabs_to_spaces": true,
     </p>
     <p>
-      &#160;&#160;&quot;word_wrap&quot;: true,
+      &#xa0;&#xa0;"word_wrap": true,
     </p>
     <p>
-      &#160;&#160;&quot;highlight_line&quot;: true
+      &#xa0;&#xa0;"highlight_line": true
     </p>
     <p>
       }
@@ -251,7 +251,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">sublime docs</font></b>&#160;intendation config
+      <b><font color="#009999">sublime docs</font></b>&#xa0;intendation config
     </p>
   </body>
 </html></richcontent>
@@ -266,13 +266,12 @@
       // set default line ending to 'unix'
     </p>
     <p>
-      <font color="#0033ff">&quot;default_line_ending&quot;: &quot;unix&quot;,</font>
+      <font color="#0033ff">"default_line_ending": "unix",</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1381704793268" ID="ID_474132999" MODIFIED="1381704857683">
+<node CREATED="1381704793268" ID="ID_474132999" MODIFIED="1383317769720">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -288,10 +287,20 @@
       <font color="#0033cc">$ ~/.config/sublime-text-3 </font>
     </p>
     <p>
-      <font color="#0033cc">$ ~/.config/sublime-text-2</font>
+      <font color="#0033cc">$ ~/.config/sublime-text-2 </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #mac
+    </p>
+    <p>
+      <font color="#0033cc">~/Library/Application Support/Sublime Text 3/</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1355495398680" ID="ID_348230933" LINK="http://sublimetext.info/docs/en/reference/key_bindings.html" MODIFIED="1355495411596" POSITION="left" TEXT="key binding">
@@ -318,13 +327,13 @@
       {
     </p>
     <p>
-      &#160;&#160;&#160;&quot;cmd&quot;: [&quot;/usr/bin/php&quot;, &quot;-l&quot;, &quot;$file&quot;],
+      &#xa0;&#xa0;&#xa0;"cmd": ["/usr/bin/php", "-l", "$file"],
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;selector&quot;: &quot;source.php&quot;,
+      &#xa0;&#xa0;&#xa0;&#xa0;"selector": "source.php",
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;file_regex&quot;: &quot;^Parse error: .* in (.*?) on line ([0-9]*)&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"file_regex": "^Parse error: .* in (.*?) on line ([0-9]*)"
     </p>
     <p>
       }
