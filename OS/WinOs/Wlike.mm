@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1294068915711" ID="ID_1460056684" LINK="../../Index.mm" MODIFIED="1357754481929" TEXT="Wlike">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
@@ -19,7 +19,7 @@
   </head>
   <body>
     <p>
-      Power Designer&#160;
+      Power Designer&#xa0;
     </p>
   </body>
 </html></richcontent>
@@ -42,7 +42,7 @@
       <font color="#000000"># add alias (short command)</font>
     </p>
     <p>
-      &gt; <b>doskey</b>&#160;subl=&quot;C:\Program Files\Sublime Text 2\sublime_text.exe&quot; $*
+      &gt; <b>doskey</b>&#xa0;subl="C:\Program Files\Sublime Text 2\sublime_text.exe" $*
     </p>
   </body>
 </html></richcontent>
@@ -58,7 +58,7 @@
   </head>
   <body>
     <p>
-      <b>attr</b>&#160;-H &lt;path&gt; /S /D
+      <b>attr</b>&#xa0;-H &lt;path&gt; /S /D
     </p>
   </body>
 </html></richcontent>
@@ -84,7 +84,7 @@
       <font color="#000000"># check port usage</font>
     </p>
     <p>
-      <font color="#0033ff"><b>netstat</b>&#160;-o -n -a | <b>findstr</b>&#160;0.0.0.0:80</font>
+      <font color="#0033ff"><b>netstat</b>&#xa0;-o -n -a | <b>findstr</b>&#xa0;0.0.0.0:80</font>
     </p>
   </body>
 </html></richcontent>
@@ -128,7 +128,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>robvanderwoude</b></font>&#160;adimin
+      <font color="#009999"><b>robvanderwoude</b></font>&#xa0;adimin
     </p>
   </body>
 </html></richcontent>
@@ -140,7 +140,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1332271525409" FOLDED="true" ID="ID_1805240172" MODIFIED="1373272382198" POSITION="left" TEXT="net">
+<node CREATED="1332271525409" FOLDED="true" ID="ID_1805240172" MODIFIED="1384358558983" POSITION="left" TEXT="net">
 <node CREATED="1332271520704" FOLDED="true" ID="ID_1446737362" MODIFIED="1373269205789" TEXT="IM">
 <node CREATED="1332271546349" ID="ID_910397175" LINK="Skype.mm" MODIFIED="1332271546351" TEXT="Skype"/>
 </node>

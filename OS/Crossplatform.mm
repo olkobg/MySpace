@@ -109,65 +109,6 @@
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1356528038293" ID="ID_875794081" LINK="http://getsongbird.com/" MODIFIED="1356528045283" TEXT="songbird"/>
 </node>
-<node COLOR="#006699" CREATED="1361892302799" FOLDED="true" ID="ID_229964903" MODIFIED="1383313537056" POSITION="left" TEXT="Learn">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1361892314710" FOLDED="true" ID="ID_21108970" MODIFIED="1383313323244" TEXT="memory">
-<node CREATED="1362431431696" FOLDED="true" ID="ID_1908142474" MODIFIED="1383313322877" TEXT="flashcards">
-<node COLOR="#0033ff" CREATED="1361892320400" FOLDED="true" ID="ID_207583043" LINK="mnemosyne-proj.org" MODIFIED="1383313322242" TEXT="mnemosyne">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1361892328103" ID="ID_1576778765" MODIFIED="1383313320579">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b># directories where data stored&#xa0;</b><br/>
-    </p>
-    <p>
-      &#xa0;- Windows: C:\Users\&lt;your user name&gt;\Application Data\Mnemosyne&#xa0;<br/>&#xa0; - Linux: ~/.local/share/mnemosyne and ~/.config/mnemosyne/&#xa0;<br/>&#xa0;- OSX: ~/Library/Mnemosyne/
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1361893069053" ID="ID_1402684216" MODIFIED="1361893102760">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b># config for linux</b>
-    </p>
-    <p>
-      ~/.local/share/mnemosyne
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1362431436881" ID="ID_108471204" LINK="ankisrs.net" MODIFIED="1362431474924" TEXT="Anki"/>
-<node COLOR="#009999" CREATED="1362431505275" ID="ID_1747168731" LINK="http://cram.com/" MODIFIED="1377263801690">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      flashcards db
-    </p>
-  </body>
-</html></richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-<node CREATED="1359978119344" FOLDED="true" ID="ID_1590523028" MODIFIED="1379071951406" TEXT="books">
-<node CREATED="1359978155953" FOLDED="true" ID="ID_152877535" LINK="Cross/fun/Calibre.mm" MODIFIED="1379071950865" TEXT="Calibre">
-<node CREATED="1375830161247" ID="ID_1134605496" LINK="#ID_584895294" MODIFIED="1375830166978" TEXT="server"/>
-</node>
-</node>
-</node>
 <node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1380119805047" POSITION="left" TEXT="Development">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1355149044983" FOLDED="true" ID="ID_1170115706" MODIFIED="1379072031956" TEXT="attention">
@@ -378,6 +319,65 @@
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1373272260894" FOLDED="true" ID="ID_599129076" MODIFIED="1373272276212" TEXT="disc encryption">
 <node CREATED="1373272267989" ID="ID_1702520692" LINK="http://www.truecrypt.org/" MODIFIED="1373272274271" TEXT="TrueCrypt"/>
+</node>
+</node>
+<node COLOR="#006699" CREATED="1361892302799" FOLDED="true" ID="ID_229964903" MODIFIED="1384358310382" POSITION="right" TEXT="Learn">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1361892314710" FOLDED="true" ID="ID_21108970" MODIFIED="1383313323244" TEXT="memory">
+<node CREATED="1362431431696" FOLDED="true" ID="ID_1908142474" MODIFIED="1383313322877" TEXT="flashcards">
+<node COLOR="#0033ff" CREATED="1361892320400" FOLDED="true" ID="ID_207583043" LINK="mnemosyne-proj.org" MODIFIED="1383313322242" TEXT="mnemosyne">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1361892328103" ID="ID_1576778765" MODIFIED="1383313320579">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b># directories where data stored&#xa0;</b><br/>
+    </p>
+    <p>
+      &#xa0;- Windows: C:\Users\&lt;your user name&gt;\Application Data\Mnemosyne&#xa0;<br/>&#xa0; - Linux: ~/.local/share/mnemosyne and ~/.config/mnemosyne/&#xa0;<br/>&#xa0;- OSX: ~/Library/Mnemosyne/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1361893069053" ID="ID_1402684216" MODIFIED="1361893102760">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b># config for linux</b>
+    </p>
+    <p>
+      ~/.local/share/mnemosyne
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1362431436881" ID="ID_108471204" LINK="ankisrs.net" MODIFIED="1362431474924" TEXT="Anki"/>
+<node COLOR="#009999" CREATED="1362431505275" ID="ID_1747168731" LINK="http://cram.com/" MODIFIED="1377263801690">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      flashcards db
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1359978119344" FOLDED="true" ID="ID_1590523028" MODIFIED="1379071951406" TEXT="books">
+<node CREATED="1359978155953" FOLDED="true" ID="ID_152877535" LINK="Cross/fun/Calibre.mm" MODIFIED="1379071950865" TEXT="Calibre">
+<node CREATED="1375830161247" ID="ID_1134605496" LINK="#ID_584895294" MODIFIED="1375830166978" TEXT="server"/>
+</node>
 </node>
 </node>
 </node>
