@@ -1,8 +1,8 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1380365716511" TEXT="git">
+<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1384966978130" TEXT="git">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1360702223921" POSITION="left" TEXT="Tips">
+<node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1384966862101" POSITION="left" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1311116129871" ID="ID_538447464" MODIFIED="1311116135869" TEXT="fix svn rebase">
 <node CREATED="1311116138985" ID="ID_1672421427" LINK="http://brandon.dimcheff.com/2009/01/04/commit-a-linear-git-history-to-subversion.html" MODIFIED="1311116151127" TEXT="site"/>
@@ -26,8 +26,21 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1384966760222" ID="ID_234619922" LINK="http://stackoverflow.com/questions/11574271/git-change-default-umask-when-update-file" MODIFIED="1384966849706">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>so</b></font>&#160;create umask only for git&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1375702514124" POSITION="left" TEXT="repository">
+</node>
+<node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1384966758548" POSITION="left" TEXT="repository">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297154051581" ID="ID_1278066541" MODIFIED="1297154057954" TEXT="online">
 <node CREATED="1297154058338" ID="ID_227546252" LINK="http://github.com/" MODIFIED="1297154079091" TEXT="gtihub"/>
@@ -59,7 +72,7 @@
       # Configure the repository for <b>group sharing</b>.
     </p>
     <p>
-      # This will effectively forcibly widen the umask for future Git operations.&#160;&#160;
+      # This will effectively forcibly widen the umask for future Git operations.&#xa0;&#xa0;
     </p>
     <p>
       
@@ -68,7 +81,7 @@
       <font color="#0033ff">$ cd /path/to/repository.git </font>
     </p>
     <p>
-      <font color="#0033ff">$ git config <b>core.sharedRepository</b>&#160;group&#160;</font>
+      <font color="#0033ff">$ git config <b>core.sharedRepository</b>&#xa0;group&#xa0;</font>
     </p>
   </body>
 </html></richcontent>
@@ -91,7 +104,7 @@
   </head>
   <body>
     <p>
-      <b>heroku</b>&#160;&amp; <b>github</b>
+      <b>heroku</b>&#xa0;&amp; <b>github</b>
     </p>
   </body>
 </html></richcontent>
@@ -112,7 +125,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff">git <b>merge</b>&#160;</font>&lt;branch name&gt;
+      <font color="#0033ff">git <b>merge</b>&#xa0;</font>&lt;branch name&gt;
     </p>
   </body>
 </html></richcontent>
@@ -133,10 +146,10 @@
   </head>
   <body>
     <p>
-      #get <b>their changes</b>&#160;during <b>commit</b>
+      #get <b>their changes</b>&#xa0;during <b>commit</b>
     </p>
     <p>
-      <font color="#0033ff">$ git checkout <b>--theirs</b>&#160;-- path/to/file.txt</font>
+      <font color="#0033ff">$ git checkout <b>--theirs</b>&#xa0;-- path/to/file.txt</font>
     </p>
   </body>
 </html></richcontent>
@@ -158,23 +171,14 @@
       <font color="#0000ff">$ git config --global merge.tool <b>araxism </b></font>
     </p>
     <p>
-      <font color="#0000ff">$<b>&#160;</b>git config --global mergetool.araxism.cmd <b>/cygdrive/c/Progs/Araxis/Araxis\ Merge/AraxisGitMerge.exe `cygpath -w $REMOTE` `cygpath -w $BASE` `cygpath -w $LOCAL` `cygpath -w $MERGED`</b></font>
+      <font color="#0000ff">$<b>&#xa0;</b>git config --global mergetool.araxism.cmd <b>/cygdrive/c/Progs/Araxis/Araxis\ Merge/AraxisGitMerge.exe `cygpath -w $REMOTE` `cygpath -w $BASE` `cygpath -w $LOCAL` `cygpath -w $MERGED`</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289405676416" FOLDED="true" ID="ID_487111464" MODIFIED="1357898687829" POSITION="right">
-<richcontent TYPE="NODE"><html>
-						  <head></head>
-						  <body>
-						    <p>
-						      branch
-						    </p>
-						  </body>
-						</html></richcontent>
+<node COLOR="#0033ff" CREATED="1289405676416" FOLDED="true" ID="ID_487111464" MODIFIED="1384966937420" POSITION="right" TEXT="branch&#x9;&#x9;&#x9;&#x9;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311116426704" ID="ID_1992506106" MODIFIED="1311116529907" TEXT="work with branches (w/o params - show)"/>
 <node COLOR="#0033ff" CREATED="1289405689541" ID="ID_1296640732" MODIFIED="1355754835803" TEXT="-a">
@@ -192,7 +196,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>-d</b></font>&#160;&lt;branch name&gt;
+      <font color="#0033ff"><b>-d</b></font>&#xa0;&lt;branch name&gt;
     </p>
   </body>
 </html></richcontent>
@@ -205,7 +209,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>-D</b></font>&#160;&lt;branch name&gt;
+      <font color="#0033ff"><b>-D</b></font>&#xa0;&lt;branch name&gt;
     </p>
   </body>
 </html></richcontent>
@@ -221,13 +225,13 @@
       <b><font color="#000000"># </font></b><font color="#000000">renames branch</font>
     </p>
     <p>
-      <b><font color="#0033ff">-m</font></b>&#160;&lt;old branch name&gt; &lt;new branch name&gt;
+      <b><font color="#0033ff">-m</font></b>&#xa0;&lt;old branch name&gt; &lt;new branch name&gt;
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289405808665" FOLDED="true" ID="ID_616427300" MODIFIED="1357898687402" POSITION="right" TEXT="checkout">
+<node COLOR="#0033ff" CREATED="1289405808665" FOLDED="true" ID="ID_616427300" MODIFIED="1384966938788" POSITION="right" TEXT="checkout">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1289405820303" ID="ID_594507726" MODIFIED="1356609866573">
 <richcontent TYPE="NODE"><html>
@@ -236,16 +240,16 @@
   </head>
   <body>
     <p>
-      # crates <b>new</b>&#160;<b><font color="#000000">branch</font></b>&#160;from current with <b>&lt;new branch name&gt;</b>&#160;and <b><font color="#000000">checkout</font>s</b>&#160;that <font color="#000000">branch</font>
+      # crates <b>new</b>&#xa0;<b><font color="#000000">branch</font></b>&#xa0;from current with <b>&lt;new branch name&gt;</b>&#xa0;and <b><font color="#000000">checkout</font>s</b>&#xa0;that <font color="#000000">branch</font>
     </p>
     <p>
-      <b><font color="#0033ff">-b</font></b>&#160;<b>&lt;new branch name&gt;</b>
+      <b><font color="#0033ff">-b</font></b>&#xa0;<b>&lt;new branch name&gt;</b>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1347009889048" FOLDED="true" ID="ID_650238942" MODIFIED="1357898687050" POSITION="right" TEXT="cherry-pick">
+<node COLOR="#0033ff" CREATED="1347009889048" FOLDED="true" ID="ID_650238942" MODIFIED="1384966939580" POSITION="right" TEXT="cherry-pick">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347010475104" ID="ID_42985000" MODIFIED="1347010510044" TEXT="insert commit (via sha) from other branches into current branch"/>
 </node>
@@ -261,13 +265,13 @@
   </head>
   <body>
     <p>
-      # if you need <b>update</b>&#160;previous commit (after <font color="#0033ff"><b>push</b></font>&#160;were made)<br /># make changes --=&gt; <font color="#0033ff">git commit --amend</font><br />
+      # if you need <b>update</b>&#xa0;previous commit (after <font color="#0033ff"><b>push</b></font>&#xa0;were made)<br/># make changes --=&gt; <font color="#0033ff">git commit --amend</font><br/>
     </p>
     <p>
       # and add plus (<font color="#0033ff"><b>+</b></font>) sing before branches names
     </p>
     <p>
-      <font color="#0033cc">git push &lt;repos&gt;&#160;</font><font color="#0033cc" size="5"><b>+</b></font><font color="#0033cc">&lt;branch_name&gt;:&lt;branch_name&gt;</font>
+      <font color="#0033cc">git push &lt;repos&gt;&#xa0;</font><font color="#0033cc" size="5"><b>+</b></font><font color="#0033cc">&lt;branch_name&gt;:&lt;branch_name&gt;</font>
     </p>
   </body>
 </html></richcontent>
@@ -310,7 +314,7 @@
   </head>
   <body>
     <p>
-      git <b>reset</b>&#160;README
+      git <b>reset</b>&#xa0;README
     </p>
   </body>
 </html></richcontent>
@@ -324,10 +328,10 @@
   </head>
   <body>
     <p>
-      # also <b>removes files</b>&#160;from curent working directory
+      # also <b>removes files</b>&#xa0;from curent working directory
     </p>
     <p>
-      <font color="#0033ff">git reset <b>--hard</b>&#160;HEAD</font>
+      <font color="#0033ff">git reset <b>--hard</b>&#xa0;HEAD</font>
     </p>
   </body>
 </html></richcontent>
@@ -351,7 +355,7 @@
       # Leave the index intact for redoing the commit
     </p>
     <p>
-      <font color="#0033ff">git reset <b>--soft</b>&#160;HEAD@{1}</font>&#160;
+      <font color="#0033ff">git reset <b>--soft</b>&#xa0;HEAD@{1}</font>&#xa0;
     </p>
     <p>
       
@@ -372,13 +376,13 @@
       
     </p>
     <p>
-      <font color="#000000"># <b>NB</b>&#160;if not workin look into </font>
+      <font color="#000000"># <b>NB</b>&#xa0;if not workin look into </font>
     </p>
     <p>
       <font color="#0033ff">git reflog</font>
     </p>
     <p>
-      #and replace <font color="#0033ff">HEAD@{1}</font>&#160;with equivalent <b>commit hash</b>
+      #and replace <font color="#0033ff">HEAD@{1}</font>&#xa0;with equivalent <b>commit hash</b>
     </p>
   </body>
 </html></richcontent>
@@ -391,7 +395,7 @@
 <node COLOR="#0033ff" CREATED="1357900732315" ID="ID_1954485470" LINK="http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html" MODIFIED="1357900750975" POSITION="left" TEXT="rev-parse">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1355755723037" FOLDED="true" ID="ID_1772285910" MODIFIED="1375709950276" POSITION="left" TEXT="show">
+<node COLOR="#0033ff" CREATED="1355755723037" FOLDED="true" ID="ID_1772285910" MODIFIED="1384966982163" POSITION="left" TEXT="show">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357921040713" ID="ID_516186076" MODIFIED="1357921091267">
 <richcontent TYPE="NODE"><html>
@@ -400,13 +404,13 @@
   </head>
   <body>
     <p>
-      #There are a lot of ways you can specify commits:&#160;&#160;
+      #There are a lot of ways you can specify commits:&#xa0;&#xa0;
     </p>
     <p>
       # Great grandparent
     </p>
     <p>
-      <b><font color="#0033ff">git show</font></b><font color="#0033ff">&#160;HEAD~3</font>
+      <b><font color="#0033ff">git show</font></b><font color="#0033ff">&#xa0;HEAD~3</font>
     </p>
   </body>
 </html></richcontent>
@@ -418,13 +422,13 @@
   </head>
   <body>
     <p>
-      # Prior commits work something like this:&#160;&#160;&#160;
+      # Prior commits work something like this:&#xa0;&#xa0;&#xa0;
     </p>
     <p>
       # Parent of HEAD
     </p>
     <p>
-      <b><font color="#0033ff">git show</font></b><font color="#0033ff">&#160;HEAD^1</font>
+      <b><font color="#0033ff">git show</font></b><font color="#0033ff">&#xa0;HEAD^1</font>
     </p>
   </body>
 </html></richcontent>
@@ -439,23 +443,24 @@
       # Grandparent
     </p>
     <p>
-      <b><font color="#0033ff">git show</font></b><font color="#0033ff">&#160;HEAD^2</font>
+      <b><font color="#0033ff">git show</font></b><font color="#0033ff">&#xa0;HEAD^2</font>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1288956281435" FOLDED="true" ID="ID_605132199" MODIFIED="1357898686783" POSITION="right">
+<node COLOR="#0033ff" CREATED="1288956281435" FOLDED="true" ID="ID_605132199" MODIFIED="1384966943621" POSITION="right">
 <richcontent TYPE="NODE"><html>
-						  <head>
-						    
-						  </head>
-						  <body>
-						    <p>
-						      clone
-						    </p>
-						  </body>
-						</html></richcontent>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      clone
+    </p>
+  </body>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1289985835351" ID="ID_409390105" MODIFIED="1355755054957">
 <richcontent TYPE="NODE"><html>
@@ -464,14 +469,14 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff">git <b>clone</b></font>&#160;http://github.com/olko/MySpace.git
+      <font color="#0033ff">git <b>clone</b></font>&#xa0;http://github.com/olko/MySpace.git
     </p>
   </body>
 </html></richcontent>
 <node CREATED="1311116995886" ID="ID_1201055592" MODIFIED="1355755076672" TEXT="clones git repo"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1360749021183" POSITION="right" TEXT="commit">
+<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1384966944980" POSITION="right" TEXT="commit">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1329936168498" ID="ID_311420569" MODIFIED="1355755030767" TEXT="--amend">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -486,23 +491,23 @@
   </head>
   <body>
     <p>
-      to make <b>empty</b>&#160;commit with <b>message</b>
+      to make <b>empty</b>&#xa0;commit with <b>message</b>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1380366214134" POSITION="right" TEXT="config">
+<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1384966960491" POSITION="right" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1380366053475" ID="ID_1009881573" MODIFIED="1380366208842">
+<node CREATED="1380366053475" ID="ID_1009881573" MODIFIED="1384966957076">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      # config gloabal settings which stored at <b><font color="#0000ff">~/.gitconfig </font></b><font color="#000000">use: </font>
+      # config gloabal settings which stored at <font color="#0000ff"><b>~/.gitconfig </b></font><font color="#000000">use: </font>
     </p>
     <p>
       <font color="#0000ff">$ git config --global</font>
@@ -523,7 +528,7 @@
       # show list of configurations:
     </p>
     <p>
-      <font color="#0000ff">$ git configl --llst</font>
+      <font color="#0000ff">$ git config --llst</font>
     </p>
   </body>
 </html>
@@ -540,7 +545,7 @@
       # change merge tool
     </p>
     <p>
-      <font color="#0033ff">git <b>config</b>&#160;merge.tool &lt;tool&gt;</font>
+      <font color="#0033ff">git <b>config</b>&#xa0;merge.tool &lt;tool&gt;</font>
     </p>
   </body>
 </html></richcontent>
@@ -565,7 +570,7 @@
       <font color="#0033ff">[core] </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;pager = less -FXRS -x4</font>
+      <font color="#0033ff">&#xa0;pager = less -FXRS -x4</font>
     </p>
   </body>
 </html></richcontent>
@@ -586,14 +591,14 @@
       <font color="#0033ff">... </font>
     </p>
     <p>
-      <font color="#0033ff">renamelimit&#160;&#160;= 4000 </font><font color="#000000">#value could be other</font>
+      <font color="#0033ff">renamelimit&#xa0;&#xa0;= 4000 </font><font color="#000000">#value could be other</font>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1313572779285" FOLDED="true" ID="ID_896395638" MODIFIED="1380366212319" POSITION="right" TEXT="diff">
+<node COLOR="#0033ff" CREATED="1313572779285" FOLDED="true" ID="ID_896395638" MODIFIED="1384966962691" POSITION="right" TEXT="diff">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313572795090" ID="ID_631869903" MODIFIED="1356609456775">
 <richcontent TYPE="NODE"><html>
@@ -636,7 +641,7 @@
       # Current branch, diff between commits 2 and 3 times back
     </p>
     <p>
-      <font color="#0033ff">git diff&#160;<b>HEAD~3 HEAD~2</b></font>
+      <font color="#0033ff">git diff&#xa0;<b>HEAD~3 HEAD~2</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -651,7 +656,7 @@
       # Current branch vs. parent
     </p>
     <p>
-      <font color="#0033ff">git diff&#160;<b>HEAD^ HEAD</b></font>
+      <font color="#0033ff">git diff&#xa0;<b>HEAD^ HEAD</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -678,7 +683,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>SO</b></font>&#160;stash diff
+      <font color="#009999"><b>SO</b></font>&#xa0;stash diff
     </p>
   </body>
 </html></richcontent>
@@ -691,14 +696,14 @@
   <body>
     <pre style="vertical-align: baseline; color: rgb(0, 0, 0); background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; text-transform: none; padding-top: 5px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 10px; font-weight: normal; padding-left: 5px; text-align: left; font-variant: normal; word-spacing: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; letter-spacing: normal; margin-top: 0px; line-height: 18px; background-image: initial; margin-left: 0px; padding-bottom: 5px; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; font-style: normal; text-indent: 0px; border-color: black; background-position: initial initial" http-equiv="content-type" content="text/html; charset=utf-8"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3"><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial">$ git diff stash@{0}^1 stash@{0} -- &lt;filename&gt;</code></font></pre>
     <p style="clear: both; vertical-align: baseline; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; text-transform: none; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0; font-weight: normal; padding-left: 0px; text-align: left; font-variant: normal; word-spacing: 0px; margin-right: 0px; background-attachment: scroll; white-space: normal; border-left-width: 0px; font-size: 14px; letter-spacing: normal; margin-top: 0px; line-height: 18px; background-image: initial; margin-left: 0px; padding-bottom: 0px; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; font-style: normal; text-indent: 0px; border-color: black; background-position: initial initial">
-      <font size="3">Explanation:&#160;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">stash@{0}^1</font></code><font size="3">&#160;shortcut means first parent of given stash, which as stated in explanation above is commit at which changes were stashed away. We use this form of &quot;git diff&quot; (with two commits) because&#160;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">stash@{0}</font></code><font size="3">&#160;/&#160;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">refs/stash</font></code><font size="3">&#160;is a merge commit, and we have to tell git which parent we diff againts. More cryptic: </font>
+      <font size="3">Explanation:&#xa0;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">stash@{0}^1</font></code><font size="3">&#xa0;shortcut means first parent of given stash, which as stated in explanation above is commit at which changes were stashed away. We use this form of "git diff" (with two commits) because&#xa0;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">stash@{0}</font></code><font size="3">&#xa0;/&#xa0;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">refs/stash</font></code><font size="3">&#xa0;is a merge commit, and we have to tell git which parent we diff againts. More cryptic: </font>
     </p>
     <pre style="vertical-align: baseline; color: rgb(0, 0, 0); background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; text-transform: none; padding-top: 5px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 10px; font-weight: normal; padding-left: 5px; text-align: left; font-variant: normal; word-spacing: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; letter-spacing: normal; margin-top: 0px; line-height: 18px; background-image: initial; margin-left: 0px; padding-bottom: 5px; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; font-style: normal; text-indent: 0px; border-color: black; background-position: initial initial"><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">$ git diff stash@{0}^! -- &lt;filename&gt;</font></code></pre>
     <p style="clear: both; vertical-align: baseline; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; text-transform: none; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0; font-weight: normal; padding-left: 0px; text-align: left; font-variant: normal; word-spacing: 0px; margin-right: 0px; background-attachment: scroll; white-space: normal; border-left-width: 0px; font-size: 14px; letter-spacing: normal; margin-top: 0px; line-height: 18px; background-image: initial; margin-left: 0px; padding-bottom: 0px; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; font-style: normal; text-indent: 0px; border-color: black; background-position: initial initial">
-      <font size="3">should also work (see&#160;</font><a style="vertical-align: baseline; color: rgb(74, 107, 130); padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; text-decoration: none; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial" rel="nofollow" href="http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html"><font color="rgb(74, 107, 130)" size="3">git rev-parse</font></a><font size="3">&#160;manpage for explanation of&#160;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">rev^!</font></code><font size="3">&#160;syntax, in &quot;Specifying ranges&quot; section). </font>
+      <font size="3">should also work (see&#xa0;</font><a style="vertical-align: baseline; color: rgb(74, 107, 130); padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; text-decoration: none; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial" rel="nofollow" href="http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html"><font color="rgb(74, 107, 130)" size="3">git rev-parse</font></a><font size="3">&#xa0;manpage for explanation of&#xa0;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">rev^!</font></code><font size="3">&#xa0;syntax, in "Specifying ranges" section). </font>
     </p>
     <p style="clear: both; vertical-align: baseline; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; text-transform: none; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0; font-weight: normal; padding-left: 0px; text-align: left; font-variant: normal; word-spacing: 0px; margin-right: 0px; background-attachment: scroll; white-space: normal; border-left-width: 0px; font-size: 14px; letter-spacing: normal; margin-top: 0px; line-height: 18px; background-image: initial; margin-left: 0px; padding-bottom: 0px; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; font-style: normal; text-indent: 0px; border-color: black; background-position: initial initial">
-      <font size="3">Likewise, you can use&#160;</font><a style="vertical-align: baseline; color: rgb(74, 107, 130); padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; text-decoration: none; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial" rel="nofollow" href="http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html"><font color="rgb(74, 107, 130)" size="3">git checkout</font></a><font size="3">&#160;to check a single file out of the stash: </font>
+      <font size="3">Likewise, you can use&#xa0;</font><a style="vertical-align: baseline; color: rgb(74, 107, 130); padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; text-decoration: none; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial" rel="nofollow" href="http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html"><font color="rgb(74, 107, 130)" size="3">git checkout</font></a><font size="3">&#xa0;to check a single file out of the stash: </font>
     </p>
     <pre style="vertical-align: baseline; color: rgb(0, 0, 0); background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; text-transform: none; padding-top: 5px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 10px; font-weight: normal; padding-left: 5px; text-align: left; font-variant: normal; word-spacing: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; letter-spacing: normal; margin-top: 0px; line-height: 18px; background-image: initial; margin-left: 0px; padding-bottom: 5px; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; font-style: normal; text-indent: 0px; border-color: black; background-position: initial initial"><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">$ git checkout stash@{0} -- &lt;filename&gt;</font></code></pre>
     <p style="clear: both; vertical-align: baseline; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; text-transform: none; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0; font-weight: normal; padding-left: 0px; text-align: left; font-variant: normal; word-spacing: 0px; margin-right: 0px; background-attachment: scroll; white-space: normal; border-left-width: 0px; font-size: 14px; letter-spacing: normal; margin-top: 0px; line-height: 18px; background-image: initial; margin-left: 0px; padding-bottom: 0px; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; font-style: normal; text-indent: 0px; border-color: black; background-position: initial initial">
@@ -706,15 +711,16 @@
     </p>
     <pre style="vertical-align: baseline; color: rgb(0, 0, 0); background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; text-transform: none; padding-top: 5px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 10px; font-weight: normal; padding-left: 5px; text-align: left; font-variant: normal; word-spacing: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; letter-spacing: normal; margin-top: 0px; line-height: 18px; background-image: initial; margin-left: 0px; padding-bottom: 5px; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; font-style: normal; text-indent: 0px; border-color: black; background-position: initial initial"><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="3">$ git show stash@{0}:&lt;full filename&gt;  &gt;  &lt;newfile&gt;</font></code></pre>
     <p style="clear: both; vertical-align: baseline; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; text-transform: none; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0; font-weight: normal; padding-left: 0px; text-align: left; font-variant: normal; word-spacing: 0px; margin-right: 0px; background-attachment: scroll; white-space: normal; border-left-width: 0px; font-size: 14px; letter-spacing: normal; margin-top: 0px; line-height: 18px; background-image: initial; margin-left: 0px; padding-bottom: 0px; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; font-style: normal; text-indent: 0px; border-color: black; background-position: initial initial">
-      <font size="3">(</font><i><em style="vertical-align: baseline; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; font-style: italic; border-color: black; background-position: initial initial"><font size="14px">note</font></em></i><font size="3">&#160;that here &lt;full filename&gt; is full pathname of a file relative to top directory of a project (think: relative to&#160;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px">stash@{0}</font></code><font size="3">)). </font>
+      <font size="3">(</font><i><em style="vertical-align: baseline; padding-top: 0px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 0px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 0px; margin-left: 0px; background-image: initial; padding-right: 0px; background-repeat: repeat; border-bottom-width: 0px; font-style: italic; border-color: black; background-position: initial initial"><font size="14px">note</font></em></i><font size="3">&#xa0;that here &lt;full filename&gt; is full pathname of a file relative to top directory of a project (think: relative to&#xa0;</font><code style="vertical-align: baseline; background-color: rgb(238, 238, 238); font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; padding-top: 1px; border-right-width: 0px; border-top-width: 0px; margin-bottom: 0px; padding-left: 5px; margin-right: 0px; background-attachment: scroll; border-left-width: 0px; font-size: 14px; margin-top: 0px; padding-bottom: 1px; margin-left: 0px; background-image: initial; padding-right: 5px; background-repeat: repeat; border-bottom-width: 0px; border-color: black; background-position: initial initial"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px">stash@{0}</font></code><font size="3">)). </font>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355755727700" ID="ID_1356016314" MODIFIED="1357921195914" POSITION="left" TEXT="show-branch">
+<node COLOR="#0033ff" CREATED="1355755727700" FOLDED="true" ID="ID_1356016314" MODIFIED="1384966980643" POSITION="left" TEXT="show-branch">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1384949387499" ID="ID_186748251" MODIFIED="1384949454828" TEXT="$ git show-brach &lt;branch id&gt;"/>
 </node>
 <node COLOR="#0033ff" CREATED="1355755752961" ID="ID_54780593" MODIFIED="1357921195912" POSITION="left" TEXT="stage">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -733,7 +739,7 @@
       # get apply specified stash
     </p>
     <p>
-      <font color="#0033ff">git <b>stash</b>&#160;<b>apply</b>&#160;stash@{2}</font>
+      <font color="#0033ff">git <b>stash</b>&#xa0;<b>apply</b>&#xa0;stash@{2}</font>
     </p>
   </body>
 </html></richcontent>
@@ -821,7 +827,7 @@
 <node COLOR="#0033ff" CREATED="1356611047333" ID="ID_814792527" MODIFIED="1358162327961" POSITION="right" TEXT="fetch">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1297153951399" FOLDED="true" ID="ID_1283764578" MODIFIED="1358162327959" POSITION="right" TEXT="init">
+<node COLOR="#0033ff" CREATED="1297153951399" FOLDED="true" ID="ID_1283764578" MODIFIED="1384966964987" POSITION="right" TEXT="init">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1288956268663" ID="ID_1358117005" MODIFIED="1289985873331" TEXT="init(initializes new branch in current directory)"/>
 <node COLOR="#0033ff" CREATED="1289985861297" ID="ID_283873597" MODIFIED="1355754962147">
@@ -844,13 +850,13 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff">git <b>init</b>&#160;--bare</font>&#160;&lt;git_rep_name&gt;<font color="#0033ff">.git</font>
+      <font color="#0033ff">git <b>init</b>&#xa0;--bare</font>&#xa0;&lt;git_rep_name&gt;<font color="#0033ff">.git</font>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116937609" FOLDED="true" ID="ID_701178819" MODIFIED="1375702474556" POSITION="right" TEXT="log">
+<node COLOR="#0033ff" CREATED="1311116937609" FOLDED="true" ID="ID_701178819" MODIFIED="1384966974075" POSITION="right" TEXT="log">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311116942074" ID="ID_1121532703" MODIFIED="1311116950025" TEXT="show commit messages"/>
 <node COLOR="#0033ff" CREATED="1311116951586" ID="ID_1847534764" MODIFIED="1355754972172" TEXT="--graph">
@@ -875,7 +881,7 @@
   </head>
   <body>
     <p>
-      git log <b>--graph</b>&#160;--pretty=oneline --abbrev-commit
+      git log <b>--graph</b>&#xa0;--pretty=oneline --abbrev-commit
     </p>
   </body>
 </html></richcontent>
@@ -895,7 +901,7 @@
   </head>
   <body>
     <p>
-      # output last <b>N</b>&#160;messages
+      # output last <b>N</b>&#xa0;messages
     </p>
     <p>
       <font color="#0033ff">git <b>log -N</b></font>
