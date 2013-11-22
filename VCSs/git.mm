@@ -36,8 +36,7 @@
       <font color="#009999"><b>so</b></font>&#160;create umask only for git&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1384966758548" POSITION="left" TEXT="repository">
@@ -459,8 +458,7 @@
       clone
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1289985835351" ID="ID_409390105" MODIFIED="1355755054957">
 <richcontent TYPE="NODE"><html>
@@ -498,7 +496,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1384966960491" POSITION="right" TEXT="config">
+<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1385145605044" POSITION="right" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1380366053475" ID="ID_1009881573" MODIFIED="1384966957076">
 <richcontent TYPE="NODE"><html>
@@ -531,50 +529,11 @@
       <font color="#0000ff">$ git config --llst</font>
     </p>
   </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1380366033268" ID="ID_134535296" MODIFIED="1380366058080" TEXT="merge">
-<node CREATED="1289412013925" ID="ID_1715652734" MODIFIED="1356609564954">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # change merge tool
-    </p>
-    <p>
-      <font color="#0033ff">git <b>config</b>&#xa0;merge.tool &lt;tool&gt;</font>
-    </p>
-  </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1380366039152" ID="ID_1529737347" MODIFIED="1380366058069" TEXT="mergetool"/>
-<node CREATED="1316101111376" FOLDED="true" ID="ID_983038719" MODIFIED="1380366058063" TEXT="file">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1316101125350" ID="ID_970354881" MODIFIED="1370008774609">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # change paginator for diff
-    </p>
-    <p>
-      # currently paginator use 4 tabs to display text
-    </p>
-    <p>
-      <font color="#0033ff">[core] </font>
-    </p>
-    <p>
-      <font color="#0033ff">&#xa0;pager = less -FXRS -x4</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
+<node CREATED="1380366039152" ID="ID_1529737347" MODIFIED="1385145601244" TEXT="[mergetool]"/>
+<node CREATED="1316101111376" ID="ID_983038719" MODIFIED="1385145550773" TEXT="[merge]">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357920134455" ID="ID_1911421514" MODIFIED="1357920195307">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -595,6 +554,76 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1289412013925" ID="ID_1715652734" MODIFIED="1385145578327">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # change merge tool
+    </p>
+    <p>
+      <font color="#0033ff">git <b>config</b>&#xa0;merge.tool &lt;tool&gt;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1385145348468" ID="ID_1321814837" MODIFIED="1385145556668" TEXT="[core]">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1316101125350" ID="ID_970354881" MODIFIED="1385145356897">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # change paginator for diff
+    </p>
+    <p>
+      # currently paginator use 4 tabs to display text
+    </p>
+    <p>
+      <font color="#0033ff">[core] </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#xa0;pager = less -FXRS -x4</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1385145336724" ID="ID_1061527584" MODIFIED="1385145521403">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # git will not change file mode
+    </p>
+    <p>
+      <font color="#0033ff">[core] </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160; <b>filemode</b>&#160;= false</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # after you
+    </p>
+    <p>
+      <font color="#0033ff">$ git config <b>core.filemode</b>&#160;true</font>
+    </p>
+    <p>
+      # git will update only file mode
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -824,6 +853,25 @@
 <node COLOR="#0033ff" CREATED="1355755783133" ID="ID_1207555177" MODIFIED="1357921195906" POSITION="left" TEXT="tag">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#0033ff" CREATED="1385145142290" FOLDED="true" ID="ID_1869303427" MODIFIED="1385145271486" POSITION="left" TEXT="update-index">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1385145155543" ID="ID_550188301" MODIFIED="1385145267771">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # to modify index directly
+    </p>
+    <p>
+      <font color="#0033ff">$ git <b>update-index</b>&#160;--chmod=-x &lt;files&gt;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1356611047333" ID="ID_814792527" MODIFIED="1358162327961" POSITION="right" TEXT="fetch">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -956,6 +1004,36 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1385145751366" FOLDED="true" ID="ID_911651042" MODIFIED="1385146593819" POSITION="right" TEXT="tools">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1385145754821" FOLDED="true" ID="ID_1603193934" MODIFIED="1385146580507" TEXT="git-cache-meta">
+<node COLOR="#009999" CREATED="1385145763270" ID="ID_196127361" LINK="https://gist.github.com/andris9/1978266" MODIFIED="1385145844964" TEXT="github">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1385145770277" ID="ID_1657556937" LINK="http://stackoverflow.com/questions/13275000/can-anybody-explain-how-use-git-cache-meta" MODIFIED="1385145830405">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>so</b></font>&#160;how to use git-cache-meta
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1385145922335" FOLDED="true" ID="ID_512712085" MODIFIED="1385146582267" TEXT="git-meta-fs">
+<node COLOR="#009999" CREATED="1385145926983" ID="ID_641341685" LINK="https://github.com/dotdoom/git-meta-fs" MODIFIED="1385145937869" TEXT="github">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1385146520503" FOLDED="true" ID="ID_959292194" MODIFIED="1385146593203" TEXT="etckeeper">
+<node CREATED="1385146554186" ID="ID_304565552" MODIFIED="1385146555389" TEXT="- keep filer permission and other meta data in git repo"/>
+<node CREATED="1385146583769" ID="ID_135992842" LINK="http://joeyh.name/code/etckeeper/" MODIFIED="1385146591409" TEXT="link"/>
 </node>
 </node>
 </node>
