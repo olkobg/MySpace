@@ -146,7 +146,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1353338690297" FOLDED="true" ID="ID_1889510088" LINK="http://www.sublimetext.com/docs/2/projects.html" MODIFIED="1381704067875" POSITION="left" TEXT="projects">
+<node CREATED="1353338690297" FOLDED="true" ID="ID_1889510088" LINK="http://www.sublimetext.com/docs/2/projects.html" MODIFIED="1385462389183" POSITION="left" TEXT="projects">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1378980254553" ID="ID_1209766017" MODIFIED="1378980316184">
 <richcontent TYPE="NODE"><html>
@@ -200,7 +200,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1383317771618" POSITION="left" TEXT="config">
+<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1385462394535" POSITION="left" TEXT="config">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355140000578" ID="ID_624009682" MODIFIED="1381704791242">
 <richcontent TYPE="NODE"><html>
@@ -299,20 +299,22 @@
       <font color="#0033cc">~/Library/Application Support/Sublime Text 3/</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-</node>
-<node CREATED="1355495398680" ID="ID_348230933" LINK="http://sublimetext.info/docs/en/reference/key_bindings.html" MODIFIED="1355495411596" POSITION="left" TEXT="key binding">
+<node CREATED="1355495398680" ID="ID_348230933" LINK="http://sublimetext.info/docs/en/reference/key_bindings.html" MODIFIED="1385462347774" TEXT="key binding">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1358849060871" FOLDED="true" ID="ID_1548680707" MODIFIED="1381704059663" POSITION="left" TEXT="learn">
+<node CREATED="1385462352053" ID="ID_592665931" LINK="http://docs.sublimetext.info/en/latest/reference/key_bindings.html" MODIFIED="1385462380608" TEXT="user keybinding">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1358849060871" FOLDED="true" ID="ID_1548680707" MODIFIED="1385462397058" POSITION="left" TEXT="learn">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1358849063683" ID="ID_269352641" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/" MODIFIED="1358849073236" TEXT="nettuts">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1363106137025" FOLDED="true" ID="ID_1688653347" MODIFIED="1381704057982" POSITION="left" TEXT="build system">
+<node CREATED="1363106137025" FOLDED="true" ID="ID_1688653347" MODIFIED="1385462398316" POSITION="left" TEXT="build system">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1363106141257" ID="ID_1778669221" LINK="http://docs.sublimetext.info/en/latest/file_processing/build_systems.html" MODIFIED="1363106144444" TEXT="docs"/>
 <node CREATED="1352716591221" FOLDED="true" ID="ID_1252305111" LINK="http://joeybaker.tumblr.com/post/7304011987/how-to-add-php-validation-to-sublime-text-2" MODIFIED="1381704057704" TEXT="validate php">
