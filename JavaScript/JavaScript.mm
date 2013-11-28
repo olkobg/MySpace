@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1375978808264" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
@@ -40,7 +40,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>yahoo</b></font>&#160;mojito
+      <font color="#009999"><b>yahoo</b></font>&#xa0;mojito
     </p>
   </body>
 </html></richcontent>
@@ -109,7 +109,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>html5 rocks</b></font>&#160;compare
+      <font color="#009999"><b>html5 rocks</b></font>&#xa0;compare
     </p>
   </body>
 </html></richcontent>
@@ -143,7 +143,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>Stanford:</b></font>&#160;RSA algorithm
+      <font color="#009999"><b>Stanford:</b></font>&#xa0;RSA algorithm
     </p>
   </body>
 </html></richcontent>
@@ -174,10 +174,10 @@
   </head>
   <body>
     <p>
-      var fruits = [&quot;Banana&quot;, &quot;Orange&quot;, &quot;Apple&quot;, &quot;Mango&quot;];
+      var fruits = ["Banana", "Orange", "Apple", "Mango"];
     </p>
     <p>
-      fruits.<b>push</b>(&quot;Kiwi&quot;)
+      fruits.<b>push</b>("Kiwi")
     </p>
   </body>
 </html></richcontent>
@@ -194,19 +194,19 @@
       getUniqueValues = function (arr) {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;var hash = new Object();
+      &#xa0;&#xa0;&#xa0;&#xa0;var hash = new Object();
     </p>
     <p>
-      &#160;&#160;&#160;&#160;for (j = 0; j &lt; arr.length; j++) {hash[arr[j]] = true}
+      &#xa0;&#xa0;&#xa0;&#xa0;for (j = 0; j &lt; arr.length; j++) {hash[arr[j]] = true}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;var array = new Array();
+      &#xa0;&#xa0;&#xa0;&#xa0;var array = new Array();
     </p>
     <p>
-      &#160;&#160;&#160;&#160;for (value in hash) {array.push(value)};
+      &#xa0;&#xa0;&#xa0;&#xa0;for (value in hash) {array.push(value)};
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return array;
+      &#xa0;&#xa0;&#xa0;&#xa0;return array;
     </p>
     <p>
       }
@@ -308,7 +308,7 @@
   </head>
   <body>
     <p>
-      // copy of object&#160;refference
+      // copy of object&#xa0;refference
     </p>
     <p>
       var obj1 = obj
@@ -326,28 +326,28 @@
       // clone sample
     </p>
     <p>
-      Object.prototype.<b>clone</b>&#160;= function() {
+      Object.prototype.<b>clone</b>&#xa0;= function() {
     </p>
     <p>
-      &#160;&#160;var newObj = (this instanceof Array) ? [] : {};
+      &#xa0;&#xa0;var newObj = (this instanceof Array) ? [] : {};
     </p>
     <p>
-      &#160;&#160;for (i in this) {
+      &#xa0;&#xa0;for (i in this) {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if (i == 'clone') continue;
+      &#xa0;&#xa0;&#xa0;&#xa0;if (i == 'clone') continue;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if (this[i] &amp;&amp; typeof this[i] == &quot;object&quot;) {
+      &#xa0;&#xa0;&#xa0;&#xa0;if (this[i] &amp;&amp; typeof this[i] == "object") {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;newObj[i] = this[i].clone();
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;newObj[i] = this[i].clone();
     </p>
     <p>
-      &#160;&#160;&#160;&#160;} else newObj[i] = this[i]
+      &#xa0;&#xa0;&#xa0;&#xa0;} else newObj[i] = this[i]
     </p>
     <p>
-      &#160;&#160;} return newObj;
+      &#xa0;&#xa0;} return newObj;
     </p>
     <p>
       };
@@ -365,7 +365,7 @@
       // removing attribute
     </p>
     <p>
-      <b>delete</b>&#160;object.attribute.subattribute
+      <b>delete</b>&#xa0;object.attribute.subattribute
     </p>
   </body>
 </html></richcontent>
@@ -377,7 +377,7 @@
   </head>
   <body>
     <p>
-      has no <b>order</b>&#160;with its parameters
+      has no <b>order</b>&#xa0;with its parameters
     </p>
   </body>
 </html></richcontent>
@@ -414,7 +414,7 @@
       function isNumber(n) {
     </p>
     <p>
-      &#160;&#160;return !isNaN(parseFloat(n)) &amp;&amp; isFinite(n);
+      &#xa0;&#xa0;return !isNaN(parseFloat(n)) &amp;&amp; isFinite(n);
     </p>
     <p>
       }
@@ -458,91 +458,91 @@
       function clone(obj) {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;// Handle the 3 simple types, and null or undefined
+      &#xa0;&#xa0;&#xa0;&#xa0;// Handle the 3 simple types, and null or undefined
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if (null == obj || &quot;object&quot; != typeof obj) return obj;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;// Handle Date
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;if (obj instanceof Date) {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var copy = new Date();
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;copy.setTime(obj.getTime());
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return copy;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;if (null == obj || "object" != typeof obj) return obj;
     </p>
     <p>
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;// Handle Array
+      &#xa0;&#xa0;&#xa0;&#xa0;// Handle Date
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if (obj instanceof Array) {
+      &#xa0;&#xa0;&#xa0;&#xa0;if (obj instanceof Date) {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var copy = [];
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;var copy = new Date();
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for (var i = 0, var len = obj.length; i &lt; len; ++i) {
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;copy.setTime(obj.getTime());
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;copy[i] = clone(obj[i]);
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return copy;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return copy;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;// Handle Object
+      &#xa0;&#xa0;&#xa0;&#xa0;// Handle Array
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if (obj instanceof Object) {
+      &#xa0;&#xa0;&#xa0;&#xa0;if (obj instanceof Array) {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var copy = {};
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;var copy = [];
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for (var attr in obj) {
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;for (var i = 0, var len = obj.length; i &lt; len; ++i) {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (obj.hasOwnProperty(attr)) copy[attr] = clone(obj[attr]);
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;copy[i] = clone(obj[i]);
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return copy;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return copy;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;throw new Error(&quot;Unable to copy obj! Its type isn't supported.&quot;);
+      &#xa0;&#xa0;&#xa0;&#xa0;// Handle Object
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;if (obj instanceof Object) {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;var copy = {};
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;for (var attr in obj) {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (obj.hasOwnProperty(attr)) copy[attr] = clone(obj[attr]);
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return copy;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;throw new Error("Unable to copy obj! Its type isn't supported.");
     </p>
     <p>
       }
@@ -562,7 +562,7 @@
   </head>
   <body>
     <p>
-      <b>switch</b>(n) {<br />case 1:<br /><i>&#160;&#160;execute code block 1</i><br />&#160;&#160;break;<br />case 2:<br /><i>&#160;&#160;execute code block 2</i><br />&#160;&#160;break;<br />default:<br /><i>&#160; code to be executed if n is different from case 1 and 2</i><br />} <font color="#000000">// end switch</font>
+      <b>switch</b>(n) {<br/>case 1:<br/><i>&#xa0;&#xa0;execute code block 1</i><br/>&#xa0;&#xa0;break;<br/>case 2:<br/><i>&#xa0;&#xa0;execute code block 2</i><br/>&#xa0;&#xa0;break;<br/>default:<br/><i>&#xa0; code to be executed if n is different from case 1 and 2</i><br/>} <font color="#000000">// end switch</font>
     </p>
   </body>
 </html></richcontent>
@@ -596,7 +596,7 @@
   </head>
   <body>
     <p>
-      <b>SO</b>&#160;arguments pass by
+      <b>SO</b>&#xa0;arguments pass by
     </p>
   </body>
 </html></richcontent>
@@ -606,7 +606,7 @@
 <node CREATED="1290779800255" ID="ID_1854719369" LINK="http://www.jibbering.com/faq/notes/type-conversion/" MODIFIED="1328630117086" TEXT="links1"/>
 </node>
 </node>
-<node CREATED="1290785686280" FOLDED="true" ID="ID_967559904" MODIFIED="1377210480842" POSITION="right" TEXT="Tools">
+<node CREATED="1290785686280" FOLDED="true" ID="ID_967559904" MODIFIED="1385658872077" POSITION="right" TEXT="Tools">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1290785690168" ID="ID_1371837990" MODIFIED="1362497607543" TEXT="Compressor">
 <node CREATED="1290785699124" ID="ID_1468703957" LINK="http://developer.yahoo.com/yui/compressor/" MODIFIED="1306946571426" TEXT="YUI-Cpmpressor"/>
@@ -648,16 +648,16 @@
       function validateEmail(email) {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;var re = /^(([^&lt;&gt;()[\]\\.,;:\s@\&quot;]+(\.[^&lt;&gt;()[\]\\.,;:\s@\&quot;]+)*)|(\
+      &#xa0;&#xa0;&#xa0;&#xa0;var re = /^(([^&lt;&gt;()[\]\\.,;:\s@\"]+(\.[^&lt;&gt;()[\]\\.,;:\s@\"]+)*)|(\
     </p>
     <p>
-      &quot;.+\&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA
+      ".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA
     </p>
     <p>
       -Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return re.test(email);
+      &#xa0;&#xa0;&#xa0;&#xa0;return re.test(email);
     </p>
     <p>
       }
@@ -675,7 +675,7 @@
   </head>
   <body>
     <p>
-      If a document contain <b>frames</b>&#160;(<b><font color="#0033ff">&lt;frame&gt;</font></b>&#160;or <b><font color="#0033ff">&lt;iframe&gt;</font></b>&#160; tags), the browser creates one window object for the HTML document, and one additional <b><font color="#0033ff">window</font></b>&#160;object for each <b>frame.</b>
+      If a document contain <b>frames</b>&#xa0;(<b><font color="#0033ff">&lt;frame&gt;</font></b>&#xa0;or <b><font color="#0033ff">&lt;iframe&gt;</font></b>&#xa0; tags), the browser creates one window object for the HTML document, and one additional <b><font color="#0033ff">window</font></b>&#xa0;object for each <b>frame.</b>
     </p>
   </body>
 </html></richcontent>
@@ -687,7 +687,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>SO:</b></font><b>&#160;</b>close popup win
+      <font color="#009999"><b>SO:</b></font><b>&#xa0;</b>close popup win
     </p>
   </body>
 </html></richcontent>
@@ -702,16 +702,16 @@
       // frame loaded
     </p>
     <p>
-      // <b>w3</b>&#160;browsers
+      // <b>w3</b>&#xa0;browsers
     </p>
     <p>
-      <font color="#0033ff">iframe.<b>onload</b>&#160;= refresh </font>
+      <font color="#0033ff">iframe.<b>onload</b>&#xa0;= refresh </font>
     </p>
     <p>
       // <b>ie</b>
     </p>
     <p>
-      <font color="#0033ff">iframe.<b>addEventListener</b>('load', refresh, false);&#160;</font>
+      <font color="#0033ff">iframe.<b>addEventListener</b>('load', refresh, false);&#xa0;</font>
     </p>
   </body>
 </html></richcontent>
@@ -750,40 +750,40 @@
       <font color="#000000">// create elements</font>
     </p>
     <p>
-      var breakfast = document.createElement(&quot;optgroup&quot;);
+      var breakfast = document.createElement("optgroup");
     </p>
     <p>
-      breakfast.label = &quot;Breakfast&quot;;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      var lunch = document.createElement(&quot;optgroup&quot;);
-    </p>
-    <p>
-      lunch.label = &quot;Lunch&quot;;
+      breakfast.label = "Breakfast";
     </p>
     <p>
       
     </p>
     <p>
-      var dinner = document.createElement(&quot;optgroup&quot;);
+      var lunch = document.createElement("optgroup");
     </p>
     <p>
-      dinner.label = &quot;Dinner&quot;;
+      lunch.label = "Lunch";
     </p>
     <p>
       
     </p>
     <p>
-      var cereal = document.createElement(&quot;option&quot;);
+      var dinner = document.createElement("optgroup");
     </p>
     <p>
-      cereal.value = &quot;cereal&quot;;
+      dinner.label = "Dinner";
     </p>
     <p>
-      cereal.appendChild(document.createTextNode(&quot;Cereal&quot;));
+      
+    </p>
+    <p>
+      var cereal = document.createElement("option");
+    </p>
+    <p>
+      cereal.value = "cereal";
+    </p>
+    <p>
+      cereal.appendChild(document.createTextNode("Cereal"));
     </p>
     <p>
       breakfast.appendChild(cereal);
@@ -792,13 +792,13 @@
       
     </p>
     <p>
-      var eggs = document.createElement(&quot;option&quot;);
+      var eggs = document.createElement("option");
     </p>
     <p>
-      eggs.value = &quot;eggs&quot;;
+      eggs.value = "eggs";
     </p>
     <p>
-      eggs.appendChild(document.createTextNode(&quot;Eggs&quot;));
+      eggs.appendChild(document.createTextNode("Eggs"));
     </p>
     <p>
       breakfast.appendChild(eggs);
@@ -819,7 +819,7 @@
       while (selectMenu.hasChildNodes()) {
     </p>
     <p>
-      &#160;&#160;&#160;selectMenu.removeChild(selectMenu.firstChild);
+      &#xa0;&#xa0;&#xa0;selectMenu.removeChild(selectMenu.firstChild);
     </p>
     <p>
       }
@@ -835,7 +835,7 @@
   </head>
   <body>
     <p>
-      <b>ie</b>&#160;and <b>checked</b>
+      <b>ie</b>&#xa0;and <b>checked</b>
     </p>
   </body>
 </html></richcontent>
@@ -864,7 +864,7 @@
       <font color="#000000">// creating js array on html page.</font>
     </p>
     <p>
-      $postvalue=array(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;);&#160;<br />foreach($postvalue as $value)&#160;{&#160;&#160;<br />&#160;&#160;echo '&lt;input type=&quot;hidden&quot; name=&quot;result[]&quot; value=&quot;'. $value. '&quot;&gt;';&#160;<br />}
+      $postvalue=array("a","b","c");&#xa0;<br/>foreach($postvalue as $value)&#xa0;{&#xa0;&#xa0;<br/>&#xa0;&#xa0;echo '&lt;input type="hidden" name="result[]" value="'. $value. '"&gt;';&#xa0;<br/>}
     </p>
   </body>
 </html></richcontent>
@@ -892,16 +892,16 @@
   </head>
   <body>
     <p>
-      <font color="#000000">// modify for</font>&#160;<font color="#009999"><b>SO</b></font>
+      <font color="#000000">// modify for</font>&#xa0;<font color="#009999"><b>SO</b></font>
     </p>
     <p>
-      var obj = JSON.parse(info);&#160;&#160;<font color="#000000">// parse the JSON into a JavaScript object&#160;&#160;</font>
+      var obj = JSON.parse(info);&#xa0;&#xa0;<font color="#000000">// parse the JSON into a JavaScript object&#xa0;&#xa0;</font>
     </p>
     <p>
-      obj.application.proId = id; <font color="#000000">// modify the object&#160;&#160;</font>
+      obj.application.proId = id; <font color="#000000">// modify the object&#xa0;&#xa0;</font>
     </p>
     <p>
-      info = JSON.stringify(obj);&#160;&#160;<font color="#000000">// stringify it into JSON if you wanted it as JSON</font>
+      info = JSON.stringify(obj);&#xa0;&#xa0;<font color="#000000">// stringify it into JSON if you wanted it as JSON</font>
     </p>
   </body>
 </html></richcontent>
@@ -955,7 +955,7 @@
   </head>
   <body>
     <p>
-      // func. call with interval<br /><b><font color="#0033ff">setInterval</font></b><font color="#0033ff">(func, delay);</font>
+      // func. call with interval<br/><b><font color="#0033ff">setInterval</font></b><font color="#0033ff">(func, delay);</font>
     </p>
   </body>
 </html></richcontent>
@@ -985,36 +985,36 @@
     </p>
     <pre style="padding-top: 5px; background-color: rgb(238, 238, 238); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 5px; word-spacing: 0px; padding-left: 5px; line-height: 18px; padding-right: 5px; margin-top: 0px; font-style: normal; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 10px" class="default prettyprint prettyprinted"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px"><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">function</code></font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px"> foo(x) {  </code></font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px"><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">var</code></font><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> tmp = </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">3</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">;  </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px">function</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> bar(y) {    alert(x + y + (++tmp));  }  bar(</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">10</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">);}foo(</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">2</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">)</font></code></pre>
     <p style="padding-top: 0px; background-color: rgb(255, 255, 255); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 0px; word-spacing: 0px; padding-left: 0px; line-height: 18px; white-space: normal; padding-right: 0px; margin-top: 0px; font-style: normal; font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 0; clear: both">
-      This will always alert 16, because&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar</code></font>&#160;can access the&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#160;which was defined as an argument to&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>, and it can also access&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">tmp</code></font>&#160;from&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>.
+      This will always alert 16, because&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar</code></font>&#xa0;can access the&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#xa0;which was defined as an argument to&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>, and it can also access&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">tmp</code></font>&#xa0;from&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>.
     </p>
     <p style="padding-top: 0px; background-color: rgb(255, 255, 255); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 0px; word-spacing: 0px; padding-left: 0px; line-height: 18px; white-space: normal; padding-right: 0px; margin-top: 0px; font-style: normal; font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 0; clear: both">
-      That is&#160;<i><font size="14px"><em style="padding-top: 0px; font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-style: italic; border: 0px; margin-right: 0px; margin-bottom: 0px">not</em></font></i>&#160;a closure. A closure is when you&#160;<font size="14px"><b style="padding-top: 0px; font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; font-weight: bold; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px">return</b></font>&#160;the inner function. The inner function will close-over the variables of&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>&#160;before leaving.
+      That is&#xa0;<i><font size="14px"><em style="padding-top: 0px; font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-style: italic; border: 0px; margin-right: 0px; margin-bottom: 0px">not</em></font></i>&#xa0;a closure. A closure is when you&#xa0;<font size="14px"><b style="padding-top: 0px; font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; font-weight: bold; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px">return</b></font>&#xa0;the inner function. The inner function will close-over the variables of&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>&#xa0;before leaving.
     </p>
     <pre style="padding-top: 5px; background-color: rgb(238, 238, 238); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 5px; word-spacing: 0px; padding-left: 5px; line-height: 18px; padding-right: 5px; margin-top: 0px; font-style: normal; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 10px" class="default prettyprint prettyprinted"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px"><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">function</code></font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px"> foo(x) {  </code></font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px"><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">var</code></font><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> tmp = </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">3</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">;  </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px">return</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px">function</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> (y) {    alert(x + y + (++tmp));  }}</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px">var</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> bar = foo(</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">2</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">); </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="gray" size="14px">// bar is now a closure.</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">bar(</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">10</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">);</font></code></pre>
     <p style="padding-top: 0px; background-color: rgb(255, 255, 255); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 0px; word-spacing: 0px; padding-left: 0px; line-height: 18px; white-space: normal; padding-right: 0px; margin-top: 0px; font-style: normal; font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 0; clear: both">
-      The above function will also alert 16, because&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar</code></font>&#160;can still refer to&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#160;and&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">tmp</code></font>, even though it is no longer directly inside the scope.
+      The above function will also alert 16, because&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar</code></font>&#xa0;can still refer to&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#xa0;and&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">tmp</code></font>, even though it is no longer directly inside the scope.
     </p>
     <p style="padding-top: 0px; background-color: rgb(255, 255, 255); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 0px; word-spacing: 0px; padding-left: 0px; line-height: 18px; white-space: normal; padding-right: 0px; margin-top: 0px; font-style: normal; font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 0; clear: both">
-      However, since&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">tmp</code></font>&#160;is still hanging around inside&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar</code></font>'s closure, it is also being incremented. It will be incremented each time you call&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar</code></font>. As a result of this it will alert 17 the second time&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar(10)</code></font>&#160;is called, 18 the third time, etc.
+      However, since&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">tmp</code></font>&#xa0;is still hanging around inside&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar</code></font>'s closure, it is also being incremented. It will be incremented each time you call&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar</code></font>. As a result of this it will alert 17 the second time&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar(10)</code></font>&#xa0;is called, 18 the third time, etc.
     </p>
     <p style="padding-top: 0px; background-color: rgb(255, 255, 255); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 0px; word-spacing: 0px; padding-left: 0px; line-height: 18px; white-space: normal; padding-right: 0px; margin-top: 0px; font-style: normal; font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 0; clear: both">
-      (Not for your 6 year old: It is possible to create more than one closure function, either by returning a list of them or by setting them to global variables. All of these will refer to the&#160;<font size="14px"><strong style="padding-top: 0px; font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; font-weight: bold; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px"><b>same</b></strong></font>&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#160;and the same&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">tmp</code></font>, they don't make their own copies.)
+      (Not for your 6 year old: It is possible to create more than one closure function, either by returning a list of them or by setting them to global variables. All of these will refer to the&#xa0;<font size="14px"><strong style="padding-top: 0px; font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; font-weight: bold; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px"><b>same</b></strong></font>&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#xa0;and the same&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">tmp</code></font>, they don't make their own copies.)
     </p>
     <p style="padding-top: 0px; background-color: rgb(255, 255, 255); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 0px; word-spacing: 0px; padding-left: 0px; line-height: 18px; white-space: normal; padding-right: 0px; margin-top: 0px; font-style: normal; font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 0; clear: both">
       Edit: And now to explain the part that isn't obvious.
     </p>
     <p style="padding-top: 0px; background-color: rgb(255, 255, 255); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 0px; word-spacing: 0px; padding-left: 0px; line-height: 18px; white-space: normal; padding-right: 0px; margin-top: 0px; font-style: normal; font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 0; clear: both">
-      Here the number&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#160;is a literal number. As with other literals in JavaScript, when&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>&#160;is called, the number&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#160;is&#160;<font size="14px"><b style="padding-top: 0px; font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; font-weight: bold; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px">copied</b></font>&#160;into&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>&#160;as its argument&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>.
+      Here the number&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#xa0;is a literal number. As with other literals in JavaScript, when&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>&#xa0;is called, the number&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#xa0;is&#xa0;<font size="14px"><b style="padding-top: 0px; font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; font-weight: bold; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px">copied</b></font>&#xa0;into&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>&#xa0;as its argument&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>.
     </p>
     <p style="padding-top: 0px; background-color: rgb(255, 255, 255); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 0px; word-spacing: 0px; padding-left: 0px; line-height: 18px; white-space: normal; padding-right: 0px; margin-top: 0px; font-style: normal; font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 0; clear: both">
-      On the other hand, JavaScript always uses references when dealing with Objects. If say, you called&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>with an Object, the closure it returns will&#160;<font size="14px"><b style="padding-top: 0px; font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; font-weight: bold; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px">reference</b></font>&#160;that original Object!
+      On the other hand, JavaScript always uses references when dealing with Objects. If say, you called&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">foo</code></font>with an Object, the closure it returns will&#xa0;<font size="14px"><b style="padding-top: 0px; font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; font-weight: bold; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px">reference</b></font>&#xa0;that original Object!
     </p>
     <pre style="padding-top: 5px; background-color: rgb(238, 238, 238); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 5px; word-spacing: 0px; padding-left: 5px; line-height: 18px; padding-right: 5px; margin-top: 0px; font-style: normal; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 10px" class="default prettyprint prettyprinted"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px"><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">function</code></font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px"> foo(x) {  </code></font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px"><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">var</code></font><code style="padding-top: 0px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px"><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> tmp = </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">3</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">;  </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px">return</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px">function</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> (y) {    alert(x + y + tmp);    x.memb = x.memb ? x.memb + </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">1</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> : </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">1</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">;    alert(x.memb);  }}</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px">var</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> age = </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px">new</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(43, 145, 175)" size="14px">Number</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">(</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">2</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">);</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 139)" size="14px">var</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px"> bar = foo(age); </font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="gray" size="14px">// bar is now a closure referencing age.</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">bar(</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(128, 0, 0)" size="14px">10</font><font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" color="rgb(0, 0, 0)" size="14px">);</font></code></pre>
     <p style="padding-top: 0px; background-color: rgb(255, 255, 255); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 0px; word-spacing: 0px; padding-left: 0px; line-height: 18px; white-space: normal; padding-right: 0px; margin-top: 0px; font-style: normal; font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 0; clear: both">
-      As expected, each call to&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar(10)</code></font>&#160;will increment&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x.memb</code></font>. What might not be expected, is that&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#160;is simply referring to the same object as the&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">age</code></font>&#160;variable! After a couple of calls to&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar</code></font>,&#160;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">age.memb</code></font>&#160;will be 2!
+      As expected, each call to&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar(10)</code></font>&#xa0;will increment&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x.memb</code></font>. What might not be expected, is that&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">x</code></font>&#xa0;is simply referring to the same object as the&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">age</code></font>&#xa0;variable! After a couple of calls to&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">bar</code></font>,&#xa0;<font face="Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif" size="14px"><code style="padding-top: 1px; background-color: rgb(238, 238, 238); font-size: 14px; background-position: initial initial; vertical-align: baseline; background-repeat: repeat; margin-left: 0px; padding-bottom: 1px; padding-left: 5px; padding-right: 5px; margin-top: 0px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; border: 0px; margin-right: 0px; margin-bottom: 0px">age.memb</code></font>&#xa0;will be 2!
     </p>
     <p style="padding-top: 0px; background-color: rgb(255, 255, 255); text-transform: none; font-size: 14px; background-position: initial initial; color: rgb(0, 0, 0); vertical-align: baseline; background-repeat: repeat; font-weight: normal; margin-left: 0px; text-indent: 0px; letter-spacing: normal; padding-bottom: 0px; word-spacing: 0px; padding-left: 0px; line-height: 18px; white-space: normal; padding-right: 0px; margin-top: 0px; font-style: normal; font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif; border: 0px; text-align: left; font-variant: normal; margin-right: 0px; margin-bottom: 0; clear: both">
-      This is the basis for memory leaks with HTML objects, but that's a little beyond the scope of this, ahem, article, ahem.&#160;<font color="rgb(74, 107, 130)" size="14px"><a style="padding-top: 0px; font-size: 14px; background-position: initial initial; color: rgb(74, 107, 130); vertical-align: baseline; background-repeat: repeat; text-decoration: initial; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px" href="http://stackoverflow.com/questions/111102#112265">http://stackoverflow.com/questions/111102#112265</a></font>
+      This is the basis for memory leaks with HTML objects, but that's a little beyond the scope of this, ahem, article, ahem.&#xa0;<font color="rgb(74, 107, 130)" size="14px"><a style="padding-top: 0px; font-size: 14px; background-position: initial initial; color: rgb(74, 107, 130); vertical-align: baseline; background-repeat: repeat; text-decoration: initial; margin-left: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; margin-top: 0px; border: 0px; margin-right: 0px; margin-bottom: 0px" href="http://stackoverflow.com/questions/111102#112265">http://stackoverflow.com/questions/111102#112265</a></font>
     </p>
   </body>
 </html></richcontent>
@@ -1064,10 +1064,10 @@
   </head>
   <body>
     <p>
-      if<font color="#ccffcc">&#160;</font><b><font color="#0033ff">alert</font></b>&#160;occurs before <b>&lt;frame&gt;</b>&#160;displayed (even if displaying goes first)
+      if<font color="#ccffcc">&#xa0;</font><b><font color="#0033ff">alert</font></b>&#xa0;occurs before <b>&lt;frame&gt;</b>&#xa0;displayed (even if displaying goes first)
     </p>
     <p>
-      -&gt; just move <b><font color="#0033ff">alert</font></b>&#160;into <b><font color="#0033ff">function</font></b>&#160;and&#160; <b><font color="#0033ff">setTimeout( function, 10 )</font></b>
+      -&gt; just move <b><font color="#0033ff">alert</font></b>&#xa0;into <b><font color="#0033ff">function</font></b>&#xa0;and&#xa0; <b><font color="#0033ff">setTimeout( function, 10 )</font></b>
     </p>
   </body>
 </html></richcontent>

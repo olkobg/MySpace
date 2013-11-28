@@ -1,8 +1,8 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#cc6600" CREATED="1298045150214" ID="ID_212153723" LINK="Java.mm" MODIFIED="1299145491496" TEXT="JAVA tools">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1298045164454" ID="ID_362615953" MODIFIED="1298045166118" POSITION="right" TEXT="maven">
+<node CREATED="1298045164454" FOLDED="true" ID="ID_362615953" MODIFIED="1385658544672" POSITION="right" TEXT="maven">
 <node CREATED="1298045167435" ID="ID_1996320901" MODIFIED="1298045170879" TEXT="commands"/>
 <node CREATED="1357763794609" ID="ID_917827835" LINK="http://javabrains.koushik.org/p/maven.html" MODIFIED="1357763829996">
 <richcontent TYPE="NODE"><html>
@@ -14,12 +14,32 @@
       <font color="#009999"><b>javabrains</b></font>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1385658479800" FOLDED="true" ID="ID_85075914" MODIFIED="1385658552872" POSITION="right" TEXT="java">
+<node CREATED="1385658485536" ID="ID_1322764224" MODIFIED="1385658541118">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # setting java home on mac
+    </p>
+    <p>
+      # push into your ~/.bash_profile
+    </p>
+    <p>
+      <font color="#0033ff">export JAVA_HOME=$(/usr/libexec/java_home)</font>
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node CREATED="1298631329968" ID="ID_1304245089" MODIFIED="1357763747712" POSITION="left" TEXT="Ant">
-<node CREATED="1298631366242" FOLDED="true" ID="ID_1905529529" MODIFIED="1357763790316" TEXT="tasks">
+<node CREATED="1298631329968" FOLDED="true" ID="ID_1304245089" MODIFIED="1385658545616" POSITION="left" TEXT="Ant">
+<node CREATED="1298631366242" FOLDED="true" ID="ID_1905529529" MODIFIED="1385658476426" TEXT="tasks">
 <node COLOR="#0033ff" CREATED="1298631376835" ID="ID_634945249" MODIFIED="1315390372887" TEXT="jar"/>
 <node COLOR="#0033ff" CREATED="1298631379753" ID="ID_445428920" MODIFIED="1315390372886" TEXT="javac"/>
 <node COLOR="#0033ff" CREATED="1298631580133" ID="ID_1666500531" MODIFIED="1315390372886" TEXT="antcall"/>
@@ -37,7 +57,7 @@
       &lt;tstamp&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;format property=&quot;timestamp&quot; pattern=&quot;dd-MM-yyyy hh:mm:ss&quot; /&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;format property="timestamp" pattern="dd-MM-yyyy hh:mm:ss" /&gt;
     </p>
     <p>
       &lt;/tstamp&gt;
@@ -57,100 +77,100 @@
   </head>
   <body>
     <p>
-      &#160;&lt;target name=&quot;makeSQL&quot; depends=&quot;init&quot; description=&quot;Create db script&quot;&gt;
+      &#xa0;&lt;target name="makeSQL" depends="init" description="Create db script"&gt;
     </p>
     <p>
-      &#160;&#160;
+      &#xa0;&#xa0;
     </p>
     <p>
-      &#160;&#160; &lt;tstamp&gt;
+      &#xa0;&#xa0; &lt;tstamp&gt;
     </p>
     <p>
-      &#160;&#160; &#160;&#160;&#160;&#160;&lt;format property=&quot;timestamp&quot; pattern=&quot;dd-MM-yyyy hh:mm:ss&quot; /&gt;
+      &#xa0;&#xa0; &#xa0;&#xa0;&#xa0;&#xa0;&lt;format property="timestamp" pattern="dd-MM-yyyy hh:mm:ss" /&gt;
     </p>
     <p>
-      &#160;&#160; &lt;/tstamp&gt;
+      &#xa0;&#xa0; &lt;/tstamp&gt;
     </p>
     <p>
-      &#160;&#160;
+      &#xa0;&#xa0;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;concat destfile=&quot;${dir.dist}/${sql.script.name}&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;concat destfile="${dir.dist}/${sql.script.name}"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;append=&quot;false&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;append="false"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;encoding=&quot;UTF8&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;encoding="UTF8"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fixlastline=&quot;yes&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fixlastline="yes"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;eol=&quot;unix&quot;&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eol="unix"&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;
+      &#xa0;&#xa0;&#xa0;&#xa0;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;header filtering=&quot;no&quot; trimleading=&quot;yes&quot;&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;header filtering="no" trimleading="yes"&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-- BEGIN Database changes for ${project.name} [${timestamp}]
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;-- BEGIN Database changes for ${project.name} [${timestamp}]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;/header&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/header&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;
+      &#xa0;&#xa0;&#xa0;&#xa0;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;fileset dir=&quot;${dir.db}/sp&quot; includes=&quot;*.sql&quot; /&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;fileset dir="${dir.db}/sp" includes="*.sql" /&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;
+      &#xa0;&#xa0;&#xa0;&#xa0;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;filterchain&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;filterchain&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160; &lt;tokenfilter&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0; &lt;tokenfilter&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160; &lt;filetokenizer/&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0; &lt;filetokenizer/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&lt;replacestring from=&quot;DEFINER=`RB_qa`@`%`&quot; to=&quot;&quot;/&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;&#xa0;&#xa0;&lt;replacestring from="DEFINER=`RB_qa`@`%`" to=""/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160; &lt;/tokenfilter&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0; &lt;/tokenfilter&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;/filterchain&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/filterchain&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
     </p>
     <p>
-      &#160;&#160;&#160; &#160;&#160;&lt;footer filtering=&quot;no&quot; trimleading=&quot;yes&quot;&gt;
+      &#xa0;&#xa0;&#xa0; &#xa0;&#xa0;&lt;footer filtering="no" trimleading="yes"&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-- END Database changes for ${project.name} [${timestamp}]
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;-- END Database changes for ${project.name} [${timestamp}]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;/footer&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/footer&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;
+      &#xa0;&#xa0;&#xa0;&#xa0;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;/concat&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/concat&gt;
     </p>
     <p>
-      &#160;&#160;
+      &#xa0;&#xa0;
     </p>
     <p>
-      &#160;&#160;&lt;/target&gt;
+      &#xa0;&#xa0;&lt;/target&gt;
     </p>
   </body>
 </html></richcontent>
@@ -169,7 +189,7 @@
   </head>
   <body>
     <p>
-      &#160;&lt;property environment=&quot;env&quot; /&gt;
+      &#xa0;&lt;property environment="env" /&gt;
     </p>
   </body>
 </html></richcontent>

@@ -106,9 +106,12 @@
 <node CREATED="1362505256050" ID="ID_120313011" LINK="http://code.google.com/p/selenium/wiki/AndroidDriver" MODIFIED="1362505259742" TEXT="android"/>
 </node>
 <node CREATED="1369224712362" ID="ID_1105511277" LINK="http://release.seleniumhq.org/selenium-core/0.8.0/reference.html" MODIFIED="1369301551440" POSITION="left" TEXT="commands"/>
-<node CREATED="1369224730412" ID="ID_1671109232" MODIFIED="1369301551440" POSITION="left" TEXT="server">
-<node CREATED="1369224733991" ID="ID_112387330" LINK="http://svn.openqa.org/fisheye/browse/~raw,r=1879/selenium-rc/trunk/website/options.html" MODIFIED="1369301551440" TEXT="command line options">
-<node CREATED="1369224841390" ID="ID_773249557" LINK="http://release.seleniumhq.org/selenium-remote-control/0.9.2/doc/server/org/openqa/selenium/server/SeleniumServer.html" MODIFIED="1369301551441" TEXT="see also"/>
+<node CREATED="1369224730412" ID="ID_1671109232" MODIFIED="1385645305474" POSITION="left" TEXT="server">
+<node CREATED="1369224733991" ID="ID_112387330" LINK="http://svn.openqa.org/fisheye/browse/~raw,r=1879/selenium-rc/trunk/website/options.html" MODIFIED="1385645302331" TEXT="cmd options">
+<node CREATED="1385645277932" ID="ID_1673171988" LINK="http://seleniumforum.forumotion.net/t89-selenium-server-command-options-while-starting-server" MODIFIED="1385645296356" TEXT="selenium forum"/>
+</node>
+<node COLOR="#0033ff" CREATED="1385645238685" ID="ID_1167436105" MODIFIED="1385645245333" TEXT="-interactive">
+<node CREATED="1369224841390" ID="ID_773249557" LINK="http://release.seleniumhq.org/selenium-remote-control/0.9.2/doc/server/org/openqa/selenium/server/SeleniumServer.html" MODIFIED="1385645252208" TEXT="see also"/>
 </node>
 </node>
 <node CREATED="1369301495031" ID="ID_167358374" MODIFIED="1369301551441" POSITION="left" TEXT="SeleniumRC">

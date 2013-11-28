@@ -1,14 +1,15 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#669900" CREATED="1289984563004" ID="ID_1765798646" LINK="../Index.mm" MODIFIED="1349255682544" TEXT="Java">
 <font BOLD="true" NAME="SansSerif" SIZE="23"/>
-<node COLOR="#ff0000" CREATED="1298474264029" ID="ID_926676701" MODIFIED="1298552424249" POSITION="left" TEXT="Data">
+<node COLOR="#ff0000" CREATED="1298474264029" FOLDED="true" ID="ID_926676701" MODIFIED="1385658837386" POSITION="left" TEXT="Data">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1298474335976" ID="ID_392449344" MODIFIED="1298890982760" TEXT="types">
+<node CREATED="1298474335976" FOLDED="true" ID="ID_392449344" MODIFIED="1385658835570" TEXT="types">
 <edge STYLE="sharp_bezier"/>
 <arrowlink DESTINATION="ID_392449344" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1559831636" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_392449344" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1559831636" SOURCE="ID_392449344" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font ITALIC="true" NAME="SansSerif" SIZE="13"/>
-<node CREATED="1298474271391" ID="ID_794712295" MODIFIED="1348821807861" TEXT="scallar (primitive)">
+<node CREATED="1298474271391" FOLDED="true" ID="ID_794712295" MODIFIED="1385658834818" TEXT="scallar (primitive)">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1298890935056" ID="ID_839594819" MODIFIED="1309861178776" TEXT="Numbers">
 <node CREATED="1298890931016" FOLDED="true" ID="ID_273183044" MODIFIED="1348821802331" TEXT="Integer">
@@ -33,7 +34,7 @@
   </head>
   <body>
     <p>
-      java gets all floating point numbers as double&#160;us <font color="#0033ff"><b><i>f</i></b></font><b><i>&#160; </i></b>&#160;for mark that is float
+      java gets all floating point numbers as double&#xa0;us <font color="#0033ff"><b><i>f</i></b></font><b><i>&#xa0; </i></b>&#xa0;for mark that is float
     </p>
   </body>
 </html></richcontent>
@@ -57,7 +58,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1298474278321" ID="ID_952438463" MODIFIED="1349255780329" TEXT="object">
+<node CREATED="1298474278321" FOLDED="true" ID="ID_952438463" MODIFIED="1385658835098" TEXT="object">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1298474324548" ID="ID_1435456098" MODIFIED="1298550781667" TEXT="String">
 <edge STYLE="bezier"/>
@@ -94,7 +95,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1298889762113" ID="ID_394235250" MODIFIED="1298889813227" TEXT="variables">
+<node CREATED="1298889762113" FOLDED="true" ID="ID_394235250" MODIFIED="1385658836129" TEXT="variables">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#ff0000" CREATED="1298889766043" FOLDED="true" ID="ID_665028452" MODIFIED="1349801583916" TEXT="Instance variables">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -110,16 +111,16 @@
   </head>
   <body>
     <p>
-      integers&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0
+      integers&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0
     </p>
     <p>
-      floating points&#160;&#160;0.0
+      floating points&#xa0;&#xa0;0.0
     </p>
     <p>
-      booleans&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;false
+      booleans&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;false
     </p>
     <p>
-      references&#160;&#160;&#160;&#160;&#160;&#160;&#160;null
+      references&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;null
     </p>
   </body>
 </html></richcontent>
@@ -136,14 +137,14 @@
   </head>
   <body>
     <p>
-      Local variables <b>MUST</b>&#160;be initialized before use
+      Local variables <b>MUST</b>&#xa0;be initialized before use
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1309857488984" FOLDED="true" ID="ID_1716692355" MODIFIED="1352367285434" TEXT="return">
+<node CREATED="1309857488984" FOLDED="true" ID="ID_1716692355" MODIFIED="1385658837010" TEXT="return">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1309857494505" ID="ID_224356602" MODIFIED="1352367281129">
 <richcontent TYPE="NODE"><html>
@@ -152,7 +153,7 @@
   </head>
   <body>
     <p>
-      You must use an <b>explicit cast</b>&#160;when the declared <b><font color="#0033ff">type</font></b>&#160; is <b><i>smaller</i></b>&#160;than what you&#8217;re trying to <b><font color="#0033ff">return</font></b>
+      You must use an <b>explicit cast</b>&#xa0;when the declared <b><font color="#0033ff">type</font></b>&#xa0; is <b><i>smaller</i></b>&#xa0;than what you&#x2019;re trying to <b><font color="#0033ff">return</font></b>
     </p>
   </body>
 </html></richcontent>
@@ -224,7 +225,7 @@
   </head>
   <body>
     <p>
-      &#160;increment <font color="#0033ff">++</font>
+      &#xa0;increment <font color="#0033ff">++</font>
     </p>
   </body>
 </html></richcontent>
@@ -261,7 +262,7 @@
   </head>
   <body>
     <p>
-      &#160;decrement <b><font color="#0033ff">--</font></b>
+      &#xa0;decrement <b><font color="#0033ff">--</font></b>
     </p>
   </body>
 </html></richcontent>
@@ -308,7 +309,7 @@
   </head>
   <body>
     <p>
-      <b>(int)</b>&#160;getValue;
+      <b>(int)</b>&#xa0;getValue;
     </p>
   </body>
 </html></richcontent>
@@ -321,7 +322,7 @@
   </head>
   <body>
     <p>
-      &#160;&#160;Dog d = <b>(Dog)</b>&#160;x.getObject(aDog);
+      &#xa0;&#xa0;Dog d = <b>(Dog)</b>&#xa0;x.getObject(aDog);
     </p>
   </body>
 </html></richcontent>
@@ -340,7 +341,7 @@
       for (int i = 0; i &lt; 8; i++) {
     </p>
     <p>
-      &#160;&#160;&#160;System.out.println(i);
+      &#xa0;&#xa0;&#xa0;System.out.println(i);
     </p>
     <p>
       }
@@ -356,7 +357,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff">for</font>&#160;(enhanced)
+      <font color="#0033ff">for</font>&#xa0;(enhanced)
     </p>
   </body>
 </html></richcontent>
@@ -375,10 +376,10 @@
       while (i &lt; 8) {
     </p>
     <p>
-      &#160;&#160;&#160;System.out.println(i);
+      &#xa0;&#xa0;&#xa0;System.out.println(i);
     </p>
     <p>
-      &#160;&#160;&#160;i++;
+      &#xa0;&#xa0;&#xa0;i++;
     </p>
     <p>
       }
@@ -437,13 +438,13 @@
   </head>
   <body>
     <p>
-      class Test <b>implements</b>&#160;Interface {
+      class Test <b>implements</b>&#xa0;Interface {
     </p>
     <p>
-      &#160;&#160;public void interfaceMethod() {
+      &#xa0;&#xa0;public void interfaceMethod() {
     </p>
     <p>
-      &#160;&#160;}
+      &#xa0;&#xa0;}
     </p>
     <p>
       }
@@ -464,10 +465,10 @@
       public void getData() {
     </p>
     <p>
-      &#160;&#160;// <font color="#000000">run's parent class (superclass) runReporty function</font>
+      &#xa0;&#xa0;// <font color="#000000">run's parent class (superclass) runReporty function</font>
     </p>
     <p>
-      &#160;&#160;this.data = <b>super</b>.getData();
+      &#xa0;&#xa0;this.data = <b>super</b>.getData();
     </p>
     <p>
       }
@@ -500,10 +501,10 @@
   </head>
   <body>
     <p>
-      <b>abstract</b>&#160;class MyAbstract {
+      <b>abstract</b>&#xa0;class MyAbstract {
     </p>
     <p>
-      &#160;&#160;&#160;...
+      &#xa0;&#xa0;&#xa0;...
     </p>
     <p>
       }
@@ -518,7 +519,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#0033ff">abstract</font></b><font color="#0033ff">&#160;void getData()&#160;{ </font>
+      <b><font color="#0033ff">abstract</font></b><font color="#0033ff">&#xa0;void getData()&#xa0;{ </font>
     </p>
     <p>
       <font color="#0033ff">}</font>
@@ -553,7 +554,7 @@
   </head>
   <body>
     <p>
-      <b>objects&#160;<font color="#009900"><i>pass-by-reffrenece</i></font></b>
+      <b>objects&#xa0;<font color="#009900"><i>pass-by-reffrenece</i></font></b>
     </p>
   </body>
 </html></richcontent>
@@ -570,7 +571,7 @@
   </head>
   <body>
     <p>
-      <font size="3">if used </font><font size="3" color="#0033ff">ArrayList<b>&lt;Object&gt;</b></font><b><font size="3">&#160; </font></b><font size="3">than only </font><font size="3" color="#0033ff">Object</font><font size="3">&#160;coud be returned from </font><font size="3" color="#0033ff">ArrayList</font>
+      <font size="3">if used </font><font size="3" color="#0033ff">ArrayList<b>&lt;Object&gt;</b></font><b><font size="3">&#xa0; </font></b><font size="3">than only </font><font size="3" color="#0033ff">Object</font><font size="3">&#xa0;coud be returned from </font><font size="3" color="#0033ff">ArrayList</font>
     </p>
   </body>
 </html></richcontent>
@@ -596,7 +597,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1298539152657" ID="ID_1390182163" MODIFIED="1298552690363" STYLE="fork" TEXT=" Java XML Processing"/>
 </node>
-<node COLOR="#ff0000" CREATED="1298467428745" ID="ID_68960839" MODIFIED="1348822110900" POSITION="right" TEXT="IO">
+<node COLOR="#ff0000" CREATED="1298467428745" FOLDED="true" ID="ID_68960839" MODIFIED="1385658598878" POSITION="right" TEXT="IO">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1298473005080" FOLDED="true" ID="ID_1456967258" MODIFIED="1348819795432" TEXT="Streams">
 <edge STYLE="sharp_bezier" WIDTH="2"/>
@@ -610,7 +611,7 @@
     
   </head>
   <body>
-    <img src="../images/Java_IO_Streams.png" />
+    <img src="../images/Java_IO_Streams.png"/>
   </body>
 </html></richcontent>
 </node>
@@ -637,7 +638,7 @@
     
   </head>
   <body>
-    <img src="../images/Java_IO_CharStreams.png" />
+    <img src="../images/Java_IO_CharStreams.png"/>
   </body>
 </html></richcontent>
 </node>
@@ -653,7 +654,7 @@
     
   </head>
   <body>
-    <img src="../images/Java_IO_BufferedStreams.png" />
+    <img src="../images/Java_IO_BufferedStreams.png"/>
   </body>
 </html></richcontent>
 </node>
@@ -704,7 +705,7 @@ try {
        price = in.readDouble();
        unit = in.readInt();
        desc = in.readUTF();
-       System.out.format(&quot;You ordered %d units of %s at $%.2f%n&quot;, unit, desc, price);
+       System.out.format("You ordered %d units of %s at $%.2f%n", unit, desc, price);
         total += unit * price;
     }
 } catch (EOFException e) {</pre>
@@ -722,7 +723,7 @@ try {
     
   </head>
   <body>
-    <img src="../images/Java_IO_DataStreams.png" />
+    <img src="../images/Java_IO_DataStreams.png"/>
   </body>
 </html></richcontent>
 </node>
@@ -758,7 +759,7 @@ try {
     
   </head>
   <body>
-    <img src="../images/Java_IO_ObjectsStreams.png" />
+    <img src="../images/Java_IO_ObjectsStreams.png"/>
   </body>
 </html></richcontent>
 </node>
@@ -766,7 +767,7 @@ try {
 </node>
 </node>
 <node CREATED="1298471904066" ID="ID_1670111475" MODIFIED="1298471906074" TEXT="Input">
-<node COLOR="#0033ff" CREATED="1298471906467" FOLDED="true" ID="ID_100608267" MODIFIED="1348822828841" TEXT="Scanner">
+<node COLOR="#0033ff" CREATED="1298471906467" FOLDED="true" ID="ID_100608267" MODIFIED="1385658437874" TEXT="Scanner">
 <node CREATED="1298471930592" ID="ID_454800241" MODIFIED="1298471981403" TEXT="by default it uses white spaces to break words (it has comparator interface)"/>
 </node>
 </node>
