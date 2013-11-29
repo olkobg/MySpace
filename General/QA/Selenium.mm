@@ -114,7 +114,8 @@
 <node CREATED="1369224841390" ID="ID_773249557" LINK="http://release.seleniumhq.org/selenium-remote-control/0.9.2/doc/server/org/openqa/selenium/server/SeleniumServer.html" MODIFIED="1385645252208" TEXT="see also"/>
 </node>
 </node>
-<node CREATED="1369301495031" ID="ID_167358374" MODIFIED="1369301551441" POSITION="left" TEXT="SeleniumRC">
+<node CREATED="1369301495031" FOLDED="true" ID="ID_167358374" MODIFIED="1385742998575" POSITION="left" TEXT="SeleniumRC">
+<node CREATED="1385742985040" FOLDED="true" ID="ID_328147922" MODIFIED="1385742998393" TEXT="firefox driver">
 <node CREATED="1369301502956" ID="ID_1833622376" LINK="https://github.com/sebastianbergmann/phpunit-selenium/issues/207" MODIFIED="1369301575813">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -126,6 +127,7 @@
     </p>
   </body>
 </html></richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#cc3300" CREATED="1369210838325" FOLDED="true" ID="ID_1020874233" MODIFIED="1369407871468" POSITION="left" TEXT="tricks">
@@ -261,9 +263,9 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1368614692856" ID="ID_686628948" MODIFIED="1369301551447" POSITION="right" TEXT="lib">
+<node CREATED="1368614692856" FOLDED="true" ID="ID_686628948" MODIFIED="1385743119356" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1369299298592" FOLDED="true" ID="ID_891729530" MODIFIED="1369440459006" TEXT="php">
+<node CREATED="1369299298592" FOLDED="true" ID="ID_891729530" MODIFIED="1385743118479" TEXT="php">
 <node COLOR="#0033ff" CREATED="1368614652247" ID="ID_373673702" LINK="../../PHP/PHPUnitSelenium.mm" MODIFIED="1369301551447" TEXT="PHPUnit Selenium">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -281,7 +283,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1369404445597" FOLDED="true" ID="ID_1136651533" MODIFIED="1369440458577">
+<node CREATED="1369404445597" FOLDED="true" ID="ID_1136651533" MODIFIED="1385743115893">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -292,17 +294,21 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1369404939278" ID="ID_1028339420" LINK="http://stackoverflow.com/questions/7328494/selenium2-firefox-use-the-default-profile" MODIFIED="1369404971242">
+<node CREATED="1369404939278" ID="ID_1028339420" LINK="http://stackoverflow.com/questions/7328494/selenium2-firefox-use-the-default-profile" MODIFIED="1385743112439">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b><font color="#009999">SO</font></b>&#xa0;change ff profile
+      <b><font color="#009999">SO</font></b>&#160;change ff profile
+    </p>
+    <p>
+      // NOTE <b><font color="#0033ff">zip</font>&#160;profile</b>&#160;files after you <b><font color="#0033ff">cd</font></b>&#160; into profile
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1369440384455" ID="ID_1349592534" LINK="https://github.com/Element-34/php-webdriver" MODIFIED="1369440443395">
 <richcontent TYPE="NODE"><html>
