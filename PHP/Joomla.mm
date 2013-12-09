@@ -69,8 +69,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1291284799301" ID="ID_255867537" MODIFIED="1291284801602" POSITION="left" TEXT="plugins"/>
-<node CREATED="1291284809663" ID="ID_1912035499" MODIFIED="1386450656855" POSITION="left" TEXT="templates">
+<node CREATED="1291284799301" ID="ID_255867537" MODIFIED="1291284801602" POSITION="left" TEXT="plugins">
+<node CREATED="1386584528527" FOLDED="true" ID="ID_1503046158" MODIFIED="1386584578999" TEXT="editors">
+<node CREATED="1386584532286" ID="ID_1940308024" LINK="http://www.joomlackeditor.com/" MODIFIED="1386584558002" TEXT="jck"/>
+<node CREATED="1386584534151" ID="ID_927650974" LINK="http://www.joomlacontenteditor.net" MODIFIED="1386584543855" TEXT="jce"/>
+</node>
+</node>
+<node CREATED="1291284809663" FOLDED="true" ID="ID_1912035499" MODIFIED="1386584581447" POSITION="left" TEXT="templates">
 <node CREATED="1385913305711" ID="ID_1617488537" LINK="http://docs.joomla.org/Creating_a_basic_Joomla!_template" MODIFIED="1385913356172">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -83,7 +88,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1386425921375" ID="ID_903791493" MODIFIED="1386450656871" TEXT="language">
+<node CREATED="1386425921375" FOLDED="true" ID="ID_903791493" MODIFIED="1386584519083" TEXT="language">
 <node CREATED="1386428193557" ID="ID_634797763" MODIFIED="1386428230260">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -94,8 +99,7 @@
       directory used <b><font color="#0033ff">language</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1385929404579" ID="ID_1926720663" MODIFIED="1385929612264">
 <richcontent TYPE="NODE"><html>
@@ -145,12 +149,11 @@
       <b><font color="#009999">slideshare</font></b>&#160;presentation
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1385927362926" FOLDED="true" ID="ID_85484636" MODIFIED="1386434701893" POSITION="left" TEXT="languages">
+<node CREATED="1385927362926" FOLDED="true" ID="ID_85484636" MODIFIED="1386584522291" POSITION="left" TEXT="languages">
 <node CREATED="1385927366718" ID="ID_730660911" MODIFIED="1385927367777" TEXT="codes">
 <node CREATED="1385927368454" ID="ID_1370999471" MODIFIED="1385927371969" TEXT="uk-UA"/>
 </node>
