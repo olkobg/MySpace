@@ -1,13 +1,13 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1298379398131" ID="ID_1454701070" LINK="../Index.mm" MODIFIED="1359130724368" TEXT="CSS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1329167857520" FOLDED="true" ID="ID_1738733773" MODIFIED="1357221049000" POSITION="right" TEXT="Fonts">
 <node CREATED="1329167860573" ID="ID_1617167628" LINK="http://www.webfonts.info/wiki/index.php?title=%40font-face_support_in_Firefox" MODIFIED="1329167893664" TEXT="Web Fonts - Firefox"/>
 </node>
-<node COLOR="#0033ff" CREATED="1333056389137" FOLDED="true" ID="ID_1127662998" MODIFIED="1357936773249" POSITION="left" TEXT="background">
+<node COLOR="#0033ff" CREATED="1333056389137" FOLDED="true" ID="ID_1127662998" MODIFIED="1386675358795" POSITION="left" TEXT="background">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#990099" CREATED="1333056395443" FOLDED="true" ID="ID_402701821" MODIFIED="1357221029783" TEXT="transparent">
+<node COLOR="#990099" CREATED="1333056395443" FOLDED="true" ID="ID_402701821" MODIFIED="1386675358592" TEXT="transparent">
 <node CREATED="1333056429605" ID="ID_1741786650" MODIFIED="1356545671605">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -15,7 +15,7 @@
   </head>
   <body>
     <p>
-      /* Fallback for web browsers that doesn't support RGBa */<br /><font color="#0033ff">background: rgb(0, 0, 0);</font><br />/* RGBa with 0.6 opacity */<br /><font color="#0033ff">background: rgba(0, 0, 0, 0.6);</font><br />/* For IE 5.5 - 7*/<br /><font color="#0033ff">filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);</font><br />./* For IE 8*/<br /><font color="#0033ff">-ms-filter: &quot;progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)&quot;;</font>
+      /* Fallback for web browsers that doesn't support RGBa */<br/><font color="#0033ff">background: rgb(0, 0, 0);</font><br/>/* RGBa with 0.6 opacity */<br/><font color="#0033ff">background: rgba(0, 0, 0, 0.6);</font><br/>/* For IE 5.5 - 7*/<br/><font color="#0033ff">filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);</font><br/>./* For IE 8*/<br/><font color="#0033ff">-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";</font>
     </p>
   </body>
 </html></richcontent>
@@ -23,13 +23,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1338239998207" FOLDED="true" ID="ID_766402262" MODIFIED="1357936774830" POSITION="left" TEXT="box">
+<node CREATED="1338239998207" ID="ID_766402262" MODIFIED="1386675351997" POSITION="left" TEXT="box">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1336845362558" FOLDED="true" ID="ID_1421273977" MODIFIED="1357221026671" TEXT="border">
+<node COLOR="#0033ff" CREATED="1336845362558" FOLDED="true" ID="ID_1421273977" MODIFIED="1386675354881" TEXT="border">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1336845365448" FOLDED="true" ID="ID_1780697231" LINK="http://www.css3.info/preview/rounded-border/" MODIFIED="1357221026056" TEXT="radius">
+<node COLOR="#0033ff" CREATED="1336845365448" FOLDED="true" ID="ID_1780697231" LINK="http://www.css3.info/preview/rounded-border/" MODIFIED="1386675354613" TEXT="radius">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1336845502117" FOLDED="true" ID="ID_84836676" MODIFIED="1357221025634">
+<node COLOR="#0033ff" CREATED="1336845502117" ID="ID_84836676" MODIFIED="1386675353783">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -50,7 +50,7 @@
   </head>
   <body>
     <p>
-      -moz-border-radius-bottomright: 50px 25px;<br />border-bottom-right-radius: 50px 25px;
+      -moz-border-radius-bottomright: 50px 25px;<br/>border-bottom-right-radius: 50px 25px;
     </p>
   </body>
 </html></richcontent>
@@ -58,7 +58,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1338239993612" FOLDED="true" ID="ID_781897182" MODIFIED="1357242840273" TEXT="shadow">
+<node COLOR="#0033ff" CREATED="1338239993612" FOLDED="true" ID="ID_781897182" MODIFIED="1386675356289" TEXT="shadow">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1338240003013" FOLDED="true" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1357242838828" TEXT="css-tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -72,25 +72,25 @@
       /*
     </p>
     <p>
-      The horizontal offset&#160;of the shadow, positive means the shadow will be on the right of the box, a negative offset will put the shadow on the left of the box.
+      The horizontal offset&#xa0;of the shadow, positive means the shadow will be on the right of the box, a negative offset will put the shadow on the left of the box.
     </p>
     <p>
       
     </p>
     <p>
-      The vertical offset&#160;of the shadow, a negative one means the box-shadow will be above the box, a positive one means the shadow will be below the box.
+      The vertical offset&#xa0;of the shadow, a negative one means the box-shadow will be above the box, a positive one means the shadow will be below the box.
     </p>
     <p>
       
     </p>
     <p>
-      The blur radius&#160;(optional), if set to 0 the shadow will be sharp, the higher the number, the more blurred it will be.
+      The blur radius&#xa0;(optional), if set to 0 the shadow will be sharp, the higher the number, the more blurred it will be.
     </p>
     <p>
       
     </p>
     <p>
-      The spread radius&#160;(optional), positive values increase the size of the shadow, negative values decrease the size. Default is 0 (the shadow is same size as blur).
+      The spread radius&#xa0;(optional), positive values increase the size of the shadow, negative values decrease the size. Default is 0 (the shadow is same size as blur).
     </p>
     <p>
       Color
@@ -102,13 +102,13 @@
       .<font color="#0033ff">shadow { </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;-moz-box-shadow:&#160;&#160;&#160;&#160;3px 3px 5px 6px #ccc; </font>
+      <font color="#0033ff">&#xa0;&#xa0;-moz-box-shadow:&#xa0;&#xa0;&#xa0;&#xa0;3px 3px 5px 6px #ccc; </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;-webkit-box-shadow: 3px 3px 5px 6px #ccc; </font>
+      <font color="#0033ff">&#xa0;&#xa0;-webkit-box-shadow: 3px 3px 5px 6px #ccc; </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;box-shadow:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3px 3px 5px 6px #ccc; </font>
+      <font color="#0033ff">&#xa0;&#xa0;box-shadow:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;3px 3px 5px 6px #ccc; </font>
     </p>
     <p>
       <font color="#0033ff">}</font>
@@ -128,25 +128,25 @@
       .shadow {
     </p>
     <p>
-      &#160;&#160;-moz-box-shadow: 3px 3px 4px #000;
+      &#xa0;&#xa0;-moz-box-shadow: 3px 3px 4px #000;
     </p>
     <p>
-      &#160;&#160;-webkit-box-shadow: 3px 3px 4px #000;
+      &#xa0;&#xa0;-webkit-box-shadow: 3px 3px 4px #000;
     </p>
     <p>
-      &#160;&#160;box-shadow: 3px 3px 4px #000;
+      &#xa0;&#xa0;box-shadow: 3px 3px 4px #000;
     </p>
     <p>
       /* For IE 8 */
     </p>
     <p>
-      &#160;&#160;-ms-filter: &quot;progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')&quot;;
+      &#xa0;&#xa0;-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
     </p>
     <p>
       /* For IE 5.5 - 7 */
     </p>
     <p>
-      &#160;&#160;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+      &#xa0;&#xa0;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
     </p>
     <p>
       }
@@ -156,7 +156,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359130724342" FOLDED="true" ID="ID_1689246156" MODIFIED="1359130832136" POSITION="left" TEXT="page-brake">
+<node CREATED="1359130724342" FOLDED="true" ID="ID_1689246156" MODIFIED="1386675351163" POSITION="left" TEXT="page-brake">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359130530013" ID="ID_1519553482" MODIFIED="1359130774897">
 <richcontent TYPE="NODE"><html>
@@ -181,14 +181,14 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>w3school</b></font>&#160;<font color="#0033ff">page-brake-after</font>
+      <font color="#009999"><b>w3school</b></font>&#xa0;<font color="#0033ff">page-brake-after</font>
     </p>
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355839571373" FOLDED="true" ID="ID_298067342" MODIFIED="1359130513543" POSITION="left" TEXT="text">
+<node COLOR="#0033ff" CREATED="1355839571373" FOLDED="true" ID="ID_298067342" MODIFIED="1386675330043" POSITION="left" TEXT="text">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355839575754" FOLDED="true" ID="ID_715847262" MODIFIED="1357242762156" TEXT="text-shadow">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -205,13 +205,13 @@
   </head>
   <body>
     <p>
-      /* droping text shadow in <b>IE</b>&#160;*/
+      /* droping text shadow in <b>IE</b>&#xa0;*/
     </p>
     <p>
       <font color="#0033cc">filter:DropShadow(Color=#000000, OffX=1, OffY=1) </font>
     </p>
     <p>
-      <font color="#000000">Usage:&#160;&#160;</font>
+      <font color="#000000">Usage:&#xa0;&#xa0;</font>
     </p>
     <p>
       <font color="#0033cc">{FILTER: DropShadow(Color=color, OffX=offX, OffY=offY, Positive=positive)}</font>
@@ -221,7 +221,68 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357220826744" FOLDED="true" ID="ID_757028865" MODIFIED="1357936770508" POSITION="left" TEXT="transition">
+<node COLOR="#0033ff" CREATED="1386675330532" ID="ID_1321587244" MODIFIED="1386677407979" POSITION="left" TEXT="font">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1386675335051" ID="ID_1917399904" MODIFIED="1386676191544" TEXT="@font-face">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1386675822960" ID="ID_1483504420" MODIFIED="1386675889106">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">@font-face</font></b><font color="#0033ff">&#160;{ </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;font-family: MyHelvetica; </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;src: local(&quot;Helvetica Neue Bold&quot;), </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;local(&quot;HelveticaNeue-Bold&quot;), </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;url(MgOpenModernaBold.ttf); </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;font-weight: bold; </font>
+    </p>
+    <p>
+      <font color="#0033ff">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1386676193626" ID="ID_727698423" LINK="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face#Examples" MODIFIED="1386676217639">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">mdn</font></b>&#160;font-face
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1386677407963" ID="ID_1431274130" MODIFIED="1386677415766" TEXT="collections">
+<node COLOR="#009999" CREATED="1386677175983" ID="ID_1945203370" LINK="http://www.fontsquirrel.com/" MODIFIED="1386677216330" TEXT="fontsquirrel">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1386677250953" ID="ID_1225814993" LINK="http://ukrfonts.com/" MODIFIED="1386677269498" TEXT="ukrfonts.com">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1386677418039" ID="ID_881514898" LINK="http://www.google.com/fonts" MODIFIED="1386677428954" TEXT="google/fonts">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1357220826744" FOLDED="true" ID="ID_757028865" MODIFIED="1386677403105" POSITION="left" TEXT="transition">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1357221103694" ID="ID_1233232076" LINK="http://www.alistapart.com/articles/understanding-css3-transitions/" MODIFIED="1357221115425" TEXT="A List Apart">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
