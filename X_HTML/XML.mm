@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1289984615195" ID="ID_1105235403" LINK="../Index.mm" MODIFIED="1298903382060" TEXT="XML">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
@@ -16,7 +16,7 @@
 <node CREATED="1363794226861" ID="ID_1083258656" LINK="http://infohost.nmt.edu/tcc/help/xml/lint.html" MODIFIED="1363794232983" TEXT="doc"/>
 </node>
 </node>
-<node CREATED="1298903350178" FOLDED="true" ID="ID_344704111" MODIFIED="1374858596767" POSITION="left" TEXT="xpath">
+<node CREATED="1298903350178" FOLDED="true" ID="ID_344704111" MODIFIED="1387203133739" POSITION="left" TEXT="xpath">
 <node CREATED="1362506900818" ID="ID_770134559" MODIFIED="1362507016394">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -24,7 +24,7 @@
   </head>
   <body>
     <p>
-      &lt;!-- next sibling --&gt;&#160;
+      &lt;!-- next sibling --&gt;&#xa0;
     </p>
     <p>
       <font color="#0033ff">someelemtn<b>/following-sibling::a[1]</b></font>
@@ -32,10 +32,26 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1362507889115" ID="ID_139764145" MODIFIED="1362507896073" TEXT="preciding-sibling">
+<node COLOR="#0033ff" CREATED="1362507889115" ID="ID_139764145" MODIFIED="1387196749933" TEXT="preceding-sibling">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1387195719257" ID="ID_1532197321" MODIFIED="1387195810502">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;!-- find with preceeding element --&gt;
+    </p>
+    <p>
+      <font color="#0033ff">//td/text()[<b>preceding-sibling</b>::br]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1363365844001" ID="ID_1623465910" MODIFIED="1363365959472">
+</node>
+<node CREATED="1363365844001" ID="ID_1623465910" MODIFIED="1387195797742">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -60,7 +76,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1363366235032" ID="ID_473406210" MODIFIED="1363366312492">
+<node CREATED="1363366235032" ID="ID_473406210" MODIFIED="1387195797730">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -75,22 +91,23 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1363715415800" ID="ID_846972693" MODIFIED="1363715897911">
+<node CREATED="1363715415800" ID="ID_846972693" MODIFIED="1387196734732">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &lt;!-- select by two or more parameters --&gt;
+      &lt;!-- select <b>by</b>&#160;two or <b>more</b>&#160;<b>parameters</b>&#160;--&gt;
     </p>
     <p>
       <font color="#0033ff">//a[@class='shit' <b>and</b>&#160;&#160;@id = 'tada']</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1366920984382" ID="ID_1775583034" MODIFIED="1366921100800">
+<node CREATED="1366920984382" ID="ID_1775583034" MODIFIED="1387195797713">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -100,13 +117,60 @@
       &lt;!-- finding last element with attribute --&gt;
     </p>
     <p>
-      <font color="#0033ff">(//table[@class=&quot;body&quot;])[<b>last()</b>]/tbody/tr[2]/td&#160;&#160;&#160; </font>
+      <font color="#0033ff">(//table[@class="body"])[<b>last()</b>]/tbody/tr[2]/td&#xa0;&#xa0;&#xa0; </font>
     </p>
     <p>
       <font color="#0033ff">(//span[@class='myPrice'])[<b>last()</b>]</font>
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1387196617994" ID="ID_518975762" MODIFIED="1387196705534">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;!-- get all text nodes between <b>br</b>&#160;&#160;--&gt;
+    </p>
+    <p>
+      &lt;!-- and inside <b>span</b>&#160;with given text --&gt;
+    </p>
+    <p>
+      <font color="#0033ff">//span/<b>text()</b>[contains(<b>.</b>, &quot;Code&quot;)]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1387203005681" ID="ID_1800958786" MODIFIED="1387203118779">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;!-- if element contains some text --&gt;
+    </p>
+    <p>
+      <font color="#0033ff">span[contains(., 'testuser')]</font>
+    </p>
+    <p>
+      &lt;!-- exact text in node --&gt;
+    </p>
+    <p>
+      <font color="#0033ff">span[<b>.=</b>'full text in this span']</font>
+    </p>
+    <p>
+      &lt;!-- Regexp --&gt;
+    </p>
+    <p>
+      <font color="#0033ff">span[<b>regexp:test</b>(string(.), 'testuser')]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1298903424927" ID="ID_1661081815" MODIFIED="1363794264362" POSITION="left" TEXT="xform"/>
