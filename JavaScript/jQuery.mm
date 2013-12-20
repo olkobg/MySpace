@@ -422,7 +422,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1290773186085" ID="ID_146665972" MODIFIED="1387537403520" POSITION="left" TEXT="select">
+<node CREATED="1290773186085" FOLDED="true" ID="ID_146665972" MODIFIED="1387572116517" POSITION="left" TEXT="select">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1354704279416" ID="ID_228668161" LINK="http://api.jquery.com/category/selectors/attribute-selectors/" MODIFIED="1354704287079" TEXT="attribute selector">
 <node CREATED="1354704305275" ID="ID_10776762" LINK="http://api.jquery.com/attribute-equals-selector/" MODIFIED="1354704315511" TEXT="attribute equals selector"/>
@@ -448,7 +448,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354901183128" FOLDED="true" ID="ID_420329235" LINK="http://api.jquery.com/only-child-selector/" MODIFIED="1355160942550" TEXT=":only-child">
+<node COLOR="#0033ff" CREATED="1354901183128" ID="ID_420329235" LINK="http://api.jquery.com/only-child-selector/" MODIFIED="1387571981870" TEXT=":only-child">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354901192433" ID="ID_253000628" MODIFIED="1354901241095">
 <richcontent TYPE="NODE"><html>
@@ -502,6 +502,27 @@
 </node>
 <node COLOR="#0033ff" CREATED="1387537411552" ID="ID_1118524803" LINK="http://api.jquery.com/parentsUntil/" MODIFIED="1387537437774" TEXT="parentUntil">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1387571985591" FOLDED="true" ID="ID_1143788773" LINK="http://api.jquery.com/category/selectors/visibility-filter-selectors/" MODIFIED="1387572116237" TEXT="visibility">
+<node COLOR="#0033ff" CREATED="1387571990662" ID="ID_867886087" MODIFIED="1387572007726" TEXT=":hidden">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1387571995262" FOLDED="true" ID="ID_778100995" MODIFIED="1387572058142" TEXT=":visible">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1387572013725" ID="ID_1794725219" MODIFIED="1387572056246">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">jQuery('selector').is('<b>:visible</b>');</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1354629529574" FOLDED="true" ID="ID_482385820" MODIFIED="1358677459301" POSITION="right" TEXT="object">
