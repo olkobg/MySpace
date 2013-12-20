@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1384358332717" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1387547650822" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -1082,7 +1082,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1384358332437" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1387547654595" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1383345273843" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1247,9 +1247,9 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1379503338786" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1387548104630" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1375455970814" TEXT="apt">
+<node COLOR="#0033ff" CREATED="1303810881728" ID="ID_1773758272" MODIFIED="1387547656081" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1362824062656" TEXT="caching">
 <node COLOR="#0033ff" CREATED="1303810890920" FOLDED="true" ID="ID_1003328043" MODIFIED="1356098186406" TEXT="apt-cacher">
@@ -1342,6 +1342,39 @@
                 </p>
               </body>
             </html></richcontent>
+</node>
+</node>
+<node CREATED="1387547658612" FOLDED="true" ID="ID_1041045267" MODIFIED="1387548097885" TEXT="tips">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1387547662278" ID="ID_1002103996" MODIFIED="1387548096031">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # error installing app
+    </p>
+    <ol>
+      <li>
+        make a backup on<font color="#0033ff">&#160;<b>/var/lib/dpkg/info</b>&#160;</font>(e.g<b>&#160;/<font color="#0033ff">var/lib/dpkg/info-ba</font>k</b>)
+      </li>
+      <li>
+        remove files(related to<i>&#160;<font color="#0033ff">problem package</font></i><font color="#0033ff">&#160;</font><font color="#000000">with</font><font color="#0033ff">&#160; <b>*.list, *.md5sums, *.prerm, *.postinst</b></font>) from info folder
+      </li>
+      <li>
+        <font color="#0033ff">$ sudo apt-get clean all </font>
+      </li>
+      <li>
+        <font color="#0033ff">$ sudo apt-get update </font>
+      </li>
+      <li>
+        <font color="#0033ff">$ sudo dpgk --configure -a </font>
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
