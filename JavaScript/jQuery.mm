@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1288878945548" ID="ID_501072028" LINK="JavaScript.mm" MODIFIED="1355129120494" TEXT="jQuery">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -27,10 +27,10 @@
       $(polygon)<b>.mouseover</b>(function(){
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// chenged style for polygon
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;// chenged style for polygon
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(this).attr('style', 'fill: rgb(220, 0, 0);stroke: rgb(10, 10, 10);stroke-width:2;');
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$(this).attr('style', 'fill: rgb(220, 0, 0);stroke: rgb(10, 10, 10);stroke-width:2;');
     </p>
   </body>
 </html></richcontent>
@@ -48,13 +48,13 @@
       <b>.mouseout</b>(function(){
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// default style for polygon
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;// default style for polygon
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(this).attr('style', 'fill: rgb(220, 225, 225);stroke: rgb(245, 245, 245);stroke-width:2;');
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$(this).attr('style', 'fill: rgb(220, 225, 225);stroke: rgb(245, 245, 245);stroke-width:2;');
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;})
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;})
     </p>
   </body>
 </html></richcontent>
@@ -76,16 +76,16 @@
   </head>
   <body>
     <p>
-      $(&quot;p&quot;).click(function(event){
+      $("p").click(function(event){
     </p>
     <p>
-      &#160;&#160;&#160;event.<b>stopPropagation( );</b>&#160;&#160;&#160;
+      &#xa0;&#xa0;&#xa0;event.<b>stopPropagation( );</b>&#xa0;&#xa0;&#xa0;
     </p>
     <p>
-      &#160;&#160;&#160;// do something
+      &#xa0;&#xa0;&#xa0;// do something
     </p>
     <p>
-      });&#160;
+      });&#xa0;
     </p>
   </body>
 </html></richcontent>
@@ -103,28 +103,28 @@
       // preventing submitting form
     </p>
     <p>
-      $(&quot;#form&quot;).<b>submit</b>(function(e) {
+      $("#form").<b>submit</b>(function(e) {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;if(!$('input[type=checkbox]:checked').length) {
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if(!$('input[type=checkbox]:checked').length) {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//stop the form from submitting
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//stop the form from submitting
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;e.<b>preventDefault( );</b>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;e.<b>preventDefault( );</b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alert(&quot;Please select at least one to upgrade.&quot;);
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;alert("Please select at least one to upgrade.");
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// also could be
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;// also could be
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// return false;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;// return false;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;}&#160;&#160;&#160;&#160;&#160;&#160;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
     </p>
     <p>
       return true;
@@ -137,7 +137,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1354635093513" FOLDED="true" ID="ID_415842503" MODIFIED="1357825571102" POSITION="right" TEXT="elements">
+<node CREATED="1354635093513" FOLDED="true" ID="ID_415842503" MODIFIED="1387537402201" POSITION="right" TEXT="elements">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355839315264" ID="ID_898696207" MODIFIED="1355839318673" TEXT="css">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -210,7 +210,7 @@
   </head>
   <body>
     <p>
-      $(#checkbox).<b>removeAttr</b>(&quot;checked&quot;);
+      $(#checkbox).<b>removeAttr</b>("checked");
     </p>
   </body>
 </html></richcontent>
@@ -241,16 +241,16 @@
   </head>
   <body>
     <p>
-      if(&#160;&#160;$(element).is(&quot;:visible&quot;) == &quot;true&quot; )
+      if(&#xa0;&#xa0;$(element).is(":visible") == "true" )
     </p>
     <p>
-      {&#160;&#160;&#160;// do something }
+      {&#xa0;&#xa0;&#xa0;// do something }
     </p>
     <p>
       else
     </p>
     <p>
-      {&#160;&#160;&#160;// do something else&lt;br&gt; }&#160;
+      {&#xa0;&#xa0;&#xa0;// do something else&lt;br&gt; }&#xa0;
     </p>
   </body>
 </html></richcontent>
@@ -306,7 +306,7 @@
   </head>
   <body>
     <p>
-      tbodyEl.<b>append</b>('&lt;tr&gt;&lt;td colspan=&quot;2&quot; align=&quot;left&quot;&gt;Hi there&lt;/td&gt;&lt;/tr&gt;');
+      tbodyEl.<b>append</b>('&lt;tr&gt;&lt;td colspan="2" align="left"&gt;Hi there&lt;/td&gt;&lt;/tr&gt;');
     </p>
   </body>
 </html></richcontent>
@@ -358,7 +358,7 @@
       <b>$each</b>(elements, function(key, elem) {
     </p>
     <p>
-      &#160;&#160;alert elem;
+      &#xa0;&#xa0;alert elem;
     </p>
     <p>
       });
@@ -404,25 +404,25 @@
       <font color="#000000">// call function on frame dynamicaly loaded</font>
     </p>
     <p>
-      <font color="#0033ff">$(document.body).append('&lt;IFRAME id=&quot;myId&quot; ...&gt;');&#160;&#160;&#160;&#160;&#160; </font>
+      <font color="#0033ff">$(document.body).append('&lt;IFRAME id="myId" ...&gt;');&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;$('iframe#myId').attr('src', url);&#160;&#160;&#160;&#160;&#160;&#160; </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;$('iframe#myId').attr('src', url);&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;$('iframe#myId').load(function() { </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;$('iframe#myId').load(function() { </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;callback(this);&#160;&#160;&#160;&#160;&#160; </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;callback(this);&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;});</font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;});</font>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1290773186085" FOLDED="true" ID="ID_146665972" MODIFIED="1357240257525" POSITION="left" TEXT="select">
+<node CREATED="1290773186085" ID="ID_146665972" MODIFIED="1387537403520" POSITION="left" TEXT="select">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1354704279416" ID="ID_228668161" LINK="http://api.jquery.com/category/selectors/attribute-selectors/" MODIFIED="1354704287079" TEXT="attribute selector">
 <node CREATED="1354704305275" ID="ID_10776762" LINK="http://api.jquery.com/attribute-equals-selector/" MODIFIED="1354704315511" TEXT="attribute equals selector"/>
@@ -430,7 +430,7 @@
 <node COLOR="#0033ff" CREATED="1354869938218" ID="ID_546897979" LINK="http://api.jquery.com/jQuery.each/" MODIFIED="1354871050258" TEXT="each">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354901216107" FOLDED="true" ID="ID_1748294113" MODIFIED="1355160944281" TEXT="&gt;">
+<node COLOR="#0033ff" CREATED="1354901216107" ID="ID_1748294113" MODIFIED="1387537404944" TEXT="&gt;">
 <font BOLD="true" NAME="SansSerif" SIZE="11"/>
 <node COLOR="#0033ff" CREATED="1354901019967" ID="ID_650255422" MODIFIED="1354903078728">
 <richcontent TYPE="NODE"><html>
@@ -442,7 +442,7 @@
       // only childern
     </p>
     <p>
-      tbl.find(&quot;<b>&gt;</b>&#160;tbody &gt; tr&quot;)
+      tbl.find("<b>&gt;</b>&#xa0;tbody &gt; tr")
     </p>
   </body>
 </html></richcontent>
@@ -457,7 +457,7 @@
   </head>
   <body>
     <p>
-      $(&quot;div button:<b>only-child</b>&quot;)
+      $("div button:<b>only-child</b>")
     </p>
   </body>
 </html></richcontent>
@@ -488,10 +488,10 @@
   </head>
   <body>
     <p>
-      $(&quot;tr.topRow td:first-child&quot;).click(function () {
+      $("tr.topRow td:first-child").click(function () {
     </p>
     <p>
-      &#160;&#160;&#160;$(this).parent().next().<b>nextUntil</b>('tr.topRow').slideToggle();
+      &#xa0;&#xa0;&#xa0;$(this).parent().next().<b>nextUntil</b>('tr.topRow').slideToggle();
     </p>
     <p>
       });
@@ -499,6 +499,9 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1387537411552" ID="ID_1118524803" LINK="http://api.jquery.com/parentsUntil/" MODIFIED="1387537437774" TEXT="parentUntil">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1354629529574" FOLDED="true" ID="ID_482385820" MODIFIED="1358677459301" POSITION="right" TEXT="object">
@@ -510,7 +513,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#0033ff">extend</font></b>&#160;(clone)
+      <b><font color="#0033ff">extend</font></b>&#xa0;(clone)
     </p>
   </body>
 </html></richcontent>
@@ -524,7 +527,7 @@
       // Shallow copy
     </p>
     <p>
-      var newObject = jQuery.<b>extend(</b>{}, oldObject);&#160;&#160;
+      var newObject = jQuery.<b>extend(</b>{}, oldObject);&#xa0;&#xa0;
     </p>
     <p>
       // Deep copy
@@ -552,20 +555,19 @@
   </head>
   <body>
     <p>
-      // to make animation simultaneous&#160;<br /><font color="#0033cc">$(this).animate( </font>
+      // to make animation simultaneous&#xa0;<br/><font color="#0033cc">$(this).animate( </font>
     </p>
     <p>
-      <font color="#0033cc">&#160;&#160;{opacity:&quot;1&quot;}, </font>
+      <font color="#0033cc">&#xa0;&#xa0;{opacity:"1"}, </font>
     </p>
     <p>
-      <font color="#0033cc">&#160;&#160;{duration:600,<b>queue&#160;: false</b>} </font>
+      <font color="#0033cc">&#xa0;&#xa0;{duration:600,<b>queue&#xa0;: false</b>} </font>
     </p>
     <p>
       <font color="#0033cc">);</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -583,16 +585,16 @@
       <b>$.post</b>(
     </p>
     <p>
-      &#160;&#160;'url',
+      &#xa0;&#xa0;'url',
     </p>
     <p>
-      &#160;&#160;{parameter1 : &quot;some value&quot;} ,
+      &#xa0;&#xa0;{parameter1 : "some value"} ,
     </p>
     <p>
-      &#160;function () {
+      &#xa0;function () {
     </p>
     <p>
-      &#160;&#160;$('element').doStuff();
+      &#xa0;&#xa0;$('element').doStuff();
     </p>
     <p>
       });
@@ -608,7 +610,7 @@
   </head>
   <body>
     <p>
-      $(&quot;element&quot;)<b>.load( )</b>
+      $("element")<b>.load( )</b>
     </p>
   </body>
 </html></richcontent>
@@ -620,19 +622,19 @@
   </head>
   <body>
     <p>
-      $(&quot;#sayHello&quot;).click(function() {
+      $("#sayHello").click(function() {
     </p>
     <p>
-      &#160;&#160;$(&quot;#box&quot;)<b>.load</b>(&quot;microDate.php&quot;,function(responseTxt,statusTxt,xhr){
+      &#xa0;&#xa0;$("#box")<b>.load</b>("microDate.php",function(responseTxt,statusTxt,xhr){
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if(statusTxt==&quot;error&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;if(statusTxt=="error")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;alert(&quot;Error: &quot;+xhr.status+&quot;: &quot;+xhr.statusText);
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;alert("Error: "+xhr.status+": "+xhr.statusText);
     </p>
     <p>
-      &#160;&#160;});
+      &#xa0;&#xa0;});
     </p>
     <p>
       });
@@ -656,7 +658,7 @@
   </head>
   <body>
     <p>
-      $.<b>param</b>({ a: [2,3,4] }) // &quot;a[]=2&amp;a[]=3&amp;a[]=4&quot;
+      $.<b>param</b>({ a: [2,3,4] }) // "a[]=2&amp;a[]=3&amp;a[]=4"
     </p>
   </body>
 </html></richcontent>
@@ -677,7 +679,7 @@
   </head>
   <body>
     <p>
-      &lt;script type=&quot;text/javascript&quot; src=&quot;http://code.jquery.com/jquery-latest.js&quot;&gt;&lt;/script&gt;
+      &lt;script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
     </p>
   </body>
 </html></richcontent>
@@ -694,7 +696,7 @@
   </head>
   <body>
     <p>
-      <b>SVG&#160;</b>by&#160;Keith Wood
+      <b>SVG&#xa0;</b>by&#xa0;Keith Wood
     </p>
   </body>
 </html></richcontent>
