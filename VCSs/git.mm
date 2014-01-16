@@ -114,6 +114,10 @@
 </node>
 </node>
 </node>
+<node CREATED="1389904651657" ID="ID_1113635988" MODIFIED="1389904654604" POSITION="left" TEXT="clients">
+<node CREATED="1389904655609" ID="ID_792398923" MODIFIED="1389904660596" TEXT="sourcetree"/>
+<node CREATED="1389904661209" ID="ID_1157394" MODIFIED="1389904667260" TEXT="smart git/hq"/>
+</node>
 <node COLOR="#0033ff" CREATED="1311116397871" FOLDED="true" ID="ID_315343330" MODIFIED="1380365714834" POSITION="left" TEXT="merge">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347010374336" ID="ID_276273301" MODIFIED="1355754800083">
@@ -485,8 +489,7 @@
       <font color="#0033ff">$ git clone -b mybranch <b>--single-branch</b>&#160; git://sub.domain.com/repo.git</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="version" VALUE="&gt; 1.7"/>
 </node>
 </node>
