@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1291283770427" ID="ID_139034343" LINK="PHP.mm" MODIFIED="1385913014602" TEXT="Joomla">
+<node CREATED="1291283770427" ID="ID_139034343" LINK="PHP.mm" MODIFIED="1389217361815" TEXT="Joomla">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1291283774647" FOLDED="true" ID="ID_121307815" MODIFIED="1385913015168" POSITION="right" TEXT="component">
 <node CREATED="1291284789296" FOLDED="true" ID="ID_958704200" MODIFIED="1385913011328" TEXT="siteMap">
@@ -173,6 +173,9 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1389214029161" FOLDED="true" ID="ID_1846619308" MODIFIED="1389217361545" POSITION="left" TEXT="overrides">
+<node CREATED="1389214033144" ID="ID_76159587" LINK="http://docs.joomla.org/How_to_override_the_output_from_the_Joomla!_core" MODIFIED="1389214040929" TEXT="joomla output override"/>
 </node>
 </node>
 </map>

@@ -519,8 +519,7 @@
       <font color="#0033ff">jQuery('selector').is('<b>:visible</b>');</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -723,7 +722,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1355838991471" FOLDED="true" ID="ID_194065213" MODIFIED="1357825600956" POSITION="left" TEXT="plugins">
+<node CREATED="1355838991471" FOLDED="true" ID="ID_194065213" MODIFIED="1389213225751" POSITION="left" TEXT="plugins">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355838997784" ID="ID_448961335" LINK="http://www.inwebson.com/jquery/cool-jquery-plugins-make-you-wow/" MODIFIED="1357240275960" TEXT="cool 18 plugins"/>
 <node CREATED="1357726200177" ID="ID_1915031401" MODIFIED="1357726258107" TEXT="Local Storage">
@@ -742,8 +741,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1354015762809" ID="ID_749062094" LINK="jquery/jqueryUI.mm" MODIFIED="1357825597026" TEXT="jqueryUI">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node CREATED="1354015762809" ID="ID_749062094" LINK="jquery/jqueryUI.mm" MODIFIED="1389213220947" TEXT="jqueryUI">
+<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+</node>
+<node CREATED="1389213183121" ID="ID_729942292" LINK="http://code.google.com/p/jqueryrotate/" MODIFIED="1389213212220" TEXT="jqueryrotate">
+<font BOLD="true" NAME="SansSerif" SIZE="13"/>
 </node>
 </node>
 </node>
