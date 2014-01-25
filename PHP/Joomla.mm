@@ -70,12 +70,13 @@
 </node>
 </node>
 <node CREATED="1291284799301" ID="ID_255867537" MODIFIED="1291284801602" POSITION="left" TEXT="plugins">
-<node CREATED="1386584528527" FOLDED="true" ID="ID_1503046158" MODIFIED="1386584578999" TEXT="editors">
+<node CREATED="1386584528527" ID="ID_1503046158" MODIFIED="1390675916387" TEXT="editors">
 <node CREATED="1386584532286" ID="ID_1940308024" LINK="http://www.joomlackeditor.com/" MODIFIED="1386584558002" TEXT="jck"/>
 <node CREATED="1386584534151" ID="ID_927650974" LINK="http://www.joomlacontenteditor.net" MODIFIED="1386584543855" TEXT="jce"/>
+<node CREATED="1390675919032" ID="ID_1152214492" LINK="http://www.tinymce.com/" MODIFIED="1390686416063" TEXT="TinyMCE"/>
 </node>
 </node>
-<node CREATED="1291284809663" FOLDED="true" ID="ID_1912035499" MODIFIED="1386584581447" POSITION="left" TEXT="templates">
+<node CREATED="1291284809663" ID="ID_1912035499" MODIFIED="1390665455426" POSITION="left" TEXT="templates">
 <node CREATED="1385913305711" ID="ID_1617488537" LINK="http://docs.joomla.org/Creating_a_basic_Joomla!_template" MODIFIED="1385913356172">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -88,7 +89,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1386425921375" FOLDED="true" ID="ID_903791493" MODIFIED="1386584519083" TEXT="language">
+<node CREATED="1386425921375" ID="ID_903791493" MODIFIED="1390665511269" TEXT="language">
 <node CREATED="1386428193557" ID="ID_634797763" MODIFIED="1386428230260">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -138,7 +139,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1386425874885" ID="ID_1009541801" MODIFIED="1386426073494" TEXT="params">
+<node CREATED="1386425874885" ID="ID_1009541801" MODIFIED="1390676082110" TEXT="fields (params)">
 <node CREATED="1386425878572" ID="ID_574317696" LINK="http://www.slideshare.net/doncranford/creating-custom-templates-for-joomla-25" MODIFIED="1386425915477">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -151,9 +152,10 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1390676097370" ID="ID_501400887" LINK="#ID_598077463" MODIFIED="1390676108915" TEXT="form"/>
 </node>
 </node>
-<node CREATED="1385927362926" FOLDED="true" ID="ID_85484636" MODIFIED="1386584522291" POSITION="left" TEXT="languages">
+<node CREATED="1385927362926" ID="ID_85484636" MODIFIED="1390665487633" POSITION="left" TEXT="languages">
 <node CREATED="1385927366718" ID="ID_730660911" MODIFIED="1385927367777" TEXT="codes">
 <node CREATED="1385927368454" ID="ID_1370999471" MODIFIED="1385927371969" TEXT="uk-UA"/>
 </node>
@@ -174,8 +176,56 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1389214029161" FOLDED="true" ID="ID_1846619308" MODIFIED="1389217361545" POSITION="left" TEXT="overrides">
+<node CREATED="1389214029161" ID="ID_1846619308" MODIFIED="1390665506051" POSITION="left" TEXT="overrides">
 <node CREATED="1389214033144" ID="ID_76159587" LINK="http://docs.joomla.org/How_to_override_the_output_from_the_Joomla!_core" MODIFIED="1389214040929" TEXT="joomla output override"/>
+</node>
+<node CREATED="1390676047980" ID="ID_598077463" MODIFIED="1390676439023" POSITION="left" TEXT="form">
+<node CREATED="1390676054252" ID="ID_526293144" LINK="http://docs.joomla.org/Form_field" MODIFIED="1390676475764" TEXT="fields">
+<node CREATED="1390676479290" ID="ID_1019298362" LINK="http://docs.joomla.org/Standard_form_field_and_parameter_types" MODIFIED="1390676490409" TEXT="standart form fields and parameters type"/>
+<node COLOR="#0033ff" CREATED="1390676126210" ID="ID_1132186550" LINK="http://docs.joomla.org/Textarea_form_field_type" MODIFIED="1390676518513" TEXT="textarea"/>
+<node COLOR="#0033ff" CREATED="1390676513817" ID="ID_533263804" LINK="http://docs.joomla.org/Editor_form_field_type" MODIFIED="1390676522976" TEXT="editor"/>
+<node CREATED="1390676143074" FOLDED="true" ID="ID_429291306" MODIFIED="1390676420333" TEXT="attributes">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1390676319894" ID="ID_1866976852" MODIFIED="1390676368926" TEXT="name"/>
+<node COLOR="#0033ff" CREATED="1390676371021" ID="ID_563872790" MODIFIED="1390676378902" TEXT="type"/>
+<node COLOR="#0033ff" CREATED="1390676322046" ID="ID_1032923394" MODIFIED="1390676368927" TEXT="description"/>
+<node COLOR="#0033ff" CREATED="1390676326110" ID="ID_1480101439" MODIFIED="1390676368928" TEXT="label"/>
+<node COLOR="#0033ff" CREATED="1390676361477" ID="ID_1459520858" MODIFIED="1390676378900" TEXT="default"/>
+<node COLOR="#0033ff" CREATED="1390676146674" FOLDED="true" ID="ID_1080474707" MODIFIED="1390676418797" TEXT="filter">
+<node CREATED="1390676152706" ID="ID_708735347" MODIFIED="1390676172268" TEXT="used to filter text for current field"/>
+<node CREATED="1390676174249" ID="ID_375190279" MODIFIED="1390676357027">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">&lt;!-- will not filter html tags --&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&lt;field name=&quot;fieldName&quot; <b>filter=&quot;raw&quot;</b>/&gt;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1390676396900" ID="ID_775828166" MODIFIED="1390676415850">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">&lt;!-- default value --&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&lt;field name=&quot;fieldName&quot; <b>filter=&quot;savehtml&quot;</b>/&gt;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

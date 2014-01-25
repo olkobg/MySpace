@@ -162,8 +162,7 @@
       what you&#8217;re trying to <font color="#0033ff"><b>return</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -384,8 +383,7 @@
       and run the body of the loop.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1348819999307" ID="ID_1308328629" MODIFIED="1348820067264" TEXT="for (int cell : locationCells) { }"/>
 <node COLOR="#0033ff" CREATED="1348823118271" ID="ID_1922376122" MODIFIED="1348823125999" TEXT="for (String name : nameArray) {}"/>
@@ -872,9 +870,9 @@ try {
 </node>
 </node>
 </node>
-<node CREATED="1349080880666" FOLDED="true" ID="ID_1434291483" MODIFIED="1389960892768" POSITION="right" TEXT="util">
+<node CREATED="1349080880666" ID="ID_1434291483" MODIFIED="1390662710595" POSITION="right" TEXT="util">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#0033ff" CREATED="1349080893673" FOLDED="true" ID="ID_221045770" MODIFIED="1389960890001" TEXT="ArrayList">
+<node COLOR="#0033ff" CREATED="1349080893673" FOLDED="true" ID="ID_221045770" MODIFIED="1390662714485" TEXT="ArrayList">
 <node COLOR="#0033ff" CREATED="1349081169270" ID="ID_1954782226" LINK="src/general/utils/ArrayList-Examples.java" MODIFIED="1389960575562" TEXT="ArrayListExamples.java"/>
 <node COLOR="#0033ff" CREATED="1349081000219" ID="ID_925826396" MODIFIED="1349081072015" TEXT="add(Object elem)"/>
 <node COLOR="#0033ff" CREATED="1349081013231" ID="ID_959530617" MODIFIED="1349081128746" TEXT="remove(int index)"/>
