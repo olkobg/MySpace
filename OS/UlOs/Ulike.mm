@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1387547650822" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1392059826382" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<b><font color="#cc0033">Debian</font></b>) in most cases
+      (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -197,7 +197,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1384358327316" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1392059830062" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -931,8 +931,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1375871409971" POSITION="right" TEXT="interpet">
-<node COLOR="#0033ff" CREATED="1296636804213" ID="ID_493133498" MODIFIED="1360156095153" TEXT="bash">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1392060142600" POSITION="right" TEXT="interpet">
+<node COLOR="#0033ff" CREATED="1296636804213" FOLDED="true" ID="ID_493133498" MODIFIED="1392060065432" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
 <richcontent TYPE="NODE"><html>
@@ -946,6 +946,59 @@
             </body>
           </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1392060001713" ID="ID_14701259" LINK="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html" MODIFIED="1392060024752">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>tldp</b>&#160;bash intro
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1392060026735" ID="ID_457505142" LINK="http://www.tldp.org/LDP/abs/html/" MODIFIED="1392060061345">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>tldp</b>&#160;advanced bash
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1392059838731" FOLDED="true" ID="ID_431796211" MODIFIED="1392059981794" TEXT="tips">
+<node CREATED="1392059841979" ID="ID_930291454" MODIFIED="1392059978065">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # shortcuts
+    </p>
+    <p>
+      # test command
+    </p>
+    <p>
+      <font color="#0033ff"><b>[ ]</b></font>&#160;-&gt; <font color="#0033ff"><b>test </b></font>
+    </p>
+    <p>
+      <font color="#000000"># subcommand</font>
+    </p>
+    <p>
+      <font color="#0033ff"><b>$()</b></font>&#160;-&gt;<font color="#0033ff">&#160;<b>``</b></font><b><font color="#000000">&#160;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1360156468308" ID="ID_1190528675" MODIFIED="1360156478802" TEXT="zsh">
@@ -1373,8 +1426,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1784,7 +1836,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1380410078356" POSITION="left" TEXT="X">
+<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1392060140726" POSITION="left" TEXT="X">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
@@ -1893,11 +1945,24 @@
       </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1361461487216" FOLDED="true" ID="ID_386274153" MODIFIED="1375456108177" TEXT="xvfb">
+<node COLOR="#0033ff" CREATED="1361461487216" FOLDED="true" ID="ID_386274153" MODIFIED="1392060140143" TEXT="xvfb">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361461492480" ID="ID_1130473563" LINK="http://docs.codehaus.org/display/FEST/Running+FEST+under+Xvfb" MODIFIED="1361461497309" TEXT="article 1"/>
 <node CREATED="1361461507672" ID="ID_401431363" LINK="http://askubuntu.com/questions/9694/how-to-run-two-x-sessions-at-the-same-time" MODIFIED="1361461527280" TEXT="x session on same machine"/>
 <node CREATED="1361462308716" ID="ID_578732248" LINK="http://www.vanemery.com/Linux/XoverSSH/X-over-SSH2.html" MODIFIED="1361462319909" TEXT="x over ssh2 tutorial"/>
+<node CREATED="1392060100733" ID="ID_625397570" LINK="http://stackoverflow.com/questions/2520704/find-a-free-x11-display-number" MODIFIED="1392060138237">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>so</b></font>&#160;find available display and run
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
