@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1392059826382" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1392138431419" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -197,9 +197,9 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1392059830062" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1392138538542" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1370354717615" TEXT="backup">
+<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1392138519345" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1370354717318" TEXT="rsync">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -220,7 +220,7 @@
 <node CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1368085151516" TEXT="bittorent">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1375456022542" TEXT="convert">
+<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1392138517278" TEXT="convert">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1370354692106" TEXT="textfiles">
 <node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1355996330572" TEXT="recode">
@@ -268,7 +268,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1384358327314" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1392138533859" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1384358327312" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -493,7 +493,7 @@
             </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296636809316" FOLDED="true" ID="ID_604774115" MODIFIED="1365668007073" TEXT="tree">
+<node COLOR="#0033ff" CREATED="1296636809316" FOLDED="true" ID="ID_604774115" MODIFIED="1392138512595" TEXT="tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636817878" ID="ID_981018607" MODIFIED="1356098118281">
 <richcontent TYPE="NODE"><html>
@@ -569,7 +569,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1364490060955" ID="ID_1308648567" MODIFIED="1368085184384" TEXT="grep">
+<node COLOR="#0033ff" CREATED="1364490060955" FOLDED="true" ID="ID_1308648567" MODIFIED="1392138533160" TEXT="grep">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1364490064741" ID="ID_1648787011" LINK="http://www.thegeekstuff.com/2011/10/grep-or-and-not-operators/" MODIFIED="1364490069873" TEXT="logic"/>
 </node>
@@ -585,7 +585,7 @@
           </body>
         </html></richcontent>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1375456015769" TEXT="net">
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1392138530841" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1375298949179" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
@@ -626,8 +626,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1375456014824" TEXT="security">
-<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1375271461010" TEXT="crypt">
+<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1392138529336" TEXT="security">
+<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1392138528525" TEXT="crypt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1375271460744" TEXT="gpg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -683,9 +683,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1369943937324" FOLDED="true" ID="ID_1026528888" MODIFIED="1370354772783" TEXT="hash">
+<node CREATED="1369943937324" FOLDED="true" ID="ID_1026528888" MODIFIED="1392138525954" TEXT="hash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1369943941361" FOLDED="true" ID="ID_126741669" MODIFIED="1370354772543" TEXT="md5">
+<node CREATED="1369943941361" ID="ID_126741669" MODIFIED="1392138524701" TEXT="md5">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369943952462" ID="ID_1061356057" MODIFIED="1369944415948">
 <richcontent TYPE="NODE"><html>
@@ -816,7 +816,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1368085258406" FOLDED="true" ID="ID_1345591290" MODIFIED="1375456012237" TEXT="subshell">
+<node CREATED="1368085258406" FOLDED="true" ID="ID_1345591290" MODIFIED="1392138444249" TEXT="subshell">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1368085262684" ID="ID_526814332" LINK="http://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it" MODIFIED="1368085285029" TEXT="so: unix">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -854,7 +854,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1375456009829" TEXT="users">
+<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1392138535996" TEXT="users">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361971728537" FOLDED="true" ID="ID_1193412117" MODIFIED="1365667858949" TEXT="group">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -910,6 +910,21 @@
           </html></richcontent>
 </node>
 </node>
+<node CREATED="1392138446557" ID="ID_748620621" MODIFIED="1392138502510">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # execute command as other user
+    </p>
+    <p>
+      <font color="#0033ff">$ sudo <b>-u</b>&#160;<b>apache</b>&#160;rm -rf /var/www/devel/F-12110</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1376555918102" FOLDED="true" ID="ID_580851467" MODIFIED="1376935426947" TEXT="video">
 <node CREATED="1376555922107" ID="ID_513424609" MODIFIED="1376556033808">
 <richcontent TYPE="NODE"><html>
@@ -957,8 +972,7 @@
       <b>tldp</b>&#160;bash intro
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1392060026735" ID="ID_457505142" LINK="http://www.tldp.org/LDP/abs/html/" MODIFIED="1392060061345">
 <richcontent TYPE="NODE"><html>
@@ -970,8 +984,7 @@
       <b>tldp</b>&#160;advanced bash
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1392059838731" FOLDED="true" ID="ID_431796211" MODIFIED="1392059981794" TEXT="tips">
 <node CREATED="1392059841979" ID="ID_930291454" MODIFIED="1392059978065">
@@ -996,8 +1009,7 @@
       <font color="#0033ff"><b>$()</b></font>&#160;-&gt;<font color="#0033ff">&#160;<b>``</b></font><b><font color="#000000">&#160;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1135,7 +1147,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1387547654595" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1392139170521" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1383345273843" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1960,8 +1972,7 @@
       <font color="#009999"><b>so</b></font>&#160;find available display and run
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1357132643779" ID="ID_971064340" LINK="../Index.mm" MODIFIED="1389903597278" TEXT="Clouds">
+<node CREATED="1357132643779" ID="ID_971064340" LINK="../Index.mm" MODIFIED="1392139163768" TEXT="Clouds">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1389903597101" FOLDED="true" ID="ID_1758930567" MODIFIED="1389906353236" POSITION="right" TEXT="paas">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -85,7 +85,7 @@
 <node CREATED="1389904882635" ID="ID_1522195220" LINK="https://www.transifex.com/" MODIFIED="1389904988553" TEXT="transifex"/>
 <node CREATED="1389905019817" ID="ID_692837577" LINK="http://crowdin.net" MODIFIED="1389905045057" TEXT="crowdin"/>
 </node>
-<node CREATED="1389903909577" FOLDED="true" ID="ID_1174524281" MODIFIED="1389906359252" POSITION="left" TEXT="develop">
+<node CREATED="1389903909577" FOLDED="true" ID="ID_1174524281" MODIFIED="1392139163229" POSITION="left" TEXT="develop">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1389904830310" FOLDED="true" ID="ID_1521677570" MODIFIED="1389906331181" TEXT="edit">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -143,8 +143,14 @@
 <node CREATED="1389904482341" ID="ID_1449068728" LINK="http://gitlab.org/gitlab-ci" MODIFIED="1389904486237" TEXT="github-ci"/>
 <node CREATED="1389905276603" ID="ID_253643777" LINK="https://travis-ci.org/" MODIFIED="1389905280802" TEXT="travis"/>
 </node>
+<node CREATED="1392139130711" FOLDED="true" ID="ID_704057499" MODIFIED="1392139162780" TEXT="mind-map">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1392139141984" ID="ID_262396112" LINK="http://www.mindmup.com/" MODIFIED="1392139160236" TEXT="mindmup">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1389904764142" FOLDED="true" ID="ID_1125644584" MODIFIED="1389906339525" POSITION="left" TEXT="finanse">
+</node>
+</node>
+<node CREATED="1389904764142" FOLDED="true" ID="ID_1125644584" MODIFIED="1392139128805" POSITION="left" TEXT="finanse">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1389904769439" ID="ID_1158119714" MODIFIED="1389904779633" TEXT="Freshbooks"/>
 </node>
