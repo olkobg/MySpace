@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1392138431419" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1392637030519" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -197,7 +197,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1392138538542" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1392637492818" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1392138519345" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -585,9 +585,9 @@
           </body>
         </html></richcontent>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1392138530841" TEXT="net">
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1392637492320" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1375298949179" TEXT="Mail">
+<node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1392637491694" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -597,8 +597,60 @@
 <node COLOR="#0033ff" CREATED="1360156435684" ID="ID_896716456" MODIFIED="1360156439961" TEXT="fetchmail">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1360158840598" ID="ID_1102101212" MODIFIED="1360158845379" TEXT="msmtp">
+<node COLOR="#0033ff" CREATED="1360158840598" FOLDED="true" ID="ID_1102101212" LINK="http://msmtp.sourceforge.net/" MODIFIED="1392637491492" TEXT="msmtp">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1392637050326" ID="ID_1225634006" LINK="http://code.google.com/p/google-gadgets-for-linux/wiki/MSMPTQuickStart" MODIFIED="1392637230799">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">gcode</font></b>&#160;msmtp - Quick start
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1392637077710" ID="ID_13827819" LINK="http://jesin.tk/how-to-use-msmtp-with-gmail-yahoo-and-php-mail/" MODIFIED="1392637207314">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">jesin.tk</font></b>&#160;google and yahoo and php config
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1392637162691" ID="ID_1077145352" LINK="http://msmtp.sourceforge.net/doc/msmtprc.txt" MODIFIED="1392637180651">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">sf</font></b>&#160;configuration example
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1392637338395" ID="ID_1118263180" LINK="https://wiki.archlinux.org/index.php/msmtp" MODIFIED="1392637360133">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">arch</font></b>&#160;mstmp
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1315390919026" ID="ID_872112777" LINK="net/ssh.mm" MODIFIED="1356098130648" TEXT="ssh">
@@ -1023,11 +1075,11 @@
 <node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1375871408620" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 </node>
-<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1375871407113" POSITION="right" TEXT="tricks">
+<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1392637038136" POSITION="right" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357753828458" ID="ID_1937859101" MODIFIED="1370509236236" TEXT="mail">
-<node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1370354808303" TEXT="telnet">
-<node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1294068988988">
+<node CREATED="1357753828458" ID="ID_1937859101" MODIFIED="1392637037333" STYLE="fork" TEXT="mail">
+<node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1392637036619" TEXT="telnet">
+<node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1392637036619">
 <richcontent TYPE="NODE"><html>
           <head>
 

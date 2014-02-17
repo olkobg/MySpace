@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1361878162081" ID="ID_1703692073" LINK="../QA.mm" MODIFIED="1369301551450" STYLE="fork" TEXT="Selenium">
+<node COLOR="#990099" CREATED="1361878162081" ID="ID_1703692073" LINK="../QA.mm" MODIFIED="1392650567975" STYLE="fork" TEXT="Selenium">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1362156875647" FOLDED="true" ID="ID_1190320724" MODIFIED="1383146756327" POSITION="left" TEXT="selectors">
+<node CREATED="1362156875647" FOLDED="true" ID="ID_1190320724" MODIFIED="1392650483174" POSITION="left" TEXT="selectors">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362065583400" FOLDED="true" ID="ID_1508722303" LINK="http://sauceio.com/index.php/2010/01/selenium-totw-css-selectors-in-selenium-demystified/" MODIFIED="1365178612639">
 <richcontent TYPE="NODE"><html>
@@ -98,7 +98,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1362500889427" FOLDED="true" ID="ID_184281649" MODIFIED="1383146757652" POSITION="left" TEXT="drivers">
+<node CREATED="1362500889427" FOLDED="true" ID="ID_184281649" MODIFIED="1392650487018" POSITION="left" TEXT="drivers">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362500893489" ID="ID_860721704" LINK="https://code.google.com/p/chromedriver/" MODIFIED="1362500898184" TEXT="google chrome"/>
 <node CREATED="1362505030415" ID="ID_321420415" LINK="http://code.google.com/p/selenium/wiki/InternetExplorerDriver" MODIFIED="1362505041625" TEXT="internet Explorer"/>
@@ -114,8 +114,8 @@
 <node CREATED="1369224841390" ID="ID_773249557" LINK="http://release.seleniumhq.org/selenium-remote-control/0.9.2/doc/server/org/openqa/selenium/server/SeleniumServer.html" MODIFIED="1385645252208" TEXT="see also"/>
 </node>
 </node>
-<node CREATED="1369301495031" FOLDED="true" ID="ID_167358374" MODIFIED="1385742998575" POSITION="left" TEXT="SeleniumRC">
-<node CREATED="1385742985040" FOLDED="true" ID="ID_328147922" MODIFIED="1385742998393" TEXT="firefox driver">
+<node CREATED="1369301495031" FOLDED="true" ID="ID_167358374" MODIFIED="1392650495548" POSITION="left" TEXT="SeleniumRC">
+<node CREATED="1385742985040" FOLDED="true" ID="ID_328147922" MODIFIED="1392650495344" TEXT="firefox driver">
 <node CREATED="1369301502956" ID="ID_1833622376" LINK="https://github.com/sebastianbergmann/phpunit-selenium/issues/207" MODIFIED="1369301575813">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -130,9 +130,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1369210838325" FOLDED="true" ID="ID_1020874233" MODIFIED="1369407871468" POSITION="left" TEXT="tricks">
+<node COLOR="#cc3300" CREATED="1369210838325" FOLDED="true" ID="ID_1020874233" MODIFIED="1392650508665" POSITION="left" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1369222762132" ID="ID_262987757" MODIFIED="1369301551441" TEXT="firefox">
+<node CREATED="1369222762132" ID="ID_262987757" MODIFIED="1392650504711" TEXT="firefox">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369222462798" ID="ID_1213704629" LINK="http://automatictester.wordpress.com/2013/04/07/selenium-running-custom-firefox-profile/" MODIFIED="1369301551441">
 <richcontent TYPE="NODE"><html>
@@ -159,7 +159,6 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1369228109272" ID="ID_1683148629" MODIFIED="1369301551443" TEXT=""/>
 </node>
 <node CREATED="1369228053703" ID="ID_155338667" LINK="http://code.google.com/p/selenium/wiki/TipsAndTricks" MODIFIED="1369301551443">
 <richcontent TYPE="NODE"><html>
@@ -174,7 +173,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1369297697715" FOLDED="true" ID="ID_1146826170" MODIFIED="1369407871171" POSITION="left" TEXT="src">
+<node CREATED="1369297697715" FOLDED="true" ID="ID_1146826170" MODIFIED="1392650511636" POSITION="left" TEXT="src">
 <node CREATED="1369297703801" ID="ID_834131168" LINK="http://code.google.com/p/selenium/wiki/JsonWireProtocol" MODIFIED="1369301551443" TEXT="(JSON) web driver wire protocol">
 <node CREATED="1369297946875" ID="ID_227332910" LINK="http://code.google.com/p/selenium/wiki/FirefoxDriver" MODIFIED="1369301551444" TEXT="Firefox Driver">
 <node CREATED="1369297998296" ID="ID_92502839" LINK="http://stackoverflow.com/questions/6787095/how-to-stop-selenium-from-creating-temporary-firefox-profiles-using-web-driver" MODIFIED="1369301551444">
@@ -192,7 +191,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1362156199160" FOLDED="true" ID="ID_555750420" MODIFIED="1369301551444" POSITION="right" TEXT="selenium server">
+<node CREATED="1362156199160" FOLDED="true" ID="ID_555750420" MODIFIED="1392650567750" POSITION="right" TEXT="selenium server">
 <node CREATED="1362156204090" ID="ID_1880542938" MODIFIED="1362156221880">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -207,6 +206,22 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1392650518109" ID="ID_1326901662" MODIFIED="1392650565847">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # run with chrome driver
+    </p>
+    <p>
+      <font color="#0000ff">$ selenium -D<b>webdriver.chrome.driver</b>=/usr/local/bin/chromedriver</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1362072849759" ID="ID_1376212023" LINK="http://sauceio.com/" MODIFIED="1369301551444" POSITION="right">
@@ -307,8 +322,7 @@
       // NOTE <b><font color="#0033ff">zip</font>&#160;profile</b>&#160;files after you <b><font color="#0033ff">cd</font></b>&#160; into profile
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1369440384455" ID="ID_1349592534" LINK="https://github.com/Element-34/php-webdriver" MODIFIED="1369440443395">
 <richcontent TYPE="NODE"><html>
