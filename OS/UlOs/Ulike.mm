@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1392637030519" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1392843278706" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -197,11 +197,11 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1392637492818" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1392843494118" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1392138519345" TEXT="backup">
+<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1392843307234" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1370354717318" TEXT="rsync">
+<node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1392843306971" TEXT="rsync">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636147905" ID="ID_489816603" MODIFIED="1370354714685">
 <richcontent TYPE="NODE"><html>
@@ -220,7 +220,7 @@
 <node CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1368085151516" TEXT="bittorent">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1392138517278" TEXT="convert">
+<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1392843304218" TEXT="convert">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1370354692106" TEXT="textfiles">
 <node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1355996330572" TEXT="recode">
@@ -254,7 +254,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1375456021304" TEXT="color">
+<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1392843303186" TEXT="color">
 <node CREATED="1368717500084" ID="ID_1760124834" LINK="http://unix.stackexchange.com/questions/148/colorizing-your-terminal-and-shell-environment" MODIFIED="1368717526400">
 <richcontent TYPE="NODE"><html>
             <head>
@@ -268,7 +268,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1392138533859" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1392843302138" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1384358327312" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -609,8 +609,7 @@
       <b><font color="#009999">gcode</font></b>&#160;msmtp - Quick start
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1392637077710" ID="ID_13827819" LINK="http://jesin.tk/how-to-use-msmtp-with-gmail-yahoo-and-php-mail/" MODIFIED="1392637207314">
 <richcontent TYPE="NODE"><html>
@@ -622,8 +621,7 @@
       <b><font color="#009999">jesin.tk</font></b>&#160;google and yahoo and php config
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1392637162691" ID="ID_1077145352" LINK="http://msmtp.sourceforge.net/doc/msmtprc.txt" MODIFIED="1392637180651">
 <richcontent TYPE="NODE"><html>
@@ -635,8 +633,7 @@
       <b><font color="#009999">sf</font></b>&#160;configuration example
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1392637338395" ID="ID_1118263180" LINK="https://wiki.archlinux.org/index.php/msmtp" MODIFIED="1392637360133">
 <richcontent TYPE="NODE"><html>
@@ -648,8 +645,7 @@
       <b><font color="#009999">arch</font></b>&#160;mstmp
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -868,13 +864,13 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1368085258406" FOLDED="true" ID="ID_1345591290" MODIFIED="1392138444249" TEXT="subshell">
+<node CREATED="1368085258406" FOLDED="true" ID="ID_1345591290" MODIFIED="1392843295346" TEXT="subshell">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1368085262684" ID="ID_526814332" LINK="http://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it" MODIFIED="1368085285029" TEXT="so: unix">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1368720998980" FOLDED="true" ID="ID_654338804" MODIFIED="1375456011133" TEXT="alias">
+<node CREATED="1368720998980" FOLDED="true" ID="ID_654338804" MODIFIED="1392843311801" TEXT="alias">
 <node CREATED="1368721010789" ID="ID_1798528219" MODIFIED="1368721146570">
 <richcontent TYPE="NODE"><html>
             <head>
@@ -906,7 +902,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1392138535996" TEXT="users">
+<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1392843315049" TEXT="users">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361971728537" FOLDED="true" ID="ID_1193412117" MODIFIED="1365667858949" TEXT="group">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -977,7 +973,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1376555918102" FOLDED="true" ID="ID_580851467" MODIFIED="1376935426947" TEXT="video">
+<node CREATED="1376555918102" FOLDED="true" ID="ID_580851467" MODIFIED="1392843327584" TEXT="video">
 <node CREATED="1376555922107" ID="ID_513424609" MODIFIED="1376556033808">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -995,6 +991,54 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1392843327808" FOLDED="true" ID="ID_583595143" MODIFIED="1392843492021" TEXT="archive">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1392843331502" FOLDED="true" ID="ID_1715318342" MODIFIED="1392843491757" TEXT="unrar">
+<node CREATED="1392843333319" ID="ID_462919279" MODIFIED="1392843478379">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # extract files into current directory
+    </p>
+    <p>
+      <font color="#0000ff">$ unrar <b>e</b>&#160;file.rar</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # list files in current archive
+    </p>
+    <p>
+      <font color="#0000ff">$ unrar <b>l</b>&#160;file.rar</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # extract files with full path
+    </p>
+    <p>
+      <font color="#0000ff">$ unrar <b>x</b>&#160;file.rar</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # test integrity of file
+    </p>
+    <p>
+      <font color="#0000ff">$ unrar <b>t</b>&#160;file.rar</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
