@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1392843278706" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1392973897617" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -197,9 +197,9 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1392843494118" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1392974225314" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1392843307234" TEXT="backup">
+<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1392974154732" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1392843306971" TEXT="rsync">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -220,9 +220,9 @@
 <node CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1368085151516" TEXT="bittorent">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1392843304218" TEXT="convert">
+<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1392974161325" TEXT="convert">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1370354692106" TEXT="textfiles">
+<node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1392974158288" TEXT="textfiles">
 <node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1355996330572" TEXT="recode">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -245,7 +245,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1358860071749" FOLDED="true" ID="ID_1481202249" MODIFIED="1370354693514" TEXT="html 2 pdf">
+<node CREATED="1358860071749" FOLDED="true" ID="ID_1481202249" MODIFIED="1392974160832" TEXT="html 2 pdf">
 <node COLOR="#0033ff" CREATED="1358860077030" ID="ID_1765131650" MODIFIED="1358860085027" TEXT="wkhtmltopdf">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -268,16 +268,16 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1392843302138" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1392974163307" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1384358327312" TEXT="mount ">
+<node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1392974150639" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296834787690" ID="ID_1333431511" MODIFIED="1380365473028" TEXT="iso image">
+<node CREATED="1296834787690" FOLDED="true" ID="ID_1333431511" MODIFIED="1392974147465" TEXT="iso image">
 <node COLOR="#0033ff" CREATED="1296834809060" ID="ID_638641727" MODIFIED="1315938374860" TEXT="mount -o loop disk1.iso /mnt/disk"/>
 </node>
-<node CREATED="1304068264056" FOLDED="true" ID="ID_1628728647" MODIFIED="1384358327310" TEXT="Fuse">
+<node CREATED="1304068264056" FOLDED="true" ID="ID_1628728647" MODIFIED="1392974148388" TEXT="Fuse">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1296835246684" ID="ID_1630461938" MODIFIED="1383345275174" TEXT="sshfs">
+<node COLOR="#0033ff" CREATED="1296835246684" FOLDED="true" ID="ID_1630461938" MODIFIED="1392974146272" TEXT="sshfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1301326157345" ID="ID_882527601" LINK="http://andre.frimberger.de/index.php/linux/sshfs-fix-for-wrong-file-permissions-on-server/" MODIFIED="1301327963972" TEXT="patch server with perm "/>
 <node COLOR="#0033ff" CREATED="1296835255924" ID="ID_196855364" MODIFIED="1355996351910">
@@ -300,7 +300,7 @@
 <node COLOR="#0033ff" CREATED="1304068282013" ID="ID_1060940447" MODIFIED="1357753664163" TEXT="curlftpfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1379755490576" FOLDED="true" ID="ID_884183239" LINK="http://fuse-convmvfs.sourceforge.net/" MODIFIED="1384358327308" TEXT="convmvfs">
+<node COLOR="#0033ff" CREATED="1379755490576" FOLDED="true" ID="ID_884183239" LINK="http://fuse-convmvfs.sourceforge.net/" MODIFIED="1392974145461" TEXT="convmvfs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1379755979671" ID="ID_1629047305" MODIFIED="1379756075167">
 <richcontent TYPE="NODE"><html>
@@ -322,7 +322,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1379931748027" FOLDED="true" ID="ID_1988488636" MODIFIED="1380365497592" TEXT="dmg file">
+<node CREATED="1379931748027" FOLDED="true" ID="ID_1988488636" MODIFIED="1392974127328" TEXT="dmg file">
 <node CREATED="1379931751490" ID="ID_1564136333" MODIFIED="1379931780295">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -390,7 +390,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1375298986840" FOLDED="true" ID="ID_1248111901" MODIFIED="1380365514964" TEXT="samba">
+<node CREATED="1375298986840" FOLDED="true" ID="ID_1248111901" MODIFIED="1392974128746" TEXT="samba">
 <node CREATED="1375298993114" ID="ID_235221478" MODIFIED="1375299049753">
 <richcontent TYPE="NODE"><html>
           <head>
@@ -420,7 +420,7 @@
 </node>
 </node>
 <node CREATED="1379760495867" ID="ID_253863982" LINK="../Cross/NFS.mm" MODIFIED="1379760795606" TEXT="nfs"/>
-<node CREATED="1380410931896" FOLDED="true" ID="ID_1097022472" MODIFIED="1380411063399" TEXT="binding">
+<node CREATED="1380410931896" FOLDED="true" ID="ID_1097022472" MODIFIED="1392974139412" TEXT="binding">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1380410940917" ID="ID_239983081" MODIFIED="1380411061162">
 <richcontent TYPE="NODE"><html>
@@ -568,12 +568,13 @@
 </html></richcontent>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1364490060955" FOLDED="true" ID="ID_1308648567" MODIFIED="1392138533160" TEXT="grep">
+<node COLOR="#0033ff" CREATED="1364490060955" FOLDED="true" ID="ID_1308648567" MODIFIED="1392974122421" TEXT="grep">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1364490064741" ID="ID_1648787011" LINK="http://www.thegeekstuff.com/2011/10/grep-or-and-not-operators/" MODIFIED="1364490069873" TEXT="logic"/>
 </node>
-<node CREATED="1358768672598" ID="ID_993782329" LINK="http://linux.icydog.net/rename.php" MODIFIED="1368085164268">
+<node COLOR="#0033ff" CREATED="1392974108379" FOLDED="true" ID="ID_1256327689" MODIFIED="1392974121390" TEXT="rename">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1358768672598" ID="ID_993782329" LINK="http://linux.icydog.net/rename.php" MODIFIED="1392973924126">
 <richcontent TYPE="NODE"><html>
           <head>
 
@@ -585,9 +586,59 @@
           </body>
         </html></richcontent>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1392637492320" TEXT="net">
+</node>
+<node CREATED="1392843327808" FOLDED="true" ID="ID_583595143" MODIFIED="1392974115313" TEXT="archive">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1392637491694" TEXT="Mail">
+<node CREATED="1392843331502" FOLDED="true" ID="ID_1715318342" MODIFIED="1392973931531" TEXT="unrar">
+<node CREATED="1392843333319" ID="ID_462919279" MODIFIED="1392843478379">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # extract files into current directory
+    </p>
+    <p>
+      <font color="#0000ff">$ unrar <b>e</b>&#160;file.rar</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # list files in current archive
+    </p>
+    <p>
+      <font color="#0000ff">$ unrar <b>l</b>&#160;file.rar</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # extract files with full path
+    </p>
+    <p>
+      <font color="#0000ff">$ unrar <b>x</b>&#160;file.rar</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # test integrity of file
+    </p>
+    <p>
+      <font color="#0000ff">$ unrar <b>t</b>&#160;file.rar</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1392973902393" ID="ID_1328870125" MODIFIED="1392973904057" TEXT="tar"/>
+</node>
+</node>
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1392974163935" TEXT="net">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1392974088202" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -597,7 +648,7 @@
 <node COLOR="#0033ff" CREATED="1360156435684" ID="ID_896716456" MODIFIED="1360156439961" TEXT="fetchmail">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1360158840598" FOLDED="true" ID="ID_1102101212" LINK="http://msmtp.sourceforge.net/" MODIFIED="1392637491492" TEXT="msmtp">
+<node COLOR="#0033ff" CREATED="1360158840598" FOLDED="true" ID="ID_1102101212" LINK="http://msmtp.sourceforge.net/" MODIFIED="1392974086331" TEXT="msmtp">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1392637050326" ID="ID_1225634006" LINK="http://code.google.com/p/google-gadgets-for-linux/wiki/MSMPTQuickStart" MODIFIED="1392637230799">
 <richcontent TYPE="NODE"><html>
@@ -674,12 +725,12 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1392138529336" TEXT="security">
-<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1392138528525" TEXT="crypt">
+<node CREATED="1365667897397" FOLDED="true" ID="ID_1127765149" MODIFIED="1392974083744" TEXT="security">
+<node CREATED="1359236444041" FOLDED="true" ID="ID_505284719" MODIFIED="1392974076502" TEXT="crypt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1375271460744" TEXT="gpg">
+<node COLOR="#0033ff" CREATED="1359223213378" FOLDED="true" ID="ID_1972944948" MODIFIED="1392974075869" TEXT="gpg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1359229799008" FOLDED="true" ID="ID_31851057" MODIFIED="1375271459901">
+<node CREATED="1359229799008" FOLDED="true" ID="ID_31851057" MODIFIED="1392974074815">
 <richcontent TYPE="NODE"><html>
                 <head>
 
@@ -714,7 +765,7 @@
 <node COLOR="#0033ff" CREATED="1360156400359" ID="ID_1287445385" MODIFIED="1360156404919" TEXT="stunnel">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1355996042994" FOLDED="true" ID="ID_730085370" MODIFIED="1368085211231" TEXT="rand pass gen.">
+<node CREATED="1355996042994" FOLDED="true" ID="ID_730085370" MODIFIED="1392974071505" TEXT="rand pass gen.">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355996069470" ID="ID_1616878184" LINK="http://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/" MODIFIED="1355996075496" TEXT="10 ways"/>
 <node COLOR="#0033ff" CREATED="1355996307400" ID="ID_1133468604" MODIFIED="1355996310778" TEXT="apg">
@@ -731,9 +782,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1369943937324" FOLDED="true" ID="ID_1026528888" MODIFIED="1392138525954" TEXT="hash">
+<node CREATED="1369943937324" FOLDED="true" ID="ID_1026528888" MODIFIED="1392974081608" TEXT="hash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1369943941361" ID="ID_126741669" MODIFIED="1392138524701" TEXT="md5">
+<node CREATED="1369943941361" FOLDED="true" ID="ID_126741669" MODIFIED="1392974081247" TEXT="md5">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369943952462" ID="ID_1061356057" MODIFIED="1369944415948">
 <richcontent TYPE="NODE"><html>
@@ -812,65 +863,27 @@
 </node>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1375456013339" TEXT="sed">
+<node COLOR="#0033ff" CREATED="1392974002742" FOLDED="true" ID="ID_1035724267" MODIFIED="1392974083382" TEXT="sudo">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
+<node CREATED="1392138446557" ID="ID_748620621" MODIFIED="1392973924106">
 <richcontent TYPE="NODE"><html>
-            <head>
-
-            </head>
-            <body>
-              <p>
-                # multiple rename
-              </p>
-              <p>
-                <font color="#0033cc">for file in `ls pdb*.ent` </font>
-              </p>
-              <p>
-                <font color="#0033cc">do&#xa0;&#xa0;&#xa0;&#xa0; </font>
-              </p>
-              <p>
-                <font color="#0033cc">&#xa0;&#xa0;&#xa0;&#xa0;new_name=`echo $file | sed 's/^pdb//;s/.ent/.txt/'`&#xa0;&#xa0;&#xa0;&#xa0; </font>
-              </p>
-              <p>
-                <font color="#0033cc">&#xa0;&#xa0;&#xa0;&#xa0;mv $file $new_name </font>
-              </p>
-              <p>
-                <font color="#0033cc">done</font>
-              </p>
-            </body>
-          </html></richcontent>
-</node>
-<node CREATED="1358780619879" ID="ID_1811648582" MODIFIED="1365668100867">
-<richcontent TYPE="NODE"><html>
-            <head>
-
-            </head>
-            <body>
-              <p>
-                # removing spaces
-              </p>
-              <p>
-                <b># NB: </b>be carefull: there special invisible characters like spaces &#xa0;which don't belong to space class
-              </p>
-              <p>
-                # output only <b>mlj_xmap_sitemap.sql</b>
-              </p>
-              <p>
-                <font color="#0033ff">$ echo "mlj_xmap_sitemap.sql&#xa0;&#xa0;&#xa0;&#xa0;" | <b>sed 's/ //g' </b></font>
-              </p>
-            </body>
-          </html></richcontent>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # execute command as other user
+    </p>
+    <p>
+      <font color="#0033ff">$ sudo <b>-u</b>&#160;<b>apache</b>&#160;rm -rf /var/www/devel/F-12110</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1368085258406" FOLDED="true" ID="ID_1345591290" MODIFIED="1392843295346" TEXT="subshell">
+</node>
+<node CREATED="1368720998980" FOLDED="true" ID="ID_654338804" MODIFIED="1392974223942" TEXT="aliasing">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#009999" CREATED="1368085262684" ID="ID_526814332" LINK="http://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it" MODIFIED="1368085285029" TEXT="so: unix">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1368720998980" FOLDED="true" ID="ID_654338804" MODIFIED="1392843311801" TEXT="alias">
 <node CREATED="1368721010789" ID="ID_1798528219" MODIFIED="1368721146570">
 <richcontent TYPE="NODE"><html>
             <head>
@@ -902,7 +915,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1392843315049" TEXT="users">
+<node CREATED="1365667510444" FOLDED="true" ID="ID_916311286" MODIFIED="1392974056318" TEXT="users">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361971728537" FOLDED="true" ID="ID_1193412117" MODIFIED="1365667858949" TEXT="group">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -958,22 +971,58 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1392138446557" ID="ID_748620621" MODIFIED="1392138502510">
+<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1392974028169" TEXT="sed">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # execute command as other user
-    </p>
-    <p>
-      <font color="#0033ff">$ sudo <b>-u</b>&#160;<b>apache</b>&#160;rm -rf /var/www/devel/F-12110</font>
-    </p>
-  </body>
-</html></richcontent>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                # multiple rename
+              </p>
+              <p>
+                <font color="#0033cc">for file in `ls pdb*.ent` </font>
+              </p>
+              <p>
+                <font color="#0033cc">do&#xa0;&#xa0;&#xa0;&#xa0; </font>
+              </p>
+              <p>
+                <font color="#0033cc">&#xa0;&#xa0;&#xa0;&#xa0;new_name=`echo $file | sed 's/^pdb//;s/.ent/.txt/'`&#xa0;&#xa0;&#xa0;&#xa0; </font>
+              </p>
+              <p>
+                <font color="#0033cc">&#xa0;&#xa0;&#xa0;&#xa0;mv $file $new_name </font>
+              </p>
+              <p>
+                <font color="#0033cc">done</font>
+              </p>
+            </body>
+          </html></richcontent>
 </node>
-<node CREATED="1376555918102" FOLDED="true" ID="ID_580851467" MODIFIED="1392843327584" TEXT="video">
+<node CREATED="1358780619879" ID="ID_1811648582" MODIFIED="1365668100867">
+<richcontent TYPE="NODE"><html>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                # removing spaces
+              </p>
+              <p>
+                <b># NB: </b>be carefull: there special invisible characters like spaces &#xa0;which don't belong to space class
+              </p>
+              <p>
+                # output only <b>mlj_xmap_sitemap.sql</b>
+              </p>
+              <p>
+                <font color="#0033ff">$ echo "mlj_xmap_sitemap.sql&#xa0;&#xa0;&#xa0;&#xa0;" | <b>sed 's/ //g' </b></font>
+              </p>
+            </body>
+          </html></richcontent>
+</node>
+</node>
+<node CREATED="1376555918102" FOLDED="true" ID="ID_580851467" MODIFIED="1392974033888" TEXT="video">
 <node CREATED="1376555922107" ID="ID_513424609" MODIFIED="1376556033808">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -993,57 +1042,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1392843327808" FOLDED="true" ID="ID_583595143" MODIFIED="1392843492021" TEXT="archive">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1392843331502" FOLDED="true" ID="ID_1715318342" MODIFIED="1392843491757" TEXT="unrar">
-<node CREATED="1392843333319" ID="ID_462919279" MODIFIED="1392843478379">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # extract files into current directory
-    </p>
-    <p>
-      <font color="#0000ff">$ unrar <b>e</b>&#160;file.rar</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # list files in current archive
-    </p>
-    <p>
-      <font color="#0000ff">$ unrar <b>l</b>&#160;file.rar</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # extract files with full path
-    </p>
-    <p>
-      <font color="#0000ff">$ unrar <b>x</b>&#160;file.rar</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # test integrity of file
-    </p>
-    <p>
-      <font color="#0000ff">$ unrar <b>t</b>&#160;file.rar</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1392060142600" POSITION="right" TEXT="interpet">
-<node COLOR="#0033ff" CREATED="1296636804213" FOLDED="true" ID="ID_493133498" MODIFIED="1392060065432" TEXT="bash">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1392974222342" TEXT="interpet">
+<node COLOR="#0033ff" CREATED="1296636804213" FOLDED="true" ID="ID_493133498" MODIFIED="1392974221671" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
 <richcontent TYPE="NODE"><html>
@@ -1082,7 +1082,13 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1392059838731" FOLDED="true" ID="ID_431796211" MODIFIED="1392059981794" TEXT="tips">
+<node CREATED="1368085258406" ID="ID_1345591290" MODIFIED="1392974196023" TEXT="subshell">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1368085262684" ID="ID_526814332" LINK="http://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it" MODIFIED="1368085285029" TEXT="so: unix">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1392059838731" FOLDED="true" ID="ID_431796211" MODIFIED="1392974218317" TEXT="shortcuts">
 <node CREATED="1392059841979" ID="ID_930291454" MODIFIED="1392059978065">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1109,21 +1115,22 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1360156468308" ID="ID_1190528675" MODIFIED="1360156478802" TEXT="zsh">
+<node COLOR="#0033ff" CREATED="1360156468308" ID="ID_1190528675" MODIFIED="1392974199421" TEXT="zsh">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1360156472383" ID="ID_291630477" MODIFIED="1360156478802" TEXT="csh">
+<node COLOR="#0033ff" CREATED="1360156472383" ID="ID_291630477" MODIFIED="1392974199419" TEXT="csh">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1375871408620" POSITION="right" TEXT="distribs">
+</node>
+<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1392973957969" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 </node>
-<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1392637038136" POSITION="right" TEXT="tricks">
+<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1392973982989" POSITION="right" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357753828458" ID="ID_1937859101" MODIFIED="1392637037333" STYLE="fork" TEXT="mail">
-<node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1392637036619" TEXT="telnet">
-<node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1392637036619">
+<node CREATED="1357753828458" ID="ID_1937859101" MODIFIED="1392973975333" STYLE="fork" TEXT="mail">
+<node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1392973975299" TEXT="telnet">
+<node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1392973975299">
 <richcontent TYPE="NODE"><html>
           <head>
 
@@ -1243,7 +1250,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1392139170521" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" ID="ID_1569600326" MODIFIED="1392974695235" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1383345273843" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1310,7 +1317,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1376569047142" TEXT="multimedia">
+<node CREATED="1296636844971" ID="ID_1856197402" MODIFIED="1392974695252" TEXT="multimedia">
 <node CREATED="1296636862873" ID="ID_1528497792" LINK="Video_edit.mm" MODIFIED="1296636862876" TEXT="Video_edit">
 <node CREATED="1376555908227" ID="ID_422187846" MODIFIED="1376555910566" TEXT="cmd">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1321,7 +1328,7 @@
 <node CREATED="1324047965695" ID="ID_890940857" LINK="http://www.nslms.com/2008/12/14/uploading-to-flickr-from-picasa-on-linux/" MODIFIED="1324047980620" TEXT="install flickr plugin"/>
 </node>
 </node>
-<node CREATED="1349373401290" FOLDED="true" ID="ID_1391707833" MODIFIED="1375099580303" TEXT="Music">
+<node CREATED="1349373401290" ID="ID_1391707833" MODIFIED="1392974695258" TEXT="Music">
 <node COLOR="#0033ff" CREATED="1349373404561" FOLDED="true" ID="ID_474345154" MODIFIED="1355996319869" TEXT="rhythmbox">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1349373408975" ID="ID_1210463120" MODIFIED="1349373417630" TEXT="equalizer">
@@ -1336,15 +1343,29 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1375098663338" FOLDED="true" ID="ID_546842804" MODIFIED="1375099579943" TEXT="server">
-<node CREATED="1375098671548" ID="ID_1101604012" MODIFIED="1375098734251" TEXT="Subsonic"/>
-<node CREATED="1375098674031" FOLDED="true" ID="ID_1308827858" LINK="http://sourceforge.net/projects/musicpd/" MODIFIED="1375099579750" TEXT="Music Player Daemon">
+<node CREATED="1375098663338" ID="ID_546842804" MODIFIED="1392974742346" TEXT="server">
+<node CREATED="1375098671548" ID="ID_1101604012" MODIFIED="1392974743017" TEXT="Subsonic">
+<node CREATED="1392974705734" ID="ID_741178562" LINK="https://github.com/hakko/subsonic" MODIFIED="1392974766616">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">github/hakko:</font></b>&#160;subsonic + music Cabinet
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1375098674031" FOLDED="true" ID="ID_1308827858" LINK="http://sourceforge.net/projects/musicpd/" MODIFIED="1392974464265" TEXT="Music Player Daemon">
 <node CREATED="1375098697830" ID="ID_1973053705" LINK="http://ario-player.sourceforge.net/" MODIFIED="1375098782336" TEXT="Ario"/>
 <node CREATED="1375098719112" ID="ID_20552281" LINK="http://gmpclient.org/" MODIFIED="1375098764065" TEXT="Gnome music player client"/>
 </node>
 </node>
 </node>
-<node CREATED="1357923504836" ID="ID_1369992617" MODIFIED="1360156553224" TEXT="screenshots">
+<node CREATED="1357923504836" FOLDED="true" ID="ID_1369992617" MODIFIED="1392974466560" TEXT="screenshots">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1357923510167" ID="ID_1118417205" LINK="http://shutter-project.org/" MODIFIED="1357923520824" TEXT="Shutter">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1408,7 +1429,7 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1387548104630" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1392973988172" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1303810881728" ID="ID_1773758272" MODIFIED="1387547656081" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1674,12 +1695,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1379503338091" TEXT="net">
+<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1392973988169" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1364753013894" ID="ID_980082429" LINK="http://www.aircrack-ng.org/" MODIFIED="1364808207979" TEXT="aircrack-ng">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1364808303400" TEXT="dig">
+<node COLOR="#0033ff" CREATED="1294070903325" FOLDED="true" ID="ID_1558392970" MODIFIED="1392973988163" TEXT="dig">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1294070908844" ID="ID_1074468" MODIFIED="1362824218255">
 <richcontent TYPE="NODE"><html>
