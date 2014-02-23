@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1392973897617" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1393007028643" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,8 +13,7 @@
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1375456034039" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
@@ -186,7 +185,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1382027223422" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1393156663176" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375958322893" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
@@ -1250,7 +1249,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" ID="ID_1569600326" MODIFIED="1392974695235" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1393008709340" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1383345273843" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1317,7 +1316,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296636844971" ID="ID_1856197402" MODIFIED="1392974695252" TEXT="multimedia">
+<node CREATED="1296636844971" FOLDED="true" ID="ID_1856197402" MODIFIED="1393008709005" TEXT="multimedia">
 <node CREATED="1296636862873" ID="ID_1528497792" LINK="Video_edit.mm" MODIFIED="1296636862876" TEXT="Video_edit">
 <node CREATED="1376555908227" ID="ID_422187846" MODIFIED="1376555910566" TEXT="cmd">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1328,7 +1327,7 @@
 <node CREATED="1324047965695" ID="ID_890940857" LINK="http://www.nslms.com/2008/12/14/uploading-to-flickr-from-picasa-on-linux/" MODIFIED="1324047980620" TEXT="install flickr plugin"/>
 </node>
 </node>
-<node CREATED="1349373401290" ID="ID_1391707833" MODIFIED="1392974695258" TEXT="Music">
+<node CREATED="1349373401290" FOLDED="true" ID="ID_1391707833" MODIFIED="1393008708517" TEXT="Music">
 <node COLOR="#0033ff" CREATED="1349373404561" FOLDED="true" ID="ID_474345154" MODIFIED="1355996319869" TEXT="rhythmbox">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1349373408975" ID="ID_1210463120" MODIFIED="1349373417630" TEXT="equalizer">
@@ -1343,7 +1342,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1375098663338" ID="ID_546842804" MODIFIED="1392974742346" TEXT="server">
+<node CREATED="1375098663338" FOLDED="true" ID="ID_546842804" MODIFIED="1393008708253" TEXT="server">
 <node CREATED="1375098671548" ID="ID_1101604012" MODIFIED="1392974743017" TEXT="Subsonic">
 <node CREATED="1392974705734" ID="ID_741178562" LINK="https://github.com/hakko/subsonic" MODIFIED="1392974766616">
 <richcontent TYPE="NODE"><html>
@@ -1355,8 +1354,7 @@
       <b><font color="#009999">github/hakko:</font></b>&#160;subsonic + music Cabinet
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1375098674031" FOLDED="true" ID="ID_1308827858" LINK="http://sourceforge.net/projects/musicpd/" MODIFIED="1392974464265" TEXT="Music Player Daemon">
@@ -1429,11 +1427,11 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1392973988172" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1393156659658" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1303810881728" ID="ID_1773758272" MODIFIED="1387547656081" TEXT="apt">
+<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1393156659036" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1362824062656" TEXT="caching">
+<node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1393008616014" TEXT="caching">
 <node COLOR="#0033ff" CREATED="1303810890920" FOLDED="true" ID="ID_1003328043" MODIFIED="1356098186406" TEXT="apt-cacher">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303810898391" ID="ID_618505239" LINK="http://www.debuntu.org/how-to-set-up-a-repository-cache-with-apt-cacher" MODIFIED="1303810903975" TEXT="instructions"/>
@@ -1442,7 +1440,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1359113506298" FOLDED="true" ID="ID_613350324" MODIFIED="1375455957404" TEXT="-get">
+<node COLOR="#0033ff" CREATED="1359113506298" FOLDED="true" ID="ID_613350324" MODIFIED="1393008614558" TEXT="-get">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359113514741" ID="ID_569014954" MODIFIED="1362824151006">
 <richcontent TYPE="NODE"><html>
@@ -1480,7 +1478,7 @@
 <node CREATED="1304071552891" ID="ID_1085808032" LINK="#ID_1671130281" MODIFIED="1362824127408" TEXT="just build"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1362823968287" FOLDED="true" ID="ID_1187696625" MODIFIED="1370509184553" TEXT="-file">
+<node COLOR="#0033ff" CREATED="1362823968287" FOLDED="true" ID="ID_1187696625" MODIFIED="1393008610277" TEXT="-file">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362823973533" ID="ID_1105450039" MODIFIED="1362824014377">
 <richcontent TYPE="NODE"><html>
@@ -1526,7 +1524,7 @@
             </html></richcontent>
 </node>
 </node>
-<node CREATED="1387547658612" FOLDED="true" ID="ID_1041045267" MODIFIED="1387548097885" TEXT="tips">
+<node CREATED="1387547658612" FOLDED="true" ID="ID_1041045267" MODIFIED="1393156658739" TEXT="tips">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1387547662278" ID="ID_1002103996" MODIFIED="1387548096031">
 <richcontent TYPE="NODE"><html>
@@ -1554,6 +1552,18 @@
         <font color="#0033ff">$ sudo dpgk --configure -a </font>
       </li>
     </ol>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1393008621532" ID="ID_1200638294" MODIFIED="1393008699876">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>packages</b>&#160;and <b>translations</b>&#160;could be found at <b><font color="#0000ff">/var/lib/apt/</font></b>
+    </p>
   </body>
 </html></richcontent>
 </node>
