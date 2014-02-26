@@ -2,14 +2,14 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1380727556206" TEXT="PHP">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1383150461574" POSITION="right" TEXT="Testing">
+<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1393417237234" POSITION="right" TEXT="Testing">
 <node CREATED="1285850518723" ID="ID_349465635" MODIFIED="1383150446248" TEXT="UnitTesting">
 <node CREATED="1334852774584" ID="ID_671076897" LINK="PHPUnit.mm" MODIFIED="1334852774585" TEXT="PHPUnit"/>
 </node>
-<node CREATED="1361539099498" FOLDED="true" ID="ID_374024873" MODIFIED="1383150460878" TEXT="UI">
-<node CREATED="1361539102038" FOLDED="true" ID="ID_549985678" MODIFIED="1383150460676" TEXT="Selenium">
+<node CREATED="1361539099498" FOLDED="true" ID="ID_374024873" MODIFIED="1393417236603" TEXT="UI">
+<node CREATED="1361539102038" FOLDED="true" ID="ID_549985678" MODIFIED="1393417236310" TEXT="Selenium">
 <node CREATED="1361539108975" ID="ID_610802670" LINK="#ID_671076897" MODIFIED="1361879945697" TEXT="via PHPUnit"/>
-<node CREATED="1361879770688" FOLDED="true" ID="ID_629972318" MODIFIED="1383150458465" TEXT="element34">
+<node CREATED="1361879770688" FOLDED="true" ID="ID_629972318" MODIFIED="1393417234984" TEXT="element34">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1361794212705" ID="ID_1546655787" LINK="http://element34.ca/products/saunter/saunterphp" MODIFIED="1361879774337" TEXT="SaunterPHP"/>
 <node CREATED="1361879777255" ID="ID_899978171" LINK="https://github.com/Element-34/php-webdriver" MODIFIED="1361879808011">
@@ -50,7 +50,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#009999" CREATED="1291283758871" FOLDED="true" ID="ID_651800150" MODIFIED="1390686118311" POSITION="right" TEXT="Apps">
+<node COLOR="#009999" CREATED="1291283758871" FOLDED="true" ID="ID_651800150" MODIFIED="1393417231288" POSITION="right" TEXT="Apps">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1291284845924" FOLDED="true" ID="ID_637058664" MODIFIED="1390686117583" TEXT="webCMS">
 <node COLOR="#006633" CREATED="1291283799040" ID="ID_632977273" LINK="Joomla.mm" MODIFIED="1355996464562" STYLE="bubble" TEXT="Joomla">
@@ -73,20 +73,20 @@
 <node CREATED="1354274546352" ID="ID_1054520689" LINK="eCommerce/PrestaShop.mm" MODIFIED="1354274546354" TEXT="PrestaShop"/>
 </node>
 </node>
-<node CREATED="1337095407580" FOLDED="true" ID="ID_1268790834" MODIFIED="1378915180514" POSITION="left" TEXT="libs">
-<node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1361977750136" TEXT="Captcha">
+<node CREATED="1337095407580" FOLDED="true" ID="ID_1268790834" MODIFIED="1393417213763" POSITION="left" TEXT="libs">
+<node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1393417192233" TEXT="Captcha">
 <node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
 <node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
 <node CREATED="1337095493488" ID="ID_1074773125" LINK="http://code.google.com/p/cool-php-captcha/" MODIFIED="1337095517343" TEXT="cool php captcha"/>
 <node CREATED="1337095518492" ID="ID_1870135368" LINK="http://www.phpcaptcha.org/" MODIFIED="1337095552753" TEXT="php captcha"/>
 </node>
-<node CREATED="1369128812901" FOLDED="true" ID="ID_1576208377" MODIFIED="1369129019260" TEXT="csv">
+<node CREATED="1369128812901" FOLDED="true" ID="ID_1576208377" MODIFIED="1393417193422" TEXT="csv">
 <node COLOR="#009999" CREATED="1369128834923" ID="ID_1691425039" LINK="http://code.google.com/p/parsecsv-for-php/" MODIFIED="1369128857981" TEXT="parsecsv-for-php">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1292929906380" FOLDED="true" ID="ID_995126132" MODIFIED="1369129017916" TEXT="Frameworks">
-<node COLOR="#cc3300" CREATED="1302022150489" FOLDED="true" ID="ID_538144076" MODIFIED="1364752804078" TEXT="MVC">
+<node CREATED="1292929906380" FOLDED="true" ID="ID_995126132" MODIFIED="1393417203618" TEXT="Frameworks">
+<node COLOR="#cc3300" CREATED="1302022150489" FOLDED="true" ID="ID_538144076" MODIFIED="1393417196036" TEXT="MVC">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1292929920445" ID="ID_1482400630" LINK="http://ellislab.com/codeigniter" MODIFIED="1361977848553" TEXT="CodeIgnitter">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
@@ -104,16 +104,16 @@
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 </node>
 </node>
-<node CREATED="1299138699860" FOLDED="true" ID="ID_1659667816" MODIFIED="1364752789860" TEXT="ORM">
+<node CREATED="1299138699860" FOLDED="true" ID="ID_1659667816" MODIFIED="1393417199613" TEXT="ORM">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299138706510" ID="ID_253301276" LINK="http://www.doctrine-project.org/" MODIFIED="1299138753581" TEXT="Doctrine"/>
 <node CREATED="1299138709209" ID="ID_746365137" LINK="http://www.propelorm.org/" MODIFIED="1299138740517" TEXT="Propel"/>
 </node>
-<node CREATED="1355500305094" FOLDED="true" ID="ID_463395371" MODIFIED="1361977859158" TEXT="TEMPLATE ENGINE">
+<node CREATED="1355500305094" FOLDED="true" ID="ID_463395371" MODIFIED="1393417203122" TEXT="TEMPLATE ENGINE">
 <node CREATED="1355500326563" ID="ID_1390439074" LINK="http://twig.sensiolabs.org/" MODIFIED="1355500349425" TEXT="TWIG"/>
 </node>
 </node>
-<node CREATED="1358869147332" FOLDED="true" ID="ID_635581923" MODIFIED="1369128980431" TEXT="pdf">
+<node CREATED="1358869147332" FOLDED="true" ID="ID_635581923" MODIFIED="1393417205778" TEXT="pdf">
 <node CREATED="1358869156154" ID="ID_589350561" LINK="http://www.tcpdf.org/" MODIFIED="1369128885707">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -141,14 +141,14 @@
 </node>
 <node CREATED="1369128898408" ID="ID_1935785236" MODIFIED="1369128904633" TEXT="wkpdftohtml"/>
 </node>
-<node CREATED="1359042034679" ID="ID_656337819" MODIFIED="1359042040219" TEXT="alt">
+<node CREATED="1359042034679" FOLDED="true" ID="ID_656337819" MODIFIED="1393417212302" TEXT="alt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1359041996764" ID="ID_83881258" LINK="http://php-fpm.org/" MODIFIED="1359042011822" TEXT="PHP-FPM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1293715627303" FOLDED="true" ID="ID_238630762" MODIFIED="1389214020595" POSITION="right" TEXT="Debug">
+<node COLOR="#cc3300" CREATED="1293715627303" FOLDED="true" ID="ID_238630762" MODIFIED="1393417229945" POSITION="right" TEXT="Debug">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1293715633004" FOLDED="true" ID="ID_335545435" MODIFIED="1364752715244" TEXT="Zend Debugger">
 <node CREATED="1293783245381" FOLDED="true" ID="ID_1713486316" MODIFIED="1364752714339" TEXT="php.ini">
@@ -216,9 +216,9 @@ xdebug.remote_port=9000
 <node CREATED="1356008762217" ID="ID_1769296643" LINK="http://www.developer.com/lang/php/article.php/3327111/Monitor-PHP-Application-Errors-and-Messages-with-syslog.htm" MODIFIED="1356008765855" TEXT="config"/>
 </node>
 </node>
-<node CREATED="1354282931319" FOLDED="true" ID="ID_1871564202" MODIFIED="1385913025399" POSITION="right" TEXT="cli">
+<node CREATED="1354282931319" FOLDED="true" ID="ID_1871564202" MODIFIED="1393417228210" POSITION="right" TEXT="cli">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#0033ff" CREATED="1354282933136" FOLDED="true" ID="ID_1074862425" MODIFIED="1369127007881">
+<node COLOR="#0033ff" CREATED="1354282933136" FOLDED="true" ID="ID_1074862425" MODIFIED="1393417226297">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -256,9 +256,9 @@ xdebug.remote_port=9000
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1381830938262" POSITION="left" TEXT="CORE">
+<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1393425936574" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1299140234352" ID="ID_409384537" MODIFIED="1363282506415" TEXT="Variables">
+<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1393417023910" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1362411827693" TEXT="inf">
 <node CREATED="1299143282242" ID="ID_1282115974" MODIFIED="1299143314362" TEXT="represented with use of dillar sign followed by the name of the variable"/>
 <node CREATED="1299143337872" ID="ID_1019860433" MODIFIED="1299143338900" TEXT="By default, variables are always assigned by value"/>
@@ -1574,7 +1574,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299149825660" FOLDED="true" ID="ID_1260115731" MODIFIED="1362411613382" TEXT="Classes">
+<node CREATED="1299149825660" FOLDED="true" ID="ID_1260115731" MODIFIED="1393425935808" TEXT="Classes">
 <node CREATED="1299161595122" ID="ID_1519705349" MODIFIED="1299161651236">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1587,7 +1587,7 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1301309585135" FOLDED="true" ID="ID_253198961" MODIFIED="1301995097650" TEXT="self">
+<node COLOR="#0033ff" CREATED="1301309585135" FOLDED="true" ID="ID_253198961" MODIFIED="1393425935064" TEXT="self">
 <node CREATED="1299161888872" ID="ID_675036707" MODIFIED="1299161916268">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1600,8 +1600,21 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1393417053877" ID="ID_809039133" LINK="http://php.net/manual/en/language.oop5.late-static-bindings.php" MODIFIED="1393417358823">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if you want to use <b>late static binding&#160;</b>use <font color="#0000ff"><b>static:: </b></font>instead of <font color="#0000ff"><b>self::</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1299160411145" FOLDED="true" ID="ID_543816041" MODIFIED="1362063075589">
+</node>
+<node CREATED="1299160411145" FOLDED="true" ID="ID_543816041" MODIFIED="1393417133824">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1628,7 +1641,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299162365651" FOLDED="true" ID="ID_803718573" MODIFIED="1362063077107">
+<node CREATED="1299162365651" FOLDED="true" ID="ID_803718573" MODIFIED="1393417136050">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1681,7 +1694,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299162511720" FOLDED="true" ID="ID_1956375870" MODIFIED="1362063078836" STYLE="fork" TEXT="constuct/destruct">
+<node CREATED="1299162511720" FOLDED="true" ID="ID_1956375870" MODIFIED="1393417138053" STYLE="fork" TEXT="constuct/destruct">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299162579233" ID="ID_521821062" MODIFIED="1299163372300" TEXT="Classes which have a constructor method call this method on each newly-created object, so it is suitable for any initialization that the object may need before it is used."/>
@@ -1698,7 +1711,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299163077317" FOLDED="true" ID="ID_1095648745" MODIFIED="1362053084230" TEXT="visibility">
+<node CREATED="1299163077317" FOLDED="true" ID="ID_1095648745" MODIFIED="1393417139383" TEXT="visibility">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1299163080773" ID="ID_734921694" MODIFIED="1299163143599" STYLE="fork">
 <richcontent TYPE="NODE"><html>
@@ -1714,7 +1727,7 @@ integer     : [+-]?decimal
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1299163289338" FOLDED="true" ID="ID_671618037" MODIFIED="1362053084229" STYLE="fork">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1299163289338" FOLDED="true" ID="ID_671618037" MODIFIED="1393417146371" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1750,7 +1763,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299164086015" FOLDED="true" ID="ID_804566709" MODIFIED="1362053084226">
+<node CREATED="1299164086015" FOLDED="true" ID="ID_804566709" MODIFIED="1393417148494">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1779,7 +1792,7 @@ integer     : [+-]?decimal
 </node>
 <node CREATED="1299164655677" ID="ID_281184367" MODIFIED="1299164657870" TEXT="Its possible for interfaces to have constants. Interface constants works exactly like class constants except they cannot be overridden by a class/interface that inherits it. "/>
 </node>
-<node CREATED="1299165343200" FOLDED="true" ID="ID_1408513066" MODIFIED="1362411506921" TEXT="overloading">
+<node CREATED="1299165343200" FOLDED="true" ID="ID_1408513066" MODIFIED="1393417149817" TEXT="overloading">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299165348255" ID="ID_1299329519" MODIFIED="1299165396647">
 <richcontent TYPE="NODE"><html>
@@ -1824,11 +1837,11 @@ integer     : [+-]?decimal
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1299165788829" FOLDED="true" ID="ID_844222219" MODIFIED="1362053084222" TEXT="object iteration">
+<node CREATED="1299165788829" FOLDED="true" ID="ID_844222219" MODIFIED="1393417152003" TEXT="object iteration">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299165798928" ID="ID_1601230446" MODIFIED="1299166245246" TEXT="PHP 5 provides a way for objects to be defined so it is possible to iterate through a list of items, with, for example a foreach statement. By default, all visible properties will be used for the iteration. "/>
 </node>
-<node CREATED="1299166709472" FOLDED="true" ID="ID_1932649051" MODIFIED="1362053084220" TEXT="magic functions">
+<node CREATED="1299166709472" FOLDED="true" ID="ID_1932649051" MODIFIED="1393417154183" TEXT="magic functions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1299166722008" FOLDED="true" ID="ID_423022767" MODIFIED="1301995097650" TEXT="__invoke">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1907,7 +1920,7 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299167386033" FOLDED="true" ID="ID_1138846849" MODIFIED="1362053084219">
+<node CREATED="1299167386033" FOLDED="true" ID="ID_1138846849" MODIFIED="1393417155670">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1921,7 +1934,7 @@ integer     : [+-]?decimal
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299167398151" ID="ID_660393576" MODIFIED="1299167403489" TEXT="PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended"/>
 </node>
-<node CREATED="1299167984280" FOLDED="true" ID="ID_1570908959" MODIFIED="1362063419108" TEXT="comparing">
+<node CREATED="1299167984280" FOLDED="true" ID="ID_1570908959" MODIFIED="1393417157358" TEXT="comparing">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299167988752" ID="ID_1876510878" MODIFIED="1299168012534">
 <richcontent TYPE="NODE"><html>
@@ -1942,7 +1955,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299168108504" FOLDED="true" ID="ID_1148174175" MODIFIED="1362411611598" TEXT="type Hinting">
+<node CREATED="1299168108504" FOLDED="true" ID="ID_1148174175" MODIFIED="1393417163703" TEXT="type Hinting">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299168112833" ID="ID_405552196" MODIFIED="1362411491302" STYLE="fork">
 <richcontent TYPE="NODE"><html>
@@ -1969,11 +1982,11 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299168679625" FOLDED="true" ID="ID_610920909" MODIFIED="1362053084214" TEXT="refferences">
+<node CREATED="1299168679625" FOLDED="true" ID="ID_610920909" MODIFIED="1393417165682" TEXT="refferences">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299168688618" ID="ID_160244326" MODIFIED="1299168699032" TEXT="One of the key-points of PHP5 OOP that is often mentioned is that &quot;objects are passed by references by default&quot;. This is not completely true. This section rectifies that general thought using some examples.  A PHP reference is an alias, which allows two different variables to write to the same value. As of PHP5, an object variable doesn&apos;t contain the object itself as value anymore. It only contains an object identifier which allows object accessors to find the actual object. When an object is sent by argument, returned or assigned to another variable, the different variables are not aliases: they hold a copy of the identifier, which points to the same object. "/>
 </node>
-<node CREATED="1299169165694" FOLDED="true" ID="ID_366280398" MODIFIED="1362053084212" TEXT="serialization">
+<node CREATED="1299169165694" FOLDED="true" ID="ID_366280398" MODIFIED="1393417167392" TEXT="serialization">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299169170082" ID="ID_823159848" MODIFIED="1299169183061">
 <richcontent TYPE="NODE"><html>
@@ -1991,7 +2004,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1301402811122" FOLDED="true" ID="ID_1299419191" LINK="#ID_1785265889" MODIFIED="1362063216788" TEXT="constants">
+<node CREATED="1301402811122" FOLDED="true" ID="ID_1299419191" LINK="#ID_1785265889" MODIFIED="1393417170292" TEXT="constants">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1301404036335" ID="ID_1914742666" MODIFIED="1301404098859">
 <richcontent TYPE="NODE"><html>
@@ -2006,7 +2019,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299163786053" FOLDED="true" ID="ID_1049876510" MODIFIED="1362411613377">
+<node CREATED="1299163786053" FOLDED="true" ID="ID_1049876510" MODIFIED="1393417172137">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2079,7 +2092,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299163855616" FOLDED="true" ID="ID_289698167" MODIFIED="1362063213029">
+<node CREATED="1299163855616" FOLDED="true" ID="ID_289698167" MODIFIED="1393417175423">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2130,7 +2143,7 @@ FOO_ConcreteClass2</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1299149830514" FOLDED="true" ID="ID_902834209" MODIFIED="1362411583706" TEXT="ex">
+<node CREATED="1299149830514" FOLDED="true" ID="ID_902834209" MODIFIED="1393417181278" TEXT="ex">
 <node CREATED="1299161122379" FOLDED="true" ID="ID_810996958" MODIFIED="1362050047515" TEXT="obj assigment">
 <node CREATED="1299161126654" ID="ID_848342476" MODIFIED="1299161147461">
 <richcontent TYPE="NODE"><html>
@@ -2864,7 +2877,7 @@ o1 !== o2 : TRUE</pre>
 </node>
 </node>
 </node>
-<node CREATED="1299143116211" FOLDED="true" ID="ID_1331082950" MODIFIED="1362063083701" TEXT="operations">
+<node CREATED="1299143116211" FOLDED="true" ID="ID_1331082950" MODIFIED="1393417186222" TEXT="operations">
 <node CREATED="1299143122865" FOLDED="true" ID="ID_148913195" MODIFIED="1318329313495" STYLE="fork" TEXT="casting">
 <node CREATED="1299143165114" FOLDED="true" ID="ID_1088536286" MODIFIED="1318329313321" TEXT="inf">
 <node CREATED="1299143137038" ID="ID_1593388172" MODIFIED="1299143157751">
@@ -3023,7 +3036,7 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node CREATED="1301576792694" ID="ID_262118635" MODIFIED="1318329327076" TEXT="controll structures">
+<node CREATED="1301576792694" FOLDED="true" ID="ID_262118635" MODIFIED="1393417185462" TEXT="controll structures">
 <node COLOR="#0033ff" CREATED="1301576800286" FOLDED="true" ID="ID_55277418" MODIFIED="1324485611678" TEXT="switch">
 <node CREATED="1301576805718" ID="ID_1325075052" MODIFIED="1301576806197" TEXT="ex"/>
 <node CREATED="1312370425430" FOLDED="true" ID="ID_1459592267" MODIFIED="1324485611237" TEXT="note">
@@ -3076,7 +3089,7 @@ bool(true)</pre>
 <node COLOR="#0033ff" CREATED="1318329353289" ID="ID_605558807" MODIFIED="1318329358232" TEXT="continue"/>
 </node>
 </node>
-<node CREATED="1299171161417" FOLDED="true" ID="ID_1497261246" MODIFIED="1380727555375" TEXT="functions">
+<node CREATED="1299171161417" FOLDED="true" ID="ID_1497261246" MODIFIED="1393417187618" TEXT="functions">
 <node CREATED="1293626385953" FOLDED="true" ID="ID_246842598" MODIFIED="1380725045057" TEXT="send mail">
 <node COLOR="#ff0000" CREATED="1293626402273" ID="ID_693816562" MODIFIED="1293705982788">
 <richcontent TYPE="NODE"><html>
@@ -3150,7 +3163,7 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node CREATED="1381830952388" FOLDED="true" ID="ID_949250264" MODIFIED="1381831926082" POSITION="left" TEXT="config">
+<node CREATED="1381830952388" FOLDED="true" ID="ID_949250264" MODIFIED="1393417216330" POSITION="left" TEXT="config">
 <node CREATED="1358859283808" ID="ID_989941738" MODIFIED="1358859311290">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3170,7 +3183,7 @@ bool(true)</pre>
 <node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1381830960444" POSITION="left" STYLE="bubble" TEXT="tools">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1381836207725" POSITION="left" TEXT="TIPS &amp; Notes">
+<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1393417222990" POSITION="left" TEXT="TIPS &amp; Notes">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299140152828" FOLDED="true" ID="ID_1927321205" MODIFIED="1381831218406" TEXT="last tag">
 <node CREATED="1299140159252" ID="ID_487593545" MODIFIED="1354283499246" TEXT="it&apos;s preffered to not close the last tag (it&apos;s usefull when hidden rows at the end of file)"/>
@@ -3190,7 +3203,7 @@ bool(true)</pre>
 <node CREATED="1299145729848" FOLDED="true" ID="ID_403227810" MODIFIED="1381831224719" TEXT="Varibles in superglobal">
 <node CREATED="1299145749257" ID="ID_531508553" MODIFIED="1299145761755" TEXT="Dots and spaces in variable names are converted to underscores"/>
 </node>
-<node COLOR="#0033ff" CREATED="1368634185008" FOLDED="true" ID="ID_1880580369" MODIFIED="1381831224715" TEXT="sting">
+<node COLOR="#0033ff" CREATED="1368634185008" FOLDED="true" ID="ID_1880580369" MODIFIED="1393417222246" TEXT="sting">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1368634198351" ID="ID_1202946887" LINK="http://stackoverflow.com/questions/4356289/php-random-string-generator" MODIFIED="1368634235190">
 <richcontent TYPE="NODE"><html>
