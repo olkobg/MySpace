@@ -118,7 +118,7 @@
 <node CREATED="1389904655609" ID="ID_792398923" MODIFIED="1389904660596" TEXT="sourcetree"/>
 <node CREATED="1389904661209" ID="ID_1157394" MODIFIED="1389904667260" TEXT="smart git/hq"/>
 </node>
-<node COLOR="#0033ff" CREATED="1311116397871" FOLDED="true" ID="ID_315343330" MODIFIED="1380365714834" POSITION="left" TEXT="merge">
+<node COLOR="#0033ff" CREATED="1311116397871" FOLDED="true" ID="ID_315343330" MODIFIED="1396000061154" POSITION="left" TEXT="merge">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347010374336" ID="ID_276273301" MODIFIED="1355754800083">
 <richcontent TYPE="NODE"><html>
@@ -157,9 +157,9 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356611018634" FOLDED="true" ID="ID_1250883637" MODIFIED="1380366012076" POSITION="left" TEXT="mergetool">
+<node COLOR="#0033ff" CREATED="1356611018634" FOLDED="true" ID="ID_1250883637" MODIFIED="1396000063649" POSITION="left" TEXT="mergetool">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1380365720135" FOLDED="true" ID="ID_405889953" MODIFIED="1380366011858" TEXT="araxis ">
+<node CREATED="1380365720135" FOLDED="true" ID="ID_405889953" MODIFIED="1396000062817" TEXT="araxis ">
 <node CREATED="1380365726641" ID="ID_1800950299" MODIFIED="1380366002464">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -177,6 +177,55 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1395999940171" ID="ID_634979367" MODIFIED="1396000054026">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # for mac os X use next info
+    </p>
+    <p>
+      # Git now uses the Araxis compare utility directly, rather than araxisgitdiff and
+    </p>
+    <p>
+      # araxisgitmerge, so all that's needed is to set the path to
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">/Applications/Araxis Merge.app/Contents/Utilities/compare</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #for example, by executing
+    </p>
+    <p>
+      <font color="#0033ff">$ git config --global mergetool.araxis.path '/Applications/Araxis Merge.app/Contents/Utilities/compare'</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #or by directly editing ~/.gitconfig to contain
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">[mergetool &quot;araxis&quot;] </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;path = /Applications/Araxis Merge.app/Contents/Utilities/compare</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
