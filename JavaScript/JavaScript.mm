@@ -2,9 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1375978808264" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1387572068278" POSITION="right" TEXT="lib">
+<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1398882621123" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1387572067735" TEXT="Frameworks">
+<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1398882617642" TEXT="Frameworks">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#0033ff" CREATED="1288878939472" ID="ID_626818632" LINK="http://mootools.net/" MODIFIED="1375964515614" TEXT="mootolls">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -57,7 +57,7 @@
 <node CREATED="1375964470929" ID="ID_1612792037" LINK="http://blog.bigbinary.com/2011/08/18/understanding-bind-and-bindall-in-backbone.html" MODIFIED="1375964476446" TEXT="bind difference"/>
 </node>
 </node>
-<node CREATED="1328630279282" FOLDED="true" ID="ID_1710108581" MODIFIED="1377210457287">
+<node CREATED="1328630279282" FOLDED="true" ID="ID_1710108581" MODIFIED="1398882616130">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -134,7 +134,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1306262117748" FOLDED="true" ID="ID_989123574" MODIFIED="1375964495375" TEXT="security">
+<node CREATED="1306262117748" FOLDED="true" ID="ID_989123574" MODIFIED="1398882619148" TEXT="security">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1306262123782" ID="ID_274024630" LINK="http://www-cs-students.stanford.edu/~tjw/jsbn/" MODIFIED="1357727505063">
 <richcontent TYPE="NODE"><html>
@@ -153,7 +153,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1362498349280" POSITION="left" TEXT="types">
+<node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1398882605378" POSITION="left" TEXT="types">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1288878845078" FOLDED="true" ID="ID_1393940341" MODIFIED="1355337152680" TEXT="Array">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -614,7 +614,7 @@
 <node CREATED="1306946557807" ID="ID_1154117622" LINK="http://dean.edwards.name/packer/" MODIFIED="1306946563919" TEXT="PACKER"/>
 </node>
 </node>
-<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1392649833732" POSITION="right" TEXT="Engine">
+<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1398882608277" POSITION="right" TEXT="Engine">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1357148058475" ID="ID_290312899" LINK="server/Node.js.mm" MODIFIED="1392649829517" TEXT="Node.js">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -629,15 +629,14 @@
       <b><font color="#009999">phantomJS</font></b>&#160;- webkit on console
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1364305444132" ID="ID_103084548" MODIFIED="1364305447471" TEXT="mozilla">
 <node CREATED="1307097864888" ID="ID_722061965" LINK="https://developer.mozilla.org/en/SpiderMonkey" MODIFIED="1307097894673" TEXT="SpiderMonkey"/>
 <node CREATED="1307097896172" ID="ID_604037639" LINK="http://www.mozilla.org/rhino/" MODIFIED="1307097933581" TEXT="rhino"/>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1364323366438" POSITION="left" TEXT="OBJECTS">
+<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1398882600425" POSITION="left" TEXT="OBJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1357726603924" ID="ID_1228545119" MODIFIED="1357726606996" TEXT="document">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -923,7 +922,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357837247228" FOLDED="true" ID="ID_565291198" MODIFIED="1358188169489" POSITION="left" TEXT="functions">
+<node CREATED="1357837247228" FOLDED="true" ID="ID_565291198" MODIFIED="1398882603637" POSITION="left" TEXT="functions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357837240154" ID="ID_587763437" MODIFIED="1357837244201" TEXT="timer">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -984,7 +983,23 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1351605948750" FOLDED="true" ID="ID_1071224225" MODIFIED="1357825689004" POSITION="right" TEXT="Tips">
+<node CREATED="1398882622279" FOLDED="true" ID="ID_1424880355" MODIFIED="1398886793481" POSITION="left" TEXT="elements">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1398882628569" ID="ID_1398293829" LINK="http://javascript.info/tutorial/searching-elements-dom" MODIFIED="1398882657826">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>js info </b></font>search
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1351605948750" FOLDED="true" ID="ID_1071224225" MODIFIED="1398882609156" POSITION="right" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1351605953255" ID="ID_1441700475" LINK="http://caniuse.com/" MODIFIED="1351605973986" TEXT="canIUse"/>
 <node CREATED="1354632592619" FOLDED="true" ID="ID_783375115" MODIFIED="1357728064165" TEXT="closure">
@@ -1036,7 +1051,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1364305671577" POSITION="right" TEXT="Browser">
+<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1398882610731" POSITION="right" TEXT="Browser">
 <node CREATED="1364305502013" ID="ID_1392687097" LINK="../OS/Cross/Web/Firefox.mm" MODIFIED="1364305666952" TEXT="firefox">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>

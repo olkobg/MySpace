@@ -73,7 +73,7 @@
 <node CREATED="1354274546352" ID="ID_1054520689" LINK="eCommerce/PrestaShop.mm" MODIFIED="1354274546354" TEXT="PrestaShop"/>
 </node>
 </node>
-<node CREATED="1337095407580" FOLDED="true" ID="ID_1268790834" MODIFIED="1393417213763" POSITION="left" TEXT="libs">
+<node CREATED="1337095407580" FOLDED="true" ID="ID_1268790834" MODIFIED="1398876187684" POSITION="left" TEXT="libs">
 <node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1393417192233" TEXT="Captcha">
 <node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
 <node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
@@ -256,7 +256,10 @@ xdebug.remote_port=9000
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1393425936574" POSITION="left" TEXT="CORE">
+<node CREATED="1398876196127" FOLDED="true" ID="ID_1600056313" MODIFIED="1398879535481" POSITION="right" TEXT="standarts">
+<node CREATED="1398876201703" ID="ID_32788562" LINK="http://www.php-fig.org/" MODIFIED="1398876242251" TEXT="PHP Framework Interop Group"/>
+</node>
+<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1398882591786" POSITION="left" TEXT="CORE">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1393417023910" TEXT="Variables">
 <node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1362411827693" TEXT="inf">
@@ -1610,8 +1613,7 @@ integer     : [+-]?decimal
       if you want to use <b>late static binding&#160;</b>use <font color="#0000ff"><b>static:: </b></font>instead of <font color="#0000ff"><b>self::</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1299160411145" FOLDED="true" ID="ID_543816041" MODIFIED="1393417133824">
