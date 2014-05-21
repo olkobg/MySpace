@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1395860509707" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1400680566629" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1428,11 +1428,11 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1393156659658" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1400680649823" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1393156659036" TEXT="apt">
+<node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1400680649667" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1393008616014" TEXT="caching">
+<node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1400680637651" TEXT="caching">
 <node COLOR="#0033ff" CREATED="1303810890920" FOLDED="true" ID="ID_1003328043" MODIFIED="1356098186406" TEXT="apt-cacher">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303810898391" ID="ID_618505239" LINK="http://www.debuntu.org/how-to-set-up-a-repository-cache-with-apt-cacher" MODIFIED="1303810903975" TEXT="instructions"/>
@@ -1441,7 +1441,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1359113506298" FOLDED="true" ID="ID_613350324" MODIFIED="1393008614558" TEXT="-get">
+<node COLOR="#0033ff" CREATED="1359113506298" FOLDED="true" ID="ID_613350324" MODIFIED="1400680636458" TEXT="-get">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359113514741" ID="ID_569014954" MODIFIED="1362824151006">
 <richcontent TYPE="NODE"><html>
@@ -1479,25 +1479,26 @@
 <node CREATED="1304071552891" ID="ID_1085808032" LINK="#ID_1671130281" MODIFIED="1362824127408" TEXT="just build"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1362823968287" FOLDED="true" ID="ID_1187696625" MODIFIED="1393008610277" TEXT="-file">
+<node COLOR="#0033ff" CREATED="1362823968287" FOLDED="true" ID="ID_1187696625" MODIFIED="1400680634703" TEXT="-file">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1362823973533" ID="ID_1105450039" MODIFIED="1362824014377">
+<node CREATED="1362823973533" ID="ID_1105450039" MODIFIED="1400680633058">
 <richcontent TYPE="NODE"><html>
-              <head>
-
-              </head>
-              <body>
-                <p>
-                  # show files in package
-                </p>
-                <p>
-                  <font color="#0033ff">apt-file <b>list</b>&#xa0;&lt;package name&gt;</font>
-                </p>
-              </body>
-            </html></richcontent>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # show files in package
+    </p>
+    <p>
+      <font color="#0033ff">$ apt-file <b>list</b>&#160;&lt;package name&gt;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1359222281970" FOLDED="true" ID="ID_1374387518" MODIFIED="1370526368293" TEXT="reps">
+<node CREATED="1359222281970" FOLDED="true" ID="ID_1374387518" MODIFIED="1400680624511" TEXT="reps">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359222288291" ID="ID_101063605" LINK="https://github.com/Neroth/gnome-shell-extension-weather" MODIFIED="1359222466892">
 <richcontent TYPE="NODE"><html>
@@ -1525,7 +1526,7 @@
             </html></richcontent>
 </node>
 </node>
-<node CREATED="1387547658612" FOLDED="true" ID="ID_1041045267" MODIFIED="1393156658739" TEXT="tips">
+<node CREATED="1387547658612" FOLDED="true" ID="ID_1041045267" MODIFIED="1400680623127" TEXT="tips">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1387547662278" ID="ID_1002103996" MODIFIED="1387548096031">
 <richcontent TYPE="NODE"><html>
@@ -1567,6 +1568,25 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1400680574555" FOLDED="true" ID="ID_573220254" MODIFIED="1400680648039" TEXT="-cache">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1400680579932" ID="ID_34593498" MODIFIED="1400680643802">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # show available package versions
+    </p>
+    <p>
+      <font color="#0000ff">$&#160;apt-cache <b>madison</b>&#160;myPackage</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

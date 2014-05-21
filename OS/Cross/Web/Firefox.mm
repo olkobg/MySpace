@@ -44,6 +44,7 @@
 <node CREATED="1361877855022" ID="ID_1752886742" LINK="http://sebuilder.github.com/se-builder/" MODIFIED="1369301551446" TEXT="Selenium Builder"/>
 <node CREATED="1361878943818" ID="ID_1470803951" LINK="http://docs.seleniumhq.org/docs/02_selenium_ide.jsp" MODIFIED="1369301551446" TEXT="Selenium IDE"/>
 </node>
+<node CREATED="1400680107610" ID="ID_1107802725" LINK="https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/" MODIFIED="1400680114534" POSITION="right" TEXT="mozilla ftp"/>
 <node CREATED="1369226582132" FOLDED="true" ID="ID_80659525" MODIFIED="1385649849999" POSITION="left" TEXT="config">
 <node CREATED="1369226589533" ID="ID_1073775853" LINK="https://support.mozilla.org/en-US/kb/search-web-address-bar" MODIFIED="1369226597092" TEXT="location as search"/>
 <node CREATED="1369226865304" ID="ID_119540047" MODIFIED="1369226867912" TEXT="tweaks">
@@ -135,8 +136,7 @@
       <font color="#0033ff">~/Library/Application Support/Firefox</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -235,8 +235,12 @@
       # on linux
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1400680181386" FOLDED="true" ID="ID_1434683512" MODIFIED="1400680214964" POSITION="left" TEXT="tips">
+<node CREATED="1400680185191" FOLDED="true" ID="ID_1738337468" LINK="d ~/Downloads  tar xvf ~/Downloads/Firefoxverison.tar.bz2  sudo mv firefox/ /opt/firefox17    (this moves it to the &quot;opt&quot; folder&quot;)  sudo ln -s /opt/firefox17/firefox /usr/bin/firefox  (creates a symbolic link to the older Firefox)" MODIFIED="1400680214738" TEXT="install older ff on linux">
+<node CREATED="1400680203102" ID="ID_1126219451" MODIFIED="1400680204293" TEXT="d ~/Downloads  tar xvf ~/Downloads/Firefoxverison.tar.bz2  sudo mv firefox/ /opt/firefox17    (this moves it to the &quot;opt&quot; folder&quot;)  sudo ln -s /opt/firefox17/firefox /usr/bin/firefox  (creates a symbolic link to the older Firefox)"/>
 </node>
 </node>
 </node>
