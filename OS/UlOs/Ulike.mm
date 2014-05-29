@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1400680566629" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1401373891497" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -197,7 +197,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1395873653870" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1401374022628" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1392974154732" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1042,8 +1042,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1392974222342" TEXT="interpet">
-<node COLOR="#0033ff" CREATED="1296636804213" FOLDED="true" ID="ID_493133498" MODIFIED="1392974221671" TEXT="bash">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1401374022127" TEXT="interpet">
+<node COLOR="#0033ff" CREATED="1296636804213" FOLDED="true" ID="ID_493133498" MODIFIED="1401374021524" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
 <richcontent TYPE="NODE"><html>
@@ -1112,6 +1112,45 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1401373896509" FOLDED="true" ID="ID_1495855074" MODIFIED="1401373987415" TEXT="loop">
+<node CREATED="1401373900938" ID="ID_254171167" MODIFIED="1401373984069">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # run command in loop 1 to 5
+    </p>
+    <p>
+      <font color="#0033ff">$ for i in {1..5}; do COMMAND-HERE; done</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">$&#160;for((i=1;i&lt;=10;i+=2)); do echo &quot;Welcome $i times&quot;; done</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # work in files
+    </p>
+    <p>
+      <font color="#0033ff">for i in *; do echo $i; done</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">for i in /etc/*.conf; do cp $i /backup; done</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -1494,8 +1533,7 @@
       <font color="#0033ff">$ apt-file <b>list</b>&#160;&lt;package name&gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1359222281970" FOLDED="true" ID="ID_1374387518" MODIFIED="1400680624511" TEXT="reps">
@@ -1585,8 +1623,7 @@
       <font color="#0000ff">$&#160;apt-cache <b>madison</b>&#160;myPackage</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
