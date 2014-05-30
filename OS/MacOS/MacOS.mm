@@ -15,6 +15,11 @@
 <node CREATED="1360702158290" ID="ID_922360138" LINK="http://www.lobotomo.com/products/IPSecuritas/" MODIFIED="1360702165805" TEXT="IPSecuritas"/>
 </node>
 </node>
+<node CREATED="1401444271503" FOLDED="true" ID="ID_1179708519" MODIFIED="1401444311760" POSITION="right" TEXT="tips">
+<node CREATED="1401444276057" FOLDED="true" ID="ID_1747699011" MODIFIED="1401444311668" TEXT="web">
+<node CREATED="1401444278711" ID="ID_1289240244" LINK="http://www.haykranen.nl/2011/08/04/howto-run-multiple-versions-of-firefox-side-by-side-on-mac-os-x-lion/" MODIFIED="1401444309020" TEXT="run multiversions firefox"/>
+</node>
+</node>
 <node CREATED="1385146035229" FOLDED="true" ID="ID_353242262" MODIFIED="1395873782154" POSITION="left" TEXT="info">
 <node CREATED="1343289776094" ID="ID_1441127359" MODIFIED="1385146030928" TEXT="NFS">
 <node CREATED="1343289833275" ID="ID_1038036597" LINK="http://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/" MODIFIED="1343289839791" TEXT="article"/>
@@ -91,8 +96,7 @@
       <font color="#0033ff">$ hdiutil makehybrid -iso -joliet -o myiso.iso myiso.cdr</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
