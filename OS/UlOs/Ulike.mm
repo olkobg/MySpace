@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1403519799458" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1404743880934" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -197,9 +197,9 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1401444822632" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1404752458022" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1392974154732" TEXT="backup">
+<node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1404743960912" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296636127305" FOLDED="true" ID="ID_1976659628" MODIFIED="1392843306971" TEXT="rsync">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -220,7 +220,7 @@
 <node CREATED="1296636655246" ID="ID_380373047" LINK="bittorent.mm" MODIFIED="1368085151516" TEXT="bittorent">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1392974161325" TEXT="convert">
+<node CREATED="1296633188976" FOLDED="true" ID="ID_1249879586" MODIFIED="1404743958821" TEXT="convert">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296633191573" FOLDED="true" ID="ID_1948378693" MODIFIED="1392974158288" TEXT="textfiles">
 <node COLOR="#0033ff" CREATED="1296633198185" ID="ID_929102228" MODIFIED="1355996330572" TEXT="recode">
@@ -254,7 +254,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1392843303186" TEXT="color">
+<node CREATED="1368717489841" FOLDED="true" ID="ID_1699667427" MODIFIED="1404743957763" TEXT="color">
 <node CREATED="1368717500084" ID="ID_1760124834" LINK="http://unix.stackexchange.com/questions/148/colorizing-your-terminal-and-shell-environment" MODIFIED="1368717526400">
 <richcontent TYPE="NODE"><html>
             <head>
@@ -268,7 +268,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1395873653541" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1404743956053" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1392974150639" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -636,7 +636,7 @@
 <node CREATED="1392973902393" ID="ID_1328870125" MODIFIED="1392973904057" TEXT="tar"/>
 </node>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1392974163935" TEXT="net">
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1404743955163" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1392974088202" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
@@ -971,57 +971,6 @@
           </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1392974028169" TEXT="sed">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
-<richcontent TYPE="NODE"><html>
-            <head>
-
-            </head>
-            <body>
-              <p>
-                # multiple rename
-              </p>
-              <p>
-                <font color="#0033cc">for file in `ls pdb*.ent` </font>
-              </p>
-              <p>
-                <font color="#0033cc">do&#xa0;&#xa0;&#xa0;&#xa0; </font>
-              </p>
-              <p>
-                <font color="#0033cc">&#xa0;&#xa0;&#xa0;&#xa0;new_name=`echo $file | sed 's/^pdb//;s/.ent/.txt/'`&#xa0;&#xa0;&#xa0;&#xa0; </font>
-              </p>
-              <p>
-                <font color="#0033cc">&#xa0;&#xa0;&#xa0;&#xa0;mv $file $new_name </font>
-              </p>
-              <p>
-                <font color="#0033cc">done</font>
-              </p>
-            </body>
-          </html></richcontent>
-</node>
-<node CREATED="1358780619879" ID="ID_1811648582" MODIFIED="1365668100867">
-<richcontent TYPE="NODE"><html>
-            <head>
-
-            </head>
-            <body>
-              <p>
-                # removing spaces
-              </p>
-              <p>
-                <b># NB: </b>be carefull: there special invisible characters like spaces &#xa0;which don't belong to space class
-              </p>
-              <p>
-                # output only <b>mlj_xmap_sitemap.sql</b>
-              </p>
-              <p>
-                <font color="#0033ff">$ echo "mlj_xmap_sitemap.sql&#xa0;&#xa0;&#xa0;&#xa0;" | <b>sed 's/ //g' </b></font>
-              </p>
-            </body>
-          </html></richcontent>
-</node>
-</node>
 <node CREATED="1376555918102" FOLDED="true" ID="ID_580851467" MODIFIED="1392974033888" TEXT="video">
 <node CREATED="1376555922107" ID="ID_513424609" MODIFIED="1376556033808">
 <richcontent TYPE="NODE"><html>
@@ -1158,6 +1107,91 @@
 </node>
 <node COLOR="#0033ff" CREATED="1360156472383" ID="ID_291630477" MODIFIED="1392974199419" TEXT="csh">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1404743891540" FOLDED="true" ID="ID_1720075440" MODIFIED="1404752457500" TEXT="utils">
+<node COLOR="#0033ff" CREATED="1404743896669" FOLDED="true" ID="ID_833457230" MODIFIED="1404752457254" TEXT="screen">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1404743902991" ID="ID_925964096" LINK="http://www.pixelbeat.org/lkdb/screen.html" MODIFIED="1404743923758" TEXT="pixelbeat"/>
+<node CREATED="1404743924298" ID="ID_460426089" LINK="http://www.mattcutts.com/blog/a-quick-tutorial-on-screen/" MODIFIED="1404743941938" TEXT="matcutts - quick tutor"/>
+<node CREATED="1404750577283" FOLDED="true" ID="ID_1360440575" MODIFIED="1404752457007" TEXT="copy mode">
+<node CREATED="1404750584145" ID="ID_423077706" MODIFIED="1404750612972">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      activate copy mode - <b>Ctrl</b>+<b>A</b>&#160;<b>[</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1404748950289" ID="ID_1286508188" LINK="http://www.cyberciti.biz/faq/scroll-up-down-look-at-data-in-gnuscreen-using-pageup-pagedown-keys/" MODIFIED="1404750617524">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>cybercity</b>&#160;how to use scrool
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1404743950316" TEXT="sed">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
+<richcontent TYPE="NODE"><html>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                # multiple rename
+              </p>
+              <p>
+                <font color="#0033cc">for file in `ls pdb*.ent` </font>
+              </p>
+              <p>
+                <font color="#0033cc">do&#xa0;&#xa0;&#xa0;&#xa0; </font>
+              </p>
+              <p>
+                <font color="#0033cc">&#xa0;&#xa0;&#xa0;&#xa0;new_name=`echo $file | sed 's/^pdb//;s/.ent/.txt/'`&#xa0;&#xa0;&#xa0;&#xa0; </font>
+              </p>
+              <p>
+                <font color="#0033cc">&#xa0;&#xa0;&#xa0;&#xa0;mv $file $new_name </font>
+              </p>
+              <p>
+                <font color="#0033cc">done</font>
+              </p>
+            </body>
+          </html></richcontent>
+</node>
+<node CREATED="1358780619879" ID="ID_1811648582" MODIFIED="1365668100867">
+<richcontent TYPE="NODE"><html>
+            <head>
+
+            </head>
+            <body>
+              <p>
+                # removing spaces
+              </p>
+              <p>
+                <b># NB: </b>be carefull: there special invisible characters like spaces &#xa0;which don't belong to space class
+              </p>
+              <p>
+                # output only <b>mlj_xmap_sitemap.sql</b>
+              </p>
+              <p>
+                <font color="#0033ff">$ echo "mlj_xmap_sitemap.sql&#xa0;&#xa0;&#xa0;&#xa0;" | <b>sed 's/ //g' </b></font>
+              </p>
+            </body>
+          </html></richcontent>
+</node>
 </node>
 </node>
 </node>
