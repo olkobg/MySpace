@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1401373891497" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1403519799458" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<b><font color="#cc0033">Debian</font></b>) in most cases
+      (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -186,7 +186,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1393156663176" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1403519361383" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375958322893" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
@@ -197,7 +197,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1401374022628" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1401444822632" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1392974154732" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1042,8 +1042,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1401374022127" TEXT="interpet">
-<node COLOR="#0033ff" CREATED="1296636804213" FOLDED="true" ID="ID_493133498" MODIFIED="1401374021524" TEXT="bash">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1401444821734" TEXT="interpet">
+<node COLOR="#0033ff" CREATED="1296636804213" FOLDED="true" ID="ID_493133498" MODIFIED="1401444803271" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
 <richcontent TYPE="NODE"><html>
@@ -1088,7 +1088,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1392059838731" FOLDED="true" ID="ID_431796211" MODIFIED="1392974218317" TEXT="shortcuts">
+<node CREATED="1392059838731" FOLDED="true" ID="ID_431796211" MODIFIED="1401444798215" TEXT="shortcuts">
 <node CREATED="1392059841979" ID="ID_930291454" MODIFIED="1392059978065">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1114,7 +1114,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1401373896509" FOLDED="true" ID="ID_1495855074" MODIFIED="1401373987415" TEXT="loop">
+<node CREATED="1401373896509" FOLDED="true" ID="ID_1495855074" MODIFIED="1401444791633" TEXT="loop">
 <node CREATED="1401373900938" ID="ID_254171167" MODIFIED="1401373984069">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1149,8 +1149,7 @@
       <font color="#0033ff">for i in /etc/*.conf; do cp $i /backup; done</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1162,8 +1161,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1392973957969" POSITION="right" TEXT="distribs">
+<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1401444818714" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
+<node CREATED="1401444807349" ID="ID_492522842" MODIFIED="1401444810297" TEXT="Debian "/>
+<node CREATED="1401444811085" ID="ID_431886698" MODIFIED="1401444814505" TEXT="Ubuntu"/>
 </node>
 <node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1392973982989" POSITION="right" TEXT="tricks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1467,7 +1468,7 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1400680649823" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1403519798752" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1400680649667" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1645,9 +1646,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1375273752631" FOLDED="true" ID="ID_597450845" MODIFIED="1375784325063" TEXT="bluetooth">
+<node CREATED="1375273752631" FOLDED="true" ID="ID_597450845" MODIFIED="1403519798299" TEXT="bluetooth">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_887666938" MODIFIED="1375455973875" TEXT="bluez">
+<node COLOR="#0033ff" CREATED="1364551432068" FOLDED="true" ID="ID_887666938" MODIFIED="1403519797806" TEXT="bluez">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1364551462610" ID="ID_918738490" MODIFIED="1364552351416">
 <richcontent TYPE="NODE"><html>
@@ -1715,8 +1716,8 @@
 <node COLOR="#009999" CREATED="1375440994071" ID="ID_1653807098" LINK="https://wiki.debian.org/BluetoothUser" MODIFIED="1375441079683" TEXT="debian wiki">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1375441018796" FOLDED="true" ID="ID_894525019" MODIFIED="1375441153415" TEXT="keyboard">
-<node CREATED="1375441147923" FOLDED="true" ID="ID_451358907" MODIFIED="1375441153193" TEXT=" logitech K810">
+<node CREATED="1375441018796" FOLDED="true" ID="ID_894525019" MODIFIED="1403519796859" TEXT="keyboard">
+<node CREATED="1375441147923" ID="ID_451358907" MODIFIED="1403519789014" TEXT=" logitech K810">
 <node CREATED="1375441023206" ID="ID_1809958159" LINK="https://bbs.archlinux.org/viewtopic.php?id=156847" MODIFIED="1375441145391">
 <richcontent TYPE="NODE"><html>
               <head>
@@ -1744,7 +1745,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1375273626780" FOLDED="true" ID="ID_20229116" MODIFIED="1375455949191" TEXT="bluez-tools">
+<node COLOR="#0033ff" CREATED="1375273626780" FOLDED="true" ID="ID_20229116" MODIFIED="1403519793640" TEXT="bluez-tools">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1375273635079" ID="ID_1185302319" MODIFIED="1375273682231">
 <richcontent TYPE="NODE"><html>
