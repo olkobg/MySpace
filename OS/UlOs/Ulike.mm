@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1404743880934" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1404809039211" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -186,7 +186,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1403519361383" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1404809041026" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1375958322893" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
@@ -197,7 +197,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1404752458022" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1404838837861" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1404743960912" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -636,7 +636,7 @@
 <node CREATED="1392973902393" ID="ID_1328870125" MODIFIED="1392973904057" TEXT="tar"/>
 </node>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1404743955163" TEXT="net">
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1404818766473" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1392974088202" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">
@@ -991,7 +991,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1401444821734" TEXT="interpet">
+<node CREATED="1360156096178" FOLDED="true" ID="ID_44235768" MODIFIED="1404809055274" TEXT="interpet">
 <node COLOR="#0033ff" CREATED="1296636804213" FOLDED="true" ID="ID_493133498" MODIFIED="1401444803271" TEXT="bash">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313012580106" ID="ID_603722096" LINK="http://www.tuxfiles.org/linuxhelp/shortcuts.html" MODIFIED="1357753490016">
@@ -1109,12 +1109,12 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1404743891540" FOLDED="true" ID="ID_1720075440" MODIFIED="1404752457500" TEXT="utils">
-<node COLOR="#0033ff" CREATED="1404743896669" FOLDED="true" ID="ID_833457230" MODIFIED="1404752457254" TEXT="screen">
+<node CREATED="1404743891540" FOLDED="true" ID="ID_1720075440" MODIFIED="1404838837366" TEXT="utils">
+<node COLOR="#0033ff" CREATED="1404743896669" FOLDED="true" ID="ID_833457230" MODIFIED="1404838836914" TEXT="screen">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1404743902991" ID="ID_925964096" LINK="http://www.pixelbeat.org/lkdb/screen.html" MODIFIED="1404743923758" TEXT="pixelbeat"/>
 <node CREATED="1404743924298" ID="ID_460426089" LINK="http://www.mattcutts.com/blog/a-quick-tutorial-on-screen/" MODIFIED="1404743941938" TEXT="matcutts - quick tutor"/>
-<node CREATED="1404750577283" FOLDED="true" ID="ID_1360440575" MODIFIED="1404752457007" TEXT="copy mode">
+<node CREATED="1404750577283" FOLDED="true" ID="ID_1360440575" MODIFIED="1404838836399" TEXT="copy mode">
 <node CREATED="1404750584145" ID="ID_423077706" MODIFIED="1404750612972">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1125,8 +1125,7 @@
       activate copy mode - <b>Ctrl</b>+<b>A</b>&#160;<b>[</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1404748950289" ID="ID_1286508188" LINK="http://www.cyberciti.biz/faq/scroll-up-down-look-at-data-in-gnuscreen-using-pageup-pagedown-keys/" MODIFIED="1404750617524">
 <richcontent TYPE="NODE"><html>
@@ -1140,9 +1139,54 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1404818739019" ID="ID_1982894252" LINK="http://stackoverflow.com/questions/4807474/copying-gnu-screen-scrollback-buffer-to-file-extended-hardcopy" MODIFIED="1404818758022">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>so</b></font>&#160;copy screen buffer
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1404743950316" TEXT="sed">
+<node CREATED="1404817488620" ID="ID_54253391" LINK="https://www.gnu.org/software/screen/manual/screen.html" MODIFIED="1404817515177">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>gnu</b></font>&#160;screen manual
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1404809060777" FOLDED="true" ID="ID_480504569" MODIFIED="1404809286417" TEXT="~/.screnrc">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1404809081815" ID="ID_657619993" MODIFIED="1404809152008">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # You can also set the default number of scrollback lines by adding
+    </p>
+    <p>
+      <font color="#0000ff">defscrollback 10000</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1404809059548" TEXT="sed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
 <richcontent TYPE="NODE"><html>
@@ -1195,7 +1239,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1401444818714" POSITION="right" TEXT="distribs">
+<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1404818734164" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 <node CREATED="1401444807349" ID="ID_492522842" MODIFIED="1401444810297" TEXT="Debian "/>
 <node CREATED="1401444811085" ID="ID_431886698" MODIFIED="1401444814505" TEXT="Ubuntu"/>
