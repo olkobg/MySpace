@@ -224,8 +224,7 @@
       <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;path = /Applications/Araxis Merge.app/Contents/Utilities/compare</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -282,7 +281,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289405808665" FOLDED="true" ID="ID_616427300" MODIFIED="1384966938788" POSITION="right" TEXT="checkout">
+<node COLOR="#0033ff" CREATED="1289405808665" FOLDED="true" ID="ID_616427300" MODIFIED="1405028677344" POSITION="right" TEXT="checkout">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1289405820303" ID="ID_594507726" MODIFIED="1356609866573">
 <richcontent TYPE="NODE"><html>
@@ -298,6 +297,22 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1405028576263" ID="ID_914123657" MODIFIED="1405028666960">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #revert specific file from specific commit <b>abcde</b>
+    </p>
+    <p>
+      <code><font color="#0000ff">$ git checkout <b>abcde</b>&#160;file/to/restore</font></code>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1347009889048" FOLDED="true" ID="ID_650238942" MODIFIED="1384966939580" POSITION="right" TEXT="cherry-pick">
