@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1404809039211" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1406645733006" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -197,7 +197,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1404838837861" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1406645767650" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1404743960912" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1109,12 +1109,12 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1404743891540" FOLDED="true" ID="ID_1720075440" MODIFIED="1404838837366" TEXT="utils">
-<node COLOR="#0033ff" CREATED="1404743896669" FOLDED="true" ID="ID_833457230" MODIFIED="1404838836914" TEXT="screen">
+<node CREATED="1404743891540" FOLDED="true" ID="ID_1720075440" MODIFIED="1406645766006" TEXT="utils">
+<node COLOR="#0033ff" CREATED="1404743896669" ID="ID_833457230" MODIFIED="1406645767086" TEXT="screen">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1404743902991" ID="ID_925964096" LINK="http://www.pixelbeat.org/lkdb/screen.html" MODIFIED="1404743923758" TEXT="pixelbeat"/>
 <node CREATED="1404743924298" ID="ID_460426089" LINK="http://www.mattcutts.com/blog/a-quick-tutorial-on-screen/" MODIFIED="1404743941938" TEXT="matcutts - quick tutor"/>
-<node CREATED="1404750577283" FOLDED="true" ID="ID_1360440575" MODIFIED="1404838836399" TEXT="copy mode">
+<node CREATED="1404750577283" FOLDED="true" ID="ID_1360440575" MODIFIED="1406632469864" TEXT="copy mode">
 <node CREATED="1404750584145" ID="ID_423077706" MODIFIED="1404750612972">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1149,8 +1149,7 @@
       <font color="#009999"><b>so</b></font>&#160;copy screen buffer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1404817488620" ID="ID_54253391" LINK="https://www.gnu.org/software/screen/manual/screen.html" MODIFIED="1404817515177">
@@ -1163,10 +1162,9 @@
       <font color="#009999"><b>gnu</b></font>&#160;screen manual
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1404809060777" FOLDED="true" ID="ID_480504569" MODIFIED="1404809286417" TEXT="~/.screnrc">
+<node COLOR="#0033ff" CREATED="1404809060777" FOLDED="true" ID="ID_480504569" MODIFIED="1406632464122" TEXT="~/.screnrc">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1404809081815" ID="ID_657619993" MODIFIED="1404809152008">
 <richcontent TYPE="NODE"><html>
@@ -1181,12 +1179,107 @@
       <font color="#0000ff">defscrollback 10000</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1406632441777" FOLDED="true" ID="ID_1694903723" MODIFIED="1406645764925" TEXT="keyb comands">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1406645617855" ID="ID_737692307" LINK="http://aperiodic.net/screen/quick_reference" MODIFIED="1406645644992">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">aperiodic.net </font></b>keyboard shortcuts
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1406632447757" ID="ID_1554716995" MODIFIED="1406645763593">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Key&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Action&#160;&#160;Notes
+    </p>
+    <p>
+      Ctrl+a c&#160;&#160;&#160;&#160;&#160;&#160;new window&#160;&#160;
+    </p>
+    <p>
+      Ctrl+a n&#160;&#160;&#160;&#160;&#160;&#160;next window I bind F12 to this
+    </p>
+    <p>
+      Ctrl+a p&#160;&#160;&#160;&#160;&#160;&#160;previous window I bind F11 to this
+    </p>
+    <p>
+      Ctrl+a &quot;&#160;&#160;&#160;&#160;&#160;&#160;select window from list I have window list in the status line
+    </p>
+    <p>
+      Ctrl+a Ctrl+a previous window viewed&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl+a S&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;split terminal horizontally into regions Ctrl+a c to create new window there
+    </p>
+    <p>
+      Ctrl+a |&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;split terminal vertically into regions Requires screen &gt;= 4.1
+    </p>
+    <p>
+      Ctrl+a :resize&#160;&#160;&#160;resize region&#160;&#160;
+    </p>
+    <p>
+      Ctrl+a :fit&#160;&#160;&#160;&#160;&#160;&#160;fit screen size to new terminal size Ctrl+a F is the same. Do after resizing xterm
+    </p>
+    <p>
+      Ctrl+a :remove&#160;&#160;&#160;remove region&#160;&#160;Ctrl+a X is the same
+    </p>
+    <p>
+      Ctrl+a tab&#160;&#160;&#160;&#160;&#160;&#160;&#160;Move to next region&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl+a d&#160;&#160;detach screen from terminal Start screen with -r option to reattach
+    </p>
+    <p>
+      Ctrl+a A&#160;&#160;set window title&#160;&#160;
+    </p>
+    <p>
+      Ctrl+a x&#160;&#160;lock session&#160;&#160;Enter user password to unlock
+    </p>
+    <p>
+      Ctrl+a [&#160;&#160;enter scrollback/copy mode&#160;&#160;Enter to start and end copy region. Ctrl+a ] to leave this mode
+    </p>
+    <p>
+      Ctrl+a ]&#160;&#160;paste buffer&#160;&#160;Supports pasting between windows
+    </p>
+    <p>
+      Ctrl+a &gt;&#160;&#160;write paste buffer to file&#160;&#160;useful for copying between screens
+    </p>
+    <p>
+      Ctrl+a &lt;&#160;&#160;read paste buffer from file useful for pasting between screens
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl+a ?&#160;&#160;show key bindings/command names Note unbound commands only in man page
+    </p>
+    <p>
+      Ctrl+a :&#160;&#160;goto screen command prompt&#160;&#160;up shows last command entered
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1358780648039" FOLDED="true" ID="ID_1664465546" MODIFIED="1404809059548" TEXT="sed">
+<node COLOR="#0033ff" CREATED="1358780648039" ID="ID_1664465546" MODIFIED="1406645767086" TEXT="sed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358766849934" ID="ID_1596060403" MODIFIED="1358766971807">
 <richcontent TYPE="NODE"><html>
