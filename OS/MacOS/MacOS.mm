@@ -2,23 +2,34 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1395873787104" TEXT="MacOS">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1365585009526" FOLDED="true" ID="ID_1508479409" MODIFIED="1395873786537" POSITION="right" TEXT="hackintosh">
+<node CREATED="1365585009526" FOLDED="true" ID="ID_1508479409" MODIFIED="1409746460396" POSITION="right" TEXT="hackintosh">
 <node COLOR="#009999" CREATED="1365585019963" ID="ID_377081837" LINK="http://www.souldevteam.net/" MODIFIED="1365585031365" TEXT="souldev team">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1383317457031" FOLDED="true" ID="ID_1533319353" MODIFIED="1395873788225" POSITION="right" TEXT="apps">
+<node CREATED="1383317457031" FOLDED="true" ID="ID_1533319353" MODIFIED="1409746984961" POSITION="right" TEXT="apps">
 <node CREATED="1383317471926" FOLDED="true" ID="ID_1044769603" MODIFIED="1395873785473" TEXT="safary">
 <node CREATED="1383317480686" ID="ID_821115825" LINK="http://browsers.about.com/od/s5/a/safarishortcuts.htm" MODIFIED="1383317491245" TEXT="shortcuts"/>
 </node>
 <node CREATED="1360702155057" FOLDED="true" ID="ID_830285801" MODIFIED="1395873785273" TEXT="vpn">
 <node CREATED="1360702158290" ID="ID_922360138" LINK="http://www.lobotomo.com/products/IPSecuritas/" MODIFIED="1360702165805" TEXT="IPSecuritas"/>
 </node>
+<node CREATED="1409746426267" FOLDED="true" ID="ID_1241721761" MODIFIED="1409746596815" TEXT="finder">
+<node CREATED="1409746429707" FOLDED="true" ID="ID_1435653254" MODIFIED="1409746596545" TEXT="show hidden files">
+<node COLOR="#009999" CREATED="1409746435482" ID="ID_1068372693" LINK="https://www.mikesel.info/show-hidden-files-mac-os-x-10-7-lion/" MODIFIED="1409746456123" TEXT="miksel">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1401444271503" FOLDED="true" ID="ID_1179708519" MODIFIED="1401444529548" POSITION="right" TEXT="tips">
-<node CREATED="1401444276057" FOLDED="true" ID="ID_1747699011" MODIFIED="1401444529324" TEXT="web">
+<node COLOR="#009999" CREATED="1409746587095" ID="ID_25340339" LINK="http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/" MODIFIED="1409746594264" TEXT="ialun">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1401444271503" FOLDED="true" ID="ID_1179708519" MODIFIED="1409746459076" POSITION="right" TEXT="tips">
+<node CREATED="1401444276057" FOLDED="true" ID="ID_1747699011" MODIFIED="1409746406845" TEXT="web">
 <node CREATED="1401444278711" ID="ID_1289240244" LINK="http://www.haykranen.nl/2011/08/04/howto-run-multiple-versions-of-firefox-side-by-side-on-mac-os-x-lion/" MODIFIED="1401444309020" TEXT="run multiversions firefox"/>
 </node>
+<node CREATED="1409746412732" ID="ID_1218547384" MODIFIED="1409746415070" TEXT="fs"/>
 </node>
 <node CREATED="1385146035229" FOLDED="true" ID="ID_353242262" MODIFIED="1395873782154" POSITION="left" TEXT="info">
 <node CREATED="1343289776094" ID="ID_1441127359" MODIFIED="1385146030928" TEXT="NFS">
@@ -64,11 +75,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1395873780713" POSITION="left" TEXT="cmd">
+<node CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1409746410925" POSITION="left" TEXT="cmd">
 <node COLOR="#0033ff" CREATED="1383382735381" ID="ID_320566450" MODIFIED="1395873708578" TEXT="sshfs">
 <node CREATED="1383382738892" ID="ID_828449256" LINK="http://www.read-write.fr/blog/blog/2012/02/26/my-guide-for-sshfs/" MODIFIED="1383382750058" TEXT="read-write"/>
 </node>
-<node COLOR="#0033ff" CREATED="1385146105361" ID="ID_1393334735" MODIFIED="1395873708577" TEXT="xattr">
+<node COLOR="#0033ff" CREATED="1385146105361" FOLDED="true" ID="ID_1393334735" MODIFIED="1409746410100" TEXT="xattr">
 <node CREATED="1385146117000" ID="ID_1433751171" LINK="http://unix.stackexchange.com/questions/10/what-does-the-mean-in-ls-l" MODIFIED="1385146173199">
 <richcontent TYPE="NODE"><html>
   <head>
