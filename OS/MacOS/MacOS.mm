@@ -7,21 +7,26 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1383317457031" FOLDED="true" ID="ID_1533319353" MODIFIED="1409746984961" POSITION="right" TEXT="apps">
+<node CREATED="1383317457031" ID="ID_1533319353" MODIFIED="1410812995020" POSITION="right" TEXT="apps">
 <node CREATED="1383317471926" FOLDED="true" ID="ID_1044769603" MODIFIED="1395873785473" TEXT="safary">
 <node CREATED="1383317480686" ID="ID_821115825" LINK="http://browsers.about.com/od/s5/a/safarishortcuts.htm" MODIFIED="1383317491245" TEXT="shortcuts"/>
 </node>
 <node CREATED="1360702155057" FOLDED="true" ID="ID_830285801" MODIFIED="1395873785273" TEXT="vpn">
 <node CREATED="1360702158290" ID="ID_922360138" LINK="http://www.lobotomo.com/products/IPSecuritas/" MODIFIED="1360702165805" TEXT="IPSecuritas"/>
 </node>
-<node CREATED="1409746426267" FOLDED="true" ID="ID_1241721761" MODIFIED="1409746596815" TEXT="finder">
-<node CREATED="1409746429707" FOLDED="true" ID="ID_1435653254" MODIFIED="1409746596545" TEXT="show hidden files">
+<node CREATED="1409746426267" FOLDED="true" ID="ID_1241721761" MODIFIED="1409859814602" TEXT="finder">
+<node CREATED="1409746429707" FOLDED="true" ID="ID_1435653254" MODIFIED="1409859814400" TEXT="show hidden files">
 <node COLOR="#009999" CREATED="1409746435482" ID="ID_1068372693" LINK="https://www.mikesel.info/show-hidden-files-mac-os-x-10-7-lion/" MODIFIED="1409746456123" TEXT="miksel">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#009999" CREATED="1409746587095" ID="ID_25340339" LINK="http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/" MODIFIED="1409746594264" TEXT="ialun">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+</node>
+<node CREATED="1410785692651" ID="ID_788354272" MODIFIED="1410812995022" TEXT="terminal">
+<node CREATED="1410785695402" ID="ID_1878592501" MODIFIED="1410812995023" TEXT="config">
+<node CREATED="1410785700138" ID="ID_1057621530" LINK="http://superuser.com/questions/10716/how-to-make-home-or-end-keys-work-in-mc-running-on-os-x-ssh" MODIFIED="1410785712093" TEXT="PgUp and PgDown"/>
 </node>
 </node>
 </node>
