@@ -7,7 +7,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1383317457031" ID="ID_1533319353" MODIFIED="1410812995020" POSITION="right" TEXT="apps">
+<node CREATED="1383317457031" FOLDED="true" ID="ID_1533319353" MODIFIED="1411385719467" POSITION="right" TEXT="apps">
 <node CREATED="1383317471926" FOLDED="true" ID="ID_1044769603" MODIFIED="1395873785473" TEXT="safary">
 <node CREATED="1383317480686" ID="ID_821115825" LINK="http://browsers.about.com/od/s5/a/safarishortcuts.htm" MODIFIED="1383317491245" TEXT="shortcuts"/>
 </node>
@@ -24,8 +24,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1410785692651" ID="ID_788354272" MODIFIED="1410812995022" TEXT="terminal">
-<node CREATED="1410785695402" ID="ID_1878592501" MODIFIED="1410812995023" TEXT="config">
+<node CREATED="1410785692651" FOLDED="true" ID="ID_788354272" MODIFIED="1411385718585" TEXT="terminal">
+<node CREATED="1410785695402" FOLDED="true" ID="ID_1878592501" MODIFIED="1411385718480" TEXT="config">
 <node CREATED="1410785700138" ID="ID_1057621530" LINK="http://superuser.com/questions/10716/how-to-make-home-or-end-keys-work-in-mc-running-on-os-x-ssh" MODIFIED="1410785712093" TEXT="PgUp and PgDown"/>
 </node>
 </node>

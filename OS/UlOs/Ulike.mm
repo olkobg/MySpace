@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1410877411723" STYLE="fork" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1411485860993" STYLE="fork" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -186,12 +186,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1410877469029" POSITION="right" TEXT="services">
-<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1410877468465" TEXT="web">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1411485953089" POSITION="right" TEXT="services">
+<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1411485952529" TEXT="web">
 <node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
-<node CREATED="1410877428840" FOLDED="true" ID="ID_1886455349" MODIFIED="1410877467725" TEXT="nginx">
-<node CREATED="1410877446571" FOLDED="true" ID="ID_686003070" MODIFIED="1410877467566" TEXT="troubleshot">
+<node CREATED="1410877428840" FOLDED="true" ID="ID_1886455349" MODIFIED="1411485952265" TEXT="nginx">
+<node CREATED="1410877446571" FOLDED="true" ID="ID_686003070" MODIFIED="1411485952033" TEXT="troubleshot">
 <node CREATED="1410877453636" ID="ID_668444133" LINK="http://stackoverflow.com/questions/13894386/upstream-too-big-nginx-codeigniter" MODIFIED="1410877466259" TEXT="fix upstream error"/>
+<node CREATED="1411485865217" ID="ID_1737929395" LINK="http://www.nginxtips.com/504-gateway-time-out-using-nginx/" MODIFIED="1411485870687" TEXT="504 error"/>
 </node>
 </node>
 <node CREATED="1296726276372" FOLDED="true" ID="ID_200655277" MODIFIED="1375456030462" TEXT="optimize">
@@ -202,7 +203,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1410877440025" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1410879694605" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1404743960912" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -273,7 +274,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1410874340225" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_849174610" MODIFIED="1410879694269" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_43792908" MODIFIED="1392974150639" TEXT="mount ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -592,7 +593,7 @@
         </html></richcontent>
 </node>
 </node>
-<node CREATED="1392843327808" FOLDED="true" ID="ID_583595143" MODIFIED="1410874339169" TEXT="archive">
+<node CREATED="1392843327808" FOLDED="true" ID="ID_583595143" MODIFIED="1410879693908" TEXT="archive">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1392843331502" FOLDED="true" ID="ID_1715318342" MODIFIED="1410874290412" TEXT="unrar">
 <node CREATED="1392843333319" ID="ID_462919279" MODIFIED="1392843478379">
@@ -639,7 +640,7 @@
 </node>
 </node>
 <node CREATED="1392973902393" ID="ID_1328870125" MODIFIED="1392973904057" TEXT="tar"/>
-<node CREATED="1410872798335" FOLDED="true" ID="ID_1554679463" MODIFIED="1410874338987" TEXT="zip">
+<node CREATED="1410872798335" FOLDED="true" ID="ID_1554679463" MODIFIED="1410879693614" TEXT="zip">
 <node CREATED="1410874226390" ID="ID_403186982" MODIFIED="1410874336853">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -653,8 +654,7 @@
       <font color="#0000ff">$&#160;zip <b>-r</b>&#160;foo.zip foo</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1410874278366" ID="ID_1919174770" MODIFIED="1410874284170" TEXT="xz"/>
