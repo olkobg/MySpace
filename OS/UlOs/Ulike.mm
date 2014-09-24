@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1411485860993" STYLE="fork" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1411542439310" STYLE="fork" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<b><font color="#cc0033">Debian</font></b>) in most cases
+      (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -186,9 +186,17 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1411485953089" POSITION="right" TEXT="services">
-<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1411485952529" TEXT="web">
-<node CREATED="1360841118260" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1360841118263" TEXT="apache"/>
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1411542490973" POSITION="right" TEXT="services">
+<node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1411542490701" TEXT="web">
+<node CREATED="1360841118260" FOLDED="true" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1411542489284" TEXT="apache">
+<node CREATED="1411542449239" FOLDED="true" ID="ID_309275855" MODIFIED="1411542488917" TEXT="troubleshout">
+<node CREATED="1411542459399" FOLDED="true" ID="ID_648574931" MODIFIED="1411542488620" TEXT="modules">
+<node CREATED="1411542454507" FOLDED="true" ID="ID_790087139" MODIFIED="1411542488388" TEXT="fcgid">
+<node CREATED="1411542462739" ID="ID_1717366361" LINK="http://stackoverflow.com/questions/9487437/mod-fcgid-read-data-timeout-in-40-seconds" MODIFIED="1411542487027" TEXT="read data timeout in 40 seconds"/>
+</node>
+</node>
+</node>
+</node>
 <node CREATED="1410877428840" FOLDED="true" ID="ID_1886455349" MODIFIED="1411485952265" TEXT="nginx">
 <node CREATED="1410877446571" FOLDED="true" ID="ID_686003070" MODIFIED="1411485952033" TEXT="troubleshot">
 <node CREATED="1410877453636" ID="ID_668444133" LINK="http://stackoverflow.com/questions/13894386/upstream-too-big-nginx-codeigniter" MODIFIED="1410877466259" TEXT="fix upstream error"/>
