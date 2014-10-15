@@ -1,12 +1,12 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1358329576466" TEXT="ruby">
-<font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node COLOR="#338800" CREATED="1282900446488" FOLDED="true" ID="ID_1262636553" MODIFIED="1378898907832" POSITION="right" TEXT="frameworks">
+<node CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1412241837553" TEXT="ruby">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#338800" CREATED="1282900446488" FOLDED="true" ID="ID_1262636553" MODIFIED="1412256637649" POSITION="right" TEXT="frameworks">
 <node CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1357160557237" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1289986226478" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1360868278710" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1412241839650" POSITION="left" TEXT="class">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1360774129486" TEXT="inheritance">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -20,16 +20,16 @@
       #inheritance
     </p>
     <p>
-      <font color="#0033ff">class MyCollection <b>&lt;</b>&#160;Array </font>
+      <font color="#0033ff">class MyCollection <b>&lt;</b>&#xa0;Array </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;<b>includes</b>&#160;Enumerable </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;<b>includes</b>&#xa0;Enumerable </font>
     </p>
     <p>
       <font color="#0033ff">... </font>
     </p>
     <p>
-      <font color="#0033ff">end</font>&#160;#class
+      <font color="#0033ff">end</font>&#xa0;#class
     </p>
   </body>
 </html></richcontent>
@@ -41,10 +41,10 @@
   </head>
   <body>
     <p>
-      Calling <b><font color="#0033cc">super</font></b>&#160;with no arguments passes the <b>original method call</b>&#160;
+      Calling <b><font color="#0033cc">super</font></b>&#xa0;with no arguments passes the <b>original method call</b>&#xa0;
     </p>
     <p>
-      and its <b>original arguments</b>&#160;intact <b>up the inheritance</b>
+      and its <b>original arguments</b>&#xa0;intact <b>up the inheritance</b>
     </p>
   </body>
 </html></richcontent>
@@ -57,7 +57,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033cc"><b>BasicObject</b></font>&#160;is the <b>highest</b>&#160;class
+      <font color="#0033cc"><b>BasicObject</b></font>&#xa0;is the <b>highest</b>&#xa0;class
     </p>
   </body>
 </html></richcontent>
@@ -74,7 +74,7 @@
       #check ability to respond to
     </p>
     <p>
-      <font color="#0033cc">5.<b>respond_to?('class')</b>&#160;== true</font>
+      <font color="#0033cc">5.<b>respond_to?('class')</b>&#xa0;== true</font>
     </p>
   </body>
 </html></richcontent>
@@ -130,7 +130,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033cc">5.class</font>&#160;&#160;&#160;&#160;&#160;# =&gt; Fixnum
+      <font color="#0033cc">5.class</font>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# =&gt; Fixnum
     </p>
   </body>
 </html></richcontent>
@@ -148,7 +148,7 @@
   </head>
   <body>
     <p>
-      <b>special</b>&#160;character <font color="#0033cc"><b>\n</b></font>&#160;expanded in <b>double quouted strings</b>
+      <b>special</b>&#xa0;character <font color="#0033cc"><b>\n</b></font>&#xa0;expanded in <b>double quouted strings</b>
     </p>
   </body>
 </html></richcontent>
@@ -168,7 +168,7 @@
   </head>
   <body>
     <p>
-      @foo = 3;&#160;&#160;&#160; <b>&quot;</b>Answer is #{@foo}<b>&quot;</b>;&#160;&#160;&#160; <b>%Q{</b>Anwer is #{@foo + 1}<b>}</b>;
+      @foo = 3;&#xa0;&#xa0;&#xa0; <b>"</b>Answer is #{@foo}<b>"</b>;&#xa0;&#xa0;&#xa0; <b>%Q{</b>Anwer is #{@foo + 1}<b>}</b>;
     </p>
   </body>
 </html></richcontent>
@@ -210,10 +210,10 @@
       # regex capture groups
     </p>
     <p>
-      <font color="#0033cc">x = &quot;8:25 PM&quot; </font>
+      <font color="#0033cc">x = "8:25 PM" </font>
     </p>
     <p>
-      <font color="#0033cc">x =~&#160;&#160;/(\d\d?):(\d\d)\s*([ap])m$/i </font>
+      <font color="#0033cc">x =~&#xa0;&#xa0;/(\d\d?):(\d\d)\s*([ap])m$/i </font>
     </p>
     <p>
       <font color="#000000"># if the match succeds =~ operator return position </font>
@@ -231,13 +231,13 @@
   </head>
   <body>
     <p>
-      #<font color="#0033cc">&#160;=~</font>&#160;works in both <font color="#0033cc"><b>strings</b></font>&#160;and <font color="#0033cc"><b>Regex </b></font>
+      #<font color="#0033cc">&#xa0;=~</font>&#xa0;works in both <font color="#0033cc"><b>strings</b></font>&#xa0;and <font color="#0033cc"><b>Regex </b></font>
     </p>
     <p>
-      <font color="#0033cc">&quot;Catch 22&quot; <b>=~</b>&#160;/\w+\s+\d+/ </font>
+      <font color="#0033cc">"Catch 22" <b>=~</b>&#xa0;/\w+\s+\d+/ </font>
     </p>
     <p>
-      <font color="#0033cc">/\w+\s+\d+/ <b>=~</b>&#160;&quot;Catch 22&quot;</font>
+      <font color="#0033cc">/\w+\s+\d+/ <b>=~</b>&#xa0;"Catch 22"</font>
     </p>
   </body>
 </html></richcontent>
@@ -251,7 +251,7 @@
     
   </head>
   <body>
-    <img src="images/ruby-regex-example.jpg" />
+    <img src="images/ruby-regex-example.jpg"/>
   </body>
 </html></richcontent>
 </node>
@@ -265,7 +265,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033cc"><b>Symbol</b>&#160;(:sym)</font>
+      <font color="#0033cc"><b>Symbol</b>&#xa0;(:sym)</font>
     </p>
   </body>
 </html></richcontent>
@@ -278,7 +278,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033cc"><b>:octocat</b>.to_s</font>&#160;gives <font color="#0033cc">octocat</font>
+      <font color="#0033cc"><b>:octocat</b>.to_s</font>&#xa0;gives <font color="#0033cc">octocat</font>
     </p>
   </body>
 </html></richcontent>
@@ -290,7 +290,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033cc">&quot;octocat&quot;.to_sym</font>&#160;gives <font color="#0033cc"><b>:octocat</b></font>
+      <font color="#0033cc">"octocat".to_sym</font>&#xa0;gives <font color="#0033cc"><b>:octocat</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -323,10 +323,10 @@
   </head>
   <body>
     <p>
-      h = {:a =&gt;1, 'b' =&gt; &quot;two&quot;};
+      h = {:a =&gt;1, 'b' =&gt; "two"};
     </p>
     <p>
-      h['b'] == &quot;two&quot;;
+      h['b'] == "two";
     </p>
     <p>
       h.has_key? (:a) == true
@@ -377,7 +377,7 @@
       <b>collection.<font color="#0033cc">each </font></b><font color="#0033cc">do |elt| </font>
     </p>
     <p>
-      <font color="#0033cc">&#160;... </font>
+      <font color="#0033cc">&#xa0;... </font>
     </p>
     <p>
       <font color="#0033cc"><b>end</b></font>
@@ -421,61 +421,61 @@
   </head>
   <body>
     <p>
-      Closure&#160;&#160;num arguments what happend with collection.
+      Closure&#xa0;&#xa0;num arguments what happend with collection.
     </p>
     <p>
-      <b>c.map</b>&#160;&#160;&#160;&#160;&#160;1&#160;&#160;&#160;&#160;elements obtained by applying block to each element of
+      <b>c.map</b>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;1&#xa0;&#xa0;&#xa0;&#xa0;elements obtained by applying block to each element of
     </p>
     <p>
-      <b>c c.select</b>&#160;1 Subset of c for which block evaluates to true
+      <b>c c.select</b>&#xa0;1 Subset of c for which block evaluates to true
     </p>
     <p>
-      <b>c.reject</b>&#160;&#160;&#160;1 Subset of c obtained by removing elements for which block evaluates to true
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <b>c.uniq</b>&#160;all elements of c with duplicates removed c.reverse elements of c in reverse order
-    </p>
-    <p>
-      <b>c.compact</b>&#160;all non-nil elements of c
+      <b>c.reject</b>&#xa0;&#xa0;&#xa0;1 Subset of c obtained by removing elements for which block evaluates to true
     </p>
     <p>
       
     </p>
     <p>
-      <b>c.flatten</b>&#160;elements of c and any of its sub-arrays, recursively flattened to contain only non-array elements
+      <b>c.uniq</b>&#xa0;all elements of c with duplicates removed c.reverse elements of c in reverse order
+    </p>
+    <p>
+      <b>c.compact</b>&#xa0;all non-nil elements of c
     </p>
     <p>
       
     </p>
     <p>
-      <b>c.partition</b>&#160;1 Two collections, the first containing elements of c for which the block evaluates to true, and the second containing those for which it evaluates to false
+      <b>c.flatten</b>&#xa0;elements of c and any of its sub-arrays, recursively flattened to contain only non-array elements
     </p>
     <p>
       
     </p>
     <p>
-      <b>c.sort</b>&#160;2 Elements of c sorted according to a block that takes 2 arguments and returns -1 if the first element should be sorted earlier, +1 if the second element should be sorted earlier, and 0 if the two elements can be sorted in either order. The following methods require the collection elements to respond to &lt;=&gt;;
+      <b>c.partition</b>&#xa0;1 Two collections, the first containing elements of c for which the block evaluates to true, and the second containing those for which it evaluates to false
     </p>
     <p>
       
     </p>
     <p>
-      <b>c.sort</b>&#160;If sort is called without a block, the elements are sorted according to how they respond to &lt;=&gt;.
+      <b>c.sort</b>&#xa0;2 Elements of c sorted according to a block that takes 2 arguments and returns -1 if the first element should be sorted earlier, +1 if the second element should be sorted earlier, and 0 if the two elements can be sorted in either order. The following methods require the collection elements to respond to &lt;=&gt;;
     </p>
     <p>
       
     </p>
     <p>
-      <b>c.sort_by</b>&#160;1 Applies the block to each element of c and sorts the result. For example, movies.sort_by { |m| m.title } sorts Movie objects according to how their titles respond to &lt;=&gt;.
+      <b>c.sort</b>&#xa0;If sort is called without a block, the elements are sorted according to how they respond to &lt;=&gt;.
     </p>
     <p>
       
     </p>
     <p>
-      <b>c.max, c.min</b>&#160;Largest or smallest element in the collection Figure 3.7: Some common Ruby methods on collections. For those that expect a block, we show
+      <b>c.sort_by</b>&#xa0;1 Applies the block to each element of c and sorts the result. For example, movies.sort_by { |m| m.title } sorts Movie objects according to how their titles respond to &lt;=&gt;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>c.max, c.min</b>&#xa0;Largest or smallest element in the collection Figure 3.7: Some common Ruby methods on collections. For those that expect a block, we show
     </p>
   </body>
 </html></richcontent>
@@ -493,7 +493,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#0033ff">initialize</font></b>&#160;- <b>constructor</b>
+      <b><font color="#0033ff">initialize</font></b>&#xa0;- <b>constructor</b>
     </p>
   </body>
 </html></richcontent>
@@ -513,7 +513,7 @@
       <font color="#0033ff">def <b>Movie.include_year=</b>(new_value) </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160; <b>@@include_year</b>&#160;= new_value </font>
+      <font color="#0033ff">&#xa0;&#xa0; <b>@@include_year</b>&#xa0;= new_value </font>
     </p>
     <p>
       <font color="#0033ff">end</font>
@@ -531,7 +531,7 @@
       # class static method
     </p>
     <p>
-      <font color="#0033cc">def ClassName.method (arg, arg)&#160; ... end </font>
+      <font color="#0033cc">def ClassName.method (arg, arg)&#xa0; ... end </font>
     </p>
     <p>
       <font color="#000000"># or </font>
@@ -555,19 +555,19 @@
       # create getter and setter for <font color="#0033ff">@foo</font>
     </p>
     <p>
-      <font color="#0033ff"><b>attr_accestor</b>&#160;:foo </font>
+      <font color="#0033ff"><b>attr_accestor</b>&#xa0;:foo </font>
     </p>
     <p>
       <font color="#000000"># create only getter </font>
     </p>
     <p>
-      <font color="#0033ff"><b>attr_reader</b>&#160;:bar</font>
+      <font color="#0033ff"><b>attr_reader</b>&#xa0;:bar</font>
     </p>
     <p>
       <font color="#000000"># create only setter </font>
     </p>
     <p>
-      <font color="#0033ff"><b>attr_writer</b>&#160;:baz</font>
+      <font color="#0033ff"><b>attr_writer</b>&#xa0;:baz</font>
     </p>
   </body>
 </html></richcontent>
@@ -581,7 +581,7 @@
   </head>
   <body>
     <p>
-      # instance method (use <b><font color="#0033cc">*args</font></b>&#160;for variable number of arguments)
+      # instance method (use <b><font color="#0033cc">*args</font></b>&#xa0;for variable number of arguments)
     </p>
     <p>
       <font color="#0033cc">def mehod (arg, arg) ... end</font>
@@ -599,13 +599,13 @@
       # Special method names (endings is optional but idiomatic)
     </p>
     <p>
-      <font color="#0033cc">def setter<b>=</b>&#160;(arg, arg) ... end </font>
+      <font color="#0033cc">def setter<b>=</b>&#xa0;(arg, arg) ... end </font>
     </p>
     <p>
-      <font color="#0033cc">def boolean_mehod<b>?</b>&#160;(arg, arg)&#160; ...&#160; end </font>
+      <font color="#0033cc">def boolean_mehod<b>?</b>&#xa0;(arg, arg)&#xa0; ...&#xa0; end </font>
     </p>
     <p>
-      <font color="#0033cc">def dangerous_method<b>!</b>&#160;(arg, arg) ...&#160; end</font>
+      <font color="#0033cc">def dangerous_method<b>!</b>&#xa0;(arg, arg) ...&#xa0; end</font>
     </p>
   </body>
 </html></richcontent>
@@ -623,7 +623,7 @@
       <font color="#0033ff">def trivial_method</font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;x = 5 </font>
+      <font color="#0033ff">&#xa0;&#xa0;x = 5 </font>
     </p>
     <p>
       <font color="#0033ff">end</font>
@@ -644,7 +644,7 @@
       <font color="#0033ff">def title </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;@title </font>
+      <font color="#0033ff">&#xa0;@title </font>
     </p>
     <p>
       <font color="#0033ff">end</font>
@@ -665,7 +665,7 @@
       <font color="#0033ff">def title=(new_title) </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;@title = new_title </font>
+      <font color="#0033ff">&#xa0;@title = new_title </font>
     </p>
     <p>
       <font color="#0033ff">end</font>
@@ -683,28 +683,28 @@
       # using special key word <b>self </b>
     </p>
     <p>
-      <b># <font color="#0033ff">@@include_year</font></b>&#160;is class variable
+      <b># <font color="#0033ff">@@include_year</font></b>&#xa0;is class variable
     </p>
     <p>
       <font color="#0033ff">def full_title </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;if @@include_year </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;if @@include_year </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;&#160;&quot;#{<b>self</b>.title} (#{<b>self</b>.year})&quot; </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;"#{<b>self</b>.title} (#{<b>self</b>.year})" </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;else </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;else </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160; <b>self</b>.title </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <b>self</b>.title </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;end </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;end </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;end</font>
+      <font color="#0033ff">&#xa0;end</font>
     </p>
   </body>
 </html></richcontent>
@@ -727,7 +727,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357308479691" FOLDED="true" ID="ID_152061557" MODIFIED="1360868279719" POSITION="left" TEXT="constants">
+<node CREATED="1357308479691" FOLDED="true" ID="ID_152061557" MODIFIED="1412241845113" POSITION="left" TEXT="constants">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357308484483" ID="ID_1958604901" MODIFIED="1357308508652" TEXT="ClassName">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -736,7 +736,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1360770150494" POSITION="left" TEXT="operations">
+<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1412241844329" POSITION="left" TEXT="operations">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357320757977" FOLDED="true" ID="ID_1228339705" MODIFIED="1360758617199" TEXT="statements">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -765,7 +765,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff">#{..}</font>&#160;evaluates and <font color="#0033ff">to_s()</font>
+      <font color="#0033ff">#{..}</font>&#xa0;evaluates and <font color="#0033ff">to_s()</font>
     </p>
   </body>
 </html></richcontent>
@@ -786,13 +786,13 @@
       unless conditional [then]
     </p>
     <p>
-      &#160;&#160;&#160;code
+      &#xa0;&#xa0;&#xa0;code
     </p>
     <p>
       [else
     </p>
     <p>
-      &#160;&#160;&#160;code ]
+      &#xa0;&#xa0;&#xa0;code ]
     </p>
     <p>
       end
@@ -811,7 +811,7 @@
   </head>
   <body>
     <p>
-      code <b>if</b>&#160;condition
+      code <b>if</b>&#xa0;condition
     </p>
   </body>
 </html></richcontent>
@@ -823,22 +823,22 @@
   </head>
   <body>
     <p>
-      <b>if</b>&#160;conditional [then]
+      <b>if</b>&#xa0;conditional [then]
     </p>
     <p>
-      &#160;&#160;code...
+      &#xa0;&#xa0;code...
     </p>
     <p>
-      [<b>elsif</b>&#160;conditional [then]
+      [<b>elsif</b>&#xa0;conditional [then]
     </p>
     <p>
-      &#160;&#160;code...]...
+      &#xa0;&#xa0;code...]...
     </p>
     <p>
       [<b>else</b>
     </p>
     <p>
-      &#160;&#160;code...]
+      &#xa0;&#xa0;code...]
     </p>
     <p>
       <b>end</b>
@@ -856,19 +856,19 @@
   </head>
   <body>
     <p>
-      <b>case</b>&#160;expression
+      <b>case</b>&#xa0;expression
     </p>
     <p>
-      [<b>when</b>&#160;expression [, expression ...] [then]
+      [<b>when</b>&#xa0;expression [, expression ...] [then]
     </p>
     <p>
-      &#160;&#160;&#160;code ]...
+      &#xa0;&#xa0;&#xa0;code ]...
     </p>
     <p>
       [<b>else</b>
     </p>
     <p>
-      &#160;&#160;&#160;code ]
+      &#xa0;&#xa0;&#xa0;code ]
     </p>
     <p>
       <b>end</b>
@@ -889,10 +889,10 @@
   </head>
   <body>
     <p>
-      <font color="#0033cc"><b>while</b>&#160;</font><font color="#000000">cond </font>
+      <font color="#0033cc"><b>while</b>&#xa0;</font><font color="#000000">cond </font>
     </p>
     <p>
-      <font color="#000000">&#160;statements</font>
+      <font color="#000000">&#xa0;statements</font>
     </p>
     <p>
       <font color="#0033cc"><b>end</b></font>
@@ -910,10 +910,10 @@
   </head>
   <body>
     <p>
-      <font color="#0033cc"><b>until</b></font>&#160;condition
+      <font color="#0033cc"><b>until</b></font>&#xa0;condition
     </p>
     <p>
-      &#160;statement
+      &#xa0;statement
     </p>
     <p>
       <font color="#0033cc"><b>end</b></font>
@@ -931,7 +931,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033cc">1.<b>upto</b>(10) <b>do</b>&#160;|i| </font>
+      <font color="#0033cc">1.<b>upto</b>(10) <b>do</b>&#xa0;|i| </font>
     </p>
     <p>
       <font color="#0033cc">... </font>
@@ -952,7 +952,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033cc">10<b>.times&#160;do </b></font>
+      <font color="#0033cc">10<b>.times&#xa0;do </b></font>
     </p>
     <p>
       <font color="#0033cc">...</font>
@@ -974,22 +974,22 @@
       #return list of words some file
     </p>
     <p>
-      <font color="#0033cc">words = IO.read(&quot;file&quot;). </font>
+      <font color="#0033cc">words = IO.read("file"). </font>
     </p>
     <p>
-      <font color="#0033cc">&#160;&#160;split(/\W+/). </font>
+      <font color="#0033cc">&#xa0;&#xa0;split(/\W+/). </font>
     </p>
     <p>
-      <font color="#0033cc">&#160;&#160;select { |s| s =~ /^[aeiou]/i }. </font>
+      <font color="#0033cc">&#xa0;&#xa0;select { |s| s =~ /^[aeiou]/i }. </font>
     </p>
     <p>
-      <font color="#0033cc">&#160;&#160;map { |s| s.downcase }. </font>
+      <font color="#0033cc">&#xa0;&#xa0;map { |s| s.downcase }. </font>
     </p>
     <p>
-      <font color="#0033cc">&#160;&#160;uniq. </font>
+      <font color="#0033cc">&#xa0;&#xa0;uniq. </font>
     </p>
     <p>
-      <font color="#0033cc">&#160;&#160;sort</font>
+      <font color="#0033cc">&#xa0;&#xa0;sort</font>
     </p>
   </body>
 </html></richcontent>
@@ -1008,22 +1008,22 @@
       <b><font color="#0033cc">begin</font></b>
     </p>
     <p>
-      &#160;statements
+      &#xa0;statements
     </p>
     <p>
       <b><font color="#0033cc">rescue AnError =&gt; e </font></b>
     </p>
     <p>
-      <font color="#000000">&#160;# <b>e</b>&#160;is an <b>excetion</b>&#160;of class <b>AnError </b></font>
+      <font color="#000000">&#xa0;# <b>e</b>&#xa0;is an <b>excetion</b>&#xa0;of class <b>AnError </b></font>
     </p>
     <p>
-      <b><font color="#000000">&#160;</font></b><font color="#000000">multiple </font><b><font color="#0033cc">rescue</font></b><font color="#0033cc">&#160;</font>
+      <b><font color="#000000">&#xa0;</font></b><font color="#000000">multiple </font><b><font color="#0033cc">rescue</font></b><font color="#0033cc">&#xa0;</font>
     </p>
     <p>
-      <b><font color="#0033cc">ensure</font></b><font color="#0033cc">&#160;</font>
+      <b><font color="#0033cc">ensure</font></b><font color="#0033cc">&#xa0;</font>
     </p>
     <p>
-      <font color="#0033cc">&#160; </font><font color="#000000">this code always executes</font>
+      <font color="#0033cc">&#xa0; </font><font color="#000000">this code always executes</font>
     </p>
     <p>
       <b><font color="#0033cc">end </font></b>
@@ -1033,17 +1033,17 @@
 </node>
 </node>
 </node>
-<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1378898909092" POSITION="right" TEXT="ver">
+<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1412241835145" POSITION="right" TEXT="ver">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357132426045" ID="ID_789870658" LINK="rvm.mm" MODIFIED="1357132426050" TEXT="rvm"/>
-<node CREATED="1357159596789" FOLDED="true" ID="ID_243706753" LINK="http://www.rubyenterpriseedition.com/" MODIFIED="1357728163314">
+<node CREATED="1357159596789" FOLDED="true" ID="ID_243706753" LINK="http://www.rubyenterpriseedition.com/" MODIFIED="1412241668732">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>ree</b>&#160;(Enterprise Edition)
+      <b>ree</b>&#xa0;(Enterprise Edition)
     </p>
   </body>
 </html></richcontent>
@@ -1071,11 +1071,14 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357147330262" ID="ID_1164510811" LINK="Gems.mm" MODIFIED="1357147516875" POSITION="right" TEXT="Gems">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="idea"/>
+<node CREATED="1412241600721" FOLDED="true" ID="ID_64964856" MODIFIED="1412241835553" POSITION="right" TEXT="tools">
+<node COLOR="#0033ff" CREATED="1357147330262" ID="ID_1164510811" LINK="Gems.mm" MODIFIED="1412241653705" TEXT="gem">
+<font NAME="SansSerif" SIZE="13"/>
 </node>
-<node CREATED="1357308309238" FOLDED="true" ID="ID_1850656586" MODIFIED="1360868277871" POSITION="right" TEXT="theory">
+<node CREATED="1412241675627" ID="ID_1443480715" MODIFIED="1412241828657" TEXT="rake"/>
+<node CREATED="1412241656348" ID="ID_635088151" MODIFIED="1412241657935" TEXT="irb"/>
+</node>
+<node CREATED="1357308309238" FOLDED="true" ID="ID_1850656586" MODIFIED="1412241837202" POSITION="right" TEXT="theory">
 <node CREATED="1357308313645" ID="ID_1943693068" MODIFIED="1357308324168" TEXT="Everything is an object"/>
 <node CREATED="1357308324461" ID="ID_68744473" MODIFIED="1360758884184">
 <richcontent TYPE="NODE"><html>
@@ -1084,7 +1087,7 @@
   </head>
   <body>
     <p>
-      every&#160;&#160;<b>operation</b>&#160;<b>is a method call</b>&#160;and returns a value.
+      every&#xa0;&#xa0;<b>operation</b>&#xa0;<b>is a method call</b>&#xa0;and returns a value.
     </p>
   </body>
 </html></richcontent>
@@ -1097,7 +1100,7 @@
   </head>
   <body>
     <p>
-      All programming is <b>metaprogramming</b>: <b>classes</b>&#160;and <b>methods</b>&#160; can be added or changed at <b>any time</b>, even while programming
+      All programming is <b>metaprogramming</b>: <b>classes</b>&#xa0;and <b>methods</b>&#xa0; can be added or changed at <b>any time</b>, even while programming
     </p>
   </body>
 </html></richcontent>
@@ -1109,7 +1112,7 @@
   </head>
   <body>
     <p>
-      a <b>ruby block</b>&#160;is a <b>closure</b>&#160;- wherever block executes it can <b>&quot;see&quot;</b>&#160;the <b>entire</b>&#160;lexical <b>scope</b>
+      a <b>ruby block</b>&#xa0;is a <b>closure</b>&#xa0;- wherever block executes it can <b>"see"</b>&#xa0;the <b>entire</b>&#xa0;lexical <b>scope</b>
     </p>
   </body>
 </html></richcontent>
