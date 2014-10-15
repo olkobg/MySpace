@@ -1,6 +1,6 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1378898843830" TEXT="Rails">
+<node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1412241855992" TEXT="Rails">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
 <node COLOR="#338800" CREATED="1283197399152" ID="ID_1130362241" MODIFIED="1357148504908" POSITION="right" TEXT="Database">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -21,13 +21,13 @@
   </head>
   <body>
     <p>
-      create_table :tickets, :options =&gt; &quot;auto_increment = 10000&quot; do |t|
+      create_table :tickets, :options =&gt; "auto_increment = 10000" do |t|
     </p>
     <p>
-      &#160;&#160;t.text :description
+      &#xa0;&#xa0;t.text :description
     </p>
     <p>
-      &#160;&#160;t.timestamps
+      &#xa0;&#xa0;t.timestamps
     </p>
     <p>
       end
@@ -42,10 +42,10 @@
       
     </p>
     <p>
-      CREATE TABLE &quot;tickets&quot; (
+      CREATE TABLE "tickets" (
     </p>
     <p>
-      &#160;&#160;...
+      &#xa0;&#xa0;...
     </p>
     <p>
       ) auto_increment = 10000;
@@ -144,7 +144,7 @@
   </head>
   <body>
     <p>
-      change_column :tech_categories, :description, :text&#160;
+      change_column :tech_categories, :description, :text&#xa0;
     </p>
     <p>
       change_column :technologies, :description, :text
@@ -204,16 +204,16 @@
   </head>
   <body>
     <p>
-      class Article &lt; ActiveRecord::Base&#160;
+      class Article &lt; ActiveRecord::Base&#xa0;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;has_and_belongs_to_many :related_articles, :class_name =&gt; &quot;Article&quot;,
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;has_and_belongs_to_many :related_articles, :class_name =&gt; "Article",
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:join_table =&gt; &quot;related_articles&quot;, :foreign_key =&gt; &quot;main_article_id&quot;,
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;:join_table =&gt; "related_articles", :foreign_key =&gt; "main_article_id",
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:association_foreign_key =&gt; &quot;related_article_id&quot;&#160;&#160;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;:association_foreign_key =&gt; "related_article_id"&#xa0;&#xa0;
     </p>
     <p>
       end
@@ -238,10 +238,10 @@
       respond_to do |format|
     </p>
     <p>
-      &#160;&#160;format.html # index.html.erb
+      &#xa0;&#xa0;format.html # index.html.erb
     </p>
     <p>
-      &#160;&#160;format.xml&#160;&#160;{ render :xml =&gt; @user_hours }
+      &#xa0;&#xa0;format.xml&#xa0;&#xa0;{ render :xml =&gt; @user_hours }
     </p>
     <p>
       end
@@ -275,10 +275,10 @@
       <font color="#0033ff">page[:current_item].visual_effect :highlight, </font>
     </p>
     <p>
-      <font color="#0033ff">:startcolor =&gt; &quot;#88ff88&quot; , </font>
+      <font color="#0033ff">:startcolor =&gt; "#88ff88" , </font>
     </p>
     <p>
-      <font color="#0033ff">:endcolor =&gt; &quot;#114411&quot;</font>
+      <font color="#0033ff">:endcolor =&gt; "#114411"</font>
     </p>
   </body>
 </html></richcontent>
@@ -323,7 +323,7 @@
   </head>
   <body>
     <p>
-      dafault layout you can specify in <font color="#0033ff"><b>app/controller/application</b></font>&#160; by setting layout <font color="#0033ff"><b>&quot;&lt;name of layout&gt;&quot;</b></font>
+      dafault layout you can specify in <font color="#0033ff"><b>app/controller/application</b></font>&#xa0; by setting layout <font color="#0033ff"><b>"&lt;name of layout&gt;"</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -349,7 +349,7 @@
   </head>
   <body>
     <p>
-      use <font color="#0033ff"><b>&lt;%= yield :layout %&gt;</b></font>&#160;- to display required view
+      use <font color="#0033ff"><b>&lt;%= yield :layout %&gt;</b></font>&#xa0;- to display required view
     </p>
   </body>
 </html></richcontent>
@@ -361,16 +361,16 @@
   </head>
   <body>
     <p>
-      &#160;&#160;in layout
+      &#xa0;&#xa0;in layout
     </p>
     <p>
       <font color="#0033ff">&lt;% content_for :stylesheets do %&gt; </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;#top_menu {display: none}&#160;&#160;&#160; </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;#top_menu {display: none}&#xa0;&#xa0;&#xa0; </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;#right_menu {float: right; background-color: yellow; color: black} </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;#right_menu {float: right; background-color: yellow; color: black} </font>
     </p>
     <p>
       <font color="#0033ff">&lt;% end %&gt;</font>
@@ -446,7 +446,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff">form_authenticity_token</font>&#160;- to get it&#160;
+      <font color="#0033ff">form_authenticity_token</font>&#xa0;- to get it&#xa0;
     </p>
   </body>
 </html></richcontent>
@@ -505,6 +505,7 @@
 <node CREATED="1283414434406" FOLDED="true" ID="ID_724560992" MODIFIED="1299014669039" TEXT="migration">
 <node CREATED="1283414445546" ID="ID_1040804101" MODIFIED="1283414473031" TEXT="rake db:migrate_plugins PLUGIN=&lt;plugin_name&gt; VERSION=&lt;version&gt;"/>
 <node CREATED="1283414473781" ID="ID_733924486" MODIFIED="1299014580969" TEXT="rake db:migrate:plugin NAME=&lt;plugin_name&gt; VERSION=&lt;version&gt;">
+<linktarget COLOR="#9900cc" DESTINATION="ID_733924486" ENDARROW="Default" ENDINCLINATION="1696;258;" ID="Arrow_ID_688607126" SOURCE="ID_1608049462" STARTARROW="None" STARTINCLINATION="1081;-434;"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -532,7 +533,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1378898890304" POSITION="right">
+<node CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1412256628179" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -544,14 +545,14 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283240138625" FOLDED="true" ID="ID_296344086" MODIFIED="1378898822153">
+<node CREATED="1283240138625" FOLDED="true" ID="ID_296344086" MODIFIED="1412256627642">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>server</b></font>&#160;(run&#160;server)
+      <font color="#0033ff"><b>server</b></font>&#xa0;(run&#xa0;server)
     </p>
   </body>
 </html></richcontent>
@@ -610,7 +611,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>-p</b></font>&#160;port number
+      <font color="#0033ff"><b>-p</b></font>&#xa0;port number
     </p>
   </body>
 </html></richcontent>
@@ -622,25 +623,26 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>-d</b></font>&#160;to detach server
+      <font color="#0033ff"><b>-d</b></font>&#xa0;to detach server
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283442966093" ID="ID_577858243" LINK="https://www.phusionpassenger.com/" MODIFIED="1357159342617" TEXT="passenger">
+<node COLOR="#0033ff" CREATED="1283442966093" FOLDED="true" ID="ID_577858243" LINK="https://www.phusionpassenger.com/" MODIFIED="1412256626785" TEXT="passenger">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357159294687" ID="ID_775613537" MODIFIED="1357159317761">
+<node CREATED="1357159294687" ID="ID_775613537" MODIFIED="1412256580275">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>passenger</b>&#160;start</font>
+      <font color="#0033ff"><b>$ </b>passenger&#160;<b>start</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1357159482296" ID="ID_1314646436" LINK="http://wiki.brightbox.co.uk/docs:phusion-passenger" MODIFIED="1357159542908">
 <richcontent TYPE="NODE"><html>
@@ -654,6 +656,19 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1412256553618" ID="ID_360403886" MODIFIED="1412256621439">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">$ passenger start -a 0.0.0.0 -p 3000 <b>-d -e</b>&#160;production</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1357147340970" FOLDED="true" ID="ID_973348776" LINK="https://github.com/sstephenson/execjs" MODIFIED="1378898883285">
@@ -663,7 +678,7 @@
   </head>
   <body>
     <p>
-      <b>execjs</b>&#160;<font color="#000000">(js run)</font>
+      <b>execjs</b>&#xa0;<font color="#000000">(js run)</font>
     </p>
   </body>
 </html></richcontent>
@@ -675,25 +690,25 @@
   </head>
   <body>
     <p>
-      therubyracer - Google V8 embedded within Ruby&#160;
+      therubyracer - Google V8 embedded within Ruby&#xa0;
     </p>
     <p>
-      therubyrhino - Mozilla Rhino embedded within JRuby&#160;&#160;
+      therubyrhino - Mozilla Rhino embedded within JRuby&#xa0;&#xa0;
     </p>
     <p>
-      Johnson - Mozilla SpiderMonkey embedded within Ruby&#160;&#160;
+      Johnson - Mozilla SpiderMonkey embedded within Ruby&#xa0;&#xa0;
     </p>
     <p>
-      Mustang - Mustang V8 embedded within Ruby&#160;&#160;
+      Mustang - Mustang V8 embedded within Ruby&#xa0;&#xa0;
     </p>
     <p>
-      Node.js&#160;&#160;
+      Node.js&#xa0;&#xa0;
     </p>
     <p>
-      Apple JavaScriptCore - Included with Mac OS X&#160;&#160;
+      Apple JavaScriptCore - Included with Mac OS X&#xa0;&#xa0;
     </p>
     <p>
-      Mozilla SpiderMonkey&#160;&#160;
+      Mozilla SpiderMonkey&#xa0;&#xa0;
     </p>
     <p>
       Microsoft Windows Script Host (JScript)
@@ -791,19 +806,19 @@
       en:
     </p>
     <p>
-      &#160;cart:
+      &#xa0;cart:
     </p>
     <p>
-      &#160;&#160;title: &quot;Your Cart&quot;
+      &#xa0;&#xa0;title: "Your Cart"
     </p>
     <p>
-      &#160;&#160;button:
+      &#xa0;&#xa0;button:
     </p>
     <p>
-      &#160;&#160;&#160;empty: &quot;Empty cart&quot;
+      &#xa0;&#xa0;&#xa0;empty: "Empty cart"
     </p>
     <p>
-      &#160;&#160;&#160;checkout: &quot;Checkout&quot;
+      &#xa0;&#xa0;&#xa0;checkout: "Checkout"
     </p>
   </body>
 </html></richcontent>
@@ -824,25 +839,25 @@
       number:
     </p>
     <p>
-      &#160;currency:
+      &#xa0;currency:
     </p>
     <p>
-      &#160;&#160;format:
+      &#xa0;&#xa0;format:
     </p>
     <p>
-      &#160;&#160;&#160;unit: &quot;$US&quot;
+      &#xa0;&#xa0;&#xa0;unit: "$US"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;precision: 2
+      &#xa0;&#xa0;&#xa0;&#xa0;precision: 2
     </p>
     <p>
-      &#160;&#160;&#160;&#160;separator: &quot;,&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;separator: ","
     </p>
     <p>
-      &#160;&#160;&#160;&#160;delimiter: &quot;.&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;delimiter: "."
     </p>
     <p>
-      &#160;&#160;&#160;&#160;format: &quot;%n&amp;nbsp;%u&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;format: "%n&amp;nbsp;%u"
     </p>
   </body>
 </html></richcontent>
@@ -888,10 +903,10 @@
       assert(boolean,message)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;Fails if boolean is false or nil.
+      &#xa0;&#xa0;&#xa0;&#xa0;Fails if boolean is false or nil.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;assert(User.find_by_name(&quot;dave&quot; ), &quot;user 'dave' is missing&quot; )
+      &#xa0;&#xa0;&#xa0;&#xa0;assert(User.find_by_name("dave" ), "user 'dave' is missing" )
     </p>
     <p>
       
@@ -903,13 +918,13 @@
       assert_not_equal(expected, actual,message)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;Fails unless expected and actual are/are not equal.
+      &#xa0;&#xa0;&#xa0;&#xa0;Fails unless expected and actual are/are not equal.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;assert_equal(3, Product.count)
+      &#xa0;&#xa0;&#xa0;&#xa0;assert_equal(3, Product.count)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;assert_not_equal(0, User.count, &quot;no users in database&quot; )
+      &#xa0;&#xa0;&#xa0;&#xa0;assert_not_equal(0, User.count, "no users in database" )
     </p>
     <p>
       
@@ -921,13 +936,13 @@
       assert_not_nil(object,message)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;Fails unless object is/is not nil.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Fails unless object is/is not nil.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;assert_nil(User.find_by_name(&quot;willard&quot; ))
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert_nil(User.find_by_name("willard" ))
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;assert_not_nil(User.find_by_name(&quot;henry&quot; ))
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert_not_nil(User.find_by_name("henry" ))
     </p>
     <p>
       
@@ -936,13 +951,13 @@
       assert_in_delta(expected_float, actual_float, delta,message)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;Fails unless the two floating-point numbers are within delta of each other.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Fails unless the two floating-point numbers are within delta of each other.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;Preferred over assert_equal because floats are inexact.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Preferred over assert_equal because floats are inexact.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;assert_in_delta(1.33, line_item.discount, 0.005)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert_in_delta(1.33, line_item.discount, 0.005)
     </p>
     <p>
       
@@ -954,10 +969,10 @@
       assert_nothing_raised(Exception, ...,message) { block... }
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;Fails unless the block raises/does not raise one of the listed exceptions.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Fails unless the block raises/does not raise one of the listed exceptions.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;assert_raise(ActiveRecord::RecordNotFound) { Product.find(bad_id) }
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert_raise(ActiveRecord::RecordNotFound) { Product.find(bad_id) }
     </p>
     <p>
       
@@ -969,19 +984,19 @@
       assert_no_match(pattern, string,message)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;Fails unless string is matched/not matched by the regular expression in
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Fails unless string is matched/not matched by the regular expression in
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;pattern. If pattern is a string, then it is interpreted literally&#8212;no regular
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;pattern. If pattern is a string, then it is interpreted literally&#x2014;no regular
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;expression metacharacters are honored.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;expression metacharacters are honored.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;assert_match(/flower/i, user.town)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert_match(/flower/i, user.town)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;assert_match(&quot;bang*flash&quot; , user.company_name)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert_match("bang*flash" , user.company_name)
     </p>
     <p>
       
@@ -990,19 +1005,19 @@
       assert_valid(activerecord_object)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;Fails unless the supplied Active Record object is valid&#8212;that is, it passes
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Fails unless the supplied Active Record object is valid&#x2014;that is, it passes
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;its validations. If validation fails, the errors are reported as part of the
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;its validations. If validation fails, the errors are reported as part of the
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;assertion failure message.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assertion failure message.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;user = Account.new(:name =&gt; &quot;dave&quot; , :email =&gt; 'secret@pragprog.com' )
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;user = Account.new(:name =&gt; "dave" , :email =&gt; 'secret@pragprog.com' )
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;assert_valid(user)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert_valid(user)
     </p>
     <p>
       
@@ -1011,16 +1026,16 @@
       flunk(message)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;Fails unconditionally.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Fails unconditionally.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;unless user.valid? || account.valid?
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;unless user.valid? || account.valid?
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;flunk(&quot;One of user or account should be valid&quot; )
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;flunk("One of user or account should be valid" )
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;end
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;end
     </p>
   </body>
 </html></richcontent>
@@ -1035,61 +1050,61 @@
   </head>
   <body>
     <p>
-      :inclusion =&gt; &quot;is not included in the list&quot; ,
+      :inclusion =&gt; "is not included in the list" ,
     </p>
     <p>
-      :exclusion =&gt; &quot;is reserved&quot; ,
+      :exclusion =&gt; "is reserved" ,
     </p>
     <p>
-      :invalid =&gt; &quot;is invalid&quot; ,
+      :invalid =&gt; "is invalid" ,
     </p>
     <p>
-      :confirmation =&gt; &quot;doesn't match confirmation&quot; ,
+      :confirmation =&gt; "doesn't match confirmation" ,
     </p>
     <p>
-      :accepted =&gt; &quot;must be accepted&quot; ,
+      :accepted =&gt; "must be accepted" ,
     </p>
     <p>
-      :empty =&gt; &quot;can't be empty&quot; ,
+      :empty =&gt; "can't be empty" ,
     </p>
     <p>
-      :blank =&gt; &quot;can't be blank&quot; ,
+      :blank =&gt; "can't be blank" ,
     </p>
     <p>
-      :too_long =&gt; &quot;is too long (maximum is %d characters)&quot; ,
+      :too_long =&gt; "is too long (maximum is %d characters)" ,
     </p>
     <p>
-      :too_short =&gt; &quot;is too short (minimum is %d characters)&quot; ,
+      :too_short =&gt; "is too short (minimum is %d characters)" ,
     </p>
     <p>
-      :wrong_length =&gt; &quot;is the wrong length (should be %d characters)&quot; ,
+      :wrong_length =&gt; "is the wrong length (should be %d characters)" ,
     </p>
     <p>
-      :taken =&gt; &quot;has already been taken&quot; ,
+      :taken =&gt; "has already been taken" ,
     </p>
     <p>
-      :not_a_number =&gt; &quot;is not a number&quot; ,
+      :not_a_number =&gt; "is not a number" ,
     </p>
     <p>
-      :greater_than =&gt; &quot;must be greater than %d&quot; ,
+      :greater_than =&gt; "must be greater than %d" ,
     </p>
     <p>
-      :greater_than_or_equal_to =&gt; &quot;must be greater than or equal to %d&quot; ,
+      :greater_than_or_equal_to =&gt; "must be greater than or equal to %d" ,
     </p>
     <p>
-      :equal_to =&gt; &quot;must be equal to %d&quot; ,
+      :equal_to =&gt; "must be equal to %d" ,
     </p>
     <p>
-      :less_than =&gt; &quot;must be less than %d&quot; ,
+      :less_than =&gt; "must be less than %d" ,
     </p>
     <p>
-      :less_than_or_equal_to =&gt; &quot;must be less than or equal to %d&quot; ,
+      :less_than_or_equal_to =&gt; "must be less than or equal to %d" ,
     </p>
     <p>
-      :odd =&gt; &quot;must be odd&quot; ,
+      :odd =&gt; "must be odd" ,
     </p>
     <p>
-      :even =&gt; &quot;must be even&quot;
+      :even =&gt; "must be even"
     </p>
   </body>
 </html></richcontent>
@@ -1114,19 +1129,19 @@
   </head>
   <body>
     <p>
-      assert_select &quot;div#cart&quot; do
+      assert_select "div#cart" do
     </p>
     <p>
-      &#160;&#160;assert_select &quot;table&quot; do
+      &#xa0;&#xa0;assert_select "table" do
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;assert_select &quot;tr&quot; , :count =&gt; 3
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert_select "tr" , :count =&gt; 3
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;assert_select &quot;tr.total-line td:last-of-type&quot; , &quot;$57.70&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert_select "tr.total-line td:last-of-type" , "$57.70"
     </p>
     <p>
-      &#160;&#160;end
+      &#xa0;&#xa0;end
     </p>
     <p>
       end
@@ -1154,7 +1169,7 @@
   </head>
   <body>
     <p>
-      &lt;% SALT = &quot;NaCl&quot; unless defined?(SALT) %&gt;
+      &lt;% SALT = "NaCl" unless defined?(SALT) %&gt;
     </p>
     <p>
       
@@ -1163,13 +1178,13 @@
       dave:
     </p>
     <p>
-      &#160;&#160;name: dave
+      &#xa0;&#xa0;name: dave
     </p>
     <p>
-      &#160;&#160;salt: &lt;%= SALT %&gt;
+      &#xa0;&#xa0;salt: &lt;%= SALT %&gt;
     </p>
     <p>
-      &#160;&#160;hashed_password: &lt;%= User.encrypted_password('secret' , SALT) %&gt;
+      &#xa0;&#xa0;hashed_password: &lt;%= User.encrypted_password('secret' , SALT) %&gt;
     </p>
   </body>
 </html></richcontent>
