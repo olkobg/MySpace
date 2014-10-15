@@ -7,7 +7,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1383317457031" FOLDED="true" ID="ID_1533319353" MODIFIED="1411385719467" POSITION="right" TEXT="apps">
+<node CREATED="1383317457031" FOLDED="true" ID="ID_1533319353" MODIFIED="1411550531475" POSITION="right" TEXT="apps">
 <node CREATED="1383317471926" FOLDED="true" ID="ID_1044769603" MODIFIED="1395873785473" TEXT="safary">
 <node CREATED="1383317480686" ID="ID_821115825" LINK="http://browsers.about.com/od/s5/a/safarishortcuts.htm" MODIFIED="1383317491245" TEXT="shortcuts"/>
 </node>
@@ -24,13 +24,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1410785692651" FOLDED="true" ID="ID_788354272" MODIFIED="1411385718585" TEXT="terminal">
-<node CREATED="1410785695402" FOLDED="true" ID="ID_1878592501" MODIFIED="1411385718480" TEXT="config">
+<node CREATED="1410785692651" FOLDED="true" ID="ID_788354272" MODIFIED="1411550530035" TEXT="terminal">
+<node CREATED="1410785695402" FOLDED="true" ID="ID_1878592501" MODIFIED="1411550529755" TEXT="config">
 <node CREATED="1410785700138" ID="ID_1057621530" LINK="http://superuser.com/questions/10716/how-to-make-home-or-end-keys-work-in-mc-running-on-os-x-ssh" MODIFIED="1410785712093" TEXT="PgUp and PgDown"/>
 </node>
 </node>
 </node>
-<node CREATED="1401444271503" FOLDED="true" ID="ID_1179708519" MODIFIED="1409746459076" POSITION="right" TEXT="tips">
+<node CREATED="1401444271503" FOLDED="true" ID="ID_1179708519" MODIFIED="1411556702538" POSITION="right" TEXT="tips">
 <node CREATED="1401444276057" FOLDED="true" ID="ID_1747699011" MODIFIED="1409746406845" TEXT="web">
 <node CREATED="1401444278711" ID="ID_1289240244" LINK="http://www.haykranen.nl/2011/08/04/howto-run-multiple-versions-of-firefox-side-by-side-on-mac-os-x-lion/" MODIFIED="1401444309020" TEXT="run multiversions firefox"/>
 </node>
@@ -80,8 +80,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1409746410925" POSITION="left" TEXT="cmd">
-<node COLOR="#0033ff" CREATED="1383382735381" ID="ID_320566450" MODIFIED="1395873708578" TEXT="sshfs">
+<node CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1413363461446" POSITION="left" TEXT="cmd">
+<node COLOR="#0033ff" CREATED="1383382735381" FOLDED="true" ID="ID_320566450" MODIFIED="1411556700604" TEXT="sshfs">
 <node CREATED="1383382738892" ID="ID_828449256" LINK="http://www.read-write.fr/blog/blog/2012/02/26/my-guide-for-sshfs/" MODIFIED="1383382750058" TEXT="read-write"/>
 </node>
 <node COLOR="#0033ff" CREATED="1385146105361" FOLDED="true" ID="ID_1393334735" MODIFIED="1409746410100" TEXT="xattr">
@@ -98,7 +98,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1395873669388" FOLDED="true" ID="ID_756740988" MODIFIED="1395873780313" TEXT="hdiutil">
+<node COLOR="#0033ff" CREATED="1395873669388" FOLDED="true" ID="ID_756740988" MODIFIED="1413363460590" TEXT="hdiutil">
 <node CREATED="1395873692530" ID="ID_230755365" MODIFIED="1395873778225">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -113,6 +113,22 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1413363407491" ID="ID_474568914" MODIFIED="1413363457295">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # create iso disk form path
+    </p>
+    <p>
+      <font color="#0000ff">$ hdiutil makehybrid -iso -joliet -o Image.iso /input_path</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
