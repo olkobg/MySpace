@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1411542439310" STYLE="fork" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1415262414846" STYLE="fork" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -211,7 +211,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1410879694605" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1415264433969" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1404743960912" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1142,7 +1142,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1404743891540" FOLDED="true" ID="ID_1720075440" MODIFIED="1406645766006" TEXT="utils">
+<node CREATED="1404743891540" FOLDED="true" ID="ID_1720075440" MODIFIED="1415264433099" TEXT="utils">
 <node COLOR="#0033ff" CREATED="1404743896669" ID="ID_833457230" MODIFIED="1406645767086" TEXT="screen">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1404743902991" ID="ID_925964096" LINK="http://www.pixelbeat.org/lkdb/screen.html" MODIFIED="1404743923758" TEXT="pixelbeat"/>
@@ -1363,6 +1363,10 @@
           </html></richcontent>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1415262446468" ID="ID_444401173" MODIFIED="1415262452131" TEXT="mc">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1415262453722" ID="ID_609538611" LINK="http://mydebianblog.blogspot.com/2011/01/midnight-commander.html" MODIFIED="1415264163037" TEXT=""/>
+</node>
 </node>
 </node>
 <node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1410877411722" POSITION="right" TEXT="distribs">
@@ -1494,7 +1498,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1410877423578" POSITION="left" TEXT="app">
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1415264435137" POSITION="left" TEXT="app">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1383345273843" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1672,7 +1676,7 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1410877421643" POSITION="left" TEXT="admin">
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1415262424618" POSITION="left" TEXT="admin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1400680649667" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1968,7 +1972,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1392973988169" TEXT="net">
+<node CREATED="1364808181751" FOLDED="true" ID="ID_1120685595" MODIFIED="1415262424616" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1364753013894" ID="ID_980082429" LINK="http://www.aircrack-ng.org/" MODIFIED="1364808207979" TEXT="aircrack-ng">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -2192,7 +2196,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1377260706799" FOLDED="true" ID="ID_1718118543" MODIFIED="1377260742529" TEXT="web">
+<node CREATED="1377260706799" FOLDED="true" ID="ID_1718118543" MODIFIED="1415262424614" TEXT="web">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1377260710241" FOLDED="true" ID="ID_1259416830" MODIFIED="1377260742282" TEXT="tomcat">
 <node CREATED="1377260713367" ID="ID_1347894503" LINK="https://gist.github.com/collinpeters/2423836" MODIFIED="1377260740107">
