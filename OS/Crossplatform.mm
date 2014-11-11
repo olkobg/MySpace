@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1380119805428" TEXT="CrossOS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1380540642640" POSITION="right" TEXT="Services">
+<node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1415705330251" POSITION="right" TEXT="Services">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1331668059479" FOLDED="true" ID="ID_716532882" MODIFIED="1379071962926" TEXT="Auth">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -109,7 +109,7 @@
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1356528038293" ID="ID_875794081" LINK="http://getsongbird.com/" MODIFIED="1356528045283" TEXT="songbird"/>
 </node>
-<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1380119805047" POSITION="left" TEXT="Development">
+<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1415705332924" POSITION="left" TEXT="Development">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1355149044983" FOLDED="true" ID="ID_1170115706" MODIFIED="1379072031956" TEXT="attention">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -239,7 +239,7 @@
 <node CREATED="1374074090215" ID="ID_1352851592" LINK="Cross/ffmpeg.mm" MODIFIED="1374074090216" TEXT="ffmpeg"/>
 </node>
 </node>
-<node CREATED="1357752667538" FOLDED="true" ID="ID_116532665" MODIFIED="1385658890619" POSITION="left" TEXT="net">
+<node CREATED="1357752667538" FOLDED="true" ID="ID_116532665" MODIFIED="1415705437394" POSITION="left" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1357752766592" FOLDED="true" ID="ID_900912881" MODIFIED="1379071943983" TEXT="mail">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -313,6 +313,25 @@
 <node CREATED="1369226556011" ID="ID_850941728" MODIFIED="1385649603201" TEXT="browser">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369226559664" ID="ID_1903784369" LINK="Cross/Web/Firefox.mm" MODIFIED="1369226680050" TEXT="Firefox"/>
+</node>
+<node COLOR="#0033ff" CREATED="1415705341902" FOLDED="true" ID="ID_871370004" MODIFIED="1415705434440" TEXT="curl">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1415705362660" ID="ID_883052643" MODIFIED="1415705425452">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # use auth
+    </p>
+    <p>
+      <font color="#0000ff">$ curl -user username[:password]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1373272238017" FOLDED="true" ID="ID_1933367924" MODIFIED="1379072051756" POSITION="left" TEXT="Security">
