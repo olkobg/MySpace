@@ -311,8 +311,7 @@
       <code><font color="#0000ff">$ git checkout <b>abcde</b>&#160;file/to/restore</font></code>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1347009889048" FOLDED="true" ID="ID_650238942" MODIFIED="1384966939580" POSITION="right" TEXT="cherry-pick">
@@ -367,7 +366,7 @@
 <node COLOR="#0033ff" CREATED="1356529773115" ID="ID_852491837" MODIFIED="1356529776325" POSITION="left" TEXT="reflog">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1311116388955" FOLDED="true" ID="ID_1391649564" MODIFIED="1387451853081" POSITION="left" TEXT="reset">
+<node COLOR="#0033ff" CREATED="1311116388955" FOLDED="true" ID="ID_1391649564" MODIFIED="1415715622816" POSITION="left" TEXT="reset">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311117086249" ID="ID_1164172895" MODIFIED="1355755359927" TEXT="remove file from the current index (the &quot;about to be committed&quot; area) without changing anything else."/>
 <node COLOR="#009999" CREATED="1311117229714" ID="ID_168216952" LINK="http://stackoverflow.com/questions/348170/undo-git-add" MODIFIED="1356609417356" TEXT="SO">
@@ -403,7 +402,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356529167620" FOLDED="true" ID="ID_631520260" MODIFIED="1356529818595" TEXT="--soft">
+<node COLOR="#0033ff" CREATED="1356529167620" FOLDED="true" ID="ID_631520260" MODIFIED="1415715622815" TEXT="--soft">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356529173575" ID="ID_1750030697" MODIFIED="1356529693299">
 <richcontent TYPE="NODE"><html>
@@ -709,7 +708,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1313572779285" FOLDED="true" ID="ID_896395638" MODIFIED="1387451863701" POSITION="right" TEXT="diff">
+<node COLOR="#0033ff" CREATED="1313572779285" FOLDED="true" ID="ID_896395638" MODIFIED="1415743364133" POSITION="right" TEXT="diff">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313572795090" ID="ID_631869903" MODIFIED="1356609456775">
 <richcontent TYPE="NODE"><html>
@@ -787,7 +786,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1319444460557" FOLDED="true" ID="ID_810957010" LINK="http://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash" MODIFIED="1358162361644">
+<node CREATED="1319444460557" FOLDED="true" ID="ID_810957010" LINK="http://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash" MODIFIED="1415715637043">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -828,6 +827,7 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1415715985201" ID="ID_227899062" LINK="http://stackoverflow.com/questions/6879501/filter-git-diff-by-type-of-change" MODIFIED="1415715991503" TEXT="git diff-filter"/>
 </node>
 <node COLOR="#0033ff" CREATED="1355755727700" FOLDED="true" ID="ID_1356016314" MODIFIED="1387451825878" POSITION="left" TEXT="show-branch">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
