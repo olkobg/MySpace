@@ -239,7 +239,7 @@
 <node CREATED="1374074090215" ID="ID_1352851592" LINK="Cross/ffmpeg.mm" MODIFIED="1374074090216" TEXT="ffmpeg"/>
 </node>
 </node>
-<node CREATED="1357752667538" FOLDED="true" ID="ID_116532665" MODIFIED="1415705437394" POSITION="left" TEXT="net">
+<node CREATED="1357752667538" FOLDED="true" ID="ID_116532665" MODIFIED="1415875240301" POSITION="left" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1357752766592" FOLDED="true" ID="ID_900912881" MODIFIED="1379071943983" TEXT="mail">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -314,7 +314,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369226559664" ID="ID_1903784369" LINK="Cross/Web/Firefox.mm" MODIFIED="1369226680050" TEXT="Firefox"/>
 </node>
-<node COLOR="#0033ff" CREATED="1415705341902" FOLDED="true" ID="ID_871370004" MODIFIED="1415705434440" TEXT="curl">
+<node COLOR="#0033ff" CREATED="1415705341902" FOLDED="true" ID="ID_871370004" MODIFIED="1415875239969" TEXT="curl">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1415705362660" ID="ID_883052643" MODIFIED="1415705425452">
 <richcontent TYPE="NODE"><html>
@@ -327,6 +327,18 @@
     </p>
     <p>
       <font color="#0000ff">$ curl -user username[:password]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1415875213591" ID="ID_1188891192" LINK="http://stackoverflow.com/questions/7172784/how-to-post-json-data-with-curl-from-terminal-commandline-to-test-spring-rest" MODIFIED="1415875237694">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">so</font></b>&#160;post json
     </p>
   </body>
 </html>
