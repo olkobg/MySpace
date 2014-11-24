@@ -2,178 +2,393 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1412241855992" TEXT="Rails">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node COLOR="#338800" CREATED="1283197399152" ID="ID_1130362241" MODIFIED="1357148504908" POSITION="right" TEXT="Database">
+<node COLOR="#338800" CREATED="1283197399152" ID="ID_1130362241" MODIFIED="1416842170307" POSITION="right" TEXT="Database">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1299014682941" TEXT="migration">
-<node CREATED="1283197450026" ID="ID_1587485051" MODIFIED="1283197472241" TEXT="to migrate use db:migrate VERSION=&lt;version of DB&gt;"/>
-<node CREATED="1285662068839" ID="ID_1802890410" MODIFIED="1287675776578" TEXT="script">
-<node CREATED="1287135483060" FOLDED="true" ID="ID_130200917" MODIFIED="1299014681691" TEXT="table">
-<node CREATED="1285662412008" FOLDED="true" ID="ID_628195570" MODIFIED="1287582396022" TEXT="create_table">
-<node CREATED="1285662758957" FOLDED="true" ID="ID_1855141473" MODIFIED="1287582393503" TEXT="param">
-<node CREATED="1285662780127" ID="ID_1634046804" MODIFIED="1285662791989" TEXT=":force =&gt; true, the migration will drop an existing table"/>
-<node CREATED="1285662792511" ID="ID_475430780" MODIFIED="1285662800392" TEXT="The :temporary =&gt; true option creates a temporary table"/>
-<node CREATED="1285662816573" FOLDED="true" ID="ID_1591461405" MODIFIED="1285662886610" TEXT="The :options =&gt; &quot;xxxx&quot; parameter lets you specify">
-<node CREATED="1285662824788" FOLDED="true" ID="ID_926831536" MODIFIED="1285662886298" TEXT="ex.">
-<node CREATED="1285662827889" ID="ID_1225478905" MODIFIED="1285662879482">
+<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1416842250619" TEXT="Migration">
+<node CREATED="1283197450026" ID="ID_1587485051" MODIFIED="1416840201422">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      create_table :tickets, :options =&gt; "auto_increment = 10000" do |t|
+      to migrate use <font color="#0000ff">db:migrate VERSION=&lt;version of DB&gt;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1416840281527" TEXT="script">
+<node CREATED="1287135483060" ID="ID_130200917" MODIFIED="1416840203035" TEXT="table">
+<node CREATED="1285662412008" FOLDED="true" ID="ID_628195570" MODIFIED="1416840213163" TEXT="create_table">
+<node CREATED="1285662758957" FOLDED="true" ID="ID_1855141473" MODIFIED="1416840209873" TEXT="parameters">
+<node CREATED="1285662780127" ID="ID_1634046804" MODIFIED="1416838808552">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">:force =&gt; true</font>, the migration will drop an existing table
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1285662792511" ID="ID_475430780" MODIFIED="1416838819587">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <font color="#0000ff">:temporary =&gt; true</font>&#160;option creates a temporary table
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1285662816573" ID="ID_1591461405" MODIFIED="1416838874032">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # The <font color="#0000ff">:options =&gt; &quot;xxxx&quot;</font>&#160;parameter lets you specify
     </p>
     <p>
-      &#xa0;&#xa0;t.text :description
+      <font color="#0000ff">create_table :tickets, <b>:options =&gt; &quot;auto_increment = 10000&quot;</b>&#160; do |t| </font>
     </p>
     <p>
-      &#xa0;&#xa0;t.timestamps
+      <font color="#0000ff">&#160;&#160;t.text :description </font>
     </p>
     <p>
-      end
+      <font color="#0000ff">&#160;&#160;t.timestamps </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
     </p>
     <p>
       
     </p>
     <p>
-      Crate (mysql):
+      <font color="#0000ff">Crate (mysql): </font>
     </p>
     <p>
       
     </p>
     <p>
-      CREATE TABLE "tickets" (
+      <font color="#0000ff">CREATE TABLE &quot;tickets&quot; ( </font>
     </p>
     <p>
-      &#xa0;&#xa0;...
+      <font color="#0000ff">&#160;&#160;... </font>
     </p>
     <p>
-      ) auto_increment = 10000;
+      <font color="#0000ff">) <b>auto_increment = 10000;</b>&#160;</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-</node>
-</node>
-<node CREATED="1285662627782" FOLDED="true" ID="ID_373529201" MODIFIED="1287582393839" TEXT="columns">
-<node CREATED="1285662273772" ID="ID_1273841851" MODIFIED="1287559592576" TEXT="datatypes">
-<node CREATED="1285662294484" ID="ID_1799948688" MODIFIED="1285662518180" TEXT=":binary,  :boolean,  :date,  :datetime,  :decimal,  :float,  :integer,  :string,  :text,  :time,  :timestamp"/>
-</node>
-<node CREATED="1285662631233" FOLDED="true" ID="ID_847827957" MODIFIED="1287559608438" TEXT="parameters">
-<node CREATED="1285662645661" ID="ID_164283277" MODIFIED="1285662655739" TEXT=":null =&gt; true or false"/>
-<node CREATED="1285662656419" ID="ID_231460465" MODIFIED="1285662662354" TEXT=":limit =&gt; size"/>
-<node CREATED="1285662672165" ID="ID_1998770306" MODIFIED="1285662673076" TEXT=":default =&gt; value"/>
-<node COLOR="#990000" CREATED="1285662692031" ID="ID_1044841947" MODIFIED="1285662698651" TEXT="decimal columns take the options :precision and :scale"/>
-</node>
-</node>
-<node CREATED="1285662211104" FOLDED="true" ID="ID_1562095187" MODIFIED="1287582394211" TEXT="prim_keys">
-<node CREATED="1285662426079" ID="ID_341267637" MODIFIED="1285662473655" TEXT="create_table always generatres primary key &quot;id&quot; for current table"/>
-<node CREATED="1285662083839" FOLDED="true" ID="ID_1818177534" MODIFIED="1287559583796" TEXT="to remove id generation">
-<node CREATED="1285662103812" ID="ID_1076931044" MODIFIED="1285662977109" TEXT="ex.">
-<node CREATED="1285662106997" ID="ID_1641131370" MODIFIED="1285662116261" TEXT="    create_table :technologies_projects, :id =&gt; false do |t|"/>
-</node>
-</node>
-<node CREATED="1285662128319" FOLDED="true" ID="ID_237896690" MODIFIED="1287559584751" TEXT="to generate another primary key">
-<node CREATED="1285662152594" ID="ID_1038309223" MODIFIED="1285662384164" TEXT="ex.">
-<node CREATED="1285662164634" ID="ID_1798411377" MODIFIED="1285662193058" TEXT="    create_table :technologies_projects, :primary_key =&gt; :number do |t|"/>
-</node>
-</node>
-</node>
-<node CREATED="1285662945312" ID="ID_1350567715" MODIFIED="1285662950497" TEXT="fore_keys"/>
-</node>
-<node CREATED="1287135276110" FOLDED="true" ID="ID_1281262412" MODIFIED="1287559574109" TEXT="drop_table">
-<node CREATED="1287135291665" FOLDED="true" ID="ID_467729439" MODIFIED="1287135509903" TEXT="ex">
-<node CREATED="1287135496632" ID="ID_1928440978" MODIFIED="1287135509078" TEXT="drop_table :orders"/>
-</node>
-</node>
-</node>
-<node CREATED="1287135525738" FOLDED="true" ID="ID_1091120829" MODIFIED="1287582399643" TEXT="columns">
-<node CREATED="1287134242436" FOLDED="true" ID="ID_1761138254" MODIFIED="1287559576831" TEXT="remove_column">
-<node CREATED="1287135204328" ID="ID_1805797385" MODIFIED="1287559355578" TEXT="ex">
-<node CREATED="1287135205372" ID="ID_538089736" MODIFIED="1287135224415">
+<node CREATED="1285662627782" FOLDED="true" ID="ID_373529201" MODIFIED="1416840210675" TEXT="columns">
+<node CREATED="1285662273772" ID="ID_1273841851" MODIFIED="1416838908863">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      remove_column :orders, :e_mail
+      # datatypes
+    </p>
+    <p>
+      <font color="#0000ff">:binary,&#160;&#160;:boolean,&#160;&#160;:date,&#160;&#160;:datetime,&#160;&#160;:decimal,&#160;&#160;:float,&#160;&#160;:integer, &#160;:string,&#160;&#160;:text,&#160;&#160;:time,&#160;&#160;:timestamp</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-</node>
-</node>
-<node CREATED="1287134354831" FOLDED="true" ID="ID_97410504" MODIFIED="1287135266806" TEXT="rename_column">
-<node CREATED="1287134359212" FOLDED="true" ID="ID_1213046583" MODIFIED="1287135231395" TEXT="ex">
-<node CREATED="1287134361778" ID="ID_1058248849" MODIFIED="1287134363309" TEXT="rename_column :orders, :e_mail, :customer_email"/>
-</node>
-</node>
-<node CREATED="1287134249994" FOLDED="true" ID="ID_53927588" MODIFIED="1287134399442" TEXT="add_column">
-<node CREATED="1287134383455" FOLDED="true" ID="ID_236479747" MODIFIED="1287134396988" TEXT="ex">
-<node CREATED="1287134385040" ID="ID_1779842576" MODIFIED="1287134395787">
+<node CREATED="1285662631233" ID="ID_847827957" MODIFIED="1416839047703">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      add_column :orders, :attn, :string, :limit =&gt; 100
+      # parameters
     </p>
     <p>
-      add_column :orders, :order_type, :integer
+      <font color="#0000ff">:null =&gt; true or false </font>
     </p>
     <p>
-      add_column :orders, :ship_class, :string, :null =&gt; false, :default =&gt; 'priority'
+      <font color="#0000ff">:limit =&gt; size </font>
     </p>
     <p>
-      add_column :orders, :amount, :decimal, :precision =&gt; 8, :scale =&gt; 2
+      <font color="#0000ff">:default =&gt; value</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-</node>
-</node>
-<node CREATED="1287134255210" FOLDED="true" ID="ID_1666347441" MODIFIED="1287135265978" TEXT="change_column">
-<node CREATED="1287134265891" FOLDED="true" ID="ID_1344501344" MODIFIED="1287134293518" TEXT="ex">
-<node CREATED="1287134267619" ID="ID_265305289" MODIFIED="1287134292136">
+<node COLOR="#990000" CREATED="1285662692031" ID="ID_1044841947" MODIFIED="1416838979663">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      change_column :tech_categories, :description, :text&#xa0;
-    </p>
-    <p>
-      change_column :technologies, :description, :text
+      <font color="#000000"><b>decimal</b>&#160;columns take the options </font><font color="#0000ff">:precision</font><font color="#000000">&#160;and </font><font color="#0000ff">:scale</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1285662211104" FOLDED="true" ID="ID_1562095187" MODIFIED="1416840212220" TEXT="primary_keys">
+<node CREATED="1285662426079" ID="ID_341267637" MODIFIED="1416839213448">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">create_table</font>&#160;always generates primary key &quot;<font color="#0000ff">id</font>&quot; for current table
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1285662083839" ID="ID_1818177534" MODIFIED="1416839120390">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # to remove id generation
+    </p>
+    <p>
+      <font color="#0000ff">create_table :technologies_projects, <b>:id =&gt; false</b>&#160;do |t|</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1285662128319" ID="ID_237896690" MODIFIED="1416839168302">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # to generate another primary key
+    </p>
+    <p>
+      <font color="#0000ff">create_table :technologies_projects, <b>:primary_key =&gt; :number</b>&#160; do |t|</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
+<node CREATED="1287135276110" FOLDED="true" ID="ID_1281262412" MODIFIED="1416839261786" TEXT="drop_table">
+<node CREATED="1287135496632" ID="ID_1928440978" MODIFIED="1416839254611">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">drop_table :orders</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1287582400159" TEXT="indices">
-<node CREATED="1285662542450" FOLDED="true" ID="ID_920920231" MODIFIED="1285672471345" TEXT="add_index">
+</node>
+</node>
+<node CREATED="1287135525738" FOLDED="true" ID="ID_1091120829" MODIFIED="1416839479100" TEXT="columns">
+<node CREATED="1287135205372" ID="ID_538089736" MODIFIED="1416839395955">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # remove column
+    </p>
+    <p>
+      <font color="#0000ff">remove_column :orders, :e_mail</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1287134361778" ID="ID_1058248849" MODIFIED="1416839420154">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # rename column
+    </p>
+    <p>
+      <font color="#0000ff">rename_column :orders, :e_mail, :customer_email</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1287134385040" ID="ID_1779842576" MODIFIED="1416839338874">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # add_column
+    </p>
+    <p>
+      <font color="#0000ff">add_column :orders, :attn, :string, :limit =&gt; 100 </font>
+    </p>
+    <p>
+      <font color="#0000ff">add_column :orders, :order_type, :integer </font>
+    </p>
+    <p>
+      <font color="#0000ff">add_column :orders, :ship_class, :string, :null =&gt; false, :default =&gt; 'priority' </font>
+    </p>
+    <p>
+      <font color="#0000ff">add_column :orders, :amount, :decimal, :precision =&gt; 8, :scale =&gt; 2</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1287134267619" ID="ID_265305289" MODIFIED="1416839364299">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # change_column
+    </p>
+    <p>
+      <font color="#0000ff">change_column :tech_categories, :description, :text&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">change_column :technologies, :description, :text</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1416839486419" TEXT="indices">
+<node CREATED="1285662542450" FOLDED="true" ID="ID_920920231" MODIFIED="1416839485474" TEXT="add_index">
 <node CREATED="1285662588503" ID="ID_339556725" MODIFIED="1285662608764" TEXT="also possible adding of the unique"/>
-<node CREATED="1285662548384" FOLDED="true" ID="ID_1091558219" MODIFIED="1285672466660" TEXT="ex.">
-<node CREATED="1285662565541" ID="ID_1988140670" MODIFIED="1285662582614" TEXT="add_index :users, :name"/>
+<node COLOR="#0033ff" CREATED="1285662565541" ID="ID_1988140670" MODIFIED="1416839296011" TEXT="add_index :users, :name"/>
+</node>
+<node CREATED="1285663949325" FOLDED="true" ID="ID_1629839388" MODIFIED="1416839485185" TEXT="remove_index">
+<node COLOR="#0033ff" CREATED="1285663957616" ID="ID_943032537" MODIFIED="1416839296012" TEXT="remove_index :orders, :name"/>
 </node>
 </node>
-<node CREATED="1285663949325" FOLDED="true" ID="ID_1629839388" MODIFIED="1285672470109" TEXT="remove_index">
-<node CREATED="1285663954589" FOLDED="true" ID="ID_406647598" MODIFIED="1285672469830" TEXT="ex.">
-<node CREATED="1285663957616" ID="ID_943032537" MODIFIED="1285663961910" TEXT="remove_index :orders, :name"/>
+<node COLOR="#990099" CREATED="1416566476800" FOLDED="true" ID="ID_868352331" MODIFIED="1416840251647" TEXT="create ruby script from existing db">
+<node CREATED="1416697834184" ID="ID_1920149502" MODIFIED="1416839602679">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This can be done in three simple steps:
+    </p>
+    <p>
+      1. write <font color="#0000ff"><b>config/database.yml</b></font>&#160;to reference your database.
+    </p>
+    <p>
+      2. Run &quot;<font color="#0000ff">rake db:schema:dump</font>&quot; to generate <font color="#0000ff"><b>db/schema.rb</b></font>.&#160;&#160;Here's the
+    </p>
+    <p>
+      documentation:
+    </p>
+    <p>
+      &#160;&#160;<font color="#0000ff">$ rake -T db:schema:dump</font>
+    </p>
+    <p>
+      &#160;&#160;...
+    </p>
+    <p>
+      &#160;&#160;<font color="#0000ff">rake db:schema:dump</font>&#160;# Create a db/schema.rb file that can be
+    </p>
+    <p>
+      portably used against any DB supported by AR
+    </p>
+    <p>
+      3. Convert <font color="#0000ff"><b>schema.rb</b></font>&#160;into <font color="#0000ff"><b>db/migrate/001_create_database.rb</b></font>:
+    </p>
+    <p>
+      <font color="#0000ff">class CreateMigration &lt; ActiveRecord::Migration </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def self.up </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;# insert schema.rb here </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def self.down </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;# drop all the tables if you really need </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;# to support migration back to version 0 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">en</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
-</node>
-<node CREATED="1287675779471" FOLDED="true" ID="ID_820323342" MODIFIED="1287675795744" TEXT="irreversible migration">
-<node CREATED="1287675788525" FOLDED="true" ID="ID_144358717" MODIFIED="1287675795521" TEXT="ex">
-<node CREATED="1287675790052" ID="ID_437452920" MODIFIED="1287675791345" TEXT="raise ActiveRecord::IrreversibleMigration "/>
+<node CREATED="1287675779471" FOLDED="true" ID="ID_820323342" MODIFIED="1416840281216" TEXT="irreversible migration">
+<node COLOR="#0033ff" CREATED="1287675790052" ID="ID_437452920" MODIFIED="1416839494823" TEXT="raise ActiveRecord::IrreversibleMigration "/>
 </node>
 </node>
+<node CREATED="1416842175466" ID="ID_699552630" MODIFIED="1416842183973" TEXT="Associations">
+<node COLOR="#0033ff" CREATED="1416842195656" ID="ID_530623936" MODIFIED="1416842242256" TEXT="belongs_to"/>
+<node COLOR="#0033ff" CREATED="1416842195660" ID="ID_485116488" MODIFIED="1416842242255" TEXT="has_one"/>
+<node COLOR="#0033ff" CREATED="1416842195661" ID="ID_1722252237" MODIFIED="1416842242255" TEXT="has_many"/>
+<node COLOR="#0033ff" CREATED="1416842195662" ID="ID_1457577574" MODIFIED="1416842242254" TEXT="has_many :through"/>
+<node COLOR="#0033ff" CREATED="1416842195663" ID="ID_1289786938" MODIFIED="1416842242253" TEXT="has_one :through"/>
+<node COLOR="#0033ff" CREATED="1416842195663" ID="ID_544060374" MODIFIED="1416842242252" TEXT="has_and_belongs_to_many"/>
+</node>
+<node COLOR="#990099" CREATED="1416566466801" ID="ID_369394075" LINK="http://stackoverflow.com/questions/6021372/best-way-to-create-unique-token-in-rails" MODIFIED="1416840273419" TEXT="create hash token"/>
+<node COLOR="#990099" CREATED="1416840123243" ID="ID_1727965400" LINK="http://devblog.moz.com/2010/10/non-integer-primary-keys-in-rails/" MODIFIED="1416841240940" TEXT="create table with md5 index"/>
+<node COLOR="#990099" CREATED="1416840461710" ID="ID_829964542" LINK="http://labria.github.io/2013/04/28/rails-4-postgres-uuid-pk-guide/" MODIFIED="1416840493406" TEXT="create table with uuid index - Rails4"/>
+<node COLOR="#990099" CREATED="1416840513326" ID="ID_1671221673" LINK="http://edgeguides.rubyonrails.org/active_record_postgresql.html" MODIFIED="1416840602887">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>rails edge guide</b>&#160;postgresql&#160;advanced
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1357148504906" POSITION="right" TEXT="Models">
@@ -225,9 +440,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1283338536187" FOLDED="true" ID="ID_868166275" MODIFIED="1357149540557" POSITION="left" TEXT="Views">
+<node CREATED="1283338536187" FOLDED="true" ID="ID_868166275" MODIFIED="1416697923808" POSITION="left" TEXT="Views">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1285749776375" FOLDED="true" ID="ID_1746366951" MODIFIED="1357148724655" TEXT="check format of output ">
+<node CREATED="1285749776375" FOLDED="true" ID="ID_1746366951" MODIFIED="1416565044281" TEXT="check format of output ">
 <node COLOR="#0033ff" CREATED="1285749792454" ID="ID_542686998" MODIFIED="1357148542461">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -250,7 +465,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1283933429734" FOLDED="true" ID="ID_1922225649" MODIFIED="1357148750545" TEXT="RJS">
+<node CREATED="1283933429734" FOLDED="true" ID="ID_1922225649" MODIFIED="1416565041461" TEXT="RJS">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -261,7 +476,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1284043709968" FOLDED="true" ID="ID_278952093" MODIFIED="1357148715938" TEXT="effects">
+<node CREATED="1284043709968" FOLDED="true" ID="ID_278952093" MODIFIED="1416565041192" TEXT="effects">
 <node CREATED="1283935936421" ID="ID_357924746" MODIFIED="1357148673132">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -297,7 +512,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1357148768105" ID="ID_955436171" MODIFIED="1357148769633" TEXT="form">
+<node CREATED="1357148768105" FOLDED="true" ID="ID_955436171" MODIFIED="1416697922370" TEXT="form">
 <node CREATED="1284038090046" ID="ID_1814901924" MODIFIED="1357148796473">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -314,7 +529,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1283338542812" FOLDED="true" ID="ID_1767856036" MODIFIED="1357149302485" TEXT="Layouts">
+<node CREATED="1283338542812" FOLDED="true" ID="ID_1767856036" MODIFIED="1416697922755" TEXT="Layouts">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1284455846863" ID="ID_1883710591" MODIFIED="1357149086416">
 <richcontent TYPE="NODE"><html>
@@ -341,7 +556,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1283338546484" FOLDED="true" ID="ID_1176584498" MODIFIED="1357149100614" TEXT="content">
+<node CREATED="1283338546484" FOLDED="true" ID="ID_1176584498" MODIFIED="1416565050816" TEXT="content">
 <node CREATED="1283338551093" ID="ID_1043545982" MODIFIED="1357148855420">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -403,7 +618,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283931946968" FOLDED="true" ID="ID_657218242" MODIFIED="1357149112537" TEXT="partials">
+<node COLOR="#0033ff" CREATED="1283931946968" FOLDED="true" ID="ID_657218242" MODIFIED="1416565060324" TEXT="partials">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283931950250" ID="ID_454896966" MODIFIED="1283932478265" TEXT="to acces object passed to partial use partial name inside partial template"/>
 <node CREATED="1283932012312" ID="ID_395741018" MODIFIED="1283932063656" TEXT="partial templates placed in same directory as templates which is called from "/>
@@ -415,7 +630,7 @@
 <node COLOR="#0033ff" CREATED="1284043748234" ID="ID_1947943376" MODIFIED="1357148817907" TEXT="render :action =&gt; &lt;name of the action&gt;"/>
 </node>
 </node>
-<node CREATED="1284723720064" FOLDED="true" ID="ID_1773269486" MODIFIED="1357149131399" TEXT="xml_layout">
+<node CREATED="1284723720064" FOLDED="true" ID="ID_1773269486" MODIFIED="1416565061328" TEXT="xml_layout">
 <node CREATED="1284723919442" ID="ID_403670670" MODIFIED="1284724021368" TEXT="in controller add respond_to do |format| format.xml {render :layout =&gt; false}"/>
 <node CREATED="1284723727118" ID="ID_482052002" MODIFIED="1284723782408" TEXT="to use crate file with name of controlletr and add xml.builder - &lt;controller_name,xml.builder&gt;"/>
 <node CREATED="1284723783851" ID="ID_17266889" MODIFIED="1284723805601" TEXT="write xml template">
@@ -436,9 +651,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1357148533957" POSITION="left" TEXT="Auth">
+<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1416842168282" POSITION="left" TEXT="Auth">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1287575635651" FOLDED="true" ID="ID_372420420" MODIFIED="1357148533181" TEXT="Auth_token">
+<node CREATED="1287575635651" FOLDED="true" ID="ID_372420420" MODIFIED="1416842168008" TEXT="Auth_token">
 <node CREATED="1287575640947" ID="ID_24275664" MODIFIED="1357148532020">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -453,31 +668,31 @@
 </node>
 </node>
 </node>
-<node CREATED="1282900468984" FOLDED="true" ID="ID_339698472" MODIFIED="1357148506632" POSITION="left" TEXT="Controlles">
+<node CREATED="1282900468984" FOLDED="true" ID="ID_339698472" MODIFIED="1416841362144" POSITION="left" TEXT="Controlles">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1284454571212" ID="ID_1320031455" MODIFIED="1284454587556" TEXT="Main application controller dotred in application_controller"/>
-<node CREATED="1284454589914" ID="ID_1663516995" MODIFIED="1285151213212" TEXT="authentication">
-<node CREATED="1284454690794" ID="ID_687445412" MODIFIED="1284454698642" TEXT="By using filters">
-<node CREATED="1284454598733" ID="ID_53732820" MODIFIED="1284454674220" TEXT="Before filter">
+<node CREATED="1284454589914" FOLDED="true" ID="ID_1663516995" MODIFIED="1416838583841" TEXT="authentication">
+<node CREATED="1284454690794" FOLDED="true" ID="ID_687445412" MODIFIED="1416838583575" TEXT="By using filters">
+<node CREATED="1284454598733" FOLDED="true" ID="ID_53732820" MODIFIED="1416838583162" TEXT="Before filter">
 <node CREATED="1284454622655" ID="ID_548446219" MODIFIED="1284454667955" TEXT="before_filter :(method for filtering) except =&gt; method(not to check)"/>
 </node>
 <node CREATED="1284454675304" ID="ID_1631358812" MODIFIED="1284454678461" TEXT="After Filter"/>
 </node>
 </node>
 <node CREATED="1284144769406" ID="ID_1949723866" MODIFIED="1284732393778" TEXT="attr_accestor - creates getter and setter for object field"/>
-<node CREATED="1286450892615" ID="ID_1501406177" MODIFIED="1299014559444" TEXT="Callback">
-<node CREATED="1286450899919" ID="ID_1959650661" MODIFIED="1286463079565" TEXT="filters">
+<node CREATED="1286450892615" FOLDED="true" ID="ID_1501406177" MODIFIED="1416838580104" TEXT="Callback">
+<node CREATED="1286450899919" FOLDED="true" ID="ID_1959650661" MODIFIED="1416838579858" TEXT="filters">
 <node CREATED="1286450903318" ID="ID_1589562727" MODIFIED="1286450995318" TEXT="after_filter - filter after action executed"/>
 <node CREATED="1286450908435" ID="ID_1391687937" MODIFIED="1286451007401" TEXT="before_filter - filter used before action execution"/>
 <node CREATED="1286450912816" ID="ID_1991313825" MODIFIED="1286450917394" TEXT="around _filter"/>
-<node CREATED="1286450920959" ID="ID_1628396016" MODIFIED="1299014596248" TEXT="parameters">
+<node CREATED="1286450920959" FOLDED="true" ID="ID_1628396016" MODIFIED="1416838577885" TEXT="parameters">
 <node CREATED="1286450927280" ID="ID_798225726" MODIFIED="1286450966741" TEXT=":only =&gt; - used to specify  action to execute"/>
 <node CREATED="1286450934837" ID="ID_1297775068" MODIFIED="1286450976566" TEXT=":except =&gt; specify action to not touch"/>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1283359770375" FOLDED="true" ID="ID_790870058" MODIFIED="1357149532562" POSITION="right" TEXT="Sessions">
+<node CREATED="1283359770375" ID="ID_790870058" MODIFIED="1416842162736" POSITION="right" TEXT="Sessions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283416994734" FOLDED="true" ID="ID_1935893792" MODIFIED="1299014688455" TEXT="DB">
 <node CREATED="1283359962515" FOLDED="true" ID="ID_1674391282" MODIFIED="1299014686468" TEXT="to create">
@@ -500,12 +715,27 @@
 <node CREATED="1283417906234" ID="ID_1428142172" MODIFIED="1283418367265" TEXT="session information which stored between browser requests (Hash)"/>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1283414430500" FOLDED="true" ID="ID_679516315" MODIFIED="1357148500466" POSITION="left" TEXT="Plugins">
+<node COLOR="#338800" CREATED="1283414430500" FOLDED="true" ID="ID_679516315" MODIFIED="1416838585757" POSITION="left" TEXT="Plugins">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283414434406" FOLDED="true" ID="ID_724560992" MODIFIED="1299014669039" TEXT="migration">
+<node CREATED="1283414434406" FOLDED="true" ID="ID_724560992" MODIFIED="1416838575511" TEXT="migration">
 <node CREATED="1283414445546" ID="ID_1040804101" MODIFIED="1283414473031" TEXT="rake db:migrate_plugins PLUGIN=&lt;plugin_name&gt; VERSION=&lt;version&gt;"/>
-<node CREATED="1283414473781" ID="ID_733924486" MODIFIED="1299014580969" TEXT="rake db:migrate:plugin NAME=&lt;plugin_name&gt; VERSION=&lt;version&gt;">
-<linktarget COLOR="#9900cc" DESTINATION="ID_733924486" ENDARROW="Default" ENDINCLINATION="1696;258;" ID="Arrow_ID_688607126" SOURCE="ID_1608049462" STARTARROW="None" STARTINCLINATION="1081;-434;"/>
+<node CREATED="1283414473781" ID="ID_733924486" MODIFIED="1416838545699" TEXT="rake db:migrate:plugin NAME=&lt;plugin_name&gt; VERSION=&lt;version&gt;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1283257965296" ID="ID_1608049462" MODIFIED="1416838545698">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # to delete specific plugin
+    </p>
+    <p>
+      <font color="#0033ff"><b>rake db:migrate:plugin NAME=plugin_name VERSION=0</b></font>
+    </p>
+  </body>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -533,7 +763,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1412256628179" POSITION="right">
+<node CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1416841360127" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -545,7 +775,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283240138625" FOLDED="true" ID="ID_296344086" MODIFIED="1412256627642">
+<node CREATED="1283240138625" FOLDED="true" ID="ID_296344086" MODIFIED="1416841357702">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -556,7 +786,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1283240147390" ID="ID_1575314713" MODIFIED="1357149723698" TEXT="[default]">
+<node CREATED="1283240147390" FOLDED="true" ID="ID_1575314713" MODIFIED="1416841356260" TEXT="[default]">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283240175296" ID="ID_381088539" MODIFIED="1283240190437" TEXT="if mongrel installed it will be mongrel if not - webrick"/>
 </node>
@@ -590,7 +820,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1283240214093" ID="ID_138745101" MODIFIED="1357149762311">
+<node CREATED="1283240214093" FOLDED="true" ID="ID_138745101" MODIFIED="1416841355448">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -629,7 +859,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283442966093" FOLDED="true" ID="ID_577858243" LINK="https://www.phusionpassenger.com/" MODIFIED="1412256626785" TEXT="passenger">
+<node COLOR="#0033ff" CREATED="1283442966093" FOLDED="true" ID="ID_577858243" LINK="https://www.phusionpassenger.com/" MODIFIED="1416841354423" TEXT="passenger">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357159294687" ID="ID_775613537" MODIFIED="1412256580275">
 <richcontent TYPE="NODE"><html>
@@ -639,19 +869,6 @@
   <body>
     <p>
       <font color="#0033ff"><b>$ </b>passenger&#160;<b>start</b></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1357159482296" ID="ID_1314646436" LINK="http://wiki.brightbox.co.uk/docs:phusion-passenger" MODIFIED="1357159542908">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>brigthbox.com</b></font><b>: </b>install on <font color="#990000"><b>Debian</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -666,12 +883,23 @@
       <font color="#0000ff">$ passenger start -a 0.0.0.0 -p 3000 <b>-d -e</b>&#160;production</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+<node CREATED="1357159482296" ID="ID_1314646436" LINK="http://wiki.brightbox.co.uk/docs:phusion-passenger" MODIFIED="1416841350504">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>brigthbox.com</b></font><b>: </b>install on <font color="#990000"><b>Debian</b></font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357147340970" FOLDED="true" ID="ID_973348776" LINK="https://github.com/sstephenson/execjs" MODIFIED="1378898883285">
+<node COLOR="#0033ff" CREATED="1357147340970" FOLDED="true" ID="ID_973348776" LINK="https://github.com/sstephenson/execjs" MODIFIED="1416841332648">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -723,38 +951,42 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283240143078" FOLDED="true" ID="ID_1736778221" MODIFIED="1378898889787" TEXT="generate">
+<node COLOR="#0033ff" CREATED="1283240143078" FOLDED="true" ID="ID_1736778221" MODIFIED="1416841328659" TEXT="generate">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283240252828" ID="ID_958642761" MODIFIED="1283240365156" TEXT="scafflod (generates MVC)"/>
-<node COLOR="#0033ff" CREATED="1283240312937" ID="ID_1171114382" MODIFIED="1357149554379" TEXT="model">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1283240315500" ID="ID_155061060" MODIFIED="1357149554378" TEXT="controller">
+<node COLOR="#0033ff" CREATED="1283240315500" ID="ID_155061060" MODIFIED="1416841295848" TEXT="controller">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1283240320187" ID="ID_142736714" MODIFIED="1283240393593" TEXT="migration (db script)"/>
-<node COLOR="#0033ff" CREATED="1283257961178" FOLDED="true" ID="ID_1356556346" MODIFIED="1378898888010" TEXT="plugins">
+<node COLOR="#0033ff" CREATED="1283240312937" FOLDED="true" ID="ID_1171114382" MODIFIED="1416838380854" TEXT="model">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283257965296" ID="ID_1608049462" MODIFIED="1357149584412">
+<node CREATED="1416826314628" ID="ID_1239425140" MODIFIED="1416838378471">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      # to delete specific plugin
+      #with out migration
     </p>
     <p>
-      <font color="#0033ff"><b>rake db:migrate:plugin NAME=plugin_name VERSION=0</b></font>
+      <font color="#0000ff">$ rails g model &lt;model-params&gt; <b>--no-migration</b></font>
     </p>
   </body>
-</html></richcontent>
-<arrowlink COLOR="#9900cc" DESTINATION="ID_733924486" ENDARROW="Default" ENDINCLINATION="1696;258;" ID="Arrow_ID_688607126" STARTARROW="None" STARTINCLINATION="1081;-434;"/>
-<font NAME="SansSerif" SIZE="12"/>
+</html>
+</richcontent>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1283240320187" ID="ID_142736714" MODIFIED="1416838401845" TEXT="migration">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1284732043601" FOLDED="true" ID="ID_1099016474" MODIFIED="1378898823435" TEXT="Misc">
+<node COLOR="#0033ff" CREATED="1283257961178" ID="ID_1356556346" MODIFIED="1416838403703" TEXT="plugins">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1283240252828" ID="ID_958642761" MODIFIED="1416841301010" TEXT="scafflod">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1284732043601" FOLDED="true" ID="ID_1099016474" MODIFIED="1416841359113" TEXT="rake">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1284732046893" ID="ID_763451822" MODIFIED="1357149614637">
 <richcontent TYPE="NODE"><html>
   <head>

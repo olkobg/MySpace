@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1380119805428" TEXT="CrossOS">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1415705330251" POSITION="right" TEXT="Services">
+<node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1416330120253" POSITION="right" TEXT="Services">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1331668059479" FOLDED="true" ID="ID_716532882" MODIFIED="1379071962926" TEXT="Auth">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -89,6 +89,9 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1416326797974" ID="ID_590602152" MODIFIED="1416326804544" TEXT="searchEngine">
+<node CREATED="1416326840470" ID="ID_632458234" LINK="../../../Dropbox/MySpace/IT/OS/Cross/searchEngine/ElasticSearch.mm" MODIFIED="1416326840471" TEXT="ElasticSearch"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1322654447149" FOLDED="true" ID="ID_1927839485" MODIFIED="1383317781059" POSITION="left" TEXT="Editor">
@@ -239,7 +242,7 @@
 <node CREATED="1374074090215" ID="ID_1352851592" LINK="Cross/ffmpeg.mm" MODIFIED="1374074090216" TEXT="ffmpeg"/>
 </node>
 </node>
-<node CREATED="1357752667538" FOLDED="true" ID="ID_116532665" MODIFIED="1415875240301" POSITION="left" TEXT="net">
+<node CREATED="1357752667538" FOLDED="true" ID="ID_116532665" MODIFIED="1416326795796" POSITION="left" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1357752766592" FOLDED="true" ID="ID_900912881" MODIFIED="1379071943983" TEXT="mail">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -310,7 +313,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1369226556011" ID="ID_850941728" MODIFIED="1385649603201" TEXT="browser">
+<node CREATED="1369226556011" FOLDED="true" ID="ID_850941728" MODIFIED="1416326795219" TEXT="browser">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369226559664" ID="ID_1903784369" LINK="Cross/Web/Firefox.mm" MODIFIED="1369226680050" TEXT="Firefox"/>
 </node>
@@ -341,12 +344,11 @@
       <b><font color="#009999">so</font></b>&#160;post json
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1373272238017" FOLDED="true" ID="ID_1933367924" MODIFIED="1379072051756" POSITION="left" TEXT="Security">
+<node COLOR="#990000" CREATED="1373272238017" FOLDED="true" ID="ID_1933367924" MODIFIED="1416326790978" POSITION="left" TEXT="Security">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
 <node CREATED="1373272260894" FOLDED="true" ID="ID_599129076" MODIFIED="1373272276212" TEXT="disc encryption">
 <node CREATED="1373272267989" ID="ID_1702520692" LINK="http://www.truecrypt.org/" MODIFIED="1373272274271" TEXT="TrueCrypt"/>

@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1412241675627" ID="ID_267787893" LINK="../../../../MySpace/IT/Ruby&amp;Rails/ruby.mm" MODIFIED="1415875324923" TEXT="rake">
+<node CREATED="1412241675627" ID="ID_267787893" LINK="../../../../MySpace/IT/Ruby&amp;Rails/ruby.mm" MODIFIED="1416314481338" TEXT="rake">
 <node CREATED="1415812232816" FOLDED="true" ID="ID_1096416881" MODIFIED="1415875115973" POSITION="right" TEXT="mine.rake">
 <node CREATED="1415812240023" ID="ID_356128117" MODIFIED="1415814253673">
 <richcontent TYPE="NODE"><html>
@@ -45,9 +45,24 @@
 <!-- HTML generated using hilite.me --></richcontent>
 </node>
 </node>
-<node CREATED="1415875301043" FOLDED="true" ID="ID_25235967" MODIFIED="1415875324706" POSITION="left" TEXT="test">
+<node CREATED="1415875301043" FOLDED="true" ID="ID_25235967" MODIFIED="1416314482736" POSITION="left" TEXT="test">
 <node COLOR="#009999" CREATED="1415875304162" ID="ID_1540366880" LINK="http://flavio.castelli.name/2010/05/28/rails_execute_single_test/" MODIFIED="1415875323054" TEXT="flavio castelli">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1416314443073" FOLDED="true" ID="ID_1126454984" MODIFIED="1416314481152" POSITION="left" TEXT="show all tasks">
+<node CREATED="1416314447187" ID="ID_434227868" MODIFIED="1416314479697">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">$ rake <b>-T</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
