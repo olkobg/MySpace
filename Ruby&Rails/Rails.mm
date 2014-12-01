@@ -2,9 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1412241855992" TEXT="Rails">
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node COLOR="#338800" CREATED="1283197399152" ID="ID_1130362241" MODIFIED="1416842170307" POSITION="right" TEXT="Database">
+<node COLOR="#338800" CREATED="1283197399152" FOLDED="true" ID="ID_1130362241" MODIFIED="1417218911563" POSITION="right" TEXT="Database">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1416842250619" TEXT="Migration">
+<node CREATED="1283197403624" ID="ID_1592515143" MODIFIED="1417218832983" TEXT="Migration">
 <node CREATED="1283197450026" ID="ID_1587485051" MODIFIED="1416840201422">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -15,13 +15,12 @@
       to migrate use <font color="#0000ff">db:migrate VERSION=&lt;version of DB&gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1416840281527" TEXT="script">
-<node CREATED="1287135483060" ID="ID_130200917" MODIFIED="1416840203035" TEXT="table">
-<node CREATED="1285662412008" FOLDED="true" ID="ID_628195570" MODIFIED="1416840213163" TEXT="create_table">
-<node CREATED="1285662758957" FOLDED="true" ID="ID_1855141473" MODIFIED="1416840209873" TEXT="parameters">
+<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1417218875410" TEXT="script">
+<node CREATED="1287135483060" FOLDED="true" ID="ID_130200917" MODIFIED="1417218875058" TEXT="table">
+<node CREATED="1285662412008" FOLDED="true" ID="ID_628195570" MODIFIED="1417218874737" TEXT="create_table">
+<node CREATED="1285662758957" FOLDED="true" ID="ID_1855141473" MODIFIED="1417218873581" TEXT="parameters">
 <node CREATED="1285662780127" ID="ID_1634046804" MODIFIED="1416838808552">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -32,8 +31,7 @@
       <font color="#0000ff">:force =&gt; true</font>, the migration will drop an existing table
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1285662792511" ID="ID_475430780" MODIFIED="1416838819587">
 <richcontent TYPE="NODE"><html>
@@ -45,8 +43,7 @@
       The <font color="#0000ff">:temporary =&gt; true</font>&#160;option creates a temporary table
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1285662816573" ID="ID_1591461405" MODIFIED="1416838874032">
 <richcontent TYPE="NODE"><html>
@@ -88,11 +85,10 @@
       <font color="#0000ff">) <b>auto_increment = 10000;</b>&#160;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1285662627782" FOLDED="true" ID="ID_373529201" MODIFIED="1416840210675" TEXT="columns">
+<node CREATED="1285662627782" FOLDED="true" ID="ID_373529201" MODIFIED="1417218870318" TEXT="columns">
 <node CREATED="1285662273772" ID="ID_1273841851" MODIFIED="1416838908863">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -106,8 +102,7 @@
       <font color="#0000ff">:binary,&#160;&#160;:boolean,&#160;&#160;:date,&#160;&#160;:datetime,&#160;&#160;:decimal,&#160;&#160;:float,&#160;&#160;:integer, &#160;:string,&#160;&#160;:text,&#160;&#160;:time,&#160;&#160;:timestamp</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1285662631233" ID="ID_847827957" MODIFIED="1416839047703">
 <richcontent TYPE="NODE"><html>
@@ -128,8 +123,7 @@
       <font color="#0000ff">:default =&gt; value</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#990000" CREATED="1285662692031" ID="ID_1044841947" MODIFIED="1416838979663">
 <richcontent TYPE="NODE"><html>
@@ -141,11 +135,10 @@
       <font color="#000000"><b>decimal</b>&#160;columns take the options </font><font color="#0000ff">:precision</font><font color="#000000">&#160;and </font><font color="#0000ff">:scale</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1285662211104" FOLDED="true" ID="ID_1562095187" MODIFIED="1416840212220" TEXT="primary_keys">
+<node CREATED="1285662211104" FOLDED="true" ID="ID_1562095187" MODIFIED="1417218868486" TEXT="primary_keys">
 <node CREATED="1285662426079" ID="ID_341267637" MODIFIED="1416839213448">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -156,8 +149,7 @@
       <font color="#0000ff">create_table</font>&#160;always generates primary key &quot;<font color="#0000ff">id</font>&quot; for current table
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1285662083839" ID="ID_1818177534" MODIFIED="1416839120390">
 <richcontent TYPE="NODE"><html>
@@ -172,8 +164,7 @@
       <font color="#0000ff">create_table :technologies_projects, <b>:id =&gt; false</b>&#160;do |t|</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1285662128319" ID="ID_237896690" MODIFIED="1416839168302">
 <richcontent TYPE="NODE"><html>
@@ -188,8 +179,7 @@
       <font color="#0000ff">create_table :technologies_projects, <b>:primary_key =&gt; :number</b>&#160; do |t|</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -204,8 +194,7 @@
       <font color="#0000ff">drop_table :orders</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -223,8 +212,7 @@
       <font color="#0000ff">remove_column :orders, :e_mail</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1287134361778" ID="ID_1058248849" MODIFIED="1416839420154">
 <richcontent TYPE="NODE"><html>
@@ -239,8 +227,7 @@
       <font color="#0000ff">rename_column :orders, :e_mail, :customer_email</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1287134385040" ID="ID_1779842576" MODIFIED="1416839338874">
 <richcontent TYPE="NODE"><html>
@@ -264,8 +251,7 @@
       <font color="#0000ff">add_column :orders, :amount, :decimal, :precision =&gt; 8, :scale =&gt; 2</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1287134267619" ID="ID_265305289" MODIFIED="1416839364299">
 <richcontent TYPE="NODE"><html>
@@ -283,20 +269,19 @@
       <font color="#0000ff">change_column :technologies, :description, :text</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1416839486419" TEXT="indices">
-<node CREATED="1285662542450" FOLDED="true" ID="ID_920920231" MODIFIED="1416839485474" TEXT="add_index">
+<node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1417218860165" TEXT="indices">
+<node CREATED="1285662542450" ID="ID_920920231" MODIFIED="1417218856324" TEXT="add_index">
 <node CREATED="1285662588503" ID="ID_339556725" MODIFIED="1285662608764" TEXT="also possible adding of the unique"/>
 <node COLOR="#0033ff" CREATED="1285662565541" ID="ID_1988140670" MODIFIED="1416839296011" TEXT="add_index :users, :name"/>
 </node>
-<node CREATED="1285663949325" FOLDED="true" ID="ID_1629839388" MODIFIED="1416839485185" TEXT="remove_index">
+<node CREATED="1285663949325" FOLDED="true" ID="ID_1629839388" MODIFIED="1417218858561" TEXT="remove_index">
 <node COLOR="#0033ff" CREATED="1285663957616" ID="ID_943032537" MODIFIED="1416839296012" TEXT="remove_index :orders, :name"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1416566476800" FOLDED="true" ID="ID_868352331" MODIFIED="1416840251647" TEXT="create ruby script from existing db">
+<node COLOR="#990099" CREATED="1416566476800" FOLDED="true" ID="ID_868352331" MODIFIED="1417218862107" TEXT="create ruby script from existing db">
 <node CREATED="1416697834184" ID="ID_1920149502" MODIFIED="1416839602679">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -387,13 +372,15 @@
       <b>rails edge guide</b>&#160;postgresql&#160;advanced
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+<node COLOR="#990099" CREATED="1417218881618" ID="ID_1681307262" LINK="http://ruby-journal.com/how-to-override-default-primary-key-id-in-rails/" MODIFIED="1417218903027" TEXT="create another primary key">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1357148504906" POSITION="right" TEXT="Models">
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1417218912356" POSITION="right" TEXT="Models">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1299014684279" TEXT="Validation">
+<node CREATED="1283338391546" ID="ID_1548274229" MODIFIED="1417018484752" TEXT="Validation">
 <node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -692,7 +679,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1283359770375" ID="ID_790870058" MODIFIED="1416842162736" POSITION="right" TEXT="Sessions">
+<node CREATED="1283359770375" FOLDED="true" ID="ID_790870058" MODIFIED="1417218913281" POSITION="right" TEXT="Sessions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283416994734" FOLDED="true" ID="ID_1935893792" MODIFIED="1299014688455" TEXT="DB">
 <node CREATED="1283359962515" FOLDED="true" ID="ID_1674391282" MODIFIED="1299014686468" TEXT="to create">
@@ -971,8 +958,7 @@
       <font color="#0000ff">$ rails g model &lt;model-params&gt; <b>--no-migration</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1283240320187" ID="ID_142736714" MODIFIED="1416838401845" TEXT="migration">

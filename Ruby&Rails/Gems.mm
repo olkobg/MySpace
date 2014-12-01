@@ -42,7 +42,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1413986503168" FOLDED="true" ID="ID_713345953" MODIFIED="1416562931930" POSITION="left" TEXT="dev">
+<node CREATED="1413986503168" ID="ID_713345953" MODIFIED="1417018498838" POSITION="left" TEXT="dev">
 <node CREATED="1413986585226" FOLDED="true" ID="ID_1282665512" MODIFIED="1416310098775" TEXT="nice format">
 <node CREATED="1413986510031" ID="ID_627079957" LINK="https://github.com/cldwalker/hirb" MODIFIED="1413986616195" TEXT="Hirb">
 <node CREATED="1413986520538" ID="ID_650307305" MODIFIED="1413986531539" TEXT="better overview of models in rails"/>
@@ -50,12 +50,12 @@
 <node CREATED="1413986597580" ID="ID_1909254068" LINK="http://stackoverflow.com/questions/1224525/how-to-get-nice-formatting-in-the-rails-console" MODIFIED="1413986603234" TEXT="yaml format"/>
 <node CREATED="1413986623748" ID="ID_827372704" LINK="https://github.com/michaeldv/awesome_print" MODIFIED="1413986635230" TEXT="awesome_print"/>
 </node>
-<node CREATED="1415618608856" FOLDED="true" ID="ID_324683494" MODIFIED="1416310099948" TEXT="REST API">
+<node CREATED="1415618608856" FOLDED="true" ID="ID_324683494" MODIFIED="1417018500190" TEXT="REST API">
 <node CREATED="1415618620684" FOLDED="true" ID="ID_1250867020" LINK="https://github.com/intridea/grape" MODIFIED="1415875173723" TEXT="grape">
 <node COLOR="#009999" CREATED="1415875145347" ID="ID_833859942" LINK="http://armoredcode.com/blog/build-an-api-for-fun-with-grape/" MODIFIED="1415875169159" TEXT="armoredcode"/>
 </node>
 </node>
-<node CREATED="1416310111007" FOLDED="true" ID="ID_316057901" MODIFIED="1416327181730" TEXT="search">
+<node CREATED="1416310111007" FOLDED="true" ID="ID_316057901" MODIFIED="1417018501710" TEXT="search">
 <node CREATED="1416310115265" FOLDED="true" ID="ID_1578375191" LINK="../../../Dropbox/MySpace/IT/OS/Cross/searchEngine/ElasticSearch.mm" MODIFIED="1416327181337" TEXT="elasticsearch">
 <node COLOR="#009999" CREATED="1416310134840" FOLDED="true" ID="ID_1671503630" LINK="https://github.com/karmi/retire" MODIFIED="1416327180686" TEXT="Retire">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -74,6 +74,9 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1417018503490" FOLDED="true" ID="ID_591683281" MODIFIED="1417091838466" TEXT="processing">
+<node CREATED="1417018541930" ID="ID_18649153" LINK="http://sidekiq.org/" MODIFIED="1417018547493" TEXT="http://sidekiq.org/"/>
 </node>
 </node>
 </node>

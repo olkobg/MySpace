@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1375978808264" TEXT="JS">
+<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1417439375803" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1398882621123" POSITION="right" TEXT="lib">
+<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1417439377651" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1398882617642" TEXT="Frameworks">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -151,6 +151,21 @@
 </node>
 <node COLOR="#0033ff" CREATED="1377210482197" ID="ID_1445245110" LINK="http://gruntjs.com/" MODIFIED="1377210497158" TEXT="grunt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1354698019491" FOLDED="true" ID="ID_1626793799" MODIFIED="1417439372582" TEXT="SVG">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1354698058675" ID="ID_863153170" LINK="https://developer.mozilla.org/en/docs/SVG_In_HTML_Introduction" MODIFIED="1417439370874" TEXT="MDN">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1354698089437" ID="ID_1628290940" LINK="http://srufaculty.sru.edu/david.dailey/svg/" MODIFIED="1417439370875" TEXT="David Dailey">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1354868472981" ID="ID_419707493" LINK="http://tutorials.jenkov.com/svg/svg-and-css.html" MODIFIED="1417439370876" TEXT="svg + css">
+<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+</node>
+<node CREATED="1417439357178" ID="ID_1636332576" LINK="http://raphaeljs.com/" MODIFIED="1417439370877" TEXT="raphaeljs">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
 </node>
 </node>
 <node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1398882605378" POSITION="left" TEXT="types">
@@ -606,7 +621,7 @@
 <node CREATED="1290779800255" ID="ID_1854719369" LINK="http://www.jibbering.com/faq/notes/type-conversion/" MODIFIED="1328630117086" TEXT="links1"/>
 </node>
 </node>
-<node CREATED="1290785686280" FOLDED="true" ID="ID_967559904" MODIFIED="1385658872077" POSITION="right" TEXT="Tools">
+<node CREATED="1290785686280" FOLDED="true" ID="ID_967559904" MODIFIED="1417439301318" POSITION="right" TEXT="Tools">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1290785690168" ID="ID_1371837990" MODIFIED="1362497607543" TEXT="Compressor">
 <node CREATED="1290785699124" ID="ID_1468703957" LINK="http://developer.yahoo.com/yui/compressor/" MODIFIED="1306946571426" TEXT="YUI-Cpmpressor"/>
@@ -636,7 +651,7 @@
 <node CREATED="1307097896172" ID="ID_604037639" LINK="http://www.mozilla.org/rhino/" MODIFIED="1307097933581" TEXT="rhino"/>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1398882600425" POSITION="left" TEXT="OBJECTS">
+<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1417439378626" POSITION="left" TEXT="OBJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1357726603924" ID="ID_1228545119" MODIFIED="1357726606996" TEXT="document">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -680,7 +695,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1307434937756" FOLDED="true" ID="ID_1495479919" MODIFIED="1358185425096" TEXT="window">
+<node COLOR="#0033ff" CREATED="1307434937756" FOLDED="true" ID="ID_1495479919" MODIFIED="1417439287511" TEXT="window">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357825620062" ID="ID_1218066818" MODIFIED="1357825674307">
 <richcontent TYPE="NODE"><html>
@@ -750,7 +765,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1319713375018" FOLDED="true" ID="ID_384948737" MODIFIED="1357825684095" TEXT="DOM">
+<node COLOR="#338800" CREATED="1319713375018" FOLDED="true" ID="ID_384948737" MODIFIED="1417439289989" TEXT="DOM">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#0033ff" CREATED="1319713408997" FOLDED="true" ID="ID_855253354" MODIFIED="1357726882820" TEXT="option">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -885,19 +900,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354698019491" FOLDED="true" ID="ID_1626793799" MODIFIED="1357727380986" TEXT="SVG">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1354698058675" ID="ID_863153170" LINK="https://developer.mozilla.org/en/docs/SVG_In_HTML_Introduction" MODIFIED="1354698142198" TEXT="MDN">
-<font BOLD="true" NAME="SansSerif" SIZE="17"/>
-</node>
-<node CREATED="1354698089437" ID="ID_1628290940" LINK="http://srufaculty.sru.edu/david.dailey/svg/" MODIFIED="1354698136235" TEXT="David Dailey">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
-</node>
-<node CREATED="1354868472981" ID="ID_419707493" LINK="http://tutorials.jenkov.com/svg/svg-and-css.html" MODIFIED="1354868486753" TEXT="svg + css">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1299147148648" FOLDED="true" ID="ID_1061921677" LINK="JSON.mm" MODIFIED="1357825685436" TEXT="JSON">
+<node COLOR="#0033ff" CREATED="1299147148648" FOLDED="true" ID="ID_1061921677" LINK="JSON.mm" MODIFIED="1417439348436" TEXT="JSON">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1355155713563" ID="ID_285164846" MODIFIED="1357726875493">
 <richcontent TYPE="NODE"><html>
@@ -922,7 +925,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357837247228" FOLDED="true" ID="ID_565291198" MODIFIED="1398882603637" POSITION="left" TEXT="functions">
+<node CREATED="1357837247228" FOLDED="true" ID="ID_565291198" MODIFIED="1417439341396" POSITION="left" TEXT="functions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357837240154" ID="ID_587763437" MODIFIED="1357837244201" TEXT="timer">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -983,7 +986,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1398882622279" FOLDED="true" ID="ID_1424880355" MODIFIED="1398886793481" POSITION="left" TEXT="elements">
+<node CREATED="1398882622279" FOLDED="true" ID="ID_1424880355" MODIFIED="1417439343535" POSITION="left" TEXT="elements">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1398882628569" ID="ID_1398293829" LINK="http://javascript.info/tutorial/searching-elements-dom" MODIFIED="1398882657826">
 <richcontent TYPE="NODE"><html>
@@ -995,14 +998,13 @@
       <font color="#009999"><b>js info </b></font>search
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1351605948750" FOLDED="true" ID="ID_1071224225" MODIFIED="1398882609156" POSITION="right" TEXT="Tips">
+<node COLOR="#990000" CREATED="1351605948750" ID="ID_1071224225" MODIFIED="1417439461034" POSITION="right" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1351605953255" ID="ID_1441700475" LINK="http://caniuse.com/" MODIFIED="1351605973986" TEXT="canIUse"/>
-<node CREATED="1354632592619" FOLDED="true" ID="ID_783375115" MODIFIED="1357728064165" TEXT="closure">
+<node CREATED="1354632592619" FOLDED="true" ID="ID_783375115" MODIFIED="1417439462655" TEXT="closure">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1354632597951" ID="ID_455825447" MODIFIED="1354632819640">
 <richcontent TYPE="NODE"><html>
@@ -1051,7 +1053,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1398882610731" POSITION="right" TEXT="Browser">
+<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1417439379885" POSITION="right" TEXT="Browser">
 <node CREATED="1364305502013" ID="ID_1392687097" LINK="../OS/Cross/Web/Firefox.mm" MODIFIED="1364305666952" TEXT="firefox">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
