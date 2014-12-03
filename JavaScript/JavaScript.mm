@@ -2,14 +2,21 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1417439375803" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1417439377651" POSITION="right" TEXT="lib">
+<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1417646242371" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1398882617642" TEXT="Frameworks">
+<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1417646242034" TEXT="Frameworks">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#0033ff" CREATED="1288878939472" ID="ID_626818632" LINK="http://mootools.net/" MODIFIED="1375964515614" TEXT="mootolls">
+<node COLOR="#0033ff" CREATED="1417646209005" ID="ID_464220657" LINK="angular.mm" MODIFIED="1417646239660" TEXT="angular.js">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1290773593462" ID="ID_417996470" LINK="jQuery.mm" MODIFIED="1375964514040" TEXT="jQuery">
+<node COLOR="#0033ff" CREATED="1375964463437" FOLDED="true" ID="ID_974861746" MODIFIED="1417646124262" TEXT="Backbone.js">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1375964470929" ID="ID_1612792037" LINK="http://blog.bigbinary.com/2011/08/18/understanding-bind-and-bindall-in-backbone.html" MODIFIED="1375964476446" TEXT="bind difference"/>
+</node>
+<node COLOR="#0033ff" CREATED="1375972457479" ID="ID_295083454" LINK="http://emberjs.com/" MODIFIED="1417646129114" TEXT="ember.js">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1290773593462" ID="ID_417996470" LINK="jQuery.mm" MODIFIED="1417646131052" TEXT="jQuery">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354015782893" ID="ID_517049765" LINK="jquery/jqueryUI.mm" MODIFIED="1375964519620" TEXT="jqueryUI">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -17,6 +24,9 @@
 <node COLOR="#0033ff" CREATED="1356445908888" ID="ID_187919146" LINK="http://amplifyjs.com/" MODIFIED="1375964521015" TEXT="apmplify">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1288878939472" ID="ID_626818632" LINK="http://mootools.net/" MODIFIED="1375964515614" TEXT="mootolls">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1294140297055" ID="ID_1539605617" LINK="prototype.mm" MODIFIED="1375964507223" TEXT="prototype">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -48,13 +58,6 @@
 </node>
 <node COLOR="#0033ff" CREATED="1375971244809" ID="ID_852111777" LINK="http://underscorejs.org/" MODIFIED="1375971256465" TEXT="undrscorejs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1375972457479" ID="ID_295083454" LINK="http://emberjs.com/" MODIFIED="1375972472419" TEXT="ember.js">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1375964463437" FOLDED="true" ID="ID_974861746" MODIFIED="1375964500788" TEXT="Backbone.js">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1375964470929" ID="ID_1612792037" LINK="http://blog.bigbinary.com/2011/08/18/understanding-bind-and-bindall-in-backbone.html" MODIFIED="1375964476446" TEXT="bind difference"/>
 </node>
 </node>
 <node CREATED="1328630279282" FOLDED="true" ID="ID_1710108581" MODIFIED="1398882616130">
