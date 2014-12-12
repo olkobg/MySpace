@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1417439375803" TEXT="JS">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node COLOR="#990099" CREATED="1328630299553" FOLDED="true" ID="ID_1803455928" MODIFIED="1417646242371" POSITION="right" TEXT="lib">
+<node COLOR="#990099" CREATED="1328630299553" ID="ID_1803455928" MODIFIED="1418338389415" POSITION="right" TEXT="lib">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1417646242034" TEXT="Frameworks">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -169,6 +169,14 @@
 <node CREATED="1417439357178" ID="ID_1636332576" LINK="http://raphaeljs.com/" MODIFIED="1417439370877" TEXT="raphaeljs">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
+</node>
+<node CREATED="1418309619516" FOLDED="true" ID="ID_1021080378" MODIFIED="1418338364987" TEXT="customization">
+<node CREATED="1418309624158" FOLDED="true" ID="ID_1738488515" MODIFIED="1418338364853" TEXT="select element">
+<node CREATED="1418309636840" ID="ID_197621139" LINK="https://github.com/vestman/Select-or-Die" MODIFIED="1418309676129" TEXT="select or die"/>
+</node>
+</node>
+<node CREATED="1418338365722" ID="ID_845089999" MODIFIED="1418338389425" TEXT="video translation into web">
+<node CREATED="1418338373914" ID="ID_1723593345" LINK="https://tokbox.com/opentok/" MODIFIED="1418338383041" TEXT="open tok"/>
 </node>
 </node>
 <node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1398882605378" POSITION="left" TEXT="types">
@@ -1004,7 +1012,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1351605948750" ID="ID_1071224225" MODIFIED="1417439461034" POSITION="right" TEXT="Tips">
+<node COLOR="#990000" CREATED="1351605948750" FOLDED="true" ID="ID_1071224225" MODIFIED="1418309679721" POSITION="right" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1351605953255" ID="ID_1441700475" LINK="http://caniuse.com/" MODIFIED="1351605973986" TEXT="canIUse"/>
 <node CREATED="1354632592619" FOLDED="true" ID="ID_783375115" MODIFIED="1417439462655" TEXT="closure">
