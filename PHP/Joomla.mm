@@ -69,6 +69,9 @@
 </node>
 </node>
 </node>
+<node CREATED="1418648260955" FOLDED="true" ID="ID_826227733" MODIFIED="1418648282684" POSITION="right" TEXT="lib">
+<node COLOR="#0033ff" CREATED="1418648263603" ID="ID_1539062817" LINK="http://www.joostrap.com/joomla-templates/9-uncategorised/92-button-groups" MODIFIED="1418648279578" TEXT="joostrap = joomla + bootstrap"/>
+</node>
 <node CREATED="1291284799301" FOLDED="true" ID="ID_255867537" MODIFIED="1400779530963" POSITION="left" TEXT="plugins">
 <node CREATED="1386584528527" FOLDED="true" ID="ID_1503046158" MODIFIED="1400779525186" TEXT="editors">
 <node CREATED="1386584532286" ID="ID_1940308024" LINK="http://www.joomlackeditor.com/" MODIFIED="1386584558002" TEXT="jck"/>
