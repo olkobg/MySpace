@@ -2,9 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#006633" CREATED="1348054359883" ID="ID_1290849412" LINK="../Crossplatform.mm" MODIFIED="1381704746960" TEXT="Sublime">
 <font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1348054383724" FOLDED="true" ID="ID_1207364740" MODIFIED="1383317652331" POSITION="right" TEXT="plugins">
+<node CREATED="1348054383724" FOLDED="true" ID="ID_1207364740" MODIFIED="1418384519599" POSITION="right" TEXT="plugins">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
-<node CREATED="1348054390991" FOLDED="true" ID="ID_789731113" MODIFIED="1381704088371" TEXT="work remote">
+<node CREATED="1348054390991" FOLDED="true" ID="ID_789731113" MODIFIED="1418384519374" TEXT="work remote">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1348054420597" ID="ID_432849325" LINK="http://urbangiraffe.com/2011/08/13/remote-editing-with-sublime-text-2/" MODIFIED="1348054479275" TEXT="simple ssh + python"/>
 <node CREATED="1348054452693" ID="ID_869312784" LINK="https://github.com/bcharbonnier/SublimeFileSync" MODIFIED="1378980749399">
@@ -42,6 +42,19 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1418384492378" ID="ID_712406566" LINK="https://github.com/ment4list/SublimeZilla" MODIFIED="1418384517298">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">github</font></b>&#160;FileZilla
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1378984838793" FOLDED="true" ID="ID_1333268103" MODIFIED="1381704085134" TEXT="code">
