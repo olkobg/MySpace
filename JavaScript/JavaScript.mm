@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1418754934883" TEXT="JS">
+<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1419599611792" TEXT="JavaScript">
 <font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node CREATED="1283935276328" ID="ID_1046873276" MODIFIED="1418904359433" POSITION="right" TEXT="app/lib/tool">
+<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1420558469861" POSITION="right" TEXT="app/lib/tool">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#0033ff" CREATED="1375972457479" ID="ID_295083454" LINK="http://emberjs.com/" MODIFIED="1417646129114" TEXT="ember.js">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -29,7 +29,7 @@
 <node COLOR="#0033ff" CREATED="1375971244809" ID="ID_852111777" LINK="http://underscorejs.org/" MODIFIED="1418753555639" TEXT="undrscorejs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1363789987681" ID="ID_1552324385" MODIFIED="1418904363690" TEXT="mvc">
+<node CREATED="1363789987681" FOLDED="true" ID="ID_1552324385" MODIFIED="1420558469513" TEXT="mvc">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1417646209005" FOLDED="true" ID="ID_464220657" LINK="angular.mm" MODIFIED="1418906132256" TEXT="angular.js">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -54,7 +54,7 @@
 <node CREATED="1375964470929" ID="ID_1612792037" LINK="http://blog.bigbinary.com/2011/08/18/understanding-bind-and-bindall-in-backbone.html" MODIFIED="1375964476446" TEXT="bind difference"/>
 </node>
 </node>
-<node CREATED="1418753592653" FOLDED="true" ID="ID_1843180742" MODIFIED="1418904361228" TEXT="build-tools">
+<node CREATED="1418753592653" FOLDED="true" ID="ID_1843180742" MODIFIED="1419597932930" TEXT="build-tools">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1377210482197" ID="ID_1445245110" LINK="http://gruntjs.com/" MODIFIED="1418753597612" TEXT="grunt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -72,7 +72,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1337155609990" FOLDED="true" ID="ID_1410910272" MODIFIED="1418754249983" TEXT="effects">
+<node CREATED="1337155609990" FOLDED="true" ID="ID_1410910272" MODIFIED="1419458696373" TEXT="effects">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#009999" CREATED="1337155616877" ID="ID_421262654" LINK="http://www.dynamicdrive.com/" MODIFIED="1357726792213" TEXT="Dynamic Drive">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -83,7 +83,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1418309624158" ID="ID_1738488515" MODIFIED="1418753992641" TEXT="select element">
+<node CREATED="1418309624158" FOLDED="true" ID="ID_1738488515" MODIFIED="1419458695811" TEXT="select element">
 <node CREATED="1418309636840" ID="ID_197621139" LINK="https://github.com/vestman/Select-or-Die" MODIFIED="1418309676129" TEXT="select or die"/>
 </node>
 </node>
@@ -166,10 +166,10 @@
 </node>
 <node CREATED="1419089571753" ID="ID_1287669999" MODIFIED="1419091982538" TEXT="i18n">
 <font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1419089579614" ID="ID_1198874951" LINK="https://github.com/fnando/i18n-js" MODIFIED="1419089588023" TEXT="github i18n-js"/>
+<node CREATED="1419089579614" ID="ID_1198874951" LINK="https://github.com/fnando/i18n-js" MODIFIED="1419191430788" TEXT="github i18n-js + rails"/>
 </node>
 </node>
-<node CREATED="1328630279282" ID="ID_1710108581" MODIFIED="1418754179365" POSITION="right">
+<node CREATED="1328630279282" ID="ID_1710108581" MODIFIED="1420558421799" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -224,7 +224,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1333449993758" FOLDED="true" ID="ID_759889651" MODIFIED="1418754172077" TEXT="performance">
+<node CREATED="1333449993758" FOLDED="true" ID="ID_759889651" MODIFIED="1419328515080" TEXT="performance">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1333450005828" ID="ID_915285588" LINK="http://peacekeeper.futuremark.com/" MODIFIED="1333450025438" TEXT="peacekeeper"/>
 <node CREATED="1333450026662" ID="ID_982974743" LINK="http://www.kevs3d.co.uk/dev/asteroidsbench/" MODIFIED="1333450050931" TEXT="asteroids"/>
@@ -237,7 +237,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1418754072614" POSITION="right" TEXT="Engine">
+<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1419328567150" POSITION="right" TEXT="Engine">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1357148058475" ID="ID_290312899" LINK="server/Node.js.mm" MODIFIED="1392649829517" TEXT="Node.js">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -254,12 +254,12 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1364305444132" FOLDED="true" ID="ID_103084548" MODIFIED="1418754072029" TEXT="mozilla">
+<node CREATED="1364305444132" FOLDED="true" ID="ID_103084548" MODIFIED="1419328566614" TEXT="mozilla">
 <node CREATED="1307097864888" ID="ID_722061965" LINK="https://developer.mozilla.org/en/SpiderMonkey" MODIFIED="1307097894673" TEXT="SpiderMonkey"/>
 <node CREATED="1307097896172" ID="ID_604037639" LINK="http://www.mozilla.org/rhino/" MODIFIED="1307097933581" TEXT="rhino"/>
 </node>
 </node>
-<node CREATED="1418754126986" ID="ID_1969912874" MODIFIED="1418754148515" POSITION="left" TEXT="core">
+<node CREATED="1418754126986" FOLDED="true" ID="ID_1969912874" MODIFIED="1419328572157" POSITION="left" TEXT="core">
 <node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1418754138585" TEXT="types">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1288878845078" FOLDED="true" ID="ID_1393940341" MODIFIED="1355337152680" TEXT="Array">
@@ -1064,7 +1064,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1319659786877" ID="ID_998630532" MODIFIED="1418754762869" POSITION="left" TEXT="Browser">
+<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1419328571909" POSITION="left" TEXT="Browser">
 <node CREATED="1364305502013" ID="ID_1392687097" LINK="../OS/Cross/Web/Firefox.mm" MODIFIED="1364305666952" TEXT="firefox">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -1118,7 +1118,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1351605948750" FOLDED="true" ID="ID_1071224225" MODIFIED="1418754764563" POSITION="left" TEXT="Tips">
+<node CREATED="1419328530685" FOLDED="true" ID="ID_1880140087" MODIFIED="1419346510490" POSITION="left" TEXT="info">
+<node COLOR="#990000" CREATED="1351605948750" FOLDED="true" ID="ID_1071224225" MODIFIED="1418754764563" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1351605953255" ID="ID_1441700475" LINK="http://caniuse.com/" MODIFIED="1351605973986" TEXT="canIUse"/>
 <node CREATED="1354632592619" FOLDED="true" ID="ID_783375115" MODIFIED="1418754106163" TEXT="closure">
@@ -1170,10 +1171,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1418754270898" FOLDED="true" ID="ID_744461084" MODIFIED="1418754784232" POSITION="left" TEXT="glossary">
+<node CREATED="1418754270898" FOLDED="true" ID="ID_744461084" MODIFIED="1418754784232" TEXT="glossary">
 <node CREATED="1418754278733" FOLDED="true" ID="ID_269002831" MODIFIED="1418754784002" TEXT="AMD">
 <node CREATED="1418754280890" ID="ID_1520558113" LINK="https://ru.wikipedia.org/wiki/Asynchronous_module_definition" MODIFIED="1418754781063" TEXT="wiki-ru"/>
 </node>
+</node>
+<node COLOR="#990099" CREATED="1419328536293" ID="ID_1341994167" LINK="https://github.com/jsprodotcom/source" MODIFIED="1419328553364" TEXT="Set of js apps"/>
 </node>
 </node>
 </map>

@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1395873787104" TEXT="MacOS">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1420558512533" TEXT="MacOS">
+<font BOLD="true" NAME="SansSerif" SIZE="22"/>
 <node CREATED="1365585009526" FOLDED="true" ID="ID_1508479409" MODIFIED="1409746460396" POSITION="right" TEXT="hackintosh">
 <node COLOR="#009999" CREATED="1365585019963" ID="ID_377081837" LINK="http://www.souldevteam.net/" MODIFIED="1365585031365" TEXT="souldev team">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -80,11 +80,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1413363461446" POSITION="left" TEXT="cmd">
-<node COLOR="#0033ff" CREATED="1383382735381" FOLDED="true" ID="ID_320566450" MODIFIED="1411556700604" TEXT="sshfs">
+<node CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1420558488672" POSITION="left" TEXT="cmd">
+<node COLOR="#0033ff" CREATED="1383382735381" FOLDED="true" ID="ID_320566450" MODIFIED="1420558475185" TEXT="sshfs">
 <node CREATED="1383382738892" ID="ID_828449256" LINK="http://www.read-write.fr/blog/blog/2012/02/26/my-guide-for-sshfs/" MODIFIED="1383382750058" TEXT="read-write"/>
 </node>
-<node COLOR="#0033ff" CREATED="1385146105361" FOLDED="true" ID="ID_1393334735" MODIFIED="1409746410100" TEXT="xattr">
+<node COLOR="#0033ff" CREATED="1385146105361" FOLDED="true" ID="ID_1393334735" MODIFIED="1420558477225" TEXT="xattr">
 <node CREATED="1385146117000" ID="ID_1433751171" LINK="http://unix.stackexchange.com/questions/10/what-does-the-mean-in-ls-l" MODIFIED="1385146173199">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -98,7 +98,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1395873669388" FOLDED="true" ID="ID_756740988" MODIFIED="1413363460590" TEXT="hdiutil">
+<node COLOR="#0033ff" CREATED="1395873669388" FOLDED="true" ID="ID_756740988" MODIFIED="1420558478759" TEXT="hdiutil">
 <node CREATED="1395873692530" ID="ID_230755365" MODIFIED="1395873778225">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -127,8 +127,7 @@
       <font color="#0000ff">$ hdiutil makehybrid -iso -joliet -o Image.iso /input_path</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

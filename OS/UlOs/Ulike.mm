@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1415262414846" STYLE="fork" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1420558496236" STYLE="fork" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -15,7 +15,7 @@
   </body>
 </html>
 </richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<font BOLD="true" NAME="SansSerif" SIZE="21"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1410877411722" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
 <node CREATED="1294648493700" FOLDED="true" ID="ID_929058759" MODIFIED="1369226175553" TEXT="grub">

@@ -1,33 +1,38 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0033ff" CREATED="1417646145919" ID="ID_724577500" LINK="JavaScript.mm" MODIFIED="1418509172639" TEXT="angular.js">
+<node COLOR="#0033ff" CREATED="1417646145919" ID="ID_724577500" LINK="JavaScript.mm" MODIFIED="1419594230702" TEXT="angular.js">
 <font NAME="SansSerif" SIZE="24"/>
-<node CREATED="1417647326373" ID="ID_988673245" MODIFIED="1418991820491" POSITION="right" TEXT=" info">
-<node CREATED="1418991820480" ID="ID_1911353104" MODIFIED="1418991821592" TEXT="docs">
+<node CREATED="1417647326373" FOLDED="true" ID="ID_988673245" MODIFIED="1419597911611" POSITION="right" TEXT=" info">
+<node CREATED="1418991820480" FOLDED="true" ID="ID_1911353104" MODIFIED="1419597910294" TEXT="off. docs">
 <node CREATED="1417646182512" ID="ID_1449376331" LINK="https://docs.angularjs.org/guide/" MODIFIED="1418991819328" TEXT="guide"/>
 <node CREATED="1418991828654" ID="ID_142743205" LINK="docs.angular.com/tutorial" MODIFIED="1418991839564" TEXT="tutorial"/>
 </node>
 <node CREATED="1417647363157" ID="ID_1094037080" LINK="http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/1/section/1/video/1" MODIFIED="1417647375761" TEXT="codeschool lessons"/>
-<node CREATED="1418227712668" ID="ID_386161192" MODIFIED="1418990519094" TEXT="books">
+<node CREATED="1418227712668" FOLDED="true" ID="ID_386161192" MODIFIED="1419431413580" TEXT="books">
 <node CREATED="1418227715161" ID="ID_173656082" LINK="https://www.google.com.ua/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;es_th=1&amp;ie=UTF-8#q=angular%20in%2060%20minutes" MODIFIED="1418227746896" TEXT="angular in 60 minutes"/>
 <node CREATED="1418990519838" ID="ID_986176880" MODIFIED="1418990521749" TEXT="ng-book"/>
+<node CREATED="1419368670787" ID="ID_1142715995" LINK="https://leanpub.com/recipes-with-angular-js" MODIFIED="1419369139915" TEXT="Recipes with Angular.js"/>
 </node>
-<node CREATED="1418815869305" ID="ID_282456529" MODIFIED="1418815871762" TEXT="tutorials">
+<node CREATED="1418815869305" FOLDED="true" ID="ID_282456529" MODIFIED="1419326810616" TEXT="tutorials">
 <node CREATED="1418815872305" ID="ID_9553298" LINK="http://angular-rails.com/bootstrap.html" MODIFIED="1418815959487" TEXT="basic angular + rails"/>
 <node CREATED="1418991945806" ID="ID_832439131" LINK="http://thinkster.io" MODIFIED="1418991977169" TEXT="thinkster.io"/>
+<node CREATED="1419326804668" ID="ID_384133000" LINK="http://www.sitepoint.com/creating-crud-app-minutes-angulars-resource/" MODIFIED="1419326809212" TEXT="sitepoint tutor"/>
 </node>
-<node CREATED="1418992044850" ID="ID_1044854160" MODIFIED="1418992047275" TEXT="chat">
+<node CREATED="1418992044850" FOLDED="true" ID="ID_1044854160" MODIFIED="1419326755556" TEXT="chat">
 <node CREATED="1418992047640" ID="ID_458548539" MODIFIED="1418992049427" TEXT="meetup"/>
+</node>
+<node CREATED="1419584321845" FOLDED="true" ID="ID_770068691" MODIFIED="1419597908423" TEXT="journal">
+<node CREATED="1419584325109" ID="ID_856738252" LINK="http://www.ng-newsletter.com/" MODIFIED="1419584336074" TEXT="angular-newsletter"/>
 </node>
 <node CREATED="1418394527117" FOLDED="true" ID="ID_1685692217" MODIFIED="1418755069142" TEXT="2 way data binding">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1418394533541" ID="ID_1792995620" MODIFIED="1418508071779" TEXT="check if variable of expresison changed and re-evaluate expression "/>
 </node>
-<node CREATED="1418752191937" ID="ID_1592434227" MODIFIED="1418763324273" TEXT="src">
+<node CREATED="1418752191937" FOLDED="true" ID="ID_1592434227" MODIFIED="1419326757359" TEXT="src">
 <node CREATED="1418752194522" ID="ID_1871061867" LINK="https://github.com/angular/angular.js/wiki/JsFiddle-Examples" MODIFIED="1418755023743" TEXT="JS Fiddle example"/>
 <node CREATED="1418755041679" ID="ID_1523754099" LINK="https://github.com/jmcunningham/AngularJS-Learning#introductionsbeginning-angularjs-also-look-at-the-multipart-articles" MODIFIED="1418755062325" TEXT="github angular js learning"/>
 </node>
-<node CREATED="1418990528620" ID="ID_24497649" MODIFIED="1418990535900" TEXT="dependency injection">
+<node CREATED="1418990528620" FOLDED="true" ID="ID_24497649" MODIFIED="1419326758090" TEXT="dependency injection">
 <node CREATED="1418990536104" ID="ID_1782416701" MODIFIED="1418990625771">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -41,8 +46,16 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1419586501899" FOLDED="true" ID="ID_872081457" MODIFIED="1419589494794" TEXT="test">
+<node CREATED="1419368116864" ID="ID_691653458" LINK="http://stackoverflow.com/questions/14636099/testing-angular-resource-with-external-service" MODIFIED="1419586500166" TEXT="$resource "/>
+<node CREATED="1419587523109" ID="ID_236895811" LINK="http://www.tuesdaydeveloper.com/2013/06/angularjs-testing-with-karma-and-jasmine/" MODIFIED="1419587528736" TEXT="karma and jasmine"/>
+<node CREATED="1419587604342" ID="ID_1844701156" LINK="http://www.toptal.com/angular-js/your-first-angularjs-app-part-2-scaffolding-building-and-testing" MODIFIED="1419587653988" TEXT="jasmine + grunt + karma + bower + yeoman"/>
 </node>
-<node CREATED="1418238648970" ID="ID_1279075204" MODIFIED="1418992575562" POSITION="right" TEXT="debug">
+</node>
+<node CREATED="1419368113936" FOLDED="true" ID="ID_1127124438" MODIFIED="1419597916303" POSITION="right" TEXT="test">
+<node CREATED="1419586451706" ID="ID_1889227041" LINK="http://karma-runner.github.io/0.12/index.html" MODIFIED="1419586454721" TEXT="karma"/>
+</node>
+<node CREATED="1418238648970" FOLDED="true" ID="ID_1279075204" MODIFIED="1419597915576" POSITION="right" TEXT="debug">
 <node CREATED="1418238651745" ID="ID_1613197005" MODIFIED="1418238652761" TEXT="https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk"/>
 <node CREATED="1418238653850" ID="ID_233003679" LINK="http://stackoverflow.com/questions/14278355/how-to-debug-angular-services-in-browser" MODIFIED="1418238680048" TEXT="debug in browser"/>
 <node CREATED="1418992582368" ID="ID_674931976" MODIFIED="1418992618329">
@@ -61,12 +74,12 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1418591097226" ID="ID_148745527" MODIFIED="1418591099445" POSITION="right" TEXT="libs">
+<node CREATED="1418591097226" FOLDED="true" ID="ID_148745527" MODIFIED="1419597915286" POSITION="right" TEXT="libs">
 <node CREATED="1418591100067" ID="ID_1353269572" LINK="http://angular-ui.github.io" MODIFIED="1418591126031" TEXT="angular-ui">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1417646213182" FOLDED="true" ID="ID_1841962984" MODIFIED="1419012609422" POSITION="left" TEXT="modules">
+<node CREATED="1417646213182" FOLDED="true" ID="ID_1841962984" MODIFIED="1420558465554" POSITION="left" TEXT="modules">
 <node CREATED="1418207265191" ID="ID_557365307" MODIFIED="1418209948475" TEXT="application components live (js files)"/>
 <node CREATED="1418989052172" ID="ID_1187934922" MODIFIED="1418989063560" TEXT="it&apos;s best to split modules basd on it&apos;s functionality"/>
 <node CREATED="1419000145650" ID="ID_735391001" LINK="http://ngmodules.org/" MODIFIED="1419000200361">
@@ -81,11 +94,12 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1419004031760" ID="ID_133413346" MODIFIED="1419004034562" TEXT="$watch">
+<node CREATED="1419004031760" FOLDED="true" ID="ID_133413346" MODIFIED="1420558464952" TEXT="$watch">
 <node CREATED="1419004035427" ID="ID_103376681" LINK="http://stackoverflow.com/questions/15112584/using-scope-watch-and-scope-apply" MODIFIED="1419004042690" TEXT="stach overflow"/>
+<node CREATED="1420558434828" ID="ID_1338344447" MODIFIED="1420558461879" TEXT="$scope.$watch(&apos;name&apos;, function (oldValue, newValue) {})l"/>
 </node>
 </node>
-<node CREATED="1417646220840" FOLDED="true" ID="ID_263380404" MODIFIED="1419012607465" POSITION="left" TEXT="directives">
+<node CREATED="1417646220840" FOLDED="true" ID="ID_263380404" MODIFIED="1419432921586" POSITION="left" TEXT="directives">
 <node CREATED="1418209892871" ID="ID_1175499795" MODIFIED="1418209919905" TEXT="html annotations that trigger js behavior"/>
 <node COLOR="#0033ff" CREATED="1418207272722" FOLDED="true" ID="ID_1785013176" MODIFIED="1418396003670" TEXT="ng-app">
 <font NAME="SansSerif" SIZE="12"/>
@@ -213,7 +227,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1418209497533" FOLDED="true" ID="ID_119328811" MODIFIED="1418419739172" TEXT="ng-repeat">
+<node COLOR="#0033ff" CREATED="1418209497533" FOLDED="true" ID="ID_119328811" MODIFIED="1419432878544" TEXT="ng-repeat">
 <node COLOR="#0033ff" CREATED="1418209592131" ID="ID_1060147898" MODIFIED="1418209633036">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -239,7 +253,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1418212216786" FOLDED="true" ID="ID_769039983" MODIFIED="1418419740396" TEXT="ng-src">
+<node COLOR="#0033ff" CREATED="1418212216786" FOLDED="true" ID="ID_769039983" MODIFIED="1419431457570" TEXT="ng-src">
 <node COLOR="#0033ff" CREATED="1418212226290" ID="ID_1516782342" MODIFIED="1418212293229">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -510,7 +524,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1418421314020" FOLDED="true" ID="ID_1445164641" MODIFIED="1418911192413" POSITION="left" TEXT="validation">
+<node CREATED="1418421314020" FOLDED="true" ID="ID_1445164641" MODIFIED="1419597925087" POSITION="left" TEXT="validation">
 <node CREATED="1418421317538" ID="ID_934825899" MODIFIED="1418421341267">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -611,7 +625,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1417649160223" FOLDED="true" ID="ID_1768485929" MODIFIED="1419004029139" POSITION="left" TEXT="controllers">
+<node CREATED="1417649160223" FOLDED="true" ID="ID_1768485929" MODIFIED="1419597920089" POSITION="left" TEXT="controllers">
 <node CREATED="1417649164420" ID="ID_299405558" MODIFIED="1418209967166" TEXT="app behaviour by defining functions and values"/>
 </node>
 <node CREATED="1418210292298" FOLDED="true" ID="ID_1817412308" MODIFIED="1419012612081" POSITION="left" TEXT="filters">
@@ -693,34 +707,7 @@
 </node>
 </node>
 <node CREATED="1418417411263" ID="ID_1070022135" MODIFIED="1418417413937" POSITION="left" TEXT="routers"/>
-<node CREATED="1418911194398" FOLDED="true" ID="ID_1245727654" MODIFIED="1419004025086" POSITION="left" TEXT="services">
-<node CREATED="1418911198744" ID="ID_491340932" MODIFIED="1418989438300">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # coffee script
-    </p>
-    <p>
-      <font color="#0000ff">@ngModule.factory 'LoginService', ['$resource', ($resource) -&gt;&#160;&#160;&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;$resource '/users/:id', null,&#160;&#160;&#160;&#160;&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;get: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;method: 'GET' </font>
-    </p>
-    <p>
-      <font color="#0000ff">]</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
+<node CREATED="1418911194398" FOLDED="true" ID="ID_1245727654" MODIFIED="1419527713187" POSITION="left" TEXT="services">
 <node CREATED="1418989439077" ID="ID_273519441" MODIFIED="1418989575001">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -742,8 +729,8 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1418989851407" FOLDED="true" ID="ID_1735581534" MODIFIED="1419004023403" TEXT="$http">
-<node CREATED="1418991125009" ID="ID_955600864" MODIFIED="1418991457314" TEXT="requests">
+<node COLOR="#0033ff" CREATED="1418989851407" FOLDED="true" ID="ID_1735581534" MODIFIED="1419368422676" TEXT="$http">
+<node CREATED="1418991125009" FOLDED="true" ID="ID_955600864" MODIFIED="1419368421647" TEXT="requests">
 <node CREATED="1418989662901" ID="ID_840246925" MODIFIED="1418989737259">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -820,8 +807,49 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1419002491386" ID="ID_583909344" LINK="https://docs.angularjs.org/api/ngResource/service/$resource" MODIFIED="1419002512447" TEXT="$resource"/>
-<node CREATED="1418989910737" ID="ID_333302472" MODIFIED="1418989912392" TEXT="promise">
+<node COLOR="#0033ff" CREATED="1419002491386" FOLDED="true" ID="ID_583909344" LINK="https://docs.angularjs.org/api/ngResource/service/$resource" MODIFIED="1419368448179" TEXT="$resource">
+<node CREATED="1418911198744" ID="ID_491340932" MODIFIED="1419368445822">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # coffee script
+    </p>
+    <p>
+      <font color="#0000ff">@ngModule.factory 'LoginService', ['$resource', ($resource) -&gt;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;$resource '/users/:id', null,&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;get: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;method: 'GET' </font>
+    </p>
+    <p>
+      <font color="#0000ff">]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1419368327691" ID="ID_778875929" LINK="https://docs.angularjs.org/api/ng/service/$q" MODIFIED="1419368382270">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">$q</font>&#160;- deferred service
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1419524087312" ID="ID_1245734437" LINK="http://habrahabr.ru/post/221111/" MODIFIED="1419524093406" TEXT="harbrahabr"/>
+</node>
+<node CREATED="1418989910737" FOLDED="true" ID="ID_333302472" MODIFIED="1419527713111" TEXT="promise">
 <node CREATED="1418989913001" ID="ID_447448032" MODIFIED="1418990012021">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -834,8 +862,11 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1419524104622" ID="ID_1486866462" LINK="http://andyshora.com/promises-angularjs-explained-as-cartoon.html" MODIFIED="1419527710775" TEXT="in cartoons"/>
 </node>
 </node>
-<node CREATED="1419085039859" ID="ID_1716987206" LINK="https://docs.angularjs.org/guide/forms" MODIFIED="1419085054567" POSITION="left" TEXT="forms"/>
+<node CREATED="1419085039859" FOLDED="true" ID="ID_1716987206" LINK="https://docs.angularjs.org/guide/forms" MODIFIED="1419589137058" POSITION="left" TEXT="forms">
+<node CREATED="1419588942510" ID="ID_1235762014" LINK="https://docs.angularjs.org/api/ng/type/form.FormController" MODIFIED="1419588954495" TEXT="FormController"/>
+</node>
 </node>
 </map>
