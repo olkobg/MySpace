@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1289984615195" ID="ID_1105235403" LINK="../Index.mm" MODIFIED="1298903382060" TEXT="XML">
-<font BOLD="true" NAME="SansSerif" SIZE="19"/>
-<node CREATED="1298903382046" ID="ID_1736292661" MODIFIED="1298903384548" POSITION="right" TEXT="Parser">
+<node CREATED="1289984615195" ID="ID_1105235403" LINK="../Index.mm" MODIFIED="1420822125582" TEXT="XML">
+<font NAME="SansSerif" SIZE="19"/>
+<node CREATED="1298903382046" FOLDED="true" ID="ID_1736292661" MODIFIED="1420818767636" POSITION="right" TEXT="Parser">
 <node CREATED="1298903362383" ID="ID_1808179345" MODIFIED="1298903369280" TEXT="DOM">
 <node CREATED="1298903372137" ID="ID_61874132" MODIFIED="1298903379006" TEXT="Document Object Model"/>
 </node>
@@ -10,13 +10,13 @@
 <node CREATED="1298903389332" ID="ID_712163072" MODIFIED="1298903413270" TEXT="Simple API for XML"/>
 </node>
 </node>
-<node CREATED="1363794217904" ID="ID_1585838419" MODIFIED="1363794223994" POSITION="right" TEXT="validattion">
+<node CREATED="1363794217904" FOLDED="true" ID="ID_1585838419" MODIFIED="1420818768089" POSITION="right" TEXT="validattion">
 <node COLOR="#0033ff" CREATED="1363794224362" ID="ID_103746144" MODIFIED="1363794243211" TEXT="$ xmlint">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1363794226861" ID="ID_1083258656" LINK="http://infohost.nmt.edu/tcc/help/xml/lint.html" MODIFIED="1363794232983" TEXT="doc"/>
 </node>
 </node>
-<node CREATED="1298903350178" FOLDED="true" ID="ID_344704111" MODIFIED="1387203133739" POSITION="left" TEXT="xpath">
+<node CREATED="1298903350178" FOLDED="true" ID="ID_344704111" MODIFIED="1420717979745" POSITION="left" TEXT="xpath">
 <node CREATED="1362506900818" ID="ID_770134559" MODIFIED="1362507016394">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -47,8 +47,7 @@
       <font color="#0033ff">//td/text()[<b>preceding-sibling</b>::br]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1363365844001" ID="ID_1623465910" MODIFIED="1387195797742">
@@ -104,8 +103,7 @@
       <font color="#0033ff">//a[@class='shit' <b>and</b>&#160;&#160;@id = 'tada']</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1366920984382" ID="ID_1775583034" MODIFIED="1387195797713">
 <richcontent TYPE="NODE"><html>
@@ -141,8 +139,7 @@
       <font color="#0033ff">//span/<b>text()</b>[contains(<b>.</b>, &quot;Code&quot;)]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387203005681" ID="ID_1800958786" MODIFIED="1387203118779">
 <richcontent TYPE="NODE"><html>
@@ -169,8 +166,26 @@
       <font color="#0033ff">span[<b>regexp:test</b>(string(.), 'testuser')]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+<node CREATED="1420715383124" FOLDED="true" ID="ID_1414583091" MODIFIED="1420715452086" TEXT="note use [] has bigger priority than //">
+<node CREATED="1420715402821" FOLDED="true" ID="ID_371177948" LINK="http://stackoverflow.com/questions/3674569/how-to-select-specified-node-within-xpath-node-sets-by-index-with-selenium" MODIFIED="1420715451805" TEXT="so">
+<node CREATED="1420715415367" ID="ID_629607899" MODIFIED="1420715449017">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      //someName[3]
+    </p>
+    <p>
+      (//someName)[3]
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1298903424927" ID="ID_1661081815" MODIFIED="1363794264362" POSITION="left" TEXT="xform"/>

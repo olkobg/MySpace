@@ -1,8 +1,121 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1412241675627" ID="ID_267787893" LINK="../../../../MySpace/IT/Ruby&amp;Rails/ruby.mm" MODIFIED="1416314481338" TEXT="rake">
-<node CREATED="1415812232816" FOLDED="true" ID="ID_1096416881" MODIFIED="1415875115973" POSITION="right" TEXT="mine.rake">
-<node CREATED="1415812240023" ID="ID_356128117" MODIFIED="1415814253673">
+<node COLOR="#006633" CREATED="1412241675627" ID="ID_267787893" LINK="../../../../MySpace/IT/Ruby&amp;Rails/ruby.mm" MODIFIED="1420822098925" TEXT="rake">
+<font NAME="SansSerif" SIZE="28"/>
+<node COLOR="#0033ff" CREATED="1420817850209" FOLDED="true" ID="ID_792993315" MODIFIED="1420839986216" POSITION="left" TEXT="db:">
+<node COLOR="#0033ff" CREATED="1419192750442" FOLDED="true" ID="ID_380651984" MODIFIED="1420839985999" TEXT="sessions:">
+<node COLOR="#0033ff" CREATED="1283359967078" ID="ID_1108024875" MODIFIED="1420817858868">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # to create
+    </p>
+    <p>
+      <font color="#0000ff">rake db:sessions:create</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1283417001359" ID="ID_1925427109" MODIFIED="1420817858865">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # to clear
+    </p>
+    <p>
+      <font color="#0000ff">rake db:sessions:clear</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1420816363757" ID="ID_1171960710" LINK="http://stackoverflow.com/questions/10301794/difference-between-rake-dbmigrate-dbreset-and-dbschemaload" MODIFIED="1420817903385" TEXT="database tasks"/>
+</node>
+<node COLOR="#0033ff" CREATED="1419192741114" FOLDED="true" ID="ID_109621162" MODIFIED="1420817991622" POSITION="left" TEXT="doc">
+<node CREATED="1284732046893" ID="ID_763451822" MODIFIED="1419242288854">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for rdoc generation
+    </p>
+    <p>
+      <font color="#0033ff">$rake doc:app</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1419192747329" FOLDED="true" ID="ID_788029289" MODIFIED="1420817980956" POSITION="left" TEXT="stats">
+<node CREATED="1284732069922" ID="ID_317568180" MODIFIED="1419242296256">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # for statistics
+    </p>
+    <p>
+      <font color="#0033ff">$ rake stats</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1415875301043" FOLDED="true" ID="ID_25235967" MODIFIED="1420817982563" POSITION="left" TEXT="test:">
+<node COLOR="#009999" CREATED="1415875304162" ID="ID_1540366880" LINK="http://flavio.castelli.name/2010/05/28/rails_execute_single_test/" MODIFIED="1415875323054" TEXT="flavio castelli">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1420816407924" ID="ID_1757956282" MODIFIED="1420816410355" TEXT="rake test"/>
+<node CREATED="1420816411096" ID="ID_1130582327" MODIFIED="1420816420995" TEXT="rake test:units"/>
+<node CREATED="1420816423650" ID="ID_833400489" MODIFIED="1420816453819" TEXT="rake test:functionals"/>
+<node CREATED="1420816435065" ID="ID_23592340" MODIFIED="1420816448290" TEXT="rake test:integraiton"/>
+<node CREATED="1284982185957" ID="ID_1777944809" MODIFIED="1420817874515">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # prepare database for tests
+    </p>
+    <p>
+      <font color="#0000ff">$ rake db:test:prepare</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1284982258708" ID="ID_1602061900" MODIFIED="1420817874517">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # run all of unit tests
+    </p>
+    <p>
+      <font color="#0000ff">$ rake test:units</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1420816482769" ID="ID_1154505427" LINK="https://github.com/grosser/single_test" MODIFIED="1420816488107" TEXT="single_test"/>
+</node>
+<node CREATED="1420816579047" FOLDED="true" ID="ID_1394220056" MODIFIED="1420817990003" POSITION="right" TEXT="dev">
+<node COLOR="#0033ff" CREATED="1420816584708" FOLDED="true" ID="ID_1953841951" MODIFIED="1420817923890" TEXT="Xls">
+<node CREATED="1415812240023" ID="ID_356128117" MODIFIED="1420816573228">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45,24 +158,22 @@
 <!-- HTML generated using hilite.me --></richcontent>
 </node>
 </node>
-<node CREATED="1415875301043" FOLDED="true" ID="ID_25235967" MODIFIED="1416314482736" POSITION="left" TEXT="test">
-<node COLOR="#009999" CREATED="1415875304162" ID="ID_1540366880" LINK="http://flavio.castelli.name/2010/05/28/rails_execute_single_test/" MODIFIED="1415875323054" TEXT="flavio castelli">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-</node>
-<node CREATED="1416314443073" FOLDED="true" ID="ID_1126454984" MODIFIED="1416314481152" POSITION="left" TEXT="show all tasks">
-<node CREATED="1416314447187" ID="ID_434227868" MODIFIED="1416314479697">
+<node CREATED="1416314443073" FOLDED="true" ID="ID_1126454984" MODIFIED="1420817990302" POSITION="right" TEXT="tasks">
+<node CREATED="1416314447187" ID="ID_434227868" MODIFIED="1420816389813">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
+      # show all tasks
+    </p>
+    <p>
       <font color="#0000ff">$ rake <b>-T</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

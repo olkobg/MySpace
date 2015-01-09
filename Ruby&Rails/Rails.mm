@@ -1,10 +1,10 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1419192699597" TEXT="Rails">
-<font BOLD="true" NAME="SansSerif" SIZE="25"/>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1419242183463" POSITION="right" TEXT="Models">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1419242170999" TEXT="validate">
+<node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1420823747978" TEXT="Rails">
+<font NAME="SansSerif" SIZE="25"/>
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1420822694470" POSITION="right" TEXT="Models">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1420818013502" TEXT="validate">
 <node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -13,7 +13,7 @@
 </node>
 <node CREATED="1285151124782" ID="ID_1515217412" MODIFIED="1285151126295" TEXT="built-in error messages, look for the file validations.rb within the Active Record gem"/>
 </node>
-<node CREATED="1416842175466" FOLDED="true" ID="ID_699552630" MODIFIED="1419242182970" TEXT="relation">
+<node CREATED="1416842175466" FOLDED="true" ID="ID_699552630" MODIFIED="1420818012238" TEXT="relation">
 <node COLOR="#0033ff" CREATED="1416842195656" ID="ID_530623936" MODIFIED="1416842242256" TEXT="belongs_to"/>
 <node COLOR="#0033ff" CREATED="1416842195660" ID="ID_485116488" MODIFIED="1416842242255" TEXT="has_one"/>
 <node COLOR="#0033ff" CREATED="1416842195661" ID="ID_1722252237" MODIFIED="1416842242255" TEXT="has_many"/>
@@ -61,7 +61,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1283197399152" FOLDED="true" ID="ID_1130362241" MODIFIED="1419242164576" TEXT="db">
+<node COLOR="#338800" CREATED="1283197399152" FOLDED="true" ID="ID_1130362241" MODIFIED="1420822692608" TEXT="db">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1419241850538" TEXT="Migration">
 <node CREATED="1283197450026" ID="ID_1587485051" MODIFIED="1416840201422">
@@ -410,6 +410,119 @@
 <node COLOR="#0033ff" CREATED="1287675790052" ID="ID_437452920" MODIFIED="1416839494823" TEXT="raise ActiveRecord::IrreversibleMigration "/>
 </node>
 </node>
+<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1420822690887" TEXT="configuration">
+<node CREATED="1420822145349" ID="ID_1238392466" MODIFIED="1420822170101">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # mysql
+    </p>
+    <p>
+      <font color="#0000ff">test: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: mysql2 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;reconnect: false </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;username: root </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;password: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;socket: /tmp/mysql.sock</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1420822171416" ID="ID_1982080777" MODIFIED="1420822669021">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # postgres
+    </p>
+    <p>
+      <font color="#0000ff">test: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;timeout: 5000 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;min_messages: warning</font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;username: root&#160;&#160;# or your system username </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;password: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;host: localhost </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1420822188130" ID="ID_1049566929" MODIFIED="1420822211556">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # sqlite
+    </p>
+    <p>
+      <font color="#0000ff">test: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: sqlite3 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: db/test.sqlite3 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;timeout: 5000</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node COLOR="#990099" CREATED="1416566466801" ID="ID_369394075" LINK="http://stackoverflow.com/questions/6021372/best-way-to-create-unique-token-in-rails" MODIFIED="1416840273419" TEXT="create hash token"/>
 <node COLOR="#990099" CREATED="1416840123243" ID="ID_1727965400" LINK="http://devblog.moz.com/2010/10/non-integer-primary-keys-in-rails/" MODIFIED="1416841240940" TEXT="create table with md5 index"/>
 <node COLOR="#990099" CREATED="1416840461710" ID="ID_829964542" LINK="http://labria.github.io/2013/04/28/rails-4-postgres-uuid-pk-guide/" MODIFIED="1416840493406" TEXT="create table with uuid index - Rails4"/>
@@ -430,9 +543,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1283338536187" FOLDED="true" ID="ID_868166275" MODIFIED="1419371318219" POSITION="left" TEXT="Views">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1357148768105" FOLDED="true" ID="ID_955436171" MODIFIED="1419371317770" TEXT="form">
+<node CREATED="1283338536187" FOLDED="true" ID="ID_868166275" MODIFIED="1420818683482" POSITION="left" TEXT="Views">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1357148768105" FOLDED="true" ID="ID_955436171" MODIFIED="1420818632928" TEXT="form">
 <node CREATED="1284038090046" ID="ID_1814901924" MODIFIED="1357148796473">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -450,34 +563,36 @@
 </node>
 <node COLOR="#0033ff" CREATED="1419242352266" ID="ID_1747444302" LINK="https://github.com/plataformatec/simple_form" MODIFIED="1419242647955" TEXT="simple_form"/>
 </node>
-<node CREATED="1283338542812" FOLDED="true" ID="ID_1767856036" MODIFIED="1419371308585" TEXT="Layouts">
+<node CREATED="1283338542812" FOLDED="true" ID="ID_1767856036" MODIFIED="1420818682507" TEXT="Layouts">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1284455846863" ID="ID_1883710591" MODIFIED="1357149086416">
+<node CREATED="1284455846863" ID="ID_1883710591" MODIFIED="1420818680812">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      dafault layout you can specify in <font color="#0033ff"><b>app/controller/application</b></font>&#xa0; by setting layout <font color="#0033ff"><b>"&lt;name of layout&gt;"</b></font>
+      dafault layout you can specify in <font color="#0033ff">app/controller/application</font>&#160;&#160;by setting layout <font color="#0033ff">&quot;&lt;name of layout&gt;&quot;</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1283932075671" ID="ID_335798303" MODIFIED="1357149053176">
+<node CREATED="1283932075671" ID="ID_335798303" MODIFIED="1420818668089">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      main controller layout placed in layout directory with name of <font color="#0033ff"><b>&lt;controller_name&gt;.html.erb</b></font>
+      main controller layout placed in layout directory with name of <font color="#0033ff">&lt;controller_name&gt;.html.erb</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1283338546484" FOLDED="true" ID="ID_1176584498" MODIFIED="1419242348839" TEXT="content">
+<node CREATED="1283338546484" FOLDED="true" ID="ID_1176584498" MODIFIED="1420818093488" TEXT="content">
 <node CREATED="1283338551093" ID="ID_1043545982" MODIFIED="1357148855420">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -539,8 +654,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283931946968" FOLDED="true" ID="ID_657218242" MODIFIED="1416565060324" TEXT="partials">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1283931946968" FOLDED="true" ID="ID_657218242" MODIFIED="1420818651696" TEXT="partials">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283931950250" ID="ID_454896966" MODIFIED="1283932478265" TEXT="to acces object passed to partial use partial name inside partial template"/>
 <node CREATED="1283932012312" ID="ID_395741018" MODIFIED="1283932063656" TEXT="partial templates placed in same directory as templates which is called from "/>
 <node COLOR="#0033ff" CREATED="1283931979546" ID="ID_192649019" MODIFIED="1357149108799" TEXT="render ">
@@ -564,16 +679,16 @@
 <node CREATED="1284727311551" ID="ID_193599827" MODIFIED="1284727313372" TEXT="format.xml { render :layout =&gt; false , :xml =&gt; @product.to_xml(:include =&gt; :orders) } end"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1284730017714" FOLDED="true" ID="ID_948475536" MODIFIED="1357149144837" TEXT=":json">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1284730017714" FOLDED="true" ID="ID_948475536" MODIFIED="1420818653030" TEXT=":json">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1284730021734" ID="ID_808038459" MODIFIED="1357149140014" TEXT="format.json { render :layout =&gt; false , :json =&gt; @product.to_json(:include =&gt; :orders) }">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1419191613578" FOLDED="true" ID="ID_1597450402" MODIFIED="1419371313562" TEXT="builders">
-<font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1419191635692" FOLDED="true" ID="ID_193913373" MODIFIED="1419371311173" TEXT="html">
+<node CREATED="1419191613578" FOLDED="true" ID="ID_1597450402" MODIFIED="1420818636463" TEXT="builders">
+<font NAME="SansSerif" SIZE="17"/>
+<node CREATED="1419191635692" FOLDED="true" ID="ID_193913373" MODIFIED="1420818096752" TEXT="html">
 <node CREATED="1283933434781" ID="ID_1895373112" MODIFIED="1419191620483" TEXT="ERB (RHTML)">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -590,7 +705,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="19"/>
 </node>
 </node>
-<node CREATED="1419191649454" FOLDED="true" ID="ID_123602469" MODIFIED="1419371313076" TEXT="js/json">
+<node CREATED="1419191649454" FOLDED="true" ID="ID_123602469" MODIFIED="1420818089668" TEXT="js/json">
 <node CREATED="1283933429734" FOLDED="true" ID="ID_1922225649" MODIFIED="1419191652375" TEXT="RJS">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -633,9 +748,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1419371270717" POSITION="left" TEXT="Auth">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1287575635651" FOLDED="true" ID="ID_372420420" MODIFIED="1419371270477" TEXT="Auth_token">
+<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1420823731272" POSITION="left" TEXT="Auth">
+<font NAME="SansSerif" SIZE="16"/>
+<node CREATED="1287575635651" FOLDED="true" ID="ID_372420420" MODIFIED="1420818624200" TEXT="Auth_token">
 <node CREATED="1287575640947" ID="ID_24275664" MODIFIED="1357148532020">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -650,42 +765,37 @@
 </node>
 <node CREATED="1419370576246" ID="ID_1225230829" LINK="#ID_1588476019" MODIFIED="1419370581077" TEXT="docs"/>
 </node>
+<node CREATED="1284454690794" ID="ID_687445412" LINK="#ID_1959650661" MODIFIED="1420818592098" TEXT="by using filters"/>
 </node>
-<node CREATED="1282900468984" FOLDED="true" ID="ID_339698472" MODIFIED="1419554410587" POSITION="left" TEXT="Controlles">
-<font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node CREATED="1419191523228" FOLDED="true" ID="ID_903974210" MODIFIED="1419371228719" TEXT="Resources">
-<font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node COLOR="#0033ff" CREATED="1419191548805" FOLDED="true" ID="ID_1078658569" LINK="https://github.com/josevalim/inherited_resources" MODIFIED="1419371221448" TEXT="inherited resoources">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1282900468984" FOLDED="true" ID="ID_339698472" MODIFIED="1420818695945" POSITION="left" TEXT="Controllers">
+<font NAME="SansSerif" SIZE="18"/>
+<node CREATED="1419191523228" FOLDED="true" ID="ID_903974210" MODIFIED="1420818595615" TEXT="Resources">
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#0033ff" CREATED="1419191548805" FOLDED="true" ID="ID_1078658569" LINK="https://github.com/josevalim/inherited_resources" MODIFIED="1420818595189" TEXT="inherited resources">
+<font NAME="SansSerif" SIZE="17"/>
 <node COLOR="#009999" CREATED="1419193546378" ID="ID_310232717" LINK="http://blog.plataformatec.com.br/2009/08/inherited-resources-is-scopes-and-responder-fluent/" MODIFIED="1419193570576" TEXT="platformatec"/>
 </node>
-<node CREATED="1419196624207" ID="ID_1384222531" LINK="https://codelation.com/blog/rails-restful-api-just-add-water" MODIFIED="1419196648038" TEXT="creating api">
-<font NAME="SansSerif" SIZE="18"/>
+<node CREATED="1419196624207" ID="ID_1384222531" LINK="https://codelation.com/blog/rails-restful-api-just-add-water" MODIFIED="1420818546288" TEXT="creating api">
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1419242688417" FOLDED="true" ID="ID_737361897" MODIFIED="1419371225584" TEXT="REST">
-<font NAME="SansSerif" SIZE="18"/>
-<node CREATED="1419242700349" FOLDED="true" ID="ID_806148050" MODIFIED="1419371225279" TEXT="info">
+<node COLOR="#0033ff" CREATED="1419242688417" FOLDED="true" ID="ID_737361897" MODIFIED="1420818564882" TEXT="REST">
+<font NAME="SansSerif" SIZE="17"/>
+<node CREATED="1419242700349" FOLDED="true" ID="ID_806148050" MODIFIED="1420818564608" TEXT="info">
 <node COLOR="#990099" CREATED="1419242722058" ID="ID_846828178" LINK="https://shellycloud.com/blog/2013/10/how-to-integrate-angularjs-with-rails-4" MODIFIED="1419242731079" TEXT="rails4 + angular"/>
 <node COLOR="#990099" CREATED="1419277848937" ID="ID_1189679781" LINK="https://github.com/rest-client/rest-client" MODIFIED="1419277857764" TEXT="restclient"/>
 </node>
 </node>
-<node CREATED="1284454571212" ID="ID_1320031455" MODIFIED="1284454587556" TEXT="Main application controller dotred in application_controller"/>
-<node CREATED="1284454589914" FOLDED="true" ID="ID_1663516995" MODIFIED="1419371231819" TEXT="authentication">
-<node CREATED="1284454690794" ID="ID_687445412" LINK="#ID_1959650661" MODIFIED="1419242475426" TEXT="by using filters"/>
-</node>
-<node CREATED="1286450892615" FOLDED="true" ID="ID_1501406177" MODIFIED="1419371237423" TEXT="Callback">
-<node CREATED="1286450899919" FOLDED="true" ID="ID_1959650661" MODIFIED="1419371237102" TEXT="filters">
+<node CREATED="1286450892615" FOLDED="true" ID="ID_1501406177" MODIFIED="1420818621005" TEXT="Callback">
 <node CREATED="1286450903318" ID="ID_1589562727" MODIFIED="1286450995318" TEXT="after_filter - filter after action executed"/>
 <node CREATED="1286450908435" ID="ID_1391687937" MODIFIED="1286451007401" TEXT="before_filter - filter used before action execution"/>
 <node CREATED="1286450912816" ID="ID_1991313825" MODIFIED="1286450917394" TEXT="around _filter"/>
-<node CREATED="1286450920959" FOLDED="true" ID="ID_1628396016" MODIFIED="1419371203815" TEXT="parameters">
+<node CREATED="1286450920959" FOLDED="true" ID="ID_1628396016" MODIFIED="1420818618247" TEXT="parameters">
 <node CREATED="1286450927280" ID="ID_798225726" MODIFIED="1286450966741" TEXT=":only =&gt; - used to specify  action to execute"/>
 <node CREATED="1286450934837" ID="ID_1297775068" MODIFIED="1286450976566" TEXT=":except =&gt; specify action to not touch"/>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1419371153725" FOLDED="true" ID="ID_639842982" LINK="http://www.justinweiss.com/blog/2014/11/03/respond-to-without-all-the-pain/" MODIFIED="1419371289491" TEXT="respond_to">
+<node COLOR="#0033ff" CREATED="1419371153725" FOLDED="true" ID="ID_639842982" LINK="http://www.justinweiss.com/blog/2014/11/03/respond-to-without-all-the-pain/" MODIFIED="1420818569312" TEXT="respond_to">
 <node COLOR="#0033ff" CREATED="1285749792454" ID="ID_542686998" MODIFIED="1419371287147">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -709,16 +819,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1283359770375" FOLDED="true" ID="ID_790870058" MODIFIED="1419242185642" POSITION="right" TEXT="Sessions">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283416994734" FOLDED="true" ID="ID_1935893792" MODIFIED="1419242151817" TEXT="DB">
-<node CREATED="1298649629966" FOLDED="true" ID="ID_1017407797" MODIFIED="1419242151617" TEXT="Using multi databases">
+<node CREATED="1283359770375" FOLDED="true" ID="ID_790870058" MODIFIED="1420818512542" POSITION="right" TEXT="Sessions">
+<font NAME="SansSerif" SIZE="18"/>
+<node CREATED="1283416994734" FOLDED="true" ID="ID_1935893792" MODIFIED="1420818004871" TEXT="DB">
+<node CREATED="1298649629966" FOLDED="true" ID="ID_1017407797" MODIFIED="1420818004335" TEXT="Using multi databases">
 <node CREATED="1298649637144" ID="ID_1069476957" LINK="https://github.com/remi/use_db" MODIFIED="1298649647098" TEXT="site1 "/>
 <node CREATED="1298649648273" ID="ID_939911430" LINK="https://github.com/robbyrussell/active_delegate" MODIFIED="1298649657517" TEXT="site2 "/>
 <node CREATED="1298649785460" ID="ID_706434523" LINK="https://github.com/tchandy/octopus" MODIFIED="1298649789965" TEXT="octopus"/>
 </node>
 </node>
-<node CREATED="1283425964125" FOLDED="true" ID="ID_292477332" MODIFIED="1419242149408" TEXT="application">
+<node CREATED="1283425964125" FOLDED="true" ID="ID_292477332" MODIFIED="1420818007550" TEXT="application">
 <node CREATED="1283425971406" ID="ID_668606581" MODIFIED="1419242082710">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -744,7 +854,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1283417901312" FOLDED="true" ID="ID_515946583" MODIFIED="1419242148376" TEXT="Flash">
+<node CREATED="1283417901312" FOLDED="true" ID="ID_515946583" MODIFIED="1420818008845" TEXT="Flash">
 <node CREATED="1283417906234" ID="ID_1428142172" MODIFIED="1419242145258">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -759,9 +869,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1283414430500" FOLDED="true" ID="ID_679516315" MODIFIED="1419371259143" POSITION="left" TEXT="Plugins">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283414434406" FOLDED="true" ID="ID_724560992" MODIFIED="1419371253166" TEXT="migration">
+<node COLOR="#338800" CREATED="1283414430500" FOLDED="true" ID="ID_679516315" MODIFIED="1420818525366" POSITION="left" TEXT="Plugins">
+<font NAME="SansSerif" SIZE="16"/>
+<node CREATED="1283414434406" FOLDED="true" ID="ID_724560992" MODIFIED="1420818070500" TEXT="migration">
 <node COLOR="#0033ff" CREATED="1283414445546" ID="ID_1040804101" MODIFIED="1419242548146" TEXT="rake db:migrate_plugins PLUGIN=&lt;plugin_name&gt; VERSION=&lt;version&gt;"/>
 <node COLOR="#0033ff" CREATED="1283414473781" ID="ID_733924486" MODIFIED="1419242549392" TEXT="rake db:migrate:plugin NAME=&lt;plugin_name&gt; VERSION=&lt;version&gt;">
 <font NAME="SansSerif" SIZE="12"/>
@@ -783,15 +893,15 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1285161176853" FOLDED="true" ID="ID_1112719784" MODIFIED="1419371258858" TEXT="creation">
+<node CREATED="1285161176853" FOLDED="true" ID="ID_1112719784" MODIFIED="1420818073359" TEXT="creation">
 <node CREATED="1285161180642" ID="ID_1162682146" MODIFIED="1285161183886" TEXT="init.rb"/>
-<node CREATED="1286373186405" FOLDED="true" ID="ID_169622295" MODIFIED="1419371258578" TEXT="routes">
+<node CREATED="1286373186405" FOLDED="true" ID="ID_169622295" MODIFIED="1420818073129" TEXT="routes">
 <node CREATED="1286373191499" ID="ID_1034705573" MODIFIED="1286373209423" TEXT="just create config/routes.rb like in main dir"/>
 </node>
 </node>
 </node>
-<node CREATED="1284724176494" FOLDED="true" ID="ID_127732383" MODIFIED="1419375324476" POSITION="left" TEXT="config">
-<font BOLD="true" NAME="SansSerif" SIZE="17"/>
+<node CREATED="1284724176494" FOLDED="true" ID="ID_127732383" MODIFIED="1420818528581" POSITION="left" TEXT="config">
+<font NAME="SansSerif" SIZE="15"/>
 <node CREATED="1284724186971" FOLDED="true" ID="ID_949958055" MODIFIED="1419373752896" TEXT="env">
 <node CREATED="1284724191652" FOLDED="true" ID="ID_1108905719" MODIFIED="1419373752492" TEXT="mime type">
 <node COLOR="#0033ff" CREATED="1284724195488" ID="ID_277391393" MODIFIED="1419373750596" TEXT="Mime::Type.register &quot;image/jpg&quot; , :jpg"/>
@@ -910,29 +1020,31 @@
 </node>
 </node>
 </node>
-<node CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1419275947673" POSITION="right">
+<node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1420823732817" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>rails</b></font>
+      rails
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283240138625" FOLDED="true" ID="ID_296344086" MODIFIED="1419242222451">
+<node CREATED="1283240138625" FOLDED="true" ID="ID_296344086" MODIFIED="1420818276996">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>server</b></font>&#xa0;(run&#xa0;server)
+      <font color="#0033ff">server</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1357149689013" ID="ID_757211888" MODIFIED="1357149720807">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -963,7 +1075,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1283240214093" FOLDED="true" ID="ID_138745101" MODIFIED="1419192891153">
+<node CREATED="1283240214093" FOLDED="true" ID="ID_138745101" MODIFIED="1420818272424">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1002,7 +1114,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283442966093" FOLDED="true" ID="ID_577858243" LINK="https://www.phusionpassenger.com/" MODIFIED="1416841354423" TEXT="passenger">
+<node COLOR="#0033ff" CREATED="1283442966093" FOLDED="true" ID="ID_577858243" LINK="https://www.phusionpassenger.com/" MODIFIED="1420818274369" TEXT="passenger">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357159294687" ID="ID_775613537" MODIFIED="1412256580275">
 <richcontent TYPE="NODE"><html>
@@ -1051,17 +1163,18 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357147340970" FOLDED="true" ID="ID_973348776" LINK="https://github.com/sstephenson/execjs" MODIFIED="1419242224839">
+<node COLOR="#0033ff" CREATED="1357147340970" FOLDED="true" ID="ID_973348776" LINK="https://github.com/sstephenson/execjs" MODIFIED="1420818348643">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>execjs</b>&#xa0;<font color="#000000">(js run)</font>
+      execjs&#160;<font color="#000000">(js run)</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357147874526" ID="ID_840529058" MODIFIED="1357147916147">
 <richcontent TYPE="NODE"><html>
@@ -1103,117 +1216,33 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1284732043601" FOLDED="true" ID="ID_1099016474" MODIFIED="1419242665316" POSITION="right" TEXT="rake">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1419192741114" FOLDED="true" ID="ID_109621162" MODIFIED="1419242298811" TEXT="doc">
-<node CREATED="1284732046893" ID="ID_763451822" MODIFIED="1419242288854">
+<node COLOR="#0033ff" CREATED="1420818136458" FOLDED="true" ID="ID_229507832" MODIFIED="1420818350642" TEXT="generate g">
+<node COLOR="#0033ff" CREATED="1420818129983" ID="ID_683410433" MODIFIED="1420818239890">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      for rdoc generation
-    </p>
-    <p>
-      <font color="#0033ff">$rake doc:app</font>
+      controller
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-</node>
-<node CREATED="1419192747329" FOLDED="true" ID="ID_788029289" MODIFIED="1419242297371" TEXT="stats">
-<node CREATED="1284732069922" ID="ID_317568180" MODIFIED="1419242296256">
+<node COLOR="#0033ff" CREATED="1420818171223" FOLDED="true" ID="ID_1330473271" MODIFIED="1420818320709">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      # for statistics
-    </p>
-    <p>
-      <font color="#0033ff">$ rake stats</font>
+      model
     </p>
   </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1419192750442" FOLDED="true" ID="ID_380651984" MODIFIED="1419242301093" TEXT="sessions">
-<node CREATED="1283359967078" ID="ID_1108024875" MODIFIED="1419242267014">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # to create
-    </p>
-    <p>
-      <font color="#0000ff">rake db:sessions:create</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1283417001359" ID="ID_1925427109" MODIFIED="1419242275055">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # to clear
-    </p>
-    <p>
-      <font color="#0000ff">rake db:sessions:clear</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1419192938929" FOLDED="true" ID="ID_1104785174" MODIFIED="1419242302465" TEXT="testing">
-<node CREATED="1284982185957" ID="ID_1777944809" MODIFIED="1419193077211">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # prepare database for tests
-    </p>
-    <p>
-      <font color="#0000ff">$ rake db:test:prepare</font>
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1284982258708" ID="ID_1602061900" MODIFIED="1419193046435">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # run all of unit tests
-    </p>
-    <p>
-      <font color="#0000ff">$ rake test:units</font>
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1283240143078" FOLDED="true" ID="ID_1736778221" MODIFIED="1419242314021" TEXT="generate -g">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1283240315500" ID="ID_155061060" MODIFIED="1416841295848" TEXT="controller">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1283240312937" FOLDED="true" ID="ID_1171114382" MODIFIED="1419242309780" TEXT="model">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1416826314628" ID="ID_1239425140" MODIFIED="1416838378471">
+</html>
+</richcontent>
+<node CREATED="1420818193648" ID="ID_449136174" MODIFIED="1420818317281">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1226,27 +1255,25 @@
       <font color="#0000ff">$ rails g model &lt;model-params&gt; <b>--no-migration</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283240320187" ID="ID_142736714" MODIFIED="1416838401845" TEXT="migration">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1283257961178" ID="ID_1356556346" MODIFIED="1416838403703" TEXT="plugins">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#0033ff" CREATED="1283240252828" ID="ID_958642761" MODIFIED="1416841301010" TEXT="scafflod">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1420818207378" ID="ID_1500988360" MODIFIED="1420818239888" TEXT="migration"/>
+<node COLOR="#0033ff" CREATED="1420818213239" ID="ID_1126094444" MODIFIED="1420818239887" TEXT="plugins"/>
+<node COLOR="#0033ff" CREATED="1420818224470" ID="ID_1909525196" MODIFIED="1420818239886" TEXT="scafflod&#xa0;"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1284732043601" ID="ID_1099016474" LINK="rake.mm" MODIFIED="1420818327541" POSITION="right" TEXT="rake">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1284732317144" FOLDED="true" ID="ID_1163334900" MODIFIED="1419372914774" POSITION="left" TEXT="i18n">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1284977479013" FOLDED="true" ID="ID_1239639096" MODIFIED="1419371265222" TEXT="config">
+<node CREATED="1284732317144" FOLDED="true" ID="ID_1163334900" MODIFIED="1420823728977" POSITION="left" TEXT="i18n">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1284977479013" FOLDED="true" ID="ID_1239639096" MODIFIED="1420818059740" TEXT="config">
 <node CREATED="1284733139113" ID="ID_1084808270" MODIFIED="1284977494010" TEXT="config file sits at - config/initializers/i18n.rb"/>
 <node CREATED="1284733185933" ID="ID_85638869" MODIFIED="1284977470510" TEXT="aditionla local files - /config/locales/*"/>
 </node>
-<node CREATED="1284977445690" FOLDED="true" ID="ID_780707065" MODIFIED="1419371263322" TEXT="text">
+<node CREATED="1284977445690" FOLDED="true" ID="ID_780707065" MODIFIED="1420818063394" TEXT="text">
 <node CREATED="1284977597751" ID="ID_468420631" MODIFIED="1284977611470" TEXT="in locale/&lt;lang&gt;.yml"/>
 <node COLOR="#0033ff" CREATED="1284977613788" ID="ID_285357577" MODIFIED="1419242615769">
 <richcontent TYPE="NODE"><html>
@@ -1277,7 +1304,7 @@
 </node>
 <node CREATED="1284977364982" ID="ID_881891830" MODIFIED="1284977411577" TEXT="to use internationalized strings use I18n.t(&apos;string&apos;) - to internationalize"/>
 </node>
-<node CREATED="1284977415647" FOLDED="true" ID="ID_203022028" MODIFIED="1419371267422" TEXT="currency">
+<node CREATED="1284977415647" FOLDED="true" ID="ID_203022028" MODIFIED="1420818065347" TEXT="currency">
 <node CREATED="1284977434555" ID="ID_48421238" MODIFIED="1284977581837" TEXT="you can use such a configuration in locales/&lt;lang.yml&gt;"/>
 <node CREATED="1285662005076" FOLDED="true" ID="ID_24557043" MODIFIED="1419242608319" TEXT="example">
 <node CREATED="1284977511042" ID="ID_1838816927" MODIFIED="1284977553221">
@@ -1316,22 +1343,20 @@
 </node>
 </node>
 </node>
-<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1419242678417" POSITION="right" TEXT="Testing">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1420818699626" POSITION="right" TEXT="Testing">
+<font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1284982183137" ID="ID_1610244121" LINK="#ID_1104785174" MODIFIED="1419192981659" TEXT="rake"/>
-<node CREATED="1284982192171" ID="ID_393299999" MODIFIED="1357148438050" TEXT="runinig">
 <node CREATED="1284982198269" ID="ID_88991437" MODIFIED="1284982201066" TEXT="single test">
 <node COLOR="#0033ff" CREATED="1284982201401" ID="ID_1084486649" MODIFIED="1357148446898" TEXT="ruby -I test test/unit/product_test.rb">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-</node>
-<node CREATED="1285143603293" FOLDED="true" ID="ID_681903283" MODIFIED="1419242678037" TEXT="info">
+<node CREATED="1285143603293" FOLDED="true" ID="ID_681903283" MODIFIED="1420818029053" TEXT="info">
 <node CREATED="1285143606013" ID="ID_1975503534" MODIFIED="1285145904698" TEXT="Rails calls things that test models unit tests"/>
 <node CREATED="1285145905781" ID="ID_1290616147" MODIFIED="1285145915479" TEXT="things that test a single action in a controller functional tests"/>
 <node CREATED="1285145916195" ID="ID_1617886327" MODIFIED="1285145924615" TEXT="and things that test the flow through one or more controllers integration tests."/>
 </node>
-<node CREATED="1285145990807" ID="ID_269607368" MODIFIED="1419193162353" TEXT="model(unit testing)">
+<node CREATED="1285145990807" FOLDED="true" ID="ID_269607368" MODIFIED="1420818031742" TEXT="model(unit testing)">
 <node CREATED="1285145993767" ID="ID_781289967" MODIFIED="1285146007836" TEXT="using of .valid? method is very usefull"/>
 <node CREATED="1285146008165" ID="ID_358369434" MODIFIED="1285146030832" TEXT="assert !&lt;model&gt;.valid?"/>
 <node CREATED="1285154623996" ID="ID_551680118" MODIFIED="1419193164865" TEXT="type of assert"/>
@@ -1406,7 +1431,7 @@
 </node>
 <node CREATED="1286889158911" ID="ID_1250343124" MODIFIED="1286895802918" TEXT="method &quot;setup&quot;  used to run common func for tests"/>
 </node>
-<node CREATED="1285154997935" FOLDED="true" ID="ID_1376566215" MODIFIED="1419193160454" TEXT="functional (action testing)">
+<node CREATED="1285154997935" FOLDED="true" ID="ID_1376566215" MODIFIED="1420818033223" TEXT="functional (action testing)">
 <node CREATED="1285155008539" FOLDED="true" ID="ID_1932797499" MODIFIED="1419193160081" TEXT="it&apos;s always creates ">
 <node CREATED="1285155021490" ID="ID_1474528452" MODIFIED="1285155027169" TEXT="@controller - "/>
 <node CREATED="1285155031915" ID="ID_1676044872" MODIFIED="1285155034730" TEXT="@request"/>
@@ -1445,7 +1470,7 @@
 </node>
 <node CREATED="1286895949045" ID="ID_1405582991" MODIFIED="1286895956777" TEXT="assertions"/>
 </node>
-<node CREATED="1285150113147" FOLDED="true" ID="ID_345038990" MODIFIED="1419193147726" TEXT="fixture">
+<node CREATED="1285150113147" FOLDED="true" ID="ID_345038990" MODIFIED="1420818035306" TEXT="fixture">
 <node CREATED="1285150118717" ID="ID_357513584" LINK="http://ar.rubyonrails.org/classes/Fixtures.html" MODIFIED="1419193114049" TEXT="about"/>
 <node CREATED="1286895712529" FOLDED="true" ID="ID_1179735008" MODIFIED="1419193147039" TEXT="types">
 <node CREATED="1286895715531" FOLDED="true" ID="ID_1788708567" MODIFIED="1419193143736" TEXT="yaml ">
@@ -1487,14 +1512,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#009999" CREATED="1378898843822" FOLDED="true" ID="ID_635478673" MODIFIED="1419370611391" POSITION="right" TEXT="soft">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1289390106630" FOLDED="true" ID="ID_156617987" MODIFIED="1378898872125" TEXT="Projects">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1289390112537" ID="ID_427415559" LINK="Redmine.mm" MODIFIED="1289390119427" TEXT="Redmine"/>
-</node>
-</node>
-<node CREATED="1419275951392" FOLDED="true" ID="ID_795978789" MODIFIED="1419375326208" POSITION="right" TEXT="info">
+<node CREATED="1419275951392" FOLDED="true" ID="ID_795978789" MODIFIED="1420818055713" POSITION="right" TEXT="info">
 <node CREATED="1419275953591" ID="ID_161522889" LINK="https://tutorials.railsapps.org" MODIFIED="1419277708562">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1508,18 +1526,22 @@
 </html></richcontent>
 </node>
 <node CREATED="1419361890947" ID="ID_1064228393" LINK="http://lucatironi.github.io/tutorial/2012/10/15/ruby_rails_android_app_authentication_devise_tutorial_part_one/" MODIFIED="1419361910914" TEXT="rails api + android"/>
-<node CREATED="1419370359662" FOLDED="true" ID="ID_154778116" MODIFIED="1419370603836" TEXT="book">
+<node CREATED="1420755503766" ID="ID_1125709213" LINK="http://csrg.inf.utfsm.cl/~rmujica/wea.html" MODIFIED="1420755510528" TEXT="learn rails by example"/>
+<node CREATED="1419370359662" FOLDED="true" ID="ID_154778116" MODIFIED="1420818052163" TEXT="book">
 <node CREATED="1419370361258" ID="ID_613069621" LINK="https://www.railstutorial.org/book/account_activation_password_reset" MODIFIED="1419370375069" TEXT="rails tutorial"/>
 </node>
-<node CREATED="1419370556107" FOLDED="true" ID="ID_1161619907" MODIFIED="1419372264866" TEXT="docs">
+<node CREATED="1419370556107" FOLDED="true" ID="ID_1161619907" MODIFIED="1420818053445" TEXT="docs">
 <node CREATED="1419370568221" FOLDED="true" ID="ID_1588476019" MODIFIED="1419371152727" TEXT="auth token">
 <node CREATED="1419370190048" ID="ID_986100096" LINK="https://www.codeschool.com/blog/2014/02/03/token-based-authentication-rails/" MODIFIED="1419370197296" TEXT="token based auth"/>
 <node CREATED="1419370542891" ID="ID_1985020599" LINK="http://stackoverflow.com/questions/1177863/how-do-i-ignore-the-authenticity-token-for-specific-actions-in-rails" MODIFIED="1419370594243" TEXT="ignore auth token"/>
 </node>
 </node>
-<node CREATED="1419372239596" FOLDED="true" ID="ID_1246249341" MODIFIED="1419372264356" TEXT="blogs">
+<node CREATED="1419372239596" FOLDED="true" ID="ID_1246249341" MODIFIED="1420818054693" TEXT="blogs">
 <node CREATED="1419372248665" ID="ID_995722388" LINK="https://www.justinweiss.com/" MODIFIED="1419372259679" TEXT="justin weiss"/>
 </node>
+</node>
+<node CREATED="1420823734426" FOLDED="true" ID="ID_422088789" MODIFIED="1420823749186" POSITION="right" TEXT="libs">
+<node COLOR="#0033ff" CREATED="1420823737401" ID="ID_201409818" LINK="http://api.rubyonrails.org/classes/Rails/Railtie.html" MODIFIED="1420823742823" TEXT="Railte"/>
 </node>
 </node>
 </map>

@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1420558496236" STYLE="fork" TEXT="Ulike">
+<node CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1420822090487" STYLE="fork" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<b><font color="#cc0033">Debian</font></b>) in most cases
+      (<font color="#cc0033"><b>Debian</b></font>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -15,7 +15,7 @@
   </body>
 </html>
 </richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="21"/>
+<font NAME="SansSerif" SIZE="21"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1410877411722" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
 <node CREATED="1294648493700" FOLDED="true" ID="ID_929058759" MODIFIED="1369226175553" TEXT="grub">
@@ -186,7 +186,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1411542490973" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1420840007279" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1411542490701" TEXT="web">
 <node CREATED="1360841118260" FOLDED="true" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1411542489284" TEXT="apache">
 <node CREATED="1411542449239" FOLDED="true" ID="ID_309275855" MODIFIED="1411542488917" TEXT="troubleshout">
@@ -1374,10 +1374,10 @@
 <node CREATED="1401444807349" ID="ID_492522842" MODIFIED="1401444810297" TEXT="Debian "/>
 <node CREATED="1401444811085" ID="ID_431886698" MODIFIED="1401444814505" TEXT="Ubuntu"/>
 </node>
-<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1410877411723" POSITION="right" TEXT="tricks">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357753828458" ID="ID_1937859101" MODIFIED="1392973975333" STYLE="fork" TEXT="mail">
-<node CREATED="1294068955230" ID="ID_243069913" MODIFIED="1392973975299" TEXT="telnet">
+<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1420840011571" POSITION="right" TEXT="tricks">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357753828458" FOLDED="true" ID="ID_1937859101" MODIFIED="1420840011098" STYLE="fork" TEXT="mail">
+<node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1420840010811" TEXT="telnet">
 <node CREATED="1294068959133" ID="ID_932580271" MODIFIED="1392973975299">
 <richcontent TYPE="NODE"><html>
           <head>
@@ -1420,8 +1420,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1369307010049" FOLDED="true" ID="ID_501338769" MODIFIED="1410877411723" POSITION="left" TEXT="doc">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#990099" CREATED="1369307010049" FOLDED="true" ID="ID_501338769" MODIFIED="1420840005562" POSITION="left" TEXT="doc">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1370354833806" FOLDED="true" ID="ID_1971328720" MODIFIED="1375456004247" TEXT="fs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1370354820917" ID="ID_1720010701" MODIFIED="1370354831305">
@@ -1498,8 +1498,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1415264435137" POSITION="left" TEXT="app">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1360156163805" FOLDED="true" ID="ID_1569600326" MODIFIED="1420840005562" POSITION="left" TEXT="app">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297692827245" FOLDED="true" ID="ID_1024491426" MODIFIED="1383345273843" TEXT="editors">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1310045237421" ID="ID_645437345" LINK="../Cross/vim.mm" MODIFIED="1356098130650" TEXT="vim">
@@ -1676,8 +1676,8 @@
 <node CREATED="1370510558018" ID="ID_1255460523" LINK="http://nevernote.sourceforge.net/index.htm" MODIFIED="1370510583323" TEXT="nixnote"/>
 </node>
 </node>
-<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1415262424618" POSITION="left" TEXT="admin">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1296676490487" FOLDED="true" ID="ID_1251407468" MODIFIED="1420840005562" POSITION="left" TEXT="admin">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1303810881728" FOLDED="true" ID="ID_1773758272" MODIFIED="1400680649667" TEXT="apt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303810885320" FOLDED="true" ID="ID_707364666" MODIFIED="1400680637651" TEXT="caching">
@@ -2242,8 +2242,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1410877411723" POSITION="left" TEXT="X">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1356357912120" FOLDED="true" ID="ID_131784874" MODIFIED="1420840005562" POSITION="left" TEXT="X">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356357914818" ID="ID_1361682473" MODIFIED="1356358107219">
 <richcontent TYPE="NODE"><html>
       <head>

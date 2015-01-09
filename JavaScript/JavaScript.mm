@@ -1,14 +1,14 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1419599611792" TEXT="JavaScript">
-<font BOLD="true" NAME="SansSerif" SIZE="22"/>
-<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1420558469861" POSITION="right" TEXT="app/lib/tool">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#0033ff" CREATED="1375972457479" ID="ID_295083454" LINK="http://emberjs.com/" MODIFIED="1417646129114" TEXT="ember.js">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1420822072532" TEXT="JavaScript">
+<font NAME="SansSerif" SIZE="22"/>
+<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1420839971144" POSITION="right" TEXT="app/lib/tool">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#0033ff" CREATED="1375972457479" ID="ID_295083454" LINK="http://emberjs.com/" MODIFIED="1420822058433" TEXT="ember.js">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1290773593462" FOLDED="true" ID="ID_417996470" LINK="jQuery.mm" MODIFIED="1418753758447" TEXT="jQuery">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1290773593462" FOLDED="true" ID="ID_417996470" LINK="jQuery.mm" MODIFIED="1420822058433" TEXT="jQuery">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354015782893" ID="ID_517049765" LINK="jquery/jqueryUI.mm" MODIFIED="1375964519620" TEXT="jqueryUI">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -16,25 +16,25 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1288878939472" ID="ID_626818632" LINK="http://mootools.net/" MODIFIED="1375964515614" TEXT="mootolls">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1288878939472" ID="ID_626818632" LINK="http://mootools.net/" MODIFIED="1420822058433" TEXT="mootolls">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1294140297055" ID="ID_1539605617" LINK="prototype.mm" MODIFIED="1375964507223" TEXT="prototype">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1294140297055" ID="ID_1539605617" LINK="prototype.mm" MODIFIED="1420822058433" TEXT="prototype">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1283935280234" FOLDED="true" ID="ID_569325362" LINK="http://script.aculo.us/" MODIFIED="1418753544631" TEXT="script.aculo.us">
-<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+<node COLOR="#0033ff" CREATED="1283935280234" FOLDED="true" ID="ID_569325362" LINK="http://script.aculo.us/" MODIFIED="1420822058432" TEXT="script.aculo.us">
+<font NAME="SansSerif" SIZE="13"/>
 <node CREATED="1283935288203" ID="ID_310409909" LINK="http://wiki.github.com/madrobby/scriptaculous/" MODIFIED="1307097825170" TEXT="effects"/>
 </node>
-<node COLOR="#0033ff" CREATED="1375971244809" ID="ID_852111777" LINK="http://underscorejs.org/" MODIFIED="1418753555639" TEXT="undrscorejs">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1375971244809" ID="ID_852111777" LINK="http://underscorejs.org/" MODIFIED="1420822058432" TEXT="undrscorejs">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1363789987681" FOLDED="true" ID="ID_1552324385" MODIFIED="1420558469513" TEXT="mvc">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1417646209005" FOLDED="true" ID="ID_464220657" LINK="angular.mm" MODIFIED="1418906132256" TEXT="angular.js">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1418753764713" ID="ID_740836588" LINK="http://angular-ui.github.io/" MODIFIED="1418753787264" TEXT="angular-ui">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1363789987681" FOLDED="true" ID="ID_1552324385" MODIFIED="1420839930157" TEXT="mvc">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1417646209005" FOLDED="true" ID="ID_464220657" LINK="angular.mm" MODIFIED="1420839927772" TEXT="angular.js">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1418753764713" ID="ID_740836588" LINK="http://angular-ui.github.io/" MODIFIED="1420839925451" TEXT="angular-ui">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1363789995060" ID="ID_355465255" LINK="http://developer.yahoo.com/cocktails/mojito/" MODIFIED="1363790028246">
@@ -49,46 +49,44 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1375964463437" ID="ID_974861746" LINK="http://backbonejs.org/" MODIFIED="1418753930139" TEXT="Backbone.js">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1375964463437" FOLDED="true" ID="ID_974861746" LINK="http://backbonejs.org/" MODIFIED="1420839921876" TEXT="Backbone.js">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1375964470929" ID="ID_1612792037" LINK="http://blog.bigbinary.com/2011/08/18/understanding-bind-and-bindall-in-backbone.html" MODIFIED="1375964476446" TEXT="bind difference"/>
 </node>
 </node>
-<node CREATED="1418753592653" FOLDED="true" ID="ID_1843180742" MODIFIED="1419597932930" TEXT="build-tools">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1377210482197" ID="ID_1445245110" LINK="http://gruntjs.com/" MODIFIED="1418753597612" TEXT="grunt">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1418753592653" FOLDED="true" ID="ID_1843180742" MODIFIED="1420839915741" TEXT="build-tools">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1377210482197" ID="ID_1445245110" LINK="http://gruntjs.com/" MODIFIED="1420839914744" TEXT="grunt">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1418753625977" ID="ID_151852013" LINK="http://bower.io/" MODIFIED="1418753656070">
+<node CREATED="1418753625977" ID="ID_151852013" LINK="http://bower.io/" MODIFIED="1420839910865">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b><font color="#0000ff">boower</font></b>&#160;- package manager
+      <font color="#0000ff">boower</font>-package manager
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1337155609990" FOLDED="true" ID="ID_1410910272" MODIFIED="1419458696373" TEXT="effects">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#009999" CREATED="1337155616877" ID="ID_421262654" LINK="http://www.dynamicdrive.com/" MODIFIED="1357726792213" TEXT="Dynamic Drive">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1306946336508" FOLDED="true" ID="ID_1625499138" MODIFIED="1418754227599" TEXT="tips">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1306946338796" ID="ID_986855513" LINK="http://projects.nickstakenburg.com/tipped" MODIFIED="1375964510440" TEXT="tipped">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1337155609990" FOLDED="true" ID="ID_1410910272" MODIFIED="1420839968360" TEXT="effects">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1306946336508" FOLDED="true" ID="ID_1625499138" MODIFIED="1420839967932" TEXT="tips">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1306946338796" ID="ID_986855513" LINK="http://projects.nickstakenburg.com/tipped" MODIFIED="1420839951057" TEXT="tipped">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1418309624158" FOLDED="true" ID="ID_1738488515" MODIFIED="1419458695811" TEXT="select element">
-<node CREATED="1418309636840" ID="ID_197621139" LINK="https://github.com/vestman/Select-or-Die" MODIFIED="1418309676129" TEXT="select or die"/>
+<node CREATED="1418309624158" FOLDED="true" ID="ID_1738488515" MODIFIED="1420839967684" TEXT="select element">
+<node COLOR="#0033ff" CREATED="1418309636840" ID="ID_197621139" LINK="https://github.com/vestman/Select-or-Die" MODIFIED="1420839957316" TEXT="select or die"/>
 </node>
 </node>
-<node CREATED="1306262117748" FOLDED="true" ID="ID_989123574" MODIFIED="1418754029938" TEXT="security">
-<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+<node CREATED="1306262117748" FOLDED="true" ID="ID_989123574" MODIFIED="1420839947739" TEXT="security">
+<font NAME="SansSerif" SIZE="13"/>
 <node CREATED="1306262123782" ID="ID_274024630" LINK="http://www-cs-students.stanford.edu/~tjw/jsbn/" MODIFIED="1357727505063">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -102,18 +100,18 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1418381257753" FOLDED="true" ID="ID_753511311" MODIFIED="1418754245024" TEXT="date">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1418381261261" ID="ID_584760059" LINK="http://momentjs.com" MODIFIED="1418381269311" TEXT="http://momentjs.com"/>
+<node CREATED="1418381257753" FOLDED="true" ID="ID_753511311" MODIFIED="1420839945324" TEXT="date">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1418381261261" ID="ID_584760059" LINK="http://momentjs.com/" MODIFIED="1420839942155" TEXT="http://momentjs.com"/>
 </node>
-<node CREATED="1290785690168" FOLDED="true" ID="ID_1371837990" MODIFIED="1418754246362" TEXT="packager">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1290785690168" FOLDED="true" ID="ID_1371837990" MODIFIED="1420822062044" TEXT="packager">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1290785699124" ID="ID_1468703957" LINK="http://developer.yahoo.com/yui/compressor/" MODIFIED="1306946571426" TEXT="YUI-Cpmpressor"/>
 <node CREATED="1306946614455" ID="ID_769234349" LINK="http://code.google.com/closure/" MODIFIED="1310476151092" TEXT="Google closure tools"/>
 <node CREATED="1306946557807" ID="ID_1154117622" LINK="http://dean.edwards.name/packer/" MODIFIED="1306946563919" TEXT="PACKER"/>
 </node>
-<node CREATED="1418754196199" FOLDED="true" ID="ID_777050236" MODIFIED="1419089570848" TEXT="media">
-<font BOLD="true" NAME="SansSerif" SIZE="21"/>
+<node CREATED="1418754196199" FOLDED="true" ID="ID_777050236" MODIFIED="1420822064845" TEXT="media">
+<font NAME="SansSerif" SIZE="19"/>
 <node CREATED="1418754187356" ID="ID_1445648712" MODIFIED="1418754396102" TEXT="video">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1328630282633" ID="ID_102365652" LINK="http://videojs.com/" MODIFIED="1418754340682">
@@ -169,7 +167,7 @@
 <node CREATED="1419089579614" ID="ID_1198874951" LINK="https://github.com/fnando/i18n-js" MODIFIED="1419191430788" TEXT="github i18n-js + rails"/>
 </node>
 </node>
-<node CREATED="1328630279282" ID="ID_1710108581" MODIFIED="1420558421799" POSITION="right">
+<node CREATED="1328630279282" FOLDED="true" ID="ID_1710108581" MODIFIED="1420839897694" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -180,9 +178,9 @@
     </p>
   </body>
 </html></richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="13"/>
-<node CREATED="1357727944385" FOLDED="true" ID="ID_1246060471" MODIFIED="1418754411086" TEXT="storage">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<font NAME="SansSerif" SIZE="13"/>
+<node CREATED="1357727944385" FOLDED="true" ID="ID_1246060471" MODIFIED="1420839896281" TEXT="storage">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357718571467" ID="ID_68183139" MODIFIED="1357727285867">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -224,21 +222,25 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1333449993758" FOLDED="true" ID="ID_759889651" MODIFIED="1419328515080" TEXT="performance">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1333449993758" FOLDED="true" ID="ID_759889651" MODIFIED="1420839896282" TEXT="performance">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1333450005828" ID="ID_915285588" LINK="http://peacekeeper.futuremark.com/" MODIFIED="1333450025438" TEXT="peacekeeper"/>
 <node CREATED="1333450026662" ID="ID_982974743" LINK="http://www.kevs3d.co.uk/dev/asteroidsbench/" MODIFIED="1333450050931" TEXT="asteroids"/>
 <node CREATED="1333450051988" ID="ID_1130689892" LINK="http://html5-benchmark.com/" MODIFIED="1333450076602" TEXT="impact"/>
 </node>
-<node CREATED="1357726975632" FOLDED="true" ID="ID_1614491121" MODIFIED="1418754173283" TEXT="detect">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357726975632" FOLDED="true" ID="ID_1614491121" MODIFIED="1420839896282" TEXT="detect">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1357726978895" ID="ID_866899770" LINK="http://modernizr.com/" MODIFIED="1357726989864" TEXT="Modernizer">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node CREATED="1420839844439" FOLDED="true" ID="ID_84133323" MODIFIED="1420839893131" TEXT="ie fixes">
+<node COLOR="#0033ff" CREATED="1420839852909" ID="ID_931257956" LINK="https://github.com/aFarkas/html5shiv" MODIFIED="1420839891169" TEXT="html5shiv"/>
+<node COLOR="#0033ff" CREATED="1420839858187" ID="ID_1288575417" LINK="https://github.com/scottjehl/Respond" MODIFIED="1420839872385" TEXT="respond.js"/>
 </node>
-<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1419328567150" POSITION="right" TEXT="Engine">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1420822021043" POSITION="right" TEXT="Engine">
+<font NAME="SansSerif" SIZE="15"/>
 <node COLOR="#009999" CREATED="1357148058475" ID="ID_290312899" LINK="server/Node.js.mm" MODIFIED="1392649829517" TEXT="Node.js">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -259,9 +261,9 @@
 <node CREATED="1307097896172" ID="ID_604037639" LINK="http://www.mozilla.org/rhino/" MODIFIED="1307097933581" TEXT="rhino"/>
 </node>
 </node>
-<node CREATED="1418754126986" FOLDED="true" ID="ID_1969912874" MODIFIED="1419328572157" POSITION="left" TEXT="core">
-<node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1418754138585" TEXT="types">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1418754126986" FOLDED="true" ID="ID_1969912874" MODIFIED="1420822036575" POSITION="left" TEXT="core">
+<node CREATED="1288878841397" FOLDED="true" ID="ID_1732712561" MODIFIED="1420822035936" TEXT="types">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1288878845078" FOLDED="true" ID="ID_1393940341" MODIFIED="1355337152680" TEXT="Array">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1290675371398" ID="ID_1109876137" MODIFIED="1355233971713" TEXT="remove">
@@ -552,8 +554,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1290779782717" FOLDED="true" ID="ID_1147256074" MODIFIED="1418754136492" TEXT="operations">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1290779782717" FOLDED="true" ID="ID_1147256074" MODIFIED="1420822035936" TEXT="operations">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1290675749078" FOLDED="true" ID="ID_1873207825" MODIFIED="1357837213604" TEXT="clone">
 <node COLOR="#0033ff" CREATED="1290675760303" ID="ID_1250613880" MODIFIED="1307435002764">
 <richcontent TYPE="NODE"><html>
@@ -713,8 +715,8 @@
 <node CREATED="1290779800255" ID="ID_1854719369" LINK="http://www.jibbering.com/faq/notes/type-conversion/" MODIFIED="1328630117086" TEXT="links1"/>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1418754134021" TEXT="OBJECTS">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node COLOR="#338800" CREATED="1307434903922" FOLDED="true" ID="ID_410338370" MODIFIED="1420822035936" TEXT="OBJECTS">
+<font NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1357726603924" ID="ID_1228545119" MODIFIED="1357726606996" TEXT="document">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -987,8 +989,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1357837247228" FOLDED="true" ID="ID_565291198" MODIFIED="1418754140412" TEXT="functions">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357837247228" FOLDED="true" ID="ID_565291198" MODIFIED="1420822035936" TEXT="functions">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357837240154" ID="ID_587763437" MODIFIED="1357837244201" TEXT="timer">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357837225206" FOLDED="true" ID="ID_362924911" MODIFIED="1357837542548">
@@ -1048,8 +1050,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1398882622279" FOLDED="true" ID="ID_1424880355" MODIFIED="1418754141741" TEXT="elements">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1398882622279" FOLDED="true" ID="ID_1424880355" MODIFIED="1420822035936" TEXT="elements">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1398882628569" ID="ID_1398293829" LINK="http://javascript.info/tutorial/searching-elements-dom" MODIFIED="1398882657826">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1064,12 +1066,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1419328571909" POSITION="left" TEXT="Browser">
-<node CREATED="1364305502013" ID="ID_1392687097" LINK="../OS/Cross/Web/Firefox.mm" MODIFIED="1364305666952" TEXT="firefox">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1420822037222" POSITION="left" TEXT="Browser">
+<node CREATED="1364305502013" ID="ID_1392687097" LINK="../OS/Cross/Web/Firefox.mm" MODIFIED="1420822032471" TEXT="firefox">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1357728117546" FOLDED="true" ID="ID_581548053" MODIFIED="1362498337239" TEXT="chrome">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357728117546" FOLDED="true" ID="ID_581548053" MODIFIED="1420822032471" TEXT="chrome">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1362497618819" FOLDED="true" ID="ID_1499538186" MODIFIED="1362498335354" TEXT="xpath">
 <node CREATED="1362497636736" FOLDED="true" ID="ID_183184559" MODIFIED="1362498331295" TEXT="debug">
 <node CREATED="1362497640125" ID="ID_529153595" MODIFIED="1362497689346">
@@ -1090,14 +1092,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1357728130460" ID="ID_1879172063" MODIFIED="1357728148350" TEXT="safary">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357728130460" ID="ID_1879172063" MODIFIED="1420822032471" TEXT="safary">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1357728121553" ID="ID_1753490774" MODIFIED="1357728148350" TEXT="opera">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357728121553" ID="ID_1753490774" MODIFIED="1420822032471" TEXT="opera">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1357728124219" FOLDED="true" ID="ID_1585452841" MODIFIED="1357840888072" TEXT="ie">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357728124219" FOLDED="true" ID="ID_1585452841" MODIFIED="1420822032470" TEXT="ie">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357840628476" FOLDED="true" ID="ID_1214273483" MODIFIED="1357840886847" TEXT="&lt;iframe&gt;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357840646586" ID="ID_1403734863" MODIFIED="1357840884457">
@@ -1118,7 +1120,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1419328530685" FOLDED="true" ID="ID_1880140087" MODIFIED="1419346510490" POSITION="left" TEXT="info">
+<node CREATED="1419328530685" FOLDED="true" ID="ID_1880140087" MODIFIED="1420822037566" POSITION="left" TEXT="info">
 <node COLOR="#990000" CREATED="1351605948750" FOLDED="true" ID="ID_1071224225" MODIFIED="1418754764563" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1351605953255" ID="ID_1441700475" LINK="http://caniuse.com/" MODIFIED="1351605973986" TEXT="canIUse"/>
@@ -1177,6 +1179,9 @@
 </node>
 </node>
 <node COLOR="#990099" CREATED="1419328536293" ID="ID_1341994167" LINK="https://github.com/jsprodotcom/source" MODIFIED="1419328553364" TEXT="Set of js apps"/>
+</node>
+<node CREATED="1420822023004" FOLDED="true" ID="ID_470620448" MODIFIED="1420822038383" POSITION="left" TEXT="test">
+<node CREATED="1420822025631" ID="ID_864695065" MODIFIED="1420822025631" TEXT=""/>
 </node>
 </node>
 </map>

@@ -1,9 +1,9 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#006633" CREATED="1348054359883" ID="ID_1290849412" LINK="../Crossplatform.mm" MODIFIED="1381704746960" TEXT="Sublime">
-<font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1348054383724" FOLDED="true" ID="ID_1207364740" MODIFIED="1418384519599" POSITION="right" TEXT="plugins">
-<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+<node COLOR="#006633" CREATED="1348054359883" ID="ID_1290849412" LINK="../Crossplatform.mm" MODIFIED="1420822101181" TEXT="Sublime">
+<font NAME="SansSerif" SIZE="23"/>
+<node CREATED="1348054383724" FOLDED="true" ID="ID_1207364740" MODIFIED="1420818729972" POSITION="right" TEXT="plugins">
+<font NAME="SansSerif" SIZE="13"/>
 <node CREATED="1348054390991" FOLDED="true" ID="ID_789731113" MODIFIED="1418384519374" TEXT="work remote">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1348054420597" ID="ID_432849325" LINK="http://urbangiraffe.com/2011/08/13/remote-editing-with-sublime-text-2/" MODIFIED="1348054479275" TEXT="simple ssh + python"/>
@@ -53,8 +53,7 @@
       <b><font color="#009999">github</font></b>&#160;FileZilla
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1378984838793" FOLDED="true" ID="ID_1333268103" MODIFIED="1381704085134" TEXT="code">
@@ -159,8 +158,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1353338690297" FOLDED="true" ID="ID_1889510088" LINK="http://www.sublimetext.com/docs/2/projects.html" MODIFIED="1385462389183" POSITION="left" TEXT="projects">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1353338690297" FOLDED="true" ID="ID_1889510088" LINK="http://www.sublimetext.com/docs/2/projects.html" MODIFIED="1420818742746" POSITION="left" TEXT="projects">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1378980254553" ID="ID_1209766017" MODIFIED="1378980316184">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -213,8 +212,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1385462394535" POSITION="left" TEXT="config">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1353338701198" FOLDED="true" ID="ID_182490694" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-project-bliss/" MODIFIED="1420818757161" POSITION="left" TEXT="config">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355140000578" ID="ID_624009682" MODIFIED="1381704791242">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -254,8 +253,8 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1355140175527" ID="ID_1637713145" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=3&amp;t=2691" MODIFIED="1358849230705" TEXT="highlight_line">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355140175527" ID="ID_1637713145" LINK="http://www.sublimetext.com/forum/viewtopic.php?f=3&amp;t=2691" MODIFIED="1420818746929" TEXT="highlight_line">
+<font NAME="SansSerif" SIZE="15"/>
 </node>
 <node CREATED="1365522662245" ID="ID_1860106179" LINK="Vendini_Constants::VENDINI_URL" MODIFIED="1365522701029">
 <richcontent TYPE="NODE"><html>
@@ -314,23 +313,23 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1355495398680" ID="ID_348230933" LINK="http://sublimetext.info/docs/en/reference/key_bindings.html" MODIFIED="1385462347774" TEXT="key binding">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355495398680" ID="ID_348230933" LINK="http://sublimetext.info/docs/en/reference/key_bindings.html" MODIFIED="1420818750940" TEXT="key binding">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1385462352053" ID="ID_592665931" LINK="http://docs.sublimetext.info/en/latest/reference/key_bindings.html" MODIFIED="1385462380608" TEXT="user keybinding">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1385462352053" ID="ID_592665931" LINK="http://docs.sublimetext.info/en/latest/reference/key_bindings.html" MODIFIED="1420818750940" TEXT="user keybinding">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1358849060871" FOLDED="true" ID="ID_1548680707" MODIFIED="1385462397058" POSITION="left" TEXT="learn">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1358849060871" FOLDED="true" ID="ID_1548680707" MODIFIED="1420818754843" POSITION="left" TEXT="learn">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1358849063683" ID="ID_269352641" LINK="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/" MODIFIED="1358849073236" TEXT="nettuts">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1363106137025" FOLDED="true" ID="ID_1688653347" MODIFIED="1385462398316" POSITION="left" TEXT="build system">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1363106137025" FOLDED="true" ID="ID_1688653347" MODIFIED="1420818760747" POSITION="left" TEXT="build system">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1363106141257" ID="ID_1778669221" LINK="http://docs.sublimetext.info/en/latest/file_processing/build_systems.html" MODIFIED="1363106144444" TEXT="docs"/>
-<node CREATED="1352716591221" FOLDED="true" ID="ID_1252305111" LINK="http://joeybaker.tumblr.com/post/7304011987/how-to-add-php-validation-to-sublime-text-2" MODIFIED="1381704057704" TEXT="validate php">
+<node CREATED="1352716591221" FOLDED="true" ID="ID_1252305111" LINK="http://joeybaker.tumblr.com/post/7304011987/how-to-add-php-validation-to-sublime-text-2" MODIFIED="1420818760501" TEXT="validate php">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1353670059473" ID="ID_218911513" MODIFIED="1353670170584">
 <richcontent TYPE="NODE"><html>

@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1420558512533" TEXT="MacOS">
-<font BOLD="true" NAME="SansSerif" SIZE="22"/>
+<node CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1420822088332" TEXT="MacOS">
+<font NAME="SansSerif" SIZE="22"/>
 <node CREATED="1365585009526" FOLDED="true" ID="ID_1508479409" MODIFIED="1409746460396" POSITION="right" TEXT="hackintosh">
 <node COLOR="#009999" CREATED="1365585019963" ID="ID_377081837" LINK="http://www.souldevteam.net/" MODIFIED="1365585031365" TEXT="souldev team">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -80,9 +80,25 @@
 </node>
 </node>
 </node>
-<node CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1420558488672" POSITION="left" TEXT="cmd">
-<node COLOR="#0033ff" CREATED="1383382735381" FOLDED="true" ID="ID_320566450" MODIFIED="1420558475185" TEXT="sshfs">
+<node CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1420798302281" POSITION="left" TEXT="cmd">
+<node COLOR="#0033ff" CREATED="1383382735381" FOLDED="true" ID="ID_320566450" MODIFIED="1420798301137" TEXT="sshfs">
 <node CREATED="1383382738892" ID="ID_828449256" LINK="http://www.read-write.fr/blog/blog/2012/02/26/my-guide-for-sshfs/" MODIFIED="1383382750058" TEXT="read-write"/>
+<node CREATED="1420798147975" ID="ID_764085653" MODIFIED="1420798185903">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">$ sshfs username@remoteserver:/webapps/ ~/mountpoint -oauto_cache,reconnect,defer_permissions,noappledouble,negative_vncache,volname=myVolName&#160;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1420798296980" FOLDED="true" ID="ID_729828786" MODIFIED="1420798300010" TEXT="my">
+<node CREATED="1420798290049" ID="ID_1249685444" MODIFIED="1420798293103" TEXT="sshfs olko@serafim.mine.nu:/home/olko ~/serafim -oauto_cache,reconnect,defer_permissions,noappledouble,negative_vncache,volname=serafim"/>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1385146105361" FOLDED="true" ID="ID_1393334735" MODIFIED="1420558477225" TEXT="xattr">
 <node CREATED="1385146117000" ID="ID_1433751171" LINK="http://unix.stackexchange.com/questions/10/what-does-the-mean-in-ls-l" MODIFIED="1385146173199">
