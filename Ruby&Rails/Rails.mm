@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1420823747978" TEXT="Rails">
 <font NAME="SansSerif" SIZE="25"/>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1420822694470" POSITION="right" TEXT="Models">
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1421261454980" POSITION="right" TEXT="Models">
 <font NAME="SansSerif" SIZE="20"/>
 <node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1420818013502" TEXT="validate">
 <node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
@@ -61,9 +61,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1283197399152" FOLDED="true" ID="ID_1130362241" MODIFIED="1420822692608" TEXT="db">
+<node COLOR="#338800" CREATED="1283197399152" FOLDED="true" ID="ID_1130362241" MODIFIED="1421261454485" TEXT="db">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1419241850538" TEXT="Migration">
+<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1421143035883" TEXT="migration">
 <node CREATED="1283197450026" ID="ID_1587485051" MODIFIED="1416840201422">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -76,8 +76,8 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1419241846920" TEXT="script">
-<node CREATED="1287135483060" FOLDED="true" ID="ID_130200917" MODIFIED="1419241840890" TEXT="table">
+<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1421143035595" TEXT="script">
+<node CREATED="1287135483060" FOLDED="true" ID="ID_130200917" MODIFIED="1421139681690" TEXT="table">
 <node COLOR="#0033ff" CREATED="1285662412008" FOLDED="true" ID="ID_628195570" MODIFIED="1419241840304" TEXT="create_table">
 <node CREATED="1285662758957" FOLDED="true" ID="ID_1855141473" MODIFIED="1419241839722" TEXT="parameters">
 <node CREATED="1285662780127" ID="ID_1634046804" MODIFIED="1416838808552">
@@ -242,7 +242,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1287135276110" ID="ID_1281262412" MODIFIED="1419241807947" TEXT="drop_table">
+<node COLOR="#0033ff" CREATED="1287135276110" FOLDED="true" ID="ID_1281262412" MODIFIED="1421139680901" TEXT="drop_table">
 <node CREATED="1287135496632" ID="ID_1928440978" MODIFIED="1416839254611">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -257,7 +257,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1287135525738" FOLDED="true" ID="ID_1091120829" MODIFIED="1419241831959" TEXT="columns">
+<node CREATED="1287135525738" FOLDED="true" ID="ID_1091120829" MODIFIED="1421143034797" TEXT="columns">
 <node CREATED="1287135205372" ID="ID_538089736" MODIFIED="1416839395955">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -330,17 +330,57 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1421139697332" ID="ID_69078408" LINK="http://stackoverflow.com/questions/7542976/add-timestamps-to-an-existing-table" MODIFIED="1421143027056">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # add timestamps
+    </p>
+    <p>
+      <font color="#0000ff">class AddTimestampsToUser &lt; ActiveRecord::Migration </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;def change_table </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160; <b>add_column(:users, :created_at, :datetime) </b></font>
+    </p>
+    <p>
+      <font color="#0000ff"><b>&#160;&#160;&#160;&#160;&#160;&#160;add_column(:users, :updated_at, :datetime)</b>&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # shortcut in terminal
+    </p>
+    <p>
+      <font color="#0000ff">rails g migration AddTimestampsToUser created_at:datetime updated_at:datetime</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1419241842312" TEXT="indices">
-<node CREATED="1285662542450" FOLDED="true" ID="ID_920920231" MODIFIED="1419241830998" TEXT="add_index">
+</node>
+<node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1421139761313" TEXT="indices">
+<node CREATED="1285662542450" FOLDED="true" ID="ID_920920231" MODIFIED="1421139690584" TEXT="add_index">
 <node CREATED="1285662588503" ID="ID_339556725" MODIFIED="1285662608764" TEXT="also possible adding of the unique"/>
 <node COLOR="#0033ff" CREATED="1285662565541" ID="ID_1988140670" MODIFIED="1416839296011" TEXT="add_index :users, :name"/>
 </node>
-<node CREATED="1285663949325" FOLDED="true" ID="ID_1629839388" MODIFIED="1419241830774" TEXT="remove_index">
+<node CREATED="1285663949325" FOLDED="true" ID="ID_1629839388" MODIFIED="1421139687743" TEXT="remove_index">
 <node COLOR="#0033ff" CREATED="1285663957616" ID="ID_943032537" MODIFIED="1416839296012" TEXT="remove_index :orders, :name"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1416566476800" ID="ID_868352331" MODIFIED="1419241822514" TEXT="create ruby script from existing db">
+<node COLOR="#990099" CREATED="1416566476800" FOLDED="true" ID="ID_868352331" MODIFIED="1421139785881" TEXT="create ruby script from existing db">
 <node CREATED="1416697834184" ID="ID_1920149502" MODIFIED="1416839602679">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -406,11 +446,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1287675779471" FOLDED="true" ID="ID_820323342" MODIFIED="1419241849138" TEXT="irreversible migration">
+<node CREATED="1287675779471" FOLDED="true" ID="ID_820323342" MODIFIED="1421139789473" TEXT="irreversible migration">
 <node COLOR="#0033ff" CREATED="1287675790052" ID="ID_437452920" MODIFIED="1416839494823" TEXT="raise ActiveRecord::IrreversibleMigration "/>
 </node>
 </node>
-<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1420822690887" TEXT="configuration">
+<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1421139793676" TEXT="configuration">
 <node CREATED="1420822145349" ID="ID_1238392466" MODIFIED="1420822170101">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -448,8 +488,7 @@
       <font color="#0000ff">&#160;&#160;socket: /tmp/mysql.sock</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1420822171416" ID="ID_1982080777" MODIFIED="1420822669021">
 <richcontent TYPE="NODE"><html>
@@ -491,8 +530,7 @@
       <font color="#0000ff">&#160;&#160;host: localhost </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1420822188130" ID="ID_1049566929" MODIFIED="1420822211556">
 <richcontent TYPE="NODE"><html>
@@ -519,9 +557,11 @@
       <font color="#0000ff">&#160;&#160;timeout: 5000</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+<node CREATED="1421261381206" FOLDED="true" ID="ID_261475142" MODIFIED="1421261453141" TEXT="db/seeds.rb">
+<node COLOR="#0033ff" CREATED="1421261417332" ID="ID_1423604787" MODIFIED="1421261449035" TEXT="User.create(name: &apos;user&apos;, password: &apos;password&apos;)"/>
 </node>
 <node COLOR="#990099" CREATED="1416566466801" ID="ID_369394075" LINK="http://stackoverflow.com/questions/6021372/best-way-to-create-unique-token-in-rails" MODIFIED="1416840273419" TEXT="create hash token"/>
 <node COLOR="#990099" CREATED="1416840123243" ID="ID_1727965400" LINK="http://devblog.moz.com/2010/10/non-integer-primary-keys-in-rails/" MODIFIED="1416841240940" TEXT="create table with md5 index"/>
@@ -543,7 +583,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1283338536187" FOLDED="true" ID="ID_868166275" MODIFIED="1420818683482" POSITION="left" TEXT="Views">
+<node CREATED="1283338536187" FOLDED="true" ID="ID_868166275" MODIFIED="1421274115612" POSITION="left" TEXT="Views">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1357148768105" FOLDED="true" ID="ID_955436171" MODIFIED="1420818632928" TEXT="form">
 <node CREATED="1284038090046" ID="ID_1814901924" MODIFIED="1357148796473">
@@ -563,7 +603,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1419242352266" ID="ID_1747444302" LINK="https://github.com/plataformatec/simple_form" MODIFIED="1419242647955" TEXT="simple_form"/>
 </node>
-<node CREATED="1283338542812" FOLDED="true" ID="ID_1767856036" MODIFIED="1420818682507" TEXT="Layouts">
+<node CREATED="1283338542812" FOLDED="true" ID="ID_1767856036" MODIFIED="1421274115113" TEXT="Layouts">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1284455846863" ID="ID_1883710591" MODIFIED="1420818680812">
 <richcontent TYPE="NODE"><html>
@@ -575,8 +615,7 @@
       dafault layout you can specify in <font color="#0033ff">app/controller/application</font>&#160;&#160;by setting layout <font color="#0033ff">&quot;&lt;name of layout&gt;&quot;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1283932075671" ID="ID_335798303" MODIFIED="1420818668089">
@@ -589,10 +628,9 @@
       main controller layout placed in layout directory with name of <font color="#0033ff">&lt;controller_name&gt;.html.erb</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1283338546484" FOLDED="true" ID="ID_1176584498" MODIFIED="1420818093488" TEXT="content">
+<node CREATED="1283338546484" FOLDED="true" ID="ID_1176584498" MODIFIED="1421274114463" TEXT="content">
 <node CREATED="1283338551093" ID="ID_1043545982" MODIFIED="1357148855420">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -605,29 +643,30 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1297859917861" ID="ID_1397441571" MODIFIED="1357149035290">
+<node CREATED="1297859917861" ID="ID_1397441571" MODIFIED="1421274113163">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#xa0;&#xa0;in layout
+      # in layout
     </p>
     <p>
-      <font color="#0033ff">&lt;% content_for :stylesheets do %&gt; </font>
+      <font color="#0033ff">&lt;% <b>content_fo</b>r :stylesheets do %&gt; </font>
     </p>
     <p>
-      <font color="#0033ff">&#xa0;&#xa0;&#xa0;#top_menu {display: none}&#xa0;&#xa0;&#xa0; </font>
+      <font color="#0033ff">&#160;&#160;&#160;#top_menu {display: none}&#160;&#160;&#160; </font>
     </p>
     <p>
-      <font color="#0033ff">&#xa0;&#xa0;&#xa0;#right_menu {float: right; background-color: yellow; color: black} </font>
+      <font color="#0033ff">&#160;&#160;&#160;#right_menu {float: right; background-color: yellow; color: black} </font>
     </p>
     <p>
       <font color="#0033ff">&lt;% end %&gt;</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1357148959898" ID="ID_138995706" MODIFIED="1357149004969">
 <richcontent TYPE="NODE"><html>
@@ -748,9 +787,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1420823731272" POSITION="left" TEXT="Auth">
+<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1421274183717" POSITION="left" TEXT="Auth">
 <font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1287575635651" FOLDED="true" ID="ID_372420420" MODIFIED="1420818624200" TEXT="Auth_token">
+<node CREATED="1287575635651" FOLDED="true" ID="ID_372420420" MODIFIED="1421145920261" TEXT="Auth_token">
 <node CREATED="1287575640947" ID="ID_24275664" MODIFIED="1357148532020">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -766,12 +805,108 @@
 <node CREATED="1419370576246" ID="ID_1225230829" LINK="#ID_1588476019" MODIFIED="1419370581077" TEXT="docs"/>
 </node>
 <node CREATED="1284454690794" ID="ID_687445412" LINK="#ID_1959650661" MODIFIED="1420818592098" TEXT="by using filters"/>
+<node COLOR="#0033ff" CREATED="1419367444468" FOLDED="true" ID="ID_1071549546" LINK="http://devise.plataformatec.com.br/" MODIFIED="1421274181487" TEXT="devise">
+<node CREATED="1419368527236" ID="ID_1077958794" MODIFIED="1421146158558" TEXT="fields names">
+<node COLOR="#0033ff" CREATED="1419368559625" FOLDED="true" ID="ID_1858747917" MODIFIED="1421146110900" TEXT="user">
+<node COLOR="#0033ff" CREATED="1419368531007" ID="ID_1355033499" MODIFIED="1421146110169" TEXT="user[email]"/>
+<node COLOR="#0033ff" CREATED="1419368536278" ID="ID_963371132" MODIFIED="1421146110168" TEXT="user[password]"/>
+<node COLOR="#0033ff" CREATED="1419368541877" ID="ID_1616427376" MODIFIED="1421146110167" TEXT="user[password_confirmation]"/>
+<node COLOR="#0033ff" CREATED="1419368550939" ID="ID_816501787" MODIFIED="1421146110166" TEXT="user[current_password]"/>
 </node>
-<node CREATED="1282900468984" FOLDED="true" ID="ID_339698472" MODIFIED="1420818695945" POSITION="left" TEXT="Controllers">
+</node>
+<node CREATED="1419370682630" FOLDED="true" ID="ID_17638157" MODIFIED="1421274119671" TEXT="docs">
+<node CREATED="1419370684534" ID="ID_798347284" LINK="http://stackoverflow.com/questions/9272272/where-is-devise-implementation-of-authenticate-user-method" MODIFIED="1419370713102">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>user auth</b>&#160;implementation
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1419370446482" FOLDED="true" ID="ID_704729665" MODIFIED="1421274119478" TEXT="off. docs">
+<node CREATED="1419370449489" ID="ID_1850752848" LINK="http://devise.plataformatec.com.br/" MODIFIED="1419370458555" TEXT="override confirmations"/>
+<node CREATED="1419370464065" ID="ID_331302994" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Email-only-sign-up" MODIFIED="1419370472867" TEXT="email only sing up"/>
+<node CREATED="1419370489009" ID="ID_1822844868" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-edit-their-account-without-providing-a-password" MODIFIED="1419370496534" TEXT="allow edit accoutn w/o pass"/>
+<node CREATED="1419370505335" ID="ID_1905259254" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-edit-their-password" MODIFIED="1419370514664" TEXT="allow users to edit pass"/>
+<node CREATED="1419370648919" ID="ID_617799091" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Define-resource-actions-that-require-authentication-using-routes.rb" MODIFIED="1419370659350" TEXT="define resource req/ auth"/>
+<node CREATED="1421261284863" FOLDED="true" ID="ID_779810914" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Add-sign_in,-sign_out,-and-sign_up-links-to-your-layout-template" MODIFIED="1421261357581" TEXT="sign_in sign_out">
+<node CREATED="1421261343607" ID="ID_782014669" MODIFIED="1421261349084">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # views/devise/menu/_login_items.html.erb
+    </p>
+    <p>
+      &lt;% if user_signed_in? %&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;li&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;%= link_to('Logout', destroy_user_session_path, :method =&gt; :delete) %&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&lt;/li&gt;
+    </p>
+    <p>
+      &lt;% else %&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;li&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;%= link_to('Login', new_user_session_path)&#160;&#160;%&gt;&#160;
+    </p>
+    <p>
+      &#160;&#160;&lt;/li&gt;
+    </p>
+    <p>
+      &lt;% end %&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1419367993459" FOLDED="true" ID="ID_838421469" MODIFIED="1421146187262" TEXT="tutors">
+<node CREATED="1419367995599" ID="ID_103954873" LINK="http://lucatironi.github.io/tutorial/2012/10/15/ruby_rails_android_app_authentication_devise_tutorial_part_one/" MODIFIED="1419368007586" TEXT="android + json +"/>
+<node CREATED="1419368008841" ID="ID_775270567" LINK="http://stackoverflow.com/questions/21505956/authentication-from-json-api-on-rails-with-devise" MODIFIED="1419368050573" TEXT="json api + rails +"/>
+<node CREATED="1419370238989" FOLDED="true" ID="ID_1011518807" LINK="http://stackoverflow.com/questions/3263291/how-can-i-simply-verify-that-a-username-and-password-are-correct-with-devise-and" MODIFIED="1421146175421" TEXT="verify user + pass">
+<node CREATED="1419370305090" ID="ID_833928417" LINK="http://stackoverflow.com/questions/15080493/how-to-check-if-a-users-password-is-correct-without-logging-them-in-with-devise" MODIFIED="1419370319014" TEXT="clone"/>
+</node>
+<node CREATED="1421144383835" ID="ID_993229889" MODIFIED="1421146184428" TEXT="with angular">
+<node COLOR="#990099" CREATED="1421144387715" ID="ID_1589348786" LINK="http://mkwiatkowski.github.io/angularjs-rails4-trug-presentation/#28" MODIFIED="1421144421130" TEXT="presentations mkwiatkovski"/>
+<node COLOR="#990099" CREATED="1421144426873" ID="ID_1990382672" LINK="https://www.airpair.com/ruby-on-rails/posts/authentication-with-angularjs-and-ruby-on-rails" MODIFIED="1421144487696" TEXT="airpair"/>
+<node COLOR="#990099" CREATED="1421144463889" ID="ID_140393884" LINK="https://shellycloud.com/blog/2013/10/how-to-integrate-angularjs-with-rails-4" MODIFIED="1421144487698" TEXT="shellycloud"/>
+<node COLOR="#990099" CREATED="1421144494545" ID="ID_1977903525" LINK="http://jes.al/2013/08/authentication-with-rails-devise-and-angularjs/" MODIFIED="1421144501107" TEXT="jes.al"/>
+<node COLOR="#0033ff" CREATED="1421144478179" ID="ID_46683890" LINK="https://github.com/cloudspace/angular_devise" MODIFIED="1421144485240" TEXT="angular-devise"/>
+<node CREATED="1419368488446" ID="ID_1525022651" LINK="http://technpol.wordpress.com/2013/09/23/angularjs-and-devise-authentication-with-a-rails-server/" MODIFIED="1421146170376" TEXT="angular-js + "/>
+</node>
+</node>
+</node>
+<node CREATED="1419513102983" FOLDED="true" ID="ID_393697560" MODIFIED="1421146152826" TEXT="solutions">
+<node CREATED="1419513109770" ID="ID_855596827" LINK="http://stackoverflow.com/questions/4264750/devise-logging-out-automatically-after-password-change" MODIFIED="1421146118584" TEXT="user sign off after pass change"/>
+</node>
+<node COLOR="#0033ff" CREATED="1421274127119" FOLDED="true" ID="ID_155705559" LINK="https://github.com/intridea/omniauth" MODIFIED="1421274181235" TEXT="omniauth">
+<node COLOR="#0033ff" CREATED="1421274151796" ID="ID_1022249701" LINK="https://github.com/intridea/omniauth/wiki/List-of-Strategies" MODIFIED="1421274161566" TEXT="list of strategies"/>
+<node COLOR="#0033ff" CREATED="1421274167806" ID="ID_609496789" LINK="https://github.com/mkdynamic/omniauth-facebook" MODIFIED="1421274176294" TEXT="omniauth_facebook"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1419367446342" ID="ID_46498312" LINK="https://github.com/CanCanCommunity/cancancan" MODIFIED="1420722582851" TEXT="cancancan"/>
+</node>
+<node CREATED="1282900468984" FOLDED="true" ID="ID_339698472" MODIFIED="1421274306784" POSITION="left" TEXT="Controllers">
 <font NAME="SansSerif" SIZE="18"/>
-<node CREATED="1419191523228" FOLDED="true" ID="ID_903974210" MODIFIED="1420818595615" TEXT="Resources">
+<node CREATED="1419191523228" FOLDED="true" ID="ID_903974210" MODIFIED="1421274306529" TEXT="Resources">
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#0033ff" CREATED="1419191548805" FOLDED="true" ID="ID_1078658569" LINK="https://github.com/josevalim/inherited_resources" MODIFIED="1420818595189" TEXT="inherited resources">
+<node COLOR="#0033ff" CREATED="1419191548805" FOLDED="true" ID="ID_1078658569" LINK="https://github.com/josevalim/inherited_resources" MODIFIED="1421274306290" TEXT="inherited resources">
 <font NAME="SansSerif" SIZE="17"/>
 <node COLOR="#009999" CREATED="1419193546378" ID="ID_310232717" LINK="http://blog.plataformatec.com.br/2009/08/inherited-resources-is-scopes-and-responder-fluent/" MODIFIED="1419193570576" TEXT="platformatec"/>
 </node>
@@ -779,7 +914,7 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1419242688417" FOLDED="true" ID="ID_737361897" MODIFIED="1420818564882" TEXT="REST">
+<node COLOR="#0033ff" CREATED="1419242688417" FOLDED="true" ID="ID_737361897" MODIFIED="1421274301913" TEXT="REST">
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1419242700349" FOLDED="true" ID="ID_806148050" MODIFIED="1420818564608" TEXT="info">
 <node COLOR="#990099" CREATED="1419242722058" ID="ID_846828178" LINK="https://shellycloud.com/blog/2013/10/how-to-integrate-angularjs-with-rails-4" MODIFIED="1419242731079" TEXT="rails4 + angular"/>
@@ -819,7 +954,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1283359770375" FOLDED="true" ID="ID_790870058" MODIFIED="1420818512542" POSITION="right" TEXT="Sessions">
+<node CREATED="1283359770375" FOLDED="true" ID="ID_790870058" MODIFIED="1421142955200" POSITION="right" TEXT="Sessions">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1283416994734" FOLDED="true" ID="ID_1935893792" MODIFIED="1420818004871" TEXT="DB">
 <node CREATED="1298649629966" FOLDED="true" ID="ID_1017407797" MODIFIED="1420818004335" TEXT="Using multi databases">
@@ -1020,7 +1155,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1420823732817" POSITION="right">
+<node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1421142954350" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1030,10 +1165,9 @@
       rails
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1283240138625" FOLDED="true" ID="ID_296344086" MODIFIED="1420818276996">
+<node CREATED="1283240138625" FOLDED="true" ID="ID_296344086" MODIFIED="1421141010352">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1043,9 +1177,8 @@
       <font color="#0033ff">server</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1357149689013" ID="ID_757211888" MODIFIED="1357149720807">
+</html></richcontent>
+<node CREATED="1421140807359" ID="ID_1798773945" MODIFIED="1421140998444">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1055,67 +1188,26 @@
       # help
     </p>
     <p>
-      <font color="#0033ff"><b>rails server -h</b></font>
+      <font color="#0033ff">$ rails server <b>-h</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # load specific server
+    </p>
+    <p>
+      <font color="#0000ff">$ rails s <b>&lt;server_name&gt;</b></font>
+    </p>
+    <p>
+      <font color="#0033ff">$ rails server <b>mongrel</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1283240195640" ID="ID_752197087" MODIFIED="1357149751776">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # loads webrick
-    </p>
-    <p>
-      <font color="#0033ff"><b>rails server webrick</b></font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1283240214093" FOLDED="true" ID="ID_138745101" MODIFIED="1420818272424">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#000000"># mongrel</font>
-    </p>
-    <p>
-      <font color="#0033ff"><b>rails sever mongrel</b></font>
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1283240265843" ID="ID_789820642" MODIFIED="1357149525113">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0033ff"><b>-p</b></font>&#xa0;port number
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1283240277375" ID="ID_1107355410" MODIFIED="1357149511622">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0033ff"><b>-d</b></font>&#xa0;to detach server
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1283442966093" FOLDED="true" ID="ID_577858243" LINK="https://www.phusionpassenger.com/" MODIFIED="1420818274369" TEXT="passenger">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1283442966093" FOLDED="true" ID="ID_577858243" LINK="https://www.phusionpassenger.com/" MODIFIED="1421140968823" TEXT="passenger">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357159294687" ID="ID_775613537" MODIFIED="1412256580275">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1153,17 +1245,17 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1419192868151" ID="ID_720993354" MODIFIED="1419242203734" TEXT="unicorn">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1419192868151" ID="ID_720993354" LINK="http://unicorn.bogomips.org/" MODIFIED="1421139911918" TEXT="unicorn">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1419192871438" ID="ID_947244116" MODIFIED="1419242203735" TEXT="puma">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1419192871438" ID="ID_947244116" LINK="https://github.com/puma/puma" MODIFIED="1421139823432" TEXT="puma">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1419192893059" ID="ID_1145767937" MODIFIED="1419242203735" TEXT="thin">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1419192893059" ID="ID_1145767937" LINK="https://github.com/macournoyer/thin/" MODIFIED="1421139926379" TEXT="thin">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357147340970" FOLDED="true" ID="ID_973348776" LINK="https://github.com/sstephenson/execjs" MODIFIED="1420818348643">
+<node COLOR="#0033ff" CREATED="1357147340970" FOLDED="true" ID="ID_973348776" LINK="https://github.com/sstephenson/execjs" MODIFIED="1421142953857">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1173,8 +1265,7 @@
       execjs&#160;<font color="#000000">(js run)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357147874526" ID="ID_840529058" MODIFIED="1357147916147">
 <richcontent TYPE="NODE"><html>
@@ -1227,8 +1318,7 @@
       controller
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1420818171223" FOLDED="true" ID="ID_1330473271" MODIFIED="1420818320709">
 <richcontent TYPE="NODE"><html>
@@ -1240,8 +1330,7 @@
       model
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1420818193648" ID="ID_449136174" MODIFIED="1420818317281">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1255,8 +1344,7 @@
       <font color="#0000ff">$ rails g model &lt;model-params&gt; <b>--no-migration</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1420818207378" ID="ID_1500988360" MODIFIED="1420818239888" TEXT="migration"/>
@@ -1343,7 +1431,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1420818699626" POSITION="right" TEXT="Testing">
+<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1421274298585" POSITION="right" TEXT="Testing">
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1284982183137" ID="ID_1610244121" LINK="#ID_1104785174" MODIFIED="1419192981659" TEXT="rake"/>
 <node CREATED="1284982198269" ID="ID_88991437" MODIFIED="1284982201066" TEXT="single test">
@@ -1351,12 +1439,12 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1285143603293" FOLDED="true" ID="ID_681903283" MODIFIED="1420818029053" TEXT="info">
+<node CREATED="1285143603293" FOLDED="true" ID="ID_681903283" MODIFIED="1421274297891" TEXT="info">
 <node CREATED="1285143606013" ID="ID_1975503534" MODIFIED="1285145904698" TEXT="Rails calls things that test models unit tests"/>
 <node CREATED="1285145905781" ID="ID_1290616147" MODIFIED="1285145915479" TEXT="things that test a single action in a controller functional tests"/>
 <node CREATED="1285145916195" ID="ID_1617886327" MODIFIED="1285145924615" TEXT="and things that test the flow through one or more controllers integration tests."/>
 </node>
-<node CREATED="1285145990807" FOLDED="true" ID="ID_269607368" MODIFIED="1420818031742" TEXT="model(unit testing)">
+<node CREATED="1285145990807" FOLDED="true" ID="ID_269607368" MODIFIED="1420910004262" TEXT="model(unit testing)">
 <node CREATED="1285145993767" ID="ID_781289967" MODIFIED="1285146007836" TEXT="using of .valid? method is very usefull"/>
 <node CREATED="1285146008165" ID="ID_358369434" MODIFIED="1285146030832" TEXT="assert !&lt;model&gt;.valid?"/>
 <node CREATED="1285154623996" ID="ID_551680118" MODIFIED="1419193164865" TEXT="type of assert"/>
@@ -1431,7 +1519,7 @@
 </node>
 <node CREATED="1286889158911" ID="ID_1250343124" MODIFIED="1286895802918" TEXT="method &quot;setup&quot;  used to run common func for tests"/>
 </node>
-<node CREATED="1285154997935" FOLDED="true" ID="ID_1376566215" MODIFIED="1420818033223" TEXT="functional (action testing)">
+<node CREATED="1285154997935" FOLDED="true" ID="ID_1376566215" MODIFIED="1420910001943" TEXT="functional (action testing)">
 <node CREATED="1285155008539" FOLDED="true" ID="ID_1932797499" MODIFIED="1419193160081" TEXT="it&apos;s always creates ">
 <node CREATED="1285155021490" ID="ID_1474528452" MODIFIED="1285155027169" TEXT="@controller - "/>
 <node CREATED="1285155031915" ID="ID_1676044872" MODIFIED="1285155034730" TEXT="@request"/>
@@ -1470,7 +1558,7 @@
 </node>
 <node CREATED="1286895949045" ID="ID_1405582991" MODIFIED="1286895956777" TEXT="assertions"/>
 </node>
-<node CREATED="1285150113147" FOLDED="true" ID="ID_345038990" MODIFIED="1420818035306" TEXT="fixture">
+<node CREATED="1285150113147" FOLDED="true" ID="ID_345038990" MODIFIED="1421274295185" TEXT="fixture">
 <node CREATED="1285150118717" ID="ID_357513584" LINK="http://ar.rubyonrails.org/classes/Fixtures.html" MODIFIED="1419193114049" TEXT="about"/>
 <node CREATED="1286895712529" FOLDED="true" ID="ID_1179735008" MODIFIED="1419193147039" TEXT="types">
 <node CREATED="1286895715531" FOLDED="true" ID="ID_1788708567" MODIFIED="1419193143736" TEXT="yaml ">
@@ -1540,8 +1628,35 @@
 <node CREATED="1419372248665" ID="ID_995722388" LINK="https://www.justinweiss.com/" MODIFIED="1419372259679" TEXT="justin weiss"/>
 </node>
 </node>
-<node CREATED="1420823734426" FOLDED="true" ID="ID_422088789" MODIFIED="1420823749186" POSITION="right" TEXT="libs">
+<node CREATED="1420823734426" FOLDED="true" ID="ID_422088789" MODIFIED="1421218582052" POSITION="right" TEXT="libs">
 <node COLOR="#0033ff" CREATED="1420823737401" ID="ID_201409818" LINK="http://api.rubyonrails.org/classes/Rails/Railtie.html" MODIFIED="1420823742823" TEXT="Railte"/>
+<node CREATED="1421218567806" FOLDED="true" ID="ID_1164795564" MODIFIED="1421218581871" TEXT="Regex">
+<node COLOR="#0033ff" CREATED="1421218571238" ID="ID_1034002928" LINK="http://www.rubular.com/" MODIFIED="1421218579999" TEXT="Rubular"/>
+</node>
+</node>
+<node CREATED="1420910045107" FOLDED="true" ID="ID_1110634035" MODIFIED="1420910168539" POSITION="right" TEXT="fix">
+<node CREATED="1420910008825" FOLDED="true" ID="ID_958906436" MODIFIED="1420910163124" TEXT="migration">
+<node CREATED="1420910071937" FOLDED="true" ID="ID_331008287" MODIFIED="1420910162028" TEXT="PG::DependentObjectsStillExist: ERROR when using rspec">
+<node CREATED="1420910011772" ID="ID_1161272284" MODIFIED="1420910160700">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      on Rails &gt;= 4.1 schema.rb tries to be synced with db so&#160;next line in <b>environment/test.rb</b>&#160; file could help
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">config.active_record.maintain_test_schema = false</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

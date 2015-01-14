@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1357147320972" ID="ID_145689485" LINK="ruby.mm" MODIFIED="1420822092974" TEXT="Gems">
+<node CREATED="1357147320972" ID="ID_145689485" LINK="ruby.mm" MODIFIED="1421274416289" TEXT="Gems">
 <font NAME="SansSerif" SIZE="24"/>
 <node CREATED="1378898924370" FOLDED="true" ID="ID_1330484426" MODIFIED="1420722603811" POSITION="right" TEXT="manage">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -98,8 +98,7 @@
       old one <font color="#0000ff">pry-debugger</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1420823594957" ID="ID_306411187" LINK="https://github.com/Mon-Ouie/pry-remote" MODIFIED="1420823600390" TEXT="pry-remote"/>
@@ -148,11 +147,11 @@
 <node CREATED="1420825825917" FOLDED="true" ID="ID_824197470" MODIFIED="1420825847070" POSITION="left" TEXT="form">
 <node COLOR="#0033ff" CREATED="1420825827300" ID="ID_1637755489" LINK="https://github.com/plataformatec/simple_form" MODIFIED="1420825845837" TEXT="simple_form"/>
 </node>
-<node CREATED="1419193247900" FOLDED="true" ID="ID_1291006163" MODIFIED="1420837845008" POSITION="left" TEXT="testing">
+<node CREATED="1419193247900" FOLDED="true" ID="ID_1291006163" MODIFIED="1421274415977" POSITION="left" TEXT="testing">
 <node COLOR="#0033ff" CREATED="1419193251147" FOLDED="true" ID="ID_878502441" LINK="https://github.com/seattlerb/minitest" MODIFIED="1420816183310" TEXT="Minitest">
 <node CREATED="1419193307018" ID="ID_292696995" LINK="http://guides.rubyonrails.org/testing.html#unit-testing-your-models" MODIFIED="1419193312706" TEXT="available assertions"/>
 </node>
-<node COLOR="#0033ff" CREATED="1419193259570" FOLDED="true" ID="ID_457687561" LINK="http://rspec.info/" MODIFIED="1420837844027" TEXT="RSpec">
+<node COLOR="#0033ff" CREATED="1419193259570" FOLDED="true" ID="ID_457687561" LINK="http://rspec.info/" MODIFIED="1421274321235" TEXT="RSpec">
 <node CREATED="1420545667390" FOLDED="true" ID="ID_1331334701" MODIFIED="1420754011238" TEXT="test">
 <node CREATED="1420545669012" FOLDED="true" ID="ID_1514428798" LINK="http://stackoverflow.com/questions/6116668/rspec-how-to-run-a-single-test" MODIFIED="1420546568357" TEXT="specific test">
 <node CREATED="1420546491063" ID="ID_657401548" MODIFIED="1420546562754">
@@ -242,13 +241,26 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1420547851399" FOLDED="true" ID="ID_1596079727" MODIFIED="1420548843007" TEXT="cheat sheets">
+<node CREATED="1420547851399" FOLDED="true" ID="ID_1596079727" MODIFIED="1421135251640" TEXT="cheat sheets">
 <node CREATED="1420547856705" ID="ID_986379694" LINK="https://gist.github.com/dnagir/663876" MODIFIED="1420547893800" TEXT="syntax "/>
 <node CREATED="1420547873576" ID="ID_967363353" LINK="https://gist.github.com/kyletcarlson/6234923" MODIFIED="1420547880255" TEXT="model testing template"/>
+<node CREATED="1421135233893" ID="ID_1559605725" LINK="http://ricostacruz.com/cheatsheets/rspec.html" MODIFIED="1421135249588" TEXT="mock cheat sheet"/>
 </node>
 <node CREATED="1420753998133" ID="ID_451557843" LINK="http://makandracards.com/makandra/6459-run-your-own-code-before-specific-rspec-examples" MODIFIED="1420754008948" TEXT="before - after code"/>
 <node COLOR="#0033ff" CREATED="1420719264339" ID="ID_259772497" LINK="https://github.com/y310/rspec-retry" MODIFIED="1420719282501" TEXT="rspec-retry"/>
 <node COLOR="#0033ff" CREATED="1420816184719" ID="ID_1711158969" LINK="https://github.com/rspec/rspec-expectations" MODIFIED="1420816191055" TEXT="rspec-expectations"/>
+<node CREATED="1420927484051" ID="ID_1439386737" LINK="https://github.com/thoughtbot/shoulda" MODIFIED="1420927533718">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">shoulda</font>&#160;- testing model associations
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1420813365931" ID="ID_741021442" MODIFIED="1420813413238" TEXT="console">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1420813371981" ID="ID_1563603614" MODIFIED="1420813410207">
@@ -261,8 +273,7 @@
       <font color="#0000ff">$ bin/rails generate <b>rspec:install</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1420817616567" ID="ID_55269083" MODIFIED="1420817619686" TEXT="config">
@@ -312,7 +323,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1419367386094" FOLDED="true" ID="ID_322804778" LINK="http://jnicklas.github.io/capybara/" MODIFIED="1420816647884" TEXT="capybara">
+<node COLOR="#0033ff" CREATED="1419367386094" FOLDED="true" ID="ID_322804778" LINK="http://jnicklas.github.io/capybara/" MODIFIED="1421274357743" TEXT="capybara">
 <node CREATED="1420464407171" FOLDED="true" ID="ID_430406128" MODIFIED="1420816643716" TEXT="dsl">
 <node CREATED="1420464410055" FOLDED="true" ID="ID_1937701442" LINK="http://stackoverflow.com/questions/5153550/capybara-assert-attributes-of-an-element" MODIFIED="1420709618347" TEXT="assert element attr">
 <node CREATED="1420534865395" ID="ID_238482548" MODIFIED="1420534887720">
@@ -402,7 +413,7 @@
 </node>
 </node>
 <node CREATED="1420547611128" ID="ID_1941131567" LINK="https://gist.github.com/zhengjia/428105" MODIFIED="1420547615132" TEXT="cheatsheet"/>
-<node CREATED="1420816103240" FOLDED="true" ID="ID_1317380415" MODIFIED="1420816647504" TEXT="webdrivers">
+<node CREATED="1420816103240" FOLDED="true" ID="ID_1317380415" MODIFIED="1421274355779" TEXT="webdrivers">
 <node CREATED="1420816090401" ID="ID_1647013735" LINK="https://github.com/teampoltergeist/poltergeist" MODIFIED="1420816151087">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -413,10 +424,12 @@
       <font color="#0000ff">poltergeist</font>&#160;- used for <font color="#0000ff">phantomjs</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1420816153239" ID="ID_1229112792" MODIFIED="1420816160786" TEXT="selenium web driver"/>
+<node COLOR="#0033ff" CREATED="1421274324833" FOLDED="true" ID="ID_949977432" LINK="https://github.com/thoughtbot/capybara-webkit" MODIFIED="1421274355206" TEXT="capybara-webkit">
+<node COLOR="#0033ff" CREATED="1421274335863" ID="ID_1440917075" LINK="https://github.com/leonid-shevtsov/headless" MODIFIED="1421274353822" TEXT="headless"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1419367389430" FOLDED="true" ID="ID_921915797" LINK="http://cukes.info/" MODIFIED="1420816641527" TEXT="cucumber">
@@ -534,54 +547,9 @@
 <node COLOR="#0033ff" CREATED="1420813479608" ID="ID_357026747" LINK="https://github.com/thoughtbot/factory_girl_rails" MODIFIED="1420813531933" TEXT="factory_girl_rails"/>
 </node>
 </node>
-<node CREATED="1419198143416" FOLDED="true" ID="ID_365609595" MODIFIED="1420722577090" POSITION="left" TEXT="date">
+<node CREATED="1419198143416" FOLDED="true" ID="ID_365609595" MODIFIED="1421274312412" POSITION="left" TEXT="date">
 <node CREATED="1419198144923" ID="ID_1559691275" MODIFIED="1419198147338" TEXT="chronic"/>
 <node CREATED="1419198148121" ID="ID_910874029" MODIFIED="1419198164114" TEXT="whenever"/>
-</node>
-<node CREATED="1419367356906" FOLDED="true" ID="ID_813068973" MODIFIED="1420722596194" POSITION="left" TEXT="auth">
-<node COLOR="#0033ff" CREATED="1419367444468" FOLDED="true" ID="ID_1071549546" LINK="http://devise.plataformatec.com.br/" MODIFIED="1420722595033" TEXT="devise">
-<node CREATED="1419367993459" FOLDED="true" ID="ID_838421469" MODIFIED="1420722591192" TEXT="tutors">
-<node CREATED="1419367995599" ID="ID_103954873" LINK="http://lucatironi.github.io/tutorial/2012/10/15/ruby_rails_android_app_authentication_devise_tutorial_part_one/" MODIFIED="1419368007586" TEXT="android + json +"/>
-<node CREATED="1419368008841" ID="ID_775270567" LINK="http://stackoverflow.com/questions/21505956/authentication-from-json-api-on-rails-with-devise" MODIFIED="1419368050573" TEXT="json api + rails +"/>
-<node CREATED="1419368488446" ID="ID_1525022651" LINK="http://technpol.wordpress.com/2013/09/23/angularjs-and-devise-authentication-with-a-rails-server/" MODIFIED="1419368498939" TEXT="angular-js + "/>
-<node CREATED="1419370238989" FOLDED="true" ID="ID_1011518807" LINK="http://stackoverflow.com/questions/3263291/how-can-i-simply-verify-that-a-username-and-password-are-correct-with-devise-and" MODIFIED="1419370325140" TEXT="verify user + pass">
-<node CREATED="1419370305090" ID="ID_833928417" LINK="http://stackoverflow.com/questions/15080493/how-to-check-if-a-users-password-is-correct-without-logging-them-in-with-devise" MODIFIED="1419370319014" TEXT="clone"/>
-</node>
-</node>
-<node CREATED="1419368527236" FOLDED="true" ID="ID_1077958794" MODIFIED="1420722589240" TEXT="fields names">
-<node CREATED="1419368559625" FOLDED="true" ID="ID_1858747917" MODIFIED="1420722588985" TEXT="user">
-<node CREATED="1419368531007" ID="ID_1355033499" MODIFIED="1419368535591" TEXT="user[email]"/>
-<node CREATED="1419368536278" ID="ID_963371132" MODIFIED="1419368540798" TEXT="user[password]"/>
-<node CREATED="1419368541877" ID="ID_1616427376" MODIFIED="1419368550198" TEXT="user[password_confirmation]"/>
-<node CREATED="1419368550939" ID="ID_816501787" MODIFIED="1419368557022" TEXT="user[current_password]"/>
-</node>
-</node>
-<node CREATED="1419370446482" FOLDED="true" ID="ID_704729665" MODIFIED="1420722586605" TEXT="off. docs">
-<node CREATED="1419370449489" ID="ID_1850752848" LINK="http://devise.plataformatec.com.br/" MODIFIED="1419370458555" TEXT="override confirmations"/>
-<node CREATED="1419370464065" ID="ID_331302994" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Email-only-sign-up" MODIFIED="1419370472867" TEXT="email only sing up"/>
-<node CREATED="1419370489009" ID="ID_1822844868" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-edit-their-account-without-providing-a-password" MODIFIED="1419370496534" TEXT="allow edit accoutn w/o pass"/>
-<node CREATED="1419370505335" ID="ID_1905259254" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-edit-their-password" MODIFIED="1419370514664" TEXT="allow users to edit pass"/>
-<node CREATED="1419370648919" ID="ID_617799091" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Define-resource-actions-that-require-authentication-using-routes.rb" MODIFIED="1419370659350" TEXT="define resource req/ auth"/>
-</node>
-<node CREATED="1419370682630" FOLDED="true" ID="ID_17638157" MODIFIED="1420722594442" TEXT="stuff">
-<node CREATED="1419370684534" ID="ID_798347284" LINK="http://stackoverflow.com/questions/9272272/where-is-devise-implementation-of-authenticate-user-method" MODIFIED="1419370713102">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>user auth</b>&#160;implementation
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1419513102983" FOLDED="true" ID="ID_393697560" MODIFIED="1420722593160" TEXT="solutions">
-<node CREATED="1419513109770" ID="ID_855596827" LINK="http://stackoverflow.com/questions/4264750/devise-logging-out-automatically-after-password-change" MODIFIED="1419513121075" TEXT="user sign off after pass change"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1419367446342" ID="ID_46498312" LINK="https://github.com/CanCanCommunity/cancancan" MODIFIED="1420722582851" TEXT="cancancan"/>
 </node>
 </node>
 </map>
