@@ -2,9 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1420823747978" TEXT="Rails">
 <font NAME="SansSerif" SIZE="25"/>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1421261454980" POSITION="right" TEXT="Models">
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1421591862435" POSITION="right" TEXT="Models">
 <font NAME="SansSerif" SIZE="20"/>
-<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1420818013502" TEXT="validate">
+<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1421588707460" TEXT="validate">
 <node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -367,8 +367,7 @@
       <font color="#0000ff">rails g migration AddTimestampsToUser created_at:datetime updated_at:datetime</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1421139761313" TEXT="indices">
@@ -665,8 +664,7 @@
       <font color="#0033ff">&lt;% end %&gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1357148959898" ID="ID_138995706" MODIFIED="1357149004969">
 <richcontent TYPE="NODE"><html>
@@ -787,7 +785,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1421274183717" POSITION="left" TEXT="Auth">
+<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1421591860487" POSITION="left" TEXT="Auth">
 <font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1287575635651" FOLDED="true" ID="ID_372420420" MODIFIED="1421145920261" TEXT="Auth_token">
 <node CREATED="1287575640947" ID="ID_24275664" MODIFIED="1357148532020">
@@ -805,7 +803,7 @@
 <node CREATED="1419370576246" ID="ID_1225230829" LINK="#ID_1588476019" MODIFIED="1419370581077" TEXT="docs"/>
 </node>
 <node CREATED="1284454690794" ID="ID_687445412" LINK="#ID_1959650661" MODIFIED="1420818592098" TEXT="by using filters"/>
-<node COLOR="#0033ff" CREATED="1419367444468" FOLDED="true" ID="ID_1071549546" LINK="http://devise.plataformatec.com.br/" MODIFIED="1421274181487" TEXT="devise">
+<node COLOR="#0033ff" CREATED="1419367444468" FOLDED="true" ID="ID_1071549546" LINK="http://devise.plataformatec.com.br/" MODIFIED="1421591860017" TEXT="devise">
 <node CREATED="1419368527236" ID="ID_1077958794" MODIFIED="1421146158558" TEXT="fields names">
 <node COLOR="#0033ff" CREATED="1419368559625" FOLDED="true" ID="ID_1858747917" MODIFIED="1421146110900" TEXT="user">
 <node COLOR="#0033ff" CREATED="1419368531007" ID="ID_1355033499" MODIFIED="1421146110169" TEXT="user[email]"/>
@@ -871,8 +869,7 @@
       &lt;% end %&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -895,12 +892,14 @@
 <node CREATED="1419513102983" FOLDED="true" ID="ID_393697560" MODIFIED="1421146152826" TEXT="solutions">
 <node CREATED="1419513109770" ID="ID_855596827" LINK="http://stackoverflow.com/questions/4264750/devise-logging-out-automatically-after-password-change" MODIFIED="1421146118584" TEXT="user sign off after pass change"/>
 </node>
-<node COLOR="#0033ff" CREATED="1421274127119" FOLDED="true" ID="ID_155705559" LINK="https://github.com/intridea/omniauth" MODIFIED="1421274181235" TEXT="omniauth">
+<node COLOR="#0033ff" CREATED="1421274127119" FOLDED="true" ID="ID_155705559" LINK="https://github.com/intridea/omniauth" MODIFIED="1421591859817" TEXT="omniauth">
 <node COLOR="#0033ff" CREATED="1421274151796" ID="ID_1022249701" LINK="https://github.com/intridea/omniauth/wiki/List-of-Strategies" MODIFIED="1421274161566" TEXT="list of strategies"/>
 <node COLOR="#0033ff" CREATED="1421274167806" ID="ID_609496789" LINK="https://github.com/mkdynamic/omniauth-facebook" MODIFIED="1421274176294" TEXT="omniauth_facebook"/>
+<node COLOR="#0033ff" CREATED="1421591837474" ID="ID_1969102621" LINK="http://landonmarder.com/posts/2014/06/04/google-cal-rails/" MODIFIED="1421591857632" TEXT="omnuauth_google_oauth2"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1419367446342" ID="ID_46498312" LINK="https://github.com/CanCanCommunity/cancancan" MODIFIED="1420722582851" TEXT="cancancan"/>
+<node COLOR="#0033ff" CREATED="1421588584947" ID="ID_558582691" LINK="https://github.com/binarylogic/authlogic" MODIFIED="1421588642793" TEXT="authlogic"/>
 </node>
 <node CREATED="1282900468984" FOLDED="true" ID="ID_339698472" MODIFIED="1421274306784" POSITION="left" TEXT="Controllers">
 <font NAME="SansSerif" SIZE="18"/>
@@ -952,6 +951,12 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1421312717035" ID="ID_1005291656" MODIFIED="1421321861822" POSITION="left" TEXT="deploy">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1421312750043" FOLDED="true" ID="ID_356510050" MODIFIED="1421312752141" TEXT="docs">
+<node COLOR="#990099" CREATED="1421312721189" ID="ID_572369995" LINK="http://railsguides.net/deploy-ruby-on-rails-3-application-to-free-hosting/" MODIFIED="1421312745867" TEXT="deploy on heroku with s3 assets manager"/>
 </node>
 </node>
 <node CREATED="1283359770375" FOLDED="true" ID="ID_790870058" MODIFIED="1421142955200" POSITION="right" TEXT="Sessions">
@@ -1203,8 +1208,7 @@
       <font color="#0033ff">$ rails server <b>mongrel</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1283442966093" FOLDED="true" ID="ID_577858243" LINK="https://www.phusionpassenger.com/" MODIFIED="1421140968823" TEXT="passenger">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1431,7 +1435,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1421274298585" POSITION="right" TEXT="Testing">
+<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1421588709207" POSITION="right" TEXT="Testing">
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1284982183137" ID="ID_1610244121" LINK="#ID_1104785174" MODIFIED="1419192981659" TEXT="rake"/>
 <node CREATED="1284982198269" ID="ID_88991437" MODIFIED="1284982201066" TEXT="single test">

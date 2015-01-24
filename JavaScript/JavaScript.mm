@@ -70,8 +70,7 @@
       <font color="#0000ff">boower</font>-package manager
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1337155609990" FOLDED="true" ID="ID_1410910272" MODIFIED="1420839968360" TEXT="effects">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1066,7 +1065,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1420822037222" POSITION="left" TEXT="Browser">
+<node CREATED="1319659786877" ID="ID_998630532" MODIFIED="1421312388742" POSITION="left" TEXT="Browser">
 <node CREATED="1364305502013" ID="ID_1392687097" LINK="../OS/Cross/Web/Firefox.mm" MODIFIED="1420822032471" TEXT="firefox">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -1119,6 +1118,7 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1421312389903" ID="ID_1263606042" LINK="browser hacks &lt;http://browserhacks.com/&gt; " MODIFIED="1421312398387" TEXT="hacks"/>
 </node>
 <node CREATED="1419328530685" FOLDED="true" ID="ID_1880140087" MODIFIED="1420822037566" POSITION="left" TEXT="info">
 <node COLOR="#990000" CREATED="1351605948750" FOLDED="true" ID="ID_1071224225" MODIFIED="1418754764563" TEXT="Tips">

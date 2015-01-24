@@ -51,6 +51,10 @@
 <node COLOR="#0033ff" CREATED="1413986597580" ID="ID_1909254068" LINK="http://stackoverflow.com/questions/1224525/how-to-get-nice-formatting-in-the-rails-console" MODIFIED="1418643463622" TEXT="yaml format"/>
 <node COLOR="#0033ff" CREATED="1413986623748" ID="ID_827372704" LINK="https://github.com/michaeldv/awesome_print" MODIFIED="1418643463623" TEXT="awesome_print"/>
 </node>
+<node CREATED="1421588891314" FOLDED="true" ID="ID_58699475" MODIFIED="1421589151484" POSITION="left" TEXT="eccomerce">
+<node COLOR="#0033ff" CREATED="1421588895802" ID="ID_1202189407" LINK="http://activemerchant.org/" MODIFIED="1421589016265" TEXT="active merchant"/>
+<node COLOR="#0033ff" CREATED="1421588962704" ID="ID_1196599695" LINK="https://github.com/liqpay" MODIFIED="1421588971247" TEXT="liq-pay"/>
+</node>
 <node CREATED="1415618608856" FOLDED="true" ID="ID_324683494" MODIFIED="1420823195203" POSITION="left" TEXT="REST API">
 <node COLOR="#0033ff" CREATED="1415618620684" FOLDED="true" ID="ID_1250867020" LINK="https://github.com/intridea/grape" MODIFIED="1419367370132" TEXT="grape">
 <node COLOR="#009999" CREATED="1415875145347" ID="ID_833859942" LINK="http://armoredcode.com/blog/build-an-api-for-fun-with-grape/" MODIFIED="1415875169159" TEXT="armoredcode"/>
@@ -76,13 +80,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1420823196522" FOLDED="true" ID="ID_864071841" MODIFIED="1420823567251" POSITION="left" TEXT="database">
-<node CREATED="1420823201826" FOLDED="true" ID="ID_892110294" MODIFIED="1420823230732" TEXT="pg">
-<node COLOR="#990000" CREATED="1420823205743" FOLDED="true" ID="ID_1884947310" MODIFIED="1420823229627" TEXT="fix">
+<node CREATED="1420823196522" FOLDED="true" ID="ID_864071841" MODIFIED="1421589150185" POSITION="left" TEXT="database">
+<node CREATED="1421588865076" FOLDED="true" ID="ID_1141878192" MODIFIED="1421589149954" TEXT="active-record">
+<node CREATED="1420823201826" FOLDED="true" ID="ID_892110294" MODIFIED="1421589148508" TEXT="pg">
+<node COLOR="#990000" CREATED="1420823205743" FOLDED="true" ID="ID_1884947310" MODIFIED="1421589148247" TEXT="fix">
 <node CREATED="1420823211770" ID="ID_537059541" LINK="http://stackoverflow.com/questions/27047463/gem-install-pg-error-couldnt-understand-kern-osversion-14-0-0-on-yosemite-w" MODIFIED="1420823220375" TEXT="yosemite install"/>
 </node>
 </node>
 <node CREATED="1420823202850" ID="ID_1757531055" MODIFIED="1420823204827" TEXT="mysql2"/>
+</node>
+<node COLOR="#0033ff" CREATED="1421588856706" ID="ID_213666425" LINK="http://datamapper.org/" MODIFIED="1421588863193" TEXT="datamapper"/>
 </node>
 <node CREATED="1418643474686" FOLDED="true" ID="ID_1678568316" MODIFIED="1420823647357" POSITION="left" TEXT="debug">
 <node COLOR="#0033ff" CREATED="1418643477018" FOLDED="true" ID="ID_1139966228" LINK="http://pryrepl.org/" MODIFIED="1420823647109" TEXT="pry">
@@ -147,13 +154,83 @@
 <node CREATED="1420825825917" FOLDED="true" ID="ID_824197470" MODIFIED="1420825847070" POSITION="left" TEXT="form">
 <node COLOR="#0033ff" CREATED="1420825827300" ID="ID_1637755489" LINK="https://github.com/plataformatec/simple_form" MODIFIED="1420825845837" TEXT="simple_form"/>
 </node>
-<node CREATED="1419193247900" FOLDED="true" ID="ID_1291006163" MODIFIED="1421274415977" POSITION="left" TEXT="testing">
-<node COLOR="#0033ff" CREATED="1419193251147" FOLDED="true" ID="ID_878502441" LINK="https://github.com/seattlerb/minitest" MODIFIED="1420816183310" TEXT="Minitest">
+<node CREATED="1419193247900" FOLDED="true" ID="ID_1291006163" MODIFIED="1422009955112" POSITION="left" TEXT="testing">
+<node COLOR="#0033ff" CREATED="1419367389430" FOLDED="true" ID="ID_921915797" LINK="http://cukes.info/" MODIFIED="1422009948236" TEXT="cucumber">
+<node CREATED="1420463925601" FOLDED="true" ID="ID_974675608" MODIFIED="1420816641252" TEXT="scenario">
+<node CREATED="1420463942378" ID="ID_1291463111" MODIFIED="1420464402301">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Given&#160;-&#160;Given&#160;lines describe what pre-condition should exist.
+    </p>
+    <p>
+      When&#160;&#160;-&#160;When&#160;lines describe the actions you take.
+    </p>
+    <p>
+      Then&#160;&#160;-&#160;Then&#160;lines describe the result.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1420464010605" ID="ID_1666746312" MODIFIED="1420464402297">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Given</b>&#160;I am on the home page
+    </p>
+    <p>
+      And I am signed in
+    </p>
+    <p>
+      <b>Then</b>&#160;I should see &quot;Welcome Back!&quot;
+    </p>
+    <p>
+      And I should see &quot;Settings&quot;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1420463932582" ID="ID_491567742" MODIFIED="1420816640111" TEXT="given"/>
+<node COLOR="#0033ff" CREATED="1420463935016" ID="ID_304549930" MODIFIED="1420816640110" TEXT="when"/>
+<node COLOR="#0033ff" CREATED="1420463936630" ID="ID_1185764591" MODIFIED="1420816640109" TEXT="then"/>
+</node>
+</node>
+<node CREATED="1420739075701" FOLDED="true" ID="ID_798137397" MODIFIED="1422009936004" TEXT="fixtures">
+<node COLOR="#0033ff" CREATED="1420739082936" ID="ID_1379296288" LINK="https://github.com/thoughtbot/factory_girl" MODIFIED="1420739109214" TEXT="factory_girl"/>
+<node COLOR="#0033ff" CREATED="1420813479608" ID="ID_357026747" LINK="https://github.com/thoughtbot/factory_girl_rails" MODIFIED="1420813531933" TEXT="factory_girl_rails"/>
+</node>
+<node COLOR="#0033ff" CREATED="1419193251147" FOLDED="true" ID="ID_878502441" LINK="https://github.com/seattlerb/minitest" MODIFIED="1421588733994" TEXT="Minitest">
 <node CREATED="1419193307018" ID="ID_292696995" LINK="http://guides.rubyonrails.org/testing.html#unit-testing-your-models" MODIFIED="1419193312706" TEXT="available assertions"/>
 </node>
-<node COLOR="#0033ff" CREATED="1419193259570" FOLDED="true" ID="ID_457687561" LINK="http://rspec.info/" MODIFIED="1421274321235" TEXT="RSpec">
-<node CREATED="1420545667390" FOLDED="true" ID="ID_1331334701" MODIFIED="1420754011238" TEXT="test">
-<node CREATED="1420545669012" FOLDED="true" ID="ID_1514428798" LINK="http://stackoverflow.com/questions/6116668/rspec-how-to-run-a-single-test" MODIFIED="1420546568357" TEXT="specific test">
+<node COLOR="#0033ff" CREATED="1419193259570" FOLDED="true" ID="ID_457687561" LINK="http://rspec.info/" MODIFIED="1422009877628" TEXT="RSpec">
+<node CREATED="1420753998133" ID="ID_451557843" LINK="http://makandracards.com/makandra/6459-run-your-own-code-before-specific-rspec-examples" MODIFIED="1422009112012" TEXT="before - after code"/>
+<node CREATED="1420547851399" FOLDED="true" ID="ID_1596079727" MODIFIED="1422009113380" TEXT="cheat sheets">
+<node CREATED="1420547856705" ID="ID_986379694" LINK="https://gist.github.com/dnagir/663876" MODIFIED="1420547893800" TEXT="syntax "/>
+<node CREATED="1420547873576" ID="ID_967363353" LINK="https://gist.github.com/kyletcarlson/6234923" MODIFIED="1420547880255" TEXT="model testing template"/>
+<node CREATED="1421135233893" ID="ID_1559605725" LINK="http://ricostacruz.com/cheatsheets/rspec.html" MODIFIED="1421135249588" TEXT="mock cheat sheet"/>
+</node>
+<node CREATED="1420813365931" FOLDED="true" ID="ID_741021442" MODIFIED="1422009118242" TEXT="console">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1420813371981" ID="ID_1563603614" MODIFIED="1420813410207">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">$ bin/rails generate <b>rspec:install</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1420545667390" FOLDED="true" ID="ID_1331334701" MODIFIED="1422009081202" TEXT="test">
+<node CREATED="1420545669012" FOLDED="true" ID="ID_1514428798" LINK="http://stackoverflow.com/questions/6116668/rspec-how-to-run-a-single-test" MODIFIED="1422009080952" TEXT="specific test">
 <node CREATED="1420546491063" ID="ID_657401548" MODIFIED="1420546562754">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -168,119 +245,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1420548796443" FOLDED="true" ID="ID_201643301" MODIFIED="1420548849579" TEXT="debug">
-<node CREATED="1420548799088" ID="ID_1292843803" MODIFIED="1420548834008">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # with pry
-    </p>
-    <p>
-      <font color="#0000ff">require 'spec_helper' </font>
-    </p>
-    <p>
-      <b><font color="#0000ff">require 'pry-debugger'</font></b>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#0000ff">describe User do </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;it &quot;should be valid&quot; do </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160; <b>binding.pry</b> </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;expect(User.new).to be_valid </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">end</font>
-    </p>
-  </body>
-</html></richcontent>
 </node>
-</node>
-<node CREATED="1420463631631" FOLDED="true" ID="ID_414004838" MODIFIED="1420548846179" TEXT="matchers">
-<node CREATED="1420463650385" ID="ID_1200850986" MODIFIED="1420463814298">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      obj.should <b>be_true</b>, obj.should <b>be_false</b>, obj.should <b>be_nil</b>, obj.should<b>&#160;be_empty</b>&#160;- the first three of these could be done by == true, etc. be_empty will be true if obj.empty? is true.
-    </p>
-    <p>
-      obj.should <b>exist</b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- does this object even exist yet?
-    </p>
-    <p>
-      obj.should <b>have_at_most(n).items</b>, object.<b>should have_at_least(n)</b>.items&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- like have, but will pass if there are more or fewer than n items, respectively.
-    </p>
-    <p>
-      obj.should <b>include</b>(a[,b,...])&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- are one or more items in an array?
-    </p>
-    <p>
-      obj.should <b>match</b>(string_or_regex)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- does the object match the string or regex?
-    </p>
-    <p>
-      obj.should <b>raise_exception</b>(error)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- does this method raise an error when called?
-    </p>
-    <p>
-      obj.should <b>respond_to</b>(method_name)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- does this object have this method? Can take more than one method name, in either strings or symbols.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1420547851399" FOLDED="true" ID="ID_1596079727" MODIFIED="1421135251640" TEXT="cheat sheets">
-<node CREATED="1420547856705" ID="ID_986379694" LINK="https://gist.github.com/dnagir/663876" MODIFIED="1420547893800" TEXT="syntax "/>
-<node CREATED="1420547873576" ID="ID_967363353" LINK="https://gist.github.com/kyletcarlson/6234923" MODIFIED="1420547880255" TEXT="model testing template"/>
-<node CREATED="1421135233893" ID="ID_1559605725" LINK="http://ricostacruz.com/cheatsheets/rspec.html" MODIFIED="1421135249588" TEXT="mock cheat sheet"/>
-</node>
-<node CREATED="1420753998133" ID="ID_451557843" LINK="http://makandracards.com/makandra/6459-run-your-own-code-before-specific-rspec-examples" MODIFIED="1420754008948" TEXT="before - after code"/>
-<node COLOR="#0033ff" CREATED="1420719264339" ID="ID_259772497" LINK="https://github.com/y310/rspec-retry" MODIFIED="1420719282501" TEXT="rspec-retry"/>
-<node COLOR="#0033ff" CREATED="1420816184719" ID="ID_1711158969" LINK="https://github.com/rspec/rspec-expectations" MODIFIED="1420816191055" TEXT="rspec-expectations"/>
-<node CREATED="1420927484051" ID="ID_1439386737" LINK="https://github.com/thoughtbot/shoulda" MODIFIED="1420927533718">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">shoulda</font>&#160;- testing model associations
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1420813365931" ID="ID_741021442" MODIFIED="1420813413238" TEXT="console">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1420813371981" ID="ID_1563603614" MODIFIED="1420813410207">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">$ bin/rails generate <b>rspec:install</b></font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1420817616567" ID="ID_55269083" MODIFIED="1420817619686" TEXT="config">
-<node COLOR="#0033ff" CREATED="1420816056860" FOLDED="true" ID="ID_1653025610" MODIFIED="1420817614140" TEXT=".rspec">
+<node CREATED="1420817616567" FOLDED="true" ID="ID_55269083" MODIFIED="1422009118244" TEXT="config">
+<node COLOR="#0033ff" CREATED="1420816056860" FOLDED="true" ID="ID_1653025610" MODIFIED="1422009058347" TEXT=".rspec">
 <node COLOR="#0033ff" CREATED="1420816058728" ID="ID_125242656" MODIFIED="1420816704661" TEXT="--format documentation"/>
 </node>
-<node COLOR="#0033ff" CREATED="1420817596366" FOLDED="true" ID="ID_968564847" MODIFIED="1420817613084" TEXT="config/application.rb">
+<node COLOR="#0033ff" CREATED="1420817596366" FOLDED="true" ID="ID_968564847" MODIFIED="1422009063633" TEXT="config/application.rb">
 <node COLOR="#0033ff" CREATED="1420817602583" ID="ID_1847080074" MODIFIED="1420817610734">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -322,8 +292,199 @@
 </node>
 </node>
 </node>
+<node CREATED="1420548796443" FOLDED="true" ID="ID_201643301" MODIFIED="1422009102073" TEXT="debug">
+<node CREATED="1420548799088" ID="ID_1292843803" MODIFIED="1420548834008">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # with pry
+    </p>
+    <p>
+      <font color="#0000ff">require 'spec_helper' </font>
+    </p>
+    <p>
+      <b><font color="#0000ff">require 'pry-debugger'</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">describe User do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it &quot;should be valid&quot; do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160; <b>binding.pry</b> </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;expect(User.new).to be_valid </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1419367386094" FOLDED="true" ID="ID_322804778" LINK="http://jnicklas.github.io/capybara/" MODIFIED="1421274357743" TEXT="capybara">
+</node>
+<node CREATED="1420463631631" FOLDED="true" ID="ID_414004838" MODIFIED="1422009104772" TEXT="matchers">
+<node CREATED="1422009097715" ID="ID_1021270959" MODIFIED="1422009099049" TEXT="old">
+<node CREATED="1420463650385" ID="ID_1200850986" MODIFIED="1420463814298">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      obj.should <b>be_true</b>, obj.should <b>be_false</b>, obj.should <b>be_nil</b>, obj.should<b>&#160;be_empty</b>&#160;- the first three of these could be done by == true, etc. be_empty will be true if obj.empty? is true.
+    </p>
+    <p>
+      obj.should <b>exist</b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- does this object even exist yet?
+    </p>
+    <p>
+      obj.should <b>have_at_most(n).items</b>, object.<b>should have_at_least(n)</b>.items&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- like have, but will pass if there are more or fewer than n items, respectively.
+    </p>
+    <p>
+      obj.should <b>include</b>(a[,b,...])&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- are one or more items in an array?
+    </p>
+    <p>
+      obj.should <b>match</b>(string_or_regex)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- does the object match the string or regex?
+    </p>
+    <p>
+      obj.should <b>raise_exception</b>(error)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- does this method raise an error when called?
+    </p>
+    <p>
+      obj.should <b>respond_to</b>(method_name)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;- does this object have this method? Can take more than one method name, in either strings or symbols.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1422009128612" FOLDED="true" ID="ID_249199180" MODIFIED="1422009642804" TEXT="performance">
+<node CREATED="1422009132382" ID="ID_1863859853" LINK="http://www.rubyinside.com/how-to-rails-3-and-rspec-2-4336.html" MODIFIED="1422009200017">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999">rubyinside</font>&#160;How to improve performance&#160;&#160;of Rails 3 and RSpec 2
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1422009203906" ID="ID_1116870413" LINK="https://github.com/mynyml/watchr" MODIFIED="1422009231438" TEXT="watchr"/>
+<node COLOR="#0033ff" CREATED="1422009313863" ID="ID_232597929" LINK="https://github.com/sporkrb/spork" MODIFIED="1422009503577" TEXT="spork"/>
+<node COLOR="#0033ff" CREATED="1422009304376" ID="ID_622231157" LINK="https://github.com/grosser/autotest" MODIFIED="1422009310215" TEXT="autotest"/>
+<node CREATED="1422009626046" FOLDED="true" ID="ID_1492872699" MODIFIED="1422009640089" TEXT="old">
+<node COLOR="#0033ff" CREATED="1422009628798" ID="ID_524030838" LINK="https://github.com/seattlerb/zentest" MODIFIED="1422009638762" TEXT="zentest"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1420719264339" ID="ID_259772497" LINK="https://github.com/y310/rspec-retry" MODIFIED="1420719282501" TEXT="rspec-retry"/>
+<node COLOR="#0033ff" CREATED="1420816184719" ID="ID_1711158969" LINK="https://github.com/rspec/rspec-expectations" MODIFIED="1420816191055" TEXT="rspec-expectations"/>
+<node CREATED="1420927484051" ID="ID_1439386737" LINK="https://github.com/thoughtbot/shoulda" MODIFIED="1420927533718">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">shoulda</font>&#160;- testing model associations
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1422009882235" FOLDED="true" ID="ID_1336519006" MODIFIED="1422009944130" TEXT="tools">
+<node COLOR="#0033ff" CREATED="1420813431417" FOLDED="true" ID="ID_374418846" LINK="https://github.com/DatabaseCleaner/database_cleaner" MODIFIED="1422009880651" TEXT="database-cleaner">
+<node CREATED="1420816048142" FOLDED="true" ID="ID_849571407" MODIFIED="1420816653911" TEXT="config">
+<node CREATED="1420815456833" ID="ID_318749220" MODIFIED="1420816045501">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # RSpec example
+    </p>
+    <p>
+      <font color="#0000ff">RSpec.configure do |config| </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;config.before(:suite) do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;DatabaseCleaner.strategy = :transaction </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;DatabaseCleaner.clean_with(:truncation) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;config.around(:each) do |example| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;DatabaseCleaner.cleaning do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;example.run </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1419551241611" FOLDED="true" ID="ID_1629276551" MODIFIED="1422009901521" TEXT="fake data">
+<node COLOR="#0033ff" CREATED="1419551246547" ID="ID_1224341220" LINK="https://github.com/stympy/faker" MODIFIED="1420739140942" TEXT="faker"/>
+</node>
+<node CREATED="1420739050471" FOLDED="true" ID="ID_1122462796" MODIFIED="1422009901213" TEXT="coverage">
+<node COLOR="#0033ff" CREATED="1420739053152" ID="ID_1946521688" LINK="https://github.com/colszowka/simplecov" MODIFIED="1420739126565" TEXT="simplecov"/>
+</node>
+<node COLOR="#009999" CREATED="1422009040415" ID="ID_1813613494" LINK="http://ruby.sadi.st/Ruby_Sadist.html" MODIFIED="1422009798954" TEXT="flog\flay and stuff"/>
+<node CREATED="1422009825469" ID="ID_1464851311" LINK="https://github.com/troessner/reek" MODIFIED="1422009906663">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      code smell detection <font color="#0000ff">reek</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1421588738996" ID="ID_1471421883" LINK="https://github.com/brynary/webrat" MODIFIED="1422009942948" TEXT="webrat"/>
+<node CREATED="1422009916544" ID="ID_1154866793" MODIFIED="1422009941043" TEXT="webUI">
+<node COLOR="#0033ff" CREATED="1419367386094" FOLDED="true" ID="ID_322804778" LINK="http://jnicklas.github.io/capybara/" MODIFIED="1422009919700" TEXT="capybara">
 <node CREATED="1420464407171" FOLDED="true" ID="ID_430406128" MODIFIED="1420816643716" TEXT="dsl">
 <node CREATED="1420464410055" FOLDED="true" ID="ID_1937701442" LINK="http://stackoverflow.com/questions/5153550/capybara-assert-attributes-of-an-element" MODIFIED="1420709618347" TEXT="assert element attr">
 <node CREATED="1420534865395" ID="ID_238482548" MODIFIED="1420534887720">
@@ -432,124 +593,20 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1419367389430" FOLDED="true" ID="ID_921915797" LINK="http://cukes.info/" MODIFIED="1420816641527" TEXT="cucumber">
-<node CREATED="1420463925601" FOLDED="true" ID="ID_974675608" MODIFIED="1420816641252" TEXT="scenario">
-<node CREATED="1420463942378" ID="ID_1291463111" MODIFIED="1420464402301">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Given&#160;-&#160;Given&#160;lines describe what pre-condition should exist.
-    </p>
-    <p>
-      When&#160;&#160;-&#160;When&#160;lines describe the actions you take.
-    </p>
-    <p>
-      Then&#160;&#160;-&#160;Then&#160;lines describe the result.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1420464010605" ID="ID_1666746312" MODIFIED="1420464402297">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>Given</b>&#160;I am on the home page
-    </p>
-    <p>
-      And I am signed in
-    </p>
-    <p>
-      <b>Then</b>&#160;I should see &quot;Welcome Back!&quot;
-    </p>
-    <p>
-      And I should see &quot;Settings&quot;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#0033ff" CREATED="1420463932582" ID="ID_491567742" MODIFIED="1420816640111" TEXT="given"/>
-<node COLOR="#0033ff" CREATED="1420463935016" ID="ID_304549930" MODIFIED="1420816640110" TEXT="when"/>
-<node COLOR="#0033ff" CREATED="1420463936630" ID="ID_1185764591" MODIFIED="1420816640109" TEXT="then"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1420813431417" FOLDED="true" ID="ID_374418846" LINK="https://github.com/DatabaseCleaner/database_cleaner" MODIFIED="1420816654117" TEXT="database-cleaner">
-<node CREATED="1420816048142" FOLDED="true" ID="ID_849571407" MODIFIED="1420816653911" TEXT="config">
-<node CREATED="1420815456833" ID="ID_318749220" MODIFIED="1420816045501">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # RSpec example
-    </p>
-    <p>
-      <font color="#0000ff">RSpec.configure do |config| </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;config.before(:suite) do </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;DatabaseCleaner.strategy = :transaction </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;DatabaseCleaner.clean_with(:truncation) </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;config.around(:each) do |example| </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;DatabaseCleaner.cleaning do </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;example.run </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#0000ff">end</font>
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1419198143416" ID="ID_365609595" MODIFIED="1422010324212" POSITION="left" TEXT="date">
+<node COLOR="#0033ff" CREATED="1419198144923" ID="ID_1559691275" LINK="https://github.com/mojombo/chronic" MODIFIED="1422010005069" TEXT="chronic"/>
+<node COLOR="#0033ff" CREATED="1419198148121" ID="ID_910874029" LINK="https://github.com/javan/whenever" MODIFIED="1422009978373" TEXT="whenever"/>
 </node>
+<node CREATED="1421588807379" FOLDED="true" ID="ID_1785446602" MODIFIED="1421590708051" POSITION="left" TEXT="exceptions">
+<node COLOR="#0033ff" CREATED="1421588811344" ID="ID_937945403" LINK="https://github.com/smartinez87/exception_notification" MODIFIED="1421589417240" TEXT="exception notification"/>
 </node>
+<node CREATED="1421589345088" FOLDED="true" ID="ID_1917587645" MODIFIED="1421590709780" POSITION="left" TEXT="pagination">
+<node COLOR="#0033ff" CREATED="1421589356123" ID="ID_518085088" LINK="https://github.com/amatsuda/kaminari" MODIFIED="1421589360536" TEXT="kaminari"/>
 </node>
-<node CREATED="1419551241611" FOLDED="true" ID="ID_1629276551" MODIFIED="1420816659084" TEXT="fake data">
-<node COLOR="#0033ff" CREATED="1419551246547" ID="ID_1224341220" LINK="https://github.com/stympy/faker" MODIFIED="1420739140942" TEXT="faker"/>
-</node>
-<node CREATED="1420739050471" FOLDED="true" ID="ID_1122462796" MODIFIED="1420816658792" TEXT="coverage">
-<node COLOR="#0033ff" CREATED="1420739053152" ID="ID_1946521688" LINK="https://github.com/colszowka/simplecov" MODIFIED="1420739126565" TEXT="simplecov"/>
-</node>
-<node CREATED="1420739075701" FOLDED="true" ID="ID_798137397" MODIFIED="1420816658380" TEXT="fixtures">
-<node COLOR="#0033ff" CREATED="1420739082936" ID="ID_1379296288" LINK="https://github.com/thoughtbot/factory_girl" MODIFIED="1420739109214" TEXT="factory_girl"/>
-<node COLOR="#0033ff" CREATED="1420813479608" ID="ID_357026747" LINK="https://github.com/thoughtbot/factory_girl_rails" MODIFIED="1420813531933" TEXT="factory_girl_rails"/>
-</node>
-</node>
-<node CREATED="1419198143416" FOLDED="true" ID="ID_365609595" MODIFIED="1421274312412" POSITION="left" TEXT="date">
-<node CREATED="1419198144923" ID="ID_1559691275" MODIFIED="1419198147338" TEXT="chronic"/>
-<node CREATED="1419198148121" ID="ID_910874029" MODIFIED="1419198164114" TEXT="whenever"/>
+<node CREATED="1421590761086" FOLDED="true" ID="ID_297162504" MODIFIED="1421590772573" POSITION="left" TEXT="parser">
+<node COLOR="#0033ff" CREATED="1421590763389" ID="ID_409420701" LINK="http://www.nokogiri.org/" MODIFIED="1421590769686" TEXT="nokogiri"/>
 </node>
 </node>
 </map>
