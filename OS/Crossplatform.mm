@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1420822115626" TEXT="CrossOS">
-<font NAME="SansSerif" SIZE="17"/>
+<node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1422176758672" TEXT="CrossOS">
+<font NAME="SansSerif" SIZE="23"/>
 <node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1420822121653" POSITION="right" TEXT="Services">
 <font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1331668059479" FOLDED="true" ID="ID_716532882" MODIFIED="1420800856768" TEXT="Auth">

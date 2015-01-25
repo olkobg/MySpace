@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1289984615195" ID="ID_1105235403" LINK="../Index.mm" MODIFIED="1420822125582" TEXT="XML">
-<font NAME="SansSerif" SIZE="19"/>
+<node CREATED="1289984615195" ID="ID_1105235403" LINK="../Index.mm" MODIFIED="1422176535627" TEXT="XML">
+<font NAME="SansSerif" SIZE="25"/>
 <node CREATED="1298903382046" FOLDED="true" ID="ID_1736292661" MODIFIED="1420818767636" POSITION="right" TEXT="Parser">
 <node CREATED="1298903362383" ID="ID_1808179345" MODIFIED="1298903369280" TEXT="DOM">
 <node CREATED="1298903372137" ID="ID_61874132" MODIFIED="1298903379006" TEXT="Document Object Model"/>
