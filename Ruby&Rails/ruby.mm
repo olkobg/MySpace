@@ -19,7 +19,7 @@
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1420817792834" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1419193495954" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" ID="ID_767240686" MODIFIED="1422356717036" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" ID="ID_767240686" MODIFIED="1422357017614" POSITION="left" TEXT="class">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1422284853468">
 <richcontent TYPE="NODE"><html>
@@ -179,7 +179,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1422356972843" TEXT="inheritance">
+<node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1422357146996" TEXT="inheritance">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358331090040" ID="ID_411122332" MODIFIED="1358331239602">
 <richcontent TYPE="NODE"><html>
@@ -264,6 +264,136 @@
     </p>
     <p>
       <font color="#0000ff">BookInStock.superclass </font># =&gt; PrintPublication
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1422357037964" ID="ID_1995850336" MODIFIED="1422357107772">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff"># method inheritance </font>
+    </p>
+    <p>
+      <font color="#0000ff">class PrintPublication </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(title, author) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@title, @author = title, author </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def public_method </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&quot;public method called&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def call_protected_method </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;my_protected_method </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def call_private_method </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;my_private_method </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;protected </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;def my_protected_method </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&quot;protected method called&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;private </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;def my_private_method </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&quot;private method called&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class BookInStock &lt; PrintPublication </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def call_private_and_protected </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;my_protected_method + my_private_method </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">book = BookInStock.new(&quot;The Great Gatsby&quot;, &quot;F. Scott Fitzgerald&quot;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">book.public_method&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font># =&gt; &quot;public method called&quot;
+    </p>
+    <p>
+      <font color="#0000ff">book.call_protected_method&#160;&#160;&#160;&#160;&#160;&#160;</font># =&gt; &quot;protected method called&quot;
+    </p>
+    <p>
+      <font color="#0000ff">book.call_private_method&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font># =&gt; &quot;private method called&quot;
+    </p>
+    <p>
+      <font color="#0000ff">book.call_private_and_protected </font># =&gt; &quot;protected method called private method called&quot;
     </p>
   </body>
 </html>
