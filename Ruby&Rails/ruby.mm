@@ -179,7 +179,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1422357346603" TEXT="inheritance">
+<node CREATED="1360774066784" ID="ID_1602016102" MODIFIED="1422357411206" TEXT="inheritance">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358331090040" ID="ID_411122332" MODIFIED="1358331239602">
 <richcontent TYPE="NODE"><html>
@@ -519,6 +519,73 @@
 </richcontent>
 </node>
 </node>
+<node CREATED="1422357413646" FOLDED="true" ID="ID_156871978" MODIFIED="1422357455622" TEXT="class vars">
+<node CREATED="1422357423175" ID="ID_1536299550" MODIFIED="1422357454174">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">class A </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;@@value = 1 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def self.value </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@@value </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">A.value </font># =&gt; 1
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class B &lt; A </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;@@value = 2 </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class C &lt; A </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;@@value = 3 </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">B.value </font># =&gt; 3
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1422357456892" ID="ID_965258323" MODIFIED="1422357456892" TEXT=""/>
 </node>
 <node CREATED="1357308516412" FOLDED="true" ID="ID_97731342" MODIFIED="1422288228395" TEXT="boolean">
 <font NAME="SansSerif" SIZE="12"/>
