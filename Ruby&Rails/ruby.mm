@@ -179,7 +179,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1422357146996" TEXT="inheritance">
+<node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1422357346603" TEXT="inheritance">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358331090040" ID="ID_411122332" MODIFIED="1358331239602">
 <richcontent TYPE="NODE"><html>
@@ -269,6 +269,7 @@
 </html>
 </richcontent>
 </node>
+<node CREATED="1422357197677" FOLDED="true" ID="ID_1593626936" MODIFIED="1422357243050" TEXT="method">
 <node CREATED="1422357037964" ID="ID_1995850336" MODIFIED="1422357107772">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -396,8 +397,127 @@
       <font color="#0000ff">book.call_private_and_protected </font># =&gt; &quot;protected method called private method called&quot;
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1422357192848" FOLDED="true" ID="ID_1627332046" MODIFIED="1422357344877" TEXT="super">
+<node CREATED="1422357204970" ID="ID_577826019" MODIFIED="1422357236560">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">class PrintPublication </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(title, author) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@title, @author = title, author </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class BookInStock &lt; PrintPublication </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(title, author, price) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@price = price </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;super(title, author) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">book = BookInStock.new(&quot;The Great Gatsby&quot;, &quot;F. Scott Fitzgerald&quot;, 8.99) </font>
+    </p>
+    <p>
+      # =&gt; #&lt;BookInStock:0x000000024f2408 @price=8.99, @title=&quot;The Great Gatsby&quot;, @author=&quot;F. Scott Fitzgerald&quot;&gt;
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1422357303065" ID="ID_982840682" MODIFIED="1422357314679">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">class BookInStock &lt; PrintPublication </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(title, author, price) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@price = price </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;super </font># =&gt; ArgumentError: wrong number of arguments (3 for 2)
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1422357315786" ID="ID_1496347150" MODIFIED="1422357342726">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">class BookInStock &lt; PrintPublication </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(title, author, price) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@price = price </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">book = BookInStock.new(&quot;The Great Gatsby&quot;, &quot;F. Scott Fitzgerald&quot;, 8.99) </font>
+    </p>
+    <p>
+      # =&gt;&#160;&#160;#&lt;BookInStock:0x000000025404f0 @price=8.99&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1357308516412" FOLDED="true" ID="ID_97731342" MODIFIED="1422288228395" TEXT="boolean">
