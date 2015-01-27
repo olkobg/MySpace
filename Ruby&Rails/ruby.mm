@@ -13,14 +13,13 @@
       http://rubygarage.github.io
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="34"/>
 <node COLOR="#338800" CREATED="1282900446488" FOLDED="true" ID="ID_1262636553" MODIFIED="1422293969639" POSITION="right" TEXT="lib/tool/app">
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1420817792834" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1419193495954" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1422306049406" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1422356534418" POSITION="left" TEXT="class">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1422284853468">
 <richcontent TYPE="NODE"><html>
@@ -177,8 +176,7 @@
       &#160;=&gt; Book: The Great Gatsby / F. Scott Fitzgerald, 8.99
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1422293745984" TEXT="inheritance">
@@ -628,8 +626,7 @@
       <font color="#0000ff">books_collection.price</font>&#160;&#160;# =&gt; 16.59
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1422288586033" FOLDED="true" ID="ID_1230844944" MODIFIED="1422291451206" TEXT="args">
@@ -1736,8 +1733,7 @@
       <font color="#0000ff">BookInStock.total_amount(book1, book2)</font>&#160;# =&gt; 30.0
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422304093443" ID="ID_69057981" MODIFIED="1422304114255">
 <richcontent TYPE="NODE"><html>
@@ -1779,8 +1775,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -4773,7 +4768,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1422303998238" POSITION="left" TEXT="object">
+<node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1422356535276" POSITION="left" TEXT="object">
 <node CREATED="1422180144626" ID="ID_354289056" MODIFIED="1422180186358">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4880,9 +4875,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357308445090" FOLDED="true" ID="ID_1298889748" MODIFIED="1422306047843" POSITION="left" TEXT="variables">
+<node CREATED="1357308445090" ID="ID_1298889748" MODIFIED="1422356536329" POSITION="left" TEXT="variables">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1422286603111" FOLDED="true" ID="ID_13809418" MODIFIED="1422305907943" TEXT="constant">
+<node CREATED="1422286603111" FOLDED="true" ID="ID_13809418" MODIFIED="1422356527162" TEXT="constant">
 <node COLOR="#0033ff" CREATED="1357308484483" ID="ID_1958604901" MODIFIED="1422286626971" TEXT="ClassName">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -4932,8 +4927,7 @@
       <font color="#0000ff">BookInStock::MIN_PRICE </font># =&gt; 20
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422286803512" FOLDED="true" ID="ID_1156032986" MODIFIED="1422305789568" TEXT="class">
@@ -5007,8 +5001,7 @@
       <font color="#0000ff">book.count </font># =&gt; NoMethodError: undefined method 'count'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422286591455" FOLDED="true" ID="ID_739950665" MODIFIED="1422305790682" TEXT="global">
@@ -5138,8 +5131,7 @@
       <font color="#0000ff">BookInStock.statistics </font># =&gt; Count of add method call: 5
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422286579363" FOLDED="true" ID="ID_1138649457" MODIFIED="1422286904789" TEXT="local">
@@ -5184,6 +5176,69 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1422356537869" FOLDED="true" ID="ID_212833577" MODIFIED="1422356601783" TEXT="scope">
+<node CREATED="1422356543941" ID="ID_862231818" MODIFIED="1422356587959">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">v1 = 1 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class MyClass </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;v2 = 2 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;local_variables&#160;&#160;&#160;</font># =&gt; [:v2]
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def my_method </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;v3 = 3 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;local_variables </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;local_variables&#160;&#160;&#160;</font># =&gt; [:v2]
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">obj = MyClass.new </font>
+    </p>
+    <p>
+      <font color="#0000ff">obj.my_method&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font># =&gt; [:v3]
+    </p>
+    <p>
+      <font color="#0000ff">local_variables&#160;&#160;&#160;&#160;&#160;</font># =&gt; [:v1, :obj]
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -6068,8 +6123,7 @@
       =&gt; false
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422299431483" ID="ID_210353153" MODIFIED="1422299580295">
 <richcontent TYPE="NODE"><html>
@@ -6141,8 +6195,7 @@
       # =&gt; true
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
