@@ -19,7 +19,7 @@
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1420817792834" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1419193495954" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1422356534418" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" ID="ID_767240686" MODIFIED="1422356717036" POSITION="left" TEXT="class">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1422284853468">
 <richcontent TYPE="NODE"><html>
@@ -179,7 +179,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1422293745984" TEXT="inheritance">
+<node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1422356972843" TEXT="inheritance">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358331090040" ID="ID_411122332" MODIFIED="1358331239602">
 <richcontent TYPE="NODE"><html>
@@ -220,6 +220,55 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1422356923970" ID="ID_1659886277" MODIFIED="1422356954249">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">class PrintPublication </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(title, author) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@title, @author = title, author </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class BookInStock &lt; PrintPublication </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">book = BookInStock.new(&quot;The Great Gatsby&quot;, &quot;F. Scott Fitzgerald&quot;) </font>
+    </p>
+    <p>
+      # =&gt; &lt;BookInStock:0x00000000f2c538 @title=&quot;The Great Gatsby&quot;, @author=&quot;F. Scott Fitzgerald&quot;&gt;
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">BookInStock.superclass </font># =&gt; PrintPublication
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1357308516412" FOLDED="true" ID="ID_97731342" MODIFIED="1422288228395" TEXT="boolean">
 <font NAME="SansSerif" SIZE="12"/>
@@ -240,7 +289,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1422305772931" TEXT="methods">
+<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1422356901439" TEXT="methods">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1360758434157" FOLDED="true" ID="ID_806357009" MODIFIED="1422305771918" TEXT="attr">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1776,6 +1825,135 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1422356721168" FOLDED="true" ID="ID_156693730" MODIFIED="1422356899389" TEXT="visibility">
+<node CREATED="1422356732885" ID="ID_38297916" MODIFIED="1422356879302">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">class BookInStock </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;attr_reader :title, :author, :price </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(title, author, price) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@title, @author, @price = title, author, Float(price) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def buy_with(other) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;discount + other.discount </font># self.discount + other.discount
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def full_cost </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@price + tax </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;# self.tax&#160;&#160;</font># =&gt; NoMethodError: private method 'tax' called
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def tax_for_two(other) </font># error
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;tax + other.tax&#160;&#160;&#160;&#160;&#160;&#160;</font># you can user private method only for self
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;protected </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;def discount </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;@price * 0.9 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;private </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;def tax </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;@price * 0.2 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">fitzgerald_book&#160;&#160;= BookInStock.new(&quot;The Great Gatsby&quot;, &quot;F. Scott Fitzgerald&quot;, 8.99) </font>
+    </p>
+    <p>
+      <font color="#0000ff">hemigway_book&#160;&#160;&#160;&#160;= BookInStock.new(&quot;The Old Man and the Sea &quot;, &quot;Ernest Hemingway&quot;, 7.6) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">fitzgerald_book.buy_with hemigway_book&#160;&#160;&#160;&#160;</font># =&gt; 14.93
+    </p>
+    <p>
+      <font color="#0000ff">fitzgerald_book.full_cost&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font># =&gt; 10.78
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">fitzgerald_book.discount&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font># =&gt; NoMethodError:<font color="#0000ff">&#160;</font>protected method 'discount' called
+    </p>
+    <p>
+      <font color="#0000ff">fitzgerald_book.tax_for_two hemigway_book </font># =&gt; NoMethodError: private method 'tax' called
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -4768,7 +4946,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1422356535276" POSITION="left" TEXT="object">
+<node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1422356716827" POSITION="left" TEXT="object">
 <node CREATED="1422180144626" ID="ID_354289056" MODIFIED="1422180186358">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4815,7 +4993,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1417123095769" FOLDED="true" ID="ID_1297218430" MODIFIED="1422299645015" POSITION="left" TEXT="metaprogramming">
+<node CREATED="1417123095769" FOLDED="true" ID="ID_1297218430" MODIFIED="1422356715940" POSITION="left" TEXT="metaprogramming">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357323331656" ID="ID_1844910866" MODIFIED="1417178555644">
 <richcontent TYPE="NODE"><html>
@@ -4875,7 +5053,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357308445090" ID="ID_1298889748" MODIFIED="1422356536329" POSITION="left" TEXT="variables">
+<node CREATED="1357308445090" FOLDED="true" ID="ID_1298889748" MODIFIED="1422356715161" POSITION="left" TEXT="variables">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1422286603111" FOLDED="true" ID="ID_13809418" MODIFIED="1422356527162" TEXT="constant">
 <node COLOR="#0033ff" CREATED="1357308484483" ID="ID_1958604901" MODIFIED="1422286626971" TEXT="ClassName">
@@ -5242,7 +5420,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1422303456650" POSITION="left" TEXT="operations">
+<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1422356714207" POSITION="left" TEXT="operations">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283360812953" FOLDED="true" ID="ID_1852096962" MODIFIED="1422303350528" TEXT="conditionals">
 <font NAME="SansSerif" SIZE="12"/>
