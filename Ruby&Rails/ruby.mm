@@ -19,7 +19,7 @@
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1420817792834" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1419193495954" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" ID="ID_767240686" MODIFIED="1422357623580" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1422362223967" POSITION="left" TEXT="class">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1422284853468">
 <richcontent TYPE="NODE"><html>
@@ -33,7 +33,202 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1422357629971" TEXT="classes">
+<node CREATED="1422358264311" FOLDED="true" ID="ID_1627044142" MODIFIED="1422358312287" TEXT="class as object">
+<node CREATED="1422358279934" ID="ID_249007570" MODIFIED="1422358308621">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">BookInStock = Class.new do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(title, author, price) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@title, @author, @price = title, author, Float(price) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;attr_reader :title, :author, :price </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def cover </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&quot;#{@title}, #{@author}&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">BookInStock&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; BookInStock
+    </p>
+    <p>
+      <font color="#0000ff">BookInStock.class </font># =&gt; Class
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">book = BookInStock.new(&quot;The Great Gatsby&quot;, &quot;F. Scott Fitzgerald&quot;, 8.99) </font>
+    </p>
+    <p>
+      <font color="#0000ff">book.cover&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; &quot;The Great Gatsby, F. Scott Fitzgerald&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1422358333308" FOLDED="true" ID="ID_1505203146" MODIFIED="1422358674896" TEXT="singelton aka eigenclass">
+<node CREATED="1422358382324" FOLDED="true" ID="ID_1654074771" MODIFIED="1422358534502" TEXT="create singleton methods">
+<node CREATED="1422358388545" ID="ID_1300023642" MODIFIED="1422358414706">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">class BookInStock </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def BookInStock.sum </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class BookInStock </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;class &lt;&lt; self </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;def sum </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class &lt;&lt; BookInStock </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def sum </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1422358540493" FOLDED="true" ID="ID_1036084645" MODIFIED="1422358674077" TEXT="add custom behavior to instance">
+<node CREATED="1422358640860" ID="ID_1049780749" MODIFIED="1422358672604">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">book = BookInStock.new </font>
+    </p>
+    <p>
+      <font color="#0000ff">def book.title </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&quot;Title&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">book.title </font># =&gt; Title
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class &lt;&lt; book </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def title </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&quot;Title&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">book.title </font># =&gt; Title
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">another = BookInStock.new </font>
+    </p>
+    <p>
+      <font color="#0000ff">another.title </font># =&gt; NoMethodError: undefined method 'title'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1422362223061" TEXT="classes">
+<node CREATED="1422358047778" FOLDED="true" ID="ID_1968592432" MODIFIED="1422362222337" TEXT="class hierarchy">
+<node CREATED="1422358126007" ID="ID_1774802114" MODIFIED="1422362217370">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="images/class_hierarchy.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1357321010545" FOLDED="true" ID="ID_801856610" LINK="http://ruby-doc.org/core-2.0.0/Array.html" MODIFIED="1422304089467" TEXT="Array">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1422211364157" FOLDED="true" ID="ID_582849734" MODIFIED="1422283140834" TEXT="accessing">
@@ -1809,7 +2004,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422180209990" FOLDED="true" ID="ID_49478277" LINK="http://ruby-doc.org/core-2.0.0/Numeric.html" MODIFIED="1422286011958" TEXT="Numeric">
+<node COLOR="#0033ff" CREATED="1422180209990" FOLDED="true" ID="ID_49478277" LINK="http://ruby-doc.org/core-2.0.0/Numeric.html" MODIFIED="1422358219261" TEXT="Numeric">
 <node CREATED="1422212742877" FOLDED="true" ID="ID_793138328" MODIFIED="1422285980479" TEXT="classes">
 <node CREATED="1422180222355" ID="ID_644388414" MODIFIED="1422180313157">
 <richcontent TYPE="NODE"><html>
@@ -2054,6 +2249,7 @@
   </body>
 </html></richcontent>
 </node>
+<node COLOR="#0033ff" CREATED="1422358189439" FOLDED="true" ID="ID_178753914" LINK="http://ruby-doc.org/core-2.0.0/Integer.html" MODIFIED="1422358216456" TEXT="Integer">
 <node COLOR="#0033ff" CREATED="1357320986721" FOLDED="true" ID="ID_1582160026" LINK="http://www.ruby-doc.org/core-2.0.0/Fixnum.html" MODIFIED="1422285997620" TEXT="Fixnum">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321148751" ID="ID_1221871997" MODIFIED="1357323141652">
@@ -2067,6 +2263,7 @@
     </p>
   </body>
 </html></richcontent>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1357320993022" ID="ID_465787465" LINK="http://www.ruby-doc.org/core-2.0.0/Float.html" MODIFIED="1422286009323" TEXT="Float">
@@ -2986,7 +3183,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1422357570990" TEXT="inheritance">
+<node CREATED="1360774066784" FOLDED="true" ID="ID_1602016102" MODIFIED="1422358777136" TEXT="inheritance">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358331090040" ID="ID_411122332" MODIFIED="1358331239602">
 <richcontent TYPE="NODE"><html>
@@ -3447,7 +3644,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357308516412" FOLDED="true" ID="ID_97731342" MODIFIED="1422288228395" TEXT="boolean">
+<node CREATED="1357308516412" FOLDED="true" ID="ID_97731342" MODIFIED="1422358775577" TEXT="boolean">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357308526541" ID="ID_1729984863" MODIFIED="1422177468993" TEXT=" false, nil (FalseClass)">
 <font NAME="SansSerif" SIZE="12"/>
@@ -5316,6 +5513,410 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1422358569659" FOLDED="true" ID="ID_507945280" MODIFIED="1422362146363" POSITION="left" TEXT="module">
+<node CREATED="1422358811253" FOLDED="true" ID="ID_126808197" MODIFIED="1422359079892" TEXT="constant &amp; path">
+<node CREATED="1422359007242" ID="ID_1318513650" MODIFIED="1422359067698">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">module M </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;class C </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;X = 'a constant' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;C::X&#160;&#160;</font># =&gt; &quot;a constant&quot;
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">M::C::X </font># =&gt; &quot;a constant&quot;
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">module M </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;Y = 'another constant' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;class C </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;::M::Y </font># =&gt; &quot;another constant&quot;
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">M.constants </font># =&gt; [:C, :Y]
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">module M </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;class C </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;module M2 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;Module.nesting </font># =&gt; [M::C::M2, M::C, M]
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1422359219486" FOLDED="true" ID="ID_278576575" MODIFIED="1422359337819" TEXT="extend">
+<node CREATED="1422359225380" ID="ID_889554250" MODIFIED="1422359257981">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">module AudioConverter </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def formats </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;[&quot;mp3&quot;, &quot;avi&quot;, &quot;ogg&quot;] </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class AudioUpload </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;extend AudioConverter </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;# class &lt;&lt; self </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;#&#160;&#160;&#160;include AudioConverter </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;# end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(file) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@file = file </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">AudioUpload.formats </font># =&gt; [&quot;mp3&quot;, &quot;avi&quot;, &quot;ogg&quot;]
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">audio = AudioUpload.new(&quot;audio.mp3&quot;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">audio.formats </font># =&gt; NoMethodError: undefined method 'formats'
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">audio.extend(AudioConverter) </font>
+    </p>
+    <p>
+      <font color="#0000ff">audio.formats #</font>&#160;=&gt; [&quot;mp3&quot;, &quot;avi&quot;, &quot;ogg&quot;]
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1422358816454" ID="ID_40531154" MODIFIED="1422359223408" TEXT="path"/>
+<node CREATED="1422359020244" FOLDED="true" ID="ID_438206965" MODIFIED="1422362107505" TEXT="sample">
+<node CREATED="1422358728455" ID="ID_397314429" MODIFIED="1422358755519">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">module AudioConverter </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;class Decoder </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;def initialize file </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;@file, @format = @file, AudioHelpers.get_format(file) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;class Encoder </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;def initialize file </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;@file, @format = @file, AudioHelpers.get_format(file) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;class AudioHelpers </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;def self.get_format file </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;File.extname(file) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">AudioConverter::Decoder.new(&quot;music.mp3&quot;)</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1422361884501" FOLDED="true" ID="ID_355318201" MODIFIED="1422362146035" TEXT="hierarcy">
+<node CREATED="1422362042480" ID="ID_685611597" MODIFIED="1422362114013">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">module M </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class C </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;include M </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class D &lt; C </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">D.ancestors </font>
+    </p>
+    <p>
+      =&gt; [D, C, M, Object, Kernel, BasicObject]
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1422361888452" ID="ID_1956643489" MODIFIED="1422362074342">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="images/class-inheritance.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1422359097873" FOLDED="true" ID="ID_1785766035" MODIFIED="1422359213598" POSITION="left" TEXT="mixins">
+<node CREATED="1422359105671" ID="ID_375859181" MODIFIED="1422359120750">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">module AudioConverter </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def compare_formats another_file </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;File.extname(@file) == File.extname(another_file) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class AudioUpload </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;include AudioConverter </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(file) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@file = file </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">audio_upload = AudioUpload.new(&quot;music.mp3&quot;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">audio_upload.compare_formats(&quot;video.avi&quot;)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1422359177016" ID="ID_155326902" MODIFIED="1422359184154">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">require 'audio_converter' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">class AudioUpload </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;include AudioConverter </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(file) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@file = file </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1422356716827" POSITION="left" TEXT="object">
