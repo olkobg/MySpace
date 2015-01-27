@@ -19,7 +19,7 @@
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1420817792834" TEXT="Rails"/>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1419193495954" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1422362223967" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1422392510066" POSITION="left" TEXT="class">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1422284853468">
 <richcontent TYPE="NODE"><html>
@@ -92,8 +92,7 @@
       <font color="#0000ff">book.cover&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; &quot;The Great Gatsby, F. Scott Fitzgerald&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422358333308" FOLDED="true" ID="ID_1505203146" MODIFIED="1422358674896" TEXT="singelton aka eigenclass">
@@ -153,8 +152,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422358540493" FOLDED="true" ID="ID_1036084645" MODIFIED="1422358674077" TEXT="add custom behavior to instance">
@@ -210,13 +208,12 @@
       <font color="#0000ff">another.title </font># =&gt; NoMethodError: undefined method 'title'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1422362223061" TEXT="classes">
-<node CREATED="1422358047778" FOLDED="true" ID="ID_1968592432" MODIFIED="1422362222337" TEXT="class hierarchy">
+<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1422362343773" TEXT="classes">
+<node CREATED="1422358047778" FOLDED="true" ID="ID_1968592432" MODIFIED="1422362343535" TEXT="class hierarchy">
 <node CREATED="1422358126007" ID="ID_1774802114" MODIFIED="1422362217370">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -225,8 +222,7 @@
   <body>
     <img src="images/class_hierarchy.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1357321010545" FOLDED="true" ID="ID_801856610" LINK="http://ruby-doc.org/core-2.0.0/Array.html" MODIFIED="1422304089467" TEXT="Array">
@@ -3270,8 +3266,7 @@
       <font color="#0000ff">BookInStock.superclass </font># =&gt; PrintPublication
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422357197677" FOLDED="true" ID="ID_1593626936" MODIFIED="1422357243050" TEXT="method">
 <node CREATED="1422357037964" ID="ID_1995850336" MODIFIED="1422357107772">
@@ -3457,8 +3452,7 @@
       # =&gt; #&lt;BookInStock:0x000000024f2408 @price=8.99, @title=&quot;The Great Gatsby&quot;, @author=&quot;F. Scott Fitzgerald&quot;&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422357303065" ID="ID_982840682" MODIFIED="1422357314679">
 <richcontent TYPE="NODE"><html>
@@ -3485,8 +3479,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422357315786" ID="ID_1496347150" MODIFIED="1422357342726">
 <richcontent TYPE="NODE"><html>
@@ -3519,8 +3512,7 @@
       # =&gt;&#160;&#160;#&lt;BookInStock:0x000000025404f0 @price=8.99&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422357413646" FOLDED="true" ID="ID_156871978" MODIFIED="1422357455622" TEXT="class vars">
@@ -3585,8 +3577,7 @@
       <font color="#0000ff">B.value </font># =&gt; 3
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422357456892" FOLDED="true" ID="ID_965258323" MODIFIED="1422357568721" TEXT="constant">
@@ -3639,8 +3630,7 @@
       <font color="#0000ff">B::NUM </font># =&gt; 3
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3663,7 +3653,429 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1422356901439" TEXT="methods">
+<node COLOR="#0033ff" CREATED="1422303530668" FOLDED="true" ID="ID_159069751" MODIFIED="1422357638555" TEXT="self">
+<node CREATED="1422303535581" ID="ID_553073299" MODIFIED="1422303545094" TEXT="At the time the method definition is executed, the most you can say is that self inside this method will be some future object that has access to this method."/>
+<node CREATED="1422303600275" ID="ID_1976705556" MODIFIED="1422303611903">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The keyword <b>self</b>&#160;in Ruby gives you access to the current object &#8211; the object that is receiving the current message.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1422303546220" ID="ID_638499602" MODIFIED="1422303590705">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">class S </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def m </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;self </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">s = S.new </font>
+    </p>
+    <p>
+      <font color="#0000ff">s.m</font>&#160;# =&gt; &lt;S:0x007ff4fa038a58&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1422303649317" ID="ID_870300709" MODIFIED="1422303815134">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">class BookInStock </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;attr_reader :title, :author, :price </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(title, author, price) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@title, @author, @price = title, author, Float(price) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def title </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&quot;Author: #{@author}&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def my_object_print </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts self.inspect&#160; </font>
+    </p>
+    <p>
+      =&gt; &lt;BookInStock:0x000000010aaef0 @title=&quot;t1&quot;, @author=&quot;a1&quot;, @price=10.0&gt;
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def attribute_print</font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts self.author&#160;&#160;&#160;</font># =&gt; The Great Gatsby
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts @author&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; The Great Gatsby
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def variable_and_method </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts title&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; Author: F. Scott Fitzgerald
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;title = 'My best title' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts title&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; My best title
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts self.title&#160;&#160;&#160; </font># =&gt; Author: F. Scott Fitzgerald
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def my_object_as_param </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;str = &quot;my string&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts str.eql? self </font># =&gt; false
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def method_to_class </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;# puts class - error it try to create new class </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts self.class.inspect&#160;&#160;&#160;&#160; </font># =&gt; BookInStock
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;self.class.my_class_method&#160; </font># =&gt; BookInStock
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def self.my_class_print </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts self.inspect&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; BookInStock
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1422392697498" FOLDED="true" ID="ID_592127580" MODIFIED="1422393294710" POSITION="left" TEXT="exceptions">
+<node CREATED="1422392953303" FOLDED="true" ID="ID_550609076" MODIFIED="1422393146498" TEXT="simple">
+<node CREATED="1422392704617" ID="ID_854131625" MODIFIED="1422392768083">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">begin </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts 'I am before the raise.' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;raise 'An error has occured.' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts 'I am after the raise.' </font>
+    </p>
+    <p>
+      <font color="#0000ff">rescue </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts 'I am rescued.' </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">puts 'I am after the begin block.' </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      I am before the raise.
+    </p>
+    <p>
+      I am rescued.
+    </p>
+    <p>
+      I am after the begin block.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1422392950540" FOLDED="true" ID="ID_1043808471" MODIFIED="1422393146218" TEXT="type">
+<node CREATED="1422392770452" ID="ID_1898991850" MODIFIED="1422392826624">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">begin </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;raise &quot;A test exception.&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">rescue Exception =&gt; e </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts e.message </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts e.backtrace.inspect </font>
+    </p>
+    <p>
+      <font color="#0000ff">ensure </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts &quot;Ensuring execution&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      A test exception.
+    </p>
+    <p>
+      [&quot;test.rb:2:in '&lt;main&gt;'&quot;]
+    </p>
+    <p>
+      Ensuring execution
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1422392828809" ID="ID_522667857" MODIFIED="1422392921991">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">begin </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts &quot;A test exception.&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">rescue Exception =&gt; e </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts e.message </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts e.backtrace.inspect </font>
+    </p>
+    <p>
+      <font color="#0000ff">else </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts &quot;Executes if there is no exeception&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">ensure </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts &quot;Ensuring execution&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      A test exception.
+    </p>
+    <p>
+      Executes if there is no exception
+    </p>
+    <p>
+      Ensuring execution
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1422392956060" FOLDED="true" ID="ID_830787246" MODIFIED="1422393145514" TEXT="throw, catch">
+<node CREATED="1422392960094" ID="ID_192635295" MODIFIED="1422393143618">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">def try_throw_if(act) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts &quot;Try '#{act}'&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;throw :alarm! if act == &quot;Go! go! go!&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;act </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">catch :alarm! do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts try_throw_if(&quot;Makes one&quot;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts try_throw_if(&quot;Makes two&quot;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts try_throw_if(&quot;Go! go! go!&quot;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts try_throw_if(&quot;Makes three&quot;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">puts try_throw_if(&quot;Makes four&quot;) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Try 'Makes one'
+    </p>
+    <p>
+      Makes one
+    </p>
+    <p>
+      Try 'Makes two'
+    </p>
+    <p>
+      Makes two
+    </p>
+    <p>
+      Try 'Go! go! go!'
+    </p>
+    <p>
+      Try 'Makes four'
+    </p>
+    <p>
+      Makes four
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1422393224789" FOLDED="true" ID="ID_1906674896" MODIFIED="1422393294400" TEXT="hierarchy">
+<node CREATED="1422393229470" ID="ID_1620701726" MODIFIED="1422393237714">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="images/hierarchy_exceptions.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1422392684575" POSITION="left" TEXT="methods">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1360758434157" FOLDED="true" ID="ID_806357009" MODIFIED="1422305771918" TEXT="attr">
 <font NAME="SansSerif" SIZE="12"/>
@@ -4773,6 +5185,53 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1422392518450" FOLDED="true" ID="ID_1945174242" MODIFIED="1422392684129" TEXT="lookup">
+<node CREATED="1422392529115" ID="ID_1165299270" MODIFIED="1422392541696">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#1057;hecks the eigenclass of 'foo' for singleton methods named 'bar'.
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1422392543378" ID="ID_644530495" MODIFIED="1422392554689" TEXT="If no method &apos;bar&apos; is found in the eigenclass, Ruby searches the class of &apos;foo&apos; for an instance method named &apos;bar&apos;.">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1422392544278" ID="ID_1840214171" MODIFIED="1422392569102" TEXT="If no method &apos;bar&apos; is found in the class, Ruby searches the instance methods of any modules included by the class of &apos;foo&apos;. If that class includes more than one module, then they are searched in the reverse of the order in which they were included. That is, the most recently included module is searched first.">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1422392544833" ID="ID_790321127" MODIFIED="1422392580880" TEXT="If no instance method &apos;bar&apos; is found in the class of &apos;foo&apos; or in its modules, then the search moves up the inheritance hierarchy to the superclass. Steps 2 and 3 are repeated for each class in the inheritance hierarchy until each ancestor class and its included modules have been searched.">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1422392545145" ID="ID_945139626" MODIFIED="1422392592838" TEXT="If no method named &apos;bar&apos; is found after completing the search, then a method named method_missing is invoked instead.">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1422392629471" ID="ID_758212" MODIFIED="1422392655752">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">foo = &quot;some string&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">foo.bar </font># singleton: no -&gt; String class: no -&gt; Comparable module: no -&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# Object class: no -&gt; Kernel module: no -&gt; method_missing: no -&gt; raise an exception
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1422290585732" FOLDED="true" ID="ID_162111783" MODIFIED="1422290772366" TEXT="Proc">
 <node CREATED="1422290595094" ID="ID_828356540" MODIFIED="1422290632507">
 <richcontent TYPE="NODE"><html>
@@ -5326,196 +5785,11 @@
       <font color="#0000ff">fitzgerald_book.tax_for_two hemigway_book </font># =&gt; NoMethodError: private method 'tax' called
     </p>
   </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1422303530668" FOLDED="true" ID="ID_159069751" MODIFIED="1422357638555" TEXT="self">
-<node CREATED="1422303535581" ID="ID_553073299" MODIFIED="1422303545094" TEXT="At the time the method definition is executed, the most you can say is that self inside this method will be some future object that has access to this method."/>
-<node CREATED="1422303600275" ID="ID_1976705556" MODIFIED="1422303611903">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      The keyword <b>self</b>&#160;in Ruby gives you access to the current object &#8211; the object that is receiving the current message.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1422303546220" ID="ID_638499602" MODIFIED="1422303590705">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">class S </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;def m </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;self </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">end </font>
-    </p>
-    <p>
-      <font color="#0000ff">s = S.new </font>
-    </p>
-    <p>
-      <font color="#0000ff">s.m</font>&#160;# =&gt; &lt;S:0x007ff4fa038a58&gt;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1422303649317" ID="ID_870300709" MODIFIED="1422303815134">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">class BookInStock </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;attr_reader :title, :author, :price </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;def initialize(title, author, price) </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;@title, @author, @price = title, author, Float(price) </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;def title </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;&quot;Author: #{@author}&quot; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;def my_object_print </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;puts self.inspect&#160; </font>
-    </p>
-    <p>
-      =&gt; &lt;BookInStock:0x000000010aaef0 @title=&quot;t1&quot;, @author=&quot;a1&quot;, @price=10.0&gt;
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;def attribute_print</font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;puts self.author&#160;&#160;&#160;</font># =&gt; The Great Gatsby
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;puts @author&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; The Great Gatsby
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;def variable_and_method </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;puts title&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; Author: F. Scott Fitzgerald
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;title = 'My best title' </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;puts title&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; My best title
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;puts self.title&#160;&#160;&#160; </font># =&gt; Author: F. Scott Fitzgerald
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;def my_object_as_param </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;str = &quot;my string&quot; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;puts str.eql? self </font># =&gt; false
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;def method_to_class </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;# puts class - error it try to create new class </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;puts self.class.inspect&#160;&#160;&#160;&#160; </font># =&gt; BookInStock
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;self.class.my_class_method&#160; </font># =&gt; BookInStock
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;def self.my_class_print </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;puts self.inspect&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font># =&gt; BookInStock
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">end</font>
-    </p>
-  </body>
 </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1422358569659" FOLDED="true" ID="ID_507945280" MODIFIED="1422362146363" POSITION="left" TEXT="module">
+<node CREATED="1422358569659" FOLDED="true" ID="ID_507945280" MODIFIED="1422392483485" POSITION="left" TEXT="module">
 <node CREATED="1422358811253" FOLDED="true" ID="ID_126808197" MODIFIED="1422359079892" TEXT="constant &amp; path">
 <node CREATED="1422359007242" ID="ID_1318513650" MODIFIED="1422359067698">
 <richcontent TYPE="NODE"><html>
@@ -5596,8 +5870,7 @@
       <font color="#0000ff">end </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422359219486" FOLDED="true" ID="ID_278576575" MODIFIED="1422359337819" TEXT="extend">
@@ -5683,8 +5956,7 @@
       <font color="#0000ff">audio.formats #</font>&#160;=&gt; [&quot;mp3&quot;, &quot;avi&quot;, &quot;ogg&quot;]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422358816454" ID="ID_40531154" MODIFIED="1422359223408" TEXT="path"/>
@@ -5762,7 +6034,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422361884501" FOLDED="true" ID="ID_355318201" MODIFIED="1422362146035" TEXT="hierarcy">
+<node CREATED="1422361884501" FOLDED="true" ID="ID_355318201" MODIFIED="1422392482839" TEXT="hierarchy">
 <node CREATED="1422362042480" ID="ID_685611597" MODIFIED="1422362114013">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5806,10 +6078,9 @@
       =&gt; [D, C, M, Object, Kernel, BasicObject]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1422361888452" ID="ID_1956643489" MODIFIED="1422362074342">
+<node CREATED="1422361888452" ID="ID_1956643489" MODIFIED="1422392471749">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5817,8 +6088,7 @@
   <body>
     <img src="images/class-inheritance.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -5878,8 +6148,7 @@
       <font color="#0000ff">audio_upload.compare_formats(&quot;video.avi&quot;)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422359177016" ID="ID_155326902" MODIFIED="1422359184154">
 <richcontent TYPE="NODE"><html>
@@ -5915,8 +6184,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1422356716827" POSITION="left" TEXT="object">
@@ -6388,8 +6656,7 @@
       <font color="#0000ff">local_variables&#160;&#160;&#160;&#160;&#160;</font># =&gt; [:v1, :obj]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
