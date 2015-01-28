@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1422296151343" TEXT="Ruby">
+<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1422440449542" TEXT="Ruby">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,7 +13,8 @@
       http://rubygarage.github.io
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="34"/>
 <node COLOR="#338800" CREATED="1282900446488" FOLDED="true" ID="ID_1262636553" MODIFIED="1422293969639" POSITION="right" TEXT="lib/tool/app">
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1420817792834" TEXT="Rails"/>
@@ -4057,8 +4058,7 @@
       Makes four
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422393224789" FOLDED="true" ID="ID_1906674896" MODIFIED="1422393294400" TEXT="hierarchy">
@@ -4070,8 +4070,7 @@
   <body>
     <img src="images/hierarchy_exceptions.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -5196,8 +5195,7 @@
       &#1057;hecks the eigenclass of 'foo' for singleton methods named 'bar'.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1422392543378" ID="ID_644530495" MODIFIED="1422392554689" TEXT="If no method &apos;bar&apos; is found in the eigenclass, Ruby searches the class of &apos;foo&apos; for an instance method named &apos;bar&apos;.">
@@ -5228,8 +5226,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# Object class: no -&gt; Kernel module: no -&gt; method_missing: no -&gt; raise an exception
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1422290585732" FOLDED="true" ID="ID_162111783" MODIFIED="1422290772366" TEXT="Proc">
@@ -7655,18 +7652,19 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1415815504743" FOLDED="true" ID="ID_740950273" MODIFIED="1422287029358" POSITION="left" TEXT="test">
+<node CREATED="1415815504743" FOLDED="true" ID="ID_740950273" MODIFIED="1422446480620" POSITION="left" TEXT="test">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1415815506901" FOLDED="true" ID="ID_855983373" MODIFIED="1422287029069" TEXT="tip">
-<node CREATED="1415815509684" FOLDED="true" ID="ID_1430109150" MODIFIED="1422287028842" TEXT="make test with http basic auth">
+<node COLOR="#0033ff" CREATED="1422446386879" ID="ID_1745738817" LINK="gems/RSpec.mm" MODIFIED="1422446396119" TEXT="RSpec"/>
+<node CREATED="1415815506901" FOLDED="true" ID="ID_855983373" MODIFIED="1422446479095" TEXT="tip">
+<node CREATED="1415815509684" FOLDED="true" ID="ID_1430109150" MODIFIED="1422446211976" TEXT="make test with http basic auth">
 <node CREATED="1415815766145" ID="ID_1801490975" LINK="http://stackoverflow.com/questions/3768718/rails-rspec-make-tests-pass-with-http-basic-authentication" MODIFIED="1415815771250" TEXT="so"/>
 <node CREATED="1415815768234" ID="ID_1180891051" MODIFIED="1415815797832" TEXT="included with Rack::Test"/>
 </node>
 </node>
 </node>
-<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1422180023296" POSITION="right" TEXT="ver">
+<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1422446203500" POSITION="right" TEXT="ver">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1422178783983" ID="ID_581998632" MODIFIED="1422178794222" TEXT="manage">
+<node CREATED="1422178783983" FOLDED="true" ID="ID_581998632" MODIFIED="1422446202661" TEXT="manage">
 <node COLOR="#0033ff" CREATED="1357132426045" ID="ID_789870658" LINK="rvm.mm" MODIFIED="1422178796381" TEXT="rvm"/>
 </node>
 <node CREATED="1357159596789" FOLDED="true" ID="ID_243706753" LINK="http://www.rubyenterpriseedition.com/" MODIFIED="1422178802439">
@@ -7704,7 +7702,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1412241600721" FOLDED="true" ID="ID_64964856" MODIFIED="1422287032602" POSITION="right" TEXT="$">
+<node COLOR="#0033ff" CREATED="1412241600721" FOLDED="true" ID="ID_64964856" MODIFIED="1422446383137" POSITION="right" TEXT="$">
 <node COLOR="#0033ff" CREATED="1357147330262" ID="ID_1164510811" LINK="Gems.mm" MODIFIED="1412241653705" TEXT="gem">
 <font NAME="SansSerif" SIZE="13"/>
 </node>
