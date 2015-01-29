@@ -154,53 +154,8 @@
 <node CREATED="1420825825917" FOLDED="true" ID="ID_824197470" MODIFIED="1422446221692" POSITION="left" TEXT="form">
 <node COLOR="#0033ff" CREATED="1420825827300" ID="ID_1637755489" LINK="https://github.com/plataformatec/simple_form" MODIFIED="1420825845837" TEXT="simple_form"/>
 </node>
-<node CREATED="1419193247900" FOLDED="true" ID="ID_1291006163" MODIFIED="1422446358911" POSITION="left" TEXT="testing">
-<node COLOR="#0033ff" CREATED="1419367389430" FOLDED="true" ID="ID_921915797" LINK="http://cukes.info/" MODIFIED="1422009948236" TEXT="cucumber">
-<node CREATED="1420463925601" FOLDED="true" ID="ID_974675608" MODIFIED="1420816641252" TEXT="scenario">
-<node CREATED="1420463942378" ID="ID_1291463111" MODIFIED="1420464402301">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Given&#160;-&#160;Given&#160;lines describe what pre-condition should exist.
-    </p>
-    <p>
-      When&#160;&#160;-&#160;When&#160;lines describe the actions you take.
-    </p>
-    <p>
-      Then&#160;&#160;-&#160;Then&#160;lines describe the result.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1420464010605" ID="ID_1666746312" MODIFIED="1420464402297">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>Given</b>&#160;I am on the home page
-    </p>
-    <p>
-      And I am signed in
-    </p>
-    <p>
-      <b>Then</b>&#160;I should see &quot;Welcome Back!&quot;
-    </p>
-    <p>
-      And I should see &quot;Settings&quot;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#0033ff" CREATED="1420463932582" ID="ID_491567742" MODIFIED="1420816640111" TEXT="given"/>
-<node COLOR="#0033ff" CREATED="1420463935016" ID="ID_304549930" MODIFIED="1420816640110" TEXT="when"/>
-<node COLOR="#0033ff" CREATED="1420463936630" ID="ID_1185764591" MODIFIED="1420816640109" TEXT="then"/>
-</node>
-</node>
+<node CREATED="1419193247900" ID="ID_1291006163" MODIFIED="1422537215108" POSITION="left" TEXT="testing">
+<node CREATED="1422537433992" ID="ID_489329435" LINK="gems/cucumber.mm" MODIFIED="1422537433993" TEXT="cucumber"/>
 <node CREATED="1420739075701" FOLDED="true" ID="ID_798137397" MODIFIED="1422009936004" TEXT="fixtures">
 <node COLOR="#0033ff" CREATED="1420739082936" ID="ID_1379296288" LINK="https://github.com/thoughtbot/factory_girl" MODIFIED="1420739109214" TEXT="factory_girl"/>
 <node COLOR="#0033ff" CREATED="1420813479608" ID="ID_357026747" LINK="https://github.com/thoughtbot/factory_girl_rails" MODIFIED="1420813531933" TEXT="factory_girl_rails"/>
