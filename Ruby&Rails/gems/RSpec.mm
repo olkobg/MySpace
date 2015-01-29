@@ -182,7 +182,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1420719264339" ID="ID_592494176" LINK="https://github.com/y310/rspec-retry" MODIFIED="1420719282501" POSITION="left" TEXT="rspec-retry"/>
 <node COLOR="#0033ff" CREATED="1420816184719" ID="ID_1462936176" LINK="https://github.com/rspec/rspec-expectations" MODIFIED="1420816191055" POSITION="left" TEXT="rspec-expectations"/>
-<node CREATED="1420927484051" ID="ID_163376751" LINK="https://github.com/thoughtbot/shoulda" MODIFIED="1420927533718" POSITION="left">
+<node CREATED="1422537234803" ID="ID_1333719026" LINK="shoulda.mm" MODIFIED="1422537235445" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -192,7 +192,8 @@
       <font color="#0000ff">shoulda</font>&#160;- testing model associations
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </map>
