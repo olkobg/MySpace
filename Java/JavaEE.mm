@@ -1,7 +1,7 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#006633" CREATED="1298040113920" ID="ID_1675668727" LINK="Java.mm" MODIFIED="1298542233086" TEXT="Java EE">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#006633" CREATED="1298040113920" ID="ID_1675668727" LINK="Java.mm" MODIFIED="1422617857158" TEXT="Java EE">
+<font NAME="SansSerif" SIZE="25"/>
 <node CREATED="1298030625223" ID="ID_1762485794" MODIFIED="1298550921166" POSITION="left" TEXT="Application Servers">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#cc3300" CREATED="1298030628695" ID="ID_1866574834" MODIFIED="1298550966104" TEXT="Jboss">
@@ -49,7 +49,7 @@
   </head>
   <body>
     <p>
-      &quot;Ruby on Rails&quot; like framework but using <font color="#0000ff">Java</font>&#160;and <font color="#0000ff">Scala</font>
+      "Ruby on Rails" like framework but using <font color="#0000ff">Java</font>&#xa0;and <font color="#0000ff">Scala</font>
     </p>
   </body>
 </html></richcontent>
