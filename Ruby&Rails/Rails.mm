@@ -1038,14 +1038,29 @@
 </node>
 </node>
 </node>
-<node CREATED="1284724176494" FOLDED="true" ID="ID_127732383" MODIFIED="1422177142579" POSITION="left" TEXT="config">
+<node CREATED="1284724176494" FOLDED="true" ID="ID_127732383" MODIFIED="1422621359838" POSITION="left" TEXT="config">
 <font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1284724186971" ID="ID_949958055" MODIFIED="1422177123043" TEXT="env">
-<node CREATED="1284724191652" FOLDED="true" ID="ID_1108905719" MODIFIED="1422177121749" TEXT="mime type">
-<node COLOR="#0033ff" CREATED="1284724195488" ID="ID_277391393" MODIFIED="1419373750596" TEXT="Mime::Type.register &quot;image/jpg&quot; , :jpg"/>
+<node CREATED="1284724186971" FOLDED="true" ID="ID_949958055" MODIFIED="1422621359571" TEXT="env">
+<node COLOR="#0033ff" CREATED="1284724195488" ID="ID_277391393" MODIFIED="1422621358239">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # mime type
+    </p>
+    <p>
+      Mime::Type.register &quot;image/jpg&quot; , :jpg
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1295537081811" FOLDED="true" ID="ID_1600753692" MODIFIED="1422177142316" TEXT="routes">
+</node>
+<node CREATED="1295537081811" FOLDED="true" ID="ID_1600753692" MODIFIED="1422621336873" POSITION="left" TEXT="routes">
+<font NAME="SansSerif" SIZE="15"/>
 <node CREATED="1295537084323" ID="ID_590058147" LINK="https://blog.engineyard.com/2010/the-lowdown-on-routes-in-rails-3/" MODIFIED="1419192665438" TEXT="enginge yard rails 3"/>
 <node CREATED="1419373175046" FOLDED="true" ID="ID_1851527180" MODIFIED="1422177141500" TEXT="resource">
 <node COLOR="#0033ff" CREATED="1419373194896" FOLDED="true" ID="ID_1190373695" MODIFIED="1422177131275" TEXT="resources :photos">
@@ -1155,7 +1170,6 @@
 </node>
 <node CREATED="1419373208415" FOLDED="true" ID="ID_1086622631" MODIFIED="1422177139021" TEXT="simple">
 <node COLOR="#0033ff" CREATED="1419373210941" ID="ID_1076983327" MODIFIED="1419373408376" TEXT="get &apos;/patients/:id&apos;, to: &apos;patients#show&apos;"/>
-</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1421142954350" POSITION="right">
@@ -1433,7 +1447,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1421588709207" POSITION="right" TEXT="Testing">
+<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1422446373162" POSITION="right" TEXT="Testing">
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1284982183137" ID="ID_1610244121" LINK="#ID_1104785174" MODIFIED="1419192981659" TEXT="rake"/>
 <node CREATED="1284982198269" ID="ID_88991437" MODIFIED="1284982201066" TEXT="single test">
