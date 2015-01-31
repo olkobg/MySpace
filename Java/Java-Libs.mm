@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1299146814303" ID="ID_301832088" LINK="Java.mm" MODIFIED="1422618294438">
+<node COLOR="#006699" CREATED="1299146814303" ID="ID_301832088" LINK="Java.mm" MODIFIED="1422620953377">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11,7 +11,7 @@
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="20"/>
+<font NAME="SansSerif" SIZE="26"/>
 <node COLOR="#cc3300" CREATED="1299146828736" FOLDED="true" ID="ID_733542333" MODIFIED="1422618326463" POSITION="left" TEXT="JSON">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1299146852721" FOLDED="true" ID="ID_183025265" MODIFIED="1422618325541" TEXT="JsonSample">
