@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <attribute_registry FONT_SIZE="10" SHOW_ATTRIBUTES="hide"/>
-<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1384966978130" TEXT="git">
-<font BOLD="true" NAME="SansSerif" SIZE="19"/>
+<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1422907024012" TEXT="git">
+<font NAME="SansSerif" SIZE="29"/>
 <node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1387451630198" POSITION="left" TEXT="Tips">
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node CREATED="1311116129871" ID="ID_538447464" MODIFIED="1311116135869" TEXT="fix svn rebase">
@@ -118,8 +118,8 @@
 <node CREATED="1389904655609" ID="ID_792398923" MODIFIED="1389904660596" TEXT="sourcetree"/>
 <node CREATED="1389904661209" ID="ID_1157394" MODIFIED="1389904667260" TEXT="smart git/hq"/>
 </node>
-<node COLOR="#0033ff" CREATED="1311116397871" FOLDED="true" ID="ID_315343330" MODIFIED="1418128254600" POSITION="left" TEXT="merge">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1311116397871" FOLDED="true" ID="ID_315343330" MODIFIED="1422907029513" POSITION="left" TEXT="merge">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347010374336" ID="ID_276273301" MODIFIED="1355754800083">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -157,8 +157,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356611018634" FOLDED="true" ID="ID_1250883637" MODIFIED="1396000063649" POSITION="left" TEXT="mergetool">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1356611018634" FOLDED="true" ID="ID_1250883637" MODIFIED="1422907029513" POSITION="left" TEXT="mergetool">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1380365720135" FOLDED="true" ID="ID_405889953" MODIFIED="1396000062817" TEXT="araxis ">
 <node CREATED="1380365726641" ID="ID_1800950299" MODIFIED="1380366002464">
 <richcontent TYPE="NODE"><html>
@@ -228,8 +228,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289405676416" FOLDED="true" ID="ID_487111464" MODIFIED="1384966937420" POSITION="right" TEXT="branch&#x9;&#x9;&#x9;&#x9;">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1289405676416" FOLDED="true" ID="ID_487111464" MODIFIED="1422907620137" POSITION="right" TEXT="branch&#x9;&#x9;&#x9;&#x9;">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311116426704" ID="ID_1992506106" MODIFIED="1311116529907" TEXT="work with branches (w/o params - show)"/>
 <node COLOR="#0033ff" CREATED="1289405689541" ID="ID_1296640732" MODIFIED="1355754835803" TEXT="-a">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -281,8 +281,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289405808665" FOLDED="true" ID="ID_616427300" MODIFIED="1405028677344" POSITION="right" TEXT="checkout">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1289405808665" FOLDED="true" ID="ID_616427300" MODIFIED="1422907033993" POSITION="right" TEXT="checkout">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1289405820303" ID="ID_594507726" MODIFIED="1356609866573">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -314,15 +314,15 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1347009889048" FOLDED="true" ID="ID_650238942" MODIFIED="1384966939580" POSITION="right" TEXT="cherry-pick">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1347009889048" FOLDED="true" ID="ID_650238942" MODIFIED="1422907033993" POSITION="right" TEXT="cherry-pick">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347010475104" ID="ID_42985000" MODIFIED="1347010510044" TEXT="insert commit (via sha) from other branches into current branch"/>
 </node>
-<node COLOR="#0033ff" CREATED="1329936112092" ID="ID_1784311335" MODIFIED="1355754724982" POSITION="left" TEXT="pull">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1329936112092" ID="ID_1784311335" MODIFIED="1422907029513" POSITION="left" TEXT="pull">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1329936116593" FOLDED="true" ID="ID_1595520806" MODIFIED="1387451854229" POSITION="left" TEXT="push">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1329936116593" FOLDED="true" ID="ID_1595520806" MODIFIED="1422907108742" POSITION="left" TEXT="push">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1329936120120" ID="ID_1196135519" MODIFIED="1360240001329">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -362,12 +362,23 @@
   </body>
 </html></richcontent>
 </node>
+<node COLOR="#0033ff" CREATED="1422907103731" FOLDED="true" ID="ID_174221548" MODIFIED="1422907107695" TEXT="-u">
+<node CREATED="1422907050550" ID="ID_400544186" MODIFIED="1422907095002">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <font color="#0000ff">-u</font>&#160;tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1356529773115" ID="ID_852491837" MODIFIED="1356529776325" POSITION="left" TEXT="reflog">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1311116388955" FOLDED="true" ID="ID_1391649564" MODIFIED="1418128249282" POSITION="left" TEXT="reset">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1311116388955" FOLDED="true" ID="ID_1391649564" MODIFIED="1422907029513" POSITION="left" TEXT="reset">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311117086249" ID="ID_1164172895" MODIFIED="1355755359927" TEXT="remove file from the current index (the &quot;about to be committed&quot; area) without changing anything else."/>
 <node COLOR="#009999" CREATED="1311117229714" ID="ID_168216952" LINK="http://stackoverflow.com/questions/348170/undo-git-add" MODIFIED="1356609417356" TEXT="SO">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -454,14 +465,17 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116393422" ID="ID_652199529" MODIFIED="1355754724981" POSITION="left" TEXT="remote">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1356529773115" ID="ID_852491837" MODIFIED="1422907029513" POSITION="left" TEXT="reflog">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1357900732315" ID="ID_1954485470" LINK="http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html" MODIFIED="1357900750975" POSITION="left" TEXT="rev-parse">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1311116393422" ID="ID_652199529" MODIFIED="1422907029513" POSITION="left" TEXT="remote">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1355755723037" FOLDED="true" ID="ID_1772285910" MODIFIED="1387451849369" POSITION="left" TEXT="show">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1357900732315" ID="ID_1954485470" LINK="http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html" MODIFIED="1422907029513" POSITION="left" TEXT="rev-parse">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355755723037" FOLDED="true" ID="ID_1772285910" MODIFIED="1422907029513" POSITION="left" TEXT="show">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357921040713" ID="ID_516186076" MODIFIED="1357921091267">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -514,7 +528,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1288956281435" FOLDED="true" ID="ID_605132199" MODIFIED="1387472935301" POSITION="right">
+<node COLOR="#0033ff" CREATED="1288956281435" FOLDED="true" ID="ID_605132199" MODIFIED="1422907039981" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -525,7 +539,7 @@
     </p>
   </body>
 </html></richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1289985835351" ID="ID_409390105" MODIFIED="1355755054957">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -556,8 +570,8 @@
 <attribute NAME="version" VALUE="&gt; 1.7"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1418121716433" POSITION="right" TEXT="commit">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1422907042384" POSITION="right" TEXT="commit">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1329936168498" ID="ID_311420569" MODIFIED="1355755030767" TEXT="--amend">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347009928183" ID="ID_1237583573" MODIFIED="1347009951712" TEXT="changes previous commit info and files commited if with add"/>
@@ -578,8 +592,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1418121719912" POSITION="right" TEXT="config">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1422907042386" POSITION="right" TEXT="config">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1380366053475" ID="ID_1009881573" MODIFIED="1384966957076">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -711,8 +725,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1313572779285" FOLDED="true" ID="ID_896395638" MODIFIED="1415743364133" POSITION="right" TEXT="diff">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1313572779285" FOLDED="true" ID="ID_896395638" MODIFIED="1422907615605" POSITION="right" TEXT="diff">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313572795090" ID="ID_631869903" MODIFIED="1356609456775">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -789,7 +803,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1319444460557" FOLDED="true" ID="ID_810957010" LINK="http://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash" MODIFIED="1415715637043">
+<node CREATED="1319444460557" FOLDED="true" ID="ID_810957010" LINK="http://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash" MODIFIED="1422907589777">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -831,16 +845,19 @@
 </node>
 </node>
 <node CREATED="1415715985201" ID="ID_227899062" LINK="http://stackoverflow.com/questions/6879501/filter-git-diff-by-type-of-change" MODIFIED="1415715991503" TEXT="git diff-filter"/>
+<node COLOR="#0033ff" CREATED="1422907591272" FOLDED="true" ID="ID_721208793" MODIFIED="1422907612068" TEXT="--staged">
+<node CREATED="1422907596520" ID="ID_921381934" MODIFIED="1422907609947" TEXT="diff with the --staged option to see the changes you just staged"/>
 </node>
-<node COLOR="#0033ff" CREATED="1355755727700" FOLDED="true" ID="ID_1356016314" MODIFIED="1387451825878" POSITION="left" TEXT="show-branch">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1355755727700" FOLDED="true" ID="ID_1356016314" MODIFIED="1422907029513" POSITION="left" TEXT="show-branch">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1384949387499" ID="ID_186748251" MODIFIED="1384949454828" TEXT="$ git show-brach &lt;branch id&gt;"/>
 </node>
-<node COLOR="#0033ff" CREATED="1355755752961" ID="ID_54780593" MODIFIED="1357921195912" POSITION="left" TEXT="stage">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355755752961" ID="ID_54780593" MODIFIED="1422907029513" POSITION="left" TEXT="stage">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1319444453125" FOLDED="true" ID="ID_868762534" MODIFIED="1375709955834" POSITION="left" TEXT="stash">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1319444453125" FOLDED="true" ID="ID_868762534" MODIFIED="1422907029512" POSITION="left" TEXT="stash">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1356609336117" ID="ID_1249518554" MODIFIED="1356609339819" TEXT="apply">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1321283282092" ID="ID_948165641" MODIFIED="1356609376312">
@@ -870,11 +887,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355755773450" ID="ID_828919402" MODIFIED="1357921195910" POSITION="left" TEXT="status">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355755773450" ID="ID_828919402" MODIFIED="1422907029512" POSITION="left" TEXT="status">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1355397720546" FOLDED="true" ID="ID_123457488" MODIFIED="1375709959276" POSITION="left" TEXT="submodule">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355397720546" FOLDED="true" ID="ID_123457488" MODIFIED="1422907029512" POSITION="left" TEXT="submodule">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1355397727127" ID="ID_148578323" LINK="http://git-scm.com/book/en/Git-Tools-Submodules" MODIFIED="1356609905515" TEXT="git-book">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -912,8 +929,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116059975" FOLDED="true" ID="ID_764103587" MODIFIED="1375709960583" POSITION="left" TEXT="svn">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1311116059975" FOLDED="true" ID="ID_764103587" MODIFIED="1422907029512" POSITION="left" TEXT="svn">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1311116241132" ID="ID_1717495844" MODIFIED="1355754738058" TEXT="init">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311116263505" ID="ID_537189093" MODIFIED="1311116271864" TEXT="add svn remote record"/>
@@ -935,11 +952,11 @@
 <node CREATED="1311116368724" ID="ID_268378093" MODIFIED="1356529738825" TEXT="# svn commit"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355755783133" ID="ID_1207555177" MODIFIED="1357921195906" POSITION="left" TEXT="tag">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355755783133" ID="ID_1207555177" MODIFIED="1422907029512" POSITION="left" TEXT="tag">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1385145142290" FOLDED="true" ID="ID_1869303427" MODIFIED="1385145271486" POSITION="left" TEXT="update-index">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1385145142290" FOLDED="true" ID="ID_1869303427" MODIFIED="1422907029512" POSITION="left" TEXT="update-index">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1385145155543" ID="ID_550188301" MODIFIED="1385145267771">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -956,11 +973,11 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356611047333" ID="ID_814792527" MODIFIED="1358162327961" POSITION="right" TEXT="fetch">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1356611047333" ID="ID_814792527" MODIFIED="1422907033995" POSITION="right" TEXT="fetch">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1297153951399" FOLDED="true" ID="ID_1283764578" MODIFIED="1387451865817" POSITION="right" TEXT="init">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1297153951399" FOLDED="true" ID="ID_1283764578" MODIFIED="1422907033995" POSITION="right" TEXT="init">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1288956268663" ID="ID_1358117005" MODIFIED="1289985873331" TEXT="init(initializes new branch in current directory)"/>
 <node COLOR="#0033ff" CREATED="1289985861297" ID="ID_283873597" MODIFIED="1355754962147">
 <richcontent TYPE="NODE"><html>
@@ -988,8 +1005,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116937609" FOLDED="true" ID="ID_701178819" MODIFIED="1387451873469" POSITION="right" TEXT="log">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1311116937609" FOLDED="true" ID="ID_701178819" MODIFIED="1422907033995" POSITION="right" TEXT="log">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311116942074" ID="ID_1121532703" MODIFIED="1311116950025" TEXT="show commit messages"/>
 <node COLOR="#0033ff" CREATED="1311116951586" ID="ID_1847534764" MODIFIED="1355754972172" TEXT="--graph">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1090,8 +1107,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1385145751366" FOLDED="true" ID="ID_911651042" MODIFIED="1418121723299" POSITION="right" TEXT="tools">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1385145751366" FOLDED="true" ID="ID_911651042" MODIFIED="1422907626002" POSITION="right" TEXT="tools">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1385145754821" FOLDED="true" ID="ID_1603193934" MODIFIED="1387451876953" TEXT="git-cache-meta">
 <node COLOR="#009999" CREATED="1385145763270" ID="ID_196127361" LINK="https://gist.github.com/andris9/1978266" MODIFIED="1385145844964" TEXT="github">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
