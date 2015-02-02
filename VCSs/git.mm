@@ -3,8 +3,8 @@
 <attribute_registry FONT_SIZE="10" SHOW_ATTRIBUTES="hide"/>
 <node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1422907024012" TEXT="git">
 <font NAME="SansSerif" SIZE="29"/>
-<node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1387451630198" POSITION="left" TEXT="Tips">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1422908421480" POSITION="left" TEXT="Tips">
+<font NAME="SansSerif" SIZE="15"/>
 <node CREATED="1311116129871" ID="ID_538447464" MODIFIED="1311116135869" TEXT="fix svn rebase">
 <node CREATED="1311116138985" ID="ID_1672421427" LINK="http://brandon.dimcheff.com/2009/01/04/commit-a-linear-git-history-to-subversion.html" MODIFIED="1311116151127" TEXT="site"/>
 <node COLOR="#990099" CREATED="1311116180429" ID="ID_1646275026" LINK="http://stackoverflow.com/questions/457694/how-to-commit-a-git-repo-to-an-empty-repo-svn-server/981765#981765" MODIFIED="1311116216344" TEXT="SO">
@@ -40,8 +40,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1387451883659" POSITION="left" TEXT="repository">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1422908418360" POSITION="left" TEXT="repository">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1297154051581" ID="ID_1278066541" MODIFIED="1297154057954" TEXT="online">
 <node CREATED="1297154058338" ID="ID_227546252" LINK="http://github.com/" MODIFIED="1297154079091" TEXT="gtihub"/>
 <node CREATED="1297154085470" ID="ID_1918676788" LINK="http://gitorious.org/" MODIFIED="1297154101256" TEXT="gitorious"/>
@@ -88,8 +88,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1328630705882" FOLDED="true" ID="ID_1722401629" MODIFIED="1387451883954" POSITION="left" TEXT="info">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1328630705882" FOLDED="true" ID="ID_1722401629" MODIFIED="1422908418360" POSITION="left" TEXT="info">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1328630710250" ID="ID_1913892373" MODIFIED="1328630716247" TEXT="books">
 <node COLOR="#009999" CREATED="1328630716577" ID="ID_246836308" LINK="http://git-scm.com/book" MODIFIED="1387451667776" TEXT="git book">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -281,7 +281,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289405808665" FOLDED="true" ID="ID_616427300" MODIFIED="1422907033993" POSITION="right" TEXT="checkout">
+<node COLOR="#0033ff" CREATED="1289405808665" FOLDED="true" ID="ID_616427300" MODIFIED="1422908062424" POSITION="right" TEXT="checkout">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1289405820303" ID="ID_594507726" MODIFIED="1356609866573">
 <richcontent TYPE="NODE"><html>
@@ -312,6 +312,22 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1422907991307" ID="ID_1505272275" MODIFIED="1422908056989">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Go ahead and get rid of all the changes since the last commit for octocat.txt
+    </p>
+    <p>
+      <font color="#0000ff">$ git checkout -- octocat.txt</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1347009889048" FOLDED="true" ID="ID_650238942" MODIFIED="1422907033993" POSITION="right" TEXT="cherry-pick">
