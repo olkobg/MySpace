@@ -1662,8 +1662,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422539156959" FOLDED="true" ID="ID_1884403883" MODIFIED="1422731570644" POSITION="left" TEXT="filters">
@@ -1710,8 +1709,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422730208658" ID="ID_1488936191" MODIFIED="1422730247837">
 <richcontent TYPE="NODE"><html>
@@ -1744,8 +1742,7 @@
       1 example, 0 failures
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422730208937" ID="ID_1697777983" MODIFIED="1422730259876">
 <richcontent TYPE="NODE"><html>
@@ -1766,8 +1763,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422730209223" ID="ID_108234466" MODIFIED="1422730272020">
 <richcontent TYPE="NODE"><html>
@@ -1788,8 +1784,7 @@
       0 example, 0 failures
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422730273401" ID="ID_764526109" MODIFIED="1422730293428">
 <richcontent TYPE="NODE"><html>
@@ -1810,12 +1805,11 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1422539181644" ID="ID_69296884" MODIFIED="1422731217391" POSITION="left" TEXT="shared">
-<node CREATED="1422539168771" FOLDED="true" ID="ID_40621022" MODIFIED="1422730748014" TEXT="examples">
+<node CREATED="1422539181644" FOLDED="true" ID="ID_69296884" MODIFIED="1423224368780" POSITION="left" TEXT="shared">
+<node CREATED="1422539168771" FOLDED="true" ID="ID_40621022" MODIFIED="1423224368503" TEXT="examples">
 <node CREATED="1422730344373" ID="ID_879928817" MODIFIED="1422730354574" TEXT="Shared examples let you describe behaviour of types or modules. When declared, a shared group&apos;s content is stored. It is only realized in the context of another example group, which provides any context the shared group needs to run."/>
 <node CREATED="1422730349509" ID="ID_1984106183" MODIFIED="1422730370971">
 <richcontent TYPE="NODE"><html>
@@ -1893,8 +1887,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422730349805" ID="ID_313562905" MODIFIED="1422730397387">
 <richcontent TYPE="NODE"><html>
@@ -1945,8 +1938,7 @@
       2 examples, 0 failures
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422539187993" FOLDED="true" ID="ID_1460601533" MODIFIED="1422730749452" TEXT="context">
@@ -2111,8 +2103,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422730489581" ID="ID_1556274502" MODIFIED="1422730540522">
 <richcontent TYPE="NODE"><html>
@@ -2136,13 +2127,11 @@
       8 examples, 0 failures
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1422539194202" ID="ID_576118980" MODIFIED="1422731572103" POSITION="left" TEXT="expectations">
-<node CREATED="1422730766961" ID="ID_1707783919" MODIFIED="1422731573290" TEXT="new">
+<node CREATED="1422539194202" FOLDED="true" ID="ID_576118980" MODIFIED="1423224366206" POSITION="left" TEXT="expectations">
 <node CREATED="1422730771524" ID="ID_282387999" MODIFIED="1422730802524">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2153,8 +2142,7 @@
       For checking the expectations, <b>expect(obj).to</b>&#160;and <b>expect(obj).not_to</b>&#160; methods are used.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422730819367" ID="ID_1011883848" MODIFIED="1422730861611">
 <richcontent TYPE="NODE"><html>
@@ -2169,8 +2157,7 @@
       <font color="#0000ff">expect(cow).to eq(twin_cow)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422730822682" ID="ID_787151130" MODIFIED="1422730881611">
 <richcontent TYPE="NODE"><html>
@@ -2185,11 +2172,9 @@
       <font color="#0000ff">expect(cow).to equal(twin_cow)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422730917809" ID="ID_238098164" MODIFIED="1422730920879" TEXT="The eq methods are used to express values equivalence, and equal are used when you want the receiver and the argument to be the same object."/>
-<node CREATED="1422730924913" ID="ID_149587328" MODIFIED="1422731575544" TEXT="how it work">
 <node CREATED="1422730940632" ID="ID_1623254448" MODIFIED="1422730976777">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2203,8 +2188,7 @@
       <font color="#0000ff">expect(obj).not_to(matcher = nil)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422730977312" ID="ID_179218370" MODIFIED="1422731018825">
 <richcontent TYPE="NODE"><html>
@@ -2228,38 +2212,9 @@
       Similarly, when not_to receives a matcher, it calls matches?(self). If it returns false, the spec passes and execution continues. If it returns true, then the spec fails with the message returned by matcher.negative_failure_message.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1422731084754" ID="ID_760753935" MODIFIED="1422731201470">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>Expression Matcher</b>
-    </p>
-    <p>
-      RSpec ships with a number of useful Expression Matchers. An Expression Matcher is any object that responds to the following methods:
-    </p>
-    <p>
-      <font color="#0000ff">matches?(actual) </font>
-    </p>
-    <p>
-      <font color="#0000ff">failure_message </font>
-    </p>
-    <p>
-      <font color="#0000ff">negative_failure_message&#160;&#160;# optional </font>
-    </p>
-    <p>
-      <font color="#0000ff">description&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# optional</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node COLOR="#0033ff" CREATED="1422539255863" ID="ID_974092181" MODIFIED="1422731577095" TEXT="Spec::Matchers">
+<node COLOR="#0033ff" CREATED="1422539255863" FOLDED="true" ID="ID_974092181" MODIFIED="1423224356818" TEXT="Spec::Matchers">
 <node COLOR="#0033ff" CREATED="1422539981265" FOLDED="true" ID="ID_1832663737" MODIFIED="1422731650165" TEXT="eql">
 <node CREATED="1422731578744" ID="ID_1269535289" MODIFIED="1422731597542">
 <richcontent TYPE="NODE"><html>
@@ -2274,8 +2229,7 @@
       <font color="#0000ff">expect(obj).not_to eql(expected)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422731583175" ID="ID_410924626" MODIFIED="1422731623709">
 <richcontent TYPE="NODE"><html>
@@ -2287,8 +2241,7 @@
       Passes if given and expected are of equal value, but not necessarily the same object.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422731583510" ID="ID_1402017161" MODIFIED="1422731641158">
 <richcontent TYPE="NODE"><html>
@@ -2318,8 +2271,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1422539985519" ID="ID_729831170" MODIFIED="1422540143363" TEXT="eq"/>
@@ -2337,8 +2289,7 @@
       <font color="#0000ff">expect(obj).not_to equal(expected)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422731787062" ID="ID_1472119588" MODIFIED="1422731824096" TEXT="Passes if given and expected are the same object (object identity). "/>
 <node CREATED="1422731788680" ID="ID_793723192" MODIFIED="1422731804228">
@@ -2372,8 +2323,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422540009030" FOLDED="true" ID="ID_1029029592" MODIFIED="1422732117767" TEXT="Floating point numbers">
@@ -2419,8 +2369,7 @@
       For checking strings to match regular expressions, the <font color="#0000ff">match</font>&#160;is used. This can be very useful when dealing with multiple-line expectations.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422732092770" ID="ID_691524731" MODIFIED="1422732113644">
 <richcontent TYPE="NODE"><html>
@@ -2432,11 +2381,10 @@
       <font color="#0000ff">expect(result).to match(/this regexp/)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1422540082559" FOLDED="true" ID="ID_154868494" MODIFIED="1422732649197" TEXT="Predicate macthers">
+<node CREATED="1422540082559" FOLDED="true" ID="ID_154868494" MODIFIED="1423218822013" TEXT="Predicate macthers">
 <node CREATED="1422732413208" ID="ID_850459692" MODIFIED="1422732491185">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2447,8 +2395,7 @@
       A Ruby predicate method is a method that ends with a <b>&#8220;?&#8221;</b>&#160; and returns a boolean value, like <font color="#0000ff">string.empty?</font>&#160;or <font color="#0000ff">regexp.match?</font>&#160; methods. For these cases Rspec allows us to describe expectations with <b>be_something</b>&#160; matcher. When using a <b>be_something</b>&#160;matcher, RSpec removes the <b>&#8220;be_&#8221;</b>, appends a <b>&#8220;?&#8221;</b>&#160;and calls the resulting method in the receiver.&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422732422631" ID="ID_1030488193" MODIFIED="1422732521984">
 <richcontent TYPE="NODE"><html>
@@ -2472,8 +2419,7 @@
       <font color="#0000ff">expect(&quot;&quot;).to be_empty</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422732423973" ID="ID_644236364" MODIFIED="1422732558368">
 <richcontent TYPE="NODE"><html>
@@ -2497,8 +2443,7 @@
       <font color="#0000ff">&#160;&#160;&quot;be_empty&quot; -&gt; &quot;empty?&quot;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422732424279" ID="ID_1708930771" MODIFIED="1422732634805">
 <richcontent TYPE="NODE"><html>
@@ -2510,8 +2455,7 @@
       Alternately, for a predicate method that begins with <font color="#0000ff">&quot;has&quot;</font>&#160; like <font color="#0000ff">Hash#has_key?</font>, RSpec allows you to use an alternate form since &quot;<font color="#0000ff">be_has_key</font>&quot; makes no sense.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1422732424559" ID="ID_1236397953" MODIFIED="1422732648085">
 <richcontent TYPE="NODE"><html>
@@ -2526,8 +2470,7 @@
       <font color="#0000ff">expect(array).to_not have_odd_values -&gt; calls array.has_odd_values?</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1422540110443" ID="ID_458006249" MODIFIED="1422540114887" TEXT="Include"/>
@@ -2538,10 +2481,35 @@
 <node CREATED="1422540163692" ID="ID_1261722581" MODIFIED="1422540170837" TEXT="Custom matchers">
 <node CREATED="1422540178436" ID="ID_1152635583" MODIFIED="1422540183749" TEXT="Chaining"/>
 </node>
+<node CREATED="1422731084754" ID="ID_760753935" MODIFIED="1423218776868">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Expression Matcher</b>
+    </p>
+    <p>
+      RSpec ships with a number of useful Expression Matchers. An Expression Matcher is any object that responds to the following methods:
+    </p>
+    <p>
+      <font color="#0000ff">matches?(actual) </font>
+    </p>
+    <p>
+      <font color="#0000ff">failure_message </font>
+    </p>
+    <p>
+      <font color="#0000ff">negative_failure_message&#160;&#160;# optional </font>
+    </p>
+    <p>
+      <font color="#0000ff">description&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# optional</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-</node>
-<node CREATED="1422539217104" ID="ID_1242830756" MODIFIED="1422730764770" TEXT="old">
+<node CREATED="1422539217104" FOLDED="true" ID="ID_1242830756" MODIFIED="1423218824613" TEXT="old">
 <node CREATED="1420463650385" ID="ID_1532646771" MODIFIED="1422539215454">
 <richcontent TYPE="NODE"><html>
   <head>
