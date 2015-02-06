@@ -1,19 +1,19 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#006633" CREATED="1418634456386" ID="ID_339977225" LINK="../Index.mm" MODIFIED="1422535492291" TEXT="Bootstrap">
+<node COLOR="#006633" CREATED="1418634456386" ID="ID_339977225" LINK="../Index.mm" MODIFIED="1423177432025" TEXT="Bootstrap">
 <font NAME="SansSerif" SIZE="30"/>
-<node CREATED="1418634479913" FOLDED="true" ID="ID_46895628" MODIFIED="1422914579899" POSITION="right" TEXT="libs">
+<node CREATED="1418634479913" FOLDED="true" ID="ID_46895628" MODIFIED="1423052978617" POSITION="right" TEXT="libs">
 <node CREATED="1418634482679" ID="ID_1615082174" LINK="http://www.zamanak.ir/themes/zamanak/bootstrap-switch-3.0/" MODIFIED="1418634490167" TEXT="bootstrap-switch"/>
 </node>
-<node CREATED="1422918536649" FOLDED="true" ID="ID_1816541465" MODIFIED="1423044279431" POSITION="left" TEXT="containers">
-<node COLOR="#0033ff" CREATED="1422918547484" FOLDED="true" ID="ID_1109755746" MODIFIED="1422918949712" TEXT=".container">
+<node CREATED="1422918536649" FOLDED="true" ID="ID_1816541465" MODIFIED="1423177884504" POSITION="left" TEXT="containers">
+<node COLOR="#0033ff" CREATED="1422918547484" FOLDED="true" ID="ID_1109755746" MODIFIED="1423177882313" TEXT=".container">
 <node CREATED="1422918927021" ID="ID_1193107103" MODIFIED="1422918933527" TEXT="centered on page"/>
 </node>
-<node COLOR="#0033ff" CREATED="1422918934374" FOLDED="true" ID="ID_1733596121" MODIFIED="1422918949396" TEXT=".container-fluid">
+<node COLOR="#0033ff" CREATED="1422918934374" FOLDED="true" ID="ID_1733596121" MODIFIED="1423177883710" TEXT=".container-fluid">
 <node CREATED="1422918942264" ID="ID_1852004168" MODIFIED="1422918948351" TEXT="take entire page"/>
 </node>
 </node>
-<node CREATED="1422914581330" FOLDED="true" ID="ID_796164166" MODIFIED="1423044280349" POSITION="left" TEXT="grids">
+<node CREATED="1422914581330" FOLDED="true" ID="ID_796164166" MODIFIED="1423177880081" POSITION="left" TEXT="grids">
 <node CREATED="1422956191519" ID="ID_393725603" MODIFIED="1422956199145" TEXT="full width is - 12"/>
 <node CREATED="1422959840736" ID="ID_1249633238" MODIFIED="1422959843540" TEXT="columns">
 <node COLOR="#0033ff" CREATED="1422956098821" FOLDED="true" ID="ID_1190901525" MODIFIED="1422959835934" TEXT=".col-md-*">
@@ -34,7 +34,7 @@
 <node CREATED="1422957159602" ID="ID_666245476" MODIFIED="1422957176482" TEXT="the number of columns in row never exceeds 12"/>
 <node CREATED="1422957250290" ID="ID_704475875" MODIFIED="1422957371855" TEXT="if you add more than 12 in summ the last element behind 12 will jump to the next row"/>
 </node>
-<node CREATED="1422958363235" FOLDED="true" ID="ID_1732987832" MODIFIED="1422959826910" TEXT="screen-size">
+<node CREATED="1422958363235" FOLDED="true" ID="ID_1732987832" MODIFIED="1423177879233" TEXT="screen-size">
 <node CREATED="1422959411827" ID="ID_513829233" MODIFIED="1422959425284" TEXT="lg">
 <node CREATED="1422959413172" ID="ID_1054012198" MODIFIED="1422959422700" TEXT="1200px +"/>
 </node>
@@ -85,12 +85,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1422960773375" ID="ID_1266286285" MODIFIED="1423052021311" POSITION="left" TEXT="typography">
-<node COLOR="#0033ff" CREATED="1422960778782" FOLDED="true" ID="ID_235337331" MODIFIED="1422962785018" TEXT=".lead">
+<node CREATED="1422960773375" FOLDED="true" ID="ID_1266286285" MODIFIED="1423177876966" POSITION="left" TEXT="typography">
+<node COLOR="#0033ff" CREATED="1422960778782" ID="ID_235337331" MODIFIED="1423177867712" TEXT=".lead">
 <node CREATED="1422960826451" ID="ID_1139754643" MODIFIED="1422960870099" TEXT="increase font size in weight and add some margins to emphasize"/>
 </node>
-<node CREATED="1422961003548" FOLDED="true" ID="ID_1101030478" MODIFIED="1422962783546" TEXT="alignment">
-<node COLOR="#0033ff" CREATED="1422961008059" ID="ID_606495141" MODIFIED="1422961409260" TEXT=".text-*">
+<node CREATED="1422961003548" FOLDED="true" ID="ID_1101030478" MODIFIED="1423177870544" TEXT="alignment">
+<node COLOR="#0033ff" CREATED="1422961008059" FOLDED="true" ID="ID_606495141" MODIFIED="1423177870276" TEXT=".text-*">
 <node COLOR="#0033ff" CREATED="1422961331216" ID="ID_260871733" MODIFIED="1422961341941" TEXT=".text-center"/>
 <node COLOR="#0033ff" CREATED="1422961373889" ID="ID_1703621370" MODIFIED="1422961405064" TEXT=".text-justify"/>
 <node COLOR="#0033ff" CREATED="1422961379618" ID="ID_1837789132" MODIFIED="1422961405065" TEXT=".text-left"/>
@@ -98,25 +98,29 @@
 <node COLOR="#0033ff" CREATED="1422961397705" ID="ID_1407063086" MODIFIED="1422961405067" TEXT=".text-nowrap"/>
 </node>
 </node>
-<node CREATED="1422961516190" FOLDED="true" ID="ID_1076520341" MODIFIED="1423041155401" TEXT="icons">
+<node CREATED="1422961516190" FOLDED="true" ID="ID_1076520341" MODIFIED="1423177876675" TEXT="icons">
 <node CREATED="1422962013153" ID="ID_237402064" MODIFIED="1422962020888" TEXT="&lt;i&gt; often used for icons"/>
 <node COLOR="#0033ff" CREATED="1422962021441" ID="ID_1006194664" MODIFIED="1422962080312" TEXT=".glyphicon">
 <node COLOR="#0033ff" CREATED="1422962081210" ID="ID_976607476" MODIFIED="1422962095426" TEXT=".glyphicon .glyohicon-briefcase"/>
 </node>
-<node CREATED="1422962661648" ID="ID_1384496934" MODIFIED="1422962663655" TEXT="font-size">
+<node CREATED="1422962661648" ID="ID_1384496934" MODIFIED="1423177873535" TEXT="font-size">
 <node CREATED="1423039190386" ID="ID_964331537" MODIFIED="1423039317615" TEXT="just use plaun simple css file"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1423176950051" FOLDED="true" ID="ID_1696651947" MODIFIED="1423176989289" TEXT="&lt;span&gt;">
+<node COLOR="#0033ff" CREATED="1423176952274" FOLDED="true" ID="ID_311200513" MODIFIED="1423176989059" TEXT=".carret">
+<node CREATED="1423176958348" ID="ID_250657417" MODIFIED="1423176970147" TEXT="shows arrow down and used in menus"/>
 </node>
-<node CREATED="1422914586409" ID="ID_1887155494" MODIFIED="1423051959178" POSITION="left" TEXT="elements">
-<node CREATED="1423044290750" ID="ID_1304285862" MODIFIED="1423052055143" TEXT="section">
-<node COLOR="#0033ff" CREATED="1423044294185" ID="ID_188533468" MODIFIED="1423046488426" TEXT=".well">
+</node>
+</node>
+<node CREATED="1422914586409" FOLDED="true" ID="ID_1887155494" MODIFIED="1423182676789" POSITION="left" TEXT="elements">
+<node CREATED="1423044290750" FOLDED="true" ID="ID_1304285862" MODIFIED="1423177864961" TEXT="section">
+<node COLOR="#0033ff" CREATED="1423044294185" FOLDED="true" ID="ID_188533468" MODIFIED="1423177862527" TEXT=".well">
 <node CREATED="1423044341646" ID="ID_1540612499" MODIFIED="1423044354310" TEXT="gives ronuded border and gray background"/>
 </node>
-<node CREATED="1423044395267" ID="ID_1222378307" MODIFIED="1423046489347" TEXT="padding">
+<node CREATED="1423044395267" ID="ID_1222378307" MODIFIED="1423046489347" TEXT="padding"/>
 <node COLOR="#0033ff" CREATED="1423044397222" ID="ID_619164433" MODIFIED="1423044402568" TEXT=".well-lg"/>
 <node COLOR="#0033ff" CREATED="1423044452850" ID="ID_467336401" MODIFIED="1423044458620" TEXT=".well-sm"/>
-</node>
 </node>
 <node CREATED="1423044586743" FOLDED="true" ID="ID_1013722033" MODIFIED="1423051956888" TEXT="buttons">
 <node COLOR="#0033ff" CREATED="1423044589695" ID="ID_1469300959" MODIFIED="1423044761860" TEXT=".btn"/>
@@ -134,8 +138,8 @@
 <node COLOR="#0033ff" CREATED="1423044994603" ID="ID_1402356968" MODIFIED="1423045001535" TEXT=".btn-warning"/>
 </node>
 </node>
-<node CREATED="1423046215906" ID="ID_1534927598" MODIFIED="1423051965696" TEXT="navigation">
-<node COLOR="#0033ff" CREATED="1423047007178" ID="ID_88710626" MODIFIED="1423052025646" TEXT=".navabar">
+<node CREATED="1423046215906" FOLDED="true" ID="ID_1534927598" MODIFIED="1423178029529" TEXT="navigation">
+<node COLOR="#0033ff" CREATED="1423047007178" FOLDED="true" ID="ID_88710626" MODIFIED="1423177849597" TEXT=".navabar">
 <node COLOR="#0033ff" CREATED="1423046229112" FOLDED="true" ID="ID_208890565" MODIFIED="1423051952925" TEXT=".navbar-brand">
 <node CREATED="1423046511769" ID="ID_1454616061" MODIFIED="1423046523596" TEXT="brand style for navigation"/>
 </node>
@@ -156,7 +160,7 @@
 <node CREATED="1423048713020" ID="ID_578652486" MODIFIED="1423048735044" TEXT="we could add { padding-top: 70px;  }"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1423046326448" FOLDED="true" ID="ID_1129357336" MODIFIED="1423052398636" TEXT=".nav">
+<node COLOR="#0033ff" CREATED="1423046326448" FOLDED="true" ID="ID_1129357336" MODIFIED="1423177208520" TEXT=".nav">
 <node CREATED="1423046482579" FOLDED="true" ID="ID_981783000" MODIFIED="1423051969436" TEXT="style">
 <node COLOR="#0033ff" CREATED="1423046454019" ID="ID_777064007" MODIFIED="1423046479926" TEXT=".navbar-nav"/>
 <node COLOR="#0033ff" CREATED="1423046399604" ID="ID_99178057" MODIFIED="1423046423388" TEXT=".nav-pills"/>
@@ -178,17 +182,183 @@
 <node COLOR="#0033ff" CREATED="1423052485085" FOLDED="true" ID="ID_1896678085" MODIFIED="1423052510159" TEXT=".navbar-header">
 <node CREATED="1423052497864" ID="ID_1289031241" MODIFIED="1423052509030" TEXT="takes entire screen on extrasmall screens"/>
 </node>
-<node CREATED="1423050774210" FOLDED="true" ID="ID_1992151581" MODIFIED="1423052512728" TEXT="toggle">
-<node COLOR="#0033ff" CREATED="1423050777106" FOLDED="true" ID="ID_30748137" MODIFIED="1423052512519" TEXT=".navbar-toggle">
-<node COLOR="#006633" CREATED="1423052143482" ID="ID_157110795" MODIFIED="1423052177218" TEXT="js">
-<node COLOR="#0033ff" CREATED="1423052146827" ID="ID_1313931908" MODIFIED="1423052156903" TEXT="data-toggle">
+<node COLOR="#0033ff" CREATED="1423050777106" ID="ID_30748137" MODIFIED="1423177354429" TEXT=".navbar-toggle"/>
+<node COLOR="#0033ff" CREATED="1423050939547" FOLDED="true" ID="ID_1011686847" MODIFIED="1423052394196" TEXT=".icon-bar">
+<node CREATED="1423052220415" ID="ID_314764979" MODIFIED="1423052252318" TEXT="creates lines similar to menu icons"/>
+<node CREATED="1423050948550" ID="ID_1878392936" MODIFIED="1423050976472">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">&lt;span class='icon-bar'&gt;&lt;/span&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&lt;span class='icon-bar'&gt;&lt;/span&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&lt;span class='icon-bar'&gt;&lt;/span&gt;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1423177220573" FOLDED="true" ID="ID_1730423552" MODIFIED="1423177847740" TEXT=".dropdown-menu">
+<node CREATED="1423177475886" ID="ID_1914713505" MODIFIED="1423177512479">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">&lt;ul class=&quot;dropdown-menu&quot; data-toggle='dropdown'&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;li&gt;&lt;a href=&quot;our_story.html&quot;&gt;Our Story&lt;/a&gt;&lt;/li&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;li&gt;&lt;a href=&quot;contact_us.html&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;li&gt;&lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;li&gt;&lt;a href=&quot;twitter.html&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;li&gt;&lt;a href=&quot;facebook.html&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&lt;/ul&gt;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1423177724256" FOLDED="true" ID="ID_1927839494" MODIFIED="1423177847427" TEXT=".open">
+<node CREATED="1423177727006" ID="ID_1522622381" MODIFIED="1423177736422" TEXT="makes menu olement be open"/>
+<node CREATED="1423177744086" ID="ID_1538636072" MODIFIED="1423177842840">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">&lt;li class='<b>open</b>'&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;a href='#'&gt;summary&lt;/a&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;ul&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&lt;li&gt;nanna&lt;/li&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;... </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&lt;li&gt;other element&lt;/li&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;/ul&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&lt;/li&gt;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1423177453627" ID="ID_342155848" LINK="#ID_1992151581" MODIFIED="1423177460732" TEXT="toggle"/>
+</node>
+<node CREATED="1423039485929" FOLDED="true" ID="ID_1832841109" MODIFIED="1423178049931" TEXT="lists">
+<node COLOR="#0033ff" CREATED="1423039490635" FOLDED="true" ID="ID_1160458706" MODIFIED="1423051961959" TEXT=".list-unstyled">
+<node CREATED="1423041142750" ID="ID_409112123" MODIFIED="1423041152877" TEXT="to remove pading and default bulleting"/>
+</node>
+<node COLOR="#0033ff" CREATED="1423041227304" FOLDED="true" ID="ID_54512117" MODIFIED="1423041257312" TEXT=".list-inline">
+<node CREATED="1423041248243" ID="ID_1039278491" MODIFIED="1423041256474" TEXT="to show list horizontaly"/>
+</node>
+<node CREATED="1423178032002" FOLDED="true" ID="ID_1414986912" MODIFIED="1423178048854" TEXT="divide">
+<node COLOR="#0033ff" CREATED="1423178035387" ID="ID_1113738087" MODIFIED="1423178047411" TEXT="&lt;li class=&apos;divider&apos;&gt;&lt;/li&gt;"/>
+</node>
+</node>
+<node CREATED="1423052047460" FOLDED="true" ID="ID_590772165" MODIFIED="1423052139535" TEXT="show">
+<node CREATED="1423050576865" ID="ID_527256674" MODIFIED="1423052045779" TEXT="screen readers only"/>
+<node COLOR="#0033ff" CREATED="1423050563091" ID="ID_1263802527" MODIFIED="1423052045778" TEXT=".sr-only"/>
+</node>
+<node CREATED="1423051847066" FOLDED="true" ID="ID_1820005758" MODIFIED="1423052138691" TEXT="floating element">
+<node COLOR="#0033ff" CREATED="1423050856905" ID="ID_1869408151" MODIFIED="1423050867263" TEXT=".pull-right"/>
+<node COLOR="#0033ff" CREATED="1423050861638" ID="ID_1339890967" MODIFIED="1423050867264" TEXT=".pull-left"/>
+</node>
+</node>
+<node CREATED="1422535487161" FOLDED="true" ID="ID_1520260928" MODIFIED="1423182661111" POSITION="right" TEXT="info">
+<node CREATED="1422535501632" FOLDED="true" ID="ID_1409001872" MODIFIED="1423052940266" TEXT="cheat sheats">
+<node COLOR="#0033ff" CREATED="1422535575190" ID="ID_506920421" LINK="http://www.cheatography.com/masonjo/cheat-sheets/bootstrap/" MODIFIED="1422535620014" TEXT="cheatography.com &gt; Masonjo &gt;Bootstrap"/>
+<node COLOR="#0033ff" CREATED="1422536120205" ID="ID_1385688599" LINK="http://creativealive.com/master-cheat-sheet-twitter-bootstrap-3-pdf-download/" MODIFIED="1422536138482" TEXT="creativealive.com &gt; Master-twitter-bootstrap-3"/>
+<node COLOR="#0033ff" CREATED="1422535697098" ID="ID_775951217" LINK="http://www.designfloat.com/blog/2013/12/05/bootstrap-cheatsheets/" MODIFIED="1422535709314" TEXT="designfloat.com &gt; Blog &gt; Bootstrap-cheatsheets"/>
+<node COLOR="#0033ff" CREATED="1422535508982" FOLDED="true" ID="ID_708061473" LINK="http://www.taesup.com/bootstrap/" MODIFIED="1422536143295" TEXT="taesup.com &gt; Bootstrap">
+<node COLOR="#0033ff" CREATED="1422535643423" ID="ID_1717951810" LINK="https://github.com/taesup/bootstrap-cheat-sheet" MODIFIED="1422535647319" TEXT="github"/>
+</node>
+</node>
+<node CREATED="1422535744000" ID="ID_289813187" MODIFIED="1423052941098" TEXT="foundation compare">
+<node COLOR="#0033ff" CREATED="1422535754889" ID="ID_1778983342" LINK="https://scotch.io/tutorials/cheat-sheet-for-comparing-bootstrap-and-foundation-css-classes" MODIFIED="1422535776830" TEXT="scotch.io"/>
+</node>
+<node CREATED="1423052950587" FOLDED="true" ID="ID_149780653" MODIFIED="1423182659919" TEXT="docs">
+<node CREATED="1423053833633" ID="ID_318626297" MODIFIED="1423053839307" TEXT="css"/>
+<node COLOR="#0033ff" CREATED="1423052942939" ID="ID_336475542" LINK="http://getbootstrap.com/javascript" MODIFIED="1423052974918" TEXT="js"/>
+<node COLOR="#0033ff" CREATED="1423052954688" ID="ID_987259135" LINK="http://getbootstrap.com/components/" MODIFIED="1423052972271" TEXT="components"/>
+</node>
+<node CREATED="1423144713007" FOLDED="true" ID="ID_1888396122" MODIFIED="1423182659572" TEXT="res">
+<node COLOR="#0033ff" CREATED="1423144718994" ID="ID_464931964" LINK="http://bootsnipp.com/about" MODIFIED="1423179194631" TEXT="bootsnip"/>
+<node COLOR="#0033ff" CREATED="1423179202913" ID="ID_1115654954" LINK="http://startbootstrap.com/" MODIFIED="1423179210410" TEXT="startbootstrap.com"/>
+<node CREATED="1423182650981" FOLDED="true" ID="ID_1248529176" MODIFIED="1423182655335" TEXT="themes">
+<node COLOR="#0033ff" CREATED="1423181186916" ID="ID_268450018" LINK="http://bootswatch.com/" MODIFIED="1423181191616" TEXT="bootswatch.com"/>
+<node COLOR="#0033ff" CREATED="1423182619833" ID="ID_434353413" LINK="http://www.blacktie.co/" MODIFIED="1423182643101" TEXT="blacktie.co"/>
+</node>
+</node>
+</node>
+<node CREATED="1423177432004" FOLDED="true" ID="ID_1363598942" MODIFIED="1423182676038" POSITION="left" TEXT="behaviour">
+<node CREATED="1423050774210" FOLDED="true" ID="ID_1992151581" MODIFIED="1423182675814" TEXT="toggle">
+<node COLOR="#006633" CREATED="1423177406857" ID="ID_11192041" MODIFIED="1423182669159" TEXT="js"/>
+<node COLOR="#006633" CREATED="1423052143482" ID="ID_157110795" MODIFIED="1423182672515" TEXT="data-*">
+<node COLOR="#0033ff" CREATED="1423052146827" FOLDED="true" ID="ID_1313931908" MODIFIED="1423053374883" TEXT="data-toggle">
 <node CREATED="1423052157303" ID="ID_1557597078" MODIFIED="1423052169265" TEXT="class name to toggle"/>
 </node>
-<node COLOR="#0033ff" CREATED="1423052170910" ID="ID_1598750632" MODIFIED="1423052190153" TEXT="data-target">
+<node COLOR="#0033ff" CREATED="1423052170910" ID="ID_1598750632" MODIFIED="1423178217498" TEXT="data-target">
 <node CREATED="1423052190456" ID="ID_1646092313" MODIFIED="1423052205543" TEXT="target class to look for toggle class"/>
 </node>
+<node COLOR="#0033ff" CREATED="1423053345821" FOLDED="true" ID="ID_1763331053" MODIFIED="1423053373453" TEXT="data-parent">
+<node CREATED="1423053351430" ID="ID_659049338" MODIFIED="1423053372629" TEXT="used for common targeting element"/>
 </node>
-<node CREATED="1423051901543" ID="ID_122321506" MODIFIED="1423052384657">
+<node CREATED="1423178219530" ID="ID_387196591" MODIFIED="1423178350856">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;!-- to make this compatible with older browsers --&gt;
+    </p>
+    <p>
+      <font color="#0000ff">&lt;a href=<b>'about.html'</b>&#160;data-target=<b>'#'</b>&#160; data-toggle='dropdown'&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;About &lt;span class='caret'&gt;&lt;/span&gt; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&lt;/a&gt;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1423051901543" ID="ID_122321506" MODIFIED="1423182667669">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -222,62 +392,8 @@
       <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&lt;/button&gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1423050939547" FOLDED="true" ID="ID_1011686847" MODIFIED="1423052394196" TEXT=".icon-bar">
-<node CREATED="1423052220415" ID="ID_314764979" MODIFIED="1423052252318" TEXT="creates lines similar to menu icons"/>
-<node CREATED="1423050948550" ID="ID_1878392936" MODIFIED="1423050976472">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">&lt;span class='icon-bar'&gt;&lt;/span&gt; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&lt;span class='icon-bar'&gt;&lt;/span&gt; </font>
-    </p>
-    <p>
-      <font color="#0000ff">&lt;span class='icon-bar'&gt;&lt;/span&gt;</font>
-    </p>
-  </body>
 </html></richcontent>
 </node>
-</node>
-</node>
-</node>
-<node CREATED="1423039485929" FOLDED="true" ID="ID_1832841109" MODIFIED="1423052053286" TEXT="lists">
-<node COLOR="#0033ff" CREATED="1423039490635" FOLDED="true" ID="ID_1160458706" MODIFIED="1423051961959" TEXT=".list-unstyled">
-<node CREATED="1423041142750" ID="ID_409112123" MODIFIED="1423041152877" TEXT="to remove pading and default bulleting"/>
-</node>
-<node COLOR="#0033ff" CREATED="1423041227304" FOLDED="true" ID="ID_54512117" MODIFIED="1423041257312" TEXT=".list-inline">
-<node CREATED="1423041248243" ID="ID_1039278491" MODIFIED="1423041256474" TEXT="to show list horizontaly"/>
-</node>
-</node>
-<node CREATED="1423052047460" FOLDED="true" ID="ID_590772165" MODIFIED="1423052139535" TEXT="show">
-<node CREATED="1423050576865" ID="ID_527256674" MODIFIED="1423052045779" TEXT="screen readers only"/>
-<node COLOR="#0033ff" CREATED="1423050563091" ID="ID_1263802527" MODIFIED="1423052045778" TEXT=".sr-only"/>
-</node>
-<node CREATED="1423051847066" FOLDED="true" ID="ID_1820005758" MODIFIED="1423052138691" TEXT="floating element">
-<node COLOR="#0033ff" CREATED="1423050856905" ID="ID_1869408151" MODIFIED="1423050867263" TEXT=".pull-right"/>
-<node COLOR="#0033ff" CREATED="1423050861638" ID="ID_1339890967" MODIFIED="1423050867264" TEXT=".pull-left"/>
-</node>
-</node>
-<node CREATED="1422535487161" FOLDED="true" ID="ID_1520260928" MODIFIED="1422914580740" POSITION="right" TEXT="info">
-<node CREATED="1422535501632" FOLDED="true" ID="ID_1409001872" MODIFIED="1422914576830" TEXT="cheat sheats">
-<node COLOR="#0033ff" CREATED="1422535575190" ID="ID_506920421" LINK="http://www.cheatography.com/masonjo/cheat-sheets/bootstrap/" MODIFIED="1422535620014" TEXT="cheatography.com &gt; Masonjo &gt;Bootstrap"/>
-<node COLOR="#0033ff" CREATED="1422536120205" ID="ID_1385688599" LINK="http://creativealive.com/master-cheat-sheet-twitter-bootstrap-3-pdf-download/" MODIFIED="1422536138482" TEXT="creativealive.com &gt; Master-twitter-bootstrap-3"/>
-<node COLOR="#0033ff" CREATED="1422535697098" ID="ID_775951217" LINK="http://www.designfloat.com/blog/2013/12/05/bootstrap-cheatsheets/" MODIFIED="1422535709314" TEXT="designfloat.com &gt; Blog &gt; Bootstrap-cheatsheets"/>
-<node COLOR="#0033ff" CREATED="1422535508982" FOLDED="true" ID="ID_708061473" LINK="http://www.taesup.com/bootstrap/" MODIFIED="1422536143295" TEXT="taesup.com &gt; Bootstrap">
-<node COLOR="#0033ff" CREATED="1422535643423" ID="ID_1717951810" LINK="https://github.com/taesup/bootstrap-cheat-sheet" MODIFIED="1422535647319" TEXT="github"/>
-</node>
-</node>
-<node CREATED="1422535744000" FOLDED="true" ID="ID_289813187" MODIFIED="1422914578029" TEXT="foundation compare">
-<node COLOR="#0033ff" CREATED="1422535754889" ID="ID_1778983342" LINK="https://scotch.io/tutorials/cheat-sheet-for-comparing-bootstrap-and-foundation-css-classes" MODIFIED="1422535776830" TEXT="scotch.io"/>
 </node>
 </node>
 </node>
