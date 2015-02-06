@@ -1,0 +1,17 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node COLOR="#990000" CREATED="1420825594831" ID="ID_609675443" LINK="../Gems.mm" MODIFIED="1423258469504" TEXT="Sass">
+<font NAME="SansSerif" SIZE="27"/>
+<node CREATED="1423255512703" FOLDED="true" ID="ID_1592969359" MODIFIED="1423258456369" POSITION="left" TEXT="comments">
+<node COLOR="#0033ff" CREATED="1423255518759" FOLDED="true" ID="ID_888400109" MODIFIED="1423258455066" TEXT="//">
+<node CREATED="1423255555718" ID="ID_662361579" MODIFIED="1423255560614" TEXT="removed from css"/>
+</node>
+<node COLOR="#0033ff" CREATED="1423255549770" ID="ID_19393297" MODIFIED="1423258452506" TEXT="/* */"/>
+</node>
+<node CREATED="1423258431394" FOLDED="true" ID="ID_768235747" MODIFIED="1423258459369" POSITION="left" TEXT="importing">
+<node COLOR="#0033ff" CREATED="1423258433654" FOLDED="true" ID="ID_1106519656" MODIFIED="1423258459114" TEXT="@import">
+<node CREATED="1423258438529" ID="ID_1027923310" MODIFIED="1423258447506" TEXT="make happend during compile time"/>
+</node>
+</node>
+</node>
+</map>
