@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1420822072532" TEXT="JavaScript">
 <font NAME="SansSerif" SIZE="22"/>
-<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1420839971144" POSITION="right" TEXT="app/lib/tool">
+<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1423308858568" POSITION="right" TEXT="app/lib/tool">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#0033ff" CREATED="1375972457479" ID="ID_295083454" LINK="http://emberjs.com/" MODIFIED="1420822058433" TEXT="ember.js">
 <font NAME="SansSerif" SIZE="12"/>
@@ -29,12 +29,13 @@
 <node COLOR="#0033ff" CREATED="1375971244809" ID="ID_852111777" LINK="http://underscorejs.org/" MODIFIED="1420822058432" TEXT="undrscorejs">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1363789987681" FOLDED="true" ID="ID_1552324385" MODIFIED="1420839930157" TEXT="mvc">
+<node CREATED="1363789987681" FOLDED="true" ID="ID_1552324385" MODIFIED="1423308857392" TEXT="mvc">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1417646209005" FOLDED="true" ID="ID_464220657" LINK="angular.mm" MODIFIED="1420839927772" TEXT="angular.js">
+<node COLOR="#0033ff" CREATED="1417646209005" FOLDED="true" ID="ID_464220657" LINK="angular.mm" MODIFIED="1423308855062" TEXT="angular.js">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1418753764713" ID="ID_740836588" LINK="http://angular-ui.github.io/" MODIFIED="1420839925451" TEXT="angular-ui">
+<node COLOR="#0033ff" CREATED="1418753764713" FOLDED="true" ID="ID_740836588" LINK="http://angular-ui.github.io/" MODIFIED="1423308854864" TEXT="angular-ui">
 <font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1423308841622" ID="ID_671061884" LINK="http://angular-ui.github.io/bootstrap/" MODIFIED="1423308854035" TEXT="UI Bootstrap"/>
 </node>
 </node>
 <node CREATED="1363789995060" ID="ID_355465255" LINK="http://developer.yahoo.com/cocktails/mojito/" MODIFIED="1363790028246">
@@ -54,7 +55,7 @@
 <node CREATED="1375964470929" ID="ID_1612792037" LINK="http://blog.bigbinary.com/2011/08/18/understanding-bind-and-bindall-in-backbone.html" MODIFIED="1375964476446" TEXT="bind difference"/>
 </node>
 </node>
-<node CREATED="1418753592653" FOLDED="true" ID="ID_1843180742" MODIFIED="1420839915741" TEXT="build-tools">
+<node CREATED="1418753592653" FOLDED="true" ID="ID_1843180742" MODIFIED="1423308737746" TEXT="build-tools">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1377210482197" ID="ID_1445245110" LINK="http://gruntjs.com/" MODIFIED="1420839914744" TEXT="grunt">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1065,7 +1066,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1319659786877" ID="ID_998630532" MODIFIED="1421312388742" POSITION="left" TEXT="Browser">
+<node CREATED="1319659786877" FOLDED="true" ID="ID_998630532" MODIFIED="1423308735546" POSITION="left" TEXT="Browser">
 <node CREATED="1364305502013" ID="ID_1392687097" LINK="../OS/Cross/Web/Firefox.mm" MODIFIED="1420822032471" TEXT="firefox">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
