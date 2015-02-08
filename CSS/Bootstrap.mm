@@ -2,9 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#006633" CREATED="1418634456386" ID="ID_339977225" LINK="../Index.mm" MODIFIED="1423177432025" TEXT="Bootstrap">
 <font NAME="SansSerif" SIZE="30"/>
-<node CREATED="1418634479913" FOLDED="true" ID="ID_46895628" MODIFIED="1423299008529" POSITION="right" TEXT="libs">
-<node CREATED="1423298694662" FOLDED="true" ID="ID_239797109" MODIFIED="1423299006850" TEXT="quick apply">
-<node CREATED="1423298841304" ID="ID_88289400" MODIFIED="1423298996886" TEXT="css">
+<node CREATED="1418634479913" FOLDED="true" ID="ID_46895628" MODIFIED="1423433774241" POSITION="right" TEXT="libs">
+<node CREATED="1423298694662" FOLDED="true" ID="ID_239797109" MODIFIED="1423433773746" TEXT="quick apply">
+<node CREATED="1423298841304" FOLDED="true" ID="ID_88289400" MODIFIED="1423433773129" TEXT="css">
 <node COLOR="#0033ff" CREATED="1423298982473" ID="ID_684557003" MODIFIED="1423298992368">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -18,18 +18,19 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1423298704893" FOLDED="true" ID="ID_57238265" MODIFIED="1423298999876" TEXT="js">
-<node COLOR="#0033ff" CREATED="1423298843962" ID="ID_732459679" MODIFIED="1423298992378">
+<node CREATED="1423298704893" FOLDED="true" ID="ID_57238265" MODIFIED="1423433772698" TEXT="js">
+<node COLOR="#0033ff" CREATED="1423298843962" ID="ID_732459679" MODIFIED="1423433680389">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+      &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;&gt;&lt;/script&gt;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1423298875070" ID="ID_579051649" MODIFIED="1423298992376">
 <richcontent TYPE="NODE"><html>
