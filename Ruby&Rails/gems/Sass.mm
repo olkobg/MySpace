@@ -1,20 +1,20 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1420825594831" ID="ID_609675443" LINK="../Gems.mm" MODIFIED="1423260696389" TEXT="Sass">
+<node COLOR="#990000" CREATED="1420825594831" ID="ID_609675443" LINK="../Gems.mm" MODIFIED="1423433369250" TEXT="Sass">
 <font NAME="SansSerif" SIZE="33"/>
-<node CREATED="1423255512703" FOLDED="true" ID="ID_1592969359" MODIFIED="1423258456369" POSITION="left" TEXT="comments">
-<node COLOR="#0033ff" CREATED="1423255518759" FOLDED="true" ID="ID_888400109" MODIFIED="1423258455066" TEXT="//">
+<node CREATED="1423255512703" FOLDED="true" ID="ID_1592969359" MODIFIED="1423431750230" POSITION="left" TEXT="comments">
+<node COLOR="#006633" CREATED="1423255518759" FOLDED="true" ID="ID_888400109" MODIFIED="1423431749560" TEXT="//">
 <node CREATED="1423255555718" ID="ID_662361579" MODIFIED="1423255560614" TEXT="removed from css"/>
 </node>
 <node COLOR="#0033ff" CREATED="1423255549770" ID="ID_19393297" MODIFIED="1423258452506" TEXT="/* */"/>
 </node>
-<node CREATED="1423258431394" FOLDED="true" ID="ID_768235747" MODIFIED="1423261000490" POSITION="left" TEXT="importing">
-<node COLOR="#0033ff" CREATED="1423258433654" FOLDED="true" ID="ID_1106519656" MODIFIED="1423261000235" TEXT="@import">
+<node CREATED="1423258431394" FOLDED="true" ID="ID_768235747" MODIFIED="1423431743012" POSITION="left" TEXT="importing">
+<node COLOR="#006633" CREATED="1423258433654" FOLDED="true" ID="ID_1106519656" MODIFIED="1423431742292" TEXT="@import">
 <node CREATED="1423258438529" ID="ID_1027923310" MODIFIED="1423258447506" TEXT="make happend during compile time"/>
 <node COLOR="#0033ff" CREATED="1423260988372" ID="ID_1868434678" MODIFIED="1423260999451" TEXT="@import &quot;settings&quot;;"/>
 </node>
 </node>
-<node CREATED="1423258750096" FOLDED="true" ID="ID_1815042217" MODIFIED="1423258961755" POSITION="left" TEXT="partials">
+<node CREATED="1423258750096" FOLDED="true" ID="ID_1815042217" MODIFIED="1423431740055" POSITION="left" TEXT="partials">
 <node CREATED="1423258754306" FOLDED="true" ID="ID_1220442404" MODIFIED="1423258961382">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -50,9 +50,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1423259266298" FOLDED="true" ID="ID_680015484" MODIFIED="1423298352367" POSITION="left" TEXT="nesting">
-<node CREATED="1423258983301" FOLDED="true" ID="ID_1953883140" MODIFIED="1423260674693" TEXT="selectors">
-<node COLOR="#0033ff" CREATED="1423259181190" FOLDED="true" ID="ID_1761871801" MODIFIED="1423259230471">
+<node CREATED="1423259266298" FOLDED="true" ID="ID_680015484" MODIFIED="1423431736519" POSITION="left" TEXT="nesting">
+<node CREATED="1423258983301" FOLDED="true" ID="ID_1953883140" MODIFIED="1423431734603" TEXT="selectors">
+<node COLOR="#006633" CREATED="1423259181190" FOLDED="true" ID="ID_1761871801" MODIFIED="1423431729837">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -143,8 +143,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1423259275251" FOLDED="true" ID="ID_28776936" MODIFIED="1423298351654" TEXT="properties">
-<node COLOR="#0033ff" CREATED="1423259290073" FOLDED="true" ID="ID_698914819" MODIFIED="1423298350883">
+<node CREATED="1423259275251" FOLDED="true" ID="ID_28776936" MODIFIED="1423431736039" TEXT="properties">
+<node COLOR="#006633" CREATED="1423259290073" FOLDED="true" ID="ID_698914819" MODIFIED="1423431718263">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -196,7 +196,7 @@
 <node COLOR="#0033ff" CREATED="1423259434479" ID="ID_718746655" MODIFIED="1423260669045" TEXT="font"/>
 <node COLOR="#0033ff" CREATED="1423259436241" ID="ID_1062656876" MODIFIED="1423260669044" TEXT="text"/>
 </node>
-<node COLOR="#0033ff" CREATED="1423259471080" FOLDED="true" ID="ID_799626327" MODIFIED="1423260708216" TEXT="&amp;">
+<node COLOR="#006633" CREATED="1423259471080" FOLDED="true" ID="ID_799626327" MODIFIED="1423431712429" TEXT="&amp;">
 <node CREATED="1423259474071" FOLDED="true" ID="ID_255659315" MODIFIED="1423260680965" TEXT="parent">
 <node COLOR="#006633" CREATED="1423259619887" FOLDED="true" ID="ID_98704031" MODIFIED="1423260148660">
 <richcontent TYPE="NODE"><html>
@@ -504,8 +504,170 @@
 </node>
 </node>
 </node>
-<node CREATED="1423299107781" FOLDED="true" ID="ID_210050528" MODIFIED="1423306317628" POSITION="left" TEXT="variables">
-<node COLOR="#0033ff" CREATED="1423299132562" ID="ID_1862526310" MODIFIED="1423306310560" TEXT="$blue:#00F;"/>
+<node CREATED="1423299107781" FOLDED="true" ID="ID_210050528" MODIFIED="1423432130136" POSITION="left" TEXT="variables">
+<node COLOR="#006633" CREATED="1423299132562" ID="ID_1862526310" MODIFIED="1423431708089" TEXT="$blue:#00F;"/>
+<node COLOR="#006633" CREATED="1423319954933" ID="ID_1280471143" MODIFIED="1423431708087" TEXT="$darkBlue:$blue - 100;"/>
+<node CREATED="1423319972986" ID="ID_557946572" MODIFIED="1423320054788">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // use inside file
+    </p>
+    <p>
+      <font color="#009900">background-color: $blue; </font>
+    </p>
+    <p>
+      <font color="#009900">background-image: linear-gradient(top, $darkBlue, $blue);</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1423430361465" FOLDED="true" ID="ID_330558005" MODIFIED="1423432544510" POSITION="left" TEXT="mixins">
+<node CREATED="1423431639814" FOLDED="true" ID="ID_204731573" MODIFIED="1423432543500" TEXT="args">
+<node CREATED="1423431573448" ID="ID_1226128893" MODIFIED="1423431777769">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      argument you do as variable with <font color="#006600"><b>$</b></font>&#160;sign
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1423431637089" ID="ID_650522348" MODIFIED="1423431786640">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      default arguments via colon <font color="#006600"><b>:</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#006633" CREATED="1423430365498" FOLDED="true" ID="ID_1469989977" MODIFIED="1423432542565" TEXT="@mixin">
+<node CREATED="1423432032624" ID="ID_1494028957" MODIFIED="1423432041603">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#006600">@mixin border-radius($radius: 20px) { </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;-webkit-border-radius: $radius; </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;-moz-border-radius: $radius; </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;border-radius: $radius; </font>
+    </p>
+    <p>
+      <font color="#006600">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#006633" CREATED="1423432136901" FOLDED="true" ID="ID_973877285" MODIFIED="1423432541926" TEXT="@include">
+<node CREATED="1423432124705" ID="ID_313375806" MODIFIED="1423432145840" TEXT="call"/>
+<node COLOR="#006633" CREATED="1423432441750" FOLDED="true" ID="ID_966110484" MODIFIED="1423432540356" TEXT="@include border-radius(10px);">
+<node CREATED="1423432032624" ID="ID_1183534059" MODIFIED="1423432533624">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">{ </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;-webkit-border-radius: 10px; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;-moz-border-radius: 10px; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;border-radius: 10px; </font>
+    </p>
+    <p>
+      <font color="#0000ff">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#006633" CREATED="1423432455254" ID="ID_1507345958" MODIFIED="1423432471516" TEXT="@include border-radius;"/>
+</node>
+</node>
+<node CREATED="1423432912130" FOLDED="true" ID="ID_322717866" MODIFIED="1423433381227" POSITION="left" TEXT="selector inheritance">
+<node CREATED="1423433210508" FOLDED="true" ID="ID_152513284" MODIFIED="1423433380907">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#006600">.grad { </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;.intro { background: #333; @include border-radius(10px); </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;.feature { <b>@extend .intro;</b>&#160;border: 1px solid yellow;} </font>
+    </p>
+    <p>
+      <font color="#006600">} </font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1423433265048" ID="ID_1075346258" MODIFIED="1423433348814">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">.grad .intro, .grad .feature { </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;background: #333; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;-webkit-border-radius: 10px; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;-moz-border-radius: 10px; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;border-radius: 10px; } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;.grad .feature { </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;border: 1px solid yellow; }</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1423258800976" FOLDED="true" ID="ID_1573564412" MODIFIED="1423306322746" POSITION="right" TEXT="$">
 <node CREATED="1423258806309" FOLDED="true" ID="ID_1649881145" MODIFIED="1423306321635" TEXT="file-ext">
