@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#006633" CREATED="1298379398131" ID="ID_1454701070" LINK="../Index.mm" MODIFIED="1421312190002" TEXT="CSS">
-<font NAME="SansSerif" SIZE="25"/>
-<node CREATED="1329167857520" FOLDED="true" ID="ID_1738733773" MODIFIED="1421312190002" POSITION="right" TEXT="Fonts">
+<node COLOR="#006633" CREATED="1298379398131" ID="ID_1454701070" LINK="../Index.mm" MODIFIED="1423320435075" TEXT="CSS">
+<font NAME="SansSerif" SIZE="31"/>
+<node CREATED="1329167857520" FOLDED="true" ID="ID_1738733773" MODIFIED="1423320334073" POSITION="right" TEXT="Fonts">
 <node CREATED="1329167860573" ID="ID_1617167628" LINK="http://www.webfonts.info/wiki/index.php?title=%40font-face_support_in_Firefox" MODIFIED="1329167893664" TEXT="Web Fonts - Firefox"/>
 </node>
-<node COLOR="#0033ff" CREATED="1333056389137" FOLDED="true" ID="ID_1127662998" MODIFIED="1421312190002" POSITION="left" TEXT="background">
+<node COLOR="#0033ff" CREATED="1333056389137" FOLDED="true" ID="ID_1127662998" MODIFIED="1423320321534" POSITION="left" TEXT="background">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#990099" CREATED="1333056395443" FOLDED="true" ID="ID_402701821" MODIFIED="1386675358592" TEXT="transparent">
+<node COLOR="#0033ff" CREATED="1333056395443" FOLDED="true" ID="ID_402701821" MODIFIED="1423320321214" TEXT="transparent">
 <node CREATED="1333056429605" ID="ID_1741786650" MODIFIED="1356545671605">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -23,7 +23,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359130724342" FOLDED="true" ID="ID_1689246156" MODIFIED="1421312190002" POSITION="left" TEXT="page-brake">
+<node CREATED="1359130724342" FOLDED="true" ID="ID_1689246156" MODIFIED="1423320313999" POSITION="left" TEXT="page-brake">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359130530013" ID="ID_1519553482" MODIFIED="1359130774897">
 <richcontent TYPE="NODE"><html>
@@ -41,7 +41,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1359130730037" ID="ID_1208662858" LINK="http://www.w3schools.com/cssref/pr_print_pagebb.asp" MODIFIED="1359130825539">
+<node CREATED="1359130730037" ID="ID_1208662858" LINK="http://www.w3schools.com/cssref/pr_print_pagebb.asp" MODIFIED="1423320312929">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -55,13 +55,13 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1338239998207" FOLDED="true" ID="ID_766402262" MODIFIED="1421312226679" POSITION="left" TEXT="box">
+<node CREATED="1338239998207" FOLDED="true" ID="ID_766402262" MODIFIED="1423320323193" POSITION="left" TEXT="box">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1336845362558" FOLDED="true" ID="ID_1421273977" MODIFIED="1421312190002" TEXT="border">
+<node COLOR="#0033ff" CREATED="1336845362558" FOLDED="true" ID="ID_1421273977" MODIFIED="1423320281458" TEXT="border">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1336845365448" FOLDED="true" ID="ID_1780697231" LINK="http://www.css3.info/preview/rounded-border/" MODIFIED="1386675354613" TEXT="radius">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1336845502117" ID="ID_84836676" MODIFIED="1386675353783">
+<node COLOR="#0033ff" CREATED="1336845365448" FOLDED="true" ID="ID_1780697231" LINK="http://www.css3.info/preview/rounded-border/" MODIFIED="1423320280775" TEXT="radius">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1336845502117" FOLDED="true" ID="ID_84836676" MODIFIED="1423320280531">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -90,10 +90,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1338239993612" FOLDED="true" ID="ID_781897182" MODIFIED="1421312190002" TEXT="shadow">
+<node COLOR="#0033ff" CREATED="1338239993612" FOLDED="true" ID="ID_781897182" MODIFIED="1423320308511" TEXT="shadow">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#009999" CREATED="1338240003013" FOLDED="true" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1357242838828" TEXT="css-tricks">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1338240003013" FOLDED="true" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1423320284023" TEXT="css-tricks">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1338240386255" ID="ID_813752905" MODIFIED="1356545609687">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -149,7 +149,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1338240016539" ID="ID_1015713349" LINK="http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/" MODIFIED="1338240033121" TEXT="site2"/>
+<node COLOR="#009999" CREATED="1338240016539" ID="ID_1015713349" LINK="http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/" MODIFIED="1423320305756" TEXT="robertnyman.com"/>
 <node COLOR="#0033ff" CREATED="1357242773220" ID="ID_385379861" MODIFIED="1357242828933">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -188,15 +188,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355839571373" FOLDED="true" ID="ID_298067342" MODIFIED="1421312190002" POSITION="left" TEXT="text">
+<node COLOR="#0033ff" CREATED="1355839571373" FOLDED="true" ID="ID_298067342" MODIFIED="1423320265576" POSITION="left" TEXT="text">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1355839575754" ID="ID_715847262" MODIFIED="1421312143123" TEXT="text-shadow">
+<node COLOR="#0033ff" CREATED="1355839575754" FOLDED="true" ID="ID_715847262" MODIFIED="1423320265307" TEXT="text-shadow">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#ff0000" CREATED="1355839585956" ID="ID_1353104836" LINK="http://www.w3.org/Style/Examples/007/text-shadow.en.html" MODIFIED="1355839596640" TEXT="W3C">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#ff0000" CREATED="1355839585956" ID="ID_1353104836" LINK="http://www.w3.org/Style/Examples/007/text-shadow.en.html" MODIFIED="1423218686595" TEXT="W3C">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#009999" CREATED="1355839695904" ID="ID_434945606" LINK="http://css-tricks.com/snippets/css/css-text-shadow/" MODIFIED="1355839705373" TEXT="css-tricks">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1355839695904" ID="ID_434945606" LINK="http://css-tricks.com/snippets/css/css-text-shadow/" MODIFIED="1423218687566" TEXT="css-tricks">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1357240153872" ID="ID_1237168997" MODIFIED="1357240239968">
 <richcontent TYPE="NODE"><html>
@@ -221,7 +221,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1386675330532" FOLDED="true" ID="ID_1321587244" MODIFIED="1421312230211" POSITION="left" TEXT="font">
+<node COLOR="#0033ff" CREATED="1386675330532" FOLDED="true" ID="ID_1321587244" MODIFIED="1423320262758" POSITION="left" TEXT="font">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1386675335051" FOLDED="true" ID="ID_1917399904" MODIFIED="1421312228844" TEXT="@font-face">
 <font NAME="SansSerif" SIZE="12"/>
@@ -265,8 +265,7 @@
       <font color="#006666">mdn</font>&#160;font-face
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1386677407963" FOLDED="true" ID="ID_1431274130" MODIFIED="1421312229863" TEXT="collections">
@@ -281,15 +280,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357220826744" FOLDED="true" ID="ID_757028865" MODIFIED="1421312231021" POSITION="left" TEXT="transition">
+<node COLOR="#0033ff" CREATED="1357220826744" FOLDED="true" ID="ID_757028865" MODIFIED="1423320261448" POSITION="left" TEXT="transition">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1357221103694" ID="ID_1233232076" LINK="http://www.alistapart.com/articles/understanding-css3-transitions/" MODIFIED="1421312201222" TEXT="A List Apart">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357245023527" FOLDED="true" ID="ID_1699684778" MODIFIED="1421312190004" POSITION="left" TEXT="browsers">
-<node CREATED="1357245026983" FOLDED="true" ID="ID_1881626945" MODIFIED="1421312155391" TEXT="ie">
-<node CREATED="1357245029971" FOLDED="true" ID="ID_1444506060" LINK="http://msdn.microsoft.com/en-us/library/ms673539%28VS.85%29.aspx" MODIFIED="1421312154836" TEXT="filters">
+<node CREATED="1357245023527" FOLDED="true" ID="ID_1699684778" MODIFIED="1423320259667" POSITION="left" TEXT="browsers">
+<node CREATED="1357245026983" FOLDED="true" ID="ID_1881626945" MODIFIED="1423320259383" TEXT="ie">
+<node CREATED="1357245029971" FOLDED="true" ID="ID_1444506060" LINK="http://msdn.microsoft.com/en-us/library/ms673539%28VS.85%29.aspx" MODIFIED="1423320258386" TEXT="filters">
 <node COLOR="#0033ff" CREATED="1357246998086" ID="ID_1939718771" MODIFIED="1357247001341" TEXT="filter: glow(strength=5 color=black)">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -297,10 +296,10 @@
 <node CREATED="1357246112135" ID="ID_1192421118" LINK="http://css3pie.com/" MODIFIED="1357246118211" TEXT="ccs3pie"/>
 </node>
 </node>
-<node CREATED="1336940083970" FOLDED="true" ID="ID_657813283" MODIFIED="1421312190004" POSITION="right" TEXT="Tricks">
+<node CREATED="1336940083970" FOLDED="true" ID="ID_657813283" MODIFIED="1423320332486" POSITION="right" TEXT="Tricks">
 <font NAME="SansSerif" SIZE="18"/>
-<node CREATED="1337895069867" FOLDED="true" ID="ID_437743830" MODIFIED="1357936766399" TEXT="menu">
-<node CREATED="1337895075588" FOLDED="true" ID="ID_494470881" MODIFIED="1357221047103" TEXT="pipe separators">
+<node CREATED="1337895069867" FOLDED="true" ID="ID_437743830" MODIFIED="1423320331599" TEXT="menu">
+<node CREATED="1337895075588" FOLDED="true" ID="ID_494470881" MODIFIED="1423320331327" TEXT="pipe separators">
 <node CREATED="1337895083794" ID="ID_418273686" LINK="http://css.maxdesign.com.au/listamatic/horizontal32.htm" MODIFIED="1337895097456" TEXT="site1"/>
 <node CREATED="1337895209047" ID="ID_1430090062" LINK="http://stackoverflow.com/questions/567988/nav-menu-rendering-dividing-pipe-characters" MODIFIED="1337895216527" TEXT="so"/>
 </node>
@@ -324,21 +323,21 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1352817196890" FOLDED="true" ID="ID_1052342100" MODIFIED="1421312383259" POSITION="right" TEXT="hacks">
+<node COLOR="#cc3300" CREATED="1352817196890" FOLDED="true" ID="ID_1052342100" MODIFIED="1423320327161" POSITION="right" TEXT="hacks">
 <font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1352817281211" FOLDED="true" ID="ID_1327576642" MODIFIED="1421312190004" TEXT="all">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1352817199979" ID="ID_1130436337" LINK="http://css-tricks.com/how-to-create-an-ie-only-stylesheet/" MODIFIED="1352817226814" TEXT="1"/>
 <node CREATED="1352817204519" ID="ID_659788434" LINK="http://www.webdevout.net/css-hacks" MODIFIED="1352817233681" TEXT="2"/>
 </node>
-<node CREATED="1352817253460" FOLDED="true" ID="ID_1829518153" MODIFIED="1421312190004" TEXT="opera">
+<node CREATED="1352817253460" FOLDED="true" ID="ID_1829518153" MODIFIED="1423320326137" TEXT="opera">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1352817230139" ID="ID_909497027" LINK="http://stackoverflow.com/questions/1120335/how-to-make-css-visible-only-for-opera" MODIFIED="1352817263518" TEXT="1"/>
 <node CREATED="1352817264007" ID="ID_338981909" LINK="http://bricss.net/post/11230266445/css-hack-to-target-opera" MODIFIED="1352817276980" TEXT="2"/>
 </node>
 <node COLOR="#0033ff" CREATED="1421312361935" ID="ID_1567462741" LINK="http://browserhacks.com/" MODIFIED="1421312375049" TEXT="browser hacks"/>
 </node>
-<node CREATED="1356545325728" FOLDED="true" ID="ID_599683393" MODIFIED="1421312190004" POSITION="right" TEXT="Layout">
+<node CREATED="1356545325728" FOLDED="true" ID="ID_599683393" MODIFIED="1423320336717" POSITION="right" TEXT="Layout">
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1356545332763" ID="ID_294525347" LINK="http://www.maxdesign.com.au/articles/" MODIFIED="1356545346397" TEXT="MaxDesign">
 <font NAME="SansSerif" SIZE="12"/>
@@ -348,17 +347,20 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1356606013830" FOLDED="true" ID="ID_1203122414" MODIFIED="1421312190004" POSITION="right" TEXT="Sites">
-<node COLOR="#009999" CREATED="1356606018368" ID="ID_524275382" LINK="http://www.quirksmode.org/" MODIFIED="1356606594464" TEXT="quirksmode">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#009999" CREATED="1356606026933" ID="ID_40012144" LINK="http://css-tricks.com/" MODIFIED="1356606592035" TEXT="css-tricks">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1363610406267" ID="ID_468479430" MODIFIED="1421312233759" POSITION="right" TEXT="tools">
+<node CREATED="1356606013830" FOLDED="true" ID="ID_1203122414" MODIFIED="1423320340230" POSITION="right" TEXT="Sites">
+<node COLOR="#009999" CREATED="1356606018368" ID="ID_524275382" LINK="http://www.quirksmode.org/" MODIFIED="1423320339431" TEXT="quirksmode">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1363610410637" ID="ID_1594849939" LINK="http://susy.oddbird.net/" MODIFIED="1421312190004" TEXT="susy"/>
+</node>
+<node COLOR="#009999" CREATED="1356606026933" ID="ID_40012144" LINK="http://css-tricks.com/" MODIFIED="1423320339430" TEXT="css-tricks">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1363610406267" FOLDED="true" ID="ID_468479430" MODIFIED="1423430586399" POSITION="right" TEXT="tools">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1363610410637" ID="ID_1594849939" LINK="http://susy.oddbird.net/" MODIFIED="1423320342605" TEXT="susy"/>
+<node COLOR="#0033ff" CREATED="1423320343525" ID="ID_1681783849" LINK="https://www.polymer-project.org/" MODIFIED="1423320391685" TEXT="polymer"/>
+<node COLOR="#0033ff" CREATED="1423320409931" ID="ID_1904203159" LINK="http://learnboost.github.io/stylus/" MODIFIED="1423320430235" TEXT="stylus"/>
+<node COLOR="#0033ff" CREATED="1423430566991" ID="ID_1704419790" LINK="http://css3please.com/" MODIFIED="1423430585327" TEXT="cssPlease!"/>
 </node>
 </node>
 </map>
