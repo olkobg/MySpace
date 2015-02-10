@@ -1,8 +1,9 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1380727556206" TEXT="PHP">
-<font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1393417237234" POSITION="right" TEXT="Testing">
+<node COLOR="#990099" CREATED="1285850512373" ID="ID_1544824917" LINK="../Index.mm" MODIFIED="1423572017006" TEXT="PHP">
+<font NAME="SansSerif" SIZE="30"/>
+<node CREATED="1285850528231" FOLDED="true" ID="ID_449599395" MODIFIED="1423572049304" POSITION="right" TEXT="Testing">
+<font NAME="SansSerif" SIZE="15"/>
 <node CREATED="1285850518723" ID="ID_349465635" MODIFIED="1383150446248" TEXT="UnitTesting">
 <node CREATED="1334852774584" ID="ID_671076897" LINK="PHPUnit.mm" MODIFIED="1334852774585" TEXT="PHPUnit"/>
 </node>
@@ -50,11 +51,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#009999" CREATED="1291283758871" FOLDED="true" ID="ID_651800150" MODIFIED="1409859842985" POSITION="right" TEXT="Apps">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1291284845924" FOLDED="true" ID="ID_637058664" MODIFIED="1400779540911" TEXT="webCMS">
-<node COLOR="#006633" CREATED="1291283799040" ID="ID_632977273" LINK="Joomla.mm" MODIFIED="1355996464562" STYLE="bubble" TEXT="Joomla">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#009999" CREATED="1291283758871" FOLDED="true" ID="ID_651800150" MODIFIED="1423572276401" POSITION="right" TEXT="Apps">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1291284845924" ID="ID_637058664" MODIFIED="1423572052281" TEXT="webCMS">
+<node COLOR="#006633" CREATED="1291283799040" ID="ID_632977273" LINK="Joomla.mm" MODIFIED="1423572053832" STYLE="bubble" TEXT="Joomla">
+<font NAME="SansSerif" SIZE="16"/>
 </node>
 <node CREATED="1291284822116" ID="ID_797129928" MODIFIED="1291284824886" TEXT="modX"/>
 <node CREATED="1291284825792" ID="ID_1363881862" MODIFIED="1291284827913" TEXT="Drupal"/>
@@ -73,43 +74,43 @@
 <node CREATED="1354274546352" ID="ID_1054520689" LINK="eCommerce/PrestaShop.mm" MODIFIED="1354274546354" TEXT="PrestaShop"/>
 </node>
 </node>
-<node CREATED="1337095407580" FOLDED="true" ID="ID_1268790834" MODIFIED="1398876187684" POSITION="left" TEXT="libs">
-<node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1393417192233" TEXT="Captcha">
+<node CREATED="1337095407580" FOLDED="true" ID="ID_1268790834" MODIFIED="1423572619364" POSITION="left" TEXT="libs">
+<node CREATED="1337095412298" FOLDED="true" ID="ID_516280554" MODIFIED="1423572588585" TEXT="Captcha">
 <node CREATED="1337095420871" ID="ID_17558381" LINK="http://freecode.com/projects/captchaphp" MODIFIED="1337095456554" TEXT="free node"/>
 <node CREATED="1337095457470" ID="ID_159468299" LINK="http://www.white-hat-web-design.co.uk/blog/php-captcha-security-images/" MODIFIED="1337095492414" TEXT="php captcha security images"/>
 <node CREATED="1337095493488" ID="ID_1074773125" LINK="http://code.google.com/p/cool-php-captcha/" MODIFIED="1337095517343" TEXT="cool php captcha"/>
 <node CREATED="1337095518492" ID="ID_1870135368" LINK="http://www.phpcaptcha.org/" MODIFIED="1337095552753" TEXT="php captcha"/>
 </node>
-<node CREATED="1369128812901" FOLDED="true" ID="ID_1576208377" MODIFIED="1393417193422" TEXT="csv">
-<node COLOR="#009999" CREATED="1369128834923" ID="ID_1691425039" LINK="http://code.google.com/p/parsecsv-for-php/" MODIFIED="1369128857981" TEXT="parsecsv-for-php">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369128812901" FOLDED="true" ID="ID_1576208377" MODIFIED="1423572597137" TEXT="csv">
+<node COLOR="#009999" CREATED="1369128834923" ID="ID_1691425039" LINK="http://code.google.com/p/parsecsv-for-php/" MODIFIED="1423572590645" TEXT="parsecsv-for-php">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1292929906380" FOLDED="true" ID="ID_995126132" MODIFIED="1393417203618" TEXT="Frameworks">
-<node COLOR="#cc3300" CREATED="1302022150489" FOLDED="true" ID="ID_538144076" MODIFIED="1393417196036" TEXT="MVC">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1292929920445" ID="ID_1482400630" LINK="http://ellislab.com/codeigniter" MODIFIED="1361977848553" TEXT="CodeIgnitter">
-<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+<node CREATED="1292929906380" FOLDED="true" ID="ID_995126132" MODIFIED="1423572609500" TEXT="Frameworks">
+<node COLOR="#cc3300" CREATED="1302022150489" FOLDED="true" ID="ID_538144076" MODIFIED="1423572605756" TEXT="MVC">
+<font NAME="SansSerif" SIZE="16"/>
+<node CREATED="1292929920445" ID="ID_1482400630" LINK="http://ellislab.com/codeigniter" MODIFIED="1423572600444" TEXT="CodeIgnitter">
+<font NAME="SansSerif" SIZE="13"/>
 </node>
-<node CREATED="1302022140177" ID="ID_767875219" LINK="http://kohanaframework.org/" MODIFIED="1361977815932" TEXT="Kohana">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1302022140177" ID="ID_767875219" LINK="http://kohanaframework.org/" MODIFIED="1423572600444" TEXT="Kohana">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1361977790424" ID="ID_1613289485" LINK="http://phalconphp.com/" MODIFIED="1361977799358" TEXT="Phalcon php">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1361977790424" ID="ID_1613289485" LINK="http://phalconphp.com/" MODIFIED="1423572600444" TEXT="Phalcon php">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1302022135002" ID="ID_1046566590" MODIFIED="1361977785992" TEXT="Symphony">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1302022135002" ID="ID_1046566590" MODIFIED="1423572600444" TEXT="Symphony">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#338800" CREATED="1292929957082" ID="ID_1178615153" LINK="Zend.mm" MODIFIED="1361977782702" STYLE="bubble" TEXT="ZendFramework">
-<font BOLD="true" NAME="SansSerif" SIZE="13"/>
+<node COLOR="#338800" CREATED="1292929957082" ID="ID_1178615153" LINK="Zend.mm" MODIFIED="1423572600445" STYLE="bubble" TEXT="ZendFramework">
+<font NAME="SansSerif" SIZE="13"/>
 </node>
 </node>
-<node CREATED="1299138699860" FOLDED="true" ID="ID_1659667816" MODIFIED="1393417199613" TEXT="ORM">
-<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1299138699860" FOLDED="true" ID="ID_1659667816" MODIFIED="1423572606896" TEXT="ORM">
+<font ITALIC="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1299138706510" ID="ID_253301276" LINK="http://www.doctrine-project.org/" MODIFIED="1299138753581" TEXT="Doctrine"/>
 <node CREATED="1299138709209" ID="ID_746365137" LINK="http://www.propelorm.org/" MODIFIED="1299138740517" TEXT="Propel"/>
 </node>
-<node CREATED="1355500305094" FOLDED="true" ID="ID_463395371" MODIFIED="1393417203122" TEXT="TEMPLATE ENGINE">
+<node CREATED="1355500305094" FOLDED="true" ID="ID_463395371" MODIFIED="1423572609133" TEXT="TEMPLATE ENGINE">
 <node CREATED="1355500326563" ID="ID_1390439074" LINK="http://twig.sensiolabs.org/" MODIFIED="1355500349425" TEXT="TWIG"/>
 </node>
 </node>
@@ -141,15 +142,12 @@
 </node>
 <node CREATED="1369128898408" ID="ID_1935785236" MODIFIED="1369128904633" TEXT="wkpdftohtml"/>
 </node>
-<node CREATED="1359042034679" FOLDED="true" ID="ID_656337819" MODIFIED="1393417212302" TEXT="alt">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1359041996764" ID="ID_83881258" LINK="http://php-fpm.org/" MODIFIED="1359042011822" TEXT="PHP-FPM">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1359041996764" ID="ID_83881258" LINK="http://php-fpm.org/" MODIFIED="1423572613710" TEXT="PHP-FPM">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-</node>
-<node COLOR="#cc3300" CREATED="1293715627303" FOLDED="true" ID="ID_238630762" MODIFIED="1400779544218" POSITION="right" TEXT="Debug">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<node COLOR="#cc3300" CREATED="1293715627303" FOLDED="true" ID="ID_238630762" MODIFIED="1423572692844" POSITION="right" TEXT="Debug">
+<font NAME="SansSerif" SIZE="15"/>
 <node CREATED="1293715633004" FOLDED="true" ID="ID_335545435" MODIFIED="1364752715244" TEXT="Zend Debugger">
 <node CREATED="1293783245381" FOLDED="true" ID="ID_1713486316" MODIFIED="1364752714339" TEXT="php.ini">
 <node CREATED="1293783249578" ID="ID_182132240" MODIFIED="1300955929097" STYLE="bubble">
@@ -216,8 +214,8 @@ xdebug.remote_port=9000
 <node CREATED="1356008762217" ID="ID_1769296643" LINK="http://www.developer.com/lang/php/article.php/3327111/Monitor-PHP-Application-Errors-and-Messages-with-syslog.htm" MODIFIED="1356008765855" TEXT="config"/>
 </node>
 </node>
-<node CREATED="1354282931319" FOLDED="true" ID="ID_1871564202" MODIFIED="1393417228210" POSITION="right" TEXT="cli">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1354282931319" FOLDED="true" ID="ID_1871564202" MODIFIED="1423572042248" POSITION="right" TEXT="cli">
+<font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#0033ff" CREATED="1354282933136" FOLDED="true" ID="ID_1074862425" MODIFIED="1393417226297">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -259,14 +257,13 @@ xdebug.remote_port=9000
 <node CREATED="1398876196127" FOLDED="true" ID="ID_1600056313" MODIFIED="1398879535481" POSITION="right" TEXT="standarts">
 <node CREATED="1398876201703" ID="ID_32788562" LINK="http://www.php-fig.org/" MODIFIED="1398876242251" TEXT="PHP Framework Interop Group"/>
 </node>
-<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1398882591786" POSITION="left" TEXT="CORE">
-<font BOLD="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1393417023910" TEXT="Variables">
-<node CREATED="1299143275220" FOLDED="true" ID="ID_1409859968" MODIFIED="1362411827693" TEXT="inf">
+<node CREATED="1293626384065" FOLDED="true" ID="ID_415569466" MODIFIED="1423572629568" POSITION="left" TEXT="CORE">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1299140234352" FOLDED="true" ID="ID_409384537" MODIFIED="1423572581802" TEXT="Variables">
 <node CREATED="1299143282242" ID="ID_1282115974" MODIFIED="1299143314362" TEXT="represented with use of dillar sign followed by the name of the variable"/>
 <node CREATED="1299143337872" ID="ID_1019860433" MODIFIED="1299143338900" TEXT="By default, variables are always assigned by value"/>
 <node CREATED="1299147742489" ID="ID_707020924" MODIFIED="1299147776125" TEXT="the variables names cannot be with dot symbol"/>
-<node CREATED="1299143421656" FOLDED="true" ID="ID_1355207417" MODIFIED="1354283280140" TEXT="reffrence">
+<node CREATED="1299143421656" FOLDED="true" ID="ID_1355207417" MODIFIED="1423572346758" TEXT="reffrence">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299143366747" ID="ID_1244860853" MODIFIED="1299143366747">
 <richcontent TYPE="NODE"><html>
@@ -280,7 +277,7 @@ xdebug.remote_port=9000
 </node>
 <node CREATED="1299143428199" ID="ID_1248487780" MODIFIED="1299143429125" TEXT="One important thing to note is that only named variables may be assigned by reference. "/>
 </node>
-<node CREATED="1299143549732" ID="ID_991816973" MODIFIED="1362411595056" TEXT="predefined variables">
+<node CREATED="1299143549732" FOLDED="true" ID="ID_991816973" MODIFIED="1423572345400" TEXT="predefined variables">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299143575858" ID="ID_1712888799" MODIFIED="1299143575858">
 <richcontent TYPE="NODE"><html>
@@ -293,7 +290,7 @@ xdebug.remote_port=9000
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299143612555" ID="ID_899472099" MODIFIED="1354283284777" TEXT="scope">
+<node CREATED="1299143612555" FOLDED="true" ID="ID_899472099" MODIFIED="1423572344569" TEXT="scope">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299143618586" ID="ID_1594511719" LINK="#ID_1499600094" MODIFIED="1299144336956" TEXT="The scope of a variable is the context within which it is defined. For the most part all PHP variables only have a single scope. This single scope spans included and required files as well."/>
 <node CREATED="1299144221165" ID="ID_750990314" MODIFIED="1362411671228" TEXT="static">
@@ -314,20 +311,19 @@ xdebug.remote_port=9000
 <node CREATED="1299144730086" ID="ID_1142478112" LINK="#ID_854966551" MODIFIED="1299145316635" TEXT="refferfeces are not stored staticaly"/>
 </node>
 </node>
-<node CREATED="1299144948951" ID="ID_458247497" MODIFIED="1354283297721" TEXT="var of var">
+<node CREATED="1299144948951" FOLDED="true" ID="ID_458247497" MODIFIED="1423572349033" TEXT="var of var">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299144959422" ID="ID_1063449736" LINK="#ID_1801954969" MODIFIED="1299145304985" TEXT="A variable variable takes the value of a variable and treats that as the name of a variable. In the above example, hello, can be used as the name of a variable by using two dollar signs. i.e. "/>
 </node>
-<node CREATED="1299145547324" ID="ID_1520711428" MODIFIED="1362411659447" TEXT="external">
+<node CREATED="1299145547324" FOLDED="true" ID="ID_1520711428" MODIFIED="1423572349425" TEXT="external">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299145675245" ID="ID_409954590" MODIFIED="1299146060373" TEXT="like $_GET, $_POST $_REQUEST and other are composed from browser get and post requests"/>
 <node CREATED="1299146060630" ID="ID_1909491487" LINK="#ID_1050736515" MODIFIED="1299146251284" TEXT="coockies can be accessible also via superglobal array"/>
 </node>
-</node>
-<node CREATED="1299140269644" FOLDED="true" ID="ID_50524518" MODIFIED="1362411826957" TEXT="types">
-<node CREATED="1299140272157" FOLDED="true" ID="ID_1606445521" MODIFIED="1355767344240" TEXT="scalar">
-<node COLOR="#0033ff" CREATED="1299140274307" ID="ID_1291854777" MODIFIED="1354283185457" TEXT="boolean">
-<node CREATED="1299140423360" FOLDED="true" ID="ID_1108361273" MODIFIED="1354283191102" TEXT="convert">
+<node CREATED="1299140269644" FOLDED="true" ID="ID_50524518" MODIFIED="1423572530332" TEXT="types">
+<node CREATED="1299140272157" FOLDED="true" ID="ID_1606445521" MODIFIED="1423572528171" TEXT="scalar">
+<node COLOR="#0033ff" CREATED="1299140274307" FOLDED="true" ID="ID_1291854777" MODIFIED="1423572527019" TEXT="boolean">
+<node CREATED="1299140423360" FOLDED="true" ID="ID_1108361273" MODIFIED="1423572526415" TEXT="convert">
 <node CREATED="1299140436474" ID="ID_1387932650" MODIFIED="1299140452597">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -368,7 +364,7 @@ xdebug.remote_port=9000
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1299140282615" FOLDED="true" ID="ID_229214189" MODIFIED="1354283204796" TEXT="integer">
+<node COLOR="#0033ff" CREATED="1299140282615" FOLDED="true" ID="ID_229214189" MODIFIED="1423572523840" TEXT="integer">
 <node CREATED="1299140500536" ID="ID_1223135006" MODIFIED="1299140504875">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -401,7 +397,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1299140286578" FOLDED="true" ID="ID_1829362691" MODIFIED="1354283208962" TEXT="float">
+<node COLOR="#0033ff" CREATED="1299140286578" FOLDED="true" ID="ID_1829362691" MODIFIED="1423572522856" TEXT="float">
 <node CREATED="1299140586236" ID="ID_1272046401" MODIFIED="1299140592323">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -419,10 +415,10 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1299140290640" ID="ID_1152702226" MODIFIED="1354283209287" TEXT="String">
-<node CREATED="1299141282263" FOLDED="true" ID="ID_1425127127" MODIFIED="1354283260455" TEXT="types">
+<node COLOR="#0033ff" CREATED="1299140290640" FOLDED="true" ID="ID_1152702226" MODIFIED="1423572521553" TEXT="String">
+<node CREATED="1299141282263" FOLDED="true" ID="ID_1425127127" MODIFIED="1423572521111" TEXT="types">
 <node CREATED="1299140616719" ID="ID_570775634" MODIFIED="1299140632659" TEXT="single quoted"/>
-<node CREATED="1299140633105" FOLDED="true" ID="ID_1991134722" MODIFIED="1354283218283" TEXT="double quoted">
+<node CREATED="1299140633105" FOLDED="true" ID="ID_1991134722" MODIFIED="1423572520592" TEXT="double quoted">
 <node CREATED="1299140670590" ID="ID_60108003" MODIFIED="1299140689935">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -529,7 +525,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299140637204" FOLDED="true" ID="ID_161482991" MODIFIED="1354283247331" TEXT="HEREDOC">
+<node CREATED="1299140637204" FOLDED="true" ID="ID_161482991" MODIFIED="1423572519993" TEXT="HEREDOC">
 <node COLOR="#cc3300" CREATED="1299140836487" ID="ID_1187775310" MODIFIED="1312477193510" TEXT="important!">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299140816071" ID="ID_1467291061" MODIFIED="1299140830985">
@@ -613,7 +609,7 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299140640936" FOLDED="true" ID="ID_1998204852" MODIFIED="1354283254810" TEXT="NOWDOC">
+<node CREATED="1299140640936" FOLDED="true" ID="ID_1998204852" MODIFIED="1423572518859" TEXT="NOWDOC">
 <node CREATED="1299140994024" ID="ID_832459883" MODIFIED="1299141037125" TEXT="nowdoc support was added in PHP 5.3.0"/>
 <node CREATED="1299141084343" ID="ID_141806247" MODIFIED="1299141088095">
 <richcontent TYPE="NODE"><html>
@@ -659,11 +655,11 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299140295933" ID="ID_1361200571" MODIFIED="1362411613837" TEXT="compound">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1299140299593" ID="ID_1847954721" MODIFIED="1362411615349" TEXT="array">
+<node CREATED="1299140295933" FOLDED="true" ID="ID_1361200571" MODIFIED="1423572503209" TEXT="compound">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1299140299593" FOLDED="true" ID="ID_1847954721" MODIFIED="1423572502336" TEXT="array">
 <node CREATED="1299142128599" ID="ID_495166273" MODIFIED="1299142130982" TEXT="Array assignment always involves value copying. Use the reference operator to copy an array by reference. "/>
-<node CREATED="1299141727297" FOLDED="true" ID="ID_422731562" MODIFIED="1355767399171" TEXT="simple">
+<node CREATED="1299141727297" FOLDED="true" ID="ID_422731562" MODIFIED="1423572500961" TEXT="simple">
 <node CREATED="1299141353515" ID="ID_1348046485" MODIFIED="1299141362825">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -681,7 +677,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299141912738" FOLDED="true" ID="ID_1868140279" MODIFIED="1355767400134" TEXT="collection">
+<node CREATED="1299141912738" FOLDED="true" ID="ID_1868140279" MODIFIED="1423572499828" TEXT="collection">
 <node CREATED="1299141924432" ID="ID_1110581867" MODIFIED="1299141932773">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -697,7 +693,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299141951159" FOLDED="true" ID="ID_1566344364" MODIFIED="1355767400948" TEXT="one based index">
+<node CREATED="1299141951159" FOLDED="true" ID="ID_1566344364" MODIFIED="1423572498839" TEXT="one based index">
 <node CREATED="1299141954688" ID="ID_341914988" MODIFIED="1299141961907">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -713,7 +709,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299142048464" FOLDED="true" ID="ID_1594010759" MODIFIED="1355767401824" TEXT="multidimentionsl and recursive">
+<node CREATED="1299142048464" FOLDED="true" ID="ID_1594010759" MODIFIED="1423572497540" TEXT="multidimentionsl and recursive">
 <node CREATED="1299142055846" ID="ID_1497149942" MODIFIED="1299142062318">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -729,7 +725,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299142099611" FOLDED="true" ID="ID_1897166359" MODIFIED="1355767402558" TEXT="refference copy">
+<node CREATED="1299142099611" FOLDED="true" ID="ID_1897166359" MODIFIED="1423572495652" TEXT="refference copy">
 <node CREATED="1299142107627" ID="ID_915560457" MODIFIED="1299142116463">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -748,10 +744,10 @@ integer     : [+-]?decimal
 </node>
 </node>
 <node CREATED="1299141730903" ID="ID_1781168847" MODIFIED="1355767404055" TEXT="func">
-<node CREATED="1299141740437" FOLDED="true" ID="ID_1509638055" MODIFIED="1355767621512" TEXT="compare">
+<node CREATED="1299141740437" FOLDED="true" ID="ID_1509638055" MODIFIED="1423572489922" TEXT="compare">
 <node COLOR="#0033ff" CREATED="1299141743780" ID="ID_196677487" MODIFIED="1299141760599" TEXT="array_diif()"/>
 </node>
-<node CREATED="1299149596459" FOLDED="true" ID="ID_1875247422" MODIFIED="1355767623163" TEXT="compare">
+<node CREATED="1299149596459" FOLDED="true" ID="ID_1875247422" MODIFIED="1423572493331" TEXT="compare">
 <node CREATED="1299149603128" ID="ID_736870332" MODIFIED="1299149607479">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -842,7 +838,7 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299141838815" FOLDED="true" ID="ID_1952478440" MODIFIED="1301925471075" TEXT="convert">
+<node CREATED="1299141838815" FOLDED="true" ID="ID_1952478440" MODIFIED="1423572487715" TEXT="convert">
 <node CREATED="1299141842353" ID="ID_1572338676" MODIFIED="1299141843338" TEXT="In other words, (array)$scalarValue is exactly the same as array($scalarValue). "/>
 </node>
 <node CREATED="1355767356287" ID="ID_621269543" MODIFIED="1355767390315">
@@ -897,7 +893,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1299140308253" FOLDED="true" ID="ID_1983217092" MODIFIED="1355767353196" TEXT="object">
+<node COLOR="#0033ff" CREATED="1299140308253" FOLDED="true" ID="ID_1983217092" MODIFIED="1423572483117" TEXT="object">
 <node CREATED="1299142151656" ID="ID_1353224347" MODIFIED="1354283163045">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -910,7 +906,7 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1299142606544" ID="ID_690735483" MODIFIED="1355767322594" TEXT="simple">
+<node CREATED="1299142606544" FOLDED="true" ID="ID_690735483" MODIFIED="1423572480777" TEXT="simple">
 <node CREATED="1299142610565" ID="ID_716224972" MODIFIED="1299142615034">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -928,7 +924,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299142160123" FOLDED="true" ID="ID_1324248430" MODIFIED="1354283175298" TEXT="convert">
+<node CREATED="1299142160123" FOLDED="true" ID="ID_1324248430" MODIFIED="1423572480461" TEXT="convert">
 <node CREATED="1299142166154" ID="ID_35781042" MODIFIED="1299142170946">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -948,11 +944,10 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299140319923" FOLDED="true" ID="ID_1642383954" MODIFIED="1355767662028" TEXT="special">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1299140323206" FOLDED="true" ID="ID_316628427" MODIFIED="1355767329907" TEXT="NULL">
+<node CREATED="1299140319923" FOLDED="true" ID="ID_1642383954" MODIFIED="1423572528979" TEXT="special">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1299142713181" FOLDED="true" ID="ID_1604375173" MODIFIED="1299142798707" TEXT="inf">
+<node COLOR="#0033ff" CREATED="1299140323206" FOLDED="true" ID="ID_316628427" MODIFIED="1423572476819" TEXT="NULL">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1299142714718" ID="ID_1038088981" MODIFIED="1299142715795" TEXT="The special NULL value represents a variable with no value."/>
 <node CREATED="1299142732680" ID="ID_1419371099" MODIFIED="1299142774744">
 <richcontent TYPE="NODE"><html>
@@ -983,8 +978,6 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1299142819310" FOLDED="true" ID="ID_539801827" MODIFIED="1299142831788" TEXT="ex">
 <node CREATED="1299142821186" ID="ID_1173914035" MODIFIED="1299142830084">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1001,28 +994,22 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1299142832906" FOLDED="true" ID="ID_70318284" MODIFIED="1299142846446" TEXT="convert">
+<node CREATED="1299142832906" FOLDED="true" ID="ID_70318284" MODIFIED="1423572472712" TEXT="convert">
 <node CREATED="1299142836337" ID="ID_1048184021" MODIFIED="1299142845367" TEXT="asting a variable to null will remove the variable and unset its value. "/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1299140325102" FOLDED="true" ID="ID_1442663573" MODIFIED="1299142895393" TEXT="resource">
+<node COLOR="#0033ff" CREATED="1299140325102" FOLDED="true" ID="ID_1442663573" MODIFIED="1423572458350" TEXT="resource">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1299142664341" FOLDED="true" ID="ID_977445021" MODIFIED="1299142697089" TEXT="inf">
 <node CREATED="1299142667809" ID="ID_970962374" MODIFIED="1299142668841" TEXT="A resource is a special variable, holding a reference to an external resource"/>
 <node CREATED="1299142692874" ID="ID_243531593" MODIFIED="1299142694395" TEXT="As resource variables hold special handlers to opened files, database connections, image canvas areas and the like, converting to a resource makes no sense. "/>
 </node>
 </node>
-</node>
-<node CREATED="1299140340084" FOLDED="true" ID="ID_883347509" MODIFIED="1355767333253" TEXT="pseudo">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1299140343293" FOLDED="true" ID="ID_1859986946" MODIFIED="1301995097566" TEXT="mixed">
-<node CREATED="1299142955535" FOLDED="true" ID="ID_264696439" MODIFIED="1301995097566" TEXT="inf">
+<node CREATED="1299140340084" FOLDED="true" ID="ID_883347509" MODIFIED="1423572529315" TEXT="pseudo">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1299140343293" FOLDED="true" ID="ID_1859986946" MODIFIED="1423572454397" TEXT="mixed">
 <node CREATED="1299142956727" ID="ID_99627363" MODIFIED="1299142957611" TEXT="mixed indicates that a parameter may accept multiple (but not necessarily all) types."/>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1299140352384" FOLDED="true" ID="ID_956476634" MODIFIED="1301995097566" TEXT="number">
-<node CREATED="1299142959449" FOLDED="true" ID="ID_947046211" MODIFIED="1301995097566" TEXT="inf">
+<node COLOR="#0033ff" CREATED="1299140352384" FOLDED="true" ID="ID_956476634" MODIFIED="1423572449155" TEXT="number">
 <node CREATED="1299142967582" ID="ID_1363033269" MODIFIED="1299142967582">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1034,15 +1021,10 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-</node>
-<node COLOR="#0033ff" CREATED="1299140358754" FOLDED="true" ID="ID_1805181890" MODIFIED="1301995097567" TEXT="callback">
-<node CREATED="1299142973528" FOLDED="true" ID="ID_1016612498" MODIFIED="1301995097567" TEXT="inf">
+<node COLOR="#0033ff" CREATED="1299140358754" FOLDED="true" ID="ID_1805181890" MODIFIED="1423572449900" TEXT="callback">
 <node CREATED="1299142974875" ID="ID_1676417321" MODIFIED="1299142995334" TEXT="Some functions like call_user_func() or usort() accept user-defined callback functions as a parameter. Callback functions can not only be simple functions, but also object methods, including static class methods. "/>
-</node>
-</node>
-<node CREATED="1299142929548" FOLDED="true" ID="ID_876288972" MODIFIED="1299143045767" TEXT="ex">
-<node CREATED="1299142931549" FOLDED="true" ID="ID_1837729089" MODIFIED="1299143044041" TEXT="callback">
-<node CREATED="1299142936810" ID="ID_1022431414" MODIFIED="1299142943225">
+<node CREATED="1423572420795" FOLDED="true" ID="ID_875109176" MODIFIED="1423572442973" TEXT="simple">
+<node CREATED="1299142936810" ID="ID_1022431414" MODIFIED="1423572401986">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1057,7 +1039,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299143032074" FOLDED="true" ID="ID_1925057986" MODIFIED="1299143042828" TEXT="callback with closure">
+<node CREATED="1299143032074" FOLDED="true" ID="ID_1925057986" MODIFIED="1423572441814" TEXT="callback with closure">
 <node CREATED="1299143037064" ID="ID_1305072588" MODIFIED="1299143041851">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1090,7 +1072,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299143713729" FOLDED="true" ID="ID_1949317324" MODIFIED="1299144454758" TEXT="var scope in included file">
+<node CREATED="1299143713729" FOLDED="true" ID="ID_1949317324" MODIFIED="1423572535370" TEXT="var scope in included file">
 <node CREATED="1299143745941" ID="ID_1499600094" MODIFIED="1299143750824">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1108,7 +1090,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299143780688" FOLDED="true" ID="ID_1690511397" MODIFIED="1299145771694">
+<node CREATED="1299143780688" FOLDED="true" ID="ID_1690511397" MODIFIED="1423572537032">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1134,7 +1116,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299143842462" FOLDED="true" ID="ID_1818836148" MODIFIED="1299145772892">
+<node CREATED="1299143842462" FOLDED="true" ID="ID_1818836148" MODIFIED="1423572538082">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1160,7 +1142,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299143379143" FOLDED="true" ID="ID_699253743" MODIFIED="1299145774689" TEXT="assign with refference">
+<node CREATED="1299143379143" FOLDED="true" ID="ID_699253743" MODIFIED="1423572539794" TEXT="assign with refference">
 <node CREATED="1299143386259" ID="ID_133946769" MODIFIED="1299143403309">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1178,7 +1160,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299143447234" FOLDED="true" ID="ID_1551774852" MODIFIED="1299145775425" TEXT="invalid reff assigment">
+<node CREATED="1299143447234" FOLDED="true" ID="ID_1551774852" MODIFIED="1423572541722" TEXT="invalid reff assigment">
 <node CREATED="1299143455405" ID="ID_1402951358" MODIFIED="1299143465173">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1196,7 +1178,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299144821130" FOLDED="true" ID="ID_266703157" MODIFIED="1299145776147" TEXT="global and static">
+<node CREATED="1299144821130" FOLDED="true" ID="ID_266703157" MODIFIED="1423572543152" TEXT="global and static">
 <node COLOR="#338800" CREATED="1299144828958" ID="ID_1139640136" MODIFIED="1299144901821">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1223,7 +1205,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299144754061" FOLDED="true" ID="ID_854966551" MODIFIED="1299145777015" TEXT="refferences are not static">
+<node CREATED="1299144754061" FOLDED="true" ID="ID_854966551" MODIFIED="1423572547690" TEXT="refferences are not static">
 <node CREATED="1299144767862" ID="ID_49772001" MODIFIED="1299144856693">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1254,18 +1236,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299144371111" FOLDED="true" ID="ID_332922137" MODIFIED="1301995097567" TEXT="static">
-<node CREATED="1299144380694" FOLDED="true" ID="ID_310126476" MODIFIED="1299145791451">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">static</font>&#xa0;examples
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1299144371111" FOLDED="true" ID="ID_332922137" MODIFIED="1423572575714" TEXT="static">
 <node CREATED="1299144393667" ID="ID_1778365051" MODIFIED="1299144403459">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1280,18 +1251,18 @@ integer     : [+-]?decimal
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1299144044807" FOLDED="true" ID="ID_646533480" MODIFIED="1299145795904">
+<node CREATED="1299144044807" FOLDED="true" ID="ID_646533480" MODIFIED="1423572566784">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0000ff">static</font>&#xa0;variables
+      variables
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1299144063762" ID="ID_1816109073" MODIFIED="1299144085036">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1307,17 +1278,18 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299144242530" FOLDED="true" ID="ID_1179866267" MODIFIED="1299145841114">
+<node CREATED="1299144242530" FOLDED="true" ID="ID_1179866267" MODIFIED="1423572575008">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0000ff">static</font>&#xa0;recursive function
+      recursive function
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1299144252088" ID="ID_1959378333" MODIFIED="1299144266708">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1334,7 +1306,7 @@ integer     : [+-]?decimal
 </node>
 </node>
 </node>
-<node CREATED="1299145059835" FOLDED="true" ID="ID_1554462969" MODIFIED="1362411730731" TEXT="var of var">
+<node CREATED="1299145059835" FOLDED="true" ID="ID_1554462969" MODIFIED="1423572578744" TEXT="var of var">
 <node CREATED="1299145159041" ID="ID_1497986653" MODIFIED="1299145217815">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1411,7 +1383,7 @@ integer     : [+-]?decimal
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1299146204036" FOLDED="true" ID="ID_1050736515" MODIFIED="1362411732243" TEXT="cookies">
+<node CREATED="1299146204036" FOLDED="true" ID="ID_1050736515" MODIFIED="1423572580248" TEXT="cookies">
 <node CREATED="1299146206609" ID="ID_378587683" MODIFIED="1299146222452">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3165,7 +3137,7 @@ bool(true)</pre>
 </node>
 </node>
 </node>
-<node CREATED="1381830952388" FOLDED="true" ID="ID_949250264" MODIFIED="1393417216330" POSITION="left" TEXT="config">
+<node CREATED="1381830952388" FOLDED="true" ID="ID_949250264" MODIFIED="1423572631252" POSITION="left" TEXT="config">
 <node CREATED="1358859283808" ID="ID_989941738" MODIFIED="1358859311290">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3182,12 +3154,12 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1381830960444" POSITION="left" STYLE="bubble" TEXT="tools">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#0033ff" CREATED="1299074223048" ID="ID_1928816110" LINK="PHP-tools.mm" MODIFIED="1423572044863" POSITION="left" STYLE="bubble" TEXT="tools">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1393417222990" POSITION="left" TEXT="TIPS &amp; Notes">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1299140152828" FOLDED="true" ID="ID_1927321205" MODIFIED="1381831218406" TEXT="last tag">
+<node COLOR="#cc3300" CREATED="1299140143728" FOLDED="true" ID="ID_1046039985" MODIFIED="1423572691054" POSITION="left" TEXT="TIPS &amp; Notes">
+<font NAME="SansSerif" SIZE="16"/>
+<node CREATED="1299140152828" FOLDED="true" ID="ID_1927321205" MODIFIED="1423572638148" TEXT="last tag">
 <node CREATED="1299140159252" ID="ID_487593545" MODIFIED="1354283499246" TEXT="it&apos;s preffered to not close the last tag (it&apos;s usefull when hidden rows at the end of file)"/>
 </node>
 <node CREATED="1312288560930" ID="ID_1882146353" MODIFIED="1381831220155">
@@ -3202,11 +3174,11 @@ bool(true)</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1299145729848" FOLDED="true" ID="ID_403227810" MODIFIED="1381831224719" TEXT="Varibles in superglobal">
+<node CREATED="1299145729848" FOLDED="true" ID="ID_403227810" MODIFIED="1423572635494" TEXT="Varibles in superglobal">
 <node CREATED="1299145749257" ID="ID_531508553" MODIFIED="1299145761755" TEXT="Dots and spaces in variable names are converted to underscores"/>
 </node>
-<node COLOR="#0033ff" CREATED="1368634185008" FOLDED="true" ID="ID_1880580369" MODIFIED="1393417222246" TEXT="sting">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1368634185008" FOLDED="true" ID="ID_1880580369" MODIFIED="1423572640604" TEXT="sting">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1368634198351" ID="ID_1202946887" LINK="http://stackoverflow.com/questions/4356289/php-random-string-generator" MODIFIED="1368634235190">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3220,8 +3192,8 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1369139458322" FOLDED="true" ID="ID_733960258" MODIFIED="1381831119924" TEXT="fs">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1369139458322" FOLDED="true" ID="ID_733960258" MODIFIED="1423572641659" TEXT="fs">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369139464269" ID="ID_452073364" LINK="http://stackoverflow.com/questions/1707801/making-a-temporary-dir-for-unpacking-a-zipfile-into" MODIFIED="1369139480450">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3235,8 +3207,8 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1369139503651" FOLDED="true" ID="ID_1938299763" MODIFIED="1381831121723" TEXT="csv">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1369139503651" FOLDED="true" ID="ID_1938299763" MODIFIED="1423572642941" TEXT="csv">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369139507859" ID="ID_1097500418" LINK="http://stackoverflow.com/questions/5133162/php-how-can-i-get-the-contents-of-a-csv-file-into-a-mysql-database-row-by-row" MODIFIED="1369139527819">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3250,8 +3222,8 @@ bool(true)</pre>
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1381830976620" FOLDED="true" ID="ID_1793755710" MODIFIED="1381836207094" TEXT="error-handling">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#cc3300" CREATED="1381830976620" FOLDED="true" ID="ID_1793755710" MODIFIED="1423572690630" TEXT="error-handling">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1381830998325" ID="ID_80004262" LINK="http://nukium.com/developpement/erreur-php-cannot-create-references-to-elements-of-a-temporary-array-expression/" MODIFIED="1381831014718">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3264,18 +3236,7 @@ bool(true)</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1364287104076" FOLDED="true" ID="ID_1130690758" MODIFIED="1381831162922">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      // missing function
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1381831158646" ID="ID_599687363" MODIFIED="1381831161740">
+<node COLOR="#0033ff" CREATED="1381831158646" ID="ID_599687363" MODIFIED="1423572322014">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3285,23 +3246,26 @@ bool(true)</pre>
       &lt;?
     </p>
     <p>
-      &#xa0; <font color="#0033ff">if(! <b>function_exists</b>('ctype_alpha')) { </font>
+      &#160;&#160;// missing function
     </p>
     <p>
-      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;function ctype_alpha($text)&#xa0;&#xa0;{ </font>
+      &#160; if(! function_exists('ctype_alpha')) {
     </p>
     <p>
-      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return preg_match("/[A-Za-z]/",$text);&#xa0;&#xa0; </font>
+      &#160;&#160;&#160;&#160;function ctype_alpha($text)&#160;&#160;{
     </p>
     <p>
-      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;} </font>
+      &#160;&#160;&#160;&#160;&#160;&#160;return preg_match(&quot;/[A-Za-z]/&quot;,$text);&#160;&#160;
     </p>
     <p>
-      <font color="#0033ff">&#xa0;&#xa0;}</font>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;}
     </p>
   </body>
-</html></richcontent>
-</node>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
