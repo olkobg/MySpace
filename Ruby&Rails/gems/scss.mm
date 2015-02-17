@@ -530,7 +530,24 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1423430361465" FOLDED="true" ID="ID_330558005" MODIFIED="1423470276177" POSITION="left" TEXT="mixins">
+<node CREATED="1423468981199" FOLDED="true" ID="ID_1975516095" MODIFIED="1424182365253" POSITION="left" TEXT="lists">
+<node CREATED="1423468985127" ID="ID_320797106" MODIFIED="1423470054961">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // creating a list
+    </p>
+    <p>
+      <font color="#006600">$icons:(twitter, facebook, youtube, rss);</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1423430361465" FOLDED="true" ID="ID_330558005" MODIFIED="1424182366715" POSITION="left" TEXT="mixins">
 <node CREATED="1423431639814" FOLDED="true" ID="ID_204731573" MODIFIED="1423470275471" TEXT="args">
 <node CREATED="1423431573448" ID="ID_1226128893" MODIFIED="1423431777769">
 <richcontent TYPE="NODE"><html>
@@ -613,7 +630,7 @@
 </node>
 <node COLOR="#006633" CREATED="1423432455254" ID="ID_1507345958" MODIFIED="1423432471516" TEXT="@include border-radius;"/>
 </node>
-<node COLOR="#006633" CREATED="1423467938394" FOLDED="true" ID="ID_1702522710" MODIFIED="1423468219606" TEXT="@if / @else">
+<node COLOR="#006633" CREATED="1423467938394" FOLDED="true" ID="ID_1702522710" MODIFIED="1424182360515" TEXT="@if / @else">
 <node COLOR="#006633" CREATED="1423467952825" FOLDED="true" ID="ID_728497406" MODIFIED="1423468219256">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -699,7 +716,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#006633" CREATED="1423469311462" FOLDED="true" ID="ID_542983963" MODIFIED="1423470244293" TEXT="@each">
+<node COLOR="#006633" CREATED="1423469311462" FOLDED="true" ID="ID_542983963" MODIFIED="1424182362350" TEXT="@each">
 <node CREATED="1423470061571" FOLDED="true" ID="ID_1608223878" LINK="#ID_1975516095" MODIFIED="1423470243951">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -765,8 +782,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1423432912130" FOLDED="true" ID="ID_322717866" MODIFIED="1423470263736" POSITION="left" TEXT="selector inheritance">
-<node CREATED="1423433210508" FOLDED="true" ID="ID_152513284" MODIFIED="1423470263170">
+<node CREATED="1423432912130" FOLDED="true" ID="ID_322717866" MODIFIED="1424182368317" POSITION="left" TEXT="selector inheritance">
+<node CREATED="1423433210508" FOLDED="true" ID="ID_152513284" MODIFIED="1424182346259">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -821,25 +838,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1423468981199" FOLDED="true" ID="ID_1975516095" MODIFIED="1423659657308" POSITION="left" TEXT="lists">
-<node CREATED="1423468985127" ID="ID_320797106" MODIFIED="1423470054961">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      // creating a list
-    </p>
-    <p>
-      <font color="#006600">$icons:(twitter, facebook, youtube, rss);</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#006633" CREATED="1423562986809" FOLDED="true" ID="ID_529906626" MODIFIED="1423667079170" POSITION="left" TEXT="nth">
-<node CREATED="1423562991971" FOLDED="true" ID="ID_937195783" MODIFIED="1423667078421" TEXT="simple">
+<node CREATED="1424182122027" FOLDED="true" ID="ID_593140659" LINK="http://sass-lang.com/documentation/Sass/Script/Functions.html" MODIFIED="1424200028430" POSITION="left" TEXT="Functions">
+<node COLOR="#006633" CREATED="1423562986809" FOLDED="true" ID="ID_529906626" MODIFIED="1424198303666" TEXT="nth">
+<node CREATED="1424182295641" FOLDED="true" ID="ID_50716758" MODIFIED="1424198303099" TEXT="">
+<icon BUILTIN="folder"/>
 <node COLOR="#0033ff" CREATED="1423666994691" ID="ID_584576955" MODIFIED="1423667002275">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -861,7 +863,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#006633" CREATED="1423667003131" ID="ID_386900188" MODIFIED="1423667070529">
+<node COLOR="#006633" CREATED="1423667003131" FOLDED="true" ID="ID_386900188" MODIFIED="1424198302718">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -943,6 +945,307 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#006633" CREATED="1424182132012" FOLDED="true" ID="ID_1407321466" MODIFIED="1424198295166" TEXT="rgba">
+<node COLOR="#006633" CREATED="1424182227089" FOLDED="true" ID="ID_745875588" MODIFIED="1424198294580" TEXT="rgba(#333, 0.5);">
+<node COLOR="#0033ff" CREATED="1424182268558" ID="ID_1561468261" MODIFIED="1424198284213">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">.grad .intro, .grad .feature {&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      &#160;&#160;background: rgba(51, 51, 51, 0.5);
+    </p>
+    <p>
+      &#160;&#160;...
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#006633" CREATED="1424198031475" FOLDED="true" ID="ID_1467744060" MODIFIED="1424198293096" TEXT="fade-out">
+<node CREATED="1424198037549" FOLDED="true" ID="ID_1555582595" MODIFIED="1424198292785">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#006600">intro { </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;background: fade-out(#333, 0.7); </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;@include&#160;&#160;&#160;border-radius(10px); </font>
+    </p>
+    <p>
+      <font color="#006600">... </font>
+    </p>
+    <p>
+      <font color="#006600">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1424198171704" ID="ID_29571997" MODIFIED="1424198198018">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">.grad .intro, .grad .feature {&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;background: rgba(51, 51, 51, 0.3); </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;... </font>
+    </p>
+    <p>
+      <font color="#0000ff">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#006633" CREATED="1424198638166" FOLDED="true" ID="ID_330396032" MODIFIED="1424199746173" TEXT="percentage">
+<node CREATED="1424198640769" FOLDED="true" ID="ID_179674367" MODIFIED="1424199539353">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#006600">.intro { </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;width: percentage(550px / 1440px); </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;... </font>
+    </p>
+    <p>
+      <font color="#006600">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1424198642585" ID="ID_1304048515" MODIFIED="1424199505443">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">.intro { </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;width: 38.19444%; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;... </font>
+    </p>
+    <p>
+      <font color="#0000ff">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1424199437172" FOLDED="true" ID="ID_232422613" MODIFIED="1424199539056">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#006600">.feature { </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;width:percentage(890px / 1440px); </font>
+    </p>
+    <p>
+      <font color="#006600">&#160;&#160;... </font>
+    </p>
+    <p>
+      <font color="#006600">}</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1424199433252" ID="ID_1322577533" MODIFIED="1424199537720">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">.feature { </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;width: 61.80556%; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;... </font>
+    </p>
+    <p>
+      <font color="#0000ff">} </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#006633" CREATED="1424199591442" FOLDED="true" ID="ID_598972714" MODIFIED="1424199744072" TEXT="round">
+<node COLOR="#006633" CREATED="1424199620425" ID="ID_771157363" MODIFIED="1424199724028">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      width: round(percentage(890px / 1440px));
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#0033ff" CREATED="1424199667663" ID="ID_770512043" MODIFIED="1424199716413">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      width: 62%;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#006633" CREATED="1424199668981" ID="ID_767286063" MODIFIED="1424199739787">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      width: round(percentage(550px / 1440px));
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#0033ff" CREATED="1424199670322" ID="ID_698300089" MODIFIED="1424199705145">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      width: 38%
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1423260463351" FOLDED="true" ID="ID_1476092525" MODIFIED="1424198363691" POSITION="right" TEXT="pitfalls">
+<icon BUILTIN="clanbomber"/>
+<node CREATED="1423260691567" FOLDED="true" ID="ID_437121376" MODIFIED="1424198363435" TEXT="nesting">
+<node CREATED="1423260601490" FOLDED="true" ID="ID_763517761" MODIFIED="1424198363215" TEXT="Nesting to much">
+<node COLOR="#006633" CREATED="1423260472516" ID="ID_1487895245" MODIFIED="1424198348680">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      .content {
+    </p>
+    <p>
+      &#160;&#160;background: #ccc;
+    </p>
+    <p>
+      &#160;&#160;.cell {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;h2 {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;a {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;:hover {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;color: red;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<node COLOR="#0033ff" CREATED="1423260574019" ID="ID_1789215603" MODIFIED="1423260589132">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      .content {
+    </p>
+    <p>
+      &#160;&#160;background: #ccc;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      .content .cell h2 a:hover {
+    </p>
+    <p>
+      &#160;&#160;color: red;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
