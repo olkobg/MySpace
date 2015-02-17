@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#338800" CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1422176658816" TEXT="MacOS">
-<font NAME="SansSerif" SIZE="22"/>
+<node COLOR="#338800" CREATED="1316179329941" ID="ID_409853195" LINK="../../Index.mm" MODIFIED="1423659622575" TEXT="MacOS">
+<font NAME="SansSerif" SIZE="28"/>
 <node CREATED="1365585009526" FOLDED="true" ID="ID_1508479409" MODIFIED="1422176642119" POSITION="right" TEXT="hackintosh">
 <node COLOR="#009999" CREATED="1365585019963" ID="ID_377081837" LINK="http://www.souldevteam.net/" MODIFIED="1365585031365" TEXT="souldev team">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -80,9 +80,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1422176643369" POSITION="left" TEXT="$">
+<node COLOR="#0033ff" CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1423577803860" POSITION="left" TEXT="$">
 <font NAME="SansSerif" SIZE="20"/>
-<node COLOR="#0033ff" CREATED="1383382735381" FOLDED="true" ID="ID_320566450" MODIFIED="1422176590883" TEXT="sshfs">
+<node COLOR="#0033ff" CREATED="1383382735381" FOLDED="true" ID="ID_320566450" MODIFIED="1423577802313" TEXT="sshfs">
 <node CREATED="1383382738892" ID="ID_828449256" LINK="http://www.read-write.fr/blog/blog/2012/02/26/my-guide-for-sshfs/" MODIFIED="1383382750058" TEXT="read-write"/>
 <node CREATED="1420798147975" ID="ID_764085653" MODIFIED="1420798185903">
 <richcontent TYPE="NODE"><html>
@@ -96,7 +96,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1420798296980" FOLDED="true" ID="ID_729828786" MODIFIED="1422176587672" TEXT="my">
+<node CREATED="1420798296980" FOLDED="true" ID="ID_729828786" MODIFIED="1423577801807" TEXT="my">
 <node COLOR="#0033ff" CREATED="1420798290049" ID="ID_1249685444" MODIFIED="1422176584361" TEXT="sshfs olko@serafim.mine.nu:/home/olko ~/serafim -oauto_cache,reconnect,defer_permissions,noappledouble,negative_vncache,volname=serafim"/>
 </node>
 </node>
