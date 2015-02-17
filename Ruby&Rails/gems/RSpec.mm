@@ -1451,7 +1451,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422539111657" FOLDED="true" ID="ID_957394245" MODIFIED="1422544113640" POSITION="left" TEXT="subject">
+<node COLOR="#0033ff" CREATED="1422539111657" FOLDED="true" ID="ID_957394245" MODIFIED="1423783313281" POSITION="left" TEXT="subject">
 <node CREATED="1422543804030" ID="ID_1066748934" MODIFIED="1422543827574">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1665,7 +1665,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422539156959" FOLDED="true" ID="ID_1884403883" MODIFIED="1422731570644" POSITION="left" TEXT="filters">
+<node CREATED="1422539156959" FOLDED="true" ID="ID_1884403883" MODIFIED="1424200930588" POSITION="left" TEXT="filters">
 <node CREATED="1422730206907" ID="ID_1764160121" MODIFIED="1422730223354">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1808,8 +1808,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422539181644" FOLDED="true" ID="ID_69296884" MODIFIED="1423224368780" POSITION="left" TEXT="shared">
-<node CREATED="1422539168771" FOLDED="true" ID="ID_40621022" MODIFIED="1423224368503" TEXT="examples">
+<node CREATED="1422539181644" FOLDED="true" ID="ID_69296884" MODIFIED="1424200979263" POSITION="left" TEXT="shared">
+<node CREATED="1422539168771" FOLDED="true" ID="ID_40621022" MODIFIED="1424200932900" TEXT="examples">
 <node CREATED="1422730344373" ID="ID_879928817" MODIFIED="1422730354574" TEXT="Shared examples let you describe behaviour of types or modules. When declared, a shared group&apos;s content is stored. It is only realized in the context of another example group, which provides any context the shared group needs to run."/>
 <node CREATED="1422730349509" ID="ID_1984106183" MODIFIED="1422730370971">
 <richcontent TYPE="NODE"><html>
@@ -1941,7 +1941,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422539187993" FOLDED="true" ID="ID_1460601533" MODIFIED="1422730749452" TEXT="context">
+<node CREATED="1422539187993" FOLDED="true" ID="ID_1460601533" MODIFIED="1424200978242" TEXT="context">
 <node CREATED="1422730482782" ID="ID_1676137636" MODIFIED="1422730488935" TEXT="Use shared_context to define a block that will be evaluated in the context of example groups either explicitly, using include_context, or implicitly by matching metadata"/>
 <node CREATED="1422730490123" ID="ID_53128005" MODIFIED="1422730552402">
 <richcontent TYPE="NODE"><html>
@@ -2131,7 +2131,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422539194202" FOLDED="true" ID="ID_576118980" MODIFIED="1423224366206" POSITION="left" TEXT="expectations">
+<node CREATED="1422539194202" FOLDED="true" ID="ID_576118980" MODIFIED="1424203093067" POSITION="left" TEXT="expectations">
 <node CREATED="1422730771524" ID="ID_282387999" MODIFIED="1422730802524">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2214,7 +2214,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1422539255863" FOLDED="true" ID="ID_974092181" MODIFIED="1423224356818" TEXT="Spec::Matchers">
+<node COLOR="#0033ff" CREATED="1422539255863" FOLDED="true" ID="ID_974092181" MODIFIED="1424202365415" TEXT="Spec::Matchers">
 <node COLOR="#0033ff" CREATED="1422539981265" FOLDED="true" ID="ID_1832663737" MODIFIED="1422731650165" TEXT="eql">
 <node CREATED="1422731578744" ID="ID_1269535289" MODIFIED="1422731597542">
 <richcontent TYPE="NODE"><html>
@@ -2384,7 +2384,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422540082559" FOLDED="true" ID="ID_154868494" MODIFIED="1423218822013" TEXT="Predicate macthers">
+<node CREATED="1422540082559" FOLDED="true" ID="ID_154868494" MODIFIED="1424201015118" TEXT="Predicate macthers">
 <node CREATED="1422732413208" ID="ID_850459692" MODIFIED="1422732491185">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2473,14 +2473,484 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422540110443" ID="ID_458006249" MODIFIED="1422540114887" TEXT="Include"/>
-<node CREATED="1422540118519" ID="ID_1713103454" MODIFIED="1422540120126" TEXT="Exists"/>
-<node CREATED="1422540120589" ID="ID_1787463052" MODIFIED="1422540125982" TEXT="Changes"/>
-<node COLOR="#0033ff" CREATED="1422540133943" ID="ID_849977803" MODIFIED="1422540140205" TEXT="by, to, from"/>
-<node CREATED="1422540154226" ID="ID_1153656298" MODIFIED="1422540155213" TEXT="Have"/>
-<node CREATED="1422540163692" ID="ID_1261722581" MODIFIED="1422540170837" TEXT="Custom matchers">
-<node CREATED="1422540178436" ID="ID_1152635583" MODIFIED="1422540183749" TEXT="Chaining"/>
+<node CREATED="1422540110443" FOLDED="true" ID="ID_458006249" MODIFIED="1424201154778" TEXT="Include">
+<node CREATED="1424201054917" ID="ID_1696578288" MODIFIED="1424201062964" TEXT="Passes if given includes expected. This works for collections and Strings. You can also pass in multiple args and it will only pass if all args are found in collection."/>
+<node CREATED="1424201056659" ID="ID_591300316" MODIFIED="1424201151956">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">expect([1,2,3]).to include(3) </font>
+    </p>
+    <p>
+      <font color="#0000ff">expect([1,2,3]).to include(2,3) </font>
+    </p>
+    <p>
+      <font color="#0000ff">expect(&quot;spread&quot;).to include(&quot;read&quot;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">expect(&quot;spread&quot;).to_not include(&quot;red&quot;)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
+</node>
+<node CREATED="1422540118519" FOLDED="true" ID="ID_1713103454" MODIFIED="1424201156558" TEXT="Exists">
+<node CREATED="1424201102279" ID="ID_1099001646" MODIFIED="1424201114556">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Passes if <font color="#0000ff">given.exist?</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1424201115903" ID="ID_1308375760" MODIFIED="1424201129738">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">expect(obj).to exist </font>
+    </p>
+    <p>
+      <font color="#0000ff">expect(obj).not_to exist</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1422540120589" FOLDED="true" ID="ID_1787463052" MODIFIED="1424201417644" TEXT="Changes">
+<node CREATED="1424201331703" ID="ID_603777009" MODIFIED="1424201334720" TEXT="Sometimens you expect some code (wrapped in a proc) to change the state of some object."/>
+<node CREATED="1424201335506" ID="ID_1750388334" MODIFIED="1424201363522">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">it &quot;should remove the last element&quot; do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;expect { @array.pop }.to change{ @array.size } </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1422540133943" FOLDED="true" ID="ID_849977803" MODIFIED="1424201417186" TEXT="by, to, from">
+<node CREATED="1424201378608" ID="ID_1435054040" MODIFIED="1424201398963">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">it &quot;should remove the last element&quot; do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;expect { @array.pop }.to change{ @array.size }.by(1) </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">it &quot;should remove the last element&quot; do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;expect { @array.pop }.to change{ @array.size }.to(2) </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">it &quot;should remove the last element&quot; do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;expect { @array.pop }.to change{ @array.size }.from(3).to(2) </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1422540154226" FOLDED="true" ID="ID_1153656298" MODIFIED="1424201910538" TEXT="Have">
+<node CREATED="1424201464659" ID="ID_1892018776" MODIFIED="1424201574424">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # matchers that make it easy to set expectations about the size of a collection.
+    </p>
+    <p>
+      <font color="#0000ff">expect(collection).to have(x).items </font>
+    </p>
+    <p>
+      <font color="#0000ff">expect(collection).to have_at_least(x).items </font>
+    </p>
+    <p>
+      <font color="#0000ff">expect(collection).to have_at_most(x).items</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1424201461037" ID="ID_1893315419" MODIFIED="1424201620087">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # These work on any collection-like object-the object just needs to respond to #size or #length (or both). When the matcher is called directly on a collection object, the #items call is pure syntactic sugar. You can use anything you want here. These are equivalent:
+    </p>
+    <p>
+      <font color="#0000ff">expect(collection).to have(x).items </font>
+    </p>
+    <p>
+      <font color="#0000ff">expect(collection).to have(x).things</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1424201511541" ID="ID_142959829" MODIFIED="1424201666869">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # You can also use this matcher on a non-collection object that returns a collection from one of its methods. For example, Dir#entries returns an array, so you could set an expectation using the following:
+    </p>
+    <p>
+      <font color="#0000ff">expect(Dir.new(&quot;my/directory&quot;)).to have(7).entries</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1424201668759" FOLDED="true" ID="ID_1973462530" MODIFIED="1424201906514" TEXT="receiver is a collection">
+<node CREATED="1424201743520" ID="ID_315297351" MODIFIED="1424201762139">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">describe [1, 2, 3, 4, 5, 6, 7, 8, 9, 0] do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).to have(10).items } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).not_to have(2).items } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).to have_exactly(10).items } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).to have_at_least(5).items } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).to have_at_most(15).items } </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1424201684254" FOLDED="true" ID="ID_1693497550" MODIFIED="1424201907656" TEXT="receiver owns a collection">
+<node CREATED="1424201833241" ID="ID_1123616035" MODIFIED="1424201849113">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">class String </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def words </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;self.split(' ') </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">describe &quot;a sentence with some words&quot; do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).to have(5).words } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).not_to have(4).words } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).to have_exactly(5).words } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).not_to have_exactly(10).words } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).to have_at_least(4).words } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).to have_at_most(6).words } </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1422540163692" FOLDED="true" ID="ID_1261722581" MODIFIED="1424202284845" TEXT="Custom matchers">
+<node CREATED="1424201990638" ID="ID_686136125" MODIFIED="1424201993503" TEXT="magine that you are writing a game in which players can be in various zones on a virtual board. To specify that bob should be in zone 4, you could say:"/>
+<node CREATED="1424201967594" ID="ID_461644005" MODIFIED="1424202013950">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">expect(bob.current_zone).to eq(Zone.new(&quot;4&quot;))</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1424202015123" ID="ID_1612667991" MODIFIED="1424202139138">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #But you might find it more expressive to say:
+    </p>
+    <p>
+      <font color="#0000ff">expect(bob).to be_in_zone(&quot;4&quot;)</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # You can create such a matcher like so:
+    </p>
+    <p>
+      <font color="#0000ff">RSpec::Matchers.define :be_in_zone do |zone| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;match do |player| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;player.in_zone?(zone) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1424202141550" ID="ID_1039481293" MODIFIED="1424202173347">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Also you can override the failure messages and the generated description:
+    </p>
+    <p>
+      <font color="#0000ff">RSpec::Matchers.define :be_in_zone do |zone| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;match do |player| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;player.in_zone?(zone) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;failure_message_for_should do |player| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;# generate and return the appropriate string. </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;failure_message_for_should_not do |player| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;# generate and return the appropriate string. </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;description do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;# generate and return the appropriate string. </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1422540178436" FOLDED="true" ID="ID_1152635583" MODIFIED="1424202283345" TEXT="Chaining">
+<node CREATED="1424202247696" ID="ID_1507878676" MODIFIED="1424202278033">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # You can also create matchers that obey a fluent interface using the chain method
+    </p>
+    <p>
+      <font color="#0000ff">RSpec::Matchers.define :have_errors_on do |attribute| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;chain :with_message do |message| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@message = message </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;match do |model| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;model.valid? </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@has_errors = model.errors.key?(attribute) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;if @message </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;@has_errors &amp;&amp; model.errors[attribute].include?(@message) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;else </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;@has_errors </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # And now it can be used as follows:
+    </p>
+    <p>
+      <font color="#0000ff">describe User do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;before { subject.email = &quot;foobar&quot; } </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it { expect(subject).to have_errors_on(:email).with_message(&quot;Email has an invalid format&quot;) } </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1424202303934" FOLDED="true" ID="ID_1683400231" MODIFIED="1424202364795" TEXT="Expresison Matcher">
 <node CREATED="1422731084754" ID="ID_760753935" MODIFIED="1423218776868">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2509,7 +2979,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422539217104" FOLDED="true" ID="ID_1242830756" MODIFIED="1423218824613" TEXT="old">
+<node CREATED="1422539217104" FOLDED="true" ID="ID_1242830756" MODIFIED="1424202361627" TEXT="old">
 <node CREATED="1420463650385" ID="ID_1532646771" MODIFIED="1422539215454">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2542,17 +3012,222 @@
 </node>
 </node>
 </node>
-<node CREATED="1422540190050" FOLDED="true" ID="ID_1445294552" MODIFIED="1422731267055" POSITION="left" TEXT="Doubles">
-<node COLOR="#0033ff" CREATED="1422540197505" ID="ID_1941423365" MODIFIED="1422540205733" TEXT="as_null_object"/>
-<node CREATED="1422540333577" FOLDED="true" ID="ID_345247255" MODIFIED="1422731262668" TEXT="message expectations">
-<node CREATED="1422540368617" ID="ID_430323864" MODIFIED="1422540390695" TEXT="negative"/>
-<node CREATED="1422540374087" ID="ID_531471080" MODIFIED="1422540385134" TEXT="arguments"/>
-<node CREATED="1422540398968" ID="ID_367730130" MODIFIED="1422540401062" TEXT="counts"/>
-<node CREATED="1422540404871" ID="ID_805636267" MODIFIED="1422540407054" TEXT="ordering"/>
-<node CREATED="1422540412263" ID="ID_671978741" MODIFIED="1422540415574" TEXT="responses"/>
+<node CREATED="1422540190050" FOLDED="true" ID="ID_1445294552" MODIFIED="1424203098853" POSITION="left" TEXT="Doubles">
+<node CREATED="1424202420876" ID="ID_812198905" MODIFIED="1424202432623">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A <b>test double</b>&#160;is an object that stands in for another object in an example.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1424202462133" ID="ID_1509166593" MODIFIED="1424202472939">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # The argument is a name, used for failure reporting, so you should use the role that the double is playing in the example.
+    </p>
+    <p>
+      <font color="#0000ff">thingamajig_double = double('thing-a-ma-jig')</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#0033ff" CREATED="1422540197505" FOLDED="true" ID="ID_1941423365" MODIFIED="1424202550403" TEXT="as_null_object">
+<node CREATED="1424202514649" ID="ID_1754388935" MODIFIED="1424202516581" TEXT="Use the as_null_object method to ignore any messages that aren&apos;t explicitly set as stubs or message expectations."/>
+<node CREATED="1424202505306" ID="ID_1267335940" MODIFIED="1424202538431">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">describe 'null object' do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;specify { </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;null_object = double('null object').as_null_object </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;expect(null_object).to respond_to(:any_undefined_method) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1422540218941" FOLDED="true" ID="ID_111894078" MODIFIED="1422731266289" POSITION="left" TEXT="Stubs">
+<node CREATED="1422540218941" FOLDED="true" ID="ID_111894078" MODIFIED="1424203097654" TEXT="Stubs">
+<node CREATED="1424202631289" ID="ID_1525835053" MODIFIED="1424202635578" TEXT="A method stub is a method that we can program to return predefined responses during the execution of a code example."/>
+<node CREATED="1424202637013" ID="ID_1036940395" MODIFIED="1424202697930">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">describe Statement do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;it &quot;uses the customer's name in the header&quot; do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;customer = double('customer') </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;customer.stub(:name).and_return('Aslak') </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;statement = Statement.new(customer) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;expect(statement.generate).to match(/^Statement for Aslak/) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1424202800378" ID="ID_1810111941" MODIFIED="1424202971068">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Method stubs can return different values on different calls: this will return 5.5% when a message for <font color="#0000ff">interest_rate</font>&#160;is received <b>for the first time</b>, but will return 3% for subsequent calls/messages.
+    </p>
+    <p>
+      <font color="#0000ff">HomeLoan.stub(interest_rate).and_return('5.5%', '3%') </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1424202973297" ID="ID_1778883136" MODIFIED="1424202978101">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Stub methods can return values depending on the arguments.
+    </p>
+    <p>
+      <font color="#0000ff">ages = double('ages') </font>
+    </p>
+    <p>
+      <font color="#0000ff">ages.stub(:age_for) do |what| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;if what == 'drinking' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;21 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;elsif what == 'voting' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;18 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1424202950449" ID="ID_453781086" MODIFIED="1424202959573">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # The mock object can be created with stubbed methods at once.
+    </p>
+    <p>
+      <font color="#0000ff">customer = double('customer', name: 'Aslak') </font>
+    </p>
+    <p>
+      <font color="#0000ff">obj = double('object', created_at: -&gt; { Time.now }) </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1424203007063" FOLDED="true" ID="ID_881611192" MODIFIED="1424203065192" TEXT="yield a block">
+<node CREATED="1424203014182" ID="ID_1620150605" MODIFIED="1424203063209">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # method stub can yield a block, raise an exception, or throw the message.
+    </p>
+    <p>
+      <font color="#0000ff">class Triviality </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def one_two_three </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;yield self </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">triviality.stub(:one_two_three).and_yield(triviality) </font>
+    </p>
+    <p>
+      <font color="#0000ff">triviality.one_two_three { } </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">double.stub(:msg).and_raise(NoMethodError) </font>
+    </p>
+    <p>
+      <font color="#0000ff">double.stub(:msg).and_throw(:msg)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1422540236249" ID="ID_1115642780" MODIFIED="1422540243378" TEXT="stub"/>
 <node COLOR="#0033ff" CREATED="1422540239999" ID="ID_773456869" MODIFIED="1422540243379" TEXT="unstub"/>
 <node COLOR="#0033ff" CREATED="1422540254668" ID="ID_273545123" MODIFIED="1422540261658" TEXT="unstub!">
@@ -2563,7 +3238,15 @@
 <node CREATED="1422540285754" ID="ID_82940723" MODIFIED="1422540289626" TEXT="chain of methods"/>
 <node COLOR="#0033ff" CREATED="1422540290369" ID="ID_1867096349" MODIFIED="1422540319418" TEXT="before(:each)"/>
 </node>
-<node CREATED="1420548796443" FOLDED="true" ID="ID_355344331" MODIFIED="1422731265392" POSITION="left" TEXT="debug">
+<node CREATED="1422540333577" FOLDED="true" ID="ID_345247255" MODIFIED="1424203088548" TEXT="message expectations">
+<node CREATED="1422540368617" ID="ID_430323864" MODIFIED="1422540390695" TEXT="negative"/>
+<node CREATED="1422540374087" ID="ID_531471080" MODIFIED="1422540385134" TEXT="arguments"/>
+<node CREATED="1422540398968" ID="ID_367730130" MODIFIED="1422540401062" TEXT="counts"/>
+<node CREATED="1422540404871" ID="ID_805636267" MODIFIED="1422540407054" TEXT="ordering"/>
+<node CREATED="1422540412263" ID="ID_671978741" MODIFIED="1422540415574" TEXT="responses"/>
+</node>
+</node>
+<node CREATED="1420548796443" FOLDED="true" ID="ID_355344331" MODIFIED="1424203091870" POSITION="left" TEXT="debug">
 <node CREATED="1420548799088" ID="ID_1737623315" MODIFIED="1420548834008">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2779,7 +3462,7 @@
 <node COLOR="#0033ff" CREATED="1420816056860" FOLDED="true" ID="ID_950654867" MODIFIED="1422541890966" TEXT=".rspec">
 <node COLOR="#0033ff" CREATED="1420816058728" ID="ID_1496048917" MODIFIED="1420816704661" TEXT="--format documentation"/>
 </node>
-<node COLOR="#0033ff" CREATED="1420817596366" FOLDED="true" ID="ID_605429301" MODIFIED="1422541883283" TEXT="config/application.rb">
+<node COLOR="#0033ff" CREATED="1420817596366" FOLDED="true" ID="ID_605429301" MODIFIED="1424202762881" TEXT="config/application.rb">
 <node COLOR="#0033ff" CREATED="1420817602583" ID="ID_223185607" MODIFIED="1420817610734">
 <richcontent TYPE="NODE"><html>
   <head>
