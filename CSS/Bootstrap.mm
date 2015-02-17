@@ -29,8 +29,7 @@
       &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;&gt;&lt;/script&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1423298875070" ID="ID_579051649" MODIFIED="1423298992376">
 <richcontent TYPE="NODE"><html>
@@ -338,7 +337,7 @@
 <node COLOR="#0033ff" CREATED="1423050861638" ID="ID_1339890967" MODIFIED="1423050867264" TEXT=".pull-left"/>
 </node>
 </node>
-<node CREATED="1422535487161" FOLDED="true" ID="ID_1520260928" MODIFIED="1423299008289" POSITION="right" TEXT="info">
+<node CREATED="1422535487161" FOLDED="true" ID="ID_1520260928" MODIFIED="1423656239768" POSITION="right" TEXT="info">
 <node CREATED="1422535501632" FOLDED="true" ID="ID_1409001872" MODIFIED="1423298692136" TEXT="cheat sheats">
 <node COLOR="#0033ff" CREATED="1422535575190" ID="ID_506920421" LINK="http://www.cheatography.com/masonjo/cheat-sheets/bootstrap/" MODIFIED="1422535620014" TEXT="cheatography.com &gt; Masonjo &gt;Bootstrap"/>
 <node COLOR="#0033ff" CREATED="1422536120205" ID="ID_1385688599" LINK="http://creativealive.com/master-cheat-sheet-twitter-bootstrap-3-pdf-download/" MODIFIED="1422536138482" TEXT="creativealive.com &gt; Master-twitter-bootstrap-3"/>
@@ -350,20 +349,21 @@
 <node CREATED="1422535744000" FOLDED="true" ID="ID_289813187" MODIFIED="1423263434646" TEXT="foundation compare">
 <node COLOR="#0033ff" CREATED="1422535754889" ID="ID_1778983342" LINK="https://scotch.io/tutorials/cheat-sheet-for-comparing-bootstrap-and-foundation-css-classes" MODIFIED="1422535776830" TEXT="scotch.io"/>
 </node>
-<node CREATED="1423052950587" FOLDED="true" ID="ID_149780653" MODIFIED="1423182659919" TEXT="docs">
+<node CREATED="1423052950587" FOLDED="true" ID="ID_149780653" MODIFIED="1423656221113" TEXT="docs">
 <node CREATED="1423053833633" ID="ID_318626297" MODIFIED="1423053839307" TEXT="css"/>
 <node COLOR="#0033ff" CREATED="1423052942939" ID="ID_336475542" LINK="http://getbootstrap.com/javascript" MODIFIED="1423052974918" TEXT="js"/>
 <node COLOR="#0033ff" CREATED="1423052954688" ID="ID_987259135" LINK="http://getbootstrap.com/components/" MODIFIED="1423052972271" TEXT="components"/>
 </node>
-<node CREATED="1423144713007" FOLDED="true" ID="ID_1888396122" MODIFIED="1423263544237" TEXT="res">
+<node CREATED="1423144713007" FOLDED="true" ID="ID_1888396122" MODIFIED="1423656239318" TEXT="res">
 <node COLOR="#0033ff" CREATED="1423144718994" ID="ID_464931964" LINK="http://bootsnipp.com/about" MODIFIED="1423179194631" TEXT="bootsnip"/>
 <node COLOR="#0033ff" CREATED="1423179202913" ID="ID_1115654954" LINK="http://startbootstrap.com/" MODIFIED="1423179210410" TEXT="startbootstrap.com"/>
-<node CREATED="1423182650981" FOLDED="true" ID="ID_1248529176" MODIFIED="1423182655335" TEXT="themes">
+<node CREATED="1423182650981" FOLDED="true" ID="ID_1248529176" MODIFIED="1423656238550" TEXT="themes">
 <node COLOR="#0033ff" CREATED="1423181186916" ID="ID_268450018" LINK="http://bootswatch.com/" MODIFIED="1423181191616" TEXT="bootswatch.com"/>
 <node COLOR="#0033ff" CREATED="1423182619833" ID="ID_434353413" LINK="http://www.blacktie.co/" MODIFIED="1423182643101" TEXT="blacktie.co"/>
+<node COLOR="#0033ff" CREATED="1423656228983" ID="ID_102831089" LINK="http://www.bootstrapstage.com/free-themes/" MODIFIED="1423656232545" TEXT="bootstrapstage.com &gt; Free-themes"/>
 </node>
 <node COLOR="#0033ff" CREATED="1423263420471" ID="ID_1430390776" LINK="http://bootflat.github.io/" MODIFIED="1423263429621" TEXT="http://bootflat.github.io/"/>
-<node CREATED="1423263520891" FOLDED="true" ID="ID_1082047126" MODIFIED="1423263543069" TEXT="ui-kits">
+<node CREATED="1423263520891" FOLDED="true" ID="ID_1082047126" MODIFIED="1423656236033" TEXT="ui-kits">
 <node COLOR="#0033ff" CREATED="1423263525299" ID="ID_1016702941" LINK="http://bootstrapbay.com/blog/bootstrap-ui-kit/" MODIFIED="1423263542249" TEXT="bootstrapbay"/>
 </node>
 </node>
