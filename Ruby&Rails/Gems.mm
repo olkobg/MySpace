@@ -2,26 +2,28 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1357147320972" ID="ID_145689485" LINK="ruby.mm" MODIFIED="1422177088235" TEXT="Gems">
 <font NAME="SansSerif" SIZE="24"/>
-<node CREATED="1378898924370" FOLDED="true" ID="ID_1330484426" MODIFIED="1422177087132" POSITION="right" TEXT="manage">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357725946061" FOLDED="true" ID="ID_1419283319" LINK="http://gembundler.com/" MODIFIED="1419198580623">
+<node CREATED="1378898924370" FOLDED="true" ID="ID_1330484426" MODIFIED="1427720614395" POSITION="right" TEXT="manage">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357725946061" FOLDED="true" ID="ID_1419283319" LINK="http://gembundler.com/" MODIFIED="1427720614191">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>bundler</b></font>
+      <font color="#0000ff">bundler</font>
     </p>
   </body>
-</html></richcontent>
-<node COLOR="#0033ff" CREATED="1406798861870" ID="ID_131045885" MODIFIED="1406798867312" TEXT="$ bundle">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1406798861870" ID="ID_131045885" MODIFIED="1427720587827" TEXT="$ bundle">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1419198556165" FOLDED="true" ID="ID_351628169" MODIFIED="1423298654631" POSITION="right" TEXT="docs">
-<node CREATED="1416562936914" FOLDED="true" ID="ID_177620143" LINK="http://guides.rubygems.org/command-reference" MODIFIED="1420722601698" TEXT="command reference">
+<node COLOR="#990099" CREATED="1419198556165" FOLDED="true" ID="ID_351628169" MODIFIED="1427720583446" POSITION="right" TEXT="docs">
+<node CREATED="1416562936914" FOLDED="true" ID="ID_177620143" LINK="http://guides.rubygems.org/command-reference" MODIFIED="1427720583326" TEXT="command reference">
 <node CREATED="1412239752249" ID="ID_908788601" MODIFIED="1419198594450">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -80,10 +82,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1420823196522" FOLDED="true" ID="ID_864071841" MODIFIED="1422177087133" POSITION="left" TEXT="database">
-<node CREATED="1421588865076" FOLDED="true" ID="ID_1141878192" MODIFIED="1421589149954" TEXT="active-record">
-<node CREATED="1420823201826" FOLDED="true" ID="ID_892110294" MODIFIED="1421589148508" TEXT="pg">
-<node COLOR="#990000" CREATED="1420823205743" FOLDED="true" ID="ID_1884947310" MODIFIED="1421589148247" TEXT="fix">
+<node CREATED="1420823196522" FOLDED="true" ID="ID_864071841" MODIFIED="1427744545606" POSITION="left" TEXT="database">
+<node CREATED="1421588865076" FOLDED="true" ID="ID_1141878192" MODIFIED="1427744545112" TEXT="active-record">
+<node CREATED="1420823201826" FOLDED="true" ID="ID_892110294" MODIFIED="1427744544654" TEXT="pg">
+<node COLOR="#990000" CREATED="1420823205743" FOLDED="true" ID="ID_1884947310" MODIFIED="1427744544447" TEXT="fix">
 <node CREATED="1420823211770" ID="ID_537059541" LINK="http://stackoverflow.com/questions/27047463/gem-install-pg-error-couldnt-understand-kern-osversion-14-0-0-on-yosemite-w" MODIFIED="1420823220375" TEXT="yosemite install"/>
 </node>
 </node>
@@ -91,25 +93,8 @@
 </node>
 <node COLOR="#0033ff" CREATED="1421588856706" ID="ID_213666425" LINK="http://datamapper.org/" MODIFIED="1421588863193" TEXT="datamapper"/>
 </node>
-<node CREATED="1418643474686" FOLDED="true" ID="ID_1678568316" MODIFIED="1423258736688" POSITION="left" TEXT="debug">
-<node COLOR="#0033ff" CREATED="1418643477018" FOLDED="true" ID="ID_1139966228" LINK="http://pryrepl.org/" MODIFIED="1420823647109" TEXT="pry">
-<node COLOR="#0033ff" CREATED="1418643480046" ID="ID_808337867" LINK="https://github.com/rweng/pry-rails" MODIFIED="1418643569364" TEXT="pry-rails"/>
-<node COLOR="#0033ff" CREATED="1418643482595" FOLDED="true" ID="ID_65726608" LINK="https://github.com/deivid-rodriguez/pry-byebug" MODIFIED="1420823643798" TEXT="pry-byebug">
-<node CREATED="1420823623289" ID="ID_1089913015" LINK="https://github.com/nixme/pry-debugger" MODIFIED="1420823642818">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      old one <font color="#0000ff">pry-debugger</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1420823594957" ID="ID_306411187" LINK="https://github.com/Mon-Ouie/pry-remote" MODIFIED="1420823600390" TEXT="pry-remote"/>
-</node>
+<node CREATED="1418643474686" FOLDED="true" ID="ID_1678568316" MODIFIED="1427745030120" POSITION="left" TEXT="debug">
+<node COLOR="#0033ff" CREATED="1427744955805" ID="ID_1847797756" LINK="gems/pry.mm" MODIFIED="1427744999203" TEXT="pry"/>
 </node>
 <node CREATED="1417018503490" FOLDED="true" ID="ID_591683281" MODIFIED="1423258738127" POSITION="left" TEXT="processing">
 <node COLOR="#0033ff" CREATED="1417018541930" ID="ID_18649153" LINK="http://sidekiq.org/" MODIFIED="1418643463628" TEXT="http://sidekiq.org/"/>
@@ -132,41 +117,41 @@
 <node CREATED="1418815911873" ID="ID_1625339660" LINK="https://github.com/hiravgandhi/angularjs-rails" MODIFIED="1418815919404" TEXT="angularjs + rails wrapper"/>
 <node CREATED="1419198172994" ID="ID_731325258" LINK="http://fgnass.github.io/spin.js/" MODIFIED="1419198188411" TEXT="spinjs"/>
 </node>
-<node CREATED="1420825436706" ID="ID_610983676" MODIFIED="1423258740356" POSITION="left" TEXT="markup">
-<node COLOR="#0033ff" CREATED="1423255314850" FOLDED="true" ID="ID_499393550" LINK="gems/Sass.mm" MODIFIED="1423258743736" TEXT="sass">
+<node CREATED="1420825436706" FOLDED="true" ID="ID_610983676" MODIFIED="1426086766391" POSITION="left" TEXT="markup">
+<node COLOR="#0033ff" CREATED="1423255314850" FOLDED="true" ID="ID_499393550" LINK="gems/Sass.mm" MODIFIED="1424200858051" TEXT="sass">
 <node COLOR="#0033ff" CREATED="1420825522649" ID="ID_1594270216" LINK="https://github.com/rails/sass-rails" MODIFIED="1420825626177" TEXT="sass-rails"/>
 </node>
-<node COLOR="#0033ff" CREATED="1420825576247" FOLDED="true" ID="ID_1355376659" LINK="https://github.com/haml/haml" MODIFIED="1423255353327" TEXT="haml">
+<node COLOR="#0033ff" CREATED="1420825576247" FOLDED="true" ID="ID_1355376659" LINK="https://github.com/haml/haml" MODIFIED="1426083775675" TEXT="haml">
 <node COLOR="#0033ff" CREATED="1420825706174" ID="ID_625764735" LINK="https://github.com/indirect/haml-rails" MODIFIED="1420825717933" TEXT="haml-rails"/>
 </node>
-<node CREATED="1420825540829" ID="ID_1319699684" LINK="../CSS/Bootstrap.mm" MODIFIED="1423298668528" TEXT="bootstrap">
+<node CREATED="1420825540829" FOLDED="true" ID="ID_1319699684" LINK="../CSS/Bootstrap.mm" MODIFIED="1426086766165" TEXT="bootstrap">
 <node COLOR="#0033ff" CREATED="1420825560239" ID="ID_218346229" LINK="https://github.com/twbs/bootstrap-sass" MODIFIED="1420825571992" TEXT="bootstrap-sass"/>
 <node COLOR="#0033ff" CREATED="1420825748520" ID="ID_1916168723" LINK="https://github.com/seyhunak/twitter-bootstrap-rails" MODIFIED="1420825757024" TEXT="twitter-bootstrap-rails"/>
 </node>
-<node CREATED="1420825761782" FOLDED="true" ID="ID_305584711" MODIFIED="1423255232888" TEXT="foundation">
+<node CREATED="1420825761782" FOLDED="true" ID="ID_305584711" MODIFIED="1424200863094" TEXT="foundation">
 <node COLOR="#0033ff" CREATED="1420825806413" ID="ID_935199683" LINK="https://github.com/zurb/foundation-rails" MODIFIED="1420825814310" TEXT="foundation-rails"/>
 <node COLOR="#990099" CREATED="1420825904283" ID="ID_1048616085" LINK="http://www.gotealeaf.com/blog/rails-and-foundation-part-1" MODIFIED="1420825916180" TEXT="create todo"/>
 </node>
-<node CREATED="1420826086574" FOLDED="true" ID="ID_1892177407" MODIFIED="1423255231863" TEXT="font">
+<node CREATED="1420826086574" FOLDED="true" ID="ID_1892177407" MODIFIED="1424200861636" TEXT="font">
 <node COLOR="#0033ff" CREATED="1420826089656" ID="ID_1755468748" LINK="http://fortawesome.github.io/Font-Awesome/" MODIFIED="1420826097006" TEXT="FontAwesome"/>
 </node>
 </node>
-<node CREATED="1420825825917" FOLDED="true" ID="ID_824197470" MODIFIED="1423255283843" POSITION="left" TEXT="form">
+<node CREATED="1420825825917" FOLDED="true" ID="ID_824197470" MODIFIED="1427744540403" POSITION="left" TEXT="form">
 <node COLOR="#0033ff" CREATED="1420825827300" ID="ID_1637755489" LINK="https://github.com/plataformatec/simple_form" MODIFIED="1420825845837" TEXT="simple_form"/>
+<node COLOR="#0033ff" CREATED="1424717540936" ID="ID_263763377" LINK="https://github.com/justinfrench/formtastic" MODIFIED="1424717553562" TEXT="formtastic"/>
 </node>
-<node CREATED="1419193247900" ID="ID_1291006163" MODIFIED="1423783308705" POSITION="left" TEXT="testing">
-<node CREATED="1422537433992" ID="ID_489329435" LINK="gems/cucumber.mm" MODIFIED="1422537433993" TEXT="cucumber"/>
-<node CREATED="1420739075701" FOLDED="true" ID="ID_798137397" MODIFIED="1422009936004" TEXT="fixtures">
-<node COLOR="#0033ff" CREATED="1420739082936" ID="ID_1379296288" LINK="https://github.com/thoughtbot/factory_girl" MODIFIED="1420739109214" TEXT="factory_girl"/>
-<node COLOR="#0033ff" CREATED="1420813479608" ID="ID_357026747" LINK="https://github.com/thoughtbot/factory_girl_rails" MODIFIED="1420813531933" TEXT="factory_girl_rails"/>
+<node CREATED="1419193247900" FOLDED="true" ID="ID_1291006163" MODIFIED="1427744540766" POSITION="left" TEXT="testing">
+<node COLOR="#0033ff" CREATED="1422537433992" ID="ID_489329435" LINK="gems/cucumber.mm" MODIFIED="1427744499437" TEXT="cucumber"/>
+<node CREATED="1420739075701" FOLDED="true" ID="ID_798137397" MODIFIED="1427744497342" TEXT="fixtures">
+<node COLOR="#0033ff" CREATED="1427725271159" ID="ID_1553165846" LINK="gems/factory_girl.mm" MODIFIED="1427744469191" TEXT="factory_girl"/>
 </node>
-<node COLOR="#0033ff" CREATED="1419193251147" FOLDED="true" ID="ID_878502441" LINK="https://github.com/seattlerb/minitest" MODIFIED="1421588733994" TEXT="Minitest">
+<node COLOR="#0033ff" CREATED="1419193251147" FOLDED="true" ID="ID_878502441" LINK="https://github.com/seattlerb/minitest" MODIFIED="1424200891173" TEXT="Minitest">
 <node CREATED="1419193307018" ID="ID_292696995" LINK="http://guides.rubyonrails.org/testing.html#unit-testing-your-models" MODIFIED="1419193312706" TEXT="available assertions"/>
 </node>
 <node COLOR="#0033ff" CREATED="1422446259370" ID="ID_1595558208" LINK="gems/RSpec.mm" MODIFIED="1422446341079" TEXT="RSpec"/>
-<node CREATED="1422009882235" FOLDED="true" ID="ID_1336519006" MODIFIED="1422009944130" TEXT="tools">
-<node COLOR="#0033ff" CREATED="1420813431417" FOLDED="true" ID="ID_374418846" LINK="https://github.com/DatabaseCleaner/database_cleaner" MODIFIED="1422009880651" TEXT="database-cleaner">
-<node CREATED="1420816048142" FOLDED="true" ID="ID_849571407" MODIFIED="1420816653911" TEXT="config">
+<node CREATED="1422009882235" FOLDED="true" ID="ID_1336519006" MODIFIED="1427744494217" TEXT="tools">
+<node COLOR="#0033ff" CREATED="1420813431417" FOLDED="true" ID="ID_374418846" LINK="https://github.com/DatabaseCleaner/database_cleaner" MODIFIED="1427744477231" TEXT="database-cleaner">
+<node CREATED="1420816048142" FOLDED="true" ID="ID_849571407" MODIFIED="1427744476956" TEXT="config">
 <node CREATED="1420815456833" ID="ID_318749220" MODIFIED="1420816045501">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -223,10 +208,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1419551241611" FOLDED="true" ID="ID_1629276551" MODIFIED="1422009901521" TEXT="fake data">
+<node CREATED="1419551241611" FOLDED="true" ID="ID_1629276551" MODIFIED="1427744486648" TEXT="fake data">
 <node COLOR="#0033ff" CREATED="1419551246547" ID="ID_1224341220" LINK="https://github.com/stympy/faker" MODIFIED="1420739140942" TEXT="faker"/>
 </node>
-<node CREATED="1420739050471" FOLDED="true" ID="ID_1122462796" MODIFIED="1422009901213" TEXT="coverage">
+<node CREATED="1420739050471" FOLDED="true" ID="ID_1122462796" MODIFIED="1427744488230" TEXT="coverage">
 <node COLOR="#0033ff" CREATED="1420739053152" ID="ID_1946521688" LINK="https://github.com/colszowka/simplecov" MODIFIED="1420739126565" TEXT="simplecov"/>
 </node>
 <node COLOR="#009999" CREATED="1422009040415" ID="ID_1813613494" LINK="http://ruby.sadi.st/Ruby_Sadist.html" MODIFIED="1422009798954" TEXT="flog\flay and stuff"/>
@@ -244,7 +229,7 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1421588738996" ID="ID_1471421883" LINK="https://github.com/brynary/webrat" MODIFIED="1422009942948" TEXT="webrat"/>
-<node CREATED="1422009916544" ID="ID_1154866793" MODIFIED="1422009941043" TEXT="webUI">
+<node CREATED="1422009916544" FOLDED="true" ID="ID_1154866793" MODIFIED="1426782806092" TEXT="webUI">
 <node COLOR="#0033ff" CREATED="1419367386094" FOLDED="true" ID="ID_322804778" LINK="http://jnicklas.github.io/capybara/" MODIFIED="1422009919700" TEXT="capybara">
 <node CREATED="1420464407171" FOLDED="true" ID="ID_430406128" MODIFIED="1420816643716" TEXT="dsl">
 <node CREATED="1420464410055" FOLDED="true" ID="ID_1937701442" LINK="http://stackoverflow.com/questions/5153550/capybara-assert-attributes-of-an-element" MODIFIED="1420709618347" TEXT="assert element attr">
