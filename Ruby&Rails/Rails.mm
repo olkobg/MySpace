@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1423582073459" TEXT="Rails">
 <font NAME="SansSerif" SIZE="31"/>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1427746762658" POSITION="right" TEXT="Models">
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1428087896720" POSITION="right" TEXT="Models">
 <font NAME="SansSerif" SIZE="20"/>
 <node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1427725183697" TEXT="validate">
 <node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
@@ -61,7 +61,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1427725183031" TEXT="migration">
+<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1428087894294" TEXT="migration">
 <node CREATED="1283197450026" ID="ID_1587485051" MODIFIED="1416840201422">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -74,10 +74,10 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1285662068839" ID="ID_1802890410" MODIFIED="1427725164548" TEXT="script">
-<node CREATED="1287135483060" FOLDED="true" ID="ID_130200917" MODIFIED="1421139681690" TEXT="table">
-<node COLOR="#0033ff" CREATED="1285662412008" FOLDED="true" ID="ID_628195570" MODIFIED="1419241840304" TEXT="create_table">
-<node CREATED="1285662758957" FOLDED="true" ID="ID_1855141473" MODIFIED="1419241839722" TEXT="parameters">
+<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1428087893231" TEXT="script">
+<node CREATED="1287135483060" FOLDED="true" ID="ID_130200917" MODIFIED="1428087892360" TEXT="table">
+<node COLOR="#0033ff" CREATED="1285662412008" FOLDED="true" ID="ID_628195570" MODIFIED="1428087889696" TEXT="create_table">
+<node CREATED="1285662758957" FOLDED="true" ID="ID_1855141473" MODIFIED="1428060453339" TEXT="parameters">
 <node CREATED="1285662780127" ID="ID_1634046804" MODIFIED="1416838808552">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -145,7 +145,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1285662627782" FOLDED="true" ID="ID_373529201" MODIFIED="1419241839504" TEXT="columns">
+<node CREATED="1285662627782" FOLDED="true" ID="ID_373529201" MODIFIED="1428087889360" TEXT="columns">
 <node CREATED="1285662273772" ID="ID_1273841851" MODIFIED="1416838908863">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -195,7 +195,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1285662211104" FOLDED="true" ID="ID_1562095187" MODIFIED="1419241839218" TEXT="primary_keys">
+<node CREATED="1285662211104" FOLDED="true" ID="ID_1562095187" MODIFIED="1428060401436" TEXT="primary_keys">
 <node CREATED="1285662426079" ID="ID_341267637" MODIFIED="1416839213448">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -240,7 +240,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1287135276110" FOLDED="true" ID="ID_1281262412" MODIFIED="1421139680901" TEXT="drop_table">
+<node COLOR="#0033ff" CREATED="1287135276110" FOLDED="true" ID="ID_1281262412" MODIFIED="1428066300818" TEXT="drop_table">
 <node CREATED="1287135496632" ID="ID_1928440978" MODIFIED="1416839254611">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -254,8 +254,30 @@
 </html></richcontent>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1428060361632" FOLDED="true" ID="ID_1128384741" MODIFIED="1428060502726" TEXT="rename_table">
+<node COLOR="#0033ff" CREATED="1428060370664" ID="ID_783051748" MODIFIED="1428060499760">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      def self.up
+    </p>
+    <p>
+      &#160;&#160;rename_table :foo, :bar
+    </p>
+    <p>
+      end
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1287135525738" FOLDED="true" ID="ID_1091120829" MODIFIED="1425998646492" TEXT="columns">
+</node>
+</node>
+<node CREATED="1287135525738" FOLDED="true" ID="ID_1091120829" MODIFIED="1428087892737" TEXT="columns">
+<node CREATED="1428066291077" ID="ID_109349749" LINK="#ID_1273841851" MODIFIED="1428066308397" TEXT="datatypes"/>
 <node CREATED="1287135205372" ID="ID_538089736" MODIFIED="1416839395955">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -368,16 +390,16 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1421139761313" TEXT="indices">
-<node CREATED="1285662542450" FOLDED="true" ID="ID_920920231" MODIFIED="1421139690584" TEXT="add_index">
+<node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1428060697959" TEXT="indices">
+<node COLOR="#0033ff" CREATED="1285662542450" FOLDED="true" ID="ID_920920231" MODIFIED="1428060696764" TEXT="add_index">
 <node CREATED="1285662588503" ID="ID_339556725" MODIFIED="1285662608764" TEXT="also possible adding of the unique"/>
 <node COLOR="#0033ff" CREATED="1285662565541" ID="ID_1988140670" MODIFIED="1416839296011" TEXT="add_index :users, :name"/>
 </node>
-<node CREATED="1285663949325" FOLDED="true" ID="ID_1629839388" MODIFIED="1421139687743" TEXT="remove_index">
+<node COLOR="#0033ff" CREATED="1285663949325" FOLDED="true" ID="ID_1629839388" MODIFIED="1428060696763" TEXT="remove_index">
 <node COLOR="#0033ff" CREATED="1285663957616" ID="ID_943032537" MODIFIED="1416839296012" TEXT="remove_index :orders, :name"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1416566476800" FOLDED="true" ID="ID_868352331" MODIFIED="1421139785881" TEXT="create ruby script from existing db">
+<node COLOR="#990099" CREATED="1416566476800" FOLDED="true" ID="ID_868352331" MODIFIED="1428060700628" TEXT="create ruby script from existing db">
 <node CREATED="1416697834184" ID="ID_1920149502" MODIFIED="1416839602679">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -443,7 +465,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1287675779471" FOLDED="true" ID="ID_820323342" MODIFIED="1421139789473" TEXT="irreversible migration">
+<node CREATED="1287675779471" FOLDED="true" ID="ID_820323342" MODIFIED="1428060703107" TEXT="irreversible migration">
 <node COLOR="#0033ff" CREATED="1287675790052" ID="ID_437452920" MODIFIED="1416839494823" TEXT="raise ActiveRecord::IrreversibleMigration "/>
 </node>
 </node>
@@ -1172,7 +1194,7 @@
 <node COLOR="#0033ff" CREATED="1419373210941" ID="ID_1076983327" MODIFIED="1419373408376" TEXT="get &apos;/patients/:id&apos;, to: &apos;patients#show&apos;"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1427746814225" POSITION="right">
+<node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1428062242612" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1194,8 +1216,7 @@
       <font color="#0033ff">server s</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1421140807359" ID="ID_1798773945" MODIFIED="1421140998444">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1324,7 +1345,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1420818136458" FOLDED="true" ID="ID_229507832" MODIFIED="1420818350642" TEXT="generate g">
+<node COLOR="#0033ff" CREATED="1420818136458" FOLDED="true" ID="ID_229507832" MODIFIED="1428062242405" TEXT="generate g">
 <node COLOR="#0033ff" CREATED="1420818129983" ID="ID_683410433" MODIFIED="1420818239890">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1337,7 +1358,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1420818171223" FOLDED="true" ID="ID_1330473271" MODIFIED="1420818320709">
+<node COLOR="#0033ff" CREATED="1420818171223" FOLDED="true" ID="ID_1330473271" MODIFIED="1428062241434">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1362,6 +1383,22 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1428062171394" ID="ID_1984973900" MODIFIED="1428062239190">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # with out timestamps
+    </p>
+    <p>
+      <font color="#0000ff">$ rails g model &lt;model-params&gt; <b>--no-timestamps</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1420818207378" ID="ID_1500988360" MODIFIED="1420818239888" TEXT="migration"/>
