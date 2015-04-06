@@ -1,0 +1,16 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node COLOR="#990000" CREATED="1419551246547" ID="ID_26055931" LINK="../Gems.mm" MODIFIED="1428331261075" TEXT="faker">
+<font NAME="SansSerif" SIZE="24"/>
+<node COLOR="#0033ff" CREATED="1428331270054" ID="ID_150859304" LINK="https://github.com/stympy/faker" MODIFIED="1428331280831" POSITION="right" TEXT="faker"/>
+<node COLOR="#0033ff" CREATED="1428331286345" FOLDED="true" ID="ID_1177621545" MODIFIED="1428332384792" POSITION="left" TEXT="Lorem">
+<node COLOR="#0033ff" CREATED="1428331294551" ID="ID_1407075446" MODIFIED="1428332360687" TEXT="word"/>
+</node>
+<node COLOR="#0033ff" CREATED="1428332349192" FOLDED="true" ID="ID_269303950" MODIFIED="1428332390245" POSITION="left" TEXT="Time">
+<node COLOR="#0033ff" CREATED="1428332353781" FOLDED="true" ID="ID_632258146" MODIFIED="1428332389817" TEXT="between">
+<node COLOR="#0033ff" CREATED="1428332376016" ID="ID_1937117111" MODIFIED="1428332381052" TEXT="Faker::Time.between(2.days.ago, Time.now)"/>
+</node>
+</node>
+<node CREATED="1428331292295" ID="ID_1419034603" MODIFIED="1428331292295" POSITION="left" TEXT=""/>
+</node>
+</map>
