@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1422915720339" TEXT="Ruby">
+<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1428087910502" TEXT="Ruby">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,14 +13,15 @@
       http://rubygarage.github.io
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="34"/>
-<node COLOR="#338800" CREATED="1282900446488" FOLDED="true" ID="ID_1262636553" MODIFIED="1422730110291" POSITION="right" TEXT="lib/tool/app">
-<node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1420817792834" TEXT="Rails"/>
+<node COLOR="#338800" CREATED="1282900446488" ID="ID_1262636553" MODIFIED="1428087912615" POSITION="right" TEXT="lib/tool/app">
+<node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1428331176955" TEXT="Rails">
+<font NAME="SansSerif" SIZE="15"/>
+</node>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1419193495954" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1422392510066" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1428356467041" POSITION="left" TEXT="class">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1422284853468">
 <richcontent TYPE="NODE"><html>
@@ -213,7 +214,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1422362343773" TEXT="classes">
+<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1428356466202" TEXT="classes">
 <node CREATED="1422358047778" FOLDED="true" ID="ID_1968592432" MODIFIED="1422362343535" TEXT="class hierarchy">
 <node CREATED="1422358126007" ID="ID_1774802114" MODIFIED="1422362217370">
 <richcontent TYPE="NODE"><html>
@@ -1424,7 +1425,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357321030933" FOLDED="true" ID="ID_146811399" LINK="http://ruby-doc.org/core-2.0.0/Hash.html" MODIFIED="1422285970593" TEXT="Hash">
+<node COLOR="#0033ff" CREATED="1357321030933" FOLDED="true" ID="ID_146811399" LINK="http://ruby-doc.org/core-2.0.0/Hash.html" MODIFIED="1428356465083" TEXT="Hash">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1357309062594" ID="ID_565504008" MODIFIED="1357322740295">
 <richcontent TYPE="NODE"><html>
@@ -1445,7 +1446,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1422213242916" FOLDED="true" ID="ID_1191920717" MODIFIED="1422284547813" TEXT="creating">
+<node CREATED="1422213242916" FOLDED="true" ID="ID_1191920717" MODIFIED="1428356403113" TEXT="creating">
 <node CREATED="1422213247540" ID="ID_1959374229" MODIFIED="1422213277692">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1492,7 +1493,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422213385940" FOLDED="true" ID="ID_1263294887" MODIFIED="1422284551397" TEXT="default value">
+<node CREATED="1422213385940" FOLDED="true" ID="ID_1263294887" MODIFIED="1428356405554" TEXT="default value">
 <node CREATED="1422283151669" ID="ID_82863328" MODIFIED="1422283232860">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1566,7 +1567,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422284268818" FOLDED="true" ID="ID_891018264" MODIFIED="1422284559625" TEXT="each">
+<node CREATED="1422284268818" FOLDED="true" ID="ID_891018264" MODIFIED="1428356414121" TEXT="each">
 <node CREATED="1422283645685" ID="ID_1825923189" MODIFIED="1422283830654">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1649,7 +1650,24 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422284281613" FOLDED="true" ID="ID_501757056" MODIFIED="1422284561482" TEXT="key/values">
+<node CREATED="1428356433218" FOLDED="true" ID="ID_1480164577" MODIFIED="1428356461916" TEXT="find">
+<node COLOR="#0033ff" CREATED="1428356441264" FOLDED="true" ID="ID_941823384" MODIFIED="1428356461644" TEXT="select">
+<node CREATED="1428356443522" ID="ID_1169979635" MODIFIED="1428356455397">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">clients.select{|key, hash| hash[&quot;client_id&quot;] == &quot;2180&quot; }</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1422284281613" FOLDED="true" ID="ID_501757056" MODIFIED="1428356422787" TEXT="key/values">
 <node CREATED="1422284097348" ID="ID_684315039" MODIFIED="1422284261292">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1789,7 +1807,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422283326696" FOLDED="true" ID="ID_1797302570" MODIFIED="1422285970187" TEXT="removing">
+<node CREATED="1422283326696" FOLDED="true" ID="ID_1797302570" MODIFIED="1428356424533" TEXT="removing">
 <node CREATED="1422283330365" ID="ID_1817022504" MODIFIED="1422283432098">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6184,7 +6202,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1422356716827" POSITION="left" TEXT="object">
+<node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1428087909160" POSITION="left" TEXT="object">
 <node CREATED="1422180144626" ID="ID_354289056" MODIFIED="1422180186358">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7652,7 +7670,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1415815504743" ID="ID_740950273" MODIFIED="1422538742265" POSITION="left" TEXT="test">
+<node CREATED="1415815504743" FOLDED="true" ID="ID_740950273" MODIFIED="1428087911397" POSITION="left" TEXT="test">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1422446386879" ID="ID_1745738817" LINK="gems/RSpec.mm" MODIFIED="1422446396119" TEXT="RSpec"/>
 <node CREATED="1415815506901" FOLDED="true" ID="ID_855983373" MODIFIED="1422446479095" TEXT="tip">
@@ -7662,7 +7680,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1422446203500" POSITION="right" TEXT="ver">
+<node CREATED="1297156615073" ID="ID_850662542" MODIFIED="1428351966049" POSITION="right" TEXT="ver">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1422178783983" FOLDED="true" ID="ID_581998632" MODIFIED="1422446202661" TEXT="manage">
 <node COLOR="#0033ff" CREATED="1357132426045" ID="ID_789870658" LINK="rvm.mm" MODIFIED="1422178796381" TEXT="rvm"/>
@@ -7702,7 +7720,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1412241600721" FOLDED="true" ID="ID_64964856" MODIFIED="1422917661957" POSITION="right" TEXT="$">
+<node COLOR="#0033ff" CREATED="1412241600721" ID="ID_64964856" MODIFIED="1428331152281" POSITION="right" TEXT="$">
 <node COLOR="#0033ff" CREATED="1357147330262" ID="ID_1164510811" LINK="Gems.mm" MODIFIED="1412241653705" TEXT="gem">
 <font NAME="SansSerif" SIZE="13"/>
 </node>
@@ -7772,8 +7790,7 @@
       <font color="#0000ff">$ ruby -run -e httpd . -p 5000</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1412241656348" FOLDED="true" ID="ID_635088151" MODIFIED="1422917325088" TEXT="irb">
 <node CREATED="1417222520678" ID="ID_749858871" MODIFIED="1417222588791">
