@@ -806,9 +806,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1427746802167" POSITION="left" TEXT="Auth">
+<node CREATED="1287575660367" FOLDED="true" ID="ID_932040161" MODIFIED="1429869177819" POSITION="left" TEXT="Auth">
 <font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1287575635651" FOLDED="true" ID="ID_372420420" MODIFIED="1421145920261" TEXT="Auth_token">
+<node CREATED="1287575635651" FOLDED="true" ID="ID_372420420" MODIFIED="1429868458836" TEXT="Auth_token">
 <node CREATED="1287575640947" ID="ID_24275664" MODIFIED="1357148532020">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -824,103 +824,9 @@
 <node CREATED="1419370576246" ID="ID_1225230829" LINK="#ID_1588476019" MODIFIED="1419370581077" TEXT="docs"/>
 </node>
 <node CREATED="1284454690794" ID="ID_687445412" LINK="#ID_1959650661" MODIFIED="1420818592098" TEXT="by using filters"/>
-<node COLOR="#0033ff" CREATED="1419367444468" FOLDED="true" ID="ID_1071549546" LINK="http://devise.plataformatec.com.br/" MODIFIED="1421591860017" TEXT="devise">
-<node CREATED="1419368527236" ID="ID_1077958794" MODIFIED="1421146158558" TEXT="fields names">
-<node COLOR="#0033ff" CREATED="1419368559625" FOLDED="true" ID="ID_1858747917" MODIFIED="1421146110900" TEXT="user">
-<node COLOR="#0033ff" CREATED="1419368531007" ID="ID_1355033499" MODIFIED="1421146110169" TEXT="user[email]"/>
-<node COLOR="#0033ff" CREATED="1419368536278" ID="ID_963371132" MODIFIED="1421146110168" TEXT="user[password]"/>
-<node COLOR="#0033ff" CREATED="1419368541877" ID="ID_1616427376" MODIFIED="1421146110167" TEXT="user[password_confirmation]"/>
-<node COLOR="#0033ff" CREATED="1419368550939" ID="ID_816501787" MODIFIED="1421146110166" TEXT="user[current_password]"/>
-</node>
-</node>
-<node CREATED="1419370682630" FOLDED="true" ID="ID_17638157" MODIFIED="1421274119671" TEXT="docs">
-<node CREATED="1419370684534" ID="ID_798347284" LINK="http://stackoverflow.com/questions/9272272/where-is-devise-implementation-of-authenticate-user-method" MODIFIED="1419370713102">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>user auth</b>&#160;implementation
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1419370446482" FOLDED="true" ID="ID_704729665" MODIFIED="1421274119478" TEXT="off. docs">
-<node CREATED="1419370449489" ID="ID_1850752848" LINK="http://devise.plataformatec.com.br/" MODIFIED="1419370458555" TEXT="override confirmations"/>
-<node CREATED="1419370464065" ID="ID_331302994" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Email-only-sign-up" MODIFIED="1419370472867" TEXT="email only sing up"/>
-<node CREATED="1419370489009" ID="ID_1822844868" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-edit-their-account-without-providing-a-password" MODIFIED="1419370496534" TEXT="allow edit accoutn w/o pass"/>
-<node CREATED="1419370505335" ID="ID_1905259254" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-edit-their-password" MODIFIED="1419370514664" TEXT="allow users to edit pass"/>
-<node CREATED="1419370648919" ID="ID_617799091" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Define-resource-actions-that-require-authentication-using-routes.rb" MODIFIED="1419370659350" TEXT="define resource req/ auth"/>
-<node CREATED="1421261284863" FOLDED="true" ID="ID_779810914" LINK="https://github.com/plataformatec/devise/wiki/How-To:-Add-sign_in,-sign_out,-and-sign_up-links-to-your-layout-template" MODIFIED="1421261357581" TEXT="sign_in sign_out">
-<node CREATED="1421261343607" ID="ID_782014669" MODIFIED="1421261349084">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # views/devise/menu/_login_items.html.erb
-    </p>
-    <p>
-      &lt;% if user_signed_in? %&gt;
-    </p>
-    <p>
-      &#160;&#160;&lt;li&gt;
-    </p>
-    <p>
-      &#160;&#160;&lt;%= link_to('Logout', destroy_user_session_path, :method =&gt; :delete) %&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-    </p>
-    <p>
-      &#160;&#160;&lt;/li&gt;
-    </p>
-    <p>
-      &lt;% else %&gt;
-    </p>
-    <p>
-      &#160;&#160;&lt;li&gt;
-    </p>
-    <p>
-      &#160;&#160;&lt;%= link_to('Login', new_user_session_path)&#160;&#160;%&gt;&#160;
-    </p>
-    <p>
-      &#160;&#160;&lt;/li&gt;
-    </p>
-    <p>
-      &lt;% end %&gt;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1419367993459" FOLDED="true" ID="ID_838421469" MODIFIED="1421146187262" TEXT="tutors">
-<node CREATED="1419367995599" ID="ID_103954873" LINK="http://lucatironi.github.io/tutorial/2012/10/15/ruby_rails_android_app_authentication_devise_tutorial_part_one/" MODIFIED="1419368007586" TEXT="android + json +"/>
-<node CREATED="1419368008841" ID="ID_775270567" LINK="http://stackoverflow.com/questions/21505956/authentication-from-json-api-on-rails-with-devise" MODIFIED="1419368050573" TEXT="json api + rails +"/>
-<node CREATED="1419370238989" FOLDED="true" ID="ID_1011518807" LINK="http://stackoverflow.com/questions/3263291/how-can-i-simply-verify-that-a-username-and-password-are-correct-with-devise-and" MODIFIED="1421146175421" TEXT="verify user + pass">
-<node CREATED="1419370305090" ID="ID_833928417" LINK="http://stackoverflow.com/questions/15080493/how-to-check-if-a-users-password-is-correct-without-logging-them-in-with-devise" MODIFIED="1419370319014" TEXT="clone"/>
-</node>
-<node CREATED="1421144383835" ID="ID_993229889" MODIFIED="1421146184428" TEXT="with angular">
-<node COLOR="#990099" CREATED="1421144387715" ID="ID_1589348786" LINK="http://mkwiatkowski.github.io/angularjs-rails4-trug-presentation/#28" MODIFIED="1421144421130" TEXT="presentations mkwiatkovski"/>
-<node COLOR="#990099" CREATED="1421144426873" ID="ID_1990382672" LINK="https://www.airpair.com/ruby-on-rails/posts/authentication-with-angularjs-and-ruby-on-rails" MODIFIED="1421144487696" TEXT="airpair"/>
-<node COLOR="#990099" CREATED="1421144463889" ID="ID_140393884" LINK="https://shellycloud.com/blog/2013/10/how-to-integrate-angularjs-with-rails-4" MODIFIED="1421144487698" TEXT="shellycloud"/>
-<node COLOR="#990099" CREATED="1421144494545" ID="ID_1977903525" LINK="http://jes.al/2013/08/authentication-with-rails-devise-and-angularjs/" MODIFIED="1421144501107" TEXT="jes.al"/>
-<node COLOR="#0033ff" CREATED="1421144478179" ID="ID_46683890" LINK="https://github.com/cloudspace/angular_devise" MODIFIED="1421144485240" TEXT="angular-devise"/>
-<node CREATED="1419368488446" ID="ID_1525022651" LINK="http://technpol.wordpress.com/2013/09/23/angularjs-and-devise-authentication-with-a-rails-server/" MODIFIED="1421146170376" TEXT="angular-js + "/>
-</node>
-</node>
-</node>
-<node CREATED="1419513102983" FOLDED="true" ID="ID_393697560" MODIFIED="1421146152826" TEXT="solutions">
-<node CREATED="1419513109770" ID="ID_855596827" LINK="http://stackoverflow.com/questions/4264750/devise-logging-out-automatically-after-password-change" MODIFIED="1421146118584" TEXT="user sign off after pass change"/>
-</node>
-<node COLOR="#0033ff" CREATED="1421274127119" FOLDED="true" ID="ID_155705559" LINK="https://github.com/intridea/omniauth" MODIFIED="1421591859817" TEXT="omniauth">
-<node COLOR="#0033ff" CREATED="1421274151796" ID="ID_1022249701" LINK="https://github.com/intridea/omniauth/wiki/List-of-Strategies" MODIFIED="1421274161566" TEXT="list of strategies"/>
-<node COLOR="#0033ff" CREATED="1421274167806" ID="ID_609496789" LINK="https://github.com/mkdynamic/omniauth-facebook" MODIFIED="1421274176294" TEXT="omniauth_facebook"/>
-<node COLOR="#0033ff" CREATED="1421591837474" ID="ID_1969102621" LINK="http://landonmarder.com/posts/2014/06/04/google-cal-rails/" MODIFIED="1421591857632" TEXT="omnuauth_google_oauth2"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1419367446342" ID="ID_46498312" LINK="https://github.com/CanCanCommunity/cancancan" MODIFIED="1420722582851" TEXT="cancancan"/>
-<node COLOR="#0033ff" CREATED="1421588584947" ID="ID_558582691" LINK="https://github.com/binarylogic/authlogic" MODIFIED="1421588642793" TEXT="authlogic"/>
+<node COLOR="#0033ff" CREATED="1429868939082" ID="ID_445550243" LINK="gems/authlogic.mm" MODIFIED="1429869175106" TEXT="authlogic"/>
+<node COLOR="#0033ff" CREATED="1429868814118" ID="ID_339034935" LINK="gems/cancancan.mm" MODIFIED="1429869175108" TEXT="cancancan"/>
+<node COLOR="#0033ff" CREATED="1429868910786" ID="ID_1841373199" LINK="gems/devise.mm" MODIFIED="1429868922598" TEXT="devise"/>
 </node>
 <node CREATED="1282900468984" FOLDED="true" ID="ID_339698472" MODIFIED="1427746803384" POSITION="left" TEXT="Controllers">
 <font NAME="SansSerif" SIZE="18"/>
@@ -974,7 +880,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1421312717035" FOLDED="true" ID="ID_1005291656" MODIFIED="1427746805273" POSITION="left" TEXT="deploy">
+<node CREATED="1421312717035" FOLDED="true" ID="ID_1005291656" MODIFIED="1429861323255" POSITION="left" TEXT="deploy">
 <font NAME="SansSerif" SIZE="15"/>
 <node COLOR="#990099" CREATED="1421312721189" ID="ID_572369995" LINK="http://railsguides.net/deploy-ruby-on-rails-3-application-to-free-hosting/" MODIFIED="1421312745867" TEXT="deploy on heroku with s3 assets manager"/>
 </node>
@@ -1060,9 +966,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1284724176494" FOLDED="true" ID="ID_127732383" MODIFIED="1425998823454" POSITION="left" TEXT="config">
+<node CREATED="1284724176494" FOLDED="true" ID="ID_127732383" MODIFIED="1429864920672" POSITION="left" TEXT="config">
 <font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1284724186971" FOLDED="true" ID="ID_949958055" MODIFIED="1425998822884" TEXT="env">
+<node COLOR="#0033ff" CREATED="1284724186971" ID="ID_949958055" MODIFIED="1429864908535" TEXT="ENV">
 <node COLOR="#0033ff" CREATED="1284724195488" ID="ID_277391393" MODIFIED="1422621358239">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1077,6 +983,19 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1429864837376" ID="ID_897653215" LINK="http://railsapps.github.io/rails-environment-variables.html" MODIFIED="1429864893940">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">railsapp.github.io </font><font color="#000000">environment variables</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -1193,7 +1112,7 @@
 <node COLOR="#0033ff" CREATED="1419373210941" ID="ID_1076983327" MODIFIED="1419373408376" TEXT="get &apos;/patients/:id&apos;, to: &apos;patients#show&apos;"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1428062242612" POSITION="right">
+<node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1429868903534" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
