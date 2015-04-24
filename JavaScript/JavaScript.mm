@@ -2,18 +2,23 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1420822072532" TEXT="JavaScript">
 <font NAME="SansSerif" SIZE="22"/>
-<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1423308858568" POSITION="right" TEXT="app/lib/tool">
+<node CREATED="1283935276328" ID="ID_1046873276" MODIFIED="1429191772810" POSITION="right" TEXT="app/lib/tool">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#0033ff" CREATED="1375972457479" ID="ID_295083454" LINK="http://emberjs.com/" MODIFIED="1420822058433" TEXT="ember.js">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1290773593462" FOLDED="true" ID="ID_417996470" LINK="jQuery.mm" MODIFIED="1420822058433" TEXT="jQuery">
+<node COLOR="#0033ff" CREATED="1290773593462" FOLDED="true" ID="ID_417996470" LINK="jQuery.mm" MODIFIED="1429191812907" TEXT="jQuery">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1354015782893" ID="ID_517049765" LINK="jquery/jqueryUI.mm" MODIFIED="1375964519620" TEXT="jqueryUI">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1429191781737" FOLDED="true" ID="ID_1421355922" MODIFIED="1429191812652" TEXT="ui">
+<node COLOR="#0033ff" CREATED="1354015782893" ID="ID_517049765" LINK="jquery/jqueryUI.mm" MODIFIED="1429191776486" TEXT="jqueryUI">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1356445908888" ID="ID_187919146" LINK="http://amplifyjs.com/" MODIFIED="1375964521015" TEXT="apmplify">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1429191784755" FOLDED="true" ID="ID_694085912" MODIFIED="1429191807428" TEXT="slideshow">
+<node COLOR="#0033ff" CREATED="1429191792320" ID="ID_1008847364" LINK="http://www.skitter-slider.net/" MODIFIED="1429191806467" TEXT="skitter-slider"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1356445908888" ID="ID_187919146" LINK="http://amplifyjs.com/" MODIFIED="1429191776486" TEXT="apmplify">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1288878939472" ID="ID_626818632" LINK="http://mootools.net/" MODIFIED="1420822058433" TEXT="mootolls">
