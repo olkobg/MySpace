@@ -2,18 +2,18 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1428591689617" TEXT="Rails">
 <font NAME="SansSerif" SIZE="31"/>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1428591689338" POSITION="right" TEXT="Models">
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1430168900440" POSITION="right" TEXT="Models">
 <font NAME="SansSerif" SIZE="20"/>
-<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1428523870176" TEXT="validate">
+<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1430168043429" TEXT="validate">
 <node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1283855759515" ID="ID_376548583" MODIFIED="1284037132906" TEXT="Helpers">
+<node CREATED="1283855759515" FOLDED="true" ID="ID_376548583" MODIFIED="1430168036967" TEXT="Helpers">
 <node CREATED="1283855731031" ID="ID_840957597" MODIFIED="1283855767406" TEXT="validates_numericaly - to validate number in model"/>
 </node>
 <node CREATED="1285151124782" ID="ID_1515217412" MODIFIED="1285151126295" TEXT="built-in error messages, look for the file validations.rb within the Active Record gem"/>
 </node>
-<node CREATED="1416842175466" FOLDED="true" ID="ID_699552630" MODIFIED="1428523869081" TEXT="relation">
+<node CREATED="1416842175466" FOLDED="true" ID="ID_699552630" MODIFIED="1430168026906" TEXT="relation">
 <node COLOR="#0033ff" CREATED="1416842195656" ID="ID_530623936" MODIFIED="1416842242256" TEXT="belongs_to"/>
 <node COLOR="#0033ff" CREATED="1416842195660" ID="ID_485116488" MODIFIED="1416842242255" TEXT="has_one"/>
 <node COLOR="#0033ff" CREATED="1416842195661" ID="ID_1722252237" MODIFIED="1416842242255" TEXT="has_many"/>
@@ -61,7 +61,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1428591688382" TEXT="migration">
+<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1429995421573" TEXT="migration">
 <node CREATED="1283197450026" ID="ID_1587485051" MODIFIED="1416840201422">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -74,7 +74,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1428591688059" TEXT="script">
+<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1429995421281" TEXT="script">
 <node CREATED="1287135483060" FOLDED="true" ID="ID_130200917" MODIFIED="1428591685650" TEXT="table">
 <node COLOR="#0033ff" CREATED="1285662412008" FOLDED="true" ID="ID_628195570" MODIFIED="1428590911418" TEXT="create_table">
 <node CREATED="1285662758957" FOLDED="true" ID="ID_1855141473" MODIFIED="1428590842127" TEXT="parameters">
@@ -275,7 +275,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1287135525738" FOLDED="true" ID="ID_1091120829" MODIFIED="1428591683590" TEXT="columns">
+<node CREATED="1287135525738" FOLDED="true" ID="ID_1091120829" MODIFIED="1429995420471" TEXT="columns">
 <node CREATED="1428066291077" ID="ID_109349749" LINK="#ID_1273841851" MODIFIED="1428066308397" TEXT="datatypes"/>
 <node CREATED="1287135205372" ID="ID_538089736" MODIFIED="1416839395955">
 <richcontent TYPE="NODE"><html>
@@ -468,7 +468,7 @@
 <node COLOR="#0033ff" CREATED="1287675790052" ID="ID_437452920" MODIFIED="1416839494823" TEXT="raise ActiveRecord::IrreversibleMigration "/>
 </node>
 </node>
-<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1421139793676" TEXT="configuration">
+<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1430168899384" TEXT="configuration">
 <node CREATED="1420822145349" ID="ID_1238392466" MODIFIED="1420822170101">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -577,12 +577,57 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1430168742403" FOLDED="true" ID="ID_741606147" MODIFIED="1430168898076" TEXT="dry">
+<node CREATED="1430168745179" ID="ID_347306336" MODIFIED="1430168892603">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">development: &amp;default</font>
+    </p>
+    <p>
+      &#160;&#160;# <b>&amp;default</b>&#160;means write setting into var <b>default</b>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;user: ubuntu </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: phdd_dev </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">test:</font>
+    </p>
+    <p>
+      &#160;&#160;# <b>&lt;&lt;: *default</b>&#160;means include settings from var with name *&lt;name&gt;
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;&lt;: *default </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: phdd_test</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1421261381206" FOLDED="true" ID="ID_261475142" MODIFIED="1427746758992" TEXT="db/seeds.rb">
+</node>
+</node>
+<node CREATED="1421261381206" FOLDED="true" ID="ID_261475142" MODIFIED="1430168136101" TEXT="db/seeds.rb">
 <node COLOR="#0033ff" CREATED="1421261417332" ID="ID_1423604787" MODIFIED="1421261449035" TEXT="User.create(name: &apos;user&apos;, password: &apos;password&apos;)"/>
 <node COLOR="#0033ff" CREATED="1427725208286" ID="ID_1142261647" LINK="gems/factory_girl.mm" MODIFIED="1427746752429" TEXT=" factory_girl"/>
 </node>
-<node CREATED="1427725192287" FOLDED="true" ID="ID_1636398461" MODIFIED="1427746760808" TEXT="tricks">
+<node CREATED="1427725192287" FOLDED="true" ID="ID_1636398461" MODIFIED="1430168127252" TEXT="tricks">
 <node COLOR="#990099" CREATED="1416566466801" ID="ID_369394075" LINK="http://stackoverflow.com/questions/6021372/best-way-to-create-unique-token-in-rails" MODIFIED="1416840273419" TEXT="create hash token"/>
 <node COLOR="#990099" CREATED="1416840123243" ID="ID_1727965400" LINK="http://devblog.moz.com/2010/10/non-integer-primary-keys-in-rails/" MODIFIED="1416841240940" TEXT="create table with md5 index"/>
 <node COLOR="#990099" CREATED="1416840461710" ID="ID_829964542" LINK="http://labria.github.io/2013/04/28/rails-4-postgres-uuid-pk-guide/" MODIFIED="1416840493406" TEXT="create table with uuid index - Rails4"/>
@@ -600,6 +645,21 @@
 </node>
 <node COLOR="#990099" CREATED="1417218881618" ID="ID_1681307262" LINK="http://ruby-journal.com/how-to-override-default-primary-key-id-in-rails/" MODIFIED="1417218903027" TEXT="create another primary key">
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1430168046484" FOLDED="true" ID="ID_906438939" MODIFIED="1430168104766" TEXT="where">
+<node CREATED="1430168051730" ID="ID_1519347485" MODIFIED="1430168095083">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">Foo.includes(:bar).<b>where</b>.not('bars.id' =&gt; nil)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -994,8 +1054,7 @@
       <font color="#0000ff">railsapp.github.io </font><font color="#000000">environment variables</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
