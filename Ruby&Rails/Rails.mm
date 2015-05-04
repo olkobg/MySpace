@@ -2,27 +2,133 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1428591689617" TEXT="Rails">
 <font NAME="SansSerif" SIZE="31"/>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1430168900440" POSITION="right" TEXT="Models">
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1430738689082" POSITION="right" TEXT="Models">
 <font NAME="SansSerif" SIZE="20"/>
-<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1430168043429" TEXT="validate">
-<node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
-<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1416842175466" FOLDED="true" ID="ID_699552630" MODIFIED="1430738687999" TEXT="associations">
+<node COLOR="#0033ff" CREATED="1416842195656" FOLDED="true" ID="ID_530623936" MODIFIED="1430738538228" TEXT="belongs_to">
+<node COLOR="#0033ff" CREATED="1430738478077" ID="ID_277949474" MODIFIED="1430738532639" TEXT="association(force_reload = false)"/>
+<node COLOR="#0033ff" CREATED="1430738478081" ID="ID_422384461" MODIFIED="1430738532641" TEXT="association=(associate)"/>
+<node COLOR="#0033ff" CREATED="1430738478082" ID="ID_738837281" MODIFIED="1430738532641" TEXT="build_association(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430738478082" ID="ID_943457354" MODIFIED="1430738532642" TEXT="create_association(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430738478082" ID="ID_509414620" MODIFIED="1430738532643" TEXT="create_association!(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430738504422" ID="ID_1340387378" MODIFIED="1430738532644" TEXT=":autosave"/>
+<node COLOR="#0033ff" CREATED="1430738504422" ID="ID_131827009" MODIFIED="1430738532644" TEXT=":class_name"/>
+<node COLOR="#0033ff" CREATED="1430738504423" ID="ID_1466491169" MODIFIED="1430738532645" TEXT=":counter_cache"/>
+<node COLOR="#0033ff" CREATED="1430738504423" ID="ID_1868475911" MODIFIED="1430738532646" TEXT=":dependent"/>
+<node COLOR="#0033ff" CREATED="1430738504423" ID="ID_234912489" MODIFIED="1430738532647" TEXT=":foreign_key"/>
+<node COLOR="#0033ff" CREATED="1430738504424" ID="ID_765887506" MODIFIED="1430738532647" TEXT=":inverse_of"/>
+<node COLOR="#0033ff" CREATED="1430738504424" ID="ID_503113618" MODIFIED="1430738532648" TEXT=":polymorphic"/>
+<node COLOR="#0033ff" CREATED="1430738504424" ID="ID_881958210" MODIFIED="1430738532649" TEXT=":touch"/>
+<node COLOR="#0033ff" CREATED="1430738504425" ID="ID_1273712566" MODIFIED="1430738532649" TEXT=":validate"/>
+<node COLOR="#0033ff" CREATED="1430738527530" ID="ID_1374215688" MODIFIED="1430738532650" TEXT="where"/>
+<node COLOR="#0033ff" CREATED="1430738527531" ID="ID_1481503816" MODIFIED="1430738532651" TEXT="includes"/>
+<node COLOR="#0033ff" CREATED="1430738527531" ID="ID_1940971171" MODIFIED="1430738532651" TEXT="readonly"/>
+<node COLOR="#0033ff" CREATED="1430738527531" ID="ID_759191749" MODIFIED="1430738532652" TEXT="select"/>
 </node>
-<node CREATED="1283855759515" FOLDED="true" ID="ID_376548583" MODIFIED="1430168036967" TEXT="Helpers">
-<node CREATED="1283855731031" ID="ID_840957597" MODIFIED="1283855767406" TEXT="validates_numericaly - to validate number in model"/>
+<node COLOR="#0033ff" CREATED="1416842195660" FOLDED="true" ID="ID_485116488" MODIFIED="1430738535560" TEXT="has_one">
+<node COLOR="#0033ff" CREATED="1430738341850" ID="ID_1480826703" MODIFIED="1430738400762" TEXT="association(force_reload = false)"/>
+<node COLOR="#0033ff" CREATED="1430738341851" ID="ID_1752171217" MODIFIED="1430738400763" TEXT="association=(associate)"/>
+<node COLOR="#0033ff" CREATED="1430738341851" ID="ID_929642712" MODIFIED="1430738400764" TEXT="build_association(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430738341852" ID="ID_144107832" MODIFIED="1430738400764" TEXT="create_association(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430738341852" ID="ID_1861578083" MODIFIED="1430738400765" TEXT="create_association!(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430738375104" ID="ID_528984680" MODIFIED="1430738400766" TEXT=":as"/>
+<node COLOR="#0033ff" CREATED="1430738375104" ID="ID_1825480214" MODIFIED="1430738400767" TEXT=":autosave"/>
+<node COLOR="#0033ff" CREATED="1430738375105" ID="ID_778016856" MODIFIED="1430738400767" TEXT=":class_name"/>
+<node COLOR="#0033ff" CREATED="1430738375105" ID="ID_1646013312" MODIFIED="1430738400768" TEXT=":dependent"/>
+<node COLOR="#0033ff" CREATED="1430738375105" ID="ID_813255208" MODIFIED="1430738400775" TEXT=":foreign_key"/>
+<node COLOR="#0033ff" CREATED="1430738375106" ID="ID_1859264594" MODIFIED="1430738400776" TEXT=":inverse_of"/>
+<node COLOR="#0033ff" CREATED="1430738375106" ID="ID_1615519247" MODIFIED="1430738400777" TEXT=":primary_key"/>
+<node COLOR="#0033ff" CREATED="1430738375106" ID="ID_1025207477" MODIFIED="1430738400777" TEXT=":source"/>
+<node COLOR="#0033ff" CREATED="1430738375107" ID="ID_1566612507" MODIFIED="1430738400778" TEXT=":source_type"/>
+<node COLOR="#0033ff" CREATED="1430738375107" ID="ID_212040184" MODIFIED="1430738400779" TEXT=":through"/>
+<node COLOR="#0033ff" CREATED="1430738375107" ID="ID_133373998" MODIFIED="1430738400779" TEXT=":validate"/>
+<node COLOR="#0033ff" CREATED="1430738308835" ID="ID_1399653476" MODIFIED="1430738313055" TEXT="where"/>
+<node COLOR="#0033ff" CREATED="1430738308836" ID="ID_793343531" MODIFIED="1430738313054" TEXT="includes"/>
+<node COLOR="#0033ff" CREATED="1430738308837" ID="ID_1083276236" MODIFIED="1430738313053" TEXT="readonly"/>
+<node COLOR="#0033ff" CREATED="1430738308837" ID="ID_820161755" MODIFIED="1430738313052" TEXT="select"/>
 </node>
-<node CREATED="1285151124782" ID="ID_1515217412" MODIFIED="1285151126295" TEXT="built-in error messages, look for the file validations.rb within the Active Record gem"/>
+<node COLOR="#0033ff" CREATED="1416842195661" FOLDED="true" ID="ID_1722252237" MODIFIED="1430738306990" TEXT="has_many">
+<node COLOR="#0033ff" CREATED="1430738190270" ID="ID_859863913" MODIFIED="1430738224209" TEXT="collection(force_reload = false)"/>
+<node COLOR="#0033ff" CREATED="1430738190272" ID="ID_654316949" MODIFIED="1430738224210" TEXT="collection&lt;&lt;(object, ...)"/>
+<node COLOR="#0033ff" CREATED="1430738190275" ID="ID_1377538741" MODIFIED="1430738224211" TEXT="collection.delete(object, ...)"/>
+<node COLOR="#0033ff" CREATED="1430738190275" ID="ID_788534817" MODIFIED="1430738224212" TEXT="collection.destroy(object, ...)"/>
+<node COLOR="#0033ff" CREATED="1430738190276" ID="ID_1726200363" MODIFIED="1430738224212" TEXT="collection=(objects)"/>
+<node COLOR="#0033ff" CREATED="1430738190276" ID="ID_1444148551" MODIFIED="1430738224213" TEXT="collection_singular_ids"/>
+<node COLOR="#0033ff" CREATED="1430738190277" ID="ID_468561983" MODIFIED="1430738224214" TEXT="collection_singular_ids=(ids)"/>
+<node COLOR="#0033ff" CREATED="1430738190277" ID="ID_1383984409" MODIFIED="1430738224215" TEXT="collection.clear"/>
+<node COLOR="#0033ff" CREATED="1430738190277" ID="ID_1801404108" MODIFIED="1430738224215" TEXT="collection.empty?"/>
+<node COLOR="#0033ff" CREATED="1430738190278" ID="ID_1351307679" MODIFIED="1430738224216" TEXT="collection.size"/>
+<node COLOR="#0033ff" CREATED="1430738190278" ID="ID_1636618885" MODIFIED="1430738224217" TEXT="collection.find(...)"/>
+<node COLOR="#0033ff" CREATED="1430738190278" ID="ID_85105084" MODIFIED="1430738224218" TEXT="collection.where(...)"/>
+<node COLOR="#0033ff" CREATED="1430738190279" ID="ID_1749327212" MODIFIED="1430738224218" TEXT="collection.exists?(...)"/>
+<node COLOR="#0033ff" CREATED="1430738190279" ID="ID_1906549873" MODIFIED="1430738224219" TEXT="collection.build(attributes = {}, ...)"/>
+<node COLOR="#0033ff" CREATED="1430738190280" ID="ID_1713814371" MODIFIED="1430738224219" TEXT="collection.create(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430738190280" ID="ID_1553930368" MODIFIED="1430738224220" TEXT="collection.create!(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430736650769" ID="ID_109308218" MODIFIED="1430736656701" TEXT=":as"/>
+<node COLOR="#0033ff" CREATED="1430736650770" ID="ID_606346788" MODIFIED="1430736656700" TEXT=":autosave"/>
+<node COLOR="#0033ff" CREATED="1430736650770" ID="ID_955187437" MODIFIED="1430736656699" TEXT=":class_name"/>
+<node COLOR="#0033ff" CREATED="1430736378107" FOLDED="true" ID="ID_917047314" MODIFIED="1430736633271" TEXT=":dependent">
+<node COLOR="#0033ff" CREATED="1430736384167" ID="ID_1922535652" MODIFIED="1430736430070" TEXT=":delete_all"/>
+<node COLOR="#0033ff" CREATED="1430736390330" ID="ID_258065812" MODIFIED="1430736430069" TEXT=":destroy"/>
+<node COLOR="#0033ff" CREATED="1430736396877" ID="ID_1240363348" MODIFIED="1430736430068" TEXT=":restrict"/>
+<node COLOR="#990099" CREATED="1430736404189" ID="ID_1055107896" LINK="http://stackoverflow.com/questions/6301054/check-all-associations-before-destroy-in-rails" MODIFIED="1430736425019" TEXT="check associations"/>
 </node>
-<node CREATED="1416842175466" FOLDED="true" ID="ID_699552630" MODIFIED="1430168026906" TEXT="relation">
-<node COLOR="#0033ff" CREATED="1416842195656" ID="ID_530623936" MODIFIED="1416842242256" TEXT="belongs_to"/>
-<node COLOR="#0033ff" CREATED="1416842195660" ID="ID_485116488" MODIFIED="1416842242255" TEXT="has_one"/>
-<node COLOR="#0033ff" CREATED="1416842195661" ID="ID_1722252237" MODIFIED="1416842242255" TEXT="has_many"/>
-<node COLOR="#0033ff" CREATED="1416842195662" ID="ID_1457577574" MODIFIED="1416842242254" TEXT="has_many :through"/>
-<node COLOR="#0033ff" CREATED="1416842195663" ID="ID_1289786938" MODIFIED="1416842242253" TEXT="has_one :through"/>
-<node COLOR="#0033ff" CREATED="1285678271464" FOLDED="true" ID="ID_591137923" MODIFIED="1428523868723" TEXT="has_and_belongs_to_many">
+<node COLOR="#0033ff" CREATED="1430736564921" ID="ID_1490747757" MODIFIED="1430736593653" TEXT=":foreign_key"/>
+<node COLOR="#0033ff" CREATED="1430736564921" ID="ID_1369201036" MODIFIED="1430736593654" TEXT=":inverse_of"/>
+<node COLOR="#0033ff" CREATED="1430736564922" ID="ID_1509133436" MODIFIED="1430736593655" TEXT=":primary_key"/>
+<node COLOR="#0033ff" CREATED="1430736564922" ID="ID_947019841" MODIFIED="1430736593656" TEXT=":source"/>
+<node COLOR="#0033ff" CREATED="1430736564923" ID="ID_46897750" MODIFIED="1430736593657" TEXT=":source_type"/>
+<node COLOR="#0033ff" CREATED="1430736564923" FOLDED="true" ID="ID_466579552" MODIFIED="1430738119102" TEXT=":through">
+<node COLOR="#0033ff" CREATED="1416842195662" ID="ID_1457577574" MODIFIED="1430738114334" TEXT="has_many :through"/>
+</node>
+<node COLOR="#0033ff" CREATED="1430736564923" ID="ID_1888014004" MODIFIED="1430736593659" TEXT=":validate"/>
+<node COLOR="#0033ff" CREATED="1430738097340" ID="ID_473310371" MODIFIED="1430738232830" TEXT="where"/>
+<node COLOR="#0033ff" CREATED="1430738097343" ID="ID_1153913300" MODIFIED="1430738232830" TEXT="extending"/>
+<node COLOR="#0033ff" CREATED="1430738097344" ID="ID_375656799" MODIFIED="1430738232829" TEXT="group"/>
+<node COLOR="#0033ff" CREATED="1430738097345" ID="ID_391094602" MODIFIED="1430738232828" TEXT="includes"/>
+<node COLOR="#0033ff" CREATED="1430738097345" ID="ID_1198924770" MODIFIED="1430738232828" TEXT="limit"/>
+<node COLOR="#0033ff" CREATED="1430738097345" ID="ID_1689054079" MODIFIED="1430738232827" TEXT="offset"/>
+<node COLOR="#0033ff" CREATED="1430738097345" ID="ID_551329890" MODIFIED="1430738232826" TEXT="order"/>
+<node COLOR="#0033ff" CREATED="1430738097346" ID="ID_603515963" MODIFIED="1430738232825" TEXT="readonly"/>
+<node COLOR="#0033ff" CREATED="1430738097346" ID="ID_1716100126" MODIFIED="1430738232824" TEXT="select"/>
+<node COLOR="#0033ff" CREATED="1430738097346" ID="ID_341245144" MODIFIED="1430738232823" TEXT="uniq"/>
+</node>
+<node COLOR="#0033ff" CREATED="1285678271464" FOLDED="true" ID="ID_591137923" MODIFIED="1430738684676" TEXT="has_and_belongs_to_many">
 <node CREATED="1285683892914" ID="ID_1843804199" MODIFIED="1285683946651" TEXT="Rails Assumes that name of join table contained with names of tables in alphabetical order"/>
+<node COLOR="#0033ff" CREATED="1430738623792" ID="ID_1674955823" MODIFIED="1430738682842" TEXT="collection(force_reload = false)"/>
+<node COLOR="#0033ff" CREATED="1430738623793" ID="ID_759944330" MODIFIED="1430738682841" TEXT="collection&lt;&lt;(object, ...)"/>
+<node COLOR="#0033ff" CREATED="1430738623793" ID="ID_1199662050" MODIFIED="1430738682841" TEXT="collection.delete(object, ...)"/>
+<node COLOR="#0033ff" CREATED="1430738623794" ID="ID_1983189798" MODIFIED="1430738682840" TEXT="collection.destroy(object, ...)"/>
+<node COLOR="#0033ff" CREATED="1430738623794" ID="ID_6148318" MODIFIED="1430738682840" TEXT="collection=(objects)"/>
+<node COLOR="#0033ff" CREATED="1430738623794" ID="ID_1127825465" MODIFIED="1430738682839" TEXT="collection_singular_ids"/>
+<node COLOR="#0033ff" CREATED="1430738623795" ID="ID_1987864555" MODIFIED="1430738682839" TEXT="collection_singular_ids=(ids)"/>
+<node COLOR="#0033ff" CREATED="1430738623795" ID="ID_144733583" MODIFIED="1430738682838" TEXT="collection.clear"/>
+<node COLOR="#0033ff" CREATED="1430738623795" ID="ID_906893971" MODIFIED="1430738682838" TEXT="collection.empty?"/>
+<node COLOR="#0033ff" CREATED="1430738623796" ID="ID_219522389" MODIFIED="1430738682837" TEXT="collection.size"/>
+<node COLOR="#0033ff" CREATED="1430738623796" ID="ID_1979086117" MODIFIED="1430738682837" TEXT="collection.find(...)"/>
+<node COLOR="#0033ff" CREATED="1430738623796" ID="ID_1209215032" MODIFIED="1430738682836" TEXT="collection.where(...)"/>
+<node COLOR="#0033ff" CREATED="1430738623797" ID="ID_617084674" MODIFIED="1430738682836" TEXT="collection.exists?(...)"/>
+<node COLOR="#0033ff" CREATED="1430738623797" ID="ID_552415950" MODIFIED="1430738682835" TEXT="collection.build(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430738623797" ID="ID_583096082" MODIFIED="1430738682835" TEXT="collection.create(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430738623797" ID="ID_1072633558" MODIFIED="1430738682834" TEXT="collection.create!(attributes = {})"/>
+<node COLOR="#0033ff" CREATED="1430738652680" ID="ID_800227720" MODIFIED="1430738682833" TEXT=":association_foreign_key"/>
+<node COLOR="#0033ff" CREATED="1430738652681" ID="ID_1469462768" MODIFIED="1430738682833" TEXT=":autosave"/>
+<node COLOR="#0033ff" CREATED="1430738652682" ID="ID_1879884410" MODIFIED="1430738682832" TEXT=":class_name"/>
+<node COLOR="#0033ff" CREATED="1430738652682" ID="ID_301221735" MODIFIED="1430738682832" TEXT=":foreign_key"/>
+<node COLOR="#0033ff" CREATED="1430738652682" ID="ID_934086200" MODIFIED="1430738682831" TEXT=":join_table"/>
+<node COLOR="#0033ff" CREATED="1430738652683" ID="ID_1692863061" MODIFIED="1430738682830" TEXT=":validate"/>
+<node COLOR="#0033ff" CREATED="1430738673765" ID="ID_1475694981" MODIFIED="1430738682829" TEXT="where"/>
+<node COLOR="#0033ff" CREATED="1430738673766" ID="ID_961033308" MODIFIED="1430738682829" TEXT="extending"/>
+<node COLOR="#0033ff" CREATED="1430738673766" ID="ID_1310738561" MODIFIED="1430738682828" TEXT="group"/>
+<node COLOR="#0033ff" CREATED="1430738673766" ID="ID_125936488" MODIFIED="1430738682827" TEXT="includes"/>
+<node COLOR="#0033ff" CREATED="1430738673767" ID="ID_533556928" MODIFIED="1430738682827" TEXT="limit"/>
+<node COLOR="#0033ff" CREATED="1430738673767" ID="ID_1058962492" MODIFIED="1430738682826" TEXT="offset"/>
+<node COLOR="#0033ff" CREATED="1430738673767" ID="ID_230555352" MODIFIED="1430738682825" TEXT="order"/>
+<node COLOR="#0033ff" CREATED="1430738673768" ID="ID_1474378500" MODIFIED="1430738682824" TEXT="readonly"/>
+<node COLOR="#0033ff" CREATED="1430738673768" ID="ID_1012617940" MODIFIED="1430738682824" TEXT="select"/>
+<node COLOR="#0033ff" CREATED="1430738673768" ID="ID_857993929" MODIFIED="1430738682822" TEXT="uniq"/>
 </node>
-<node CREATED="1287582356066" FOLDED="true" ID="ID_1345264885" MODIFIED="1428523851473" TEXT="self-joining">
+<node CREATED="1287582356066" FOLDED="true" ID="ID_1345264885" MODIFIED="1430738541663" TEXT="self-joining">
 <node CREATED="1287582366583" ID="ID_582525394" MODIFIED="1419241979514">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -61,7 +167,403 @@
 </node>
 </node>
 </node>
-<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1429995421573" TEXT="migration">
+<node CREATED="1430737180777" FOLDED="true" ID="ID_1622494300" MODIFIED="1430738043686" TEXT="callbacks">
+<node COLOR="#0033ff" CREATED="1430737280340" ID="ID_1568550947" MODIFIED="1430737428873" TEXT="after_touch"/>
+<node COLOR="#0033ff" CREATED="1430737283965" ID="ID_777137525" MODIFIED="1430737428874" TEXT="after_find"/>
+<node COLOR="#0033ff" CREATED="1430737286508" ID="ID_1924268165" MODIFIED="1430737428875" TEXT="after_initialize"/>
+<node CREATED="1430737187123" FOLDED="true" ID="ID_1207425529" MODIFIED="1430737737821" TEXT="creating">
+<node COLOR="#0033ff" CREATED="1430737187124" ID="ID_446293897" MODIFIED="1430737237524" TEXT="before_validation"/>
+<node COLOR="#0033ff" CREATED="1430737187125" ID="ID_695061227" MODIFIED="1430737237523" TEXT="after_validation"/>
+<node COLOR="#0033ff" CREATED="1430737187125" ID="ID_676045835" MODIFIED="1430737237522" TEXT="before_save"/>
+<node COLOR="#0033ff" CREATED="1430737187125" ID="ID_1593614366" MODIFIED="1430737237522" TEXT="around_save"/>
+<node COLOR="#0033ff" CREATED="1430737187126" ID="ID_768494485" MODIFIED="1430737237521" TEXT="before_create"/>
+<node COLOR="#0033ff" CREATED="1430737187126" ID="ID_1248089609" MODIFIED="1430737237521" TEXT="around_create"/>
+<node COLOR="#0033ff" CREATED="1430737187126" ID="ID_1794297476" MODIFIED="1430737237520" TEXT="after_create"/>
+<node COLOR="#0033ff" CREATED="1430737187126" ID="ID_982815418" MODIFIED="1430737237519" TEXT="after_save"/>
+<node COLOR="#0033ff" CREATED="1430737187127" ID="ID_194332171" MODIFIED="1430737237519" TEXT="after_commit/after_rollback"/>
+</node>
+<node CREATED="1430737187127" FOLDED="true" ID="ID_138048484" MODIFIED="1430737739016" TEXT="updating">
+<node COLOR="#0033ff" CREATED="1430737187127" ID="ID_1857740270" MODIFIED="1430737237518" TEXT="before_validation"/>
+<node COLOR="#0033ff" CREATED="1430737187128" ID="ID_672086844" MODIFIED="1430737237517" TEXT="after_validation"/>
+<node COLOR="#0033ff" CREATED="1430737187128" ID="ID_1656768046" MODIFIED="1430737237517" TEXT="before_save"/>
+<node COLOR="#0033ff" CREATED="1430737187129" ID="ID_1468039689" MODIFIED="1430737237516" TEXT="around_save"/>
+<node COLOR="#0033ff" CREATED="1430737187129" ID="ID_1819615067" MODIFIED="1430737237515" TEXT="before_update"/>
+<node COLOR="#0033ff" CREATED="1430737187129" ID="ID_318670452" MODIFIED="1430737237514" TEXT="around_update"/>
+<node COLOR="#0033ff" CREATED="1430737187130" ID="ID_870205339" MODIFIED="1430737237514" TEXT="after_update"/>
+<node COLOR="#0033ff" CREATED="1430737187130" ID="ID_341296332" MODIFIED="1430737237513" TEXT="after_save"/>
+<node COLOR="#0033ff" CREATED="1430737187130" ID="ID_92090405" MODIFIED="1430737237512" TEXT="after_commit/after_rollback"/>
+</node>
+<node CREATED="1430737187130" FOLDED="true" ID="ID_647715507" MODIFIED="1430737740365" TEXT="destroying">
+<node COLOR="#0033ff" CREATED="1430737187131" ID="ID_1824170883" MODIFIED="1430737237511" TEXT="before_destroy"/>
+<node COLOR="#0033ff" CREATED="1430737187131" ID="ID_1567903721" MODIFIED="1430737237511" TEXT="around_destroy"/>
+<node COLOR="#0033ff" CREATED="1430737187131" ID="ID_1597395441" MODIFIED="1430737237510" TEXT="after_destroy"/>
+<node COLOR="#0033ff" CREATED="1430737187132" ID="ID_85796612" MODIFIED="1430737237508" TEXT="after_commit/after_rollback"/>
+</node>
+<node CREATED="1430737434824" FOLDED="true" ID="ID_1538726711" MODIFIED="1430737731563" TEXT="conditional">
+<node COLOR="#0033ff" CREATED="1430737444633" FOLDED="true" ID="ID_1647589414" MODIFIED="1430737730106" TEXT="if:">
+<node CREATED="1430737567167" ID="ID_557351114" MODIFIED="1430737626793">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # using
+    </p>
+    <p>
+      <font color="#0000ff">class Order &lt; ActiveRecord::Base </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;before_save :normalize_card_number, if: :paid_with_card? </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1430737593855" ID="ID_1784526114" MODIFIED="1430737615849">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # using with string
+    </p>
+    <p>
+      <font color="#0000ff">class Order &lt; ActiveRecord::Base </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;before_save :normalize_card_number, if: &quot;paid_with_card?&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1430737649712" ID="ID_541347002" MODIFIED="1430737665695">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # using with a Proc
+    </p>
+    <p>
+      <font color="#0000ff">class Order &lt; ActiveRecord::Base </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;before_save :normalize_card_number, </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;if: Proc.new { |order| order.paid_with_card? } </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1430737679145" ID="ID_260078601" MODIFIED="1430737728479">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # using multiple conditions
+    </p>
+    <p>
+      <font color="#0000ff">class Comment &lt; ActiveRecord::Base </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;after_create :send_email_to_author, if: :author_wants_emails?, </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;unless: Proc.new { |comment| comment.article.ignore_comments? } </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1430737446625" ID="ID_1921384015" MODIFIED="1430737451334" TEXT="unless:"/>
+</node>
+<node CREATED="1430737334660" FOLDED="true" ID="ID_1426244016" MODIFIED="1430737733642" TEXT="skip with ">
+<node COLOR="#0033ff" CREATED="1430737359145" ID="ID_1950586055" MODIFIED="1430737364787" TEXT="decrement"/>
+<node COLOR="#0033ff" CREATED="1430737359145" ID="ID_1196464883" MODIFIED="1430737364786" TEXT="decrement_counter"/>
+<node COLOR="#0033ff" CREATED="1430737359146" ID="ID_653769959" MODIFIED="1430737364785" TEXT="delete"/>
+<node COLOR="#0033ff" CREATED="1430737359146" ID="ID_55755330" MODIFIED="1430737364785" TEXT="delete_all"/>
+<node COLOR="#0033ff" CREATED="1430737359147" ID="ID_537551130" MODIFIED="1430737364784" TEXT="increment"/>
+<node COLOR="#0033ff" CREATED="1430737359147" ID="ID_202603065" MODIFIED="1430737364783" TEXT="increment_counter"/>
+<node COLOR="#0033ff" CREATED="1430737359147" ID="ID_1811692580" MODIFIED="1430737364782" TEXT="toggle"/>
+<node COLOR="#0033ff" CREATED="1430737359148" ID="ID_1214340761" MODIFIED="1430737364782" TEXT="touch"/>
+<node COLOR="#0033ff" CREATED="1430737359148" ID="ID_995157842" MODIFIED="1430737364781" TEXT="update_column"/>
+<node COLOR="#0033ff" CREATED="1430737359148" ID="ID_647405602" MODIFIED="1430737364780" TEXT="update_columns"/>
+<node COLOR="#0033ff" CREATED="1430737359149" ID="ID_1600069650" MODIFIED="1430737364779" TEXT="update_all"/>
+<node COLOR="#0033ff" CREATED="1430737359149" ID="ID_1396072122" MODIFIED="1430737364778" TEXT="update_counters"/>
+</node>
+<node CREATED="1430737894316" FOLDED="true" ID="ID_119077906" MODIFIED="1430738042448" TEXT="register">
+<node CREATED="1430737899385" ID="ID_993501591" MODIFIED="1430737932078">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">before_validation :normalize_name, on: :create</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # :on takes an array as well
+    </p>
+    <p>
+      <font color="#0000ff">after_validation :set_location, on: [ :create, :update ]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1430737945712" ID="ID_1200511700" MODIFIED="1430737972756">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # macro style
+    </p>
+    <p>
+      <font color="#0000ff">before_create do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;self.name = login.capitalize if name.blank? </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1430737974237" ID="ID_1693126304" MODIFIED="1430738038759">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # method style registration
+    </p>
+    <p>
+      <font color="#0000ff">before_validation :ensure_login_has_a_value </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">protected </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def ensure_login_has_a_value </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;if login.nil? </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;self.login = email unless email.blank? </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1430737768145" TEXT="configuration">
+<node CREATED="1420822145349" ID="ID_1238392466" MODIFIED="1420822170101">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # mysql
+    </p>
+    <p>
+      <font color="#0000ff">test: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: mysql2 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;reconnect: false </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;username: root </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;password: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;socket: /tmp/mysql.sock</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1420822171416" ID="ID_1982080777" MODIFIED="1420822669021">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # postgres
+    </p>
+    <p>
+      <font color="#0000ff">test: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;timeout: 5000 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;min_messages: warning</font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;username: root&#160;&#160;# or your system username </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;password: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;host: localhost </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1420822188130" ID="ID_1049566929" MODIFIED="1420822211556">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # sqlite
+    </p>
+    <p>
+      <font color="#0000ff">test: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: sqlite3 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: db/test.sqlite3 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;timeout: 5000</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1430168742403" FOLDED="true" ID="ID_741606147" MODIFIED="1430303368533" TEXT="dry">
+<node CREATED="1430168745179" ID="ID_347306336" MODIFIED="1430168892603">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">development: &amp;default</font>
+    </p>
+    <p>
+      &#160;&#160;# <b>&amp;default</b>&#160;means write setting into var <b>default</b>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;user: ubuntu </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: phdd_dev </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">test:</font>
+    </p>
+    <p>
+      &#160;&#160;# <b>&lt;&lt;: *default</b>&#160;means include settings from var with name *&lt;name&gt;
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;&lt;: *default </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: phdd_test</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1421261381206" FOLDED="true" ID="ID_261475142" MODIFIED="1430592420134" TEXT="db/seeds.rb">
+<node COLOR="#0033ff" CREATED="1421261417332" ID="ID_1423604787" MODIFIED="1421261449035" TEXT="User.create(name: &apos;user&apos;, password: &apos;password&apos;)"/>
+<node COLOR="#0033ff" CREATED="1427725208286" ID="ID_1142261647" LINK="gems/factory_girl.mm" MODIFIED="1427746752429" TEXT=" factory_girl"/>
+</node>
+<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1430737766364" TEXT="validate">
+<node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1283855759515" FOLDED="true" ID="ID_376548583" MODIFIED="1430592411898" TEXT="Helpers">
+<node CREATED="1283855731031" ID="ID_840957597" MODIFIED="1283855767406" TEXT="validates_numericaly - to validate number in model"/>
+</node>
+<node CREATED="1285151124782" ID="ID_1515217412" MODIFIED="1285151126295" TEXT="built-in error messages, look for the file validations.rb within the Active Record gem"/>
+</node>
+<node CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" MODIFIED="1430737770088" TEXT="migration">
 <node CREATED="1283197450026" ID="ID_1587485051" MODIFIED="1416840201422">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -468,166 +970,27 @@
 <node COLOR="#0033ff" CREATED="1287675790052" ID="ID_437452920" MODIFIED="1416839494823" TEXT="raise ActiveRecord::IrreversibleMigration "/>
 </node>
 </node>
-<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1430168899384" TEXT="configuration">
-<node CREATED="1420822145349" ID="ID_1238392466" MODIFIED="1420822170101">
+<node COLOR="#0033ff" CREATED="1430168046484" FOLDED="true" ID="ID_906438939" MODIFIED="1430737778171" TEXT="where">
+<node CREATED="1430168051730" ID="ID_1519347485" MODIFIED="1430168095083">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      # mysql
-    </p>
-    <p>
-      <font color="#0000ff">test: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;adapter: mysql2 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;reconnect: false </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;pool: 5 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;username: root </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;password: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;socket: /tmp/mysql.sock</font>
+      <font color="#0000ff">Foo.includes(:bar).<b>where</b>.not('bars.id' =&gt; nil)</font>
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1420822171416" ID="ID_1982080777" MODIFIED="1420822669021">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # postgres
-    </p>
-    <p>
-      <font color="#0000ff">test: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;pool: 5 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;timeout: 5000 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;min_messages: warning</font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;username: root&#160;&#160;# or your system username </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;password: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;host: localhost </font>
-    </p>
-  </body>
-</html></richcontent>
 </node>
-<node CREATED="1420822188130" ID="ID_1049566929" MODIFIED="1420822211556">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # sqlite
-    </p>
-    <p>
-      <font color="#0000ff">test: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;adapter: sqlite3 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;database: db/test.sqlite3 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;pool: 5 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;timeout: 5000</font>
-    </p>
-  </body>
-</html></richcontent>
+<node COLOR="#0033ff" CREATED="1430592423913" FOLDED="true" ID="ID_1930494093" MODIFIED="1430737778171" TEXT="destroy">
+<node CREATED="1430592438861" ID="ID_1966308863" MODIFIED="1430592443095" TEXT="deletes with callbacks"/>
 </node>
-<node CREATED="1430168742403" FOLDED="true" ID="ID_741606147" MODIFIED="1430168898076" TEXT="dry">
-<node CREATED="1430168745179" ID="ID_347306336" MODIFIED="1430168892603">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">development: &amp;default</font>
-    </p>
-    <p>
-      &#160;&#160;# <b>&amp;default</b>&#160;means write setting into var <b>default</b>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;user: ubuntu </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;database: phdd_dev </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;pool: 5</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#0000ff">test:</font>
-    </p>
-    <p>
-      &#160;&#160;# <b>&lt;&lt;: *default</b>&#160;means include settings from var with name *&lt;name&gt;
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&lt;&lt;: *default </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;database: phdd_test</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1421261381206" FOLDED="true" ID="ID_261475142" MODIFIED="1430168136101" TEXT="db/seeds.rb">
-<node COLOR="#0033ff" CREATED="1421261417332" ID="ID_1423604787" MODIFIED="1421261449035" TEXT="User.create(name: &apos;user&apos;, password: &apos;password&apos;)"/>
-<node COLOR="#0033ff" CREATED="1427725208286" ID="ID_1142261647" LINK="gems/factory_girl.mm" MODIFIED="1427746752429" TEXT=" factory_girl"/>
-</node>
-<node CREATED="1427725192287" FOLDED="true" ID="ID_1636398461" MODIFIED="1430168127252" TEXT="tricks">
+<node COLOR="#0033ff" CREATED="1430592432356" ID="ID_1374528787" MODIFIED="1430737774880" TEXT="delete"/>
+<node COLOR="#0033ff" CREATED="1430737783632" ID="ID_1013933550" MODIFIED="1430737787094" TEXT="find"/>
+<node COLOR="#0033ff" CREATED="1430737792900" ID="ID_1528439055" MODIFIED="1430737797517" TEXT="include"/>
+<node CREATED="1427725192287" FOLDED="true" ID="ID_1636398461" MODIFIED="1430737759730" TEXT="tricks">
 <node COLOR="#990099" CREATED="1416566466801" ID="ID_369394075" LINK="http://stackoverflow.com/questions/6021372/best-way-to-create-unique-token-in-rails" MODIFIED="1416840273419" TEXT="create hash token"/>
 <node COLOR="#990099" CREATED="1416840123243" ID="ID_1727965400" LINK="http://devblog.moz.com/2010/10/non-integer-primary-keys-in-rails/" MODIFIED="1416841240940" TEXT="create table with md5 index"/>
 <node COLOR="#990099" CREATED="1416840461710" ID="ID_829964542" LINK="http://labria.github.io/2013/04/28/rails-4-postgres-uuid-pk-guide/" MODIFIED="1416840493406" TEXT="create table with uuid index - Rails4"/>
@@ -645,21 +1008,6 @@
 </node>
 <node COLOR="#990099" CREATED="1417218881618" ID="ID_1681307262" LINK="http://ruby-journal.com/how-to-override-default-primary-key-id-in-rails/" MODIFIED="1417218903027" TEXT="create another primary key">
 <font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1430168046484" FOLDED="true" ID="ID_906438939" MODIFIED="1430168104766" TEXT="where">
-<node CREATED="1430168051730" ID="ID_1519347485" MODIFIED="1430168095083">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">Foo.includes(:bar).<b>where</b>.not('bars.id' =&gt; nil)</font>
-    </p>
-  </body>
-</html>
-</richcontent>
 </node>
 </node>
 </node>
@@ -940,7 +1288,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1421312717035" FOLDED="true" ID="ID_1005291656" MODIFIED="1429861323255" POSITION="left" TEXT="deploy">
+<node CREATED="1421312717035" FOLDED="true" ID="ID_1005291656" MODIFIED="1430304067987" POSITION="left" TEXT="deploy">
 <font NAME="SansSerif" SIZE="15"/>
 <node COLOR="#990099" CREATED="1421312721189" ID="ID_572369995" LINK="http://railsguides.net/deploy-ruby-on-rails-3-application-to-free-hosting/" MODIFIED="1421312745867" TEXT="deploy on heroku with s3 assets manager"/>
 </node>
@@ -1675,7 +2023,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1419275951392" FOLDED="true" ID="ID_795978789" MODIFIED="1425998859755" POSITION="right" TEXT="info">
+<node CREATED="1419275951392" FOLDED="true" ID="ID_795978789" MODIFIED="1430738723280" POSITION="right" TEXT="info">
 <node CREATED="1419275953591" ID="ID_161522889" LINK="https://tutorials.railsapps.org" MODIFIED="1419277708562">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1706,15 +2054,15 @@
 <node CREATED="1419372248665" ID="ID_995722388" LINK="https://www.justinweiss.com/" MODIFIED="1419372259679" TEXT="justin weiss"/>
 </node>
 </node>
-<node CREATED="1420823734426" FOLDED="true" ID="ID_422088789" MODIFIED="1427746792949" POSITION="right" TEXT="libs">
+<node CREATED="1420823734426" FOLDED="true" ID="ID_422088789" MODIFIED="1430738696286" POSITION="right" TEXT="libs">
 <node COLOR="#0033ff" CREATED="1420823737401" ID="ID_201409818" LINK="http://api.rubyonrails.org/classes/Rails/Railtie.html" MODIFIED="1420823742823" TEXT="Railte"/>
 <node CREATED="1421218567806" FOLDED="true" ID="ID_1164795564" MODIFIED="1427746792642" TEXT="Regex">
 <node COLOR="#0033ff" CREATED="1421218571238" ID="ID_1034002928" LINK="http://www.rubular.com/" MODIFIED="1421218579999" TEXT="Rubular"/>
 </node>
 </node>
-<node CREATED="1420910045107" FOLDED="true" ID="ID_1110634035" MODIFIED="1427746797742" POSITION="right" TEXT="fix">
-<node CREATED="1420910008825" FOLDED="true" ID="ID_958906436" MODIFIED="1427746797210" TEXT="migration">
-<node CREATED="1420910071937" FOLDED="true" ID="ID_331008287" MODIFIED="1427746796936" TEXT="PG::DependentObjectsStillExist: ERROR when using rspec">
+<node CREATED="1420910045107" FOLDED="true" ID="ID_1110634035" MODIFIED="1430738721451" POSITION="right" TEXT="fix">
+<node CREATED="1420910008825" FOLDED="true" ID="ID_958906436" MODIFIED="1430738721163" TEXT="migration">
+<node CREATED="1420910071937" FOLDED="true" ID="ID_331008287" MODIFIED="1430738720850" TEXT="PG::DependentObjectsStillExist: ERROR when using rspec">
 <node CREATED="1420910011772" ID="ID_1161272284" MODIFIED="1420910160700">
 <richcontent TYPE="NODE"><html>
   <head>
