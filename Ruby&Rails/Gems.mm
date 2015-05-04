@@ -140,29 +140,31 @@
 <node COLOR="#009999" CREATED="1415875145347" ID="ID_833859942" LINK="http://armoredcode.com/blog/build-an-api-for-fun-with-grape/" MODIFIED="1415875169159" TEXT="armoredcode"/>
 </node>
 </node>
-<node CREATED="1416310111007" FOLDED="true" ID="ID_316057901" MODIFIED="1429864974345" POSITION="left" TEXT="search">
-<node COLOR="#0033ff" CREATED="1416310115265" FOLDED="true" ID="ID_1578375191" LINK="../../../Dropbox/MySpace/IT/OS/Cross/searchEngine/ElasticSearch.mm" MODIFIED="1419367372266" TEXT="elasticsearch">
-<node COLOR="#009999" CREATED="1416310134840" FOLDED="true" ID="ID_1671503630" LINK="https://github.com/karmi/retire" MODIFIED="1418753237174" TEXT="Retire">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1416310120248" FOLDED="true" ID="ID_228313340" MODIFIED="1418753234602" TEXT="rake tasks">
+<node CREATED="1416310111007" FOLDED="true" ID="ID_316057901" MODIFIED="1430757058771" POSITION="left" TEXT="search">
+<node COLOR="#0033ff" CREATED="1416310115265" FOLDED="true" ID="ID_1578375191" LINK="../../../Dropbox/MySpace/IT/OS/Cross/searchEngine/ElasticSearch.mm" MODIFIED="1430757058099" TEXT="elasticsearch">
+<node COLOR="#0033ff" CREATED="1416310134840" FOLDED="true" ID="ID_1671503630" LINK="https://github.com/karmi/retire" MODIFIED="1430739358923" TEXT="Retire">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1416310120248" ID="ID_228313340" MODIFIED="1430739341845" TEXT="rake tasks">
 <node CREATED="1416310124034" ID="ID_256453396" MODIFIED="1416311272201" TEXT="tire:import:all"/>
 <node CREATED="1416311273038" ID="ID_961221914" MODIFIED="1416311277112" TEXT="tire:import:model"/>
 </node>
-<node CREATED="1416326850056" FOLDED="true" ID="ID_778567068" LINK="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.4.1/#version-241-for-elasticsearch-14" MODIFIED="1416327179785" TEXT="ruby + elasticsearch + attachment">
-<node CREATED="1416326915791" FOLDED="true" ID="ID_1096584802" LINK="http://blog.antas.cz" MODIFIED="1416327179283" TEXT="http://blog.antas.cz">
+<node CREATED="1416326850056" FOLDED="true" ID="ID_778567068" LINK="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.4.1/#version-241-for-elasticsearch-14" MODIFIED="1430739349431" TEXT="ruby + elasticsearch + attachment">
+<node CREATED="1416326915791" FOLDED="true" ID="ID_1096584802" LINK="http://blog.antas.cz" MODIFIED="1430739348757" TEXT="http://blog.antas.cz">
 <node CREATED="1416326930309" ID="ID_215797457" LINK="http://blog.antas.cz/my-elasticsearch-setup-part-1" MODIFIED="1416327080738" TEXT="article p1"/>
 <node CREATED="1416326935459" ID="ID_1243379839" LINK="http://blog.antas.cz/my-elasticsearch-setup-part-2" MODIFIED="1416327083778" TEXT="article p2"/>
 </node>
-<node CREATED="1416327131127" FOLDED="true" ID="ID_58727170" LINK="http://rny.io" MODIFIED="1416327179529" TEXT="rny.io">
+<node CREATED="1416327131127" FOLDED="true" ID="ID_58727170" LINK="http://rny.io" MODIFIED="1430739347967" TEXT="rny.io">
 <node CREATED="1416327134298" ID="ID_1635469817" LINK="http://rny.io/rails/elasticsearch/2013/08/05/full-text-search-for-attachments-with-rails-and-elasticsearch.html" MODIFIED="1416327175664" TEXT="full text search with attachments"/>
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1430738914626" ID="ID_875235564" LINK="https://github.com/elastic/elasticsearch-rails/" MODIFIED="1430738979097" TEXT="elasticsearch-rails"/>
+<node COLOR="#0033ff" CREATED="1430738950581" ID="ID_888459730" LINK="gems/elasticsearch-model.mm" MODIFIED="1430738980625" TEXT="elasticsearch-model"/>
 </node>
 </node>
-<node CREATED="1419193247900" FOLDED="true" ID="ID_1291006163" MODIFIED="1429865006588" POSITION="left" TEXT="testing">
+<node CREATED="1419193247900" FOLDED="true" ID="ID_1291006163" MODIFIED="1430757059280" POSITION="left" TEXT="testing">
 <node COLOR="#0033ff" CREATED="1422537433992" ID="ID_489329435" LINK="gems/cucumber.mm" MODIFIED="1427744499437" TEXT="cucumber"/>
-<node CREATED="1420739075701" FOLDED="true" ID="ID_798137397" MODIFIED="1427744497342" TEXT="fixtures">
+<node CREATED="1420739075701" ID="ID_798137397" MODIFIED="1430519148469" TEXT="fixtures">
 <node COLOR="#0033ff" CREATED="1427725271159" ID="ID_1553165846" LINK="gems/factory_girl.mm" MODIFIED="1427744469191" TEXT="factory_girl"/>
 </node>
 <node COLOR="#0033ff" CREATED="1419193251147" FOLDED="true" ID="ID_878502441" LINK="https://github.com/seattlerb/minitest" MODIFIED="1424200891173" TEXT="Minitest">
@@ -249,116 +251,8 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1421588738996" ID="ID_1471421883" LINK="https://github.com/brynary/webrat" MODIFIED="1422009942948" TEXT="webrat"/>
-<node CREATED="1422009916544" FOLDED="true" ID="ID_1154866793" MODIFIED="1426782806092" TEXT="webUI">
-<node COLOR="#0033ff" CREATED="1419367386094" FOLDED="true" ID="ID_322804778" LINK="http://jnicklas.github.io/capybara/" MODIFIED="1422009919700" TEXT="capybara">
-<node CREATED="1420464407171" FOLDED="true" ID="ID_430406128" MODIFIED="1420816643716" TEXT="dsl">
-<node CREATED="1420464410055" FOLDED="true" ID="ID_1937701442" LINK="http://stackoverflow.com/questions/5153550/capybara-assert-attributes-of-an-element" MODIFIED="1420709618347" TEXT="assert element attr">
-<node CREATED="1420534865395" ID="ID_238482548" MODIFIED="1420534887720">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # Check for a link that has a &quot;disabled&quot; class:
-    </p>
-    <p>
-      page.should have_css(&quot;a.my_link.disabled&quot;)
-    </p>
-    <p>
-      page.should have_xpath(&quot;//a[@class='disabled']&quot;)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # Check for a link that has a &quot;disabled&quot; attribute:
-    </p>
-    <p>
-      page.should have_css(&quot;a.my_link[disabled]&quot;)
-    </p>
-    <p>
-      page.should have_xpath(&quot;//a[@class='disabled' and @disabled='disabled']&quot;)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      # Check that the element is visible
-    </p>
-    <p>
-      find(&quot;a.my_link&quot;).should be_visible
-    </p>
-    <p>
-      find(:xpath, &quot;//a[@class='disabled']&quot;).should be_visible
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1420709554919" FOLDED="true" ID="ID_521955341" LINK="http://stackoverflow.com/questions/12513072/capybara-testing-if-page-has-regular-expression" MODIFIED="1420816088627" TEXT="should match">
-<node CREATED="1420709559162" ID="ID_1576689046" MODIFIED="1420709612425">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      I'd suppose something like
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      page.text.should match(/^\d{2}:\d{2}/)
-    </p>
-    <p>
-      or, with the new RSpec syntax
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      expect(page.text).to match(/^\d{2}:\d{2}/)
-    </p>
-    <p>
-      Or you can test not the whole page but some element, e.g.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      find(&quot;span.time&quot;).text.should match(/^\d{2}:\d{2}/)
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1420758363139" ID="ID_1291253360" LINK="http://robots.thoughtbot.com/automatically-wait-for-ajax-with-capybara" MODIFIED="1420758381537" TEXT="wait for ajax"/>
-<node CREATED="1420553002865" FOLDED="true" ID="ID_1924660838" LINK="http://stackoverflow.com/questions/14346314/multiple-capybara-wait-times" MODIFIED="1420753995094" TEXT="wait times">
-<node CREATED="1420752658721" ID="ID_613332575" LINK="https://groups.google.com/forum/#!topic/ruby-capybara/LCXCdPaHNe0" MODIFIED="1420752670437" TEXT="wait before conten appear"/>
-</node>
-</node>
-<node CREATED="1420547611128" ID="ID_1941131567" LINK="https://gist.github.com/zhengjia/428105" MODIFIED="1420547615132" TEXT="cheatsheet"/>
-<node CREATED="1420816103240" FOLDED="true" ID="ID_1317380415" MODIFIED="1421274355779" TEXT="webdrivers">
-<node CREATED="1420816090401" ID="ID_1647013735" LINK="https://github.com/teampoltergeist/poltergeist" MODIFIED="1420816151087">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">poltergeist</font>&#160;- used for <font color="#0000ff">phantomjs</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1420816153239" ID="ID_1229112792" MODIFIED="1420816160786" TEXT="selenium web driver"/>
-<node COLOR="#0033ff" CREATED="1421274324833" FOLDED="true" ID="ID_949977432" LINK="https://github.com/thoughtbot/capybara-webkit" MODIFIED="1421274355206" TEXT="capybara-webkit">
-<node COLOR="#0033ff" CREATED="1421274335863" ID="ID_1440917075" LINK="https://github.com/leonid-shevtsov/headless" MODIFIED="1421274353822" TEXT="headless"/>
-</node>
-</node>
-</node>
+<node CREATED="1422009916544" FOLDED="true" ID="ID_1154866793" MODIFIED="1430344152079" TEXT="webUI">
+<node COLOR="#0033ff" CREATED="1430336690775" ID="ID_1110004430" LINK="gems/capybara.mm" MODIFIED="1430344150364" TEXT="capybara"/>
 </node>
 </node>
 </node>

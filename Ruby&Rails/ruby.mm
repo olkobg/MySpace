@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1428087910502" TEXT="Ruby">
+<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1430575564812" TEXT="Ruby">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,7 +13,8 @@
       http://rubygarage.github.io
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="34"/>
 <node COLOR="#338800" CREATED="1282900446488" ID="ID_1262636553" MODIFIED="1428087912615" POSITION="right" TEXT="lib/tool/app">
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1428331176955" TEXT="Rails">
@@ -1662,8 +1663,7 @@
       <font color="#0000ff">clients.select{|key, hash| hash[&quot;client_id&quot;] == &quot;2180&quot; }</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6107,7 +6107,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422359097873" FOLDED="true" ID="ID_1785766035" MODIFIED="1422359213598" POSITION="left" TEXT="mixins">
+<node CREATED="1422359097873" FOLDED="true" ID="ID_1785766035" MODIFIED="1430592400856" POSITION="left" TEXT="mixins">
 <node CREATED="1422359105671" ID="ID_375859181" MODIFIED="1422359120750">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7680,12 +7680,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1297156615073" ID="ID_850662542" MODIFIED="1428351966049" POSITION="right" TEXT="ver">
+<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1430304091229" POSITION="right" TEXT="ver">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1422178783983" FOLDED="true" ID="ID_581998632" MODIFIED="1422446202661" TEXT="manage">
 <node COLOR="#0033ff" CREATED="1357132426045" ID="ID_789870658" LINK="rvm.mm" MODIFIED="1422178796381" TEXT="rvm"/>
 </node>
-<node CREATED="1357159596789" FOLDED="true" ID="ID_243706753" LINK="http://www.rubyenterpriseedition.com/" MODIFIED="1422178802439">
+<node CREATED="1357159596789" FOLDED="true" ID="ID_243706753" LINK="http://www.rubyenterpriseedition.com/" MODIFIED="1430304089528">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7721,8 +7721,8 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1412241600721" ID="ID_64964856" MODIFIED="1428331152281" POSITION="right" TEXT="$">
-<node COLOR="#0033ff" CREATED="1357147330262" ID="ID_1164510811" LINK="Gems.mm" MODIFIED="1412241653705" TEXT="gem">
-<font NAME="SansSerif" SIZE="13"/>
+<node COLOR="#0033ff" CREATED="1357147330262" ID="ID_1164510811" LINK="Gems.mm" MODIFIED="1430304080594" TEXT="gem">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1415812006102" ID="ID_222339979" LINK="rake.mm" MODIFIED="1420816304426" TEXT="rake"/>
 <node CREATED="1422178761739" FOLDED="true" ID="ID_841080907" MODIFIED="1422917661726" TEXT="run">

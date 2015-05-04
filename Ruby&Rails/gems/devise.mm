@@ -24,8 +24,7 @@
       If your devise model is something other than User, replace &quot;_user&quot; with &quot;_yourmodel&quot;. The same logic applies to the instructions below.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1429874958241" ID="ID_732166136" MODIFIED="1429874967208" TEXT="To verify if a user is signed in, use the following helper:  user_signed_in?"/>
 <node CREATED="1429874976073" ID="ID_1833388208" MODIFIED="1429874978624" TEXT="For the current signed-in user, this helper is available:  current_user"/>
@@ -52,7 +51,7 @@
 <node COLOR="#0033ff" CREATED="1421591837474" ID="ID_1760209474" LINK="http://landonmarder.com/posts/2014/06/04/google-cal-rails/" MODIFIED="1421591857632" TEXT="omnuauth_google_oauth2"/>
 </node>
 <node COLOR="#0033ff" CREATED="1429868760221" ID="ID_1408851291" LINK="https://github.com/plataformatec/devise" MODIFIED="1429868763555" POSITION="right" TEXT="https://github.com/plataformatec/devise"/>
-<node CREATED="1419370682630" ID="ID_1587210558" MODIFIED="1429877531084" POSITION="right" TEXT="info">
+<node CREATED="1419370682630" FOLDED="true" ID="ID_1587210558" MODIFIED="1430738777665" POSITION="right" TEXT="info">
 <node CREATED="1419370684534" ID="ID_19484098" LINK="http://stackoverflow.com/questions/9272272/where-is-devise-implementation-of-authenticate-user-method" MODIFIED="1419370713102">
 <richcontent TYPE="NODE"><html>
   <head>
