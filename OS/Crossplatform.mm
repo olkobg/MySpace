@@ -1,44 +1,103 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1422176758672" TEXT="CrossOS">
+<node COLOR="#0033ff" CREATED="1302606495901" ID="ID_1131840989" LINK="../Index.mm" MODIFIED="1432027441664" TEXT="CrossOS">
 <font NAME="SansSerif" SIZE="23"/>
-<node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1420822121653" POSITION="right" TEXT="Services">
+<node COLOR="#006699" CREATED="1361892302799" FOLDED="true" ID="ID_229964903" MODIFIED="1432027437935" POSITION="right" TEXT="Learn">
 <font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1331668059479" FOLDED="true" ID="ID_716532882" MODIFIED="1420800856768" TEXT="Auth">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1361892314710" FOLDED="true" ID="ID_21108970" MODIFIED="1432027356772" TEXT="memory">
+<node CREATED="1362431431696" FOLDED="true" ID="ID_1908142474" MODIFIED="1432027355928" TEXT="flashcards">
+<node COLOR="#0033ff" CREATED="1361892320400" FOLDED="true" ID="ID_207583043" LINK="mnemosyne-proj.org" MODIFIED="1432027355594" TEXT="mnemosyne">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1361892328103" ID="ID_1576778765" MODIFIED="1383313320579">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b># directories where data stored&#xa0;</b><br/>
+    </p>
+    <p>
+      &#xa0;- Windows: C:\Users\&lt;your user name&gt;\Application Data\Mnemosyne&#xa0;<br/>&#xa0; - Linux: ~/.local/share/mnemosyne and ~/.config/mnemosyne/&#xa0;<br/>&#xa0;- OSX: ~/Library/Mnemosyne/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1361893069053" ID="ID_1402684216" MODIFIED="1361893102760">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b># config for linux</b>
+    </p>
+    <p>
+      ~/.local/share/mnemosyne
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1362431436881" ID="ID_108471204" LINK="ankisrs.net" MODIFIED="1362431474924" TEXT="Anki"/>
+<node COLOR="#009999" CREATED="1362431505275" ID="ID_1747168731" LINK="http://cram.com/" MODIFIED="1432027351368">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      flashcards db
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1359978119344" FOLDED="true" ID="ID_1590523028" MODIFIED="1432027380736" TEXT="books">
+<node CREATED="1359978155953" FOLDED="true" ID="ID_152877535" LINK="Cross/fun/Calibre.mm" MODIFIED="1432027380491" TEXT="Calibre">
+<node CREATED="1375830161247" ID="ID_1134605496" LINK="#ID_584895294" MODIFIED="1375830166978" TEXT="server"/>
+</node>
+</node>
+</node>
+<node COLOR="#009999" CREATED="1331713048722" FOLDED="true" ID="ID_1673688292" MODIFIED="1432027381806" POSITION="right" TEXT="Services">
+<font NAME="SansSerif" SIZE="16"/>
+<node CREATED="1331668059479" FOLDED="true" ID="ID_716532882" MODIFIED="1432027342738" TEXT="Auth">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1331668106123" ID="ID_1491483224" LINK="Cross/Kerberos.mm" MODIFIED="1331668106126" TEXT="Kerberos"/>
 </node>
-<node CREATED="1331713039994" FOLDED="true" ID="ID_566995229" MODIFIED="1420800859576" TEXT="ActiveDirectory">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1331713039994" FOLDED="true" ID="ID_566995229" MODIFIED="1432027341570" TEXT="ActiveDirectory">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1331668141731" ID="ID_494574908" LINK="Cross/LDAP.mm" MODIFIED="1331713052748" TEXT="LDAP"/>
 </node>
-<node CREATED="1334251745752" FOLDED="true" ID="ID_1312448469" MODIFIED="1420800854205" TEXT="Http">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1334251745752" FOLDED="true" ID="ID_1312448469" MODIFIED="1432027340256" TEXT="Http">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1334251785759" ID="ID_74510691" LINK="Cross/Http/Apache.mm" MODIFIED="1375830257136" TEXT="Apache"/>
 <node CREATED="1420800849573" ID="ID_1783278582" MODIFIED="1420800853302" TEXT="nginx"/>
 </node>
-<node CREATED="1347524782703" FOLDED="true" ID="ID_1706514845" MODIFIED="1420800847047" TEXT="AAA (Acount Authenticate)">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1347524785715" ID="ID_1418773388" MODIFIED="1347524795874" TEXT="FreeRadius">
+<node CREATED="1347524782703" FOLDED="true" ID="ID_1706514845" MODIFIED="1432027338969" TEXT="AAA (Acount Authenticate)">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1347524785715" FOLDED="true" ID="ID_1418773388" MODIFIED="1432027338691" TEXT="FreeRadius">
 <node CREATED="1347524797419" ID="ID_857158690" LINK="http://wiki.freeradius.org/Basic-configuration-HOWTO" MODIFIED="1347524831219" TEXT="wiki"/>
 <node CREATED="1347524832946" ID="ID_829137802" LINK="http://deployingradius.com/documents/configuration/eap.html" MODIFIED="1347524852470" TEXT="dev docs"/>
 </node>
 </node>
-<node CREATED="1347052263122" FOLDED="true" ID="ID_44848701" MODIFIED="1420800845825" TEXT="dns">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1347052263122" FOLDED="true" ID="ID_44848701" MODIFIED="1432027336843" TEXT="dns">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347052267011" ID="ID_853681695" LINK="Cross/BIND.mm" MODIFIED="1375830262539" TEXT="bind"/>
 </node>
-<node CREATED="1355930601555" FOLDED="true" ID="ID_1846721531" MODIFIED="1420800844830" TEXT="Anon Proxy">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1355930607639" ID="ID_34354308" MODIFIED="1355930612773" TEXT="tor">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355930601555" FOLDED="true" ID="ID_1846721531" MODIFIED="1432027335314" TEXT="Anon Proxy">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355930607639" FOLDED="true" ID="ID_34354308" MODIFIED="1432027334203" TEXT="tor">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355930613394" ID="ID_204518597" LINK="http://compizomania.blogspot.com/2012/04/tor-ubuntu-11101204.html" MODIFIED="1355930650114" TEXT="compiz mania"/>
 </node>
 </node>
-<node CREATED="1375830121785" FOLDED="true" ID="ID_1223809425" MODIFIED="1420800843712" TEXT="book-server">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1375830137762" FOLDED="true" ID="ID_584895294" MODIFIED="1379071970913" TEXT="calibre-server">
-<node CREATED="1375442256384" ID="ID_40425872" LINK="http://alt236.blogspot.com/2010/09/gettng-calibre-server-to-run-at-boot-in.html" MODIFIED="1376997509242">
+<node CREATED="1375830121785" FOLDED="true" ID="ID_1223809425" MODIFIED="1432027378411" TEXT="book-server">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1375830137762" FOLDED="true" ID="ID_584895294" MODIFIED="1432027378226" TEXT="calibre-server">
+<node CREATED="1375442256384" ID="ID_40425872" LINK="http://alt236.blogspot.com/2010/09/gettng-calibre-server-to-run-at-boot-in.html" MODIFIED="1432027374263">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -49,8 +108,9 @@
     </p>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1376997472088" ID="ID_1377049588" LINK="http://linuxserver2011.wordpress.com/2011/03/26/calibre-ebook-server-setup-ubuntu-10-10/" MODIFIED="1376997495151">
+<node CREATED="1376997472088" ID="ID_1377049588" LINK="http://linuxserver2011.wordpress.com/2011/03/26/calibre-ebook-server-setup-ubuntu-10-10/" MODIFIED="1432027374260">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -61,6 +121,7 @@
     </p>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1375442287573" ID="ID_700139929" MODIFIED="1375830115563">
 <richcontent TYPE="NODE"><html>
@@ -91,43 +152,25 @@
 </node>
 </node>
 </node>
-<node CREATED="1416326797974" FOLDED="true" ID="ID_590602152" MODIFIED="1420800860862" TEXT="searchEngine">
+<node CREATED="1416326797974" FOLDED="true" ID="ID_590602152" MODIFIED="1432027346233" TEXT="searchEngine">
 <node CREATED="1416326840470" ID="ID_632458234" LINK="../../../Dropbox/MySpace/IT/OS/Cross/searchEngine/ElasticSearch.mm" MODIFIED="1416326840471" TEXT="ElasticSearch"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1322654447149" FOLDED="true" ID="ID_1927839485" MODIFIED="1420822118406" POSITION="left" TEXT="Editor">
+<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1432027415716" POSITION="left" TEXT="Development">
 <font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1322654449616" ID="ID_1624123020" LINK="Cross/vim.mm" MODIFIED="1322655239234" TEXT="Vim"/>
-<node CREATED="1348054382032" ID="ID_155321148" LINK="Cross/Sublime.mm" MODIFIED="1348054382033" TEXT="Sublime"/>
-</node>
-<node COLOR="#990099" CREATED="1348221951530" FOLDED="true" ID="ID_1611066871" MODIFIED="1420822118406" POSITION="left" TEXT="Games">
-<font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1348221953733" ID="ID_1462364354" MODIFIED="1356106521652" TEXT="AA">
-<node CREATED="1348221958350" FOLDED="true" ID="ID_312207893" MODIFIED="1352717899325" TEXT="25">
-<node CREATED="1348221960948" ID="ID_1498526775" LINK="http://aa25assist.sourceforge.net/" MODIFIED="1348222018310" TEXT="AAssist"/>
-<node CREATED="1348221971133" ID="ID_1866475484" LINK="http://battletracker.com/forum/index.php" MODIFIED="1348222012268" TEXT="BattleTracker"/>
-</node>
-</node>
-</node>
-<node COLOR="#cc3300" CREATED="1356528028749" FOLDED="true" ID="ID_1160034425" MODIFIED="1374074051339" POSITION="left" TEXT="Player">
-<font NAME="SansSerif" SIZE="17"/>
-<node CREATED="1356528038293" ID="ID_875794081" LINK="http://getsongbird.com/" MODIFIED="1356528045283" TEXT="songbird"/>
-</node>
-<node COLOR="#006633" CREATED="1355140437479" FOLDED="true" ID="ID_1570188883" MODIFIED="1422110242379" POSITION="left" TEXT="Development">
-<font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1355149044983" FOLDED="true" ID="ID_1170115706" MODIFIED="1420800873063" TEXT="attention">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355149044983" FOLDED="true" ID="ID_1170115706" MODIFIED="1432027307500" TEXT="attention">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355149052794" ID="ID_783079995" LINK="http://visitsteve.com/made/selfcontrol/" MODIFIED="1355149065612" TEXT="SelfControl"/>
 <node CREATED="1355149057377" ID="ID_56787196" LINK="http://macfreedom.com/" MODIFIED="1355149084719" TEXT="Freedom"/>
 </node>
-<node CREATED="1368719196122" FOLDED="true" ID="ID_1132657387" MODIFIED="1422110241794" TEXT="coding">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1368719196122" FOLDED="true" ID="ID_1132657387" MODIFIED="1432027307500" TEXT="coding">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1368719236571" ID="ID_43784894" LINK="http://emmet.io/" MODIFIED="1377266843865" TEXT="Emmet">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357753147521" FOLDED="true" ID="ID_294725118" MODIFIED="1420800882904" TEXT="design">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357753147521" FOLDED="true" ID="ID_294725118" MODIFIED="1432027307500" TEXT="design">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1302606521801" FOLDED="true" ID="ID_1875004905" MODIFIED="1420800882558" TEXT="uml tools">
 <node CREATED="1302606529840" ID="ID_577029644" LINK="topcased.org" MODIFIED="1302606553926" TEXT="topcased.org"/>
 <node CREATED="1377266634922" FOLDED="true" ID="ID_778682273" MODIFIED="1420800882309" TEXT="cloud">
@@ -141,16 +184,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1360703563556" FOLDED="true" ID="ID_520683796" MODIFIED="1420800891947" TEXT="diff/merge">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1360703563556" FOLDED="true" ID="ID_520683796" MODIFIED="1432027307500" TEXT="diff/merge">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1360703568619" FOLDED="true" ID="ID_1843180555" MODIFIED="1420800890220" TEXT="Beyond Compare">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1360703656113" ID="ID_358364546" LINK="http://www.scootersoftware.com/support.php?zz=kb_vcs#gitlinux" MODIFIED="1360703682218" TEXT="+ dcvs"/>
 </node>
 <node CREATED="1379072016205" ID="ID_735555179" MODIFIED="1379072022599" TEXT="Araxis Merge"/>
 </node>
-<node CREATED="1356106524994" FOLDED="true" ID="ID_1227477125" MODIFIED="1420800897333" TEXT="managment">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356106524994" FOLDED="true" ID="ID_1227477125" MODIFIED="1432027307500" TEXT="managment">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356106529120" ID="ID_698683549" LINK="http://www.projectpier.org/" MODIFIED="1356106535858" TEXT="ProjectPier"/>
 <node CREATED="1356106536492" ID="ID_1639115656" LINK="https://www.pivotaltracker.com/" MODIFIED="1356106564696" TEXT="Pivotal Tracker"/>
 <node CREATED="1368021522925" ID="ID_254277328" LINK="../Ruby&amp;Rails/Redmine.mm" MODIFIED="1368021541836" TEXT="Redmine"/>
@@ -158,26 +201,26 @@
 <node CREATED="1379071995572" ID="ID_995770158" MODIFIED="1379071997670" TEXT="Bugzilla"/>
 <node CREATED="1379072001715" ID="ID_1258293447" MODIFIED="1379072003498" TEXT="Mantis"/>
 </node>
-<node CREATED="1356618376887" FOLDED="true" ID="ID_345176901" MODIFIED="1420800900526" TEXT="review">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356618376887" FOLDED="true" ID="ID_345176901" MODIFIED="1432027307500" TEXT="review">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356618383256" ID="ID_1872233564" LINK="http://www.reviewboard.org/" MODIFIED="1356618462402" TEXT="ReviewBoard"/>
 </node>
-<node CREATED="1355140454684" FOLDED="true" ID="ID_1576352895" MODIFIED="1420800902807" TEXT="planing">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355140454684" FOLDED="true" ID="ID_1576352895" MODIFIED="1432027307500" TEXT="planing">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355140465805" ID="ID_1124056805" LINK="http://taskjuggler.org/" MODIFIED="1356618368274" TEXT="TaskJuggler">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1356106588981" FOLDED="true" ID="ID_320514756" MODIFIED="1420800907068" TEXT="team colaboration">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1356106588981" FOLDED="true" ID="ID_320514756" MODIFIED="1432027307500" TEXT="team colaboration">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356106595085" ID="ID_1565818023" LINK="http://basecamp.com/" MODIFIED="1356106610920" TEXT="Base Camp"/>
 <node CREATED="1362820120862" ID="ID_68019861" MODIFIED="1370509313836" TEXT="group chats">
 <node CREATED="1362820130724" ID="ID_594785155" LINK="https://www.hipchat.com/" MODIFIED="1362820156396" TEXT="hipchat"/>
 <node CREATED="1362820157373" ID="ID_910921562" LINK="https://hall.com/" MODIFIED="1362820171335" TEXT="hall"/>
 </node>
 </node>
-<node CREATED="1380113284279" FOLDED="true" ID="ID_589273960" MODIFIED="1420800912783" TEXT="emulation">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1380113284279" FOLDED="true" ID="ID_589273960" MODIFIED="1432027307499" TEXT="emulation">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1380113288553" FOLDED="true" ID="ID_1865300703" LINK="http://www.winehq.org/" MODIFIED="1420800911870" TEXT="wine">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1380113292963" FOLDED="true" ID="ID_784646871" LINK="https://code.google.com/p/winetricks/" MODIFIED="1420800910959">
@@ -197,11 +240,16 @@
 </node>
 </node>
 </node>
-<node COLOR="#006633" CREATED="1359978105678" FOLDED="true" ID="ID_1806015071" MODIFIED="1420822118406" POSITION="left" TEXT="Fun">
+<node COLOR="#0033ff" CREATED="1322654447149" FOLDED="true" ID="ID_1927839485" MODIFIED="1432027422649" POSITION="left" TEXT="Editor">
 <font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1373272176933" FOLDED="true" ID="ID_739324670" MODIFIED="1420800923206" TEXT="music">
-<node CREATED="1373272180693" FOLDED="true" ID="ID_1088194619" MODIFIED="1420800922350" TEXT="straming">
-<node CREATED="1373272191697" FOLDED="true" ID="ID_597965662" LINK="http://subsonic.sourceforge.net/" MODIFIED="1420800921406" TEXT="subsonic">
+<node CREATED="1322654449616" ID="ID_1624123020" LINK="Cross/vim.mm" MODIFIED="1322655239234" TEXT="Vim"/>
+<node CREATED="1348054382032" ID="ID_155321148" LINK="Cross/Sublime.mm" MODIFIED="1348054382033" TEXT="Sublime"/>
+</node>
+<node COLOR="#ff0000" CREATED="1359978105678" FOLDED="true" ID="ID_1806015071" MODIFIED="1432027419275" POSITION="left" TEXT="Fun">
+<font NAME="SansSerif" SIZE="17"/>
+<node CREATED="1373272176933" FOLDED="true" ID="ID_739324670" MODIFIED="1432027291216" TEXT="music">
+<node CREATED="1373272180693" FOLDED="true" ID="ID_1088194619" MODIFIED="1432027291025" TEXT="straming">
+<node CREATED="1373272191697" FOLDED="true" ID="ID_597965662" LINK="http://subsonic.sourceforge.net/" MODIFIED="1432027290406" TEXT="subsonic">
 <node CREATED="1379072306464" FOLDED="true" ID="ID_1873653722" MODIFIED="1420800920093" TEXT="clones">
 <node CREATED="1379071872341" ID="ID_1720909811" LINK="https://github.com/Mach5/supersonic" MODIFIED="1379071930147">
 <richcontent TYPE="NODE"><html>
@@ -233,14 +281,23 @@
 <node CREATED="1373272194220" ID="ID_1830900188" MODIFIED="1373272196179" TEXT="ampalache"/>
 </node>
 </node>
-<node CREATED="1374074060795" FOLDED="true" ID="ID_138939356" MODIFIED="1420800925062" TEXT="video">
+<node CREATED="1374074060795" FOLDED="true" ID="ID_138939356" MODIFIED="1432027295478" TEXT="video">
 <node CREATED="1374074090215" ID="ID_1352851592" LINK="Cross/ffmpeg.mm" MODIFIED="1374074090216" TEXT="ffmpeg"/>
 </node>
 </node>
-<node CREATED="1357752667538" FOLDED="true" ID="ID_116532665" MODIFIED="1420822118406" POSITION="left" TEXT="net">
+<node COLOR="#990099" CREATED="1348221951530" FOLDED="true" ID="ID_1611066871" MODIFIED="1432027420724" POSITION="left" TEXT="Games">
 <font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1357752766592" FOLDED="true" ID="ID_900912881" MODIFIED="1420800931482" TEXT="mail">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1348221953733" FOLDED="true" ID="ID_1462364354" MODIFIED="1432027314450" TEXT="AA">
+<node CREATED="1348221958350" FOLDED="true" ID="ID_312207893" MODIFIED="1432027314248" TEXT="25">
+<node CREATED="1348221960948" ID="ID_1498526775" LINK="http://aa25assist.sourceforge.net/" MODIFIED="1348222018310" TEXT="AAssist"/>
+<node CREATED="1348221971133" ID="ID_1866475484" LINK="http://battletracker.com/forum/index.php" MODIFIED="1348222012268" TEXT="BattleTracker"/>
+</node>
+</node>
+</node>
+<node CREATED="1357752667538" FOLDED="true" ID="ID_116532665" MODIFIED="1432027299551" POSITION="left" TEXT="net">
+<font NAME="SansSerif" SIZE="16"/>
+<node CREATED="1357752766592" FOLDED="true" ID="ID_900912881" MODIFIED="1432027298994" TEXT="mail">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303113844068" FOLDED="true" ID="ID_1974372924" MODIFIED="1420800931038" TEXT="thunderbird">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303113847356" FOLDED="true" ID="ID_526417948" MODIFIED="1420800930355" TEXT="add.">
@@ -308,12 +365,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1369226556011" FOLDED="true" ID="ID_850941728" MODIFIED="1416326795219" TEXT="browser">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1369226556011" FOLDED="true" ID="ID_850941728" MODIFIED="1432027298994" TEXT="browser">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1369226559664" ID="ID_1903784369" LINK="Cross/Web/Firefox.mm" MODIFIED="1369226680050" TEXT="Firefox"/>
 </node>
-<node COLOR="#0033ff" CREATED="1415705341902" FOLDED="true" ID="ID_871370004" MODIFIED="1415875239969" TEXT="curl">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1415705341902" FOLDED="true" ID="ID_871370004" MODIFIED="1432027298994" TEXT="curl">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1415705362660" ID="ID_883052643" MODIFIED="1415705425452">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -343,68 +400,57 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1373272238017" FOLDED="true" ID="ID_1933367924" MODIFIED="1420822118405" POSITION="left" TEXT="Security">
+<node COLOR="#cc3300" CREATED="1356528028749" FOLDED="true" ID="ID_1160034425" MODIFIED="1432027428833" POSITION="left" TEXT="Player">
 <font NAME="SansSerif" SIZE="17"/>
-<node CREATED="1373272260894" FOLDED="true" ID="ID_599129076" MODIFIED="1420800935197" TEXT="disc encryption">
+<node CREATED="1356528038293" ID="ID_875794081" LINK="http://getsongbird.com/" MODIFIED="1356528045283" TEXT="songbird"/>
+</node>
+<node COLOR="#990000" CREATED="1373272238017" FOLDED="true" ID="ID_1933367924" MODIFIED="1432027302618" POSITION="left" TEXT="Security">
+<font NAME="SansSerif" SIZE="17"/>
+<node CREATED="1373272260894" FOLDED="true" ID="ID_599129076" MODIFIED="1432027302419" TEXT="disc encryption">
 <node CREATED="1373272267989" ID="ID_1702520692" LINK="http://www.truecrypt.org/" MODIFIED="1373272274271" TEXT="TrueCrypt"/>
 </node>
 </node>
-<node COLOR="#006699" CREATED="1361892302799" FOLDED="true" ID="ID_229964903" MODIFIED="1420822121653" POSITION="right" TEXT="Learn">
-<font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1361892314710" FOLDED="true" ID="ID_21108970" MODIFIED="1420800868632" TEXT="memory">
-<node CREATED="1362431431696" FOLDED="true" ID="ID_1908142474" MODIFIED="1420800864924" TEXT="flashcards">
-<node COLOR="#0033ff" CREATED="1361892320400" FOLDED="true" ID="ID_207583043" LINK="mnemosyne-proj.org" MODIFIED="1383313322242" TEXT="mnemosyne">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1361892328103" ID="ID_1576778765" MODIFIED="1383313320579">
+<node COLOR="#338800" CREATED="1432026737245" FOLDED="true" ID="ID_1787326235" MODIFIED="1432027283418" POSITION="left" TEXT="tools">
+<font NAME="SansSerif" SIZE="17"/>
+<node CREATED="1432026756239" FOLDED="true" ID="ID_1279416580" MODIFIED="1432027283345" TEXT="mkvtoolnix">
+<node CREATED="1432026773008" FOLDED="true" ID="ID_992430911" MODIFIED="1432027283265" TEXT="create mkv with audio track">
+<node CREATED="1432026790074" ID="ID_178168472" MODIFIED="1432026854432">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b># directories where data stored&#xa0;</b><br/>
+      # first, get audio track info so we know which one to keep
     </p>
     <p>
-      &#xa0;- Windows: C:\Users\&lt;your user name&gt;\Application Data\Mnemosyne&#xa0;<br/>&#xa0; - Linux: ~/.local/share/mnemosyne and ~/.config/mnemosyne/&#xa0;<br/>&#xa0;- OSX: ~/Library/Mnemosyne/
+      <font color="#0000ff">$ mkvmerge -i input.mkv</font>
+    </p>
+    <p>
+      File 'input.mkv': container: Matroska
+    </p>
+    <p>
+      Track ID 1: video (V_MPEG4/ISO/AVC)
+    </p>
+    <p>
+      Track ID 2: audio (A_AAC)
+    </p>
+    <p>
+      Track ID 3: audio (A_AAC)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;----------- for example, let's keep this one
+    </p>
+    <p>
+      Track ID 4: audio (A_AAC)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">$ mkvmerge -o output.mkv --atracks 3 input.mkv</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1361893069053" ID="ID_1402684216" MODIFIED="1361893102760">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b># config for linux</b>
-    </p>
-    <p>
-      ~/.local/share/mnemosyne
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1362431436881" ID="ID_108471204" LINK="ankisrs.net" MODIFIED="1362431474924" TEXT="Anki"/>
-<node COLOR="#009999" CREATED="1362431505275" ID="ID_1747168731" LINK="http://cram.com/" MODIFIED="1377263801690">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      flashcards db
-    </p>
-  </body>
-</html></richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-<node CREATED="1359978119344" FOLDED="true" ID="ID_1590523028" MODIFIED="1420800867582" TEXT="books">
-<node CREATED="1359978155953" FOLDED="true" ID="ID_152877535" LINK="Cross/fun/Calibre.mm" MODIFIED="1420800867284" TEXT="Calibre">
-<node CREATED="1375830161247" ID="ID_1134605496" LINK="#ID_584895294" MODIFIED="1375830166978" TEXT="server"/>
 </node>
 </node>
 </node>
