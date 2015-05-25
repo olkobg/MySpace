@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#0033ff" CREATED="1357132643779" ID="ID_971064340" LINK="../Index.mm" MODIFIED="1429861741181" TEXT="Clouds">
 <font NAME="SansSerif" SIZE="22"/>
-<node CREATED="1389903597101" ID="ID_1758930567" MODIFIED="1429860993950" POSITION="right" TEXT="paas">
+<node CREATED="1389903597101" ID="ID_1758930567" MODIFIED="1431886225077" POSITION="right" TEXT="paas">
 <font NAME="SansSerif" SIZE="15"/>
 <node CREATED="1357132673084" ID="ID_1752594914" LINK="http://aws.amazon.com/" MODIFIED="1389906351752">
 <richcontent TYPE="NODE"><html>
@@ -22,7 +22,7 @@
 <node CREATED="1389903606385" ID="ID_1041126530" LINK="https://appharbor.com/" MODIFIED="1389903651706" TEXT="appharbor">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1389903788573" ID="ID_578342260" LINK="https://www.openshift.com/" MODIFIED="1389903798411" TEXT="openshift"/>
+<node CREATED="1431886366994" ID="ID_299041875" LINK="../Cloud/paas/openshift.mm" MODIFIED="1431886366995" TEXT="openshift"/>
 <node CREATED="1389903806972" ID="ID_103598815" LINK="https://www.appfog.com/" MODIFIED="1389904401409" TEXT="appfog"/>
 <node CREATED="1389904389375" FOLDED="true" ID="ID_1888460202" MODIFIED="1429861000190" TEXT="some other">
 <node CREATED="1389903744293" ID="ID_1564252177" LINK="https://www.firebase.com/" MODIFIED="1389904397561" TEXT="firebase"/>
