@@ -80,41 +80,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1423577803860" POSITION="left" TEXT="$">
+<node COLOR="#0033ff" CREATED="1385146024471" FOLDED="true" ID="ID_169300126" MODIFIED="1431884101031" POSITION="left" TEXT="$">
 <font NAME="SansSerif" SIZE="20"/>
-<node COLOR="#0033ff" CREATED="1383382735381" FOLDED="true" ID="ID_320566450" MODIFIED="1423577802313" TEXT="sshfs">
-<node CREATED="1383382738892" ID="ID_828449256" LINK="http://www.read-write.fr/blog/blog/2012/02/26/my-guide-for-sshfs/" MODIFIED="1383382750058" TEXT="read-write"/>
-<node CREATED="1420798147975" ID="ID_764085653" MODIFIED="1420798185903">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">$ sshfs username@remoteserver:/webapps/ ~/mountpoint -oauto_cache,reconnect,defer_permissions,noappledouble,negative_vncache,volname=myVolName&#160;</font>
-    </p>
-  </body>
-</html></richcontent>
+<node COLOR="#0033ff" CREATED="1431855724231" FOLDED="true" ID="ID_1064310467" MODIFIED="1431855759151" TEXT="mc">
+<node COLOR="#0033ff" CREATED="1431855729693" ID="ID_1419093056" LINK="http://superuser.com/questions/10716/how-to-make-home-or-end-keys-work-in-mc-running-on-os-x-ssh" MODIFIED="1431855757609" TEXT="home and end button"/>
 </node>
-<node CREATED="1420798296980" FOLDED="true" ID="ID_729828786" MODIFIED="1423577801807" TEXT="my">
-<node COLOR="#0033ff" CREATED="1420798290049" ID="ID_1249685444" MODIFIED="1422176584361" TEXT="sshfs olko@serafim.mine.nu:/home/olko ~/serafim -oauto_cache,reconnect,defer_permissions,noappledouble,negative_vncache,volname=serafim"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1385146105361" FOLDED="true" ID="ID_1393334735" MODIFIED="1422176594268" TEXT="xattr">
-<node CREATED="1385146117000" ID="ID_1433751171" LINK="http://unix.stackexchange.com/questions/10/what-does-the-mean-in-ls-l" MODIFIED="1385146173199">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>so</b></font>&#160;<font color="#0033ff"><b>ls -l </b></font>&amp; <font color="#0033ff"><b>xattr</b></font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1395873669388" FOLDED="true" ID="ID_756740988" MODIFIED="1422176603865" TEXT="hdiutil">
+<node COLOR="#0033ff" CREATED="1395873669388" FOLDED="true" ID="ID_756740988" MODIFIED="1431855722535" TEXT="hdiutil">
 <node CREATED="1395873692530" ID="ID_230755365" MODIFIED="1395873778225">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -146,9 +117,48 @@
 </html></richcontent>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1383382735381" FOLDED="true" ID="ID_320566450" MODIFIED="1431884100733" TEXT="sshfs">
+<node CREATED="1383382738892" ID="ID_828449256" LINK="http://www.read-write.fr/blog/blog/2012/02/26/my-guide-for-sshfs/" MODIFIED="1383382750058" TEXT="read-write"/>
+<node CREATED="1420798147975" ID="ID_764085653" MODIFIED="1420798185903">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">$ sshfs username@remoteserver:/webapps/ ~/mountpoint -oauto_cache,reconnect,defer_permissions,noappledouble,negative_vncache,volname=myVolName&#160;</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1381165282002" FOLDED="true" ID="ID_114835899" MODIFIED="1422176608553" POSITION="left" TEXT="dev">
-<node CREATED="1381165383592" FOLDED="true" ID="ID_1986999715" MODIFIED="1422176608361" TEXT="ios">
+<node CREATED="1420798296980" FOLDED="true" ID="ID_729828786" MODIFIED="1431884100490" TEXT="my">
+<node CREATED="1431800497868" FOLDED="true" ID="ID_1715976300" MODIFIED="1431884057493" TEXT="serafim">
+<node COLOR="#0033ff" CREATED="1420798290049" ID="ID_1249685444" MODIFIED="1431884044254" TEXT="sshfs olko@serafim.mine.nu:/home/olko ~/mnt/serafim -oauto_cache,reconnect,defer_permissions,noappledouble,negative_vncache,volname=serafim"/>
+</node>
+<node CREATED="1431800500269" FOLDED="true" ID="ID_1681353423" MODIFIED="1431884100252" TEXT="ant">
+<node COLOR="#0033ff" CREATED="1431800502064" ID="ID_1412155039" MODIFIED="1431884056181" TEXT="sshfs ant@ant:/home/ant ~/mnt/ant -oauto_cache,reconnect,defer_permissions,noappledouble,negative_vncache,volname=ant"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1385146105361" FOLDED="true" ID="ID_1393334735" MODIFIED="1431855786907" TEXT="xattr">
+<node CREATED="1385146117000" ID="ID_1433751171" LINK="http://unix.stackexchange.com/questions/10/what-does-the-mean-in-ls-l" MODIFIED="1431855785434">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999">so</font>&#160;<font color="#0033ff">ls -l<b>&#160;</b></font>&amp; <font color="#0033ff">xattr</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1381165282002" FOLDED="true" ID="ID_114835899" MODIFIED="1431884072010" POSITION="left" TEXT="dev">
+<node CREATED="1381165383592" FOLDED="true" ID="ID_1986999715" MODIFIED="1431884070199" TEXT="ios">
 <node CREATED="1381165283782" ID="ID_983746521" LINK="https://developer.apple.com/library/ios/design/index.html#//apple_ref/doc/uid/TP40013289" MODIFIED="1381165296314" TEXT="ui guidelines"/>
 </node>
 </node>
