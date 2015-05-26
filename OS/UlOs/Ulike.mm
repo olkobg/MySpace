@@ -1,20 +1,20 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#006633" CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1422176695534" TEXT="Ulike">
+<node COLOR="#006633" CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1432583427589" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
     </p>
   </body>
 </html></richcontent>
-<font NAME="SansSerif" SIZE="21"/>
+<font NAME="SansSerif" SIZE="27"/>
 <node CREATED="1320672790869" FOLDED="true" ID="ID_1402751397" MODIFIED="1422176693167" POSITION="right" TEXT="Boot">
 <node CREATED="1294648490063" FOLDED="true" ID="ID_1263032258" MODIFIED="1369226175886" TEXT="loader">
 <node CREATED="1294648493700" FOLDED="true" ID="ID_929058759" MODIFIED="1369226175553" TEXT="grub">
@@ -210,7 +210,7 @@
 <node CREATED="1375807985936" ID="ID_433023142" LINK="../Cross/pam.mm" MODIFIED="1375958350035" TEXT="pam"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1422176693167" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" FOLDED="true" ID="ID_1597325646" MODIFIED="1431800454650" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1296636123595" FOLDED="true" ID="ID_1552816036" MODIFIED="1404743960912" TEXT="backup">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -668,7 +668,7 @@
 <node CREATED="1410874284869" ID="ID_932005041" MODIFIED="1410874285838" TEXT="7z"/>
 </node>
 </node>
-<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1422176672577" TEXT="net">
+<node CREATED="1360155986070" FOLDED="true" ID="ID_1573170769" MODIFIED="1431800453475" TEXT="net">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1303113842293" FOLDED="true" ID="ID_1277503751" MODIFIED="1392974088202" TEXT="Mail">
 <node COLOR="#0033ff" CREATED="1360155693409" ID="ID_785094992" LINK="net/mail/mutt.mm" MODIFIED="1360156428169" TEXT="mutt">

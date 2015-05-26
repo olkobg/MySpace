@@ -1,21 +1,22 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1296463732267" ID="ID_1626618680" LINK="../Ulike.mm" MODIFIED="1360068554933" TEXT="ssh">
-<font BOLD="true" NAME="SansSerif" SIZE="17"/>
-<node CREATED="1296463758423" ID="ID_1523739275" MODIFIED="1356444600114" POSITION="right">
+<node CREATED="1296463732267" ID="ID_1626618680" LINK="../Ulike.mm" MODIFIED="1432583400414" TEXT="ssh">
+<font NAME="SansSerif" SIZE="26"/>
+<node CREATED="1296463758423" ID="ID_1523739275" MODIFIED="1432583414406" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      put your public key into <b><font color="#0033ff">~/.ssh/authorized_keys</font></b>
+      put your public key into <font color="#0000ff">~/.ssh/authorized_keys</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1358705089641" FOLDED="true" ID="ID_629302074" MODIFIED="1418379598298" POSITION="right" TEXT="~/.ssh/config/">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1358705089641" FOLDED="true" ID="ID_629302074" MODIFIED="1432583420600" POSITION="right" TEXT="~/.ssh/config/">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1301476145773" FOLDED="true" ID="ID_133796077" LINK="http://www.cyberciti.biz/faq/force-ssh-client-to-use-given-private-key-identity-file/" MODIFIED="1418379598026" TEXT="per host">
 <node CREATED="1301478206031" ID="ID_583588422" MODIFIED="1358705194423">
 <richcontent TYPE="NODE"><html>
@@ -109,8 +110,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1360068554912" FOLDED="true" ID="ID_1490526552" MODIFIED="1418379606397" POSITION="left" TEXT="ssh">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1360068554912" FOLDED="true" ID="ID_1490526552" MODIFIED="1432583393399" POSITION="left" TEXT="ssh">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1358702630781" FOLDED="true" ID="ID_1170322785" MODIFIED="1418379606182" TEXT="-L">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358702634735" ID="ID_149448698" MODIFIED="1358705209915">
@@ -130,8 +131,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1360701677589" ID="ID_348083143" MODIFIED="1418379599343" POSITION="left" TEXT="sshfs">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1360701677589" FOLDED="true" ID="ID_348083143" MODIFIED="1432583418996" POSITION="left" TEXT="sshfs">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1360701777868" ID="ID_1297928765" LINK="http://blog.philippklaus.de/2011/07/sshfs-on-mac-os-x-10-6-8-with-fuse4x/" MODIFIED="1360701838394">
 <richcontent TYPE="NODE"><html>
   <head>
