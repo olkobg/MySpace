@@ -51,7 +51,7 @@
 <node COLOR="#0033ff" CREATED="1421591837474" ID="ID_1760209474" LINK="http://landonmarder.com/posts/2014/06/04/google-cal-rails/" MODIFIED="1421591857632" TEXT="omnuauth_google_oauth2"/>
 </node>
 <node COLOR="#0033ff" CREATED="1429868760221" ID="ID_1408851291" LINK="https://github.com/plataformatec/devise" MODIFIED="1429868763555" POSITION="right" TEXT="https://github.com/plataformatec/devise"/>
-<node CREATED="1419370682630" FOLDED="true" ID="ID_1587210558" MODIFIED="1430738777665" POSITION="right" TEXT="info">
+<node CREATED="1419370682630" FOLDED="true" ID="ID_1587210558" MODIFIED="1433513916060" POSITION="right" TEXT="info">
 <node CREATED="1419370684534" ID="ID_19484098" LINK="http://stackoverflow.com/questions/9272272/where-is-devise-implementation-of-authenticate-user-method" MODIFIED="1419370713102">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -112,7 +112,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1419367993459" FOLDED="true" ID="ID_1650227366" MODIFIED="1429868995111" TEXT="tutors">
+<node CREATED="1419367993459" FOLDED="true" ID="ID_1650227366" MODIFIED="1433513915210" TEXT="tutors">
 <node CREATED="1419367995599" ID="ID_1547340295" LINK="http://lucatironi.github.io/tutorial/2012/10/15/ruby_rails_android_app_authentication_devise_tutorial_part_one/" MODIFIED="1419368007586" TEXT="android + json +"/>
 <node CREATED="1419368008841" ID="ID_1930899377" LINK="http://stackoverflow.com/questions/21505956/authentication-from-json-api-on-rails-with-devise" MODIFIED="1419368050573" TEXT="json api + rails +"/>
 <node CREATED="1419370238989" FOLDED="true" ID="ID_1315530440" LINK="http://stackoverflow.com/questions/3263291/how-can-i-simply-verify-that-a-username-and-password-are-correct-with-devise-and" MODIFIED="1421146175421" TEXT="verify user + pass">
@@ -125,6 +125,10 @@
 <node COLOR="#990099" CREATED="1421144494545" LINK="http://jes.al/2013/08/authentication-with-rails-devise-and-angularjs/" MODIFIED="1421144501107" TEXT="jes.al"/>
 <node COLOR="#0033ff" CREATED="1421144478179" LINK="https://github.com/cloudspace/angular_devise" MODIFIED="1421144485240" TEXT="angular-devise"/>
 <node CREATED="1419368488446" LINK="http://technpol.wordpress.com/2013/09/23/angularjs-and-devise-authentication-with-a-rails-server/" MODIFIED="1421146170376" TEXT="angular-js + "/>
+</node>
+<node CREATED="1433513856007" FOLDED="true" ID="ID_1963680218" MODIFIED="1433513914940" TEXT="remove registering">
+<node COLOR="#0033ff" CREATED="1433513883700" ID="ID_1151623239" LINK="http://stackoverflow.com/questions/22404733/skip-registration-vs-remove-registerable" MODIFIED="1433513905667" TEXT="method 1"/>
+<node COLOR="#0033ff" CREATED="1433513906371" ID="ID_2356913" LINK="http://stackoverflow.com/questions/22404733/skip-registration-vs-remove-registerable" MODIFIED="1433513914050" TEXT="method 2"/>
 </node>
 </node>
 <node CREATED="1419513102983" FOLDED="true" ID="ID_647696940" MODIFIED="1429869010090" TEXT="solutions">
