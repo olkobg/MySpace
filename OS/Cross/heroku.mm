@@ -2,20 +2,87 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#3300cc" CREATED="1297152021361" ID="ID_1409724162" LINK="../../General/Clouds.mm" MODIFIED="1432543712151" TEXT="heroku">
 <font NAME="SansSerif" SIZE="30"/>
-<node CREATED="1429861801599" FOLDED="true" ID="ID_1279955570" MODIFIED="1429862510403" POSITION="right" TEXT="info">
+<node CREATED="1429861801599" ID="ID_1279955570" MODIFIED="1433185084616" POSITION="right" TEXT="info">
 <node CREATED="1297152122346" ID="ID_1843320105" LINK="https://devcenter.heroku.com/start" MODIFIED="1429861796917" TEXT="quick start"/>
+<node CREATED="1433185085536" FOLDED="true" ID="ID_241325384" MODIFIED="1433192306806" TEXT="keep alive">
+<node CREATED="1433185091464" ID="ID_1064506912" MODIFIED="1433185335078">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In app/lib/tasks, add a file named scheduler.rake with this task defined:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;desc &quot;This task is called by the Heroku cron add-on&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;task :call_page =&gt; :environment do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;uri = URI.parse('http://www.myapp.org/') </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;Net::HTTP.get(uri) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Add the &quot;Scheduler&quot; addon from your Heroku control panel or from the console:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">$ heroku addons:add scheduler:standard</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Configure Scheduler to run this task hourly.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">$ heroku addons:open scheduler</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1429862204339" FOLDED="true" ID="ID_1512103480" MODIFIED="1429862509195" POSITION="right" TEXT="addons">
-<node CREATED="1429862213320" FOLDED="true" ID="ID_1327789086" MODIFIED="1429862507956" TEXT="search">
-<node CREATED="1429862206695" FOLDED="true" ID="ID_428020834" MODIFIED="1429862507397" TEXT="bonsai">
+</node>
+</node>
+<node CREATED="1429862204339" ID="ID_1512103480" MODIFIED="1433192307701" POSITION="right" TEXT="addons">
+<node CREATED="1429862213320" FOLDED="true" ID="ID_1327789086" MODIFIED="1433185084016" TEXT="search">
+<node CREATED="1433148914836" ID="ID_1400462868" MODIFIED="1433148950859" TEXT="elasticsearch"/>
+<node COLOR="#0033ff" CREATED="1429862206695" FOLDED="true" ID="ID_428020834" LINK="https://addons.heroku.com/bonsai" MODIFIED="1433148968122" TEXT="bonsai">
 <node COLOR="#0033ff" CREATED="1429862217365" ID="ID_1316988382" LINK="https://devcenter.heroku.com/articles/bonsai" MODIFIED="1429862231596" TEXT="docs"/>
 </node>
+<node CREATED="1433148960233" ID="ID_118967811" MODIFIED="1433148961913" TEXT="solr"/>
 </node>
-<node CREATED="1429862234979" ID="ID_1861973354" MODIFIED="1429862238773" TEXT="database"/>
+<node CREATED="1429862234979" FOLDED="true" ID="ID_1861973354" MODIFIED="1433148995159" TEXT="database">
+<node CREATED="1433148971958" ID="ID_761124896" MODIFIED="1433148974993" TEXT="redis"/>
+<node COLOR="#0033ff" CREATED="1433148873804" ID="ID_1979116376" LINK="https://elements.heroku.com/addons/heroku-redis" MODIFIED="1433148893386" TEXT="heroku-redis"/>
+<node CREATED="1433148976122" ID="ID_452497283" MODIFIED="1433148989049" TEXT="postgresql"/>
+<node CREATED="1433148989327" ID="ID_34046213" MODIFIED="1433148990961" TEXT="mysql"/>
 </node>
-<node COLOR="#0033ff" CREATED="1429861804445" FOLDED="true" ID="ID_303529499" MODIFIED="1432563401633" POSITION="left" TEXT="$ heroku">
-<node COLOR="#0033ff" CREATED="1429862417999" FOLDED="true" ID="ID_259559785" MODIFIED="1432541798921" TEXT="addons">
-<node COLOR="#0033ff" CREATED="1429862437085" FOLDED="true" ID="ID_236622816" MODIFIED="1429872162951" TEXT="add">
+<node CREATED="1433192309314" ID="ID_1745966150" MODIFIED="1433192313460" TEXT="heroku">
+<node CREATED="1433192313745" ID="ID_1296389537" MODIFIED="1433192313745" TEXT=""/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1429861804445" ID="ID_303529499" MODIFIED="1433192935355" POSITION="left" TEXT="$ heroku">
+<node COLOR="#0033ff" CREATED="1429862417999" FOLDED="true" ID="ID_259559785" MODIFIED="1433192417071" TEXT="addons">
+<node COLOR="#0033ff" CREATED="1429862437085" FOLDED="true" ID="ID_236622816" LINK="#ID_1255643852" MODIFIED="1433192412713" TEXT="add (derecated)">
 <node COLOR="#0033ff" CREATED="1429862444171" ID="ID_1289888502" MODIFIED="1429862463460" TEXT="$ heroku addons:add bonsai"/>
 </node>
 <node COLOR="#0033ff" CREATED="1429872614244" FOLDED="true" ID="ID_636234186" MODIFIED="1429872679983" TEXT="open">
@@ -24,7 +91,7 @@
 <node COLOR="#0033ff" CREATED="1429864106923" FOLDED="true" ID="ID_1463849462" MODIFIED="1429872162713" TEXT="remove">
 <node COLOR="#0033ff" CREATED="1429864108988" ID="ID_120080411" MODIFIED="1429864122658" TEXT="$ heroku addons:remove bonsai"/>
 </node>
-<node COLOR="#0033ff" CREATED="1432541464685" FOLDED="true" ID="ID_1255643852" MODIFIED="1432541798709" TEXT="create">
+<node COLOR="#0033ff" CREATED="1432541464685" FOLDED="true" ID="ID_1255643852" MODIFIED="1433192414484" TEXT="create">
 <node COLOR="#0033ff" CREATED="1432541468490" ID="ID_207815231" MODIFIED="1432541483203" TEXT="$ heroku addons:create filepicker"/>
 </node>
 </node>
@@ -106,7 +173,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1429991586227" ID="ID_905117672" MODIFIED="1429991711377" TEXT="wait"/>
 </node>
-<node COLOR="#0033ff" CREATED="1429871570851" FOLDED="true" ID="ID_1013372023" MODIFIED="1429872192176" TEXT="releases">
+<node COLOR="#0033ff" CREATED="1429871570851" FOLDED="true" ID="ID_1013372023" MODIFIED="1433184943569" TEXT="releases">
 <node CREATED="1429871622717" ID="ID_1253072561" MODIFIED="1429871652471">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -138,7 +205,7 @@
 <node COLOR="#0033ff" CREATED="1429871741168" ID="ID_515948704" MODIFIED="1429871753481" TEXT="$ heroku stack:set cedar-14"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1429991489398" FOLDED="true" ID="ID_1280690285" MODIFIED="1429991967725" TEXT="logs">
+<node COLOR="#0033ff" CREATED="1429991489398" ID="ID_1280690285" MODIFIED="1433192936392" TEXT="logs">
 <node COLOR="#0033ff" CREATED="1429991493976" ID="ID_80703142" MODIFIED="1429991964454" TEXT="$ heroku logs -p postgres -t"/>
 <node COLOR="#0033ff" CREATED="1429991519549" ID="ID_1557689538" MODIFIED="1429991964453" TEXT="$ heroku logs -t"/>
 </node>
