@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1430575564812" TEXT="Ruby">
+<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1433147968119" TEXT="Ruby">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,8 +13,7 @@
       http://rubygarage.github.io
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="34"/>
 <node COLOR="#338800" CREATED="1282900446488" ID="ID_1262636553" MODIFIED="1428087912615" POSITION="right" TEXT="lib/tool/app">
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1428331176955" TEXT="Rails">
@@ -22,7 +21,7 @@
 </node>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1419193495954" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1428356467041" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1434737251632" POSITION="left" TEXT="class">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1422284853468">
 <richcontent TYPE="NODE"><html>
@@ -215,7 +214,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1428356466202" TEXT="classes">
+<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1434737251394" TEXT="classes">
 <node CREATED="1422358047778" FOLDED="true" ID="ID_1968592432" MODIFIED="1422362343535" TEXT="class hierarchy">
 <node CREATED="1422358126007" ID="ID_1774802114" MODIFIED="1422362217370">
 <richcontent TYPE="NODE"><html>
@@ -228,7 +227,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357321010545" FOLDED="true" ID="ID_801856610" LINK="http://ruby-doc.org/core-2.0.0/Array.html" MODIFIED="1422304089467" TEXT="Array">
+<node COLOR="#0033ff" CREATED="1357321010545" FOLDED="true" ID="ID_801856610" LINK="http://ruby-doc.org/core-2.0.0/Array.html" MODIFIED="1433147985807" TEXT="Array">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1422211364157" FOLDED="true" ID="ID_582849734" MODIFIED="1422283140834" TEXT="accessing">
 <node CREATED="1422211366741" ID="ID_839873758" MODIFIED="1422211470230">
@@ -316,7 +315,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422211593818" FOLDED="true" ID="ID_1512783647" MODIFIED="1422283139417" TEXT="add items">
+<node CREATED="1422211593818" FOLDED="true" ID="ID_1512783647" MODIFIED="1433147983114" TEXT="add items">
 <node CREATED="1422211602082" ID="ID_1704841554" MODIFIED="1422211675070">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -686,7 +685,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422211699576" FOLDED="true" ID="ID_1572100947" MODIFIED="1422212359669" TEXT="removing">
+<node CREATED="1422211699576" FOLDED="true" ID="ID_1572100947" MODIFIED="1433147985805" TEXT="removing">
 <node CREATED="1422211706196" ID="ID_491826121" MODIFIED="1422211825196">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2285,6 +2284,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1434737161812" ID="ID_613178817" LINK="http://ruby-doc.org/stdlib-2.2.0/libdoc/ostruct/rdoc/OpenStruct.html" MODIFIED="1434737245969" TEXT="OpenStruct"/>
 <node COLOR="#0033ff" CREATED="1422284594615" FOLDED="true" ID="ID_410795890" LINK="http://www.ruby-doc.org/core-2.0.0/Range.html" MODIFIED="1422284839421" TEXT="Range">
 <node CREATED="1422284812533" FOLDED="true" ID="ID_1089062958" MODIFIED="1422284815426" TEXT="create">
 <node CREATED="1422284601776" ID="ID_828227328" MODIFIED="1422284775464">
@@ -2530,7 +2530,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357320998642" FOLDED="true" ID="ID_398020654" LINK="http://ruby-doc.org/core-2.0.0/String.html" MODIFIED="1422284845170" TEXT="String">
+<node COLOR="#0033ff" CREATED="1357320998642" FOLDED="true" ID="ID_398020654" LINK="http://ruby-doc.org/core-2.0.0/String.html" MODIFIED="1434737155351" TEXT="String">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357308656681" ID="ID_1556089582" MODIFIED="1357323945955">
 <richcontent TYPE="NODE"><html>
@@ -2944,6 +2944,7 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1434737148012" ID="ID_713679619" LINK="http://ruby-doc.org/core-2.2.0/Struct.html" MODIFIED="1434737178557" TEXT="Struct"/>
 <node COLOR="#0033ff" CREATED="1422285291228" FOLDED="true" ID="ID_1707664089" LINK="http://www.ruby-doc.org/core-2.0.0/Time.html" MODIFIED="1422296374424" TEXT="Time">
 <node CREATED="1422285299496" ID="ID_1772044556" MODIFIED="1422285437909">
 <richcontent TYPE="NODE"><html>
@@ -6107,7 +6108,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422359097873" FOLDED="true" ID="ID_1785766035" MODIFIED="1430592400856" POSITION="left" TEXT="mixins">
+<node CREATED="1422359097873" FOLDED="true" ID="ID_1785766035" MODIFIED="1436175176110" POSITION="left" TEXT="mixins">
 <node CREATED="1422359105671" ID="ID_375859181" MODIFIED="1422359120750">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6249,7 +6250,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1417123095769" FOLDED="true" ID="ID_1297218430" MODIFIED="1422356715940" POSITION="left" TEXT="metaprogramming">
+<node CREATED="1417123095769" FOLDED="true" ID="ID_1297218430" MODIFIED="1434736736935" POSITION="left" TEXT="metaprogramming">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357323331656" ID="ID_1844910866" MODIFIED="1417178555644">
 <richcontent TYPE="NODE"><html>
@@ -6266,7 +6267,20 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1357323525020" ID="ID_676504090" MODIFIED="1417178555648">
+<node COLOR="#009999" CREATED="1417123101515" ID="ID_1717492220" LINK="http://allenlsy.com/metaprogramming-ruby-distilled/" MODIFIED="1417123498399" TEXT="allenlsy.com">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1434736631097" FOLDED="true" ID="ID_518897357" MODIFIED="1434736736271" TEXT="methods">
+<node CREATED="1434736659931" FOLDED="true" ID="ID_1422323165" MODIFIED="1434736696072" TEXT="call">
+<node COLOR="#0033ff" CREATED="1434736634501" ID="ID_979282317" MODIFIED="1434736667458" TEXT="call">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1434736640316" ID="ID_1151064194" MODIFIED="1434736667458" TEXT="send">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1434736698727" FOLDED="true" ID="ID_1940544294" MODIFIED="1434736700872" TEXT="list">
+<node CREATED="1357323525020" ID="ID_676504090" MODIFIED="1434736653189">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6281,7 +6295,9 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1357323691457" ID="ID_372950743" MODIFIED="1417178555653">
+</node>
+<node CREATED="1434736703871" FOLDED="true" ID="ID_359688757" MODIFIED="1434736723996" TEXT="defined">
+<node CREATED="1357323691457" ID="ID_372950743" MODIFIED="1434736692487">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6305,8 +6321,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#009999" CREATED="1417123101515" ID="ID_1717492220" LINK="http://allenlsy.com/metaprogramming-ruby-distilled/" MODIFIED="1417123498399" TEXT="allenlsy.com">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node CREATED="1357308445090" FOLDED="true" ID="ID_1298889748" MODIFIED="1422356715161" POSITION="left" TEXT="variables">
