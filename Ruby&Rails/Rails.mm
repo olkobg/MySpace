@@ -2,197 +2,10 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1436194235298" TEXT="Rails">
 <font NAME="SansSerif" SIZE="31"/>
-<node COLOR="#ff0000" CREATED="1282900390703" ID="ID_547986268" MODIFIED="1436515671705" POSITION="right" TEXT="Models">
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1436522118851" POSITION="right" TEXT="Models">
 <font NAME="SansSerif" SIZE="20"/>
-<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1436515680175" TEXT="configuration">
-<node CREATED="1420822145349" ID="ID_1238392466" MODIFIED="1420822170101">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # mysql
-    </p>
-    <p>
-      <font color="#0000ff">test: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;adapter: mysql2 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;reconnect: false </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;pool: 5 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;username: root </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;password: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;socket: /tmp/mysql.sock</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1420822171416" ID="ID_1982080777" MODIFIED="1420822669021">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # postgres
-    </p>
-    <p>
-      <font color="#0000ff">test: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;pool: 5 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;timeout: 5000 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;min_messages: warning</font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;username: root&#160;&#160;# or your system username </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;password: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;host: localhost </font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1420822188130" ID="ID_1049566929" MODIFIED="1420822211556">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # sqlite
-    </p>
-    <p>
-      <font color="#0000ff">test: </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;adapter: sqlite3 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;database: db/test.sqlite3 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;pool: 5 </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;timeout: 5000</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1430168742403" FOLDED="true" ID="ID_741606147" MODIFIED="1430303368533" TEXT="dry">
-<node CREATED="1430168745179" ID="ID_347306336" MODIFIED="1430168892603">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">development: &amp;default</font>
-    </p>
-    <p>
-      &#160;&#160;# <b>&amp;default</b>&#160;means write setting into var <b>default</b>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;user: ubuntu </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;database: phdd_dev </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;pool: 5</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#0000ff">test:</font>
-    </p>
-    <p>
-      &#160;&#160;# <b>&lt;&lt;: *default</b>&#160;means include settings from var with name *&lt;name&gt;
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;&lt;&lt;: *default </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;database: phdd_test</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1421261381206" FOLDED="true" ID="ID_261475142" MODIFIED="1436515195198" TEXT="db/seeds.rb">
-<node COLOR="#0033ff" CREATED="1421261417332" ID="ID_1423604787" MODIFIED="1421261449035" TEXT="User.create(name: &apos;user&apos;, password: &apos;password&apos;)"/>
-<node COLOR="#0033ff" CREATED="1427725208286" ID="ID_1142261647" LINK="gems/factory_girl.mm" MODIFIED="1427746752429" TEXT=" factory_girl"/>
-</node>
-<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1436515193069" TEXT="validate">
-<node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1283855759515" FOLDED="true" ID="ID_376548583" MODIFIED="1436515078681" TEXT="Helpers">
-<node CREATED="1283855731031" ID="ID_840957597" MODIFIED="1283855767406" TEXT="validates_numericaly - to validate number in model"/>
-</node>
-<node CREATED="1285151124782" ID="ID_1515217412" MODIFIED="1285151126295" TEXT="built-in error messages, look for the file validations.rb within the Active Record gem"/>
-</node>
-<node CREATED="1427725192287" FOLDED="true" ID="ID_1636398461" MODIFIED="1436515681521" TEXT="tricks">
-<node COLOR="#990099" CREATED="1416566466801" ID="ID_369394075" LINK="http://stackoverflow.com/questions/6021372/best-way-to-create-unique-token-in-rails" MODIFIED="1416840273419" TEXT="create hash token"/>
-<node COLOR="#990099" CREATED="1416840123243" ID="ID_1727965400" LINK="http://devblog.moz.com/2010/10/non-integer-primary-keys-in-rails/" MODIFIED="1416841240940" TEXT="create table with md5 index"/>
-<node COLOR="#990099" CREATED="1416840461710" ID="ID_829964542" LINK="http://labria.github.io/2013/04/28/rails-4-postgres-uuid-pk-guide/" MODIFIED="1416840493406" TEXT="create table with uuid index - Rails4"/>
-<node COLOR="#990099" CREATED="1416840513326" ID="ID_1671221673" LINK="http://edgeguides.rubyonrails.org/active_record_postgresql.html" MODIFIED="1416840602887">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>rails edge guide</b>&#160;postgresql&#160;advanced
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#990099" CREATED="1417218881618" ID="ID_1681307262" LINK="http://ruby-journal.com/how-to-override-default-primary-key-id-in-rails/" MODIFIED="1417218903027" TEXT="create another primary key">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1436514906893" ID="ID_281123415" MODIFIED="1436515739452" TEXT="ActiveRecord">
-<node CREATED="1434737683591" ID="ID_244798224" MODIFIED="1436516066059" TEXT="methods">
+<node COLOR="#0033ff" CREATED="1436514906893" FOLDED="true" ID="ID_281123415" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Base.html" MODIFIED="1436521124001" TEXT="ActiveRecord">
+<node CREATED="1434737683591" FOLDED="true" ID="ID_244798224" MODIFIED="1436516086330" TEXT="methods">
 <node CREATED="1434737585735" FOLDED="true" ID="ID_1164291398" MODIFIED="1436516072363" TEXT="retreive">
 <node COLOR="#0033ff" CREATED="1434737528627" ID="ID_1211784254" MODIFIED="1434737662281" TEXT="bind"/>
 <node COLOR="#0033ff" CREATED="1434737528628" ID="ID_1708403044" MODIFIED="1434737557912" TEXT="create_with"/>
@@ -479,7 +292,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1416842175466" FOLDED="true" ID="ID_699552630" MODIFIED="1436515181926" TEXT="associations">
+<node CREATED="1416842175466" FOLDED="true" ID="ID_699552630" MODIFIED="1436519638842" TEXT="associations">
 <node COLOR="#0033ff" CREATED="1416842195656" FOLDED="true" ID="ID_530623936" MODIFIED="1431800431701" TEXT="belongs_to">
 <node COLOR="#0033ff" CREATED="1430738478077" ID="ID_277949474" MODIFIED="1430738532639" TEXT="association(force_reload = false)"/>
 <node COLOR="#0033ff" CREATED="1430738478081" ID="ID_422384461" MODIFIED="1430738532641" TEXT="association=(associate)"/>
@@ -1080,6 +893,193 @@
 </node>
 </node>
 </node>
+<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1436515680175" TEXT="configuration">
+<node CREATED="1420822145349" ID="ID_1238392466" MODIFIED="1420822170101">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # mysql
+    </p>
+    <p>
+      <font color="#0000ff">test: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: mysql2 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;reconnect: false </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;username: root </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;password: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;socket: /tmp/mysql.sock</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1420822171416" ID="ID_1982080777" MODIFIED="1420822669021">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # postgres
+    </p>
+    <p>
+      <font color="#0000ff">test: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;timeout: 5000 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;min_messages: warning</font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;username: root&#160;&#160;# or your system username </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;password: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;host: localhost </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1420822188130" ID="ID_1049566929" MODIFIED="1420822211556">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # sqlite
+    </p>
+    <p>
+      <font color="#0000ff">test: </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: sqlite3 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: db/test.sqlite3 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;timeout: 5000</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1430168742403" FOLDED="true" ID="ID_741606147" MODIFIED="1430303368533" TEXT="dry">
+<node CREATED="1430168745179" ID="ID_347306336" MODIFIED="1430168892603">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">development: &amp;default</font>
+    </p>
+    <p>
+      &#160;&#160;# <b>&amp;default</b>&#160;means write setting into var <b>default</b>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;user: ubuntu </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: phdd_dev </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;pool: 5</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">test:</font>
+    </p>
+    <p>
+      &#160;&#160;# <b>&lt;&lt;: *default</b>&#160;means include settings from var with name *&lt;name&gt;
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&lt;&lt;: *default </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;database: phdd_test</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1421261381206" FOLDED="true" ID="ID_261475142" MODIFIED="1436515195198" TEXT="db/seeds.rb">
+<node COLOR="#0033ff" CREATED="1421261417332" ID="ID_1423604787" MODIFIED="1421261449035" TEXT="User.create(name: &apos;user&apos;, password: &apos;password&apos;)"/>
+<node COLOR="#0033ff" CREATED="1427725208286" ID="ID_1142261647" LINK="gems/factory_girl.mm" MODIFIED="1427746752429" TEXT=" factory_girl"/>
+</node>
+<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1436515193069" TEXT="validate">
+<node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1283855759515" FOLDED="true" ID="ID_376548583" MODIFIED="1436515078681" TEXT="Helpers">
+<node CREATED="1283855731031" ID="ID_840957597" MODIFIED="1283855767406" TEXT="validates_numericaly - to validate number in model"/>
+</node>
+<node CREATED="1285151124782" ID="ID_1515217412" MODIFIED="1285151126295" TEXT="built-in error messages, look for the file validations.rb within the Active Record gem"/>
+</node>
+<node CREATED="1427725192287" FOLDED="true" ID="ID_1636398461" MODIFIED="1436515681521" TEXT="tricks">
+<node COLOR="#990099" CREATED="1416566466801" ID="ID_369394075" LINK="http://stackoverflow.com/questions/6021372/best-way-to-create-unique-token-in-rails" MODIFIED="1416840273419" TEXT="create hash token"/>
+<node COLOR="#990099" CREATED="1416840123243" ID="ID_1727965400" LINK="http://devblog.moz.com/2010/10/non-integer-primary-keys-in-rails/" MODIFIED="1416841240940" TEXT="create table with md5 index"/>
+<node COLOR="#990099" CREATED="1416840461710" ID="ID_829964542" LINK="http://labria.github.io/2013/04/28/rails-4-postgres-uuid-pk-guide/" MODIFIED="1416840493406" TEXT="create table with uuid index - Rails4"/>
+<node COLOR="#990099" CREATED="1416840513326" ID="ID_1671221673" LINK="http://edgeguides.rubyonrails.org/active_record_postgresql.html" MODIFIED="1416840602887">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>rails edge guide</b>&#160;postgresql&#160;advanced
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#990099" CREATED="1417218881618" ID="ID_1681307262" LINK="http://ruby-journal.com/how-to-override-default-primary-key-id-in-rails/" MODIFIED="1417218903027" TEXT="create another primary key">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 <node CREATED="1283338536187" FOLDED="true" ID="ID_868166275" MODIFIED="1436440587723" POSITION="left" TEXT="Views">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1447,7 +1447,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1284724176494" FOLDED="true" ID="ID_127732383" MODIFIED="1436440612091" POSITION="left" TEXT="config">
+<node CREATED="1284724176494" ID="ID_127732383" MODIFIED="1436543754094" POSITION="left" TEXT="config">
 <font NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1284724186971" FOLDED="true" ID="ID_949958055" MODIFIED="1436440610931" TEXT="ENV">
 <node COLOR="#0033ff" CREATED="1284724195488" ID="ID_277391393" MODIFIED="1422621358239">
@@ -1476,6 +1476,26 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1436536819634" ID="ID_555508928" MODIFIED="1436543754113" TEXT="loading">
+<node CREATED="1436536823579" ID="ID_389039089" MODIFIED="1436543754123" TEXT="with Yaml">
+<node CREATED="1436536827529" ID="ID_1430877185" LINK="http://urgetopunt.com/rails/2009/09/12/yaml-config-with-erb.html" MODIFIED="1436536867487">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code># config/initializers/load_config.rb </code>
+    </p>
+    <p>
+      <code>APP_CONFIG = YAML.load(ERB.new(File.read(&quot;#{Rails.root}/config/app_config.yml&quot;)).result)[Rails.env]</code>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
