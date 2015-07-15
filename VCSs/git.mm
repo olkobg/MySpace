@@ -3,15 +3,15 @@
 <attribute_registry FONT_SIZE="10" SHOW_ATTRIBUTES="hide"/>
 <node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1422907024012" TEXT="git">
 <font NAME="SansSerif" SIZE="29"/>
-<node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1422908421480" POSITION="left" TEXT="Tips">
+<node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1436783799697" POSITION="left" TEXT="Tips">
 <font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1311116129871" ID="ID_538447464" MODIFIED="1311116135869" TEXT="fix svn rebase">
+<node CREATED="1311116129871" FOLDED="true" ID="ID_538447464" MODIFIED="1436783799454" TEXT="fix svn rebase">
 <node CREATED="1311116138985" ID="ID_1672421427" LINK="http://brandon.dimcheff.com/2009/01/04/commit-a-linear-git-history-to-subversion.html" MODIFIED="1311116151127" TEXT="site"/>
-<node COLOR="#990099" CREATED="1311116180429" ID="ID_1646275026" LINK="http://stackoverflow.com/questions/457694/how-to-commit-a-git-repo-to-an-empty-repo-svn-server/981765#981765" MODIFIED="1311116216344" TEXT="SO">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#990099" CREATED="1311116180429" ID="ID_1646275026" LINK="http://stackoverflow.com/questions/457694/how-to-commit-a-git-repo-to-an-empty-repo-svn-server/981765#981765" MODIFIED="1436783798600" TEXT="SO">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1328810386649" ID="ID_1485705639" MODIFIED="1347010463377" TEXT="add many files">
+<node CREATED="1328810386649" FOLDED="true" ID="ID_1485705639" MODIFIED="1436783796958" TEXT="add many files">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="penguin"/>
 <node CREATED="1328810401719" ID="ID_117856734" MODIFIED="1335362082262">
@@ -40,13 +40,13 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1422908418360" POSITION="left" TEXT="repository">
+<node CREATED="1297154031869" FOLDED="true" ID="ID_408163925" MODIFIED="1436783790519" POSITION="left" TEXT="repository">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1297154051581" ID="ID_1278066541" MODIFIED="1297154057954" TEXT="online">
+<node CREATED="1297154051581" FOLDED="true" ID="ID_1278066541" MODIFIED="1436783789862" TEXT="online">
 <node CREATED="1297154058338" ID="ID_227546252" LINK="http://github.com/" MODIFIED="1297154079091" TEXT="gtihub"/>
 <node CREATED="1297154085470" ID="ID_1918676788" LINK="http://gitorious.org/" MODIFIED="1297154101256" TEXT="gitorious"/>
 </node>
-<node CREATED="1298283592059" FOLDED="true" ID="ID_551907682" MODIFIED="1375702513541" TEXT="create ">
+<node CREATED="1298283592059" FOLDED="true" ID="ID_551907682" MODIFIED="1436783788654" TEXT="create ">
 <node CREATED="1298284522339" ID="ID_239006364" MODIFIED="1298284524847" TEXT="gitweb">
 <node CREATED="1298283594730" ID="ID_658837188" LINK="http://www.howtoforge.com/how-to-install-a-public-git-repository-on-a-debian-server" MODIFIED="1298283597788" TEXT="site"/>
 </node>
@@ -88,19 +88,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1328630705882" FOLDED="true" ID="ID_1722401629" MODIFIED="1422908418360" POSITION="left" TEXT="info">
+<node CREATED="1328630705882" FOLDED="true" ID="ID_1722401629" MODIFIED="1436783784864" POSITION="left" TEXT="info">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1328630710250" ID="ID_1913892373" MODIFIED="1328630716247" TEXT="books">
-<node COLOR="#009999" CREATED="1328630716577" ID="ID_246836308" LINK="http://git-scm.com/book" MODIFIED="1387451667776" TEXT="git book">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#009999" CREATED="1356617238047" ID="ID_1940841492" LINK="http://git-scm.com/docs" MODIFIED="1387451697510" TEXT="reff">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1328630710250" FOLDED="true" ID="ID_1913892373" MODIFIED="1436783782014" TEXT="books">
+<node COLOR="#009999" CREATED="1328630716577" FOLDED="true" ID="ID_246836308" LINK="http://git-scm.com/book" MODIFIED="1436783781641" TEXT="git book">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1356617238047" ID="ID_1940841492" LINK="http://git-scm.com/docs" MODIFIED="1436783780254" TEXT="reff">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1356611241727" ID="ID_958285507" MODIFIED="1356611252143" TEXT="cheatsheets">
+<node CREATED="1356611241727" FOLDED="true" ID="ID_958285507" MODIFIED="1436783782928" TEXT="cheatsheets">
 <node CREATED="1356611243693" ID="ID_1575599507" LINK="http://ndpsoftware.com/git-cheatsheet.html#loc=index;" MODIFIED="1356611246812" TEXT="np"/>
-<node CREATED="1356611253640" ID="ID_1569983938" LINK="https://na1.salesforce.com/help/doc/en/salesforce_git_developer_cheatsheet.pdf" MODIFIED="1356611303982">
+<node CREATED="1356611253640" ID="ID_1569983938" LINK="https://na1.salesforce.com/help/doc/en/salesforce_git_developer_cheatsheet.pdf" MODIFIED="1436783776204">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -111,6 +111,7 @@
     </p>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
@@ -326,8 +327,7 @@
       <font color="#0000ff">$ git checkout -- octocat.txt</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1347009889048" FOLDED="true" ID="ID_650238942" MODIFIED="1422907033993" POSITION="right" TEXT="cherry-pick">
@@ -393,7 +393,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116388955" FOLDED="true" ID="ID_1391649564" MODIFIED="1422907029513" POSITION="left" TEXT="reset">
+<node COLOR="#0033ff" CREATED="1311116388955" FOLDED="true" ID="ID_1391649564" MODIFIED="1436783768794" POSITION="left" TEXT="reset">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311117086249" ID="ID_1164172895" MODIFIED="1355755359927" TEXT="remove file from the current index (the &quot;about to be committed&quot; area) without changing anything else."/>
 <node COLOR="#009999" CREATED="1311117229714" ID="ID_168216952" LINK="http://stackoverflow.com/questions/348170/undo-git-add" MODIFIED="1356609417356" TEXT="SO">
@@ -586,14 +586,14 @@
 <attribute NAME="version" VALUE="&gt; 1.7"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1422907042384" POSITION="right" TEXT="commit">
+<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1436783767370" POSITION="right" TEXT="commit">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1329936168498" ID="ID_311420569" MODIFIED="1355755030767" TEXT="--amend">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1329936168498" ID="ID_311420569" MODIFIED="1436783765577" TEXT="--amend">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347009928183" ID="ID_1237583573" MODIFIED="1347009951712" TEXT="changes previous commit info and files commited if with add"/>
 </node>
-<node COLOR="#0033ff" CREATED="1355754600652" ID="ID_327165255" MODIFIED="1355755030765" TEXT="--allow-empty">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355754600652" ID="ID_327165255" MODIFIED="1436783765577" TEXT="--allow-empty">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355754659890" ID="ID_905568181" MODIFIED="1355754709284">
 <richcontent TYPE="NODE"><html>
   <head>
