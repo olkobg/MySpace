@@ -159,7 +159,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1368720998980" FOLDED="true" ID="ID_313206185" MODIFIED="1436962844650" POSITION="right" TEXT="aliasing">
+<node CREATED="1368720998980" FOLDED="true" ID="ID_313206185" MODIFIED="1436963891198" POSITION="right" TEXT="aliasing">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1368721010789" ID="ID_728775231" MODIFIED="1368721146570">
 <richcontent TYPE="NODE"><html>
@@ -681,7 +681,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_1182298341" MODIFIED="1436962908843" POSITION="left" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_1182298341" MODIFIED="1436963911707" POSITION="left" TEXT="fs">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_1369880645" MODIFIED="1436962570257" TEXT="mount ">
 <font NAME="SansSerif" SIZE="12"/>
@@ -981,7 +981,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1364490060955" FOLDED="true" ID="ID_1341500558" MODIFIED="1436962796102" TEXT="grep">
+<node COLOR="#0033ff" CREATED="1364490060955" FOLDED="true" ID="ID_1341500558" MODIFIED="1436963909833" TEXT="grep">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1364490064741" ID="ID_1213853819" LINK="http://www.thegeekstuff.com/2011/10/grep-or-and-not-operators/" MODIFIED="1436962615648">
 <richcontent TYPE="NODE"><html>
@@ -1009,6 +1009,7 @@
 </html>
 </richcontent>
 </node>
+<node COLOR="#0033ff" CREATED="1436963893700" ID="ID_1257169467" MODIFIED="1436963903409" TEXT="grep -rI --exclude-dir=&quot;\.svn&quot; &quot;pattern&quot; *"/>
 </node>
 <node COLOR="#0033ff" CREATED="1392974108379" ID="ID_913111970" MODIFIED="1436962541639" TEXT="rename">
 <font NAME="SansSerif" SIZE="12"/>
