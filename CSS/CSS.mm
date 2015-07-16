@@ -2,8 +2,8 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#006633" CREATED="1298379398131" ID="ID_1454701070" LINK="../Index.mm" MODIFIED="1423320435075" TEXT="CSS">
 <font NAME="SansSerif" SIZE="31"/>
-<node CREATED="1329167857520" FOLDED="true" ID="ID_1738733773" MODIFIED="1423320334073" POSITION="right" TEXT="Fonts">
-<node CREATED="1329167860573" ID="ID_1617167628" LINK="http://www.webfonts.info/wiki/index.php?title=%40font-face_support_in_Firefox" MODIFIED="1329167893664" TEXT="Web Fonts - Firefox"/>
+<node CREATED="1329167857520" ID="ID_1738733773" LINK="../../Art/design/typography/fonts.mm" MODIFIED="1436961679287" POSITION="right" TEXT="fonts">
+<font NAME="SansSerif" SIZE="13"/>
 </node>
 <node COLOR="#0033ff" CREATED="1333056389137" FOLDED="true" ID="ID_1127662998" MODIFIED="1423320321534" POSITION="left" TEXT="background">
 <font NAME="SansSerif" SIZE="12"/>
@@ -224,9 +224,9 @@
 <node COLOR="#0033ff" CREATED="1429906245339" ID="ID_719911900" MODIFIED="1429906258070" TEXT="text-decoration: underline;"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1386675330532" FOLDED="true" ID="ID_1321587244" MODIFIED="1423320262758" POSITION="left" TEXT="font">
+<node COLOR="#0033ff" CREATED="1386675330532" FOLDED="true" ID="ID_1321587244" MODIFIED="1436961282069" POSITION="left" TEXT="font">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1386675335051" FOLDED="true" ID="ID_1917399904" MODIFIED="1421312228844" TEXT="@font-face">
+<node COLOR="#0033ff" CREATED="1386675335051" FOLDED="true" ID="ID_1917399904" MODIFIED="1436961281057" TEXT="@font-face">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1386675822960" ID="ID_1483504420" MODIFIED="1421312190002">
 <richcontent TYPE="NODE"><html>
@@ -269,17 +269,6 @@
     </p>
   </body>
 </html></richcontent>
-</node>
-</node>
-<node CREATED="1386677407963" FOLDED="true" ID="ID_1431274130" MODIFIED="1421312229863" TEXT="collections">
-<node COLOR="#009999" CREATED="1386677175983" ID="ID_1945203370" LINK="http://www.fontsquirrel.com/" MODIFIED="1421312204406" TEXT="fontsquirrel">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#009999" CREATED="1386677250953" ID="ID_1225814993" LINK="http://ukrfonts.com/" MODIFIED="1421312204407" TEXT="ukrfonts.com">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#009999" CREATED="1386677418039" ID="ID_881514898" LINK="http://www.google.com/fonts" MODIFIED="1421312204407" TEXT="google/fonts">
-<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
