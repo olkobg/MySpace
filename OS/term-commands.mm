@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0033ff" CREATED="1296463743164" ID="ID_1233514257" LINK="UlOs/Ulike.mm" MODIFIED="1436962906652" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1296463743164" ID="ID_1233514257" LINK="UlOs/Ulike.mm" MODIFIED="1437246277332" TEXT="$term">
 <font NAME="SansSerif" SIZE="21"/>
 <node CREATED="1365667897397" FOLDED="true" ID="ID_1725122257" MODIFIED="1436962892772" POSITION="right" TEXT="security">
 <node CREATED="1359236444041" FOLDED="true" ID="ID_479712523" MODIFIED="1436962889058" TEXT="crypt">
@@ -681,7 +681,7 @@
           </html></richcontent>
 </node>
 </node>
-<node CREATED="1359236458625" FOLDED="true" ID="ID_1182298341" MODIFIED="1436963911707" POSITION="left" TEXT="fs">
+<node CREATED="1359236458625" FOLDED="true" ID="ID_1182298341" MODIFIED="1437246277132" POSITION="left" TEXT="fs">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1296834785901" FOLDED="true" ID="ID_1369880645" MODIFIED="1436962570257" TEXT="mount ">
 <font NAME="SansSerif" SIZE="12"/>
@@ -993,8 +993,7 @@
       logic
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1436962574159" ID="ID_1456619274" MODIFIED="1436962763278">
 <richcontent TYPE="NODE"><html>
@@ -1006,24 +1005,44 @@
 
 </font><font color="#0000ff" face="Monospaced">$ grep pattern -r --include=\*.{cpp,h} rootdir</font></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1436963893700" ID="ID_1257169467" MODIFIED="1436963903409" TEXT="grep -rI --exclude-dir=&quot;\.svn&quot; &quot;pattern&quot; *"/>
 </node>
-<node COLOR="#0033ff" CREATED="1392974108379" ID="ID_913111970" MODIFIED="1436962541639" TEXT="rename">
+<node COLOR="#0033ff" CREATED="1392974108379" FOLDED="true" ID="ID_913111970" MODIFIED="1437246224223" TEXT="rename">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1358768672598" ID="ID_1915876850" LINK="http://linux.icydog.net/rename.php" MODIFIED="1392973924126">
+<node CREATED="1358768672598" ID="ID_1915876850" LINK="http://linux.icydog.net/rename.php" MODIFIED="1437246222020">
 <richcontent TYPE="NODE"><html>
-          <head>
-
-          </head>
-          <body>
-            <p>
-              <font color="#009999"><b>icydog</b></font>&#xa0;rename
-            </p>
-          </body>
-        </html></richcontent>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999">icydog</font>&#160;rename
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1437246201316" FOLDED="true" ID="ID_368803319" MODIFIED="1437246275476" TEXT="file">
+<node COLOR="#0033ff" CREATED="1437246197445" FOLDED="true" ID="ID_648549419" MODIFIED="1437246273964" TEXT="patch">
+<node CREATED="1437246209507" ID="ID_543328464" MODIFIED="1437246271200">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # reverse patch apply
+    </p>
+    <p>
+      <font color="#0000ff">$ patch -p0 <b>-R</b>&#160;&lt; patch_file_path.patch</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1392843327808" FOLDED="true" ID="ID_1316812163" MODIFIED="1436962828636" TEXT="archive">

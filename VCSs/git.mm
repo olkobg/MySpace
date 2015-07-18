@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <attribute_registry FONT_SIZE="10" SHOW_ATTRIBUTES="hide"/>
-<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1436794149673" TEXT="git">
+<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1437246467947" TEXT="git">
 <font NAME="SansSerif" SIZE="29"/>
 <node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1437050511138" POSITION="left" TEXT="Tips">
 <font NAME="SansSerif" SIZE="15"/>
@@ -229,7 +229,24 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289405676416" FOLDED="true" ID="ID_487111464" MODIFIED="1422907620137" POSITION="right" TEXT="branch&#x9;&#x9;&#x9;&#x9;">
+<node COLOR="#0033ff" CREATED="1437246471103" FOLDED="true" ID="ID_1977686020" MODIFIED="1437246541134" POSITION="right" TEXT="apply">
+<node CREATED="1437246477588" ID="ID_495913147" MODIFIED="1437246520522">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      applies patch in reverse mode
+    </p>
+    <p>
+      <font color="#0000ff">$ git apply <b>-R</b>&#160;&lt;patch_name.patch&gt;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1289405676416" FOLDED="true" ID="ID_487111464" MODIFIED="1437246529216" POSITION="right" TEXT="branch&#x9;&#x9;&#x9;&#x9;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311116426704" ID="ID_1992506106" MODIFIED="1311116529907" TEXT="work with branches (w/o params - show)"/>
 <node COLOR="#0033ff" CREATED="1289405689541" ID="ID_1296640732" MODIFIED="1355754835803" TEXT="-a">
@@ -337,13 +354,6 @@
 <node COLOR="#0033ff" CREATED="1329936112092" ID="ID_1784311335" MODIFIED="1422907029513" POSITION="left" TEXT="pull">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1437050502040" FOLDED="true" ID="ID_1951117165" MODIFIED="1437050552450" POSITION="left" TEXT="rebase">
-<node COLOR="#0033ff" CREATED="1437050530202" FOLDED="true" ID="ID_1576783732" MODIFIED="1437050552215" TEXT="-i, --interactive">
-<node CREATED="1437050548102" FOLDED="true" ID="ID_1999415222" MODIFIED="1437050552052" TEXT="opt">
-<node COLOR="#0033ff" CREATED="1437050403378" ID="ID_384414097" MODIFIED="1437050550841" TEXT="squash"/>
-</node>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1329936116593" FOLDED="true" ID="ID_1595520806" MODIFIED="1422907108742" POSITION="left" TEXT="push">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1329936120120" ID="ID_1196135519" MODIFIED="1360240001329">
@@ -398,6 +408,11 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1437050502040" FOLDED="true" ID="ID_1951117165" MODIFIED="1437051432245" POSITION="left" TEXT="rebase">
+<node COLOR="#0033ff" CREATED="1437050530202" FOLDED="true" ID="ID_1576783732" MODIFIED="1437051432078" TEXT="-i, --interactive">
+<node CREATED="1437050403378" ID="ID_384414097" LINK="http://davidwalsh.name/squash-commits-git" MODIFIED="1437051429118" TEXT="squash"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1311116388955" FOLDED="true" ID="ID_1391649564" MODIFIED="1436783768794" POSITION="left" TEXT="reset">
@@ -615,7 +630,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1422907042386" POSITION="right" TEXT="config">
+<node COLOR="#0033ff" CREATED="1289412005624" FOLDED="true" ID="ID_1466793587" MODIFIED="1437119350423" POSITION="right" TEXT="config">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1380366053475" ID="ID_1009881573" MODIFIED="1384966957076">
 <richcontent TYPE="NODE"><html>
