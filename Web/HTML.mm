@@ -11,11 +11,7 @@
 </node>
 <node CREATED="1297155166643" ID="ID_585398437" LINK="http://unity3d.com/" MODIFIED="1297155209098" TEXT="unity3D"/>
 </node>
-<node CREATED="1307013064378" FOLDED="true" ID="ID_259503846" MODIFIED="1431012997672" POSITION="right" TEXT="WebFonts">
-<node CREATED="1307013071073" ID="ID_1272693283" LINK="http://code.google.com/apis/webfonts/" MODIFIED="1307013075046" TEXT="google"/>
-<node CREATED="1329495147392" ID="ID_338958224" LINK="http://sixrevisions.com/css/font-face-guide/" MODIFIED="1329495152902" TEXT="guide "/>
-</node>
-<node CREATED="1363001593353" FOLDED="true" ID="ID_1265772728" MODIFIED="1431013010626" POSITION="right" TEXT="css">
+<node CREATED="1363001593353" ID="ID_1265772728" MODIFIED="1436961758023" POSITION="right" TEXT="css">
 <node CREATED="1363001598666" ID="ID_443450653" LINK="http://www.dynamicdrive.com/style/csslibrary/item/css_triangle_arrow_divs/" MODIFIED="1431013009403">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -26,8 +22,7 @@
       <font color="#009999">dynamic drive</font>&#160;create tirangels
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1297155298254" FOLDED="true" ID="ID_751982683" MODIFIED="1431013013922" POSITION="left" TEXT="script">
@@ -51,8 +46,7 @@
       <font color="#0000ff">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -73,8 +67,7 @@
       <font color="#009999">collegegfx</font>&#160;html tutors
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
