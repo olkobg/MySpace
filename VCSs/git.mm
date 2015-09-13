@@ -1,7 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<attribute_registry FONT_SIZE="10" SHOW_ATTRIBUTES="hide"/>
-<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1437246467947" TEXT="git">
+<node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1437470444303" TEXT="git">
 <font NAME="SansSerif" SIZE="29"/>
 <node COLOR="#ff6666" CREATED="1311116090530" FOLDED="true" ID="ID_1081305118" MODIFIED="1437050511138" POSITION="left" TEXT="Tips">
 <font NAME="SansSerif" SIZE="15"/>
@@ -229,7 +228,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1437246471103" FOLDED="true" ID="ID_1977686020" MODIFIED="1437246541134" POSITION="right" TEXT="apply">
+<node COLOR="#0033ff" CREATED="1437246471103" ID="ID_1977686020" MODIFIED="1441806482317" POSITION="right" TEXT="apply">
 <node CREATED="1437246477588" ID="ID_495913147" MODIFIED="1437246520522">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -351,10 +350,11 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347010475104" ID="ID_42985000" MODIFIED="1347010510044" TEXT="insert commit (via sha) from other branches into current branch"/>
 </node>
-<node COLOR="#0033ff" CREATED="1329936112092" ID="ID_1784311335" MODIFIED="1422907029513" POSITION="left" TEXT="pull">
+<node COLOR="#0033ff" CREATED="1329936112092" FOLDED="true" ID="ID_1784311335" MODIFIED="1439475757228" POSITION="left" TEXT="pull">
 <font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1439475740295" ID="ID_367314177" MODIFIED="1439475752989" TEXT="$ git pull origin other-branch"/>
 </node>
-<node COLOR="#0033ff" CREATED="1329936116593" FOLDED="true" ID="ID_1595520806" MODIFIED="1422907108742" POSITION="left" TEXT="push">
+<node COLOR="#0033ff" CREATED="1329936116593" FOLDED="true" ID="ID_1595520806" MODIFIED="1439475749790" POSITION="left" TEXT="push">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1329936120120" ID="ID_1196135519" MODIFIED="1360240001329">
 <richcontent TYPE="NODE"><html>
@@ -608,13 +608,14 @@
 <attribute NAME="version" VALUE="&gt; 1.7"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1436783767370" POSITION="right" TEXT="commit">
+<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1439909749283" POSITION="right" TEXT="commit">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1329936168498" ID="ID_311420569" MODIFIED="1436783765577" TEXT="--amend">
+<node COLOR="#0033ff" CREATED="1329936168498" FOLDED="true" ID="ID_311420569" MODIFIED="1439909749097" TEXT="--amend">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347009928183" ID="ID_1237583573" MODIFIED="1347009951712" TEXT="changes previous commit info and files commited if with add"/>
+<node CREATED="1439909738476" ID="ID_959164652" LINK="http://stackoverflow.com/questions/750172/change-the-author-of-a-commit-in-git" MODIFIED="1439909748032" TEXT="change author"/>
 </node>
-<node COLOR="#0033ff" CREATED="1355754600652" ID="ID_327165255" MODIFIED="1436783765577" TEXT="--allow-empty">
+<node COLOR="#0033ff" CREATED="1355754600652" FOLDED="true" ID="ID_327165255" MODIFIED="1437469410870" TEXT="--allow-empty">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355754659890" ID="ID_905568181" MODIFIED="1355754709284">
 <richcontent TYPE="NODE"><html>
@@ -1011,8 +1012,23 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356611047333" ID="ID_814792527" MODIFIED="1422907033995" POSITION="right" TEXT="fetch">
+<node COLOR="#0033ff" CREATED="1356611047333" FOLDED="true" ID="ID_814792527" MODIFIED="1440162625107" POSITION="right" TEXT="fetch">
 <font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1439475768100" ID="ID_448649628" MODIFIED="1439475802231">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # fetch and merge with other branch
+    </p>
+    <p>
+      <font color="#0000ff">$ <code>git fetch origin other-branch &amp;&amp; git merge other-branch</code></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1297153951399" FOLDED="true" ID="ID_1283764578" MODIFIED="1422907033995" POSITION="right" TEXT="init">
 <font NAME="SansSerif" SIZE="12"/>
