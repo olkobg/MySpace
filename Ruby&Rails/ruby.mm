@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1433147968119" TEXT="Ruby">
+<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1442083461363" TEXT="Ruby">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,15 +13,16 @@
       http://rubygarage.github.io
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="34"/>
-<node COLOR="#338800" CREATED="1282900446488" ID="ID_1262636553" MODIFIED="1428087912615" POSITION="right" TEXT="lib/tool/app">
+<node COLOR="#338800" CREATED="1282900446488" ID="ID_1262636553" MODIFIED="1441288113033" POSITION="right" TEXT="lib/tool/app">
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1428331176955" TEXT="Rails">
 <font NAME="SansSerif" SIZE="15"/>
 </node>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1419193495954" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1434737251632" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1437473411413" POSITION="left" TEXT="class">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1422284853468">
 <richcontent TYPE="NODE"><html>
@@ -214,7 +215,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1434737251394" TEXT="classes">
+<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1437392511111" TEXT="classes">
 <node CREATED="1422358047778" FOLDED="true" ID="ID_1968592432" MODIFIED="1422362343535" TEXT="class hierarchy">
 <node CREATED="1422358126007" ID="ID_1774802114" MODIFIED="1422362217370">
 <richcontent TYPE="NODE"><html>
@@ -2420,7 +2421,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357308642985" FOLDED="true" ID="ID_1182852612" LINK="http://ruby-doc.org/core-2.0.0/Symbol.html" MODIFIED="1422303473265">
+<node COLOR="#0033ff" CREATED="1357308642985" FOLDED="true" ID="ID_1182852612" LINK="http://ruby-doc.org/core-2.0.0/Symbol.html" MODIFIED="1437392510790">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2433,6 +2434,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357320603395" ID="ID_1457698397" MODIFIED="1357320640754" TEXT="immutable string that represents itself"/>
+<node COLOR="#0033ff" CREATED="1437392491327" ID="ID_1733089201" MODIFIED="1437392507415" TEXT="#all_symbols"/>
 <node CREATED="1357319563417" ID="ID_1186130719" MODIFIED="1357319603670">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4093,11 +4095,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1422392684575" POSITION="left" TEXT="methods">
+<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1437042236110" POSITION="left" TEXT="methods">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1360758434157" FOLDED="true" ID="ID_806357009" MODIFIED="1422305771918" TEXT="attr">
+<node COLOR="#0033ff" CREATED="1360758434157" ID="ID_806357009" MODIFIED="1437037192824" TEXT="attr">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1422299098648" FOLDED="true" ID="ID_1849046566" MODIFIED="1422299104003" TEXT="setter/getter">
+<node CREATED="1422299098648" FOLDED="true" ID="ID_1849046566" MODIFIED="1437037209672" TEXT="setter/getter">
 <node CREATED="1358330048294" ID="ID_1451657911" MODIFIED="1422297082447">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4225,7 +4227,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422299108802" FOLDED="true" ID="ID_1573842069" MODIFIED="1422305770659" TEXT="attribute accestor">
+<node CREATED="1422299108802" FOLDED="true" ID="ID_1573842069" MODIFIED="1437037213569" TEXT="attribute accessor">
 <node CREATED="1358420012536" ID="ID_1305922158" MODIFIED="1358420167993">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4333,7 +4335,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422299121415" FOLDED="true" ID="ID_1367795564" MODIFIED="1422299200941" TEXT="virtual attributes">
+<node CREATED="1422299121415" FOLDED="true" ID="ID_1367795564" MODIFIED="1437037243702" TEXT="virtual attributes">
 <node CREATED="1422299131175" ID="ID_1652325815" MODIFIED="1422299172192">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4408,7 +4410,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422299229845" FOLDED="true" ID="ID_1157661549" MODIFIED="1422299331357" TEXT="define operators">
+<node CREATED="1422299229845" FOLDED="true" ID="ID_1157661549" MODIFIED="1437037248251" TEXT="define operators">
 <node CREATED="1422299250207" ID="ID_683297312" MODIFIED="1422299289599">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4482,7 +4484,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422288586033" FOLDED="true" ID="ID_1230844944" MODIFIED="1422291451206" TEXT="args">
+<node COLOR="#0033ff" CREATED="1422288586033" FOLDED="true" ID="ID_1230844944" MODIFIED="1437037319008" TEXT="args">
 <node CREATED="1357309177051" ID="ID_375127362" MODIFIED="1360758471633">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4607,7 +4609,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422289300900" FOLDED="true" ID="ID_899265942" MODIFIED="1422291452923" TEXT="block">
+<node CREATED="1422289300900" FOLDED="true" ID="ID_899265942" MODIFIED="1437037356541" TEXT="block">
 <node CREATED="1422289303536" ID="ID_305493401" MODIFIED="1422289399093">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4708,7 +4710,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422289467108" FOLDED="true" ID="ID_1884003840" MODIFIED="1422291455451" TEXT="closures">
+<node CREATED="1422289467108" FOLDED="true" ID="ID_1884003840" MODIFIED="1437037422003" TEXT="closures">
 <node CREATED="1422289474526" ID="ID_183511523" MODIFIED="1422289520562">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4761,7 +4763,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422288365033" FOLDED="true" ID="ID_1582270835" MODIFIED="1422291729114" TEXT="definition">
+<node CREATED="1422288365033" FOLDED="true" ID="ID_1582270835" MODIFIED="1437037452475" TEXT="definition">
 <node CREATED="1422288410309" ID="ID_1458007751" MODIFIED="1422288674823">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5038,7 +5040,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1422288649619" FOLDED="true" ID="ID_115384315" MODIFIED="1422291488991" TEXT="class">
+<node CREATED="1422288649619" FOLDED="true" ID="ID_115384315" MODIFIED="1437037451826" TEXT="class">
 <node CREATED="1358330570804" ID="ID_1372365196" MODIFIED="1360758464093">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5077,7 +5079,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422290813345" FOLDED="true" ID="ID_589992585" MODIFIED="1422291418713" TEXT="lambda">
+<node COLOR="#0033ff" CREATED="1422290813345" FOLDED="true" ID="ID_589992585" MODIFIED="1437037455333" TEXT="lambda">
 <node CREATED="1422291264834" FOLDED="true" ID="ID_1792272428" MODIFIED="1422291415923" TEXT="diff">
 <node CREATED="1422291268402" ID="ID_792217537" MODIFIED="1422291275277" TEXT="blocks and Procs act like code snippets"/>
 <node CREATED="1422291283490" ID="ID_255567950" MODIFIED="1422291285860" TEXT="lambdas and Methods act like methods"/>
@@ -5203,7 +5205,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422392518450" FOLDED="true" ID="ID_1945174242" MODIFIED="1422392684129" TEXT="lookup">
+<node CREATED="1422392518450" FOLDED="true" ID="ID_1945174242" MODIFIED="1437042235641" TEXT="lookup">
 <node CREATED="1422392529115" ID="ID_1165299270" MODIFIED="1422392541696">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5489,7 +5491,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360758409739" FOLDED="true" ID="ID_1901276234" MODIFIED="1422303525237" TEXT="static">
+<node CREATED="1360758409739" FOLDED="true" ID="ID_1901276234" MODIFIED="1437037179399" TEXT="static">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358330684795" ID="ID_1618414090" MODIFIED="1358330744544">
 <richcontent TYPE="NODE"><html>
@@ -5534,7 +5536,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422291299883" FOLDED="true" ID="ID_1074909884" MODIFIED="1422291398139" TEXT="to object">
+<node CREATED="1422291299883" FOLDED="true" ID="ID_1074909884" MODIFIED="1437036901009" TEXT="to object">
 <node CREATED="1422291302009" ID="ID_473808066" MODIFIED="1422291350289">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5578,7 +5580,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422304016162" FOLDED="true" ID="ID_65038357" MODIFIED="1422304119868" TEXT="self">
+<node COLOR="#0033ff" CREATED="1422304016162" FOLDED="true" ID="ID_65038357" MODIFIED="1437036887137" TEXT="self">
 <node CREATED="1422304020890" ID="ID_1412309424" MODIFIED="1422304043561">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5676,7 +5678,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422356721168" FOLDED="true" ID="ID_156693730" MODIFIED="1422356899389" TEXT="visibility">
+<node CREATED="1422356721168" FOLDED="true" ID="ID_156693730" MODIFIED="1437036879245" TEXT="visibility">
 <node CREATED="1422356732885" ID="ID_38297916" MODIFIED="1422356879302">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5805,8 +5807,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1422358569659" FOLDED="true" ID="ID_507945280" MODIFIED="1422392483485" POSITION="left" TEXT="module">
-<node CREATED="1422358811253" FOLDED="true" ID="ID_126808197" MODIFIED="1422359079892" TEXT="constant &amp; path">
+<node CREATED="1422358569659" FOLDED="true" ID="ID_507945280" MODIFIED="1437392447177" POSITION="left" TEXT="module">
+<node CREATED="1422358811253" FOLDED="true" ID="ID_126808197" MODIFIED="1437037048989" TEXT="constant &amp; path">
 <node CREATED="1422359007242" ID="ID_1318513650" MODIFIED="1422359067698">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5889,7 +5891,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422359219486" FOLDED="true" ID="ID_278576575" MODIFIED="1422359337819" TEXT="extend">
+<node CREATED="1422359219486" FOLDED="true" ID="ID_278576575" MODIFIED="1437037039454" TEXT="extend">
 <node CREATED="1422359225380" ID="ID_889554250" MODIFIED="1422359257981">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5976,7 +5978,7 @@
 </node>
 </node>
 <node CREATED="1422358816454" ID="ID_40531154" MODIFIED="1422359223408" TEXT="path"/>
-<node CREATED="1422359020244" FOLDED="true" ID="ID_438206965" MODIFIED="1422362107505" TEXT="sample">
+<node CREATED="1422359020244" FOLDED="true" ID="ID_438206965" MODIFIED="1437036948011" TEXT="sample">
 <node CREATED="1422358728455" ID="ID_397314429" MODIFIED="1422358755519">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6050,7 +6052,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422361884501" FOLDED="true" ID="ID_355318201" MODIFIED="1422392482839" TEXT="hierarchy">
+<node CREATED="1422361884501" FOLDED="true" ID="ID_355318201" MODIFIED="1437036917808" TEXT="hierarchy">
 <node CREATED="1422362042480" ID="ID_685611597" MODIFIED="1422362114013">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6107,8 +6109,7 @@
 </html></richcontent>
 </node>
 </node>
-</node>
-<node CREATED="1422359097873" FOLDED="true" ID="ID_1785766035" MODIFIED="1436175176110" POSITION="left" TEXT="mixins">
+<node CREATED="1422359097873" FOLDED="true" ID="ID_1785766035" MODIFIED="1437036913895" TEXT="mixins">
 <node CREATED="1422359105671" ID="ID_375859181" MODIFIED="1422359120750">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6203,7 +6204,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1428087909160" POSITION="left" TEXT="object">
+</node>
+<node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1438608615966" POSITION="left" TEXT="object">
 <node CREATED="1422180144626" ID="ID_354289056" MODIFIED="1422180186358">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7695,7 +7697,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1430304091229" POSITION="right" TEXT="ver">
+<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1441288110711" POSITION="right" TEXT="ver">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1422178783983" FOLDED="true" ID="ID_581998632" MODIFIED="1422446202661" TEXT="manage">
 <node COLOR="#0033ff" CREATED="1357132426045" ID="ID_789870658" LINK="rvm.mm" MODIFIED="1422178796381" TEXT="rvm"/>
@@ -7735,13 +7737,13 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1412241600721" ID="ID_64964856" MODIFIED="1428331152281" POSITION="right" TEXT="$">
+<node COLOR="#0033ff" CREATED="1412241600721" ID="ID_64964856" MODIFIED="1442083463311" POSITION="right" TEXT="$">
 <node COLOR="#0033ff" CREATED="1357147330262" ID="ID_1164510811" LINK="Gems.mm" MODIFIED="1430304080594" TEXT="gem">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1415812006102" ID="ID_222339979" LINK="rake.mm" MODIFIED="1420816304426" TEXT="rake"/>
-<node CREATED="1422178761739" FOLDED="true" ID="ID_841080907" MODIFIED="1422917661726" TEXT="run">
-<node CREATED="1422178765439" ID="ID_1106444073" MODIFIED="1422179983218">
+<node COLOR="#0033ff" CREATED="1422178761739" ID="ID_841080907" MODIFIED="1442083464440" TEXT="ruby">
+<node CREATED="1422179861968" ID="ID_29561557" MODIFIED="1440964676067">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7762,15 +7764,12 @@
     <p>
       Hello Ruby world!
     </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1422179861968" ID="ID_29561557" MODIFIED="1422211527649">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
+    <p>
+      -------------------
+    </p>
+    <p>
+      
+    </p>
     <p>
       #hello_world.rb
     </p>
@@ -7788,6 +7787,21 @@
     </p>
     <p>
       Hello Ruby world!
+    </p>
+    <p>
+      --------------------
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #alternative way
+    </p>
+    <p>
+      <font color="#0000ff">#!/usr/bin/env ruby </font>
+    </p>
+    <p>
+      <font color="#0000ff">puts 'Hello Ruby world!'</font>
     </p>
   </body>
 </html></richcontent>
@@ -7807,7 +7821,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1412241656348" FOLDED="true" ID="ID_635088151" MODIFIED="1422917325088" TEXT="irb">
+<node COLOR="#0033ff" CREATED="1412241656348" FOLDED="true" ID="ID_635088151" MODIFIED="1440964500528" TEXT="irb">
 <node CREATED="1417222520678" ID="ID_749858871" MODIFIED="1417222588791">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7845,8 +7859,23 @@
 </html></richcontent>
 </node>
 </node>
+<node COLOR="#000000" CREATED="1440964349167" ID="ID_1042486196" MODIFIED="1440964419264">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # evaluate ruby output
+    </p>
+    <p>
+      <font color="#0000ff">$ ruby <b>-e </b>&quot;puts some stuff&quot;</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1422180014628" FOLDED="true" ID="ID_686150722" MODIFIED="1422180024076" TEXT="debug">
+</node>
+<node CREATED="1422180014628" FOLDED="true" ID="ID_686150722" MODIFIED="1440964480364" TEXT="debug">
 <node COLOR="#0033ff" CREATED="1419193517082" ID="ID_200806238" LINK="https://github.com/pry/pry" MODIFIED="1422178831540" TEXT="pry"/>
 </node>
 </node>
