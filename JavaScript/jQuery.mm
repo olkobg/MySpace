@@ -1,9 +1,9 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1288878945548" ID="ID_501072028" LINK="JavaScript.mm" MODIFIED="1355129120494" TEXT="jQuery">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1354003121161" FOLDED="true" ID="ID_144703222" MODIFIED="1357825572384" POSITION="right" TEXT="events">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#008000" CREATED="1288878945548" ID="ID_501072028" LINK="JavaScript.mm" MODIFIED="1438166775498" TEXT="jQuery">
+<font NAME="SansSerif" SIZE="28"/>
+<node CREATED="1354003121161" FOLDED="true" ID="ID_144703222" MODIFIED="1438166735839" POSITION="right" TEXT="events">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1354638573883" ID="ID_1928850379" MODIFIED="1354638577874" TEXT="mouse">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354003124955" ID="ID_453161943" MODIFIED="1354704475890" TEXT="mousemove">
@@ -137,8 +137,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1354635093513" FOLDED="true" ID="ID_415842503" MODIFIED="1387537402201" POSITION="right" TEXT="elements">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1354635093513" FOLDED="true" ID="ID_415842503" MODIFIED="1438166735843" POSITION="right" TEXT="elements">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355839315264" ID="ID_898696207" MODIFIED="1355839318673" TEXT="css">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355839319298" ID="ID_1604537042" MODIFIED="1355839357267">
@@ -392,8 +392,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1357825441882" FOLDED="true" ID="ID_1108727563" MODIFIED="1357825555164" POSITION="right" TEXT="frames">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357825441882" FOLDED="true" ID="ID_1108727563" MODIFIED="1438166772731" POSITION="right" TEXT="frames">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357825450305" ID="ID_1388753846" MODIFIED="1357825553853">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -422,8 +422,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1290773186085" FOLDED="true" ID="ID_146665972" MODIFIED="1387572116517" POSITION="left" TEXT="select">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1290773186085" FOLDED="true" ID="ID_146665972" MODIFIED="1438166741087" POSITION="left" TEXT="select">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1354704279416" ID="ID_228668161" LINK="http://api.jquery.com/category/selectors/attribute-selectors/" MODIFIED="1354704287079" TEXT="attribute selector">
 <node CREATED="1354704305275" ID="ID_10776762" LINK="http://api.jquery.com/attribute-equals-selector/" MODIFIED="1354704315511" TEXT="attribute equals selector"/>
 </node>
@@ -524,8 +524,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1354629529574" FOLDED="true" ID="ID_482385820" MODIFIED="1358677459301" POSITION="right" TEXT="object">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1354629529574" FOLDED="true" ID="ID_482385820" MODIFIED="1438166735843" POSITION="right" TEXT="object">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355227397309" FOLDED="true" ID="ID_603243915" MODIFIED="1358677458051">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -564,8 +564,8 @@
 <node CREATED="1354629596482" ID="ID_471782161" LINK="http://docs.jquery.com/Utilities/jQuery.extend" MODIFIED="1354629645557" TEXT="info"/>
 </node>
 </node>
-<node CREATED="1358677336819" FOLDED="true" ID="ID_1314634758" MODIFIED="1358677459098" POSITION="right" TEXT="effects">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1358677336819" FOLDED="true" ID="ID_1314634758" MODIFIED="1438166735843" POSITION="right" TEXT="effects">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1358677341547" FOLDED="true" ID="ID_1973929881" MODIFIED="1358677458362" TEXT="animate">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358677347831" ID="ID_111222615" MODIFIED="1358677451273">
@@ -591,8 +591,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1354208194752" FOLDED="true" ID="ID_854680832" MODIFIED="1357240254920" POSITION="left" TEXT="ajax">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1354208194752" FOLDED="true" ID="ID_854680832" MODIFIED="1438166741091" POSITION="left" TEXT="ajax">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354208282039" FOLDED="true" ID="ID_173706023" MODIFIED="1355136602561" TEXT="post">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354208202473" ID="ID_809126521" MODIFIED="1354208341265">
@@ -667,8 +667,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1355136250329" FOLDED="true" ID="ID_1147632180" MODIFIED="1357240259039" POSITION="left" TEXT="json">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355136250329" FOLDED="true" ID="ID_1147632180" MODIFIED="1438166741092" POSITION="left" TEXT="json">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355136253650" FOLDED="true" ID="ID_1987418383" LINK="http://api.jquery.com/jQuery.param/" MODIFIED="1355302582522" TEXT="param">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355136263173" ID="ID_1490802954" MODIFIED="1355136394052">
@@ -691,7 +691,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1354281700459" FOLDED="true" ID="ID_1321766246" LINK="http://code.jquery.com/" MODIFIED="1357825579267" POSITION="left" TEXT="CDN">
+<node CREATED="1354281700459" FOLDED="true" ID="ID_1321766246" LINK="http://code.jquery.com/" MODIFIED="1438166760797" POSITION="left" TEXT="CDN">
 <node COLOR="#0033ff" CREATED="1354698206726" ID="ID_356992878" MODIFIED="1354698238970">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -705,25 +705,26 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1290779865517" FOLDED="true" ID="ID_255084957" MODIFIED="1357825581092" POSITION="left" TEXT="Links">
+<node CREATED="1290779865517" FOLDED="true" ID="ID_255084957" MODIFIED="1438166753516" POSITION="left" TEXT="Links">
 <node CREATED="1290779869785" ID="ID_944287855" LINK="http://api.jquery.com/" MODIFIED="1331742712440" TEXT="API"/>
 <node CREATED="1331741953928" ID="ID_980539677" LINK="http://jquery.com/" MODIFIED="1331742717030" TEXT="site"/>
 </node>
-<node CREATED="1354697916132" ID="ID_1014966575" LINK="http://keith-wood.name/svg.html" MODIFIED="1354901178195" POSITION="left">
+<node CREATED="1354697916132" ID="ID_1014966575" LINK="http://keith-wood.name/svg.html" MODIFIED="1438166759096" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>SVG&#xa0;</b>by&#xa0;Keith Wood
+      SVG<b>&#160;</b>by&#160;Keith Wood
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1355838991471" FOLDED="true" ID="ID_194065213" MODIFIED="1389213225751" POSITION="left" TEXT="plugins">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1355838991471" FOLDED="true" ID="ID_194065213" MODIFIED="1438166742972" POSITION="left" TEXT="plugins">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1355838997784" ID="ID_448961335" LINK="http://www.inwebson.com/jquery/cool-jquery-plugins-make-you-wow/" MODIFIED="1357240275960" TEXT="cool 18 plugins"/>
 <node CREATED="1357726200177" ID="ID_1915031401" MODIFIED="1357726258107" TEXT="Local Storage">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
