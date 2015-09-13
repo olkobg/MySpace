@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#006633" CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1436962447635" TEXT="Ulike">
+<node COLOR="#006633" CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1438701219648" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -186,7 +186,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1436962452467" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1437473425257" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1411542490701" TEXT="web">
 <node CREATED="1360841118260" FOLDED="true" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1411542489284" TEXT="apache">
 <node CREATED="1411542449239" FOLDED="true" ID="ID_309275855" MODIFIED="1411542488917" TEXT="troubleshout">
@@ -212,12 +212,122 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1436962510433" ID="ID_163534902" LINK="../term-commands.mm" MODIFIED="1436962918931" POSITION="right" TEXT="$term"/>
-<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1422176693167" POSITION="right" TEXT="distribs">
+<node CREATED="1361454450545" FOLDED="true" ID="ID_82349326" MODIFIED="1437490252680" POSITION="right" TEXT="distribs">
 <node CREATED="1361454471174" ID="ID_1113249951" LINK="distrib/Centos.mm" MODIFIED="1361454471175" TEXT="Centos"/>
 <node CREATED="1401444807349" ID="ID_492522842" MODIFIED="1401444810297" TEXT="Debian "/>
-<node CREATED="1401444811085" ID="ID_431886698" MODIFIED="1401444814505" TEXT="Ubuntu"/>
+<node CREATED="1401444811085" FOLDED="true" ID="ID_431886698" MODIFIED="1437490252003" TEXT="Ubuntu">
+<node CREATED="1437473431922" FOLDED="true" ID="ID_722065198" MODIFIED="1437490251658" TEXT="install ">
+<node CREATED="1437473436703" FOLDED="true" ID="ID_1042237976" MODIFIED="1437490251462" TEXT="mac">
+<node CREATED="1437473438302" ID="ID_1705968610" MODIFIED="1437490249633">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UEFI STYLE
+    </p>
+    <p>
+      1 Download Ubuntu Desktop
+    </p>
+    <p>
+      2 Open the Terminal (in /Applications/Utilities/ or query Terminal in Spotlight).
+    </p>
+    <p>
+      3 Convert the .iso file to .img using the convert option of hdiutil e.g.,
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;$ hdiutil convert -format UDRW -o ~/path/to/target.img ~/path/to/ubuntu.iso</font>
+    </p>
+    <p>
+      # Note: OS X tends to put the .dmg ending on the output file automatically.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4 Run
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;$ diskutil list</font>
+    </p>
+    <p>
+      to get the current list of devices.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      5 Insert your flash media.
+    </p>
+    <p>
+      6 Run
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;$ diskutil list</font>
+    </p>
+    <p>
+      again and determine the device node assigned to your flash media (e.g. /dev/disk2).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      7 Run
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;$ diskutil unmountDisk /dev/diskN</font>
+    </p>
+    <p>
+      (replace N with the disk number from the last command; in the previous example, N would be 2).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      8 Execute
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;$ sudo dd if=/path/to/downloaded.img of=/dev/rdiskN bs=1m</font>
+    </p>
+    <p>
+      (replace /path/to/downloaded.img with the path where the image file is located; for example, ./ubuntu.img or ./ubuntu.dmg).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Using /dev/rdisk instead of /dev/disk may be faster
+    </p>
+    <p>
+      # If you see the error dd: Invalid number '1m', you are using GNU dd. Use the same command but replace bs=1m with bs=1M
+    </p>
+    <p>
+      # If you see the error dd: /dev/diskN: Resource busy, make sure the disk is not in use. Start the 'Disk Utility.app' and unmount (don't eject) the drive
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      9 Run
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;$ diskutil eject /dev/diskN</font>
+    </p>
+    <p>
+      and remove your flash media when the command completes.
+    </p>
+    <p>
+      10 Restart your Mac and press alt/option key while the Mac is restarting to choose the USB stick.
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1422176693167" POSITION="right" TEXT="tricks">
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1355996052443" FOLDED="true" ID="ID_1927459662" MODIFIED="1437473429912" POSITION="right" TEXT="tricks">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357753828458" FOLDED="true" ID="ID_1937859101" MODIFIED="1422176686173" STYLE="fork" TEXT="mail">
 <node CREATED="1294068955230" FOLDED="true" ID="ID_243069913" MODIFIED="1422176685920" TEXT="telnet">
