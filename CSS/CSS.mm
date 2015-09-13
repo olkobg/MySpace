@@ -1,13 +1,87 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#006633" CREATED="1298379398131" ID="ID_1454701070" LINK="../Index.mm" MODIFIED="1423320435075" TEXT="CSS">
+<node COLOR="#006633" CREATED="1298379398131" ID="ID_1454701070" LINK="../Index.mm" MODIFIED="1442169287493" TEXT="CSS">
 <font NAME="SansSerif" SIZE="31"/>
 <node CREATED="1329167857520" ID="ID_1738733773" LINK="../../Art/design/typography/fonts.mm" MODIFIED="1436961679287" POSITION="right" TEXT="fonts">
 <font NAME="SansSerif" SIZE="13"/>
 </node>
-<node COLOR="#0033ff" CREATED="1333056389137" FOLDED="true" ID="ID_1127662998" MODIFIED="1423320321534" POSITION="left" TEXT="background">
+<node CREATED="1442169290055" FOLDED="true" ID="ID_1310389856" MODIFIED="1442172038416" POSITION="left" TEXT="animation">
+<node COLOR="#0033ff" CREATED="1442169292928" FOLDED="true" ID="ID_121148631" MODIFIED="1442172037963" TEXT="transition">
+<node CREATED="1442169783799" ID="ID_428413714" MODIFIED="1442170102274">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">transition: &lt;property&gt; &lt;duration&gt; &lt;timing-function&gt; &lt;delay&gt;;</font>
+    </p>
+    <p>
+      defaults:
+    </p>
+    <p>
+      property - all,
+    </p>
+    <p>
+      timing-function - ease
+    </p>
+    <p>
+      delay - 0
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1333056395443" FOLDED="true" ID="ID_402701821" MODIFIED="1423320321214" TEXT="transparent">
+</node>
+<node CREATED="1442169300838" ID="ID_1784615157" MODIFIED="1442169856248">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">transition: &lt;property&gt; &lt;duration&gt;;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1442169386562" ID="ID_1912682399" MODIFIED="1442169436267">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff"><b>transition:</b>&#160;background-color, 4s;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1442169623400" ID="ID_226758934" MODIFIED="1442169645247" TEXT="transitions sees by human eye with 0.256 second"/>
+<node CREATED="1442169669331" ID="ID_1453492550" MODIFIED="1442169748670">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # we can use all keyword to transition all the parameters
+    </p>
+    <p>
+      <font color="#0033ff">transition: all 0.4s</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1442172017575" ID="ID_1924119533" MODIFIED="1442172035057" TEXT="position is good choice to transition"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1333056389137" FOLDED="true" ID="ID_1127662998" MODIFIED="1442084866407" POSITION="left" TEXT="background">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1333056395443" FOLDED="true" ID="ID_402701821" MODIFIED="1442084865658" TEXT="transparent">
 <node CREATED="1333056429605" ID="ID_1741786650" MODIFIED="1356545671605">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -23,43 +97,21 @@
 </node>
 </node>
 </node>
-<node CREATED="1359130724342" FOLDED="true" ID="ID_1689246156" MODIFIED="1423320313999" POSITION="left" TEXT="page-brake">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1359130530013" ID="ID_1519553482" MODIFIED="1359130774897">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # set not brakin page e.g. inside <font color="#0033ff"><b>&lt;td&gt;</b></font>
-    </p>
-    <p>
-      <font color="#0033ff">page-brake-before </font>
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1359130730037" ID="ID_1208662858" LINK="http://www.w3schools.com/cssref/pr_print_pagebb.asp" MODIFIED="1423320312929">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>w3school</b></font>&#xa0;<font color="#0033ff">page-brake-after</font>
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1357245023527" FOLDED="true" ID="ID_1699684778" MODIFIED="1442169276793" POSITION="left" TEXT="browsers">
+<node CREATED="1357245026983" FOLDED="true" ID="ID_1881626945" MODIFIED="1442084846102" TEXT="ie">
+<node CREATED="1357245029971" FOLDED="true" ID="ID_1444506060" LINK="http://msdn.microsoft.com/en-us/library/ms673539%28VS.85%29.aspx" MODIFIED="1442084844552" TEXT="filters">
+<node COLOR="#0033ff" CREATED="1357246998086" ID="ID_1939718771" MODIFIED="1442084843443" TEXT="filter: glow(strength=5 color=black)">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1338239998207" FOLDED="true" ID="ID_766402262" MODIFIED="1423320323193" POSITION="left" TEXT="box">
+<node CREATED="1357246112135" ID="ID_1192421118" LINK="http://css3pie.com/" MODIFIED="1357246118211" TEXT="ccs3pie"/>
+</node>
+</node>
+<node CREATED="1338239998207" FOLDED="true" ID="ID_766402262" MODIFIED="1442169278152" POSITION="left" TEXT="box">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1336845362558" FOLDED="true" ID="ID_1421273977" MODIFIED="1423320281458" TEXT="border">
+<node COLOR="#0033ff" CREATED="1336845362558" FOLDED="true" ID="ID_1421273977" MODIFIED="1442084859392" TEXT="border">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1336845365448" FOLDED="true" ID="ID_1780697231" LINK="http://www.css3.info/preview/rounded-border/" MODIFIED="1423320280775" TEXT="radius">
+<node COLOR="#0033ff" CREATED="1336845365448" FOLDED="true" ID="ID_1780697231" LINK="http://www.css3.info/preview/rounded-border/" MODIFIED="1442084859065" TEXT="radius">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1336845502117" FOLDED="true" ID="ID_84836676" MODIFIED="1423320280531">
 <richcontent TYPE="NODE"><html>
@@ -90,7 +142,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1338239993612" FOLDED="true" ID="ID_781897182" MODIFIED="1423320308511" TEXT="shadow">
+<node COLOR="#0033ff" CREATED="1338239993612" FOLDED="true" ID="ID_781897182" MODIFIED="1442084860950" TEXT="shadow">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1338240003013" FOLDED="true" ID="ID_1096732930" LINK="http://css-tricks.com/snippets/css/css-box-shadow/" MODIFIED="1423320284023" TEXT="css-tricks">
 <font NAME="SansSerif" SIZE="12"/>
@@ -188,43 +240,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355839571373" FOLDED="true" ID="ID_298067342" MODIFIED="1429906263839" POSITION="left" TEXT="text">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1355839575754" FOLDED="true" ID="ID_715847262" MODIFIED="1429906263000" TEXT="text-shadow">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#ff0000" CREATED="1355839585956" ID="ID_1353104836" LINK="http://www.w3.org/Style/Examples/007/text-shadow.en.html" MODIFIED="1423218686595" TEXT="W3C">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#009999" CREATED="1355839695904" ID="ID_434945606" LINK="http://css-tricks.com/snippets/css/css-text-shadow/" MODIFIED="1423218687566" TEXT="css-tricks">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1357240153872" ID="ID_1237168997" MODIFIED="1357240239968">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      /* droping text shadow in <b>IE</b>&#xa0;*/
-    </p>
-    <p>
-      <font color="#0033cc">filter:DropShadow(Color=#000000, OffX=1, OffY=1) </font>
-    </p>
-    <p>
-      <font color="#000000">Usage:&#xa0;&#xa0;</font>
-    </p>
-    <p>
-      <font color="#0033cc">{FILTER: DropShadow(Color=color, OffX=offX, OffY=offY, Positive=positive)}</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1429906238507" FOLDED="true" ID="ID_1331945358" MODIFIED="1429906260331" TEXT="text-decoration">
-<node COLOR="#0033ff" CREATED="1429906245339" ID="ID_719911900" MODIFIED="1429906258070" TEXT="text-decoration: underline;"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1386675330532" FOLDED="true" ID="ID_1321587244" MODIFIED="1436961282069" POSITION="left" TEXT="font">
+<node COLOR="#0033ff" CREATED="1386675330532" FOLDED="true" ID="ID_1321587244" MODIFIED="1442169281800" POSITION="left" TEXT="font">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1386675335051" FOLDED="true" ID="ID_1917399904" MODIFIED="1436961281057" TEXT="@font-face">
 <font NAME="SansSerif" SIZE="12"/>
@@ -272,23 +288,81 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357220826744" FOLDED="true" ID="ID_757028865" MODIFIED="1423320261448" POSITION="left" TEXT="transition">
+<node CREATED="1359130724342" FOLDED="true" ID="ID_1689246156" MODIFIED="1442084863551" POSITION="left" TEXT="page-brake">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1359130530013" ID="ID_1519553482" MODIFIED="1359130774897">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # set not brakin page e.g. inside <font color="#0033ff"><b>&lt;td&gt;</b></font>
+    </p>
+    <p>
+      <font color="#0033ff">page-brake-before </font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1359130730037" ID="ID_1208662858" LINK="http://www.w3schools.com/cssref/pr_print_pagebb.asp" MODIFIED="1423320312929">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>w3school</b></font>&#xa0;<font color="#0033ff">page-brake-after</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1355839571373" FOLDED="true" ID="ID_298067342" MODIFIED="1442084856353" POSITION="left" TEXT="text">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355839575754" FOLDED="true" ID="ID_715847262" MODIFIED="1442084856045" TEXT="text-shadow">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#ff0000" CREATED="1355839585956" ID="ID_1353104836" LINK="http://www.w3.org/Style/Examples/007/text-shadow.en.html" MODIFIED="1423218686595" TEXT="W3C">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#009999" CREATED="1355839695904" ID="ID_434945606" LINK="http://css-tricks.com/snippets/css/css-text-shadow/" MODIFIED="1423218687566" TEXT="css-tricks">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1357240153872" ID="ID_1237168997" MODIFIED="1357240239968">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      /* droping text shadow in <b>IE</b>&#xa0;*/
+    </p>
+    <p>
+      <font color="#0033cc">filter:DropShadow(Color=#000000, OffX=1, OffY=1) </font>
+    </p>
+    <p>
+      <font color="#000000">Usage:&#xa0;&#xa0;</font>
+    </p>
+    <p>
+      <font color="#0033cc">{FILTER: DropShadow(Color=color, OffX=offX, OffY=offY, Positive=positive)}</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1429906238507" FOLDED="true" ID="ID_1331945358" MODIFIED="1442084852745" TEXT="text-decoration">
+<node COLOR="#0033ff" CREATED="1429906245339" ID="ID_719911900" MODIFIED="1429906258070" TEXT="text-decoration: underline;"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1357220826744" FOLDED="true" ID="ID_757028865" MODIFIED="1442084840579" POSITION="left" TEXT="transition">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#009999" CREATED="1357221103694" ID="ID_1233232076" LINK="http://www.alistapart.com/articles/understanding-css3-transitions/" MODIFIED="1421312201222" TEXT="A List Apart">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357245023527" FOLDED="true" ID="ID_1699684778" MODIFIED="1423320259667" POSITION="left" TEXT="browsers">
-<node CREATED="1357245026983" FOLDED="true" ID="ID_1881626945" MODIFIED="1423320259383" TEXT="ie">
-<node CREATED="1357245029971" FOLDED="true" ID="ID_1444506060" LINK="http://msdn.microsoft.com/en-us/library/ms673539%28VS.85%29.aspx" MODIFIED="1423320258386" TEXT="filters">
-<node COLOR="#0033ff" CREATED="1357246998086" ID="ID_1939718771" MODIFIED="1357247001341" TEXT="filter: glow(strength=5 color=black)">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1357246112135" ID="ID_1192421118" LINK="http://css3pie.com/" MODIFIED="1357246118211" TEXT="ccs3pie"/>
-</node>
-</node>
-<node CREATED="1336940083970" FOLDED="true" ID="ID_657813283" MODIFIED="1423320332486" POSITION="right" TEXT="Tricks">
+<node CREATED="1336940083970" FOLDED="true" ID="ID_657813283" MODIFIED="1442084830003" POSITION="right" TEXT="Tricks">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1337895069867" FOLDED="true" ID="ID_437743830" MODIFIED="1423320331599" TEXT="menu">
 <node CREATED="1337895075588" FOLDED="true" ID="ID_494470881" MODIFIED="1423320331327" TEXT="pipe separators">
@@ -315,7 +389,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc3300" CREATED="1352817196890" FOLDED="true" ID="ID_1052342100" MODIFIED="1429906265650" POSITION="right" TEXT="hacks">
+<node COLOR="#cc3300" CREATED="1352817196890" FOLDED="true" ID="ID_1052342100" MODIFIED="1442084828532" POSITION="right" TEXT="hacks">
 <font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1352817281211" FOLDED="true" ID="ID_1327576642" MODIFIED="1421312190004" TEXT="all">
 <font NAME="SansSerif" SIZE="12"/>
@@ -329,26 +403,27 @@
 </node>
 <node COLOR="#0033ff" CREATED="1421312361935" ID="ID_1567462741" LINK="http://browserhacks.com/" MODIFIED="1421312375049" TEXT="browser hacks"/>
 </node>
-<node CREATED="1356545325728" FOLDED="true" ID="ID_599683393" MODIFIED="1423320336717" POSITION="right" TEXT="Layout">
+<node CREATED="1356545325728" FOLDED="true" ID="ID_599683393" MODIFIED="1442084868786" POSITION="right" TEXT="Layout">
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1356545332763" ID="ID_294525347" LINK="http://www.maxdesign.com.au/articles/" MODIFIED="1356545346397" TEXT="MaxDesign">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1356536206856" ID="ID_1085795105" LINK="http://v1.jontangerine.com/log/2007/09/the-incredible-em-and-elastic-layouts-with-css" MODIFIED="1356545375813" TEXT="elastic-layout"/>
-<node COLOR="#009999" CREATED="1356545393955" ID="ID_541903450" LINK="http://stackoverflow.com/questions/4713181/elastic-layout-with-max-width-and-min-width-using-grid-based-design" MODIFIED="1356683784207" TEXT="SO">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1356606013830" FOLDED="true" ID="ID_1203122414" MODIFIED="1423435023107" POSITION="right" TEXT="Sites">
-<node COLOR="#009999" CREATED="1356606018368" ID="ID_524275382" LINK="http://www.quirksmode.org/" MODIFIED="1423320339431" TEXT="quirksmode">
+<node COLOR="#009999" CREATED="1356545393955" ID="ID_541903450" LINK="http://stackoverflow.com/questions/4713181/elastic-layout-with-max-width-and-min-width-using-grid-based-design" MODIFIED="1442084822835" TEXT="SO">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#009999" CREATED="1356606026933" ID="ID_40012144" LINK="http://css-tricks.com/" MODIFIED="1423320339430" TEXT="css-tricks">
+</node>
+<node CREATED="1356606013830" FOLDED="true" ID="ID_1203122414" MODIFIED="1442170186224" POSITION="right" TEXT="Sites">
+<node COLOR="#0033ff" CREATED="1356606018368" ID="ID_524275382" LINK="http://www.quirksmode.org/" MODIFIED="1442170182333" TEXT="quirksmode">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#009999" CREATED="1423435014732" ID="ID_78752563" LINK="http://alistapart.com/" MODIFIED="1423435021637" TEXT="a list apart"/>
+<node COLOR="#0033ff" CREATED="1356606026933" ID="ID_40012144" LINK="http://css-tricks.com/" MODIFIED="1442170182342" TEXT="css-tricks">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1363610406267" FOLDED="true" ID="ID_468479430" MODIFIED="1423659613194" POSITION="right" TEXT="tools">
+<node COLOR="#0033ff" CREATED="1423435014732" ID="ID_78752563" LINK="http://alistapart.com/" MODIFIED="1442170182343" TEXT="a list apart"/>
+<node COLOR="#0033ff" CREATED="1442170146478" ID="ID_1393466943" LINK="http://caniuse.com/" MODIFIED="1442170182344" TEXT="can i use"/>
+</node>
+<node CREATED="1363610406267" FOLDED="true" ID="ID_468479430" MODIFIED="1442084837730" POSITION="right" TEXT="tools">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1363610410637" ID="ID_1594849939" LINK="http://susy.oddbird.net/" MODIFIED="1423320342605" TEXT="susy"/>
 <node COLOR="#0033ff" CREATED="1423320343525" ID="ID_1681783849" LINK="https://www.polymer-project.org/" MODIFIED="1423320391685" TEXT="polymer"/>
