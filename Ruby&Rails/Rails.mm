@@ -2,9 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1438001907693" TEXT="Rails">
 <font NAME="SansSerif" SIZE="31"/>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1438936077095" POSITION="right" TEXT="Models">
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1442912060595" POSITION="right" TEXT="Models">
 <font NAME="SansSerif" SIZE="20"/>
-<node COLOR="#0033ff" CREATED="1436514906893" FOLDED="true" ID="ID_281123415" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Base.html" MODIFIED="1438936076157" TEXT="ActiveRecord">
+<node COLOR="#0033ff" CREATED="1436514906893" ID="ID_281123415" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Base.html" MODIFIED="1442911778494" TEXT="ActiveRecord">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -14,7 +14,8 @@
       &#160;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1434737683591" FOLDED="true" ID="ID_244798224" MODIFIED="1438709426667" TEXT="methods">
 <node CREATED="1434737585735" FOLDED="true" ID="ID_1164291398" MODIFIED="1438001906249" TEXT="retreive">
 <node COLOR="#0033ff" CREATED="1434737528627" ID="ID_1211784254" MODIFIED="1434737662281" TEXT="bind"/>
@@ -918,6 +919,11 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1442909943571" ID="ID_1153957420" MODIFIED="1442909964237" TEXT="unsort">
+<icon BUILTIN="yes"/>
+<node CREATED="1442909944761" ID="ID_1101431817" MODIFIED="1442909946053" TEXT="any? - has performance issues"/>
+<node COLOR="#0033ff" CREATED="1442911781109" ID="ID_1513931077" LINK="http://blog.mitchcrowe.com/blog/2012/04/14/10-most-underused-activerecord-relation-methods/ " MODIFIED="1442911807401" TEXT="under used AT methods"/>
 </node>
 </node>
 <node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1436515680175" TEXT="configuration">
@@ -2207,7 +2213,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1419275951392" FOLDED="true" ID="ID_795978789" MODIFIED="1431445180521" POSITION="right" TEXT="info">
+<node CREATED="1419275951392" ID="ID_795978789" MODIFIED="1442912062658" POSITION="right" TEXT="info">
 <node CREATED="1419275953591" ID="ID_161522889" LINK="https://tutorials.railsapps.org" MODIFIED="1419277708562">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2236,6 +2242,9 @@
 </node>
 <node CREATED="1419372239596" FOLDED="true" ID="ID_1246249341" MODIFIED="1420818054693" TEXT="blogs">
 <node CREATED="1419372248665" ID="ID_995722388" LINK="https://www.justinweiss.com/" MODIFIED="1419372259679" TEXT="justin weiss"/>
+</node>
+<node CREATED="1442912066283" ID="ID_1157249015" MODIFIED="1442912067681" TEXT="unsort">
+<node CREATED="1442912068345" ID="ID_1056831898" LINK="http://stackoverflow.com/questions/22268669/deprecation-warning-you-didnt-set-config-secret-key-base" MODIFIED="1442912071963" TEXT="keybase"/>
 </node>
 </node>
 <node CREATED="1420823734426" FOLDED="true" ID="ID_422088789" MODIFIED="1430738696286" POSITION="right" TEXT="libs">
