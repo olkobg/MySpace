@@ -5,8 +5,8 @@
 <node CREATED="1329167857520" ID="ID_1738733773" LINK="../../Art/design/typography/fonts.mm" MODIFIED="1436961679287" POSITION="right" TEXT="fonts">
 <font NAME="SansSerif" SIZE="13"/>
 </node>
-<node CREATED="1442169290055" FOLDED="true" ID="ID_1310389856" MODIFIED="1442172038416" POSITION="left" TEXT="animation">
-<node COLOR="#0033ff" CREATED="1442169292928" FOLDED="true" ID="ID_121148631" MODIFIED="1442172037963" TEXT="transition">
+<node CREATED="1442169290055" ID="ID_1310389856" MODIFIED="1443267422838" POSITION="left" TEXT="animation">
+<node COLOR="#0033ff" CREATED="1442169292928" ID="ID_121148631" MODIFIED="1442647619624" TEXT="transition">
 <node CREATED="1442169783799" ID="ID_428413714" MODIFIED="1442170102274">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -29,8 +29,7 @@
       delay - 0
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1442169300838" ID="ID_1784615157" MODIFIED="1442169856248">
@@ -43,8 +42,7 @@
       <font color="#0033ff">transition: &lt;property&gt; &lt;duration&gt;;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1442169386562" ID="ID_1912682399" MODIFIED="1442169436267">
 <richcontent TYPE="NODE"><html>
@@ -56,8 +54,7 @@
       <font color="#0033ff"><b>transition:</b>&#160;background-color, 4s;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1442169623400" ID="ID_226758934" MODIFIED="1442169645247" TEXT="transitions sees by human eye with 0.256 second"/>
 <node CREATED="1442169669331" ID="ID_1453492550" MODIFIED="1442169748670">
@@ -73,10 +70,31 @@
       <font color="#0033ff">transition: all 0.4s</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1442172017575" ID="ID_1924119533" MODIFIED="1442172035057" TEXT="position is good choice to transition"/>
+<node CREATED="1442648146340" ID="ID_285301788" MODIFIED="1442648174420" TEXT="to choose what property to transittion - need to check what property have middle state"/>
+<node COLOR="#0033ff" CREATED="1442648221173" ID="ID_541884945" LINK="http://go.codeschool.com/transitionable-properties" MODIFIED="1442648259274" TEXT="http://go.codeschool.com/transitionable-properties"/>
+<node CREATED="1442647641401" ID="ID_1031385278" MODIFIED="1442647651152" TEXT="visibility">
+<node CREATED="1442647651777" ID="ID_1011966672" MODIFIED="1442647847590">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      good to change booth&#160;<b>opacity</b>&#160;and <b>visibility </b>
+    </p>
+    <p>
+      opacity - hides element but it takes widht and height
+    </p>
+    <p>
+      visibility - makes element transparent to it's click event
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1333056389137" FOLDED="true" ID="ID_1127662998" MODIFIED="1442084866407" POSITION="left" TEXT="background">
