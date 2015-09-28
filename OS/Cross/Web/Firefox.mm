@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1319659797455" ID="ID_142943099" LINK="../../Crossplatform.mm" MODIFIED="1385658884191" TEXT="Firefox">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1369323887423" FOLDED="true" ID="ID_1273773188" MODIFIED="1385658857753" POSITION="right" TEXT="plugins">
+<node CREATED="1319659797455" ID="ID_142943099" LINK="../../Crossplatform.mm" MODIFIED="1443098035418" TEXT="Firefox">
+<font NAME="SansSerif" SIZE="25"/>
+<node CREATED="1369323887423" FOLDED="true" ID="ID_1273773188" MODIFIED="1443098357623" POSITION="right" TEXT="plugins">
 <node CREATED="1364305457823" FOLDED="true" ID="ID_1939847957" MODIFIED="1369329293236" TEXT="firebug">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1364305512650" ID="ID_1463867361" MODIFIED="1369323875862" TEXT="console">
@@ -43,11 +43,17 @@
 <node CREATED="1369324051909" ID="ID_839050547" MODIFIED="1369324059329" TEXT="JSON View"/>
 <node CREATED="1361877855022" ID="ID_1752886742" LINK="http://sebuilder.github.com/se-builder/" MODIFIED="1369301551446" TEXT="Selenium Builder"/>
 <node CREATED="1361878943818" ID="ID_1470803951" LINK="http://docs.seleniumhq.org/docs/02_selenium_ide.jsp" MODIFIED="1369301551446" TEXT="Selenium IDE"/>
+<node COLOR="#0033ff" CREATED="1443098043108" FOLDED="true" ID="ID_1717925909" LINK="http://www.vimperator.org/" MODIFIED="1443098356188" TEXT="vimperator">
+<node CREATED="1443098334751" FOLDED="true" ID="ID_14246553" MODIFIED="1443098356000" TEXT="info">
+<node COLOR="#0033ff" CREATED="1443098048412" ID="ID_706612900" LINK="http://sheet.shiar.nl/vimperator" MODIFIED="1443098339082" TEXT="cheatsheet"/>
+<node COLOR="#0033ff" CREATED="1443098341134" ID="ID_1544297490" LINK="http://superuser.com/questions/521062/how-to-change-characters-used-for-link-hints-in-firefox-vimperator" MODIFIED="1443098354764" TEXT="change characterset for hint"/>
+</node>
+</node>
 </node>
 <node CREATED="1400680107610" ID="ID_1107802725" LINK="https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/" MODIFIED="1400680114534" POSITION="right" TEXT="mozilla ftp"/>
-<node CREATED="1369226582132" FOLDED="true" ID="ID_80659525" MODIFIED="1385649849999" POSITION="left" TEXT="config">
+<node CREATED="1369226582132" FOLDED="true" ID="ID_80659525" MODIFIED="1443098191694" POSITION="left" TEXT="config">
 <node CREATED="1369226589533" ID="ID_1073775853" LINK="https://support.mozilla.org/en-US/kb/search-web-address-bar" MODIFIED="1369226597092" TEXT="location as search"/>
-<node CREATED="1369226865304" ID="ID_119540047" MODIFIED="1369226867912" TEXT="tweaks">
+<node CREATED="1369226865304" FOLDED="true" ID="ID_119540047" MODIFIED="1443098191394" TEXT="tweaks">
 <node CREATED="1369226868832" ID="ID_907472794" LINK="https://wiki.archlinux.org/index.php/Firefox_Tweaks" MODIFIED="1369226881954" TEXT="Arch linux"/>
 </node>
 <node CREATED="1369300122409" FOLDED="true" ID="ID_1294600143" MODIFIED="1385649629499">
@@ -104,8 +110,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1369323854310" FOLDED="true" ID="ID_229626726" MODIFIED="1385649633596" TEXT="js">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1369323854310" FOLDED="true" ID="ID_229626726" MODIFIED="1443098101441" TEXT="js">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1319659800487" ID="ID_1419358005" MODIFIED="1369323846813">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -122,7 +128,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1385649636042" FOLDED="true" ID="ID_880477558" MODIFIED="1385649848967" TEXT="location">
+<node CREATED="1385649636042" FOLDED="true" ID="ID_880477558" MODIFIED="1443098102759" TEXT="location">
 <node CREATED="1385649653001" ID="ID_1799151920" MODIFIED="1385649705323">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -140,7 +146,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1369228390909" FOLDED="true" ID="ID_978718213" MODIFIED="1385649848135" POSITION="left" TEXT="cmd">
+<node CREATED="1369228390909" FOLDED="true" ID="ID_978718213" MODIFIED="1443098091158" POSITION="left" TEXT="cmd">
 <node CREATED="1369323781617" ID="ID_1927609968" LINK="http://kb.mozillazine.org/Command_line_arguments#For_Linux_and_Mac_OS_X_users" MODIFIED="1369323823138">
 <richcontent TYPE="NODE"><html>
   <head>
