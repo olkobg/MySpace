@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#996600" CREATED="1283935270578" ID="ID_332869610" LINK="../Index.mm" MODIFIED="1420822072532" TEXT="JavaScript">
 <font NAME="SansSerif" SIZE="22"/>
-<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1443267366620" POSITION="right" TEXT="app/lib/tool">
+<node CREATED="1283935276328" FOLDED="true" ID="ID_1046873276" MODIFIED="1443690256850" POSITION="right" TEXT="app/lib/tool">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#0033ff" CREATED="1375972457479" ID="ID_295083454" LINK="http://emberjs.com/" MODIFIED="1420822058433" TEXT="ember.js">
 <font NAME="SansSerif" SIZE="12"/>
@@ -34,7 +34,7 @@
 <node COLOR="#0033ff" CREATED="1375971244809" ID="ID_852111777" LINK="http://underscorejs.org/" MODIFIED="1443267265661" TEXT="undrscore.js">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1363789987681" FOLDED="true" ID="ID_1552324385" MODIFIED="1443267365834" TEXT="mvc">
+<node CREATED="1363789987681" FOLDED="true" ID="ID_1552324385" MODIFIED="1443689765923" TEXT="mvc">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1417646209005" FOLDED="true" ID="ID_464220657" LINK="angular.mm" MODIFIED="1423308855062" TEXT="angular.js">
 <font NAME="SansSerif" SIZE="12"/>
@@ -57,11 +57,12 @@
 </node>
 <node COLOR="#0033ff" CREATED="1443266506388" ID="ID_973811723" LINK="Framewrk/backbonejs.mm" MODIFIED="1443266537160" TEXT="backbone.js"/>
 </node>
-<node CREATED="1418753592653" FOLDED="true" ID="ID_1843180742" MODIFIED="1443267276220" TEXT="build-tools">
+<node CREATED="1418753592653" FOLDED="true" ID="ID_1843180742" MODIFIED="1443690256594" TEXT="build-tools">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1377210482197" ID="ID_1445245110" LINK="http://gruntjs.com/" MODIFIED="1420839914744" TEXT="grunt">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#0033ff" CREATED="1443689513544" ID="ID_1655232580" LINK="http://gulpjs.com/" MODIFIED="1443689696415" TEXT="gulp"/>
 </node>
 <node CREATED="1337155609990" FOLDED="true" ID="ID_1410910272" MODIFIED="1443267280279" TEXT="effects">
 <font NAME="SansSerif" SIZE="14"/>
@@ -90,17 +91,17 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1418381257753" FOLDED="true" ID="ID_753511311" MODIFIED="1443267283471" TEXT="date">
+<node CREATED="1418381257753" FOLDED="true" ID="ID_753511311" MODIFIED="1443689770250" TEXT="date">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1418381261261" ID="ID_584760059" LINK="http://momentjs.com/" MODIFIED="1420839942155" TEXT="http://momentjs.com"/>
 </node>
-<node CREATED="1290785690168" FOLDED="true" ID="ID_1371837990" MODIFIED="1443267285646" TEXT="packager">
+<node CREATED="1290785690168" FOLDED="true" ID="ID_1371837990" MODIFIED="1443689774891" TEXT="packager">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1290785699124" ID="ID_1468703957" LINK="http://developer.yahoo.com/yui/compressor/" MODIFIED="1306946571426" TEXT="YUI-Cpmpressor"/>
-<node CREATED="1306946614455" ID="ID_769234349" LINK="http://code.google.com/closure/" MODIFIED="1310476151092" TEXT="Google closure tools"/>
-<node CREATED="1306946557807" ID="ID_1154117622" LINK="http://dean.edwards.name/packer/" MODIFIED="1306946563919" TEXT="PACKER"/>
+<node COLOR="#0033ff" CREATED="1290785699124" ID="ID_1468703957" LINK="http://developer.yahoo.com/yui/compressor/" MODIFIED="1443689773879" TEXT="YUI-Cpmpressor"/>
+<node COLOR="#0033ff" CREATED="1306946614455" ID="ID_769234349" LINK="http://code.google.com/closure/" MODIFIED="1443689773878" TEXT="Google closure tools"/>
+<node COLOR="#0033ff" CREATED="1306946557807" ID="ID_1154117622" LINK="http://dean.edwards.name/packer/" MODIFIED="1443689773873" TEXT="PACKER"/>
 </node>
-<node CREATED="1418754196199" FOLDED="true" ID="ID_777050236" MODIFIED="1443267339224" TEXT="media">
+<node CREATED="1418754196199" FOLDED="true" ID="ID_777050236" MODIFIED="1443689782314" TEXT="media">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1418754187356" FOLDED="true" ID="ID_1445648712" MODIFIED="1443267336086" TEXT="video">
 <font NAME="SansSerif" SIZE="12"/>
@@ -130,9 +131,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1418753670872" FOLDED="true" ID="ID_795753681" MODIFIED="1443267336821" TEXT="graph">
+<node CREATED="1418753670872" FOLDED="true" ID="ID_795753681" MODIFIED="1443689781125" TEXT="graph">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1354698019491" FOLDED="true" ID="ID_1626793799" MODIFIED="1443267334675" TEXT="svg">
+<node COLOR="#0033ff" CREATED="1354698019491" FOLDED="true" ID="ID_1626793799" MODIFIED="1443689780935" TEXT="svg">
 <font NAME="SansSerif" SIZE="17"/>
 <node COLOR="#0033ff" CREATED="1354698058675" ID="ID_863153170" LINK="https://developer.mozilla.org/en/docs/SVG_In_HTML_Introduction" MODIFIED="1443267299388" TEXT="MDN">
 <font NAME="SansSerif" SIZE="14"/>
@@ -152,11 +153,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1419089571753" FOLDED="true" ID="ID_1287669999" MODIFIED="1443267359465" TEXT="i18n">
+<node CREATED="1419089571753" FOLDED="true" ID="ID_1287669999" MODIFIED="1443689783661" TEXT="i18n">
 <font NAME="SansSerif" SIZE="13"/>
 <node CREATED="1419089579614" ID="ID_1198874951" LINK="https://github.com/fnando/i18n-js" MODIFIED="1419191430788" TEXT="github i18n-js + rails"/>
 </node>
-<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1443267358705" TEXT="Engine">
+<node CREATED="1307097847126" FOLDED="true" ID="ID_202185443" LINK="http://en.wikipedia.org/wiki/List_of_ECMAScript_engines" MODIFIED="1443689784982" TEXT="Engine">
 <font NAME="SansSerif" SIZE="13"/>
 <node COLOR="#0033ff" CREATED="1357148058475" ID="ID_290312899" LINK="server/Node.js.mm" MODIFIED="1443267351327" TEXT="Node.js">
 <font NAME="SansSerif" SIZE="13"/>
@@ -174,14 +175,14 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1364305444132" FOLDED="true" ID="ID_103084548" MODIFIED="1443267356883" TEXT="mozilla">
+<node CREATED="1364305444132" FOLDED="true" ID="ID_103084548" MODIFIED="1443689747788" TEXT="mozilla">
 <node COLOR="#0033ff" CREATED="1307097864888" ID="ID_722061965" LINK="https://developer.mozilla.org/en/SpiderMonkey" MODIFIED="1436179349905" TEXT="SpiderMonkey"/>
 <node COLOR="#0033ff" CREATED="1307097896172" ID="ID_604037639" LINK="http://www.mozilla.org/rhino/" MODIFIED="1436179350824" TEXT="rhino"/>
 </node>
 </node>
 <node CREATED="1439382464040" ID="ID_1760591184" MODIFIED="1439382465748" TEXT="coffee"/>
 </node>
-<node CREATED="1328630279282" FOLDED="true" ID="ID_1710108581" MODIFIED="1420839897694" POSITION="right">
+<node CREATED="1328630279282" FOLDED="true" ID="ID_1710108581" MODIFIED="1443689843539" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -193,9 +194,9 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="13"/>
-<node CREATED="1357727944385" FOLDED="true" ID="ID_1246060471" MODIFIED="1420839896281" TEXT="storage">
+<node CREATED="1357727944385" FOLDED="true" ID="ID_1246060471" MODIFIED="1443689834271" TEXT="storage">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357718571467" ID="ID_68183139" MODIFIED="1357727285867">
+<node CREATED="1357718571467" FOLDED="true" ID="ID_68183139" MODIFIED="1443689832105">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -206,24 +207,24 @@
     </p>
   </body>
 </html></richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#009999" CREATED="1357718576288" ID="ID_217318251" LINK="http://html5doctor.com/introducing-web-sql-databases/" MODIFIED="1357725726367" TEXT="html5doctor">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1357718576288" ID="ID_217318251" LINK="http://html5doctor.com/introducing-web-sql-databases/" MODIFIED="1443689831435" TEXT="html5doctor">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1357726131478" ID="ID_919279902" MODIFIED="1357727274355" TEXT="IndexedDB">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1357726131478" ID="ID_919279902" MODIFIED="1443689821701" TEXT="IndexedDB">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1357718994681" FOLDED="true" ID="ID_1950848694" MODIFIED="1418754176171" TEXT="LocalStorage">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#009999" CREATED="1357725693110" ID="ID_1937898562" LINK="http://www.drdobbs.com/web-development/the-localstorage-api/240000682" MODIFIED="1357725708932" TEXT="drDoobs">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1357718994681" FOLDED="true" ID="ID_1950848694" MODIFIED="1443689829380" TEXT="LocalStorage">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1357725693110" ID="ID_1937898562" LINK="http://www.drdobbs.com/web-development/the-localstorage-api/240000682" MODIFIED="1443689828600" TEXT="drDoobs">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#009999" CREATED="1357726006059" ID="ID_1114636876" LINK="http://graphicpush.com/using-localstorage-api-as-a-light-database" MODIFIED="1357726048937" TEXT="use as light db">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1357726006059" ID="ID_1114636876" LINK="http://graphicpush.com/using-localstorage-api-as-a-light-database" MODIFIED="1443689828596" TEXT="use as light db">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1357726152430" ID="ID_573239545" LINK="http://www.html5rocks.com/en/tutorials/offline/storage/" MODIFIED="1357726182146">
+<node CREATED="1357726152430" ID="ID_573239545" LINK="http://www.html5rocks.com/en/tutorials/offline/storage/" MODIFIED="1443689823129">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -234,21 +235,22 @@
     </p>
   </body>
 </html></richcontent>
-</node>
-</node>
-<node CREATED="1333449993758" FOLDED="true" ID="ID_759889651" MODIFIED="1420839896282" TEXT="performance">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1333450005828" ID="ID_915285588" LINK="http://peacekeeper.futuremark.com/" MODIFIED="1333450025438" TEXT="peacekeeper"/>
-<node CREATED="1333450026662" ID="ID_982974743" LINK="http://www.kevs3d.co.uk/dev/asteroidsbench/" MODIFIED="1333450050931" TEXT="asteroids"/>
-<node CREATED="1333450051988" ID="ID_1130689892" LINK="http://html5-benchmark.com/" MODIFIED="1333450076602" TEXT="impact"/>
 </node>
-<node CREATED="1357726975632" FOLDED="true" ID="ID_1614491121" MODIFIED="1420839896282" TEXT="detect">
+</node>
+<node CREATED="1333449993758" FOLDED="true" ID="ID_759889651" MODIFIED="1443689838095" TEXT="performance">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#009999" CREATED="1357726978895" ID="ID_866899770" LINK="http://modernizr.com/" MODIFIED="1357726989864" TEXT="Modernizer">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1333450005828" ID="ID_915285588" LINK="http://peacekeeper.futuremark.com/" MODIFIED="1443689837415" TEXT="peacekeeper"/>
+<node COLOR="#0033ff" CREATED="1333450026662" ID="ID_982974743" LINK="http://www.kevs3d.co.uk/dev/asteroidsbench/" MODIFIED="1443689837414" TEXT="asteroids"/>
+<node COLOR="#0033ff" CREATED="1333450051988" ID="ID_1130689892" LINK="http://html5-benchmark.com/" MODIFIED="1443689837409" TEXT="impact"/>
+</node>
+<node CREATED="1357726975632" FOLDED="true" ID="ID_1614491121" MODIFIED="1443689841688" TEXT="detect">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1357726978895" ID="ID_866899770" LINK="http://modernizr.com/" MODIFIED="1443689839603" TEXT="Modernizer">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1420839844439" FOLDED="true" ID="ID_84133323" MODIFIED="1420839893131" TEXT="ie fixes">
+<node CREATED="1420839844439" FOLDED="true" ID="ID_84133323" MODIFIED="1443689843171" TEXT="ie fixes">
 <node COLOR="#0033ff" CREATED="1420839852909" ID="ID_931257956" LINK="https://github.com/aFarkas/html5shiv" MODIFIED="1420839891169" TEXT="html5shiv"/>
 <node COLOR="#0033ff" CREATED="1420839858187" ID="ID_1288575417" LINK="https://github.com/scottjehl/Respond" MODIFIED="1420839872385" TEXT="respond.js"/>
 </node>
