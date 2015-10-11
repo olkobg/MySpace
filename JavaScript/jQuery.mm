@@ -105,7 +105,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1354635093513" FOLDED="true" ID="ID_415842503" MODIFIED="1444566470080" POSITION="left" TEXT="elements">
+<node CREATED="1354635093513" FOLDED="true" ID="ID_415842503" MODIFIED="1444567124161" POSITION="left" TEXT="elements">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354704061024" FOLDED="true" ID="ID_1984897520" LINK="http://api.jquery.com/append/" MODIFIED="1444566049786" TEXT="append">
 <font NAME="SansSerif" SIZE="12"/>
@@ -122,67 +122,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355839315264" FOLDED="true" ID="ID_898696207" MODIFIED="1444566246152" TEXT="css">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1355839319298" ID="ID_1604537042" MODIFIED="1355839357267">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      // changing text shadow
-    </p>
-    <p>
-      $('#bla')<b>.css</b>('textShadow','#6374AB 20px -12px 2px');
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1290773244511" FOLDED="true" ID="ID_1462650909" MODIFIED="1444566247454" TEXT="html">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1290773268082" ID="ID_761812187" MODIFIED="1355246204982">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $(element).<b>html( )</b>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#0033ff" CREATED="1354038844140" ID="ID_1486689829" MODIFIED="1354638469402">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $('#inout').<b>html</b>('&lt;li&gt;item no 1&lt;/li&gt;);
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1290773210876" FOLDED="true" ID="ID_1495602034" MODIFIED="1444566248657" TEXT="text">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1290773222536" ID="ID_854541302" MODIFIED="1354698271007">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $('#inout').<b>text</b>('Hi there');
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1354278101280" FOLDED="true" ID="ID_1748620744" MODIFIED="1444566250510" TEXT="attribute">
+<node CREATED="1354278101280" FOLDED="true" ID="ID_1748620744" MODIFIED="1444567038475" TEXT="attribute">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354635099258" FOLDED="true" ID="ID_118095494" MODIFIED="1444565975168" TEXT="removeAttr">
 <font NAME="SansSerif" SIZE="12"/>
@@ -240,7 +180,31 @@
 </node>
 </node>
 </node>
-<node CREATED="1354638433805" FOLDED="true" ID="ID_255434681" MODIFIED="1444566462956" TEXT="form">
+<node COLOR="#0033ff" CREATED="1355839315264" FOLDED="true" ID="ID_898696207" MODIFIED="1444566246152" TEXT="css">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1355839319298" ID="ID_1604537042" MODIFIED="1355839357267">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // changing text shadow
+    </p>
+    <p>
+      $('#bla')<b>.css</b>('textShadow','#6374AB 20px -12px 2px');
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1444566418795" FOLDED="true" ID="ID_826620538" MODIFIED="1444567120194" TEXT="dom">
+<node CREATED="1444566420177" FOLDED="true" ID="ID_1661985847" MODIFIED="1444567119974" TEXT="select">
+<node COLOR="#0033ff" CREATED="1444566423850" ID="ID_1890234293" LINK="jquery dynamic option filter http://stackoverflow.com/questions/1447728/how-to-dynamic-filter-options-of-select-with-jquery" MODIFIED="1444566452738" TEXT="dynamic select filter"/>
+<node COLOR="#0033ff" CREATED="1444567085036" ID="ID_970007919" LINK="jQuery: http://stackoverflow.com/questions/5022928/how-do-you-update-all-options-of-a-select-with-jquery" MODIFIED="1444567118864" TEXT="update options"/>
+</node>
+</node>
+<node CREATED="1354638433805" FOLDED="true" ID="ID_255434681" MODIFIED="1444567044934" TEXT="form">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1290773189189" FOLDED="true" ID="ID_608692845" MODIFIED="1444566252962" TEXT="val">
 <font NAME="SansSerif" SIZE="12"/>
@@ -277,16 +241,40 @@
 <node COLOR="#0033ff" CREATED="1354544306079" ID="ID_715807544" LINK="http://technosophos.com/content/jquery-checkboxes-checking-and-unchecking-right-way" MODIFIED="1444566257750" TEXT="techsophos"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354704046508" ID="ID_650648200" MODIFIED="1444565969457" TEXT="prepend">
+<node COLOR="#0033ff" CREATED="1354704230349" ID="ID_88307569" LINK="http://api.jquery.com/insertBefore/" MODIFIED="1444567075328" TEXT="insertBefore">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354704230349" ID="ID_88307569" LINK="http://api.jquery.com/insertBefore/" MODIFIED="1444565969456" TEXT="insertBefore">
+<node COLOR="#0033ff" CREATED="1354704518919" ID="ID_1558363711" LINK="http://api.jquery.com/insertAfter/" MODIFIED="1444567075332" TEXT="insertAfter">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354704518919" ID="ID_1558363711" LINK="http://api.jquery.com/insertAfter/" MODIFIED="1444565969456" TEXT="insertAfter">
+<node COLOR="#0033ff" CREATED="1290773244511" FOLDED="true" ID="ID_1462650909" MODIFIED="1444567066220" TEXT="html">
 <font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1290773268082" ID="ID_761812187" MODIFIED="1355246204982">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(element).<b>html( )</b>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1354900245258" FOLDED="true" ID="ID_388443493" MODIFIED="1444566235095" TEXT="moving">
+<node COLOR="#0033ff" CREATED="1354038844140" ID="ID_1486689829" MODIFIED="1354638469402">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $('#inout').<b>html</b>('&lt;li&gt;item no 1&lt;/li&gt;);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1354900245258" FOLDED="true" ID="ID_388443493" MODIFIED="1444567054447" TEXT="moving">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354900251370" FOLDED="true" ID="ID_1696579114" LINK="http://api.jquery.com/parent/" MODIFIED="1444566232096" TEXT="parent">
 <font NAME="SansSerif" SIZE="12"/>
@@ -310,7 +298,10 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1290773186085" FOLDED="true" ID="ID_146665972" MODIFIED="1444566263375" TEXT="select">
+<node COLOR="#0033ff" CREATED="1354704046508" ID="ID_650648200" MODIFIED="1444567056615" TEXT="prepend">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1290773186085" FOLDED="true" ID="ID_146665972" MODIFIED="1444567058727" TEXT="select">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354704279416" FOLDED="true" ID="ID_228668161" LINK="http://api.jquery.com/category/selectors/attribute-selectors/" MODIFIED="1444566230232" TEXT="attribute selector">
 <node COLOR="#0033ff" CREATED="1354704305275" ID="ID_10776762" LINK="http://api.jquery.com/attribute-equals-selector/" MODIFIED="1444566226552" TEXT="attribute equals selector"/>
@@ -458,9 +449,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1444566418795" FOLDED="true" ID="ID_826620538" MODIFIED="1444566469084" TEXT="dom">
-<node CREATED="1444566420177" ID="ID_1661985847" MODIFIED="1444566467490" TEXT="select">
-<node COLOR="#0033ff" CREATED="1444566423850" ID="ID_1890234293" LINK="jquery dynamic option filter http://stackoverflow.com/questions/1447728/how-to-dynamic-filter-options-of-select-with-jquery" MODIFIED="1444566452738" TEXT="dynamic select filter"/>
+<node COLOR="#0033ff" CREATED="1290773210876" FOLDED="true" ID="ID_1495602034" MODIFIED="1444566248657" TEXT="text">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1290773222536" ID="ID_854541302" MODIFIED="1354698271007">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $('#inout').<b>text</b>('Hi there');
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
