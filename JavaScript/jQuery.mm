@@ -726,8 +726,8 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1444566284308" FOLDED="true" ID="ID_724183584" MODIFIED="1444566481243" POSITION="right" TEXT="info">
-<node CREATED="1355838991471" FOLDED="true" ID="ID_194065213" MODIFIED="1444566480976" TEXT="plugins">
+<node CREATED="1444566284308" FOLDED="true" ID="ID_724183584" MODIFIED="1444577078406" POSITION="right" TEXT="info">
+<node CREATED="1355838991471" FOLDED="true" ID="ID_194065213" MODIFIED="1444577076982" TEXT="plugins">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1355838997784" ID="ID_448961335" LINK="http://www.inwebson.com/jquery/cool-jquery-plugins-make-you-wow/" MODIFIED="1444566382731" TEXT="cool 18 plugins"/>
 <node CREATED="1357726200177" FOLDED="true" ID="ID_1915031401" MODIFIED="1444566478889" TEXT="Local Storage">
@@ -752,6 +752,9 @@
 <node COLOR="#0033ff" CREATED="1389213183121" ID="ID_729942292" LINK="http://code.google.com/p/jqueryrotate/" MODIFIED="1444566389851" TEXT="jqueryrotate">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+<node CREATED="1444577067407" FOLDED="true" ID="ID_400855287" MODIFIED="1444577077701" TEXT="articles">
+<node COLOR="#0033ff" CREATED="1444577056851" ID="ID_66300844" LINK="http://ricostacruz.com/jquery.transit/" MODIFIED="1444577071700" TEXT="css transitions"/>
 </node>
 </node>
 </node>
