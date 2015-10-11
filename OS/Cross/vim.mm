@@ -145,14 +145,46 @@
       <font color="#0000ff">:e!</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1439975525298" ID="ID_1036617301" MODIFIED="1443338533421" POSITION="left" TEXT="VISUAL"/>
 <node CREATED="1439975651261" ID="ID_553128214" MODIFIED="1439975652960" POSITION="left" TEXT="buffers"/>
 <node CREATED="1439975653328" ID="ID_69786648" MODIFIED="1439975654504" POSITION="left" TEXT="windows"/>
+<node COLOR="#ff0000" CREATED="1444570174854" FOLDED="true" ID="ID_1693204206" MODIFIED="1444571090747" POSITION="right" TEXT="app/lib">
+<node CREATED="1297692832611" FOLDED="true" ID="ID_963268630" MODIFIED="1444571081627" TEXT="forks">
+<node COLOR="#0033ff" CREATED="1297692838824" ID="ID_894392305" LINK="https://github.com/carlhuda/janus" MODIFIED="1444570962082" TEXT="Janus"/>
+</node>
+<node COLOR="#ff0000" CREATED="1364488594322" FOLDED="true" ID="ID_408990398" MODIFIED="1444571084506" TEXT="browser">
+<node CREATED="1364488802021" FOLDED="true" ID="ID_979468313" MODIFIED="1444570957409" TEXT="chrome">
+<node COLOR="#0033ff" CREATED="1364488735499" ID="ID_491714714" LINK="http://vimium.github.com/" MODIFIED="1444570228360" TEXT="vimium"/>
+<node COLOR="#0033ff" CREATED="1364488790680" ID="ID_1913428643" LINK="http://www.chromeextensions.org/other/vrome/" MODIFIED="1444570228366" TEXT="vrome"/>
+<node COLOR="#0033ff" CREATED="1439975462698" ID="ID_1572268152" MODIFIED="1444570228367" TEXT="c-vim"/>
+</node>
+<node COLOR="#ff0000" CREATED="1364488807238" FOLDED="true" ID="ID_1480220125" MODIFIED="1444571084290" TEXT="firefox">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1364488738771" ID="ID_1832042245" LINK="http://www.vimperator.org/vimperator" MODIFIED="1444570937698" TEXT="vimperator"/>
+<node COLOR="#ff0000" CREATED="1444570219736" ID="ID_450891457" MODIFIED="1444570937699" TEXT="pentadactyl"/>
+</node>
+<node COLOR="#0033ff" CREATED="1364488597009" ID="ID_856983535" LINK="http://sourceforge.net/apps/trac/vimprobable/" MODIFIED="1444570232365" TEXT="vimprobable"/>
+</node>
+<node COLOR="#ff0000" CREATED="1439975476408" ID="ID_721578311" MODIFIED="1444571073628" TEXT="Macvim">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#ff0000" CREATED="1444570238502" ID="ID_1222292918" MODIFIED="1444571073624" TEXT="gVim">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#0033ff" CREATED="1444570977853" FOLDED="true" ID="ID_537695697" MODIFIED="1444571079531" TEXT="Mail.app">
+<node COLOR="#0033ff" CREATED="1444570984270" ID="ID_1230103324" LINK="https://github.com/rcarmo/HJKLPlugin" MODIFIED="1444571006027" TEXT="HJKL plugin"/>
+</node>
+<node COLOR="#ff0000" CREATED="1332760203082" FOLDED="true" ID="ID_1786211631" MODIFIED="1444571086462" TEXT="vimdiff">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#0033ff" CREATED="1332760210574" ID="ID_136649349" LINK="http://www.debianadmin.com/vimdiff-edit-two-or-three-versions-of-a-file-with-vim-and-show-differences.html" MODIFIED="1444570921162" TEXT="vimdiff : site 1"/>
+<node COLOR="#0033ff" CREATED="1332760213065" ID="ID_186213483" LINK="http://andrejk.blogspot.com/2008/04/vimdiff-howto.html" MODIFIED="1444570921175" TEXT="vimdiff : site 2"/>
+<node COLOR="#0033ff" CREATED="1332760760362" ID="ID_1786961035" LINK="http://blog.tplus1.com/index.php/2007/08/29/how-to-use-vimdiff-as-the-subversion-diff-tool/" MODIFIED="1444570921176" TEXT="site3 : using vim for subversion"/>
+</node>
+</node>
 <node CREATED="1311076066199" FOLDED="true" ID="ID_1137717804" MODIFIED="1443366245153" POSITION="left" TEXT="tricks">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311076070262" FOLDED="true" ID="ID_427727716" MODIFIED="1443366244639" TEXT="commenting">
@@ -173,7 +205,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1439975581379" ID="ID_819996731" MODIFIED="1443377357264" POSITION="right" TEXT="config">
+<node CREATED="1439975581379" FOLDED="true" ID="ID_819996731" MODIFIED="1444570900265" POSITION="right" TEXT="config">
 <node CREATED="1310044236747" FOLDED="true" ID="ID_424960842" MODIFIED="1443338618914" TEXT="Tabulation">
 <node CREATED="1310044404621" ID="ID_1292241249" MODIFIED="1351787744869">
 <richcontent TYPE="NODE"><html>
@@ -263,8 +295,7 @@
       <font color="#0000ff">:set hls</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1310470099393" ID="ID_69542900" MODIFIED="1443364809308" TEXT="links">
 <font NAME="SansSerif" SIZE="12"/>
@@ -273,7 +304,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1443366273721" ID="ID_1524804620" MODIFIED="1443377357274" TEXT="autorefresh">
+<node CREATED="1443366273721" FOLDED="true" ID="ID_1524804620" MODIFIED="1443511546513" TEXT="autorefresh">
 <node COLOR="#0033ff" CREATED="1443366279872" ID="ID_1451502406" MODIFIED="1443366307769" TEXT=":set autoread"/>
 </node>
 <node COLOR="#0033ff" CREATED="1443301007181" FOLDED="true" ID="ID_554866407" MODIFIED="1443366271676" TEXT=".vimrc">
@@ -283,49 +314,31 @@
 <node COLOR="#0033ff" CREATED="1304072329796" ID="ID_21523396" MODIFIED="1310045254652" TEXT="mv ~/.exrc ~/.vimrc "/>
 </node>
 </node>
-<node CREATED="1443300758547" FOLDED="true" ID="ID_505920016" MODIFIED="1443364806785" POSITION="right" TEXT="info">
-<node CREATED="1332760203082" FOLDED="true" ID="ID_1786211631" MODIFIED="1443300970452" TEXT="Diff">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1332760210574" ID="ID_136649349" LINK="http://www.debianadmin.com/vimdiff-edit-two-or-three-versions-of-a-file-with-vim-and-show-differences.html" MODIFIED="1332760811795" TEXT="vimdiff : site 1"/>
-<node CREATED="1332760213065" ID="ID_186213483" LINK="http://andrejk.blogspot.com/2008/04/vimdiff-howto.html" MODIFIED="1332760808695" TEXT="vimdiff : site 2"/>
-<node CREATED="1332760760362" ID="ID_1786961035" LINK="http://blog.tplus1.com/index.php/2007/08/29/how-to-use-vimdiff-as-the-subversion-diff-tool/" MODIFIED="1332760795593" TEXT="site3 : using vim for subversion"/>
+<node CREATED="1443300758547" FOLDED="true" ID="ID_505920016" MODIFIED="1444571101590" POSITION="right" TEXT="info">
+<node CREATED="1322655266228" FOLDED="true" ID="ID_704854240" MODIFIED="1444571100403" TEXT="Cygwin">
+<node COLOR="#0033ff" CREATED="1322655276139" ID="ID_144269626" LINK="http://www.scottmurphy.info/cygwin-windows-vi-vim-backspace-arrow-keys-doesnt-do-not-work-right" MODIFIED="1444571093752" TEXT="work properly"/>
 </node>
-<node CREATED="1322655266228" FOLDED="true" ID="ID_704854240" MODIFIED="1443300969764" TEXT="Cygwin">
-<node CREATED="1322655276139" ID="ID_144269626" LINK="http://www.scottmurphy.info/cygwin-windows-vi-vim-backspace-arrow-keys-doesnt-do-not-work-right" MODIFIED="1356452334457" TEXT="work properly"/>
-</node>
-<node CREATED="1297692832611" FOLDED="true" ID="ID_963268630" MODIFIED="1443300961823" TEXT="fork">
-<node CREATED="1297692838824" ID="ID_894392305" LINK="https://github.com/carlhuda/janus" MODIFIED="1297692843016" TEXT="Janus"/>
-<node CREATED="1364488594322" FOLDED="true" ID="ID_408990398" MODIFIED="1443300960430" TEXT="browser">
-<node CREATED="1364488802021" ID="ID_979468313" MODIFIED="1364488806047" TEXT="chrome">
-<node CREATED="1364488735499" ID="ID_491714714" LINK="http://vimium.github.com/" MODIFIED="1364488745129" TEXT="vimium"/>
-<node CREATED="1364488790680" ID="ID_1913428643" LINK="http://www.chromeextensions.org/other/vrome/" MODIFIED="1364488793784" TEXT="vrome"/>
-<node CREATED="1439975462698" ID="ID_1572268152" MODIFIED="1439975464532" TEXT="c-vim"/>
-</node>
-<node CREATED="1364488807238" ID="ID_1480220125" MODIFIED="1364488808775" TEXT="ff">
-<node CREATED="1364488738771" ID="ID_1832042245" LINK="http://www.vimperator.org/vimperator" MODIFIED="1364488798683" TEXT="vimperator"/>
-</node>
-<node CREATED="1364488597009" ID="ID_856983535" LINK="http://sourceforge.net/apps/trac/vimprobable/" MODIFIED="1439975469112" TEXT="vimprobable"/>
-</node>
-<node CREATED="1439975476408" ID="ID_721578311" MODIFIED="1439975484196" TEXT="Macvim"/>
-</node>
-<node CREATED="1310398086417" FOLDED="true" ID="ID_1153701436" MODIFIED="1443300984782" TEXT="tutorial">
-<node CREATED="1364487944576" ID="ID_1894261179" LINK="http://net.tutsplus.com/articles/web-roundups/25-vim-tutorials-screencasts-and-resources/" MODIFIED="1364487962537">
+<node CREATED="1310398086417" FOLDED="true" ID="ID_1153701436" MODIFIED="1444571096208" TEXT="tutorial">
+<node COLOR="#0033ff" CREATED="1364487944576" ID="ID_1894261179" LINK="http://net.tutsplus.com/articles/web-roundups/25-vim-tutorials-screencasts-and-resources/" MODIFIED="1444567711425">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b><font color="#009999">nettuts</font></b>&#xa0;12 cool info
+      nettuts&#160;12 cool info
     </p>
   </body>
 </html></richcontent>
 </node>
+<node COLOR="#0033ff" CREATED="1444567660647" ID="ID_44029417" LINK="http://vim-adventures.com/" MODIFIED="1444567702560" TEXT="vim advetures"/>
+<node COLOR="#0033ff" CREATED="1444567671551" ID="ID_1293997083" LINK="http://www.openvim.com/ " MODIFIED="1444567702567" TEXT="open vim"/>
 </node>
-<node CREATED="1310474112696" FOLDED="true" ID="ID_683576352" MODIFIED="1443338792592" TEXT="links">
+<node CREATED="1310474112696" FOLDED="true" ID="ID_683576352" MODIFIED="1444571098386" TEXT="links">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1310474118439" ID="ID_1675762463" LINK="http://vim.wikia.com/wiki/Using_tab_pages" MODIFIED="1310474121922" TEXT="wikia"/>
-<node CREATED="1310474656528" ID="ID_108652882" LINK="http://stackoverflow.com/questions/2005214/switching-to-a-particular-tab-in-vim" MODIFIED="1310474673098" TEXT="stackoverflow"/>
+<node COLOR="#0033ff" CREATED="1310474118439" ID="ID_1675762463" LINK="http://vim.wikia.com/wiki/Using_tab_pages" MODIFIED="1444570060724" TEXT="wikia"/>
+<node COLOR="#0033ff" CREATED="1310474656528" ID="ID_108652882" LINK="http://stackoverflow.com/questions/2005214/switching-to-a-particular-tab-in-vim" MODIFIED="1444570060730" TEXT="stackoverflow"/>
+<node COLOR="#0033ff" CREATED="1444570036594" ID="ID_80321053" LINK="http://vimsheet.com/" MODIFIED="1444570057737" TEXT="http://vimsheet.com"/>
 </node>
 </node>
 </node>
