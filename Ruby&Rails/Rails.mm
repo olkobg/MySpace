@@ -2,9 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1438001907693" TEXT="Rails">
 <font NAME="SansSerif" SIZE="31"/>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1442912060595" POSITION="right" TEXT="Models">
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1444573223901" POSITION="right" TEXT="Models">
 <font NAME="SansSerif" SIZE="20"/>
-<node COLOR="#0033ff" CREATED="1436514906893" ID="ID_281123415" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Base.html" MODIFIED="1442911778494" TEXT="ActiveRecord">
+<node COLOR="#0033ff" CREATED="1436514906893" FOLDED="true" ID="ID_281123415" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Base.html" MODIFIED="1444573223621" TEXT="ActiveRecord">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -14,9 +14,10 @@
       &#160;
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1434737683591" FOLDED="true" ID="ID_244798224" MODIFIED="1438709426667" TEXT="methods">
-<node CREATED="1434737585735" FOLDED="true" ID="ID_1164291398" MODIFIED="1438001906249" TEXT="retreive">
+</html>
+</richcontent>
+<node CREATED="1434737683591" FOLDED="true" ID="ID_244798224" MODIFIED="1444567384877" TEXT="methods">
+<node CREATED="1434737585735" FOLDED="true" ID="ID_1164291398" MODIFIED="1444567380287" TEXT="retreive">
 <node COLOR="#0033ff" CREATED="1434737528627" ID="ID_1211784254" MODIFIED="1434737662281" TEXT="bind"/>
 <node COLOR="#0033ff" CREATED="1434737528628" ID="ID_1708403044" MODIFIED="1434737557912" TEXT="create_with"/>
 <node COLOR="#0033ff" CREATED="1434737528628" ID="ID_345630459" MODIFIED="1434737557914" TEXT="distinct"/>
@@ -39,7 +40,7 @@
 <node COLOR="#0033ff" CREATED="1434737528634" ID="ID_1704853329" MODIFIED="1434737557931" TEXT="reverse_order"/>
 <node COLOR="#0033ff" CREATED="1434737528635" ID="ID_679921733" MODIFIED="1434737557932" TEXT="select"/>
 <node COLOR="#0033ff" CREATED="1434737528635" ID="ID_814861619" MODIFIED="1434737557933" TEXT="uniq"/>
-<node COLOR="#0033ff" CREATED="1430168046484" FOLDED="true" ID="ID_906438939" MODIFIED="1438001905914" TEXT="where">
+<node COLOR="#0033ff" CREATED="1430168046484" FOLDED="true" ID="ID_906438939" MODIFIED="1444566800577" TEXT="where">
 <node CREATED="1430168051730" ID="ID_1519347485" MODIFIED="1436449217305">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -87,16 +88,39 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1430592423913" ID="ID_1930494093" MODIFIED="1434737718769" TEXT="destroy">
+<node COLOR="#0033ff" CREATED="1430592423913" FOLDED="true" ID="ID_1930494093" MODIFIED="1444566822424" TEXT="destroy">
 <node CREATED="1430592438861" ID="ID_1966308863" MODIFIED="1430592443095" TEXT="deletes with callbacks"/>
 </node>
 <node COLOR="#0033ff" CREATED="1430592432356" ID="ID_1374528787" MODIFIED="1430737774880" TEXT="delete"/>
 <node COLOR="#0033ff" CREATED="1430737783632" ID="ID_1013933550" MODIFIED="1430737787094" TEXT="find"/>
-<node COLOR="#0033ff" CREATED="1436516075063" ID="ID_791986744" MODIFIED="1436516084543" TEXT="find_each"/>
+<node COLOR="#0033ff" CREATED="1436516075063" FOLDED="true" ID="ID_791986744" MODIFIED="1444567367991" TEXT="find_each">
+<node CREATED="1444567267638" ID="ID_923598262" MODIFIED="1444567356732">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      instead
+    </p>
+    <p>
+      <font color="#0000ff">District.all do |district|...</font>
+    </p>
+    <p>
+      use
+    </p>
+    <p>
+      <font color="#0000ff">District.find_each do |district|...</font>
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="idea"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1436516078967" ID="ID_390779137" MODIFIED="1436516084544" TEXT="find_in_batches"/>
 <node COLOR="#0033ff" CREATED="1436968084275" ID="ID_117914931" LINK="http://apidock.com/rails/ActiveRecord/Calculations/pluck" MODIFIED="1436968089580" TEXT="pluck"/>
 </node>
-<node CREATED="1430737180777" FOLDED="true" ID="ID_1622494300" MODIFIED="1437049971196" TEXT="callbacks">
+<node CREATED="1430737180777" FOLDED="true" ID="ID_1622494300" MODIFIED="1444566784492" TEXT="callbacks">
 <node COLOR="#0033ff" CREATED="1430737280340" ID="ID_1568550947" MODIFIED="1430737428873" TEXT="after_touch"/>
 <node COLOR="#0033ff" CREATED="1430737283965" ID="ID_777137525" MODIFIED="1430737428874" TEXT="after_find"/>
 <node COLOR="#0033ff" CREATED="1430737286508" ID="ID_1924268165" MODIFIED="1430737428875" TEXT="after_initialize"/>
@@ -237,7 +261,7 @@
 <node COLOR="#0033ff" CREATED="1430737359149" ID="ID_1600069650" MODIFIED="1430737364779" TEXT="update_all"/>
 <node COLOR="#0033ff" CREATED="1430737359149" ID="ID_1396072122" MODIFIED="1430737364778" TEXT="update_counters"/>
 </node>
-<node CREATED="1430737894316" FOLDED="true" ID="ID_119077906" MODIFIED="1437041688281" TEXT="register">
+<node CREATED="1430737894316" FOLDED="true" ID="ID_119077906" MODIFIED="1444566710829" TEXT="register">
 <node CREATED="1430737899385" ID="ID_993501591" MODIFIED="1430737932078">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -318,8 +342,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1416842175466" FOLDED="true" ID="ID_699552630" MODIFIED="1438852002276" TEXT="associations">
-<node COLOR="#0033ff" CREATED="1416842195656" FOLDED="true" ID="ID_530623936" MODIFIED="1431800431701" TEXT="belongs_to">
+<node CREATED="1416842175466" FOLDED="true" ID="ID_699552630" MODIFIED="1444566732595" TEXT="associations">
+<node COLOR="#0033ff" CREATED="1416842195656" FOLDED="true" ID="ID_530623936" MODIFIED="1444566727012" TEXT="belongs_to">
 <node COLOR="#0033ff" CREATED="1430738478077" ID="ID_277949474" MODIFIED="1430738532639" TEXT="association(force_reload = false)"/>
 <node COLOR="#0033ff" CREATED="1430738478081" ID="ID_422384461" MODIFIED="1430738532641" TEXT="association=(associate)"/>
 <node COLOR="#0033ff" CREATED="1430738478082" ID="ID_738837281" MODIFIED="1430738532641" TEXT="build_association(attributes = {})"/>
@@ -339,7 +363,7 @@
 <node COLOR="#0033ff" CREATED="1430738527531" ID="ID_1940971171" MODIFIED="1430738532651" TEXT="readonly"/>
 <node COLOR="#0033ff" CREATED="1430738527531" ID="ID_759191749" MODIFIED="1430738532652" TEXT="select"/>
 </node>
-<node COLOR="#0033ff" CREATED="1416842195660" FOLDED="true" ID="ID_485116488" MODIFIED="1430738535560" TEXT="has_one">
+<node COLOR="#0033ff" CREATED="1416842195660" FOLDED="true" ID="ID_485116488" MODIFIED="1444566726204" TEXT="has_one">
 <node COLOR="#0033ff" CREATED="1430738341850" ID="ID_1480826703" MODIFIED="1430738400762" TEXT="association(force_reload = false)"/>
 <node COLOR="#0033ff" CREATED="1430738341851" ID="ID_1752171217" MODIFIED="1430738400763" TEXT="association=(associate)"/>
 <node COLOR="#0033ff" CREATED="1430738341851" ID="ID_929642712" MODIFIED="1430738400764" TEXT="build_association(attributes = {})"/>
@@ -407,7 +431,7 @@
 <node COLOR="#0033ff" CREATED="1430738097346" ID="ID_1716100126" MODIFIED="1430738232824" TEXT="select"/>
 <node COLOR="#0033ff" CREATED="1430738097346" ID="ID_341245144" MODIFIED="1430738232823" TEXT="uniq"/>
 </node>
-<node COLOR="#0033ff" CREATED="1285678271464" FOLDED="true" ID="ID_591137923" MODIFIED="1430738684676" TEXT="has_and_belongs_to_many">
+<node COLOR="#0033ff" CREATED="1285678271464" FOLDED="true" ID="ID_591137923" MODIFIED="1444566728371" TEXT="has_and_belongs_to_many">
 <node CREATED="1285683892914" ID="ID_1843804199" MODIFIED="1285683946651" TEXT="Rails Assumes that name of join table contained with names of tables in alphabetical order"/>
 <node COLOR="#0033ff" CREATED="1430738623792" ID="ID_1674955823" MODIFIED="1430738682842" TEXT="collection(force_reload = false)"/>
 <node COLOR="#0033ff" CREATED="1430738623793" ID="ID_759944330" MODIFIED="1430738682841" TEXT="collection&lt;&lt;(object, ...)"/>
@@ -442,7 +466,7 @@
 <node COLOR="#0033ff" CREATED="1430738673768" ID="ID_1012617940" MODIFIED="1430738682824" TEXT="select"/>
 <node COLOR="#0033ff" CREATED="1430738673768" ID="ID_857993929" MODIFIED="1430738682822" TEXT="uniq"/>
 </node>
-<node CREATED="1287582356066" FOLDED="true" ID="ID_1345264885" MODIFIED="1430738541663" TEXT="self-joining">
+<node CREATED="1287582356066" FOLDED="true" ID="ID_1345264885" MODIFIED="1444566729320" TEXT="self-joining">
 <node CREATED="1287582366583" ID="ID_582525394" MODIFIED="1419241979514">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -480,20 +504,32 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1430906917773" FOLDED="true" ID="ID_613863050" MODIFIED="1431800435157" TEXT="callbacks">
+<node CREATED="1430906917773" FOLDED="true" ID="ID_613863050" MODIFIED="1444566732053" TEXT="callbacks">
 <node COLOR="#0033ff" CREATED="1430906991323" ID="ID_237953928" MODIFIED="1430907012523" TEXT="before_add"/>
 <node COLOR="#0033ff" CREATED="1430906942399" ID="ID_194280902" MODIFIED="1430907012519" TEXT="after_add"/>
 <node COLOR="#0033ff" CREATED="1430906995924" ID="ID_1576400425" MODIFIED="1430907012516" TEXT="before_remove"/>
 <node COLOR="#0033ff" CREATED="1430906949728" ID="ID_1946095810" MODIFIED="1430907012510" TEXT="after_remove"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1436462282691" FOLDED="true" ID="ID_313747742" LINK="http://edgeapi.rubyonrails.org/classes/ActiveRecord/Enum.html" MODIFIED="1438936075888" TEXT="::Enum">
+<node COLOR="#0033ff" CREATED="1436462282691" FOLDED="true" ID="ID_313747742" LINK="http://edgeapi.rubyonrails.org/classes/ActiveRecord/Enum.html" MODIFIED="1444573016129" TEXT="::Enum">
+<node COLOR="#0033ff" CREATED="1444567155857" ID="ID_250306481" MODIFIED="1444567217095">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      enum district_type: %i(region district city town)
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node COLOR="#0033ff" CREATED="1437568206841" ID="ID_1096062042" LINK="https://hackhands.com/ruby-on-enums-queries-and-rails-4-1/" MODIFIED="1438852011701" TEXT="hack_hands"/>
 <node COLOR="#0033ff" CREATED="1438688886175" ID="ID_1177461274" LINK="http://habrahabr.ru/post/219175/" MODIFIED="1438688892692" TEXT="hh"/>
 </node>
-<node COLOR="#0033ff" CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Migration.html" MODIFIED="1436516063635" TEXT="::Migration">
-<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1436516061824" TEXT="script">
-<node CREATED="1287135483060" FOLDED="true" ID="ID_130200917" MODIFIED="1428591685650" TEXT="table">
+<node COLOR="#0033ff" CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Migration.html" MODIFIED="1444566754073" TEXT="::Migration">
+<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1444566749349" TEXT="script">
+<node CREATED="1287135483060" FOLDED="true" ID="ID_130200917" MODIFIED="1444566740309" TEXT="table">
 <node COLOR="#0033ff" CREATED="1285662412008" FOLDED="true" ID="ID_628195570" MODIFIED="1428590911418" TEXT="create_table">
 <node CREATED="1285662758957" FOLDED="true" ID="ID_1855141473" MODIFIED="1428590842127" TEXT="parameters">
 <node CREATED="1285662780127" ID="ID_1634046804" MODIFIED="1416838808552">
@@ -693,7 +729,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1287135525738" FOLDED="true" ID="ID_1091120829" MODIFIED="1436516061632" TEXT="columns">
+<node CREATED="1287135525738" FOLDED="true" ID="ID_1091120829" MODIFIED="1444566738677" TEXT="columns">
 <node CREATED="1428066291077" ID="ID_109349749" LINK="#ID_1273841851" MODIFIED="1428066308397" TEXT="datatypes"/>
 <node CREATED="1287135205372" ID="ID_538089736" MODIFIED="1416839395955">
 <richcontent TYPE="NODE"><html>
@@ -816,7 +852,7 @@
 <node COLOR="#0033ff" CREATED="1285663957616" ID="ID_943032537" MODIFIED="1416839296012" TEXT="remove_index :orders, :name"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1416566476800" FOLDED="true" ID="ID_868352331" MODIFIED="1428060700628" TEXT="create ruby script from existing db">
+<node COLOR="#990099" CREATED="1416566476800" FOLDED="true" ID="ID_868352331" MODIFIED="1444566746205" TEXT="create ruby script from existing db">
 <node CREATED="1416697834184" ID="ID_1920149502" MODIFIED="1416839602679">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -886,7 +922,7 @@
 <node COLOR="#0033ff" CREATED="1287675790052" ID="ID_437452920" MODIFIED="1416839494823" TEXT="raise ActiveRecord::IrreversibleMigration "/>
 </node>
 <node CREATED="1436515711272" ID="ID_211968000" LINK="http://edgeguides.rubyonrails.org/active_record_migrations.html" MODIFIED="1436515714477" TEXT="guide"/>
-<node COLOR="#0033ff" CREATED="1436515743760" FOLDED="true" ID="ID_1372499374" MODIFIED="1436515829823" TEXT="$ rake">
+<node COLOR="#0033ff" CREATED="1436515743760" FOLDED="true" ID="ID_1372499374" MODIFIED="1444566752189" TEXT="$ rake">
 <node CREATED="1283197450026" ID="ID_1587485051" MODIFIED="1436515824625">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -919,13 +955,48 @@
 </node>
 </node>
 </node>
-<node CREATED="1442909943571" ID="ID_1153957420" MODIFIED="1442909964237" TEXT="unsort">
+<node CREATED="1442909943571" FOLDED="true" ID="ID_1153957420" MODIFIED="1444573094530" TEXT="unsort">
 <icon BUILTIN="yes"/>
 <node CREATED="1442909944761" ID="ID_1101431817" MODIFIED="1442909946053" TEXT="any? - has performance issues"/>
 <node COLOR="#0033ff" CREATED="1442911781109" ID="ID_1513931077" LINK="http://blog.mitchcrowe.com/blog/2012/04/14/10-most-underused-activerecord-relation-methods/ " MODIFIED="1442911807401" TEXT="under used AT methods"/>
+<node COLOR="#0033ff" CREATED="1444566767315" ID="ID_773346418" LINK="http://stackoverflow.com/questions/2672744/rails-activerecord-find-all-users-except-current-user " MODIFIED="1444566779619" TEXT="find all except one"/>
+<node COLOR="#0033ff" CREATED="1444566828946" ID="ID_1178157886" LINK="http://stackoverflow.com/questions/19105706/rails-4-like-query-activerecord-adds-quotes " MODIFIED="1444566855277" TEXT="search with 2 likes"/>
+<node CREATED="1444573018522" FOLDED="true" ID="ID_1730514807" MODIFIED="1444573093392" TEXT="change logger">
+<node CREATED="1444573027014" ID="ID_865971109" MODIFIED="1444573090795">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # change
+    </p>
+    <p>
+      <font color="#0033ff">old_logger = ActiveRecord::Base.logger </font>
+    </p>
+    <p>
+      <font color="#0033ff">ActiveRecord::Base.logger = nil </font>
+    </p>
+    <p>
+      # show output on console
+    </p>
+    <p>
+      <font color="#0033ff">ActiveRecord::Base.logger = Logger.new(STDOUT)</font>
+    </p>
+    <p>
+      # To turn it back on:
+    </p>
+    <p>
+      <font color="#0033ff">ActiveRecord::Base.logger = old_logger</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1436515680175" TEXT="configuration">
+</node>
+</node>
+<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1444567404444" TEXT="configuration">
 <node CREATED="1420822145349" ID="ID_1238392466" MODIFIED="1420822170101">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1079,15 +1150,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1421261381206" FOLDED="true" ID="ID_261475142" MODIFIED="1438857193375" TEXT="db/seeds.rb">
+<node COLOR="#0033ff" CREATED="1421261381206" FOLDED="true" ID="ID_261475142" MODIFIED="1444567401346" TEXT="db/seeds.rb">
 <node COLOR="#0033ff" CREATED="1421261417332" ID="ID_1423604787" MODIFIED="1421261449035" TEXT="User.create(name: &apos;user&apos;, password: &apos;password&apos;)"/>
 <node COLOR="#0033ff" CREATED="1427725208286" ID="ID_1142261647" LINK="gems/factory_girl.mm" MODIFIED="1427746752429" TEXT=" factory_girl"/>
 </node>
-<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1438251071133" TEXT="validate">
+<node CREATED="1283338391546" FOLDED="true" ID="ID_1548274229" MODIFIED="1444567417168" TEXT="validate">
 <node CREATED="1283258978454" ID="ID_624476471" MODIFIED="1283338381781" TEXT="to create a validation use validate :&lt;method for validate&gt;">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1438251063474" FOLDED="true" ID="ID_199595181" MODIFIED="1438251069613" TEXT="param">
+<node CREATED="1438251063474" FOLDED="true" ID="ID_199595181" MODIFIED="1444567410243" TEXT="param">
 <node CREATED="1283855731031" ID="ID_840957597" MODIFIED="1438251060914">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1106,11 +1177,12 @@
 </node>
 <node CREATED="1285151124782" ID="ID_1515217412" MODIFIED="1285151126295" TEXT="built-in error messages, look for the file validations.rb within the Active Record gem"/>
 </node>
-<node CREATED="1427725192287" FOLDED="true" ID="ID_1636398461" MODIFIED="1436515681521" TEXT="tricks">
-<node COLOR="#990099" CREATED="1416566466801" ID="ID_369394075" LINK="http://stackoverflow.com/questions/6021372/best-way-to-create-unique-token-in-rails" MODIFIED="1416840273419" TEXT="create hash token"/>
-<node COLOR="#990099" CREATED="1416840123243" ID="ID_1727965400" LINK="http://devblog.moz.com/2010/10/non-integer-primary-keys-in-rails/" MODIFIED="1416841240940" TEXT="create table with md5 index"/>
-<node COLOR="#990099" CREATED="1416840461710" ID="ID_829964542" LINK="http://labria.github.io/2013/04/28/rails-4-postgres-uuid-pk-guide/" MODIFIED="1416840493406" TEXT="create table with uuid index - Rails4"/>
-<node COLOR="#990099" CREATED="1416840513326" ID="ID_1671221673" LINK="http://edgeguides.rubyonrails.org/active_record_postgresql.html" MODIFIED="1416840602887">
+<node CREATED="1427725192287" FOLDED="true" ID="ID_1636398461" MODIFIED="1444567432673" TEXT="tricks">
+<icon BUILTIN="idea"/>
+<node COLOR="#0033ff" CREATED="1416566466801" ID="ID_369394075" LINK="http://stackoverflow.com/questions/6021372/best-way-to-create-unique-token-in-rails" MODIFIED="1444567420870" TEXT="create hash token"/>
+<node COLOR="#0033ff" CREATED="1416840123243" ID="ID_1727965400" LINK="http://devblog.moz.com/2010/10/non-integer-primary-keys-in-rails/" MODIFIED="1444567420876" TEXT="create table with md5 index"/>
+<node COLOR="#0033ff" CREATED="1416840461710" ID="ID_829964542" LINK="http://labria.github.io/2013/04/28/rails-4-postgres-uuid-pk-guide/" MODIFIED="1444567420877" TEXT="create table with uuid index - Rails4"/>
+<node COLOR="#0033ff" CREATED="1416840513326" ID="ID_1671221673" LINK="http://edgeguides.rubyonrails.org/active_record_postgresql.html" MODIFIED="1444567420878">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1122,7 +1194,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#990099" CREATED="1417218881618" ID="ID_1681307262" LINK="http://ruby-journal.com/how-to-override-default-primary-key-id-in-rails/" MODIFIED="1417218903027" TEXT="create another primary key">
+<node COLOR="#0033ff" CREATED="1417218881618" ID="ID_1681307262" LINK="http://ruby-journal.com/how-to-override-default-primary-key-id-in-rails/" MODIFIED="1444567420881" TEXT="create another primary key">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -1675,7 +1747,7 @@
 <node COLOR="#0033ff" CREATED="1419373210941" ID="ID_1076983327" MODIFIED="1419373408376" TEXT="get &apos;/patients/:id&apos;, to: &apos;patients#show&apos;"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283240120953" ID="ID_706796606" MODIFIED="1443688994789" POSITION="right">
+<node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1444572519471" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1885,7 +1957,7 @@
 <node COLOR="#0033ff" CREATED="1420818213239" ID="ID_1126094444" MODIFIED="1420818239887" TEXT="plugins"/>
 <node COLOR="#0033ff" CREATED="1420818224470" ID="ID_1909525196" MODIFIED="1420818239886" TEXT="scafflod&#xa0;"/>
 </node>
-<node CREATED="1423515020063" FOLDED="true" ID="ID_19440220" MODIFIED="1427746781159" TEXT="use old version">
+<node CREATED="1423515020063" FOLDED="true" ID="ID_19440220" MODIFIED="1444572516801" TEXT="use old version">
 <node CREATED="1423514971055" ID="ID_1180923478" MODIFIED="1423515017576">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1905,9 +1977,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1443688998339" FOLDED="true" ID="ID_1543605731" MODIFIED="1443689359010" TEXT="preloaders">
-<node CREATED="1443689002790" ID="ID_97505711" MODIFIED="1443689004868" TEXT="spork"/>
-<node CREATED="1443689041047" ID="ID_703888468" LINK="gems/zeus.mm" MODIFIED="1443689041505" TEXT="zeus"/>
+<node CREATED="1443688998339" FOLDED="true" ID="ID_1543605731" MODIFIED="1444572514609" TEXT="preloaders">
+<node COLOR="#0033ff" CREATED="1443689002790" ID="ID_97505711" LINK="gems/spork.mm" MODIFIED="1444572511443" TEXT="spork"/>
+<node COLOR="#0033ff" CREATED="1443689041047" ID="ID_703888468" LINK="gems/zeus.mm" MODIFIED="1444572513033" TEXT="zeus"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1284732043601" ID="ID_1099016474" LINK="rake.mm" MODIFIED="1420818327541" POSITION="right" TEXT="rake">
@@ -2216,7 +2288,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1419275951392" ID="ID_795978789" MODIFIED="1442912062658" POSITION="right" TEXT="info">
+<node CREATED="1419275951392" FOLDED="true" ID="ID_795978789" MODIFIED="1443689362863" POSITION="right" TEXT="info">
 <node CREATED="1419275953591" ID="ID_161522889" LINK="https://tutorials.railsapps.org" MODIFIED="1419277708562">
 <richcontent TYPE="NODE"><html>
   <head>

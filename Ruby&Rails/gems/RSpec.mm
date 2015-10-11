@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990000" CREATED="1419193259570" ID="ID_1472924323" LINK="../Gems.mm" MODIFIED="1422538809357" TEXT="RSpec">
 <font NAME="SansSerif" SIZE="30"/>
-<node CREATED="1422538965729" FOLDED="true" ID="ID_641415126" MODIFIED="1422541851102" POSITION="left" TEXT="test">
+<node CREATED="1422538965729" FOLDED="true" ID="ID_641415126" MODIFIED="1444571621066" POSITION="left" TEXT="test">
 <node CREATED="1422538975233" ID="ID_219144704" MODIFIED="1422541327581">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -103,7 +103,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422538979614" FOLDED="true" ID="ID_1879431357" MODIFIED="1422543897250" POSITION="left" TEXT="implementation">
+<node CREATED="1422538979614" FOLDED="true" ID="ID_1879431357" MODIFIED="1444571623746" POSITION="left" TEXT="implementation">
 <node CREATED="1422541375983" ID="ID_778335157" MODIFIED="1422541420816">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -201,7 +201,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422538984504" FOLDED="true" ID="ID_322251615" MODIFIED="1422543892715" POSITION="left" TEXT="describe">
+<node COLOR="#0033ff" CREATED="1422538984504" FOLDED="true" ID="ID_322251615" MODIFIED="1444571626139" POSITION="left" TEXT="describe">
 <node CREATED="1422541513625" ID="ID_81824870" MODIFIED="1422541592174">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -353,7 +353,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422539013398" FOLDED="true" ID="ID_1267326543" MODIFIED="1422617824091" POSITION="left" TEXT="it()">
+<node COLOR="#0033ff" CREATED="1422539013398" FOLDED="true" ID="ID_1267326543" MODIFIED="1444571627698" POSITION="left" TEXT="it()">
 <node CREATED="1422541865358" ID="ID_1897966448" MODIFIED="1422541937357">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -529,7 +529,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422539019715" FOLDED="true" ID="ID_916463453" MODIFIED="1422543889697" POSITION="left" TEXT="pending">
+<node COLOR="#0033ff" CREATED="1422539019715" FOLDED="true" ID="ID_916463453" MODIFIED="1444571629030" POSITION="left" TEXT="pending">
 <node CREATED="1422542045523" ID="ID_481157" MODIFIED="1422542057078">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -672,8 +672,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422539030884" FOLDED="true" ID="ID_1683515536" MODIFIED="1422542655098" POSITION="left" TEXT="before.. after">
-<node CREATED="1420753998133" ID="ID_54138204" LINK="http://makandracards.com/makandra/6459-run-your-own-code-before-specific-rspec-examples" MODIFIED="1422539040302" TEXT="before - after code"/>
+<node COLOR="#0033ff" CREATED="1422539030884" FOLDED="true" ID="ID_1683515536" MODIFIED="1444571631619" POSITION="left" TEXT="before.. after">
+<node COLOR="#0033ff" CREATED="1420753998133" ID="ID_54138204" LINK="http://makandracards.com/makandra/6459-run-your-own-code-before-specific-rspec-examples" MODIFIED="1443614425860" TEXT="before - after code"/>
 <node CREATED="1422542155038" ID="ID_1114535741" MODIFIED="1422542157710" TEXT="Use before and after hooks to execute arbitrary code before and/or after the body of an example is run"/>
 <node CREATED="1422542181610" ID="ID_1228360316" MODIFIED="1422542203574">
 <richcontent TYPE="NODE"><html>
@@ -699,7 +699,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1422539053293" FOLDED="true" ID="ID_251825280" MODIFIED="1422542390849" TEXT="before(:each)">
+<node COLOR="#0033ff" CREATED="1422539053293" FOLDED="true" ID="ID_251825280" MODIFIED="1443614458848" TEXT="before(:each)">
 <node CREATED="1422542263575" ID="ID_1043980968" MODIFIED="1422542273291">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -833,7 +833,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422539053293" FOLDED="true" ID="ID_866181008" MODIFIED="1422542393127" TEXT="before(:all)">
+<node COLOR="#0033ff" CREATED="1422539053293" FOLDED="true" ID="ID_866181008" MODIFIED="1443614466149" TEXT="before(:all)">
 <node CREATED="1422542316998" ID="ID_333666397" MODIFIED="1422542354529">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -970,7 +970,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422542419972" FOLDED="true" ID="ID_1942948654" MODIFIED="1422542560035" TEXT="order">
+<node CREATED="1422542419972" FOLDED="true" ID="ID_1942948654" MODIFIED="1443614619391" TEXT="order">
 <node CREATED="1422542488562" ID="ID_99859229" MODIFIED="1422542500160">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1206,7 +1206,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422542425068" FOLDED="true" ID="ID_1726885963" MODIFIED="1422542652113" TEXT="define in cofig">
+<node CREATED="1422542425068" FOLDED="true" ID="ID_1726885963" MODIFIED="1443614627934" TEXT="define in cofig">
 <node CREATED="1422542561856" ID="ID_1029163405" MODIFIED="1422542635553">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1365,7 +1365,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422539109637" FOLDED="true" ID="ID_303228876" MODIFIED="1422542817347" POSITION="left" TEXT="let">
+<node COLOR="#0033ff" CREATED="1422539109637" FOLDED="true" ID="ID_303228876" MODIFIED="1444571662901" POSITION="left" TEXT="let">
 <node CREATED="1422542755325" ID="ID_1372893874" MODIFIED="1422542766078">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1451,7 +1451,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422539111657" FOLDED="true" ID="ID_957394245" MODIFIED="1423783313281" POSITION="left" TEXT="subject">
+<node COLOR="#0033ff" CREATED="1422539111657" FOLDED="true" ID="ID_957394245" MODIFIED="1444571666808" POSITION="left" TEXT="subject">
 <node CREATED="1422543804030" ID="ID_1066748934" MODIFIED="1422543827574">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1534,7 +1534,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422539118657" FOLDED="true" ID="ID_1483735825" MODIFIED="1422728739073" POSITION="left" TEXT="helper">
+<node CREATED="1422539118657" FOLDED="true" ID="ID_1483735825" MODIFIED="1444571673031" POSITION="left" TEXT="helper">
 <node CREATED="1422539125968" ID="ID_642856333" MODIFIED="1422543974620">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1638,7 +1638,72 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422539135764" FOLDED="true" ID="ID_376756239" MODIFIED="1422730319455" POSITION="left" TEXT="described_class()">
+<node CREATED="1444571677182" FOLDED="true" ID="ID_1948717250" MODIFIED="1444572982315" POSITION="left" TEXT="controller">
+<node COLOR="#0033ff" CREATED="1444571684253" ID="ID_508790909" LINK="redirect_to test http://stackoverflow.com/questions/23922934/rspec-testing-redirect-to-url-with-get-params" MODIFIED="1444571700693" TEXT="reditrect_to">
+<icon BUILTIN="idea"/>
+</node>
+<node CREATED="1444572886313" FOLDED="true" ID="ID_1970226373" MODIFIED="1444572976384" TEXT="redirect back">
+<node CREATED="1444572895108" ID="ID_1913490875" MODIFIED="1444572973167">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">before :each do </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;request.env['<b>HTTP_REFERER</b>'] = '<b>/back_page</b>' </font>
+    </p>
+    <p>
+      <font color="#0033ff">end </font>
+    </p>
+    <p>
+      <font color="#0033ff">it 'and has no response_id' do </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;get :award_requesition, response_id: nil </font>
+    </p>
+    <p>
+      <font color="#0033ff">&#160;&#160;expect(response).to redirect_to('<b>/back_page</b>') </font>
+    </p>
+    <p>
+      <font color="#0033ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1444571723409" FOLDED="true" ID="ID_1044371230" MODIFIED="1444572980179" TEXT="private method">
+<node CREATED="1444571734660" ID="ID_1788983152" MODIFIED="1444571779638">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">@controller = AccountController.new</font>
+    </p>
+    <p>
+      # invoke the private method
+    </p>
+    <p>
+      <font color="#0033ff">@controller.instance_eval{ current_account }&#160;&#160;&#160;</font>
+    </p>
+    <p>
+      # check the value of the inst
+    </p>
+    <p>
+      <font color="#0033ff">@controller.instance_eval{ @current_account }.should eql ... </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1422539135764" FOLDED="true" ID="ID_376756239" MODIFIED="1443614643467" POSITION="left" TEXT="described_class()">
 <node CREATED="1422729351464" ID="ID_1340173371" MODIFIED="1422729355735" TEXT="If the first argument to the outermost example group is a class, the class is exposed to each example via the described_class() method."/>
 <node CREATED="1422729356863" ID="ID_358952954" MODIFIED="1422729401900">
 <richcontent TYPE="NODE"><html>
@@ -1665,7 +1730,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422539156959" FOLDED="true" ID="ID_1884403883" MODIFIED="1424200930588" POSITION="left" TEXT="filters">
+<node CREATED="1422539156959" FOLDED="true" ID="ID_1884403883" MODIFIED="1444571827426" POSITION="left" TEXT="filters">
 <node CREATED="1422730206907" ID="ID_1764160121" MODIFIED="1422730223354">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1808,8 +1873,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422539181644" FOLDED="true" ID="ID_69296884" MODIFIED="1424200979263" POSITION="left" TEXT="shared">
-<node CREATED="1422539168771" FOLDED="true" ID="ID_40621022" MODIFIED="1424200932900" TEXT="examples">
+<node CREATED="1422539181644" FOLDED="true" ID="ID_69296884" MODIFIED="1444571951292" POSITION="left" TEXT="shared">
+<node CREATED="1422539168771" FOLDED="true" ID="ID_40621022" MODIFIED="1444571895529" TEXT="examples">
 <node CREATED="1422730344373" ID="ID_879928817" MODIFIED="1422730354574" TEXT="Shared examples let you describe behaviour of types or modules. When declared, a shared group&apos;s content is stored. It is only realized in the context of another example group, which provides any context the shared group needs to run."/>
 <node CREATED="1422730349509" ID="ID_1984106183" MODIFIED="1422730370971">
 <richcontent TYPE="NODE"><html>
@@ -1941,7 +2006,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422539187993" FOLDED="true" ID="ID_1460601533" MODIFIED="1424200978242" TEXT="context">
+<node CREATED="1422539187993" FOLDED="true" ID="ID_1460601533" MODIFIED="1444571949295" TEXT="context">
 <node CREATED="1422730482782" ID="ID_1676137636" MODIFIED="1422730488935" TEXT="Use shared_context to define a block that will be evaluated in the context of example groups either explicitly, using include_context, or implicitly by matching metadata"/>
 <node CREATED="1422730490123" ID="ID_53128005" MODIFIED="1422730552402">
 <richcontent TYPE="NODE"><html>
@@ -2131,7 +2196,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422539194202" FOLDED="true" ID="ID_576118980" MODIFIED="1424203093067" POSITION="left" TEXT="expectations">
+<node CREATED="1422539194202" FOLDED="true" ID="ID_576118980" MODIFIED="1444572027076" POSITION="left" TEXT="expectations">
 <node CREATED="1422730771524" ID="ID_282387999" MODIFIED="1422730802524">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2214,8 +2279,8 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1422539255863" FOLDED="true" ID="ID_974092181" MODIFIED="1424202365415" TEXT="Spec::Matchers">
-<node COLOR="#0033ff" CREATED="1422539981265" FOLDED="true" ID="ID_1832663737" MODIFIED="1422731650165" TEXT="eql">
+<node COLOR="#0033ff" CREATED="1422539255863" FOLDED="true" ID="ID_974092181" MODIFIED="1444572013147" TEXT="Spec::Matchers">
+<node COLOR="#0033ff" CREATED="1422539981265" FOLDED="true" ID="ID_1832663737" MODIFIED="1444571962487" TEXT="eql">
 <node CREATED="1422731578744" ID="ID_1269535289" MODIFIED="1422731597542">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2275,7 +2340,7 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1422539985519" ID="ID_729831170" MODIFIED="1422540143363" TEXT="eq"/>
-<node COLOR="#0033ff" CREATED="1422540001688" FOLDED="true" ID="ID_1844828105" MODIFIED="1422731826474" TEXT="equal">
+<node COLOR="#0033ff" CREATED="1422540001688" FOLDED="true" ID="ID_1844828105" MODIFIED="1444571965476" TEXT="equal">
 <node CREATED="1422731645801" ID="ID_351184061" MODIFIED="1422731785050">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2326,7 +2391,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422540009030" FOLDED="true" ID="ID_1029029592" MODIFIED="1422732117767" TEXT="Floating point numbers">
+<node CREATED="1422540009030" FOLDED="true" ID="ID_1029029592" MODIFIED="1444571969222" TEXT="Floating point numbers">
 <node COLOR="#0033ff" CREATED="1422540049255" ID="ID_379639160" MODIFIED="1422732054720" TEXT="be_close"/>
 <node CREATED="1422731867670" ID="ID_1231808850" MODIFIED="1422731951399">
 <richcontent TYPE="NODE"><html>
@@ -2357,7 +2422,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422540061174" FOLDED="true" ID="ID_781761392" MODIFIED="1422732116212" TEXT="Regular Expressions">
+<node CREATED="1422540061174" FOLDED="true" ID="ID_781761392" MODIFIED="1444571972240" TEXT="Regular Expressions">
 <node COLOR="#0033ff" CREATED="1422540036536" ID="ID_1900419644" MODIFIED="1422540147909" TEXT="match"/>
 <node CREATED="1422732061081" ID="ID_1568479497" MODIFIED="1422732090788">
 <richcontent TYPE="NODE"><html>
@@ -2384,7 +2449,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422540082559" FOLDED="true" ID="ID_154868494" MODIFIED="1424201015118" TEXT="Predicate macthers">
+<node CREATED="1422540082559" FOLDED="true" ID="ID_154868494" MODIFIED="1444571978194" TEXT="Predicate macthers">
 <node CREATED="1422732413208" ID="ID_850459692" MODIFIED="1422732491185">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2473,7 +2538,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422540110443" FOLDED="true" ID="ID_458006249" MODIFIED="1424201154778" TEXT="Include">
+<node CREATED="1422540110443" FOLDED="true" ID="ID_458006249" MODIFIED="1444571982395" TEXT="Include">
 <node CREATED="1424201054917" ID="ID_1696578288" MODIFIED="1424201062964" TEXT="Passes if given includes expected. This works for collections and Strings. You can also pass in multiple args and it will only pass if all args are found in collection."/>
 <node CREATED="1424201056659" ID="ID_591300316" MODIFIED="1424201151956">
 <richcontent TYPE="NODE"><html>
@@ -2494,11 +2559,10 @@
       <font color="#0000ff">expect(&quot;spread&quot;).to_not include(&quot;red&quot;)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1422540118519" FOLDED="true" ID="ID_1713103454" MODIFIED="1424201156558" TEXT="Exists">
+<node CREATED="1422540118519" FOLDED="true" ID="ID_1713103454" MODIFIED="1444571984984" TEXT="Exists">
 <node CREATED="1424201102279" ID="ID_1099001646" MODIFIED="1424201114556">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2509,8 +2573,7 @@
       Passes if <font color="#0000ff">given.exist?</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1424201115903" ID="ID_1308375760" MODIFIED="1424201129738">
 <richcontent TYPE="NODE"><html>
@@ -2525,11 +2588,10 @@
       <font color="#0000ff">expect(obj).not_to exist</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1422540120589" FOLDED="true" ID="ID_1787463052" MODIFIED="1424201417644" TEXT="Changes">
+<node CREATED="1422540120589" FOLDED="true" ID="ID_1787463052" MODIFIED="1444571987315" TEXT="Changes">
 <node CREATED="1424201331703" ID="ID_603777009" MODIFIED="1424201334720" TEXT="Sometimens you expect some code (wrapped in a proc) to change the state of some object."/>
 <node CREATED="1424201335506" ID="ID_1750388334" MODIFIED="1424201363522">
 <richcontent TYPE="NODE"><html>
@@ -2547,8 +2609,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0033ff" CREATED="1422540133943" FOLDED="true" ID="ID_849977803" MODIFIED="1424201417186" TEXT="by, to, from">
 <node CREATED="1424201378608" ID="ID_1435054040" MODIFIED="1424201398963">
@@ -2591,12 +2652,11 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1422540154226" FOLDED="true" ID="ID_1153656298" MODIFIED="1424201910538" TEXT="Have">
+<node CREATED="1422540154226" FOLDED="true" ID="ID_1153656298" MODIFIED="1444571998027" TEXT="Have">
 <node CREATED="1424201464659" ID="ID_1892018776" MODIFIED="1424201574424">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2616,8 +2676,7 @@
       <font color="#0000ff">expect(collection).to have_at_most(x).items</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1424201461037" ID="ID_1893315419" MODIFIED="1424201620087">
 <richcontent TYPE="NODE"><html>
@@ -2635,8 +2694,7 @@
       <font color="#0000ff">expect(collection).to have(x).things</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1424201511541" ID="ID_142959829" MODIFIED="1424201666869">
 <richcontent TYPE="NODE"><html>
@@ -2651,10 +2709,9 @@
       <font color="#0000ff">expect(Dir.new(&quot;my/directory&quot;)).to have(7).entries</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1424201668759" FOLDED="true" ID="ID_1973462530" MODIFIED="1424201906514" TEXT="receiver is a collection">
+<node CREATED="1424201668759" FOLDED="true" ID="ID_1973462530" MODIFIED="1444571996721" TEXT="receiver is a collection">
 <node CREATED="1424201743520" ID="ID_315297351" MODIFIED="1424201762139">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2689,11 +2746,10 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1424201684254" FOLDED="true" ID="ID_1693497550" MODIFIED="1424201907656" TEXT="receiver owns a collection">
+<node CREATED="1424201684254" FOLDED="true" ID="ID_1693497550" MODIFIED="1444571996361" TEXT="receiver owns a collection">
 <node CREATED="1424201833241" ID="ID_1123616035" MODIFIED="1424201849113">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2749,12 +2805,11 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1422540163692" FOLDED="true" ID="ID_1261722581" MODIFIED="1424202284845" TEXT="Custom matchers">
+<node CREATED="1422540163692" FOLDED="true" ID="ID_1261722581" MODIFIED="1444572011768" TEXT="Custom matchers">
 <node CREATED="1424201990638" ID="ID_686136125" MODIFIED="1424201993503" TEXT="magine that you are writing a game in which players can be in various zones on a virtual board. To specify that bob should be in zone 4, you could say:"/>
 <node CREATED="1424201967594" ID="ID_461644005" MODIFIED="1424202013950">
 <richcontent TYPE="NODE"><html>
@@ -2858,7 +2913,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1422540178436" FOLDED="true" ID="ID_1152635583" MODIFIED="1424202283345" TEXT="Chaining">
+<node CREATED="1422540178436" FOLDED="true" ID="ID_1152635583" MODIFIED="1444572011279" TEXT="Chaining">
 <node CREATED="1424202247696" ID="ID_1507878676" MODIFIED="1424202278033">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2944,13 +2999,12 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1424202303934" FOLDED="true" ID="ID_1683400231" MODIFIED="1424202364795" TEXT="Expresison Matcher">
+<node CREATED="1424202303934" FOLDED="true" ID="ID_1683400231" MODIFIED="1444572020849" TEXT="Expresison Matcher">
 <node CREATED="1422731084754" ID="ID_760753935" MODIFIED="1423218776868">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2979,7 +3033,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422539217104" FOLDED="true" ID="ID_1242830756" MODIFIED="1424202361627" TEXT="old">
+<node CREATED="1422539217104" FOLDED="true" ID="ID_1242830756" MODIFIED="1444572024248" TEXT="old">
 <node CREATED="1420463650385" ID="ID_1532646771" MODIFIED="1422539215454">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3012,7 +3066,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422540190050" FOLDED="true" ID="ID_1445294552" MODIFIED="1424203098853" POSITION="left" TEXT="Doubles">
+<node CREATED="1422540190050" FOLDED="true" ID="ID_1445294552" MODIFIED="1444572052696" POSITION="left" TEXT="Doubles">
 <node CREATED="1424202420876" ID="ID_812198905" MODIFIED="1424202432623">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3023,8 +3077,7 @@
       A <b>test double</b>&#160;is an object that stands in for another object in an example.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1424202462133" ID="ID_1509166593" MODIFIED="1424202472939">
 <richcontent TYPE="NODE"><html>
@@ -3039,10 +3092,9 @@
       <font color="#0000ff">thingamajig_double = double('thing-a-ma-jig')</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1422540197505" FOLDED="true" ID="ID_1941423365" MODIFIED="1424202550403" TEXT="as_null_object">
+<node COLOR="#0033ff" CREATED="1422540197505" FOLDED="true" ID="ID_1941423365" MODIFIED="1443614655316" TEXT="as_null_object">
 <node CREATED="1424202514649" ID="ID_1754388935" MODIFIED="1424202516581" TEXT="Use the as_null_object method to ignore any messages that aren&apos;t explicitly set as stubs or message expectations."/>
 <node CREATED="1424202505306" ID="ID_1267335940" MODIFIED="1424202538431">
 <richcontent TYPE="NODE"><html>
@@ -3069,11 +3121,10 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1422540218941" FOLDED="true" ID="ID_111894078" MODIFIED="1424203097654" TEXT="Stubs">
+<node CREATED="1422540218941" FOLDED="true" ID="ID_111894078" MODIFIED="1444572049139" TEXT="Stubs">
 <node CREATED="1424202631289" ID="ID_1525835053" MODIFIED="1424202635578" TEXT="A method stub is a method that we can program to return predefined responses during the execution of a code example."/>
 <node CREATED="1424202637013" ID="ID_1036940395" MODIFIED="1424202697930">
 <richcontent TYPE="NODE"><html>
@@ -3121,8 +3172,7 @@
       <font color="#0000ff">HomeLoan.stub(interest_rate).and_return('5.5%', '3%') </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1424202973297" ID="ID_1778883136" MODIFIED="1424202978101">
 <richcontent TYPE="NODE"><html>
@@ -3158,8 +3208,7 @@
       <font color="#0000ff">end</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1424202950449" ID="ID_453781086" MODIFIED="1424202959573">
 <richcontent TYPE="NODE"><html>
@@ -3177,10 +3226,9 @@
       <font color="#0000ff">obj = double('object', created_at: -&gt; { Time.now }) </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1424203007063" FOLDED="true" ID="ID_881611192" MODIFIED="1424203065192" TEXT="yield a block">
+<node CREATED="1424203007063" FOLDED="true" ID="ID_881611192" MODIFIED="1444572038875" TEXT="yield a block">
 <node CREATED="1424203014182" ID="ID_1620150605" MODIFIED="1424203063209">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3224,8 +3272,7 @@
       <font color="#0000ff">double.stub(:msg).and_throw(:msg)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1422540236249" ID="ID_1115642780" MODIFIED="1422540243378" TEXT="stub"/>
@@ -3238,7 +3285,7 @@
 <node CREATED="1422540285754" ID="ID_82940723" MODIFIED="1422540289626" TEXT="chain of methods"/>
 <node COLOR="#0033ff" CREATED="1422540290369" ID="ID_1867096349" MODIFIED="1422540319418" TEXT="before(:each)"/>
 </node>
-<node CREATED="1422540333577" FOLDED="true" ID="ID_345247255" MODIFIED="1424203088548" TEXT="message expectations">
+<node CREATED="1422540333577" FOLDED="true" ID="ID_345247255" MODIFIED="1444572052322" TEXT="message expectations">
 <node CREATED="1422540368617" ID="ID_430323864" MODIFIED="1422540390695" TEXT="negative"/>
 <node CREATED="1422540374087" ID="ID_531471080" MODIFIED="1422540385134" TEXT="arguments"/>
 <node CREATED="1422540398968" ID="ID_367730130" MODIFIED="1422540401062" TEXT="counts"/>
@@ -3246,7 +3293,7 @@
 <node CREATED="1422540412263" ID="ID_671978741" MODIFIED="1422540415574" TEXT="responses"/>
 </node>
 </node>
-<node CREATED="1420548796443" FOLDED="true" ID="ID_355344331" MODIFIED="1424203091870" POSITION="left" TEXT="debug">
+<node CREATED="1420548796443" FOLDED="true" ID="ID_355344331" MODIFIED="1444572056936" POSITION="left" TEXT="debug">
 <node CREATED="1420548799088" ID="ID_1737623315" MODIFIED="1420548834008">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3307,7 +3354,8 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1422009128612" FOLDED="true" ID="ID_174545200" MODIFIED="1422540673900" POSITION="right" TEXT="performance">
+<node CREATED="1422009128612" FOLDED="true" ID="ID_174545200" MODIFIED="1444572375505" POSITION="right" TEXT="performance">
+<node COLOR="#0033ff" CREATED="1422009304376" ID="ID_878996985" LINK="https://github.com/grosser/autotest" MODIFIED="1444572357024" TEXT="autotest"/>
 <node CREATED="1422009132382" ID="ID_1306361427" LINK="http://www.rubyinside.com/how-to-rails-3-and-rspec-2-4336.html" MODIFIED="1422009200017">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3320,16 +3368,15 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1422009203906" ID="ID_1277399413" LINK="https://github.com/mynyml/watchr" MODIFIED="1422009231438" TEXT="watchr"/>
-<node COLOR="#0033ff" CREATED="1422009313863" ID="ID_1001455331" LINK="https://github.com/sporkrb/spork" MODIFIED="1422009503577" TEXT="spork"/>
-<node COLOR="#0033ff" CREATED="1422009304376" ID="ID_878996985" LINK="https://github.com/grosser/autotest" MODIFIED="1422009310215" TEXT="autotest"/>
-<node CREATED="1422009626046" FOLDED="true" ID="ID_359040533" MODIFIED="1422538827687" TEXT="old">
+<node COLOR="#0033ff" CREATED="1444572308676" ID="ID_1800787190" LINK="spork.mm" MODIFIED="1444572353312" TEXT="spork"/>
+<node COLOR="#0033ff" CREATED="1422009203906" ID="ID_1277399413" LINK="https://github.com/mynyml/watchr" MODIFIED="1444572358651" TEXT="watchr"/>
+<node CREATED="1422009626046" FOLDED="true" ID="ID_359040533" MODIFIED="1444572374286" TEXT="old">
 <node COLOR="#0033ff" CREATED="1422009628798" ID="ID_578781531" LINK="https://github.com/seattlerb/zentest" MODIFIED="1422009638762" TEXT="zentest"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1420813365931" ID="ID_1075358182" MODIFIED="1422540674217" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1420813365931" FOLDED="true" ID="ID_1075358182" MODIFIED="1444571606415" POSITION="right" TEXT="$term">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1422538922998" FOLDED="true" ID="ID_1495911672" MODIFIED="1422540645833" TEXT="env">
+<node CREATED="1422538922998" FOLDED="true" ID="ID_1495911672" MODIFIED="1444571605323" TEXT="env">
 <node COLOR="#0033ff" CREATED="1422540537080" ID="ID_272519014" MODIFIED="1422540592538">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3346,10 +3393,10 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422540551362" FOLDED="true" ID="ID_115669459" MODIFIED="1422540645834" TEXT="install">
+<node CREATED="1422540551362" FOLDED="true" ID="ID_115669459" MODIFIED="1444571599710" TEXT="install">
 <node COLOR="#0033ff" CREATED="1422540597752" ID="ID_1154700831" MODIFIED="1422540608784" TEXT="$ gem install rspec"/>
 </node>
-<node CREATED="1422540616794" FOLDED="true" ID="ID_1761121096" MODIFIED="1422540650289" TEXT="rails">
+<node CREATED="1422540616794" FOLDED="true" ID="ID_1761121096" MODIFIED="1444571597045" TEXT="rails">
 <node CREATED="1420813371981" ID="ID_286862764" MODIFIED="1420813410207">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3363,7 +3410,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1420545667390" FOLDED="true" ID="ID_1580134764" MODIFIED="1422540938631" TEXT="testing">
+<node CREATED="1420545667390" FOLDED="true" ID="ID_1580134764" MODIFIED="1444571592550" TEXT="testing">
 <node CREATED="1422540774490" ID="ID_924147090" MODIFIED="1422540861764">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3425,7 +3472,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422540739370" FOLDED="true" ID="ID_1560723864" MODIFIED="1422540938951" TEXT="formatting">
+<node CREATED="1422540739370" FOLDED="true" ID="ID_1560723864" MODIFIED="1444571589116" TEXT="formatting">
 <node CREATED="1422540741781" ID="ID_1194463209" MODIFIED="1422540918634">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3457,50 +3504,55 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1443614693116" ID="ID_1136539854" MODIFIED="1443614693116" TEXT=""/>
 </node>
-<node CREATED="1420817616567" ID="ID_1115231222" MODIFIED="1422538860189" POSITION="right" TEXT="config">
-<node COLOR="#0033ff" CREATED="1420816056860" FOLDED="true" ID="ID_950654867" MODIFIED="1422541890966" TEXT=".rspec">
+<node CREATED="1420817616567" FOLDED="true" ID="ID_1115231222" MODIFIED="1444571805458" POSITION="right" TEXT="config">
+<node COLOR="#0033ff" CREATED="1420816056860" ID="ID_950654867" MODIFIED="1444571584203" TEXT=".rspec">
 <node COLOR="#0033ff" CREATED="1420816058728" ID="ID_1496048917" MODIFIED="1420816704661" TEXT="--format documentation"/>
 </node>
-<node COLOR="#0033ff" CREATED="1420817596366" FOLDED="true" ID="ID_605429301" MODIFIED="1424202762881" TEXT="config/application.rb">
-<node COLOR="#0033ff" CREATED="1420817602583" ID="ID_223185607" MODIFIED="1420817610734">
+<node COLOR="#0033ff" CREATED="1420817596366" FOLDED="true" ID="ID_605429301" MODIFIED="1444571576508" TEXT="config/application.rb">
+<node CREATED="1420817602583" ID="ID_223185607" MODIFIED="1444571573572">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      config.generators do|g|
+      # change fixture generation to&#160;<font color="#0033ff">FactoryGirl </font>
     </p>
     <p>
-      &#160;&#160;g.test_framework :rspec,
+      <font color="#0033ff">config.generators do|g| </font>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;fixtures: true,
+      <font color="#0033ff">&#160;&#160;g.test_framework :rspec, </font>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;view_specs: false,
+      <font color="#0033ff">&#160;&#160;&#160;&#160;fixtures: true, </font>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;helper_specs: false,
+      <font color="#0033ff">&#160;&#160;&#160;&#160;view_specs: false, </font>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;routing_specs: false,
+      <font color="#0033ff">&#160;&#160;&#160;&#160;helper_specs: false, </font>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;controller_specs: true,
+      <font color="#0033ff">&#160;&#160;&#160;&#160;routing_specs: false, </font>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;request_specs: false
+      <font color="#0033ff">&#160;&#160;&#160;&#160;controller_specs: true, </font>
     </p>
     <p>
-      &#160;&#160;g.fixture_replacement :factory_girl, dir: &quot;spec/factories&quot;
+      <font color="#0033ff">&#160;&#160;&#160;&#160;request_specs: false </font>
     </p>
     <p>
-      end
+      <font color="#0033ff">&#160;&#160;g.fixture_replacement :factory_girl, dir: &quot;spec/factories&quot; </font>
+    </p>
+    <p>
+      <font color="#0033ff">end</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

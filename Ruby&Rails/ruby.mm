@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1442083461363" TEXT="Ruby">
+<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1443614405449" TEXT="Ruby">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,10 +13,9 @@
       http://rubygarage.github.io
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="34"/>
-<node COLOR="#338800" CREATED="1282900446488" ID="ID_1262636553" MODIFIED="1441288113033" POSITION="right" TEXT="lib/tool/app">
+<node COLOR="#338800" CREATED="1282900446488" FOLDED="true" ID="ID_1262636553" MODIFIED="1444575926635" POSITION="right" TEXT="lib/tool/app">
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1428331176955" TEXT="Rails">
 <font NAME="SansSerif" SIZE="15"/>
 </node>
@@ -3859,8 +3858,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1422392697498" FOLDED="true" ID="ID_592127580" MODIFIED="1422393294710" POSITION="left" TEXT="exceptions">
-<node CREATED="1422392953303" FOLDED="true" ID="ID_550609076" MODIFIED="1422393146498" TEXT="simple">
+<node CREATED="1422392697498" FOLDED="true" ID="ID_592127580" MODIFIED="1443614402844" POSITION="left" TEXT="exceptions">
+<node CREATED="1422392953303" FOLDED="true" ID="ID_550609076" MODIFIED="1443614402839" TEXT="simple">
 <node CREATED="1422392704617" ID="ID_854131625" MODIFIED="1422392768083">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4095,7 +4094,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1437042236110" POSITION="left" TEXT="methods">
+<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1443614405305" POSITION="left" TEXT="methods">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1360758434157" ID="ID_806357009" MODIFIED="1437037192824" TEXT="attr">
 <font NAME="SansSerif" SIZE="12"/>
@@ -4710,7 +4709,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422289467108" FOLDED="true" ID="ID_1884003840" MODIFIED="1437037422003" TEXT="closures">
+<node CREATED="1422289467108" FOLDED="true" ID="ID_1884003840" MODIFIED="1443614405300" TEXT="closures">
 <node CREATED="1422289474526" ID="ID_183511523" MODIFIED="1422289520562">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6205,7 +6204,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1438608615966" POSITION="left" TEXT="object">
+<node CREATED="1422180132147" FOLDED="true" ID="ID_222583416" MODIFIED="1444573229404" POSITION="left" TEXT="object">
 <node CREATED="1422180144626" ID="ID_354289056" MODIFIED="1422180186358">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6252,7 +6251,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1417123095769" FOLDED="true" ID="ID_1297218430" MODIFIED="1434736736935" POSITION="left" TEXT="metaprogramming">
+<node CREATED="1417123095769" FOLDED="true" ID="ID_1297218430" MODIFIED="1444573352195" POSITION="left" TEXT="metaprogramming">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357323331656" ID="ID_1844910866" MODIFIED="1417178555644">
 <richcontent TYPE="NODE"><html>
@@ -6269,11 +6268,11 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#009999" CREATED="1417123101515" ID="ID_1717492220" LINK="http://allenlsy.com/metaprogramming-ruby-distilled/" MODIFIED="1417123498399" TEXT="allenlsy.com">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#009999" CREATED="1417123101515" ID="ID_1717492220" LINK="http://allenlsy.com/metaprogramming-ruby-distilled/" MODIFIED="1444573247246" TEXT="allenlsy.com">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1434736631097" FOLDED="true" ID="ID_518897357" MODIFIED="1434736736271" TEXT="methods">
-<node CREATED="1434736659931" FOLDED="true" ID="ID_1422323165" MODIFIED="1434736696072" TEXT="call">
+<node CREATED="1434736631097" FOLDED="true" ID="ID_518897357" MODIFIED="1444573351787" TEXT="methods">
+<node CREATED="1434736659931" FOLDED="true" ID="ID_1422323165" MODIFIED="1444573351486" TEXT="call">
 <node COLOR="#0033ff" CREATED="1434736634501" ID="ID_979282317" MODIFIED="1434736667458" TEXT="call">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -6281,7 +6280,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1434736698727" FOLDED="true" ID="ID_1940544294" MODIFIED="1434736700872" TEXT="list">
+<node CREATED="1434736698727" FOLDED="true" ID="ID_1940544294" MODIFIED="1444573349483" TEXT="list">
 <node CREATED="1357323525020" ID="ID_676504090" MODIFIED="1434736653189">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6298,7 +6297,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1434736703871" FOLDED="true" ID="ID_359688757" MODIFIED="1434736723996" TEXT="defined">
+<node CREATED="1434736703871" FOLDED="true" ID="ID_359688757" MODIFIED="1444573348203" TEXT="defined">
 <node CREATED="1357323691457" ID="ID_372950743" MODIFIED="1434736692487">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6322,6 +6321,27 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1444573254306" FOLDED="true" ID="ID_1205217177" MODIFIED="1444573342013" TEXT="show method&apos;s class">
+<node CREATED="1444573282387" ID="ID_482541120" MODIFIED="1444573334789">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff">&gt; p 2.method(:crime)</font>
+    </p>
+    <p>
+      #&lt;Method: Fixnum(Perpetrator)#crime&gt;
+    </p>
+    <p>
+      #&#160;If you're on Ruby 1.9+, you can use <font color="#0033ff">source_location</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -7697,52 +7717,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1441288110711" POSITION="right" TEXT="ver">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1422178783983" FOLDED="true" ID="ID_581998632" MODIFIED="1422446202661" TEXT="manage">
-<node COLOR="#0033ff" CREATED="1357132426045" ID="ID_789870658" LINK="rvm.mm" MODIFIED="1422178796381" TEXT="rvm"/>
-</node>
-<node CREATED="1357159596789" FOLDED="true" ID="ID_243706753" LINK="http://www.rubyenterpriseedition.com/" MODIFIED="1430304089528">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>ree</b>&#xa0;(Enterprise Edition)
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1357159599709" ID="ID_206787524" LINK="http://wiki.brightbox.co.uk/docs:ruby-enterprise" MODIFIED="1357159643674">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009999"><b>brightbox.com</b></font>: install on <font color="#990000"><b>Debian</b></font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1357159708143" ID="ID_1803487199" MODIFIED="1357308232170" TEXT="iruby">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1357159712165" ID="ID_271237872" MODIFIED="1357325096707" TEXT="macruby">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1357160502432" ID="ID_936043899" MODIFIED="1357325102366" TEXT="rubinious(rbx)">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1412241600721" ID="ID_64964856" MODIFIED="1442083463311" POSITION="right" TEXT="$">
+<node COLOR="#0033ff" CREATED="1412241600721" FOLDED="true" ID="ID_64964856" MODIFIED="1444575926900" POSITION="right" TEXT="$term">
 <node COLOR="#0033ff" CREATED="1357147330262" ID="ID_1164510811" LINK="Gems.mm" MODIFIED="1430304080594" TEXT="gem">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1415812006102" ID="ID_222339979" LINK="rake.mm" MODIFIED="1420816304426" TEXT="rake"/>
-<node COLOR="#0033ff" CREATED="1422178761739" ID="ID_841080907" MODIFIED="1442083464440" TEXT="ruby">
+<node COLOR="#0033ff" CREATED="1422178761739" FOLDED="true" ID="ID_841080907" MODIFIED="1443614408408" TEXT="ruby">
 <node CREATED="1422179861968" ID="ID_29561557" MODIFIED="1440964676067">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7875,11 +7855,11 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422180014628" FOLDED="true" ID="ID_686150722" MODIFIED="1440964480364" TEXT="debug">
+<node CREATED="1422180014628" FOLDED="true" ID="ID_686150722" MODIFIED="1444575919728" TEXT="debug">
 <node COLOR="#0033ff" CREATED="1419193517082" ID="ID_200806238" LINK="https://github.com/pry/pry" MODIFIED="1422178831540" TEXT="pry"/>
 </node>
 </node>
-<node CREATED="1357308309238" FOLDED="true" ID="ID_1850656586" MODIFIED="1422292603801" POSITION="right" TEXT="info">
+<node CREATED="1357308309238" FOLDED="true" ID="ID_1850656586" MODIFIED="1444575927864" POSITION="right" TEXT="info">
 <node CREATED="1357308313645" ID="ID_1943693068" MODIFIED="1357308324168" TEXT="Everything is an object"/>
 <node CREATED="1357308324461" ID="ID_68744473" MODIFIED="1360758884184">
 <richcontent TYPE="NODE"><html>
@@ -7920,6 +7900,46 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1422291888912" ID="ID_1016615793" LINK="git://github.com/edgecase/ruby_koans.git" MODIFIED="1422292498749" TEXT="Ruby Koans"/>
+<node CREATED="1297156615073" FOLDED="true" ID="ID_850662542" MODIFIED="1444575915956" TEXT="versions">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1422178783983" FOLDED="true" ID="ID_581998632" MODIFIED="1422446202661" TEXT="manage">
+<node COLOR="#0033ff" CREATED="1357132426045" ID="ID_789870658" LINK="rvm.mm" MODIFIED="1422178796381" TEXT="rvm"/>
+</node>
+<node CREATED="1357159596789" FOLDED="true" ID="ID_243706753" LINK="http://www.rubyenterpriseedition.com/" MODIFIED="1430304089528">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ree</b>&#xa0;(Enterprise Edition)
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1357159599709" ID="ID_206787524" LINK="http://wiki.brightbox.co.uk/docs:ruby-enterprise" MODIFIED="1357159643674">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999"><b>brightbox.com</b></font>: install on <font color="#990000"><b>Debian</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1357159708143" ID="ID_1803487199" MODIFIED="1357308232170" TEXT="iruby">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1357159712165" ID="ID_271237872" MODIFIED="1357325096707" TEXT="macruby">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1357160502432" ID="ID_936043899" MODIFIED="1357325102366" TEXT="rubinious(rbx)">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 </map>
