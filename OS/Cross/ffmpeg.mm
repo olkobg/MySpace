@@ -3,9 +3,9 @@
 <node CREATED="1374074064230" ID="ID_431341404" LINK="../Crossplatform.mm" MODIFIED="1443111107837" TEXT="ffmpeg">
 <font NAME="SansSerif" SIZE="27"/>
 <node COLOR="#0033ff" CREATED="1374074616856" ID="ID_146513261" LINK="https://ffmpeg.org/trac/ffmpeg/wiki/x264EncodingGuide" MODIFIED="1443111132746" POSITION="right" TEXT="x264 encodiing guide"/>
-<node CREATED="1443111107810" ID="ID_1254995267" MODIFIED="1443358982220" POSITION="left" TEXT="tasks">
+<node CREATED="1443111107810" FOLDED="true" ID="ID_1254995267" MODIFIED="1443514094801" POSITION="left" TEXT="tasks">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1443111090700" FOLDED="true" ID="ID_206141089" MODIFIED="1443111129028" TEXT="grab few seconds">
+<node CREATED="1443111090700" FOLDED="true" ID="ID_206141089" MODIFIED="1443513860299" TEXT="grab few seconds">
 <node CREATED="1374074133840" ID="ID_393394653" MODIFIED="1374074761220">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -34,9 +34,24 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1443111026565" FOLDED="true" ID="ID_40223039" MODIFIED="1443362685036" TEXT="concatenate">
-<node COLOR="#0033ff" CREATED="1443111030037" FOLDED="true" ID="ID_1315773280" LINK="http://stackoverflow.com/questions/15186500/howto-merge-two-avi-files-using-ffmpeg" MODIFIED="1443362684711" TEXT="avi files with files list">
-<node CREATED="1443358995169" ID="ID_109904995" MODIFIED="1443359460907">
+<node CREATED="1443513871175" FOLDED="true" ID="ID_794768117" MODIFIED="1443513890728" TEXT="info">
+<node COLOR="#0033ff" CREATED="1443513873217" ID="ID_912536065" MODIFIED="1443513889584">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ ffmpge -i ./&lt;video file&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1443513865640" FOLDED="true" ID="ID_605869023" MODIFIED="1443513891881" TEXT="video">
+<node CREATED="1443111026565" FOLDED="true" ID="ID_40223039" MODIFIED="1443513858733" TEXT="concatenate">
+<node CREATED="1443358995169" ID="ID_109904995" LINK="http://stackoverflow.com/questions/15186500/howto-merge-two-avi-files-using-ffmpeg" MODIFIED="1443513855462">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -72,12 +87,11 @@
       <font color="#0000ff"><code>$ ls *.avi | while read each; do echo &quot;file '$each'&quot; &gt;&gt; mylist.txt; done</code></font><code>&#160;</code>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1374771164042" FOLDED="true" ID="ID_101210930" MODIFIED="1443111122792" TEXT="grab screen">
+<node CREATED="1374771164042" FOLDED="true" ID="ID_101210930" MODIFIED="1443513862393" TEXT="grab screen">
 <node CREATED="1374771175786" ID="ID_599013386" MODIFIED="1374771205853">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -104,6 +118,45 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1443513229168" FOLDED="true" ID="ID_1056238220" MODIFIED="1443514093642" TEXT="audio">
+<node CREATED="1443513223349" ID="ID_1411851309" MODIFIED="1443513272256">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000cc">$ ffmpeg -i video.flv -ab 160k -ac 2 -ar 44100 -vn audio.mp3</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      -i indicates the input
+    </p>
+    <p>
+      -ab indicates the bit rate (in this example 160kb/sec)
+    </p>
+    <p>
+      -vn means no video ouput
+    </p>
+    <p>
+      -ac 2 means 2 channels
+    </p>
+    <p>
+      -ar 44100 indicates the sampling frequency.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Read more: http://linuxpoison.blogspot.com/2010/04/how-to-extract-audio-from-video-file.html#ixzz3n70glmQT
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
