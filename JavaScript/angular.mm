@@ -2,18 +2,18 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#0033ff" CREATED="1417646145919" ID="ID_724577500" LINK="JavaScript.mm" MODIFIED="1420822078502" TEXT="angular.js">
 <font NAME="SansSerif" SIZE="24"/>
-<node CREATED="1417647326373" FOLDED="true" ID="ID_988673245" MODIFIED="1420839976330" POSITION="right" TEXT=" info">
-<node CREATED="1418991820480" FOLDED="true" ID="ID_1911353104" MODIFIED="1420838675896" TEXT="off. docs">
-<node CREATED="1417646182512" ID="ID_1449376331" LINK="https://docs.angularjs.org/guide/" MODIFIED="1418991819328" TEXT="guide"/>
-<node CREATED="1418991828654" ID="ID_142743205" LINK="docs.angular.com/tutorial" MODIFIED="1418991839564" TEXT="tutorial"/>
+<node CREATED="1417647326373" FOLDED="true" ID="ID_988673245" MODIFIED="1444570015110" POSITION="right" TEXT=" info">
+<node CREATED="1418991820480" FOLDED="true" ID="ID_1911353104" MODIFIED="1444565895508" TEXT="off. docs">
+<node COLOR="#0033ff" CREATED="1417646182512" ID="ID_1449376331" LINK="https://docs.angularjs.org/guide/" MODIFIED="1444565883304" TEXT="guide"/>
+<node COLOR="#0033ff" CREATED="1418991828654" ID="ID_142743205" LINK="docs.angular.com/tutorial" MODIFIED="1444565883312" TEXT="tutorial"/>
 </node>
-<node CREATED="1418227712668" FOLDED="true" ID="ID_386161192" MODIFIED="1420838675150" TEXT="books">
-<node CREATED="1418227715161" ID="ID_173656082" LINK="https://www.google.com.ua/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;es_th=1&amp;ie=UTF-8#q=angular%20in%2060%20minutes" MODIFIED="1418227746896" TEXT="angular in 60 minutes"/>
+<node CREATED="1418227712668" FOLDED="true" ID="ID_386161192" MODIFIED="1444565895122" TEXT="books">
+<node COLOR="#0033ff" CREATED="1418227715161" ID="ID_173656082" LINK="https://www.google.com.ua/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;es_th=1&amp;ie=UTF-8#q=angular%20in%2060%20minutes" MODIFIED="1444565887739" TEXT="angular in 60 minutes"/>
 <node CREATED="1418990519838" ID="ID_986176880" MODIFIED="1418990521749" TEXT="ng-book"/>
-<node CREATED="1419368670787" ID="ID_1142715995" LINK="https://leanpub.com/recipes-with-angular-js" MODIFIED="1419369139915" TEXT="Recipes with Angular.js"/>
+<node COLOR="#0033ff" CREATED="1419368670787" ID="ID_1142715995" LINK="https://leanpub.com/recipes-with-angular-js" MODIFIED="1444565889512" TEXT="Recipes with Angular.js"/>
 </node>
-<node CREATED="1420838506170" FOLDED="true" ID="ID_421393447" MODIFIED="1420838674148" TEXT="glossary">
-<node CREATED="1418990528620" FOLDED="true" ID="ID_24497649" MODIFIED="1420838538677" TEXT="dependency injection">
+<node CREATED="1420838506170" FOLDED="true" ID="ID_421393447" MODIFIED="1444570014015" TEXT="glossary">
+<node CREATED="1418990528620" FOLDED="true" ID="ID_24497649" MODIFIED="1444565875003" TEXT="dependency injection">
 <node COLOR="#0033ff" CREATED="1418990536104" ID="ID_1782416701" MODIFIED="1420838491443">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -27,30 +27,31 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1418394527117" ID="ID_1685692217" MODIFIED="1420838541881" TEXT="2 way data binding">
+<node CREATED="1418394527117" FOLDED="true" ID="ID_1685692217" MODIFIED="1444565873555" TEXT="2 way data binding">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1418394533541" ID="ID_1792995620" MODIFIED="1420838540356" TEXT="check if variable of expresison changed and re-evaluate expression "/>
 </node>
 </node>
-<node CREATED="1420838462142" FOLDED="true" ID="ID_1530135142" MODIFIED="1420838682864" TEXT="other">
-<node CREATED="1418752191937" FOLDED="true" ID="ID_1592434227" MODIFIED="1420838669367" TEXT="src">
+<node CREATED="1420838462142" FOLDED="true" ID="ID_1530135142" MODIFIED="1444570012974" TEXT="other">
+<node CREATED="1418752191937" FOLDED="true" ID="ID_1592434227" MODIFIED="1444565869533" TEXT="src">
 <node CREATED="1418752194522" ID="ID_1871061867" LINK="https://github.com/angular/angular.js/wiki/JsFiddle-Examples" MODIFIED="1418755023743" TEXT="JS Fiddle example"/>
 <node CREATED="1418755041679" ID="ID_1523754099" LINK="https://github.com/jmcunningham/AngularJS-Learning#introductionsbeginning-angularjs-also-look-at-the-multipart-articles" MODIFIED="1418755062325" TEXT="github angular js learning"/>
 </node>
-<node CREATED="1419586501899" FOLDED="true" ID="ID_872081457" MODIFIED="1420838670852" TEXT="test">
+<node CREATED="1419586501899" FOLDED="true" ID="ID_872081457" MODIFIED="1444565867626" TEXT="test">
 <node COLOR="#990099" CREATED="1419368116864" ID="ID_691653458" LINK="http://stackoverflow.com/questions/14636099/testing-angular-resource-with-external-service" MODIFIED="1420838483230" TEXT="$resource "/>
 <node COLOR="#990099" CREATED="1419587523109" ID="ID_236895811" LINK="http://www.tuesdaydeveloper.com/2013/06/angularjs-testing-with-karma-and-jasmine/" MODIFIED="1420838483229" TEXT="karma and jasmine"/>
 <node COLOR="#990099" CREATED="1419587604342" ID="ID_1844701156" LINK="http://www.toptal.com/angular-js/your-first-angularjs-app-part-2-scaffolding-building-and-testing" MODIFIED="1420838483228" TEXT="jasmine + grunt + karma + bower + yeoman"/>
 <node COLOR="#990099" CREATED="1420822780185" ID="ID_1652721106" LINK="http://www.smashingmagazine.com/2014/10/07/introduction-to-unit-testing-in-angularjs/" MODIFIED="1420838483227" TEXT="smashing magazine Unit testing"/>
 </node>
-<node CREATED="1418815869305" FOLDED="true" ID="ID_282456529" MODIFIED="1420838671861" TEXT="tutorials">
+<node CREATED="1418815869305" FOLDED="true" ID="ID_282456529" MODIFIED="1444565866406" TEXT="tutorials">
 <node COLOR="#990099" CREATED="1418815872305" ID="ID_9553298" LINK="http://angular-rails.com/bootstrap.html" MODIFIED="1420838632864" TEXT="basic angular + rails"/>
 <node COLOR="#990099" CREATED="1418991945806" ID="ID_832439131" LINK="http://thinkster.io" MODIFIED="1420838632862" TEXT="thinkster.io"/>
 <node COLOR="#990099" CREATED="1419326804668" ID="ID_384133000" LINK="http://www.sitepoint.com/creating-crud-app-minutes-angulars-resource/" MODIFIED="1420838632860" TEXT="sitepoint tutor"/>
 </node>
-<node COLOR="#990099" CREATED="1420838464220" ID="ID_373545655" LINK="http://angular-rails.com/" MODIFIED="1420838475403" TEXT="angular-rails.com"/>
-<node COLOR="#990099" CREATED="1419584325109" ID="ID_856738252" LINK="http://www.ng-newsletter.com/" MODIFIED="1420838525150" TEXT="angular-newsletter"/>
-<node COLOR="#990099" CREATED="1417647363157" ID="ID_1094037080" LINK="http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/1/section/1/video/1" MODIFIED="1420838651484" TEXT="codeschool lessons"/>
+<node COLOR="#0033ff" CREATED="1420838464220" ID="ID_373545655" LINK="http://angular-rails.com/" MODIFIED="1444565913474" TEXT="angular-rails.com"/>
+<node COLOR="#0033ff" CREATED="1419584325109" ID="ID_856738252" LINK="http://www.ng-newsletter.com/" MODIFIED="1444565913482" TEXT="angular-newsletter"/>
+<node COLOR="#0033ff" CREATED="1417647363157" ID="ID_1094037080" LINK="http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/1/section/1/video/1" MODIFIED="1444565913483" TEXT="codeschool lessons"/>
+<node COLOR="#0033ff" CREATED="1444565899508" ID="ID_333369454" LINK="https://www.airpair.com/ruby-on-rails/posts/authentication-with-angularjs-and-ruby-on-rails" MODIFIED="1444565911386" TEXT="angular_auth_ruby"/>
 </node>
 </node>
 <node CREATED="1419368113936" FOLDED="true" ID="ID_1127124438" MODIFIED="1420839976539" POSITION="right" TEXT="test">
