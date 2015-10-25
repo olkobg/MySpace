@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0033ff" CREATED="1417646145919" ID="ID_724577500" LINK="JavaScript.mm" MODIFIED="1420822078502" TEXT="angular.js">
+<node COLOR="#0033ff" CREATED="1417646145919" ID="ID_724577500" LINK="../JavaScript.mm" MODIFIED="1445771717087" TEXT="angular.js">
 <font NAME="SansSerif" SIZE="24"/>
 <node CREATED="1417647326373" FOLDED="true" ID="ID_988673245" MODIFIED="1444570015110" POSITION="right" TEXT=" info">
 <node CREATED="1418991820480" FOLDED="true" ID="ID_1911353104" MODIFIED="1444565895508" TEXT="off. docs">
