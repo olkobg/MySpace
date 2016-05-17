@@ -113,6 +113,9 @@
 </html></richcontent>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1448981277929" FOLDED="true" ID="ID_1357846101" MODIFIED="1448989147305" TEXT="copy">
+<node COLOR="#0033ff" CREATED="1448981297031" ID="ID_444476737" MODIFIED="1448981318204" TEXT="rvm gemset copy ruby-2.1.5@old_one 2.1.5@new_one"/>
+</node>
 </node>
 <node CREATED="1422177155827" FOLDED="true" ID="ID_1933604772" MODIFIED="1422177358303" POSITION="left" TEXT="config">
 <font NAME="SansSerif" SIZE="13"/>

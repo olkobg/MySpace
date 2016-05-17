@@ -1,16 +1,26 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1438001907693" TEXT="Rails">
+<node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1455206499534" TEXT="Rails">
 <font NAME="SansSerif" SIZE="31"/>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1444573223901" POSITION="right" TEXT="Models">
+<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1455204424921" POSITION="right" TEXT="Models">
 <font NAME="SansSerif" SIZE="20"/>
-<node COLOR="#0033ff" CREATED="1436514906893" FOLDED="true" ID="ID_281123415" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Base.html" MODIFIED="1444573223621" TEXT="ActiveRecord">
+<node COLOR="#0033ff" CREATED="1436514906893" FOLDED="true" ID="ID_281123415" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Base.html" MODIFIED="1455204424501" TEXT="ActiveRecord">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    <p>
+    <!--
+        p { margin-top: 0 }
+        body { font-family: SansSerif; font-size: 12pt }
+      -->
+    <!--
+        p { margin-top: 0 }
+        body { font-family: SansSerif; font-size: 12pt }
+      -->
+    
+
+    <p type="text/css">
       &#160;
     </p>
   </body>
@@ -527,8 +537,8 @@
 <node COLOR="#0033ff" CREATED="1437568206841" ID="ID_1096062042" LINK="https://hackhands.com/ruby-on-enums-queries-and-rails-4-1/" MODIFIED="1438852011701" TEXT="hack_hands"/>
 <node COLOR="#0033ff" CREATED="1438688886175" ID="ID_1177461274" LINK="http://habrahabr.ru/post/219175/" MODIFIED="1438688892692" TEXT="hh"/>
 </node>
-<node COLOR="#0033ff" CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Migration.html" MODIFIED="1444566754073" TEXT="::Migration">
-<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1444566749349" TEXT="script">
+<node COLOR="#0033ff" CREATED="1283197403624" FOLDED="true" ID="ID_1592515143" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Migration.html" MODIFIED="1455204423437" TEXT="::Migration">
+<node CREATED="1285662068839" FOLDED="true" ID="ID_1802890410" MODIFIED="1455204422940" TEXT="script">
 <node CREATED="1287135483060" FOLDED="true" ID="ID_130200917" MODIFIED="1444566740309" TEXT="table">
 <node COLOR="#0033ff" CREATED="1285662412008" FOLDED="true" ID="ID_628195570" MODIFIED="1428590911418" TEXT="create_table">
 <node CREATED="1285662758957" FOLDED="true" ID="ID_1855141473" MODIFIED="1428590842127" TEXT="parameters">
@@ -843,10 +853,26 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1428523880713" TEXT="indices">
-<node COLOR="#0033ff" CREATED="1285662542450" FOLDED="true" ID="ID_920920231" MODIFIED="1428523878408" TEXT="add_index">
+<node CREATED="1287135537297" FOLDED="true" ID="ID_1933642304" MODIFIED="1455204422540" TEXT="indices">
+<node COLOR="#0033ff" CREATED="1285662542450" FOLDED="true" ID="ID_920920231" MODIFIED="1455204417134" TEXT="add_index">
 <node CREATED="1285662588503" ID="ID_339556725" MODIFIED="1285662608764" TEXT="also possible adding of the unique"/>
 <node COLOR="#0033ff" CREATED="1285662565541" ID="ID_1988140670" MODIFIED="1416839296011" TEXT="add_index :users, :name"/>
+<node CREATED="1455204375351" ID="ID_1263797229" MODIFIED="1455204415401">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # adding uniq index
+    </p>
+    <p>
+      add_index :categories_posts, [ :category_id, :post_id ], :unique =&gt; true, :name =&gt; 'by_category_and_post'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1285663949325" FOLDED="true" ID="ID_1629839388" MODIFIED="1428523879786" TEXT="remove_index">
 <node COLOR="#0033ff" CREATED="1285663957616" ID="ID_943032537" MODIFIED="1416839296012" TEXT="remove_index :orders, :name"/>
@@ -990,8 +1016,7 @@
       <font color="#0033ff">ActiveRecord::Base.logger = old_logger</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
