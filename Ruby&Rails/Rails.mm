@@ -1,9 +1,9 @@
-<map version="1.0.1">
+<map version="1.1.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1455206499534" TEXT="Rails">
+<node COLOR="#990000" CREATED="1282894379010" ID="ID_1431309672" LINK="ruby.mm" MODIFIED="1469116692670" TEXT="Rails">
 <font NAME="SansSerif" SIZE="31"/>
-<node COLOR="#ff0000" CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1455204424921" POSITION="right" TEXT="Models">
-<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1282900390703" FOLDED="true" ID="ID_547986268" MODIFIED="1469116727417" POSITION="right" TEXT="Models">
+<font NAME="SansSerif" SIZE="17"/>
 <node COLOR="#0033ff" CREATED="1436514906893" FOLDED="true" ID="ID_281123415" LINK="http://api.rubyonrails.org/classes/ActiveRecord/Base.html" MODIFIED="1455204424501" TEXT="ActiveRecord">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -21,11 +21,10 @@
     
 
     <p type="text/css">
-      &#160;
+      &#xa0;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1434737683591" FOLDED="true" ID="ID_244798224" MODIFIED="1444567384877" TEXT="methods">
 <node CREATED="1434737585735" FOLDED="true" ID="ID_1164291398" MODIFIED="1444567380287" TEXT="retreive">
 <node COLOR="#0033ff" CREATED="1434737528627" ID="ID_1211784254" MODIFIED="1434737662281" TEXT="bind"/>
@@ -76,7 +75,7 @@
       # find people by condition
     </p>
     <p>
-      <font color="#0000ff">Bar.where(&quot;type IN (?)&quot;, delete_types)</font>
+      <font color="#0000ff">Bar.where("type IN (?)", delete_types)</font>
     </p>
   </body>
 </html></richcontent>
@@ -91,7 +90,7 @@
       #find where one parameter is true
     </p>
     <p>
-      <font color="#0000ff">Person.where(:state =&gt; &quot;Wisconsin&quot;, :single =&gt; true)</font>
+      <font color="#0000ff">Person.where(:state =&gt; "Wisconsin", :single =&gt; true)</font>
     </p>
   </body>
 </html></richcontent>
@@ -177,7 +176,7 @@
       <font color="#0000ff">class Order &lt; ActiveRecord::Base </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;before_save :normalize_card_number, if: :paid_with_card? </font>
+      <font color="#0000ff">&#xa0;&#xa0;before_save :normalize_card_number, if: :paid_with_card? </font>
     </p>
     <p>
       <font color="#0000ff">end</font>
@@ -198,7 +197,7 @@
       <font color="#0000ff">class Order &lt; ActiveRecord::Base </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;before_save :normalize_card_number, if: &quot;paid_with_card?&quot; </font>
+      <font color="#0000ff">&#xa0;&#xa0;before_save :normalize_card_number, if: "paid_with_card?" </font>
     </p>
     <p>
       <font color="#0000ff">end</font>
@@ -219,10 +218,10 @@
       <font color="#0000ff">class Order &lt; ActiveRecord::Base </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;before_save :normalize_card_number, </font>
+      <font color="#0000ff">&#xa0;&#xa0;before_save :normalize_card_number, </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;if: Proc.new { |order| order.paid_with_card? } </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;if: Proc.new { |order| order.paid_with_card? } </font>
     </p>
     <p>
       <font color="#0000ff">end</font>
@@ -243,10 +242,10 @@
       <font color="#0000ff">class Comment &lt; ActiveRecord::Base </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;after_create :send_email_to_author, if: :author_wants_emails?, </font>
+      <font color="#0000ff">&#xa0;&#xa0;after_create :send_email_to_author, if: :author_wants_emails?, </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;unless: Proc.new { |comment| comment.article.ignore_comments? } </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;unless: Proc.new { |comment| comment.article.ignore_comments? } </font>
     </p>
     <p>
       <font color="#0000ff">end</font>
@@ -306,7 +305,7 @@
       <font color="#0000ff">before_create do </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;self.name = login.capitalize if name.blank? </font>
+      <font color="#0000ff">&#xa0;&#xa0;self.name = login.capitalize if name.blank? </font>
     </p>
     <p>
       <font color="#0000ff">end</font>
@@ -333,19 +332,19 @@
       <font color="#0000ff">protected </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;def ensure_login_has_a_value </font>
+      <font color="#0000ff">&#xa0;&#xa0;def ensure_login_has_a_value </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;if login.nil? </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;if login.nil? </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;self.login = email unless email.blank? </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;self.login = email unless email.blank? </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;end </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;end</font>
+      <font color="#0000ff">&#xa0;&#xa0;end</font>
     </p>
   </body>
 </html></richcontent>
@@ -561,7 +560,7 @@
   </head>
   <body>
     <p>
-      The <font color="#0000ff">:temporary =&gt; true</font>&#160;option creates a temporary table
+      The <font color="#0000ff">:temporary =&gt; true</font>&#xa0;option creates a temporary table
     </p>
   </body>
 </html></richcontent>
@@ -573,16 +572,16 @@
   </head>
   <body>
     <p>
-      # The <font color="#0000ff">:options =&gt; &quot;xxxx&quot;</font>&#160;parameter lets you specify
+      # The <font color="#0000ff">:options =&gt; "xxxx"</font>&#xa0;parameter lets you specify
     </p>
     <p>
-      <font color="#0000ff">create_table :tickets, <b>:options =&gt; &quot;auto_increment = 10000&quot;</b>&#160; do |t| </font>
+      <font color="#0000ff">create_table :tickets, <b>:options =&gt; "auto_increment = 10000"</b>&#xa0; do |t| </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;t.text :description </font>
+      <font color="#0000ff">&#xa0;&#xa0;t.text :description </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;t.timestamps </font>
+      <font color="#0000ff">&#xa0;&#xa0;t.timestamps </font>
     </p>
     <p>
       <font color="#0000ff">end </font>
@@ -597,13 +596,13 @@
       
     </p>
     <p>
-      <font color="#0000ff">CREATE TABLE &quot;tickets&quot; ( </font>
+      <font color="#0000ff">CREATE TABLE "tickets" ( </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;... </font>
+      <font color="#0000ff">&#xa0;&#xa0;... </font>
     </p>
     <p>
-      <font color="#0000ff">) <b>auto_increment = 10000;</b>&#160;</font>
+      <font color="#0000ff">) <b>auto_increment = 10000;</b>&#xa0;</font>
     </p>
   </body>
 </html></richcontent>
@@ -620,7 +619,7 @@
       # datatypes
     </p>
     <p>
-      <font color="#0000ff">:binary,&#160;&#160;:boolean,&#160;&#160;:date,&#160;&#160;:datetime,&#160;&#160;:decimal,&#160;&#160;:float,&#160;&#160;:integer, &#160;:string,&#160;&#160;:text,&#160;&#160;:time,&#160;&#160;:timestamp</font>
+      <font color="#0000ff">:binary,&#xa0;&#xa0;:boolean,&#xa0;&#xa0;:date,&#xa0;&#xa0;:datetime,&#xa0;&#xa0;:decimal,&#xa0;&#xa0;:float,&#xa0;&#xa0;:integer, &#xa0;:string,&#xa0;&#xa0;:text,&#xa0;&#xa0;:time,&#xa0;&#xa0;:timestamp</font>
     </p>
   </body>
 </html></richcontent>
@@ -653,7 +652,7 @@
   </head>
   <body>
     <p>
-      <font color="#000000"><b>decimal</b>&#160;columns take the options </font><font color="#0000ff">:precision</font><font color="#000000">&#160;and </font><font color="#0000ff">:scale</font>
+      <font color="#000000"><b>decimal</b>&#xa0;columns take the options </font><font color="#0000ff">:precision</font><font color="#000000">&#xa0;and </font><font color="#0000ff">:scale</font>
     </p>
   </body>
 </html></richcontent>
@@ -667,7 +666,7 @@
   </head>
   <body>
     <p>
-      <font color="#0000ff">create_table</font>&#160;always generates primary key &quot;<font color="#0000ff">id</font>&quot; for current table
+      <font color="#0000ff">create_table</font>&#xa0;always generates primary key "<font color="#0000ff">id</font>" for current table
     </p>
   </body>
 </html></richcontent>
@@ -682,7 +681,7 @@
       # to remove id generation
     </p>
     <p>
-      <font color="#0000ff">create_table :technologies_projects, <b>:id =&gt; false</b>&#160;do |t|</font>
+      <font color="#0000ff">create_table :technologies_projects, <b>:id =&gt; false</b>&#xa0;do |t|</font>
     </p>
   </body>
 </html></richcontent>
@@ -697,7 +696,7 @@
       # to generate another primary key
     </p>
     <p>
-      <font color="#0000ff">create_table :technologies_projects, <b>:primary_key =&gt; :number</b>&#160; do |t|</font>
+      <font color="#0000ff">create_table :technologies_projects, <b>:primary_key =&gt; :number</b>&#xa0; do |t|</font>
     </p>
   </body>
 </html></richcontent>
@@ -729,7 +728,7 @@
       def self.up
     </p>
     <p>
-      &#160;&#160;rename_table :foo, :bar
+      &#xa0;&#xa0;rename_table :foo, :bar
     </p>
     <p>
       end
@@ -805,7 +804,7 @@
       # change_column
     </p>
     <p>
-      <font color="#0000ff">change_column :tech_categories, :description, :text&#160; </font>
+      <font color="#0000ff">change_column :tech_categories, :description, :text&#xa0; </font>
     </p>
     <p>
       <font color="#0000ff">change_column :technologies, :description, :text</font>
@@ -826,16 +825,16 @@
       <font color="#0000ff">class AddTimestampsToUser &lt; ActiveRecord::Migration </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;def change_table </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;def change_table </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160; <b>add_column(:users, :created_at, :datetime) </b></font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <b>add_column(:users, :created_at, :datetime) </b></font>
     </p>
     <p>
-      <font color="#0000ff"><b>&#160;&#160;&#160;&#160;&#160;&#160;add_column(:users, :updated_at, :datetime)</b>&#160; </font>
+      <font color="#0000ff"><b>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;add_column(:users, :updated_at, :datetime)</b>&#xa0; </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;end </font>
     </p>
     <p>
       <font color="#0000ff">end </font>
@@ -870,8 +869,7 @@
       add_index :categories_posts, [ :category_id, :post_id ], :unique =&gt; true, :name =&gt; 'by_category_and_post'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1285663949325" FOLDED="true" ID="ID_1629839388" MODIFIED="1428523879786" TEXT="remove_index">
@@ -889,52 +887,52 @@
       This can be done in three simple steps:
     </p>
     <p>
-      1. write <font color="#0000ff"><b>config/database.yml</b></font>&#160;to reference your database.
+      1. write <font color="#0000ff"><b>config/database.yml</b></font>&#xa0;to reference your database.
     </p>
     <p>
-      2. Run &quot;<font color="#0000ff">rake db:schema:dump</font>&quot; to generate <font color="#0000ff"><b>db/schema.rb</b></font>.&#160;&#160;Here's the
+      2. Run "<font color="#0000ff">rake db:schema:dump</font>" to generate <font color="#0000ff"><b>db/schema.rb</b></font>.&#xa0;&#xa0;Here's the
     </p>
     <p>
       documentation:
     </p>
     <p>
-      &#160;&#160;<font color="#0000ff">$ rake -T db:schema:dump</font>
+      &#xa0;&#xa0;<font color="#0000ff">$ rake -T db:schema:dump</font>
     </p>
     <p>
-      &#160;&#160;...
+      &#xa0;&#xa0;...
     </p>
     <p>
-      &#160;&#160;<font color="#0000ff">rake db:schema:dump</font>&#160;# Create a db/schema.rb file that can be
+      &#xa0;&#xa0;<font color="#0000ff">rake db:schema:dump</font>&#xa0;# Create a db/schema.rb file that can be
     </p>
     <p>
       portably used against any DB supported by AR
     </p>
     <p>
-      3. Convert <font color="#0000ff"><b>schema.rb</b></font>&#160;into <font color="#0000ff"><b>db/migrate/001_create_database.rb</b></font>:
+      3. Convert <font color="#0000ff"><b>schema.rb</b></font>&#xa0;into <font color="#0000ff"><b>db/migrate/001_create_database.rb</b></font>:
     </p>
     <p>
       <font color="#0000ff">class CreateMigration &lt; ActiveRecord::Migration </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;def self.up </font>
+      <font color="#0000ff">&#xa0;&#xa0;def self.up </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;# insert schema.rb here </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;# insert schema.rb here </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;end </font>
+      <font color="#0000ff">&#xa0;&#xa0;end </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;def self.down </font>
+      <font color="#0000ff">&#xa0;&#xa0;def self.down </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;# drop all the tables if you really need </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;# drop all the tables if you really need </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;# to support migration back to version 0 </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;# to support migration back to version 0 </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;end </font>
+      <font color="#0000ff">&#xa0;&#xa0;end </font>
     </p>
     <p>
       <font color="#0000ff">en</font>
@@ -1035,28 +1033,28 @@
       <font color="#0000ff">test: </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;adapter: mysql2 </font>
+      <font color="#0000ff">&#xa0;&#xa0;adapter: mysql2 </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
+      <font color="#0000ff">&#xa0;&#xa0;encoding: utf8 </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;reconnect: false </font>
+      <font color="#0000ff">&#xa0;&#xa0;reconnect: false </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
+      <font color="#0000ff">&#xa0;&#xa0;database: contacts_test </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+      <font color="#0000ff">&#xa0;&#xa0;pool: 5 </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;username: root </font>
+      <font color="#0000ff">&#xa0;&#xa0;username: root </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;password: </font>
+      <font color="#0000ff">&#xa0;&#xa0;password: </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;socket: /tmp/mysql.sock</font>
+      <font color="#0000ff">&#xa0;&#xa0;socket: /tmp/mysql.sock</font>
     </p>
   </body>
 </html></richcontent>
@@ -1074,31 +1072,31 @@
       <font color="#0000ff">test: </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
+      <font color="#0000ff">&#xa0;&#xa0;adapter: postgresql </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;encoding: utf8 </font>
+      <font color="#0000ff">&#xa0;&#xa0;encoding: utf8 </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;database: contacts_test </font>
+      <font color="#0000ff">&#xa0;&#xa0;database: contacts_test </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+      <font color="#0000ff">&#xa0;&#xa0;pool: 5 </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;timeout: 5000 </font>
+      <font color="#0000ff">&#xa0;&#xa0;timeout: 5000 </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;min_messages: warning</font>
+      <font color="#0000ff">&#xa0;&#xa0;min_messages: warning</font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;username: root&#160;&#160;# or your system username </font>
+      <font color="#0000ff">&#xa0;&#xa0;username: root&#xa0;&#xa0;# or your system username </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;password: </font>
+      <font color="#0000ff">&#xa0;&#xa0;password: </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;host: localhost </font>
+      <font color="#0000ff">&#xa0;&#xa0;host: localhost </font>
     </p>
   </body>
 </html></richcontent>
@@ -1116,16 +1114,16 @@
       <font color="#0000ff">test: </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;adapter: sqlite3 </font>
+      <font color="#0000ff">&#xa0;&#xa0;adapter: sqlite3 </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;database: db/test.sqlite3 </font>
+      <font color="#0000ff">&#xa0;&#xa0;database: db/test.sqlite3 </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;pool: 5 </font>
+      <font color="#0000ff">&#xa0;&#xa0;pool: 5 </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;timeout: 5000</font>
+      <font color="#0000ff">&#xa0;&#xa0;timeout: 5000</font>
     </p>
   </body>
 </html></richcontent>
@@ -1141,19 +1139,19 @@
       <font color="#0000ff">development: &amp;default</font>
     </p>
     <p>
-      &#160;&#160;# <b>&amp;default</b>&#160;means write setting into var <b>default</b>
+      &#xa0;&#xa0;# <b>&amp;default</b>&#xa0;means write setting into var <b>default</b>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;adapter: postgresql </font>
+      <font color="#0000ff">&#xa0;&#xa0;adapter: postgresql </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;user: ubuntu </font>
+      <font color="#0000ff">&#xa0;&#xa0;user: ubuntu </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;database: phdd_dev </font>
+      <font color="#0000ff">&#xa0;&#xa0;database: phdd_dev </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;pool: 5</font>
+      <font color="#0000ff">&#xa0;&#xa0;pool: 5</font>
     </p>
     <p>
       
@@ -1162,13 +1160,13 @@
       <font color="#0000ff">test:</font>
     </p>
     <p>
-      &#160;&#160;# <b>&lt;&lt;: *default</b>&#160;means include settings from var with name *&lt;name&gt;
+      &#xa0;&#xa0;# <b>&lt;&lt;: *default</b>&#xa0;means include settings from var with name *&lt;name&gt;
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&lt;&lt;: *default </font>
+      <font color="#0000ff">&#xa0;&#xa0;&lt;&lt;: *default </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;database: phdd_test</font>
+      <font color="#0000ff">&#xa0;&#xa0;database: phdd_test</font>
     </p>
   </body>
 </html></richcontent>
@@ -1214,7 +1212,7 @@
   </head>
   <body>
     <p>
-      <b>rails edge guide</b>&#160;postgresql&#160;advanced
+      <b>rails edge guide</b>&#xa0;postgresql&#xa0;advanced
     </p>
   </body>
 </html></richcontent>
@@ -1224,7 +1222,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1283338536187" FOLDED="true" ID="ID_868166275" MODIFIED="1438936078791" POSITION="left" TEXT="Views">
+<node CREATED="1283338536187" FOLDED="true" ID="ID_868166275" MODIFIED="1469116715222" POSITION="left" TEXT="Views">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1357148768105" FOLDED="true" ID="ID_955436171" MODIFIED="1436440582506" TEXT="form">
 <node CREATED="1284038090046" ID="ID_1814901924" MODIFIED="1357148796473">
@@ -1253,7 +1251,7 @@
   </head>
   <body>
     <p>
-      dafault layout you can specify in <font color="#0033ff">app/controller/application</font>&#160;&#160;by setting layout <font color="#0033ff">&quot;&lt;name of layout&gt;&quot;</font>
+      dafault layout you can specify in <font color="#0033ff">app/controller/application</font>&#xa0;&#xa0;by setting layout <font color="#0033ff">"&lt;name of layout&gt;"</font>
     </p>
   </body>
 </html></richcontent>
@@ -1297,10 +1295,10 @@
       <font color="#0033ff">&lt;% <b>content_fo</b>r :stylesheets do %&gt; </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;#top_menu {display: none}&#160;&#160;&#160; </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;#top_menu {display: none}&#xa0;&#xa0;&#xa0; </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;#right_menu {float: right; background-color: yellow; color: black} </font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;#right_menu {float: right; background-color: yellow; color: black} </font>
     </p>
     <p>
       <font color="#0033ff">&lt;% end %&gt;</font>
@@ -1468,7 +1466,7 @@
 <node COLOR="#0033ff" CREATED="1429868814118" ID="ID_339034935" LINK="gems/cancancan.mm" MODIFIED="1429869175108" TEXT="cancancan"/>
 <node COLOR="#0033ff" CREATED="1429868910786" ID="ID_1841373199" LINK="gems/devise.mm" MODIFIED="1429868922598" TEXT="devise"/>
 </node>
-<node CREATED="1282900468984" FOLDED="true" ID="ID_339698472" MODIFIED="1436440592427" POSITION="left" TEXT="Controllers">
+<node CREATED="1282900468984" FOLDED="true" ID="ID_339698472" MODIFIED="1469116714142" POSITION="left" TEXT="Controllers">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1419191523228" FOLDED="true" ID="ID_903974210" MODIFIED="1436440591785" TEXT="Resources">
 <font NAME="SansSerif" SIZE="18"/>
@@ -1526,7 +1524,7 @@
 <font NAME="SansSerif" SIZE="15"/>
 <node COLOR="#990099" CREATED="1421312721189" ID="ID_572369995" LINK="http://railsguides.net/deploy-ruby-on-rails-3-application-to-free-hosting/" MODIFIED="1421312745867" TEXT="deploy on heroku with s3 assets manager"/>
 </node>
-<node CREATED="1283359770375" FOLDED="true" ID="ID_790870058" MODIFIED="1437998593697" POSITION="right" TEXT="Sessions">
+<node CREATED="1283359770375" FOLDED="true" ID="ID_790870058" MODIFIED="1469116726022" POSITION="right" TEXT="Sessions">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1283416994734" FOLDED="true" ID="ID_1935893792" MODIFIED="1423584606615" TEXT="store">
 <node CREATED="1298649629966" ID="ID_1017407797" MODIFIED="1423580566740" TEXT="Using multi databases">
@@ -1577,7 +1575,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1423584640425" ID="ID_1948911921" MODIFIED="1423584646642" TEXT="coockies"/>
 </node>
-<node COLOR="#338800" CREATED="1283414430500" FOLDED="true" ID="ID_679516315" MODIFIED="1437492899954" POSITION="left" TEXT="Plugins">
+<node COLOR="#338800" CREATED="1283414430500" FOLDED="true" ID="ID_679516315" MODIFIED="1469116732660" POSITION="left" TEXT="Plugins">
 <font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1283414434406" FOLDED="true" ID="ID_724560992" MODIFIED="1436440604858" TEXT="migration">
 <node COLOR="#0033ff" CREATED="1283414445546" ID="ID_1040804101" MODIFIED="1419242548146" TEXT="rake db:migrate_plugins PLUGIN=&lt;plugin_name&gt; VERSION=&lt;version&gt;"/>
@@ -1621,7 +1619,7 @@
       # mime type
     </p>
     <p>
-      Mime::Type.register &quot;image/jpg&quot; , :jpg
+      Mime::Type.register "image/jpg" , :jpg
     </p>
   </body>
 </html></richcontent>
@@ -1651,7 +1649,7 @@
       <code># config/initializers/load_config.rb </code>
     </p>
     <p>
-      <code>APP_CONFIG = YAML.load(ERB.new(File.read(&quot;#{Rails.root}/config/app_config.yml&quot;)).result)[Rails.env]</code>
+      <code>APP_CONFIG = YAML.load(ERB.new(File.read("#{Rails.root}/config/app_config.yml")).result)[Rails.env]</code>
     </p>
   </body>
 </html></richcontent>
@@ -1659,10 +1657,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1295537081811" FOLDED="true" ID="ID_1600753692" MODIFIED="1440669268097" POSITION="left" TEXT="routes">
+<node CREATED="1295537081811" FOLDED="true" ID="ID_1600753692" MODIFIED="1469116746992" POSITION="left" TEXT="routes">
 <font NAME="SansSerif" SIZE="15"/>
 <node CREATED="1295537084323" ID="ID_590058147" LINK="https://blog.engineyard.com/2010/the-lowdown-on-routes-in-rails-3/" MODIFIED="1419192665438" TEXT="enginge yard rails 3"/>
-<node CREATED="1419373175046" FOLDED="true" ID="ID_1851527180" MODIFIED="1440669268092" TEXT="resource">
+<node CREATED="1419373175046" FOLDED="true" ID="ID_1851527180" MODIFIED="1469116745283" TEXT="resource">
 <node COLOR="#0033ff" CREATED="1419373194896" FOLDED="true" ID="ID_1190373695" MODIFIED="1440669268082" TEXT="resources :photos">
 <node CREATED="1419373242348" ID="ID_1289255797" MODIFIED="1419373392159">
 <richcontent TYPE="NODE"><html>
@@ -1671,28 +1669,28 @@
   </head>
   <body>
     <p>
-      HTTP Verb Path&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Controller#Action Used for
+      HTTP Verb Path&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Controller#Action Used for
     </p>
     <p>
-      GET&#160;&#160;&#160;&#160;&#160;&#160;&#160;/photos&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;photos#index&#160;&#160;&#160;&#160;&#160;&#160;display a list of all photos
+      GET&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/photos&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;photos#index&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;display a list of all photos
     </p>
     <p>
-      GET&#160;&#160;&#160;&#160;&#160;&#160;&#160;/photos/new&#160;&#160;&#160;&#160;&#160;&#160;&#160;photos#new&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return an HTML form for creating a new photo
+      GET&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/photos/new&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;photos#new&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return an HTML form for creating a new photo
     </p>
     <p>
-      POST&#160;&#160;&#160;&#160;&#160;&#160;/photos&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;photos#create&#160;&#160;&#160;&#160;&#160;create a new photo
+      POST&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/photos&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;photos#create&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;create a new photo
     </p>
     <p>
-      GET&#160;&#160;&#160;&#160;&#160;&#160;&#160;/photos/:id&#160;&#160;&#160;&#160;&#160;&#160;&#160;photos#show&#160;&#160;&#160;&#160;&#160;&#160;&#160;display a specific photo
+      GET&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/photos/:id&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;photos#show&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;display a specific photo
     </p>
     <p>
-      GET&#160;&#160;&#160;&#160;&#160;&#160;&#160;/photos/:id/edit&#160;&#160;photos#edit&#160;&#160;&#160;&#160;&#160;&#160;&#160;return an HTML form for editing a photo
+      GET&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/photos/:id/edit&#xa0;&#xa0;photos#edit&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return an HTML form for editing a photo
     </p>
     <p>
-      PATCH/PUT /photos/:id&#160;&#160;&#160;&#160;&#160;&#160;&#160;photos#update&#160;&#160;&#160;&#160;&#160;update a specific photo
+      PATCH/PUT /photos/:id&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;photos#update&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;update a specific photo
     </p>
     <p>
-      DELETE&#160;&#160;&#160;&#160;/photos/:id&#160;&#160;&#160;&#160;&#160;&#160;&#160;photos#destroy&#160;&#160;&#160;&#160;delete a specific photo
+      DELETE&#xa0;&#xa0;&#xa0;&#xa0;/photos/:id&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;photos#destroy&#xa0;&#xa0;&#xa0;&#xa0;delete a specific photo
     </p>
   </body>
 </html></richcontent>
@@ -1746,33 +1744,34 @@
   </head>
   <body>
     <p>
-      GET&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/geocoder/new&#160;&#160;&#160;geocoders#new&#160;&#160;&#160;&#160;&#160;&#160;return an HTML form for creating the geocoder
+      GET&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/geocoder/new&#xa0;&#xa0;&#xa0;geocoders#new&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return an HTML form for creating the geocoder
     </p>
     <p>
-      POST&#160;&#160;&#160;&#160;&#160;&#160;&#160;/geocoder&#160;&#160;&#160;&#160;&#160;&#160;&#160;geocoders#create&#160;&#160;&#160;create the new geocoder
+      POST&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/geocoder&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;geocoders#create&#xa0;&#xa0;&#xa0;create the new geocoder
     </p>
     <p>
-      GET&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/geocoder&#160;&#160;&#160;&#160;&#160;&#160;&#160;geocoders#show&#160;&#160;&#160;&#160;&#160;display the one and only geocoder resource
+      GET&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/geocoder&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;geocoders#show&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;display the one and only geocoder resource
     </p>
     <p>
-      GET&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/geocoder/edit&#160;&#160;geocoders#edit&#160;&#160;&#160;&#160;&#160;return an HTML form for editing the geocoder
+      GET&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/geocoder/edit&#xa0;&#xa0;geocoders#edit&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return an HTML form for editing the geocoder
     </p>
     <p>
-      PATCH/PUT&#160;&#160;/geocoder&#160;&#160;&#160;&#160;&#160;&#160;&#160;geocoders#update&#160;&#160;&#160;update the one and only geocoder resource
+      PATCH/PUT&#xa0;&#xa0;/geocoder&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;geocoders#update&#xa0;&#xa0;&#xa0;update the one and only geocoder resource
     </p>
     <p>
-      DELETE&#160;&#160;&#160;&#160;&#160;/geocoder&#160;&#160;&#160;&#160;&#160;&#160;&#160;geocoders#destroy&#160;&#160;delete the geocoder resource
+      DELETE&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/geocoder&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;geocoders#destroy&#xa0;&#xa0;delete the geocoder resource
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1419373208415" FOLDED="true" ID="ID_1086622631" MODIFIED="1436440622441" TEXT="simple">
+<node CREATED="1419373208415" FOLDED="true" ID="ID_1086622631" MODIFIED="1469116746317" TEXT="simple">
 <node COLOR="#0033ff" CREATED="1419373210941" ID="ID_1076983327" MODIFIED="1419373408376" TEXT="get &apos;/patients/:id&apos;, to: &apos;patients#show&apos;"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1444572519471" POSITION="right">
+<node COLOR="#0033ff" CREATED="1469116692654" FOLDED="true" ID="ID_1478771701" MODIFIED="1469116700416" POSITION="right" TEXT="$term">
+<node COLOR="#0033ff" CREATED="1283240120953" FOLDED="true" ID="ID_706796606" MODIFIED="1469116688896">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1831,7 +1830,7 @@
   </head>
   <body>
     <p>
-      <font color="#0033ff"><b>$ </b>passenger&#160;<b>start</b></font>
+      <font color="#0033ff"><b>$ </b>passenger&#xa0;<b>start</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -1843,7 +1842,7 @@
   </head>
   <body>
     <p>
-      <font color="#0000ff">$ passenger start -a 0.0.0.0 -p 3000 <b>-d -e</b>&#160;production</font>
+      <font color="#0000ff">$ passenger start -a 0.0.0.0 -p 3000 <b>-d -e</b>&#xa0;production</font>
     </p>
   </body>
 </html></richcontent>
@@ -1878,7 +1877,7 @@
   </head>
   <body>
     <p>
-      execjs&#160;<font color="#000000">(js run)</font>
+      execjs&#xa0;<font color="#000000">(js run)</font>
     </p>
   </body>
 </html></richcontent>
@@ -2007,8 +2006,9 @@
 <node COLOR="#0033ff" CREATED="1443689041047" ID="ID_703888468" LINK="gems/zeus.mm" MODIFIED="1444572513033" TEXT="zeus"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1284732043601" ID="ID_1099016474" LINK="rake.mm" MODIFIED="1420818327541" POSITION="right" TEXT="rake">
+<node COLOR="#0033ff" CREATED="1284732043601" ID="ID_1099016474" LINK="rake.mm" MODIFIED="1420818327541" TEXT="rake">
 <font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1284732317144" FOLDED="true" ID="ID_1163334900" MODIFIED="1440669266256" POSITION="left" TEXT="i18n">
 <font NAME="SansSerif" SIZE="15"/>
@@ -2126,16 +2126,16 @@
       <font color="#0000ff">en: </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;helpers: </font>
+      <font color="#0000ff">&#xa0;&#xa0;helpers: </font>
     </p>
     <p>
-      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;label: </font>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;label: </font>
     </p>
     <p>
-      <font color="#0000ff"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;model_name&gt;: </b></font>
+      <font color="#0000ff"><b>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;model_name&gt;: </b></font>
     </p>
     <p>
-      <font color="#0000ff"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;model_attribute&gt;:</b></font>
+      <font color="#0000ff"><b>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;model_attribute&gt;:</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -2144,10 +2144,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1427746785418" POSITION="right" TEXT="Testing">
+<node CREATED="1284979609488" FOLDED="true" ID="ID_278428482" MODIFIED="1469116711554" POSITION="right" TEXT="Testing">
 <font NAME="SansSerif" SIZE="17"/>
 <node CREATED="1284982183137" ID="ID_1610244121" LINK="#ID_1104785174" MODIFIED="1419192981659" TEXT="rake"/>
-<node CREATED="1284982198269" FOLDED="true" ID="ID_88991437" MODIFIED="1423576921207" TEXT="single test">
+<node CREATED="1284982198269" FOLDED="true" ID="ID_88991437" MODIFIED="1469116708314" TEXT="single test">
 <node COLOR="#0033ff" CREATED="1284982201401" ID="ID_1084486649" MODIFIED="1357148446898" TEXT="ruby -I test test/unit/product_test.rb">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -2313,7 +2313,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1419275951392" FOLDED="true" ID="ID_795978789" MODIFIED="1443689362863" POSITION="right" TEXT="info">
+<node CREATED="1419275951392" FOLDED="true" ID="ID_795978789" MODIFIED="1469116740985" POSITION="right" TEXT="info">
 <node CREATED="1419275953591" ID="ID_161522889" LINK="https://tutorials.railsapps.org" MODIFIED="1419277708562">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2321,7 +2321,7 @@
   </head>
   <body>
     <p>
-      <b>railsapps</b>&#160;tutorials
+      <b>railsapps</b>&#xa0;tutorials
     </p>
   </body>
 </html></richcontent>
@@ -2347,7 +2347,7 @@
 <node CREATED="1442912068345" ID="ID_1056831898" LINK="http://stackoverflow.com/questions/22268669/deprecation-warning-you-didnt-set-config-secret-key-base" MODIFIED="1442912071963" TEXT="keybase"/>
 </node>
 </node>
-<node CREATED="1420823734426" FOLDED="true" ID="ID_422088789" MODIFIED="1430738696286" POSITION="right" TEXT="libs">
+<node CREATED="1420823734426" FOLDED="true" ID="ID_422088789" MODIFIED="1469116739050" POSITION="right" TEXT="libs">
 <node COLOR="#0033ff" CREATED="1420823737401" ID="ID_201409818" LINK="http://api.rubyonrails.org/classes/Rails/Railtie.html" MODIFIED="1420823742823" TEXT="Railte"/>
 <node CREATED="1421218567806" FOLDED="true" ID="ID_1164795564" MODIFIED="1427746792642" TEXT="Regex">
 <node COLOR="#0033ff" CREATED="1421218571238" ID="ID_1034002928" LINK="http://www.rubular.com/" MODIFIED="1421218579999" TEXT="Rubular"/>
@@ -2363,7 +2363,7 @@
   </head>
   <body>
     <p>
-      on Rails &gt;= 4.1 schema.rb tries to be synced with db so&#160;next line in <b>environment/test.rb</b>&#160; file could help
+      on Rails &gt;= 4.1 schema.rb tries to be synced with db so&#xa0;next line in <b>environment/test.rb</b>&#xa0; file could help
     </p>
     <p>
       

@@ -47,8 +47,7 @@
       <font color="#0033ff">$ rvm <b>implode</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1412193767223" ID="ID_1467509112" LINK="http://stackoverflow.com/questions/3558656/how-can-i-remove-rvm-ruby-version-manager-from-my-system" MODIFIED="1412193786048" TEXT="stack overflow"/>
 </node>
@@ -75,15 +74,14 @@
       Using /Users/sparrow/.rvm/gems/ruby-1.9.3-head with gemset hello-rspec
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1422176919785" FOLDED="true" ID="ID_1232896863" MODIFIED="1422440964041" POSITION="left" TEXT="install">
 <font NAME="SansSerif" SIZE="13"/>
 <node COLOR="#0033ff" CREATED="1422176927335" ID="ID_1295234310" MODIFIED="1422176943081" TEXT="$ rvm install 2.0.0"/>
 </node>
-<node COLOR="#0033ff" CREATED="1422176962440" FOLDED="true" ID="ID_1644593747" MODIFIED="1422440968303" POSITION="left" TEXT="gemset">
+<node COLOR="#0033ff" CREATED="1422176962440" FOLDED="true" ID="ID_1644593747" MODIFIED="1448989147553" POSITION="left" TEXT="gemset">
 <font NAME="SansSerif" SIZE="13"/>
 <node COLOR="#0033ff" CREATED="1422176976605" FOLDED="true" ID="ID_762885871" MODIFIED="1422440966411" TEXT="create">
 <node COLOR="#0033ff" CREATED="1422176982224" ID="ID_1990737691" MODIFIED="1422177043513">
