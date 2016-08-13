@@ -1,4 +1,4 @@
-<map version="1.0.1">
+<map version="1.1.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#990099" CREATED="1288956262924" ID="ID_641124150" LINK="../Index.mm" MODIFIED="1437470444303" TEXT="git">
 <font NAME="SansSerif" SIZE="29"/>
@@ -33,7 +33,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>so</b></font>&#160;create umask only for git&#160;
+      <font color="#009999"><b>so</b></font>&#xa0;create umask only for git&#xa0;
     </p>
   </body>
 </html></richcontent>
@@ -218,10 +218,10 @@
       
     </p>
     <p>
-      <font color="#0033ff">[mergetool &quot;araxis&quot;] </font>
+      <font color="#0033ff">[mergetool "araxis"] </font>
     </p>
     <p>
-      <font color="#0033ff">&#160;&#160;&#160;&#160;&#160;path = /Applications/Araxis Merge.app/Contents/Utilities/compare</font>
+      <font color="#0033ff">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;path = /Applications/Araxis Merge.app/Contents/Utilities/compare</font>
     </p>
   </body>
 </html></richcontent>
@@ -239,7 +239,7 @@
       applies patch in reverse mode
     </p>
     <p>
-      <font color="#0000ff">$ git apply <b>-R</b>&#160;&lt;patch_name.patch&gt;</font>
+      <font color="#0000ff">$ git apply <b>-R</b>&#xa0;&lt;patch_name.patch&gt;</font>
     </p>
   </body>
 </html></richcontent>
@@ -298,6 +298,21 @@
 </html></richcontent>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1463132100707" FOLDED="true" ID="ID_82826626" MODIFIED="1463132193308" POSITION="right" TEXT="blame">
+<node CREATED="1463132106467" ID="ID_1435569171" MODIFIED="1463132188886">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">$ git blame &lt;commit&gt;^ -- filename | head -3 | tail -2</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1289405808665" FOLDED="true" ID="ID_616427300" MODIFIED="1444379460497" POSITION="right" TEXT="checkout">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1289405820303" ID="ID_594507726" MODIFIED="1356609866573">
@@ -325,7 +340,7 @@
       #revert specific file from specific commit <b>abcde</b>
     </p>
     <p>
-      <code><font color="#0000ff">$ git checkout <b>abcde</b>&#160;file/to/restore</font></code>
+      <code><font color="#0000ff">$ git checkout <b>abcde</b>&#xa0;file/to/restore</font></code>
     </p>
   </body>
 </html></richcontent>
@@ -403,7 +418,7 @@
   </head>
   <body>
     <p>
-      The <font color="#0000ff">-u</font>&#160;tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do
+      The <font color="#0000ff">-u</font>&#xa0;tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do
     </p>
   </body>
 </html></richcontent>
@@ -520,7 +535,7 @@
 <node COLOR="#0033ff" CREATED="1357900732315" ID="ID_1954485470" LINK="http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html" MODIFIED="1422907029513" POSITION="left" TEXT="rev-parse">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1355755723037" FOLDED="true" ID="ID_1772285910" MODIFIED="1444376724868" POSITION="left" TEXT="show">
+<node COLOR="#0033ff" CREATED="1355755723037" FOLDED="true" ID="ID_1772285910" MODIFIED="1454519797392" POSITION="left" TEXT="show">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357921040713" ID="ID_516186076" MODIFIED="1357921091267">
 <richcontent TYPE="NODE"><html>
@@ -574,7 +589,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1288956281435" FOLDED="true" ID="ID_605132199" MODIFIED="1422907039981" POSITION="right">
+<node COLOR="#0033ff" CREATED="1288956281435" FOLDED="true" ID="ID_605132199" MODIFIED="1462886440207" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -609,16 +624,28 @@
       clone only one branch
     </p>
     <p>
-      <font color="#0033ff">$ git clone -b mybranch <b>--single-branch</b>&#160; git://sub.domain.com/repo.git</font>
+      <font color="#0033ff">$ git clone -b mybranch <b>--single-branch</b>&#xa0; git://sub.domain.com/repo.git</font>
     </p>
   </body>
 </html></richcontent>
 <attribute NAME="version" VALUE="&gt; 1.7"/>
 </node>
+<node COLOR="#0033ff" CREATED="1448882915919" ID="ID_850885122" MODIFIED="1448882947453">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ git clone git://sldkjfnv.sdfklvj.sldkf --branch &lt;branch-name&gt;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1439909749283" POSITION="right" TEXT="commit">
+</node>
+<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1462886435279" POSITION="right" TEXT="commit">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1329936168498" FOLDED="true" ID="ID_311420569" MODIFIED="1439909749097" TEXT="--amend">
+<node COLOR="#0033ff" CREATED="1329936168498" FOLDED="true" ID="ID_311420569" MODIFIED="1462886434749" TEXT="--amend">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1347009928183" ID="ID_1237583573" MODIFIED="1347009951712" TEXT="changes previous commit info and files commited if with add"/>
 <node CREATED="1439909738476" ID="ID_959164652" LINK="http://stackoverflow.com/questions/750172/change-the-author-of-a-commit-in-git" MODIFIED="1439909748032" TEXT="change author"/>
@@ -657,7 +684,7 @@
       
     </p>
     <p>
-      <font color="#000000"># config local - stored <b>.git/config</b>&#160;use: </font>
+      <font color="#000000"># config local - stored <b>.git/config</b>&#xa0;use: </font>
     </p>
     <p>
       <font color="#0000ff">$ git config --local</font>
@@ -753,7 +780,7 @@
       <font color="#0033ff">[core] </font>
     </p>
     <p>
-      <font color="#0033ff">&#160; <b>filemode</b>&#160;= false</font>
+      <font color="#0033ff">&#xa0; <b>filemode</b>&#xa0;= false</font>
     </p>
     <p>
       
@@ -762,7 +789,7 @@
       # after you
     </p>
     <p>
-      <font color="#0033ff">$ git config <b>core.filemode</b>&#160;true</font>
+      <font color="#0033ff">$ git config <b>core.filemode</b>&#xa0;true</font>
     </p>
     <p>
       # git will update only file mode
@@ -896,7 +923,7 @@
 <node CREATED="1422907596520" ID="ID_921381934" MODIFIED="1422907609947" TEXT="diff with the --staged option to see the changes you just staged"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1355755727700" FOLDED="true" ID="ID_1356016314" MODIFIED="1443682624645" POSITION="left" TEXT="show-branch">
+<node COLOR="#0033ff" CREATED="1355755727700" FOLDED="true" ID="ID_1356016314" MODIFIED="1454508568188" POSITION="left" TEXT="show-branch">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1384949387499" ID="ID_186748251" MODIFIED="1384949454828" TEXT="$ git show-brach &lt;branch id&gt;"/>
 </node>
@@ -1014,7 +1041,7 @@
       # to modify index directly
     </p>
     <p>
-      <font color="#0033ff">$ git <b>update-index</b>&#160;--chmod=-x &lt;files&gt;</font>
+      <font color="#0033ff">$ git <b>update-index</b>&#xa0;--chmod=-x &lt;files&gt;</font>
     </p>
   </body>
 </html></richcontent>
@@ -1169,7 +1196,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1385145751366" FOLDED="true" ID="ID_911651042" MODIFIED="1422907626002" POSITION="right" TEXT="tools">
+<node CREATED="1385145751366" FOLDED="true" ID="ID_911651042" MODIFIED="1462886446574" POSITION="right" TEXT="tools">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1385145754821" FOLDED="true" ID="ID_1603193934" MODIFIED="1387451876953" TEXT="git-cache-meta">
 <node COLOR="#009999" CREATED="1385145763270" ID="ID_196127361" LINK="https://gist.github.com/andris9/1978266" MODIFIED="1385145844964" TEXT="github">
@@ -1182,7 +1209,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>so</b></font>&#160;how to use git-cache-meta
+      <font color="#009999"><b>so</b></font>&#xa0;how to use git-cache-meta
     </p>
   </body>
 </html></richcontent>
@@ -1198,8 +1225,8 @@
 <node CREATED="1385146583769" ID="ID_135992842" LINK="http://joeyh.name/code/etckeeper/" MODIFIED="1385146591409" TEXT="link"/>
 </node>
 </node>
-<node CREATED="1444572557666" FOLDED="true" ID="ID_901080498" MODIFIED="1444572589529" POSITION="right" TEXT="info">
-<node CREATED="1444572586772" FOLDED="true" ID="ID_420032254" MODIFIED="1444572588920" TEXT="so">
+<node CREATED="1444572557666" FOLDED="true" ID="ID_901080498" MODIFIED="1462886443491" POSITION="right" TEXT="info">
+<node CREATED="1444572586772" FOLDED="true" ID="ID_420032254" MODIFIED="1462886443244" TEXT="so">
 <node COLOR="#0033ff" CREATED="1444572576897" ID="ID_744640283" LINK="https://github.com/blog/2019-how-to-undo-almost-anything-with-git" MODIFIED="1444572585424" TEXT="undo almost anything"/>
 </node>
 </node>
