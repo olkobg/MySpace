@@ -1,6 +1,6 @@
 <map version="1.1.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1469116747769" TEXT="Ruby">
+<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1471433683827" TEXT="Ruby">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -26,13 +26,13 @@
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="34"/>
-<node COLOR="#338800" CREATED="1282900446488" FOLDED="true" ID="ID_1262636553" MODIFIED="1469116654290" POSITION="right" TEXT="lib/tool/app">
+<node COLOR="#338800" CREATED="1282900446488" ID="ID_1262636553" MODIFIED="1471433704414" POSITION="right" TEXT="lib/tool/app">
 <node COLOR="#0033ff" CREATED="1282919088250" HGAP="22" ID="ID_415305468" LINK="Rails.mm" MODIFIED="1428331176955" TEXT="Rails">
 <font NAME="SansSerif" SIZE="15"/>
 </node>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1419193495954" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1458386123793" POSITION="left" TEXT="class">
+<node COLOR="#990000" CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1471452746460" POSITION="left" TEXT="class">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1422284853468">
 <richcontent TYPE="NODE"><html>
@@ -3868,9 +3868,91 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1471452040680" ID="ID_1967152144" MODIFIED="1471452679183" TEXT="sting output">
+<node CREATED="1471452062133" ID="ID_1931979979" MODIFIED="1471452619400">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">class Name </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;def initialize(first, last=nil) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;@first = first </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;@last = last </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def <b>format</b>&#160;</font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;[@last, @first].compact.join(', ') </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">names = [] </font>
+    </p>
+    <p>
+      <font color="#0000ff">names &lt;&lt; Name.new('Steve', 'Jobs') </font>
+    </p>
+    <p>
+      <font color="#0000ff">names &lt;&lt; Name.new('Madonna') </font>
+    </p>
+    <p>
+      <font color="#0000ff">names.each { |name| p name.format }</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1422392697498" FOLDED="true" ID="ID_592127580" MODIFIED="1458385972823" POSITION="left" TEXT="exceptions">
-<node CREATED="1422392953303" FOLDED="true" ID="ID_550609076" MODIFIED="1458385965788" TEXT="simple">
+<node CREATED="1471452680060" ID="ID_680258401" MODIFIED="1471452686900" TEXT="# to_s"/>
+</node>
+<node COLOR="#990000" CREATED="1471452670317" ID="ID_1334770009" MODIFIED="1471452743287" TEXT="reopen"/>
+<node COLOR="#990000" CREATED="1471452689893" ID="ID_47676630" MODIFIED="1471452743939">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      class Tweet
+    </p>
+    <p>
+      &#160;&#160;def to_s
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;stuff
+    </p>
+    <p>
+      &#160;&#160;end
+    </p>
+    <p>
+      end
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1422392697498" FOLDED="true" ID="ID_592127580" MODIFIED="1471452622819" POSITION="left" TEXT="exceptions">
+<node COLOR="#006633" CREATED="1471443403821" ID="ID_1083360821" MODIFIED="1471443464932" TEXT="Ex eption is used when there are need to send info about errro happened"/>
+<node CREATED="1422392953303" FOLDED="true" ID="ID_550609076" MODIFIED="1471443446933" TEXT="simple">
 <node CREATED="1422392704617" ID="ID_854131625" MODIFIED="1422392768083">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3917,7 +3999,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422392950540" FOLDED="true" ID="ID_1043808471" MODIFIED="1458385968938" TEXT="type">
+<node CREATED="1422392950540" FOLDED="true" ID="ID_1043808471" MODIFIED="1471443446933" TEXT="type">
 <node CREATED="1422392770452" ID="ID_1898991850" MODIFIED="1422392826624">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4015,7 +4097,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422392956060" FOLDED="true" ID="ID_830787246" MODIFIED="1458385970023" TEXT="throw, catch">
+<node CREATED="1422392956060" FOLDED="true" ID="ID_830787246" MODIFIED="1471443446932" TEXT="throw, catch">
 <node CREATED="1422392960094" ID="ID_192635295" MODIFIED="1422393143618">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4092,7 +4174,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422393224789" FOLDED="true" ID="ID_1906674896" MODIFIED="1458385972211" TEXT="hierarchy">
+<node CREATED="1422393224789" FOLDED="true" ID="ID_1906674896" MODIFIED="1471433768525" TEXT="hierarchy">
 <node CREATED="1422393229470" ID="ID_1620701726" MODIFIED="1422393237714">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4105,9 +4187,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1458386046330" POSITION="left" TEXT="methods">
+<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1471443397611" POSITION="left" TEXT="methods">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#0033ff" CREATED="1360758434157" ID="ID_806357009" MODIFIED="1437037192824" TEXT="attr">
+<node COLOR="#0033ff" CREATED="1360758434157" FOLDED="true" ID="ID_806357009" MODIFIED="1471433943935" TEXT="attr">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1422299098648" FOLDED="true" ID="ID_1849046566" MODIFIED="1458385977616" TEXT="setter/getter">
 <node CREATED="1358330048294" ID="ID_1451657911" MODIFIED="1422297082447">
@@ -4494,7 +4576,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422288586033" FOLDED="true" ID="ID_1230844944" MODIFIED="1458386003763" TEXT="args">
+<node CREATED="1422288586033" FOLDED="true" ID="ID_1230844944" MODIFIED="1471443326758" TEXT="args">
+<node CREATED="1471434316437" FOLDED="true" ID="ID_8332670" MODIFIED="1471434330793" TEXT="variable">
 <node CREATED="1357309177051" ID="ID_375127362" MODIFIED="1360758471633">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4555,68 +4638,116 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1422288736599" ID="ID_883094698" MODIFIED="1422288997995">
+<node CREATED="1422288736599" ID="ID_883094698" MODIFIED="1471434269590">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0000ff">def split_apart(first, *split, last) </font>
+      <font color="#000000">#split arguments</font>
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;"first: #{first.inspect}, split: #{split.inspect}, last: #{last.inspect}" </font>
+      <font color="#0000ff">def split_apart(first, <b>*split</b>, last) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&quot;first: #{first.inspect}, split: #{split.inspect}, last: #{last.inspect}&quot; </font>
     </p>
     <p>
       <font color="#0000ff">end </font>
     </p>
     <p>
-      <font color="#0000ff">&#xa0; </font>
+      <font color="#0000ff">&#160; </font>
     </p>
     <p>
       <font color="#0000ff">split_apart(1, 2)</font>
     </p>
     <p>
-      =&gt; "first: 1, split: [], last: 2"
+      =&gt; &quot;first: 1, split: [], last: 2&quot;
     </p>
     <p>
-      &#xa0;
+      &#160;
     </p>
     <p>
       <font color="#0000ff">split_apart(1, 2, 3)</font>
     </p>
     <p>
-      =&gt; "first: 1, split: [2], last: 3"
+      =&gt; &quot;first: 1, split: [2], last: 3&quot;
     </p>
     <p>
-      &#xa0;
+      &#160;
     </p>
     <p>
       <font color="#0000ff">split_apart(1, 2, 3, 4)</font>
     </p>
     <p>
-      =&gt; "first: 1, split: [2, 3], last: 4"
+      =&gt; &quot;first: 1, split: [2, 3], last: 4&quot;
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1422288841068" ID="ID_1717020281" MODIFIED="1422289084625">
+<node CREATED="1422288841068" ID="ID_1717020281" MODIFIED="1471434154445">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0000ff">def split_apart(first, *, last) </font>
+      <font color="#000000"># a lot or arguments </font>
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;# ... </font>
+      <font color="#0000ff">def split_apart(first, <b>*</b>, last) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;# ... </font>
     </p>
     <p>
       <font color="#0000ff">end</font>
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1471433971185" ID="ID_810316227" MODIFIED="1471434032724">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # arguments with hash values
+    </p>
+    <p>
+      <font color="#0000ff">def tweet(message, <b>optoins={}</b>) </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1471434191369" ID="ID_1937587038" MODIFIED="1471434231942">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #optional arguments
+    </p>
+    <p>
+      <font color="#0000ff">def tweet(message, <b>lat=nil</b>, <b>long=nil</b>) </font>
+    </p>
+    <p>
+      <font color="#0000ff">... </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1422289300900" FOLDED="true" ID="ID_899265942" MODIFIED="1458386009321" TEXT="block">
@@ -4773,7 +4904,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422288365033" FOLDED="true" ID="ID_1582270835" MODIFIED="1458386017193" TEXT="definition">
+<node CREATED="1422288365033" FOLDED="true" ID="ID_1582270835" MODIFIED="1471433779777" TEXT="definition">
 <node CREATED="1422288410309" ID="ID_1458007751" MODIFIED="1422288674823">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5089,7 +5220,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422290813345" FOLDED="true" ID="ID_589992585" MODIFIED="1458386019867" TEXT="lambda">
+<node COLOR="#0033ff" CREATED="1422290813345" FOLDED="true" ID="ID_589992585" MODIFIED="1471433780722" TEXT="lambda">
 <node CREATED="1422291264834" FOLDED="true" ID="ID_1792272428" MODIFIED="1422291415923" TEXT="diff">
 <node CREATED="1422291268402" ID="ID_792217537" MODIFIED="1422291275277" TEXT="blocks and Procs act like code snippets"/>
 <node CREATED="1422291283490" ID="ID_255567950" MODIFIED="1422291285860" TEXT="lambdas and Methods act like methods"/>
@@ -5215,7 +5346,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422392518450" FOLDED="true" ID="ID_1945174242" MODIFIED="1458386022739" TEXT="lookup">
+<node CREATED="1422392518450" FOLDED="true" ID="ID_1945174242" MODIFIED="1471433785853" TEXT="lookup">
 <node CREATED="1422392529115" ID="ID_1165299270" MODIFIED="1422392541696">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5260,7 +5391,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422290585732" FOLDED="true" ID="ID_162111783" MODIFIED="1458386024286" TEXT="Proc">
+<node COLOR="#0033ff" CREATED="1422290585732" FOLDED="true" ID="ID_162111783" MODIFIED="1471433798546" TEXT="Proc">
 <node CREATED="1422290595094" ID="ID_828356540" MODIFIED="1422290632507">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5382,7 +5513,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422289091486" FOLDED="true" ID="ID_715868870" MODIFIED="1458386026178" TEXT="return values">
+<node CREATED="1422289091486" FOLDED="true" ID="ID_715868870" MODIFIED="1471433800031" TEXT="return values">
 <node CREATED="1422289096362" ID="ID_438713924" MODIFIED="1422289143777">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5501,7 +5632,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360758409739" FOLDED="true" ID="ID_1901276234" MODIFIED="1458386031355" TEXT="static">
+<node CREATED="1360758409739" FOLDED="true" ID="ID_1901276234" MODIFIED="1471433802347" TEXT="static">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358330684795" ID="ID_1618414090" MODIFIED="1358330744544">
 <richcontent TYPE="NODE"><html>
@@ -5546,7 +5677,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422291299883" FOLDED="true" ID="ID_1074909884" MODIFIED="1458386033243" TEXT="to object">
+<node CREATED="1422291299883" FOLDED="true" ID="ID_1074909884" MODIFIED="1471433803495" TEXT="to object">
 <node CREATED="1422291302009" ID="ID_473808066" MODIFIED="1422291350289">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5590,7 +5721,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422304016162" FOLDED="true" ID="ID_65038357" MODIFIED="1458386042945" TEXT="self">
+<node COLOR="#0033ff" CREATED="1422304016162" FOLDED="true" ID="ID_65038357" MODIFIED="1471433805385" TEXT="self">
 <node CREATED="1422304020890" ID="ID_1412309424" MODIFIED="1422304043561">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5688,7 +5819,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422356721168" FOLDED="true" ID="ID_156693730" MODIFIED="1458386045357" TEXT="visibility">
+<node CREATED="1422356721168" FOLDED="true" ID="ID_156693730" MODIFIED="1471433806601" TEXT="visibility">
 <node CREATED="1422356732885" ID="ID_38297916" MODIFIED="1422356879302">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5817,7 +5948,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1422358569659" FOLDED="true" ID="ID_507945280" MODIFIED="1458386070690" POSITION="left" TEXT="module">
+<node CREATED="1422358569659" FOLDED="true" ID="ID_507945280" MODIFIED="1471443391176" POSITION="left" TEXT="module">
 <node CREATED="1422358811253" FOLDED="true" ID="ID_126808197" MODIFIED="1458386050362" TEXT="constant &amp; path">
 <node CREATED="1422359007242" ID="ID_1318513650" MODIFIED="1422359067698">
 <richcontent TYPE="NODE"><html>
@@ -6356,7 +6487,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357308445090" FOLDED="true" ID="ID_1298889748" MODIFIED="1458386107700" POSITION="left" TEXT="variables">
+<node CREATED="1357308445090" FOLDED="true" ID="ID_1298889748" MODIFIED="1471433811597" POSITION="left" TEXT="variables">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1422286603111" FOLDED="true" ID="ID_13809418" MODIFIED="1458386089647" TEXT="constant">
 <node COLOR="#0033ff" CREATED="1357308484483" ID="ID_1958604901" MODIFIED="1422286626971" TEXT="ClassName">
@@ -6722,7 +6853,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1469116132077" POSITION="left" TEXT="operations">
+<node CREATED="1357322696019" FOLDED="true" ID="ID_996794019" MODIFIED="1471433812474" POSITION="left" TEXT="operations">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1283360812953" FOLDED="true" ID="ID_1852096962" MODIFIED="1458386110615" TEXT="conditionals">
 <font NAME="SansSerif" SIZE="12"/>
@@ -7718,10 +7849,10 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1415815504743" FOLDED="true" ID="ID_740950273" MODIFIED="1469116649790" POSITION="left" TEXT="test">
+<node CREATED="1415815504743" FOLDED="true" ID="ID_740950273" MODIFIED="1471433815646" POSITION="left" TEXT="test">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1422446386879" ID="ID_1745738817" LINK="gems/RSpec.mm" MODIFIED="1422446396119" TEXT="RSpec"/>
-<node CREATED="1415815506901" FOLDED="true" ID="ID_855983373" MODIFIED="1469116130141" TEXT="tip">
+<node CREATED="1415815506901" FOLDED="true" ID="ID_855983373" MODIFIED="1471433815039" TEXT="tip">
 <node CREATED="1415815509684" FOLDED="true" ID="ID_1430109150" MODIFIED="1469116129948" TEXT="make test with http basic auth">
 <node CREATED="1415815766145" ID="ID_1801490975" LINK="http://stackoverflow.com/questions/3768718/rails-rspec-make-tests-pass-with-http-basic-authentication" MODIFIED="1415815771250" TEXT="so"/>
 <node CREATED="1415815768234" ID="ID_1180891051" MODIFIED="1415815797832" TEXT="included with Rack::Test"/>
@@ -7733,7 +7864,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#0033ff" CREATED="1415812006102" ID="ID_222339979" LINK="rake.mm" MODIFIED="1420816304426" TEXT="rake"/>
-<node COLOR="#0033ff" CREATED="1422178761739" FOLDED="true" ID="ID_841080907" MODIFIED="1458386171067" TEXT="ruby">
+<node COLOR="#0033ff" CREATED="1422178761739" FOLDED="true" ID="ID_841080907" MODIFIED="1471433701445" TEXT="ruby">
 <node CREATED="1422179861968" ID="ID_29561557" MODIFIED="1440964676067">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7866,7 +7997,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422180014628" FOLDED="true" ID="ID_686150722" MODIFIED="1458386172372" TEXT="debug">
+<node CREATED="1422180014628" FOLDED="true" ID="ID_686150722" MODIFIED="1471433697987" TEXT="debug">
 <node COLOR="#0033ff" CREATED="1419193517082" ID="ID_200806238" LINK="https://github.com/pry/pry" MODIFIED="1422178831540" TEXT="pry"/>
 </node>
 </node>
