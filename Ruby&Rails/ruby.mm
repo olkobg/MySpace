@@ -3037,7 +3037,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1434737148012" ID="ID_713679619" LINK="http://ruby-doc.org/core-2.2.0/Struct.html" MODIFIED="1434737178557" TEXT="Struct"/>
+<node COLOR="#0033ff" CREATED="1434737148012" FOLDED="true" ID="ID_713679619" LINK="http://ruby-doc.org/core-2.2.0/Struct.html" MODIFIED="1473068044041" TEXT="Struct">
+<node CREATED="1473067975978" ID="ID_479688751" LINK="http://culttt.com/2015/04/15/working-with-structs-in-ruby/" MODIFIED="1473068009733" TEXT="article">
+<icon BUILTIN="idea"/>
+</node>
+</node>
 <node COLOR="#0033ff" CREATED="1422285291228" FOLDED="true" ID="ID_1707664089" LINK="http://www.ruby-doc.org/core-2.0.0/Time.html" MODIFIED="1458385783582" TEXT="Time">
 <node CREATED="1422285299496" ID="ID_1772044556" MODIFIED="1422285437909">
 <richcontent TYPE="NODE"><html>
