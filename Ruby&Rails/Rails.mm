@@ -1019,7 +1019,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1444567404444" TEXT="configuration">
+<node CREATED="1420822138829" FOLDED="true" ID="ID_88918823" MODIFIED="1472569111592" TEXT="configuration">
+<node COLOR="#0033ff" CREATED="1472559392592" FOLDED="true" ID="ID_1539817071" MODIFIED="1472569104431" TEXT="config/database.yml">
 <node CREATED="1420822145349" ID="ID_1238392466" MODIFIED="1420822170101">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1128,7 +1129,139 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1430168742403" FOLDED="true" ID="ID_741606147" MODIFIED="1430303368533" TEXT="dry">
+</node>
+<node CREATED="1472559410343" FOLDED="true" ID="ID_178924553" LINK="https://gist.github.com/p1nox/4953113" MODIFIED="1472569104431" TEXT="run Postgres w/o password">
+<node CREATED="1472559427646" ID="ID_510147192" MODIFIED="1472559478837">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Abstract
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      You could have postgre installed on localhost with password (or without user or password seted after instalation) but if we are developing we really don't need password, so configuring postgre server without password for all your rails project is usefull.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ## Install Postgre packages
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      * postgresql
+    </p>
+    <p>
+      * postgresql-client
+    </p>
+    <p>
+      * libpq-dev
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ## Install Postgre gem
+    </p>
+    <p>
+      /Gemfile
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gem 'pg'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ## Configuration
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1. Edit postgre configuration file:
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sudo gedit /etc/postgresql/POSTGRE_VERSION/main/pg_hba.conf
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      2. Change all configuration access to:
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# Database administrative login by Unix domain socket
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;local&#160;&#160;&#160;all&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;all&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; trust
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# TYPE&#160;&#160;DATABASE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;USER&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ADDRESS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; METHOD
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# &quot;local&quot; is for Unix domain socket connections only
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;local&#160;&#160;&#160;all&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;all&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; trust
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# IPv4 local connections:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;host&#160;&#160;&#160;&#160;all&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;all&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;127.0.0.1/32&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; trust
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# IPv6 local connections:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;host&#160;&#160;&#160;&#160;all&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;all&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;::1/128&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; trust
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      3. Restart postgre server
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sudo /etc/init.d/postgresql restart
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      4. Enjoy :)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1430168742403" FOLDED="true" ID="ID_741606147" MODIFIED="1472569104431" TEXT="dry">
 <node CREATED="1430168745179" ID="ID_347306336" MODIFIED="1430168892603">
 <richcontent TYPE="NODE"><html>
   <head>
