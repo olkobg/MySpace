@@ -309,8 +309,7 @@
       <font color="#0000ff">$ git blame &lt;commit&gt;^ -- filename | head -3 | tail -2</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1289405808665" FOLDED="true" ID="ID_616427300" MODIFIED="1444379460497" POSITION="right" TEXT="checkout">
@@ -369,7 +368,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1439475740295" ID="ID_367314177" MODIFIED="1439475752989" TEXT="$ git pull origin other-branch"/>
 </node>
-<node COLOR="#0033ff" CREATED="1329936116593" FOLDED="true" ID="ID_1595520806" MODIFIED="1443682655357" POSITION="left" TEXT="push">
+<node COLOR="#0033ff" CREATED="1329936116593" FOLDED="true" ID="ID_1595520806" MODIFIED="1474909234163" POSITION="left" TEXT="push">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1329936120120" ID="ID_1196135519" MODIFIED="1360240001329">
 <richcontent TYPE="NODE"><html>
@@ -389,7 +388,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1360239851720" ID="ID_1118854774" MODIFIED="1360240021247">
+<node CREATED="1360239851720" ID="ID_1118854774" MODIFIED="1474909232687" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -410,7 +409,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1422907103731" FOLDED="true" ID="ID_174221548" MODIFIED="1422907107695" TEXT="-u">
+<node COLOR="#0033ff" CREATED="1422907103731" FOLDED="true" ID="ID_174221548" MODIFIED="1474042453939" TEXT="-u">
 <node CREATED="1422907050550" ID="ID_400544186" MODIFIED="1422907095002">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -430,7 +429,7 @@
 <node COLOR="#0033ff" CREATED="1437050403378" ID="ID_384414097" LINK="http://davidwalsh.name/squash-commits-git" MODIFIED="1443682647278" TEXT="squash"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1311116388955" FOLDED="true" ID="ID_1391649564" MODIFIED="1443682639036" POSITION="left" TEXT="reset">
+<node COLOR="#0033ff" CREATED="1311116388955" FOLDED="true" ID="ID_1391649564" MODIFIED="1474909322858" POSITION="left" TEXT="reset">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311117086249" ID="ID_1164172895" MODIFIED="1355755359927" TEXT="remove file from the current index (the &quot;about to be committed&quot; area) without changing anything else."/>
 <node COLOR="#009999" CREATED="1311117229714" ID="ID_168216952" LINK="http://stackoverflow.com/questions/348170/undo-git-add" MODIFIED="1443682634446" TEXT="SO">
@@ -448,7 +447,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#0033ff" CREATED="1311117148806" FOLDED="true" ID="ID_110947359" MODIFIED="1443682636736" TEXT="--hard">
+<node COLOR="#0033ff" CREATED="1311117148806" FOLDED="true" ID="ID_110947359" MODIFIED="1474909250183" TEXT="--hard">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311117184796" ID="ID_1714248309" MODIFIED="1356529326405">
 <richcontent TYPE="NODE"><html>
@@ -466,7 +465,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1356529167620" FOLDED="true" ID="ID_631520260" MODIFIED="1443682636732" TEXT="--soft">
+<node COLOR="#0033ff" CREATED="1356529167620" FOLDED="true" ID="ID_631520260" MODIFIED="1474909242396" TEXT="--soft">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1356529173575" ID="ID_1750030697" MODIFIED="1356529693299">
 <richcontent TYPE="NODE"><html>
@@ -517,11 +516,57 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1474909260217" ID="ID_304235011" MODIFIED="1474909320430">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # remote file from commit
+    </p>
+    <p>
+      <font color="#0000ff">git reset --soft HEAD^</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      or
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">git reset --soft HEAD~1</font>
+    </p>
+    <p>
+      Then reset the unwanted files in order to leave them out from the commit:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">git reset HEAD path/to/unwanted_file</font>
+    </p>
+    <p>
+      Now commit again, you can even re-use the same commit message:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">git commit -c ORIG_HEAD&#160;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node COLOR="#0033ff" CREATED="1356529773115" ID="ID_852491837" MODIFIED="1422907029513" POSITION="left" TEXT="reflog">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1311116393422" FOLDED="true" ID="ID_652199529" MODIFIED="1444570883361" POSITION="left" TEXT="remote">
+<node COLOR="#0033ff" CREATED="1311116393422" FOLDED="true" ID="ID_652199529" MODIFIED="1474909247256" POSITION="left" TEXT="remote">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1444382903037" ID="ID_1917230758" MODIFIED="1444382910266" TEXT="add"/>
 <node COLOR="#0033ff" CREATED="1444382904660" ID="ID_970104625" MODIFIED="1444382910279" TEXT="remove"/>
@@ -643,7 +688,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1462886435279" POSITION="right" TEXT="commit">
+<node COLOR="#0033ff" CREATED="1347009879345" FOLDED="true" ID="ID_1543603248" MODIFIED="1474909253444" POSITION="right" TEXT="commit">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1329936168498" FOLDED="true" ID="ID_311420569" MODIFIED="1462886434749" TEXT="--amend">
 <font NAME="SansSerif" SIZE="12"/>
