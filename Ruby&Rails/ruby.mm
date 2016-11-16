@@ -1,6 +1,6 @@
 <map version="1.1.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1479246146865" TEXT="Ruby">
+<node COLOR="#990000" CREATED="1282725607413" ID="ID_676641125" LINK="../Index.mm" MODIFIED="1479249604566" TEXT="Ruby">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -22,6 +22,9 @@
     <p>
       http://rubygarage.github.io
     </p>
+    <p>
+      http://codeschool.com
+    </p>
   </body>
 </html>
 </richcontent>
@@ -32,7 +35,7 @@
 </node>
 <node CREATED="1289986206694" ID="ID_1498604233" MODIFIED="1419193495954" TEXT="Rack"/>
 </node>
-<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1479248411148" POSITION="left" TEXT="class">
+<node CREATED="1282725943492" FOLDED="true" ID="ID_767240686" MODIFIED="1479337711752" POSITION="left" TEXT="class">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357321726620" ID="ID_1230932015" MODIFIED="1422284853468">
 <richcontent TYPE="NODE"><html>
@@ -225,7 +228,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1479248408297" TEXT="classes">
+<node CREATED="1422357623467" FOLDED="true" ID="ID_1334856244" MODIFIED="1479333018207" TEXT="classes">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1422358047778" FOLDED="true" ID="ID_1968592432" MODIFIED="1458385493527" TEXT="class hierarchy">
 <node CREATED="1422358126007" ID="ID_1774802114" MODIFIED="1422362217370">
 <richcontent TYPE="NODE"><html>
@@ -1242,7 +1246,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1360759790418" ID="ID_1673471247" LINK="http://ruby-doc.org/core-2.0.0/Enumerable.html" MODIFIED="1479247906277" TEXT="Enumerable">
+<node COLOR="#0033ff" CREATED="1360759790418" FOLDED="true" ID="ID_1673471247" LINK="http://ruby-doc.org/core-2.0.0/Enumerable.html" MODIFIED="1479332548941" TEXT="Enumerable">
 <node CREATED="1357310164668" FOLDED="true" ID="ID_1984380672" MODIFIED="1422213198303">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3188,9 +3192,88 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1434737148012" FOLDED="true" ID="ID_713679619" LINK="http://ruby-doc.org/core-2.2.0/Struct.html" MODIFIED="1473068044041" TEXT="Struct">
+<node COLOR="#0033ff" CREATED="1434737148012" FOLDED="true" ID="ID_713679619" LINK="http://ruby-doc.org/core-2.2.0/Struct.html" MODIFIED="1479332998151" TEXT="Struct">
 <node CREATED="1473067975978" ID="ID_479688751" LINK="http://culttt.com/2015/04/15/working-with-structs-in-ruby/" MODIFIED="1473068009733" TEXT="article">
 <icon BUILTIN="idea"/>
+</node>
+<node CREATED="1479332553988" ID="ID_10366751" MODIFIED="1479332995191">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # before
+    </p>
+    <p>
+      <font color="#0000ff">class Tweet </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;attr_accessor :user, :status </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(user, status) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@user, @status = user, status </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def to_s </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&quot;#{user}: #{status}&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">tweet = Tweet.new(&quot;SuperMan&quot;, &quot;flying&quot;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">tweet.user </font># =&gt; &quot;SuperMan&quot;
+    </p>
+    <p>
+      <font color="#0000ff">tweet.status </font># =&gt; &quot;flying&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # gives the same functionality
+    </p>
+    <p>
+      # much better to user with data than with methods
+    </p>
+    <p>
+      <font color="#0000ff">Tweet = <b>Struct.new</b>(:user, :status) do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def to_s </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&quot;#{user}: #{status}&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1422285291228" FOLDED="true" ID="ID_1707664089" LINK="http://www.ruby-doc.org/core-2.0.0/Time.html" MODIFIED="1458385783582" TEXT="Time">
@@ -3921,7 +4004,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422303530668" FOLDED="true" ID="ID_159069751" MODIFIED="1458385957586" TEXT="self">
+<node COLOR="#0033ff" CREATED="1422303530668" FOLDED="true" ID="ID_159069751" MODIFIED="1479336391082" TEXT="self">
 <node CREATED="1422303535581" ID="ID_553073299" MODIFIED="1422303545094" TEXT="At the time the method definition is executed, the most you can say is that self inside this method will be some future object that has access to this method."/>
 <node CREATED="1422303600275" ID="ID_1976705556" MODIFIED="1422303611903">
 <richcontent TYPE="NODE"><html>
@@ -3964,6 +4047,135 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1479335699014" ID="ID_1296728797" MODIFIED="1479336147921">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # ruby has it's special object main
+    </p>
+    <p>
+      <font color="#0000ff">puts &quot;Outside of class: #{<b>self</b>}&quot; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">class Tweet </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts &quot;Inside of class: #{<b>self</b>}&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Outsideof class: <b>main</b>
+    </p>
+    <p>
+      # Inside of class: <b>Tweet</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1479335917161" ID="ID_543323947" MODIFIED="1479336105930">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      class Tweet
+    </p>
+    <p>
+      &#160;&#160;def self.find(keyword)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;puts &quot;Inside of class method: #{self}&quot;
+    </p>
+    <p>
+      &#160;&#160;end
+    </p>
+    <p>
+      &#160;&#160;# the same as
+    </p>
+    <p>
+      &#160;&#160;def Tweet.find(keyword)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# ...
+    </p>
+    <p>
+      &#160;&#160;end
+    </p>
+    <p>
+      end
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tweet.find(&quot;rubist&quot;)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Inside of class method: Tweet
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1479336152805" ID="ID_184718574" MODIFIED="1479336310070">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      class Tweet
+    </p>
+    <p>
+      &#160;&#160;def initialize(status)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;puts &quot;Inside a method: #{self}&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@status = status
+    </p>
+    <p>
+      &#160;&#160;end
+    </p>
+    <p>
+      end
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tweet.new(&quot;What is self, anyway?&quot;)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Inside a method: #&lt;Tweet:0x002848548382&gt;
+    </p>
+    <p>
+      # Tweet instance
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 <node CREATED="1422303649317" ID="ID_870300709" MODIFIED="1422303815134">
 <richcontent TYPE="NODE"><html>
@@ -4428,7 +4640,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1479247898771" POSITION="left" TEXT="methods">
+<node CREATED="1357668915724" FOLDED="true" ID="ID_1169586002" MODIFIED="1479334900678" POSITION="left" TEXT="methods">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1360758434157" FOLDED="true" ID="ID_806357009" MODIFIED="1471433943935" TEXT="attr">
 <font NAME="SansSerif" SIZE="12"/>
@@ -4743,6 +4955,169 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1479333037526" FOLDED="true" ID="ID_821016211" MODIFIED="1479333661693" TEXT="alias_method">
+<node CREATED="1479333063232" ID="ID_358091007" MODIFIED="1479333217043">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      class Timeline
+    </p>
+    <p>
+      &#160;&#160;def initialize(tweets = [])
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@tweets = tweets
+    </p>
+    <p>
+      &#160;&#160;end
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      &#160;&#160;attr_reader tweets
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;# creates a duplicated verions on tweets
+    </p>
+    <p>
+      &#160;&#160;alias_method :contents, :tweets
+    </p>
+    <p>
+      end
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1479333254363" ID="ID_1642018358" MODIFIED="1479333653519">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # add change behavior of
+    </p>
+    <p>
+      # existing method for class
+    </p>
+    <p>
+      # before
+    </p>
+    <p>
+      <font color="#0000ff">class Timeline </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;attr_accessor :tweets </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def print </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts tweets.join(&quot;\n&quot;) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160; </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # to upgrade class later
+    </p>
+    <p>
+      <font color="#0000ff">class Timeline </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;<b>alias_method</b>&#160;:old_print, :print </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def <b>print</b>&#160;</font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;authenticate! </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;old_print </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def authenticate! </font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# authentication<font color="#0000ff">&#160;</font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # cleaner way
+    </p>
+    <p>
+      <font color="#0000ff">class AuthenticatedTimeline &lt; <b>Timeline</b> </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def print </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;authenticate! </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160; <b>super</b> </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def authenticate! </font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;#authentication
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node CREATED="1422299229845" FOLDED="true" ID="ID_1157661549" MODIFIED="1458385992327" TEXT="define operators">
 <node CREATED="1422299250207" ID="ID_683297312" MODIFIED="1422299289599">
 <richcontent TYPE="NODE"><html>
@@ -4989,182 +5364,47 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422289300900" FOLDED="true" ID="ID_899265942" MODIFIED="1479247896994" TEXT="block">
-<node COLOR="#0033ff" CREATED="1479247590660" FOLDED="true" ID="ID_1931705636" MODIFIED="1479247896676" TEXT="yield">
-<node CREATED="1479247679115" ID="ID_942235087" MODIFIED="1479247683083" TEXT="with arguments">
-<node CREATED="1422289303536" ID="ID_305493401" MODIFIED="1422289399093">
+<node CREATED="1422289467108" FOLDED="true" ID="ID_1884003840" MODIFIED="1479332338322" TEXT="closures">
+<node CREATED="1479332073479" ID="ID_841068082" MODIFIED="1479332315489">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0000ff">def double(p1) </font>
+      # create closure
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;yield(p1*2) </font>
+      <font color="#0000ff">def <b>tweet_as</b>(user) </font>
     </p>
     <p>
-      <font color="#0000ff">end </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#xa0; </font>
-    </p>
-    <p>
-      <font color="#0000ff">double(3) { |val| "I got #{val}" }</font>
-    </p>
-    <p>
-      =&gt; "I got 6"
-    </p>
-    <p>
-      &#xa0;
-    </p>
-    <p>
-      <font color="#0000ff">double("tom") do |val| </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#xa0;&#xa0;"Then I got #{val}" </font>
+      <font color="#0000ff">&#160;&#160;lambda { |tweet| puts &quot;#{user}: #{tweet}&quot; } </font>
     </p>
     <p>
       <font color="#0000ff">end</font>
-    </p>
-    <p>
-      =&gt; "Then I got tomtom"
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1479247714343" ID="ID_661232663" MODIFIED="1479247716875" TEXT="return value">
-<node CREATED="1479247717738" ID="ID_1098758914" MODIFIED="1479247762909">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">def puts_this_block </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;puts yield </font>
-    </p>
-    <p>
-      <font color="#0000ff">end </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font color="#0000ff">puts_this_block { &quot;tweet&quot; }</font>
+      # create proc wit closure
+    </p>
+    <p>
+      <font color="#0000ff">greg_tweet = <b>tweet_as</b>(&quot;somebody&quot;)</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # using closure
+    </p>
+    <p>
+      <font color="#0000ff">greg_tweet.<b>call</b>(&quot;Super awesome&quot;)</font>
     </p>
   </body>
 </html>
 </richcontent>
 </node>
-</node>
-<node CREATED="1422289315550" ID="ID_668903328" MODIFIED="1422289439781">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">def try </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#xa0;&#xa0;if block_given? </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;yield </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#xa0;&#xa0;else </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;"no block" </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#xa0;&#xa0;end </font>
-    </p>
-    <p>
-      <font color="#0000ff">end </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#xa0; </font>
-    </p>
-    <p>
-      <font color="#0000ff">try</font>
-    </p>
-    <p>
-      =&gt; "no block"
-    </p>
-    <p>
-      &#xa0;
-    </p>
-    <p>
-      <font color="#0000ff">try { "hello" }</font>
-    </p>
-    <p>
-      =&gt; "hello"
-    </p>
-    <p>
-      &#xa0;
-    </p>
-    <p>
-      <font color="#0000ff">try do "hello" end</font>
-    </p>
-    <p>
-      =&gt; "hello"
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1479247607403" ID="ID_827561130" MODIFIED="1479247694822">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">def call_this_block_twice </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;yield </font>
-    </p>
-    <p>
-      <font color="#0000ff">&#160;&#160;yield </font>
-    </p>
-    <p>
-      <font color="#0000ff">end</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1479247390014" FOLDED="true" ID="ID_1605496780" MODIFIED="1479247515375" TEXT="each">
-<node CREATED="1479247392485" ID="ID_1271849345" MODIFIED="1479247417993">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      [1, 2, 3].each do |number|
-    </p>
-    <p>
-      &#160;&#160;puts number
-    </p>
-    <p>
-      end
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1422289467108" FOLDED="true" ID="ID_1884003840" MODIFIED="1458386014903" TEXT="closures">
 <node CREATED="1422289474526" ID="ID_183511523" MODIFIED="1422289520562">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5217,7 +5457,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422288365033" FOLDED="true" ID="ID_1582270835" MODIFIED="1471433779777" TEXT="definition">
+<node CREATED="1422288365033" FOLDED="true" ID="ID_1582270835" MODIFIED="1479328706397" TEXT="definition">
 <node CREATED="1422288410309" ID="ID_1458007751" MODIFIED="1422288674823">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5533,28 +5773,294 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422290813345" FOLDED="true" ID="ID_589992585" MODIFIED="1471475243351" TEXT="lambda">
-<node CREATED="1422291264834" FOLDED="true" ID="ID_1792272428" MODIFIED="1422291415923" TEXT="diff">
-<node CREATED="1422291268402" ID="ID_792217537" MODIFIED="1422291275277" TEXT="blocks and Procs act like code snippets"/>
-<node CREATED="1422291283490" ID="ID_255567950" MODIFIED="1422291285860" TEXT="lambdas and Methods act like methods"/>
-</node>
-<node CREATED="1422290830039" ID="ID_1679121775" MODIFIED="1422290913404">
+<node CREATED="1422392518450" FOLDED="true" ID="ID_1945174242" MODIFIED="1479247375030" TEXT="lookup">
+<node CREATED="1422392529115" ID="ID_1165299270" MODIFIED="1422392541696">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0000ff"># anonymus </font>
+      &#x421;hecks the eigenclass of 'foo' for singleton methods named 'bar'.
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1422392543378" ID="ID_644530495" MODIFIED="1422392554689" TEXT="If no method &apos;bar&apos; is found in the eigenclass, Ruby searches the class of &apos;foo&apos; for an instance method named &apos;bar&apos;.">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1422392544278" ID="ID_1840214171" MODIFIED="1422392569102" TEXT="If no method &apos;bar&apos; is found in the class, Ruby searches the instance methods of any modules included by the class of &apos;foo&apos;. If that class includes more than one module, then they are searched in the reverse of the order in which they were included. That is, the most recently included module is searched first.">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1422392544833" ID="ID_790321127" MODIFIED="1422392580880" TEXT="If no instance method &apos;bar&apos; is found in the class of &apos;foo&apos; or in its modules, then the search moves up the inheritance hierarchy to the superclass. Steps 2 and 3 are repeated for each class in the inheritance hierarchy until each ancestor class and its included modules have been searched.">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1422392545145" ID="ID_945139626" MODIFIED="1422392592838" TEXT="If no method named &apos;bar&apos; is found after completing the search, then a method named method_missing is invoked instead.">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1422392629471" ID="ID_758212" MODIFIED="1422392655752">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">foo = "some string" </font>
     </p>
     <p>
-      <font color="#0000ff">bo = lambda {|param| "You called me with #{param}"} </font>
+      <font color="#0000ff">foo.bar </font># singleton: no -&gt; String class: no -&gt; Comparable module: no -&gt;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# Object class: no -&gt; Kernel module: no -&gt; method_missing: no -&gt; raise an exception
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1479329272970" FOLDED="true" ID="ID_1413017605" MODIFIED="1479331988474" TEXT="blocks">
+<node CREATED="1422289300900" FOLDED="true" ID="ID_899265942" MODIFIED="1479331982240" TEXT="block">
+<node COLOR="#0033ff" CREATED="1479247590660" FOLDED="true" ID="ID_1931705636" MODIFIED="1479331978873" TEXT="yield">
+<node CREATED="1479247679115" FOLDED="true" ID="ID_942235087" MODIFIED="1479331977034" TEXT="with arguments">
+<node CREATED="1422289303536" ID="ID_305493401" MODIFIED="1422289399093">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">def double(p1) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#xa0;&#xa0;yield(p1*2) </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#xa0; </font>
+    </p>
+    <p>
+      <font color="#0000ff">double(3) { |val| "I got #{val}" }</font>
+    </p>
+    <p>
+      =&gt; "I got 6"
+    </p>
+    <p>
+      &#xa0;
+    </p>
+    <p>
+      <font color="#0000ff">double("tom") do |val| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#xa0;&#xa0;"Then I got #{val}" </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+    <p>
+      =&gt; "Then I got tomtom"
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1479247714343" FOLDED="true" ID="ID_661232663" MODIFIED="1479331978142" TEXT="return value">
+<node CREATED="1479247717738" ID="ID_1098758914" MODIFIED="1479247762909">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">def puts_this_block </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts yield </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">puts_this_block { &quot;tweet&quot; }</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1479247607403" ID="ID_827561130" MODIFIED="1479247694822">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">def call_this_block_twice </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;yield </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;yield </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1479247390014" FOLDED="true" ID="ID_1605496780" MODIFIED="1479331927354" TEXT="each">
+<node COLOR="#0033ff" CREATED="1479247392485" ID="ID_1271849345" MODIFIED="1479329281674">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [1, 2, 3].each do |number|
+    </p>
+    <p>
+      &#160;&#160;puts number
+    </p>
+    <p>
+      end
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1479331809541" FOLDED="true" ID="ID_344475309" MODIFIED="1479331981898" TEXT="optional_block">
+<node CREATED="1422289315550" ID="ID_668903328" MODIFIED="1422289439781">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">def try </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#xa0;&#xa0;if block_given? </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;yield </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#xa0;&#xa0;else </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#xa0;&#xa0;&#xa0;&#xa0;"no block" </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#xa0;&#xa0;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#xa0; </font>
+    </p>
+    <p>
+      <font color="#0000ff">try</font>
+    </p>
+    <p>
+      =&gt; "no block"
+    </p>
+    <p>
+      &#xa0;
+    </p>
+    <p>
+      <font color="#0000ff">try { "hello" }</font>
+    </p>
+    <p>
+      =&gt; "hello"
+    </p>
+    <p>
+      &#xa0;
+    </p>
+    <p>
+      <font color="#0000ff">try do "hello" end</font>
+    </p>
+    <p>
+      =&gt; "hello"
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1479331831652" ID="ID_223982350" MODIFIED="1479331918506">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # object can optionally
+    </p>
+    <p>
+      # pass block when initialized
+    </p>
+    <p>
+      <font color="#0000ff">class Tweet </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160; <b>yield</b>&#160;self if <b>block_given?</b> </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1422290813345" FOLDED="true" ID="ID_589992585" MODIFIED="1479329173851" TEXT="lambda">
+<node CREATED="1422291264834" ID="ID_1792272428" MODIFIED="1479329060041" TEXT="diff">
+<node CREATED="1422291268402" ID="ID_792217537" MODIFIED="1422291275277" TEXT="blocks and Procs act like code snippets"/>
+<node CREATED="1422291283490" ID="ID_255567950" MODIFIED="1422291285860" TEXT="lambdas and Methods act like methods"/>
+</node>
+<node CREATED="1422290830039" ID="ID_1679121775" MODIFIED="1479329141441">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # anonymus
+    </p>
+    <p>
+      <font color="#0000ff">bo = lambda {|param| &quot;You called me with #{param}&quot;} </font>
     </p>
     <p>
       <font color="#0000ff">bo.call 99</font>
     </p>
     <p>
-      =&gt; "You called me with 99"
+      =&gt; &quot;You called me with 99&quot;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1479329084102" ID="ID_403414861" MODIFIED="1479329126834">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # new lambda syntax
+    </p>
+    <p>
+      <font color="#0000ff">lamb =&#160;&#160;-&gt; { puts &quot;tweet&quot; }</font>
     </p>
   </body>
 </html></richcontent>
@@ -5601,110 +6107,65 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1422291078972" ID="ID_933037423" MODIFIED="1422291125831">
+<node CREATED="1422291078972" ID="ID_933037423" MODIFIED="1479329166373">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#0000ff"># lambda has lesser returns </font>
+      # lambda has lesser returns
     </p>
     <p>
       <font color="#0000ff">def proc_return </font>
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;Proc.new { return "Proc.new" }.call </font>
+      <font color="#0000ff">&#160;&#160;Proc.new { return &quot;Proc.new&quot; }.call </font>
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;return "proc_return return" </font>
+      <font color="#0000ff">&#160;&#160;return &quot;proc_return return&quot; </font>
     </p>
     <p>
       <font color="#0000ff">end </font>
     </p>
     <p>
-      <font color="#0000ff">&#xa0; </font>
+      <font color="#0000ff">&#160; </font>
     </p>
     <p>
       <font color="#0000ff">def lambda_return </font>
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;lambda { return "lambda" }.call </font>
+      <font color="#0000ff">&#160;&#160;lambda { return &quot;lambda&quot; }.call </font>
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;return "lambda_return return" </font>
+      <font color="#0000ff">&#160;&#160;return &quot;lambda_return return&quot; </font>
     </p>
     <p>
       <font color="#0000ff">end </font>
     </p>
     <p>
-      <font color="#0000ff">&#xa0; </font>
+      <font color="#0000ff">&#160; </font>
     </p>
     <p>
       <font color="#0000ff">proc_return </font>
     </p>
     <p>
-      =&gt; "Proc.new"
+      =&gt; &quot;Proc.new&quot;
     </p>
     <p>
-      &#xa0;
+      &#160;
     </p>
     <p>
       <font color="#0000ff">lambda_return</font>
     </p>
     <p>
-      =&gt; "lambda_return return"
+      =&gt; &quot;lambda_return return&quot;
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422392518450" FOLDED="true" ID="ID_1945174242" MODIFIED="1479247375030" TEXT="lookup">
-<node CREATED="1422392529115" ID="ID_1165299270" MODIFIED="1422392541696">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#x421;hecks the eigenclass of 'foo' for singleton methods named 'bar'.
-    </p>
-  </body>
-</html></richcontent>
-<icon BUILTIN="full-1"/>
-</node>
-<node CREATED="1422392543378" ID="ID_644530495" MODIFIED="1422392554689" TEXT="If no method &apos;bar&apos; is found in the eigenclass, Ruby searches the class of &apos;foo&apos; for an instance method named &apos;bar&apos;.">
-<icon BUILTIN="full-2"/>
-</node>
-<node CREATED="1422392544278" ID="ID_1840214171" MODIFIED="1422392569102" TEXT="If no method &apos;bar&apos; is found in the class, Ruby searches the instance methods of any modules included by the class of &apos;foo&apos;. If that class includes more than one module, then they are searched in the reverse of the order in which they were included. That is, the most recently included module is searched first.">
-<icon BUILTIN="full-3"/>
-</node>
-<node CREATED="1422392544833" ID="ID_790321127" MODIFIED="1422392580880" TEXT="If no instance method &apos;bar&apos; is found in the class of &apos;foo&apos; or in its modules, then the search moves up the inheritance hierarchy to the superclass. Steps 2 and 3 are repeated for each class in the inheritance hierarchy until each ancestor class and its included modules have been searched.">
-<icon BUILTIN="full-4"/>
-</node>
-<node CREATED="1422392545145" ID="ID_945139626" MODIFIED="1422392592838" TEXT="If no method named &apos;bar&apos; is found after completing the search, then a method named method_missing is invoked instead.">
-<icon BUILTIN="full-5"/>
-</node>
-<node CREATED="1422392629471" ID="ID_758212" MODIFIED="1422392655752">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000ff">foo = "some string" </font>
-    </p>
-    <p>
-      <font color="#0000ff">foo.bar </font># singleton: no -&gt; String class: no -&gt; Comparable module: no -&gt;
-    </p>
-    <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# Object class: no -&gt; Kernel module: no -&gt; method_missing: no -&gt; raise an exception
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1422290585732" FOLDED="true" ID="ID_162111783" MODIFIED="1471433798546" TEXT="Proc">
+<node COLOR="#0033ff" CREATED="1422290585732" FOLDED="true" ID="ID_162111783" MODIFIED="1479329298154" TEXT="Proc">
 <node CREATED="1422290595094" ID="ID_828356540" MODIFIED="1422290632507">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5826,7 +6287,184 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422289091486" FOLDED="true" ID="ID_715868870" MODIFIED="1471433800031" TEXT="return values">
+<node CREATED="1479329324350" FOLDED="true" ID="ID_867296476" MODIFIED="1479331987642" TEXT="block &lt;=&gt; proc">
+<node CREATED="1479329345044" ID="ID_1123833554" MODIFIED="1479331551198">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # turn proc into block
+    </p>
+    <p>
+      # before
+    </p>
+    <p>
+      <font color="#0000ff">tweets = [ &quot;first tweet&quot;, &quot;second tweet&quot; ] </font>
+    </p>
+    <p>
+      <font color="#0000ff">tweet.each do |tweet| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;puts tweet </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # turn block into proc use &amp;
+    </p>
+    <p>
+      <font color="#0000ff">tweets = [ &quot;first tweet&quot;, &quot;second tweet&quot; ] </font>
+    </p>
+    <p>
+      <font color="#0000ff">printer = lambda { |tweet| puts tweet }</font>
+    </p>
+    <p>
+      # convert proc into block
+    </p>
+    <p>
+      <font color="#0000ff">tweet.each(<b>&amp;printer</b>)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1479331198919" ID="ID_209406442" MODIFIED="1479331562148">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # to turn block into proc
+    </p>
+    <p>
+      # to assign it into a variable
+    </p>
+    <p>
+      # in method definition
+    </p>
+    <p>
+      def each(&amp;block)
+    </p>
+    <p>
+      end
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1479331563832" ID="ID_1062304824" MODIFIED="1479331577750">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Using block &lt;=&gt; proc conversion
+    </p>
+    <p>
+      # before
+    </p>
+    <p>
+      class Timeline
+    </p>
+    <p>
+      &#160;&#160;attr_accessor :tweets
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;def each
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;tweets.each { |tweet| yield tweet }
+    </p>
+    <p>
+      &#160;&#160;end&#160;
+    </p>
+    <p>
+      end
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      timeline = Timeline.new(tweets)
+    </p>
+    <p>
+      timeline.each do |tweet|
+    </p>
+    <p>
+      &#160;&#160;puts tweet
+    </p>
+    <p>
+      end
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #after
+    </p>
+    <p>
+      class Timeline
+    </p>
+    <p>
+      &#160;&#160;attr_accessor :tweets
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;def each(&amp;block)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;tweets.each(&amp;block)
+    </p>
+    <p>
+      &#160;&#160;end&#160;
+    </p>
+    <p>
+      end
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1479331600053" FOLDED="true" ID="ID_255157221" MODIFIED="1479331987034" TEXT="symbol =&gt; proc">
+<node CREATED="1479331605648" ID="ID_533753234" MODIFIED="1479331716741">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # before
+    </p>
+    <p>
+      <font color="#0000ff">tweets.map { |tweet| tweet.user }</font>
+    </p>
+    <p>
+      # after
+    </p>
+    <p>
+      <font color="#0000ff">tweets.map(&amp;:user)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1422289091486" FOLDED="true" ID="ID_715868870" MODIFIED="1479329292232" TEXT="return values">
 <node CREATED="1422289096362" ID="ID_438713924" MODIFIED="1422289143777">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5945,7 +6583,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360758409739" FOLDED="true" ID="ID_1901276234" MODIFIED="1471475247431" TEXT="static">
+<node CREATED="1360758409739" FOLDED="true" ID="ID_1901276234" MODIFIED="1479328728231" TEXT="static">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1358330684795" ID="ID_1618414090" MODIFIED="1358330744544">
 <richcontent TYPE="NODE"><html>
@@ -5990,7 +6628,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422291299883" FOLDED="true" ID="ID_1074909884" MODIFIED="1471475248380" TEXT="to object">
+<node CREATED="1422291299883" FOLDED="true" ID="ID_1074909884" MODIFIED="1479328739683" TEXT="to object">
 <node CREATED="1422291302009" ID="ID_473808066" MODIFIED="1422291350289">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6034,7 +6672,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1422304016162" FOLDED="true" ID="ID_65038357" MODIFIED="1471475294036" TEXT="self">
+<node COLOR="#0033ff" CREATED="1422304016162" FOLDED="true" ID="ID_65038357" MODIFIED="1479328799502" TEXT="self">
 <node CREATED="1422304020890" ID="ID_1412309424" MODIFIED="1422304043561">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6132,7 +6770,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422356721168" FOLDED="true" ID="ID_156693730" MODIFIED="1471433806601" TEXT="visibility">
+<node CREATED="1422356721168" FOLDED="true" ID="ID_156693730" MODIFIED="1479328803277" TEXT="visibility">
 <node CREATED="1422356732885" ID="ID_38297916" MODIFIED="1422356879302">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6855,7 +7493,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1417123095769" FOLDED="true" ID="ID_1297218430" MODIFIED="1479243373294" POSITION="left" TEXT="metaprogramming">
+<node CREATED="1417123095769" FOLDED="true" ID="ID_1297218430" MODIFIED="1479337904404" POSITION="left" TEXT="metaprogramming">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1357323331656" ID="ID_1844910866" MODIFIED="1417178555644">
 <richcontent TYPE="NODE"><html>
@@ -6875,16 +7513,104 @@
 <node COLOR="#009999" CREATED="1417123101515" ID="ID_1717492220" LINK="http://allenlsy.com/metaprogramming-ruby-distilled/" MODIFIED="1444573247246" TEXT="allenlsy.com">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1434736631097" FOLDED="true" ID="ID_518897357" MODIFIED="1479243372800" TEXT="methods">
-<node CREATED="1434736659931" FOLDED="true" ID="ID_1422323165" MODIFIED="1479243371471" TEXT="call">
+<node CREATED="1434736631097" FOLDED="true" ID="ID_518897357" MODIFIED="1479337727112" TEXT="methods">
+<node CREATED="1434736659931" ID="ID_1422323165" MODIFIED="1479334049757" TEXT="call">
 <node COLOR="#0033ff" CREATED="1434736634501" ID="ID_979282317" MODIFIED="1434736667458" TEXT="call">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1434736640316" ID="ID_1151064194" MODIFIED="1434736667458" TEXT="send">
+<node COLOR="#0033ff" CREATED="1434736640316" FOLDED="true" ID="ID_1151064194" MODIFIED="1479334703924" TEXT="send">
 <font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1479334051348" ID="ID_513399137" MODIFIED="1479334307390">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      class Timeline
+    </p>
+    <p>
+      &#160;&#160;def initialize(tweets)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@tweets = tweets
+    </p>
+    <p>
+      &#160;&#160;end
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;def contents
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@tweets
+    </p>
+    <p>
+      &#160;&#160;end
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;private
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;def direct_messages
+    </p>
+    <p>
+      &#160;&#160;end
+    </p>
+    <p>
+      end
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      tweets = [ 'Compile', 'Deploy' ]
+    </p>
+    <p>
+      timeline = Timeline.new(tweets)
+    </p>
+    <p>
+      timeline.contents
+    </p>
+    <p>
+      # using send
+    </p>
+    <p>
+      timeline.send(:contents)
+    </p>
+    <p>
+      # or could be used by sting
+    </p>
+    <p>
+      timeline.send(&quot;contents&quot;)
+    </p>
+    <p>
+      # send able to call private methods
+    </p>
+    <p>
+      timeline.send(:direct_messages)
+    </p>
+    <p>
+      # to prevent call private methods use
+    </p>
+    <p>
+      timeline.public_send(:contents)
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1434736698727" FOLDED="true" ID="ID_1940544294" MODIFIED="1479243370753" TEXT="list">
+</node>
+<node CREATED="1434736698727" FOLDED="true" ID="ID_1940544294" MODIFIED="1479333699719" TEXT="list">
 <node CREATED="1357323525020" ID="ID_676504090" MODIFIED="1434736653189">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6901,7 +7627,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1434736703871" FOLDED="true" ID="ID_359688757" MODIFIED="1479243370447" TEXT="defined">
+<node CREATED="1434736703871" FOLDED="true" ID="ID_359688757" MODIFIED="1479333721528" TEXT="defined">
 <node CREATED="1357323691457" ID="ID_372950743" MODIFIED="1434736692487">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6927,7 +7653,193 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1444573254306" FOLDED="true" ID="ID_1205217177" MODIFIED="1479243372383" TEXT="show method&apos;s class">
+<node COLOR="#0033ff" CREATED="1479333722990" FOLDED="true" ID="ID_98945829" MODIFIED="1479334751925" TEXT="define_method">
+<node CREATED="1479333960896" ID="ID_380105802" MODIFIED="1479334011621">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # before
+    </p>
+    <p>
+      <font color="#0000ff">class Tweet </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def draft </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@status = :draft </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def complete </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@status = :complete </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def deleted </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@status = :deleted </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # using define_method to create methods
+    </p>
+    <p>
+      <font color="#0000ff">class Tweet </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;states = [ :draft, :complete, :deleted ] </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;states.each do |state| </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160; <b>define_method</b>&#160;state do </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;@status = state </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1479334729265" FOLDED="true" ID="ID_187500548" MODIFIED="1479334863093" TEXT="method">
+<node CREATED="1479334732872" ID="ID_1043067427" MODIFIED="1479334844629">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # using 'method' method
+    </p>
+    <p>
+      <font color="#0000ff">class Timeline </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def initialize(tweets) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@tweets = tweets </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def contents </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;@tweets </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;def show_tweet(index) </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;puts @tweets[index] </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;end </font>
+    </p>
+    <p>
+      <font color="#0000ff">end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">tweets = [ 'Compile', 'Deploy' ] </font>
+    </p>
+    <p>
+      <font color="#0000ff">timeline = Timeline.new(tweets) </font>
+    </p>
+    <p>
+      # get method object
+    </p>
+    <p>
+      <font color="#0000ff">content_method = timeline.<b>method</b>(:contents) </font>
+    </p>
+    <p>
+      # invoke it
+    </p>
+    <p>
+      <font color="#0000ff">content_method.call </font>
+    </p>
+    <p>
+      # another example
+    </p>
+    <p>
+      <font color="#0000ff">show_method = timeline.<b>method</b>(:show_tweet) </font>
+    </p>
+    <p>
+      # call with parameter
+    </p>
+    <p>
+      <font color="#0000ff">show_method.<b>call(0)</b> </font>
+    </p>
+    <p>
+      # turn method object into proc object
+    </p>
+    <p>
+      <font color="#0000ff">(0..1).each(<b>&amp;show_method</b>)</font>
+    </p>
+    <p>
+      # previous translates into
+    </p>
+    <p>
+      <font color="#0000ff">show_method.call(0) </font>
+    </p>
+    <p>
+      <font color="#0000ff">show_method.call(1) </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1444573254306" FOLDED="true" ID="ID_1205217177" MODIFIED="1479333704344" TEXT="show method&apos;s class">
 <node CREATED="1444573282387" ID="ID_482541120" MODIFIED="1444573334789">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6948,8 +7860,14 @@
 </node>
 </node>
 </node>
+<node CREATED="1479337715061" FOLDED="true" ID="ID_38887823" MODIFIED="1479337903168" TEXT="class">
+<node COLOR="#0033ff" CREATED="1479337720837" ID="ID_629982883" MODIFIED="1479337724821" TEXT="class_eval"/>
 </node>
-<node CREATED="1357308445090" FOLDED="true" ID="ID_1298889748" MODIFIED="1479243383457" POSITION="left" TEXT="variables">
+<node CREATED="1479337717493" FOLDED="true" ID="ID_171725504" MODIFIED="1479337902818" TEXT="instance">
+<node COLOR="#0033ff" CREATED="1479337728732" ID="ID_1732614945" MODIFIED="1479337733619" TEXT="instance_eval"/>
+</node>
+</node>
+<node CREATED="1357308445090" FOLDED="true" ID="ID_1298889748" MODIFIED="1479334747618" POSITION="left" TEXT="variables">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1422286603111" FOLDED="true" ID="ID_13809418" MODIFIED="1458386089647" TEXT="constant">
 <node COLOR="#0033ff" CREATED="1357308484483" ID="ID_1958604901" MODIFIED="1422286626971" TEXT="ClassName">

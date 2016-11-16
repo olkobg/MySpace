@@ -1,7 +1,7 @@
-<map version="1.1.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#996600" CREATED="1289385817016" ID="ID_783159837" LINK="../Index.mm" MODIFIED="1473418331321" TEXT="DB">
-<font NAME="SansSerif" SIZE="30"/>
+<node COLOR="#996600" CREATED="1289385817016" ID="ID_783159837" LINK="../Index.mm" MODIFIED="1436189741889" TEXT="DB">
+<font NAME="SansSerif" SIZE="29"/>
 <node CREATED="1289385824052" FOLDED="true" ID="ID_548834347" MODIFIED="1436189737619" POSITION="right" TEXT="Relative(RDBMS)">
 <node CREATED="1289385851296" FOLDED="true" ID="ID_110698162" LINK="MySql.mm" MODIFIED="1436189734843" TEXT="Mysql">
 <node CREATED="1289385856809" ID="ID_30575471" MODIFIED="1289385933037" TEXT="ExtSQL"/>

@@ -1,6 +1,6 @@
-<map version="1.1.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1289386315255" ID="ID_428651575" LINK="DB.mm" MODIFIED="1474645027161" TEXT="MySql">
+<node CREATED="1289386315255" ID="ID_428651575" LINK="DB.mm" MODIFIED="1436349395480" TEXT="MySql">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,7 +12,7 @@
   </body>
 </html>
 </richcontent>
-<font NAME="SansSerif" SIZE="25"/>
+<font NAME="SansSerif" SIZE="21"/>
 <node CREATED="1290076786055" ID="ID_956641942" MODIFIED="1290076788459" POSITION="right" TEXT="Variables"/>
 <node CREATED="1295343247690" FOLDED="true" ID="ID_1695792282" MODIFIED="1436188835127" POSITION="right" TEXT="connection">
 <font NAME="SansSerif" SIZE="12"/>
@@ -45,9 +45,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1354284422668" FOLDED="true" ID="ID_104995101" MODIFIED="1473418311588" POSITION="left" TEXT="functions">
+<node CREATED="1354284422668" FOLDED="true" ID="ID_104995101" MODIFIED="1436188877780" POSITION="left" TEXT="functions">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1302007143908" FOLDED="true" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1473418311236" TEXT="Date">
+<node CREATED="1302007143908" FOLDED="true" ID="ID_1951400469" LINK="http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html" MODIFIED="1436188876310" TEXT="Date">
 <font NAME="SansSerif" SIZE="15"/>
 <node COLOR="#0033ff" CREATED="1302007157338" ID="ID_17478224" MODIFIED="1436188870398" TEXT="MONTH( )">
 <font NAME="SansSerif" SIZE="12"/>
@@ -61,7 +61,6 @@
 <node COLOR="#0033ff" CREATED="1302007173823" ID="ID_1644539819" MODIFIED="1436188870398" TEXT="YEAR( )">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1473418301035" ID="ID_1371545558" LINK="http://tigor.com.ua/blog/2008/08/23/date_comparison_by_between_operator_of_mysql/" MODIFIED="1473418309676" TEXT="date manipulation"/>
 </node>
 <node CREATED="1349875759209" FOLDED="true" ID="ID_646879198" MODIFIED="1436188875064" TEXT="String">
 <font NAME="SansSerif" SIZE="15"/>
@@ -221,7 +220,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1354288727763" FOLDED="true" ID="ID_1541285120" LINK="http://dev.mysql.com/doc/refman/5.5/en/delete.html" MODIFIED="1473418315075" POSITION="left" TEXT="DELETE">
+<node COLOR="#0033ff" CREATED="1354288727763" FOLDED="true" ID="ID_1541285120" LINK="http://dev.mysql.com/doc/refman/5.5/en/delete.html" MODIFIED="1436188859766" POSITION="left" TEXT="DELETE">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359491877631" ID="ID_1978762177" MODIFIED="1359491953059">
 <richcontent TYPE="NODE"><html>
@@ -300,7 +299,7 @@
 <node COLOR="#0033ff" CREATED="1354288820231" ID="ID_812916834" LINK="http://dev.mysql.com/doc/refman/5.5/en/select.html" MODIFIED="1436188859766" POSITION="left" TEXT="SELECT">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#0033ff" CREATED="1354288734046" FOLDED="true" ID="ID_1954612146" LINK="http://dev.mysql.com/doc/refman/5.5/en/truncate-table.html" MODIFIED="1474645396004" POSITION="left" TEXT="TRUNCATE">
+<node COLOR="#0033ff" CREATED="1354288734046" FOLDED="true" ID="ID_1954612146" LINK="http://dev.mysql.com/doc/refman/5.5/en/truncate-table.html" MODIFIED="1436188859766" POSITION="left" TEXT="TRUNCATE">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1354288739675" ID="ID_1288162117" MODIFIED="1356716319405">
 <richcontent TYPE="NODE"><html>
@@ -559,10 +558,11 @@
   </head>
   <body>
     <p>
-      nested <font color="#0033ff">SQL</font>&#xa0;in <font color="#0033ff">JOIN</font>
+      nested <font color="#0033ff">SQL</font>&#160;in <font color="#0033ff">JOIN</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1353402378051" FOLDED="true" ID="ID_1330433967" LINK="http://www.cyberciti.biz/tips/howto-copy-mysql-database-remote-server.html" MODIFIED="1436188819754">
 <richcontent TYPE="NODE"><html>
@@ -571,10 +571,11 @@
   </head>
   <body>
     <p>
-      copy&#xa0;db&#xa0;to another&#xa0;server&#xa0;with console
+      copy&#160;db&#160;to another&#160;server&#160;with console
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#0033ff" CREATED="1353413447302" ID="ID_1274334393" MODIFIED="1353413639491">
 <richcontent TYPE="NODE"><html>

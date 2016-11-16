@@ -1,13 +1,13 @@
-<map version="1.1.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#006633" CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1479287517401" TEXT="Ulike">
+<node COLOR="#006633" CREATED="1375455865653" ID="ID_1037575321" LINK="../../Index.mm" MODIFIED="1438701219648" TEXT="Ulike">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (<font color="#cc0033"><b>Debian</b></font>) in most cases
+      (<b><font color="#cc0033">Debian</font></b>) in most cases
     </p>
     <p>
       used matherial from <a href="http://www.rjsystems.nl/en/">http://www.rjsystems.nl/en/</a>&#160;by
@@ -186,7 +186,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1449243062000" POSITION="right" TEXT="services">
+<node CREATED="1296726260831" FOLDED="true" ID="ID_1130237789" MODIFIED="1437473425257" POSITION="right" TEXT="services">
 <node CREATED="1296726270161" FOLDED="true" ID="ID_525954360" MODIFIED="1411542490701" TEXT="web">
 <node CREATED="1360841118260" FOLDED="true" ID="ID_1046824360" LINK="net/http/apache.mm" MODIFIED="1411542489284" TEXT="apache">
 <node CREATED="1411542449239" FOLDED="true" ID="ID_309275855" MODIFIED="1411542488917" TEXT="troubleshout">
@@ -237,7 +237,7 @@
       3 Convert the .iso file to .img using the convert option of hdiutil e.g.,
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;$ hdiutil convert -format UDRW -o ~/path/to/target.img ~/path/to/ubuntu.iso</font>
+      <font color="#0000ff">&#160;&#160;$ hdiutil convert -format UDRW -o ~/path/to/target.img ~/path/to/ubuntu.iso</font>
     </p>
     <p>
       # Note: OS X tends to put the .dmg ending on the output file automatically.
@@ -249,7 +249,7 @@
       4 Run
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;$ diskutil list</font>
+      <font color="#0000ff">&#160;&#160;$ diskutil list</font>
     </p>
     <p>
       to get the current list of devices.
@@ -264,7 +264,7 @@
       6 Run
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;$ diskutil list</font>
+      <font color="#0000ff">&#160;&#160;$ diskutil list</font>
     </p>
     <p>
       again and determine the device node assigned to your flash media (e.g. /dev/disk2).
@@ -276,7 +276,7 @@
       7 Run
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;$ diskutil unmountDisk /dev/diskN</font>
+      <font color="#0000ff">&#160;&#160;$ diskutil unmountDisk /dev/diskN</font>
     </p>
     <p>
       (replace N with the disk number from the last command; in the previous example, N would be 2).
@@ -288,7 +288,7 @@
       8 Execute
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;&#xa0;$ sudo dd if=/path/to/downloaded.img of=/dev/rdiskN bs=1m</font>
+      <font color="#0000ff">&#160;&#160;&#160;$ sudo dd if=/path/to/downloaded.img of=/dev/rdiskN bs=1m</font>
     </p>
     <p>
       (replace /path/to/downloaded.img with the path where the image file is located; for example, ./ubuntu.img or ./ubuntu.dmg).
@@ -312,7 +312,7 @@
       9 Run
     </p>
     <p>
-      <font color="#0000ff">&#xa0;&#xa0;$ diskutil eject /dev/diskN</font>
+      <font color="#0000ff">&#160;&#160;$ diskutil eject /dev/diskN</font>
     </p>
     <p>
       and remove your flash media when the command completes.
@@ -553,7 +553,7 @@
   </head>
   <body>
     <p>
-      <b><font color="#009999">github/hakko:</font></b>&#xa0;subsonic + music Cabinet
+      <b><font color="#009999">github/hakko:</font></b>&#160;subsonic + music Cabinet
     </p>
   </body>
 </html></richcontent>
@@ -692,7 +692,7 @@
       # show files in package
     </p>
     <p>
-      <font color="#0033ff">$ apt-file <b>list</b>&#xa0;&lt;package name&gt;</font>
+      <font color="#0033ff">$ apt-file <b>list</b>&#160;&lt;package name&gt;</font>
     </p>
   </body>
 </html></richcontent>
@@ -739,10 +739,10 @@
     </p>
     <ol>
       <li>
-        make a backup on<font color="#0033ff">&#xa0;<b>/var/lib/dpkg/info</b>&#xa0;</font>(e.g<b>&#xa0;/<font color="#0033ff">var/lib/dpkg/info-ba</font>k</b>)
+        make a backup on<font color="#0033ff">&#160;<b>/var/lib/dpkg/info</b>&#160;</font>(e.g<b>&#160;/<font color="#0033ff">var/lib/dpkg/info-ba</font>k</b>)
       </li>
       <li>
-        remove files(related to<i>&#xa0;<font color="#0033ff">problem package</font></i><font color="#0033ff">&#xa0;</font><font color="#000000">with</font><font color="#0033ff">&#xa0; <b>*.list, *.md5sums, *.prerm, *.postinst</b></font>) from info folder
+        remove files(related to<i>&#160;<font color="#0033ff">problem package</font></i><font color="#0033ff">&#160;</font><font color="#000000">with</font><font color="#0033ff">&#160; <b>*.list, *.md5sums, *.prerm, *.postinst</b></font>) from info folder
       </li>
       <li>
         <font color="#0033ff">$ sudo apt-get clean all </font>
@@ -764,7 +764,7 @@
   </head>
   <body>
     <p>
-      <b>packages</b>&#xa0;and <b>translations</b>&#xa0;could be found at <b><font color="#0000ff">/var/lib/apt/</font></b>
+      <b>packages</b>&#160;and <b>translations</b>&#160;could be found at <b><font color="#0000ff">/var/lib/apt/</font></b>
     </p>
   </body>
 </html></richcontent>
@@ -782,7 +782,7 @@
       # show available package versions
     </p>
     <p>
-      <font color="#0000ff">$&#xa0;apt-cache <b>madison</b>&#xa0;myPackage</font>
+      <font color="#0000ff">$&#160;apt-cache <b>madison</b>&#160;myPackage</font>
     </p>
   </body>
 </html></richcontent>
@@ -1316,7 +1316,7 @@
   </head>
   <body>
     <p>
-      <font color="#009999"><b>so</b></font>&#xa0;find available display and run
+      <font color="#009999"><b>so</b></font>&#160;find available display and run
     </p>
   </body>
 </html></richcontent>
